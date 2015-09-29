@@ -6,7 +6,7 @@ from PIL import Image
 output_dir = "output"
 npics = 1000
 ndots = 10
-dim = 6
+dim = 5
 stayprob = .8
 keepdirprob = .8
 width = 32
