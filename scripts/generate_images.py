@@ -9,7 +9,7 @@ ndots = 10
 dim = 6
 stayprob = .8
 keepdirprob = .8
-width = 16
+width = 32
 padding = 2
 
 class ImageMaker(object):
