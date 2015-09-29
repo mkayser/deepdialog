@@ -1,8 +1,10 @@
+import os
 import sys
 import numpy as np
 from PIL import Image
 
-npics = 100
+output_dir = "output"
+npics = 1000
 ndots = 10
 dim = 6
 stayprob = .8
@@ -13,7 +15,6 @@ padding = 2
 class ImageMaker(object):
     w=width
     s=padding
-    colors = ["39f0","ffff","888f"]
     grayscalecolors = np.array([255,32,128],dtype=np.dtype(np.uint8))
     
     def __init__(self):
@@ -40,41 +41,11 @@ class ImageMaker(object):
             rows.append(np.hstack([squares[k] for k in list(bitmap[i])]))
         return np.vstack(rows)
 
-    def save_bitmap_as_bmp(self, bitmap, outfile):
+    def save_bitmap(self, bitmap, outfile):
         img_array = self.make_image_array(bitmap)
         grayscale = self.grayscalecolors[img_array.astype(np.uint8)]
         image = Image.fromarray(grayscale)
         image.save(outfile)
-
-    def save_bitmap_as_png(self, bitmap, outfile):
-        img_array = self.make_image_array(bitmap)
-        buf = "".join([self.colors[i] for i in list(img_array.flatten())])
-        data = self.write_png(buf, img_array.shape[0], img_array.shape[1])
-        with open(outfile, 'wb') as fd:
-            fd.write(data)
-
-    # I got this function from stackoverflow: http://stackoverflow.com/questions/902761/saving-a-numpy-array-as-an-image
-    def write_png(self, buf, width, height):
-        """ buf: must be bytes or a bytearray in py3, a regular string in py2. formatted RGBARGBA... """
-        import zlib, struct
-
-        # reverse the vertical line order and add null bytes at the start
-        width_byte_4 = width * 4
-        raw_data = b''.join(b'\x00' + buf[span:span + width_byte_4]
-                            for span in range((height - 1) * width * 4, -1, - width_byte_4))
-
-        def png_pack(png_tag, data):
-            chunk_head = png_tag + data
-            return (struct.pack("!I", len(data)) +
-                    chunk_head +
-                    struct.pack("!I", 0xFFFFFFFF & zlib.crc32(chunk_head)))
-
-        return b''.join([
-            b'\x89PNG\r\n\x1a\n',
-            png_pack(b'IHDR', struct.pack("!2I5B", width, height, 8, 6, 0, 0, 0)),
-            png_pack(b'IDAT', zlib.compress(raw_data, 9)),
-            png_pack(b'IEND', b'')])
-        
 
 def displaystr(bit):
     return "O" if bit else "."
@@ -87,7 +58,7 @@ def printpic(bitmap):
     print("")
 
 
-def genpic2(ndots, dim, stayprob, keepdirprob):
+def genpic(ndots, dim, stayprob, keepdirprob):
     int_t = np.dtype(np.int32)
     bitmap = np.zeros((dim,dim),dtype=int_t)
     dots = []
@@ -136,8 +107,13 @@ def genpic2(ndots, dim, stayprob, keepdirprob):
 np.random.seed(0)
 imgmaker = ImageMaker()
 
+
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
 for i in range(npics):
-    bitmap = genpic2(ndots, dim, stayprob,keepdirprob)
-    #printpic(bitmap)
-    imgmaker.save_bitmap_as_bmp(bitmap, "img_{:02d}.bmp".format(i))
+    bitmap = genpic(ndots, dim, stayprob, keepdirprob)
+    imgmaker.save_bitmap(bitmap, "{}/img_{:04d}.gif".format(output_dir,i))
+    np.savetxt("{}/img_{:04d}.txt".format(output_dir,i), bitmap, fmt='%d')
+    
 
