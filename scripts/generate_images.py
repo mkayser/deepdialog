@@ -2,6 +2,7 @@ import os
 import sys
 import numpy as np
 from PIL import Image
+import argparse
 
 output_dir = "output"
 npics = 1000
@@ -9,16 +10,16 @@ ndots = 10
 dim = 5
 stayprob = .8
 keepdirprob = .8
-width = 32
-padding = 2
+
 
 class ImageMaker(object):
-    w=width
-    s=padding
+    w=None
+    s=None
     grayscalecolors = np.array([255,32,128],dtype=np.dtype(np.uint8))
     
-    def __init__(self):
-        pass
+    def __init__(self, width, padding):
+        self.w = width
+        self.s = padding
 
     def make_block(self):
         s = self.s
@@ -58,7 +59,7 @@ def printpic(bitmap):
     print("")
 
 
-def genpic(ndots, dim, stayprob, keepdirprob):
+def genpic(ndots, dim, stayprob, keepdirprob, diag):
     int_t = np.dtype(np.int32)
     bitmap = np.zeros((dim,dim),dtype=int_t)
     dots = []
@@ -78,6 +79,9 @@ def genpic(ndots, dim, stayprob, keepdirprob):
                 for y in [dot[1]-1,dot[1],dot[1]+1]:
                     newdot = (x,y)
                     if x in range(X) and y in range(Y) and bitmap[newdot]==0:
+                        if not diag and x != dot[0] and y != dot[1]:
+                            continue
+                            
                         antecedentprob = (1-stayprob)/len(dots[:-1])
                         probs = np.append(probs, antecedentprob * .125)
                         events.append((dot,newdot))
@@ -87,6 +91,8 @@ def genpic(ndots, dim, stayprob, keepdirprob):
             for y in [lastdot[1]-1,lastdot[1],lastdot[1]+1]:
                 newdot = (x,y)
                 if x in range(X) and y in range(Y) and bitmap[newdot]==0:
+                    if not diag and x != lastdot[0] and y != lastdot[1]:
+                        continue
                     antecedentprob = stayprob
                     if momentum == (0,0):
                         newprob = antecedentprob * .125
@@ -104,16 +110,34 @@ def genpic(ndots, dim, stayprob, keepdirprob):
     return bitmap
 
 
-np.random.seed(0)
-imgmaker = ImageMaker()
 
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-width", type=int, default=32, help="Width of blocks in pixels")
+    parser.add_argument("-padding", type=int, default=2, help="Padding of blocks in pixels")
+    parser.add_argument("-npics", type=int, default=1000, help="Num pictures to produce")
+    parser.add_argument("-nblocks", type=int, default=10, help="Num blocks to place")
+    parser.add_argument("-dim", type=int, default=5, help="Dimensionality of grid")
+    parser.add_argument("-rprob", type=float, default=.8, help="Recency probability")
+    parser.add_argument("-mprob", type=float, default=.8, help="Momentum probability")
+    parser.add_argument("-diag", type=bool, default=False, help="Allow diagonals")
+    parser.add_argument("-debug", type=bool, default=False, help="Print output to console, don't create files")
+    parser.add_argument("-output_dir", type=str, default="output/generate_images", help="output directory for images")
+    args = parser.parse_args()
 
-if not os.path.exists(output_dir):
-    os.makedirs(output_dir)
+    imgmaker = ImageMaker(args.width, args.padding)
+    np.random.seed(0)
 
-for i in range(npics):
-    bitmap = genpic(ndots, dim, stayprob, keepdirprob)
-    imgmaker.save_bitmap(bitmap, "{}/img_{:04d}.gif".format(output_dir,i))
-    np.savetxt("{}/img_{:04d}.txt".format(output_dir,i), bitmap, fmt='%d')
+    if not os.path.exists(args.output_dir):
+        os.makedirs(args.output_dir)
+
+    for i in range(args.npics):
+        bitmap = genpic(args.nblocks, args.dim, args.rprob, args.mprob, args.diag)
+        if args.debug:
+            np.savetxt(sys.stdout, bitmap, fmt='%d')
+            print("")
+        else:
+            imgmaker.save_bitmap(bitmap, "{}/img_{:04d}.gif".format(args.output_dir,i))
+            np.savetxt("{}/img_{:04d}.txt".format(args.output_dir,i), bitmap, fmt='%d')
     
 
