@@ -1,52 +1,9 @@
 import os
 import sys
 import numpy as np
-from PIL import Image
 import argparse
+from image import ImageMaker
 
-output_dir = "output"
-npics = 1000
-ndots = 10
-dim = 5
-stayprob = .8
-keepdirprob = .8
-
-
-class ImageMaker(object):
-    w=None
-    s=None
-    grayscalecolors = np.array([255,32,128],dtype=np.dtype(np.uint8))
-    
-    def __init__(self, width, padding):
-        self.w = width
-        self.s = padding
-
-    def make_block(self):
-        s = self.s
-        w = self.w
-        b = np.full((w+2*s, w+2*s), 2, dtype=np.dtype(np.int32))
-        b[s:s+w,s:s+w] = 1
-        return b
-
-    def make_nonblock(self):
-        s = self.s
-        w = self.w
-        b = np.full((w+2*s, w+2*s), 2, dtype=np.dtype(np.int32))
-        b[s:s+w,s:s+w] = 0
-        return b
-
-    def make_image_array(self,bitmap):
-        squares = [self.make_nonblock(), self.make_block()]
-        rows = []
-        for i in range(bitmap.shape[0]):
-            rows.append(np.hstack([squares[k] for k in list(bitmap[i])]))
-        return np.vstack(rows)
-
-    def save_bitmap(self, bitmap, outfile):
-        img_array = self.make_image_array(bitmap)
-        grayscale = self.grayscalecolors[img_array.astype(np.uint8)]
-        image = Image.fromarray(grayscale)
-        image.save(outfile)
 
 def displaystr(bit):
     return "O" if bit else "."
@@ -59,11 +16,18 @@ def printpic(bitmap):
     print("")
 
 
-def genpic(ndots, dim, stayprob, keepdirprob, diag):
+def generate_bitmap_and_commands(ndots, dim, stayprob, keepdirprob, diag, randstart):
     int_t = np.dtype(np.int32)
     bitmap = np.zeros((dim,dim),dtype=int_t)
     dots = []
-    firstdot = tuple(np.random.randint(dim,size=(2,)))
+
+    if randstart:
+        firstdot = tuple(np.random.randint(dim,size=(2,)))    
+    else:
+        firstdot = ((dim+1)/2,(dim+1)/2)
+
+    commands = ["START"]
+    actions = ["ADD {} {}".format(firstdot[0],firstdot[1])]
     bitmap[firstdot] = 1
     dots.append(firstdot)
     momentum = (0,0)
@@ -81,7 +45,7 @@ def genpic(ndots, dim, stayprob, keepdirprob, diag):
                     if x in range(X) and y in range(Y) and bitmap[newdot]==0:
                         if not diag and x != dot[0] and y != dot[1]:
                             continue
-                            
+                  
                         antecedentprob = (1-stayprob)/len(dots[:-1])
                         probs = np.append(probs, antecedentprob * .125)
                         events.append((dot,newdot))
@@ -102,13 +66,44 @@ def genpic(ndots, dim, stayprob, keepdirprob, diag):
                         newprob = antecedentprob * (1-keepdirprob)/7
                     probs = np.append(probs, newprob)
                     events.append((lastdot, newdot))
+        if np.sum(probs) < .001:
+            break
         probs = probs / np.sum(probs)
         prevdot,newdot = events[np.random.choice(len(events),p=probs)]
         momentum = (newdot[0]-prevdot[0], newdot[1]-prevdot[1])
         bitmap[newdot] = 1
         dots.append(newdot)
-    return bitmap
 
+        if prevdot != lastdot:
+            actions.append("JUMP {} {}".format(prevdot[0], prevdot[1]))
+            commands.append("JUMP {} {}".format(prevdot[0], prevdot[1]))
+
+        actions.append("ADD {} {}".format(newdot[0],newdot[1]))
+        if momentum == (-1,-1):
+            commands.append("UPLEFT")
+        elif momentum == (-1,0):
+            commands.append("UP")
+        elif momentum == (-1,1):
+            commands.append("UPRIGHT")
+        elif momentum == (0,-1):
+            commands.append("LEFT")
+        elif momentum == (0,1):
+            commands.append("RIGHT")
+        elif momentum == (1,-1):
+            commands.append("DOWNLEFT")
+        elif momentum == (1,0):
+            commands.append("DOWN")
+        elif momentum == (1,1):
+            commands.append("DOWNRIGHT")
+        else:
+            assert False, "Bad momentum: {}".format(momentum)
+
+    return bitmap,commands,actions
+
+
+def write_text_to_file(text, file_name):
+    with open(file_name,"w") as fout:
+        fout.write(text + "\n")
 
 
 if __name__ == "__main__":
@@ -120,8 +115,10 @@ if __name__ == "__main__":
     parser.add_argument("-dim", type=int, default=5, help="Dimensionality of grid")
     parser.add_argument("-rprob", type=float, default=.8, help="Recency probability")
     parser.add_argument("-mprob", type=float, default=.8, help="Momentum probability")
-    parser.add_argument("-diag", type=bool, default=False, help="Allow diagonals")
-    parser.add_argument("-debug", type=bool, default=False, help="Print output to console, don't create files")
+    parser.add_argument("-diag", action="store_true", default=False, help="Allow diagonals")
+    parser.add_argument("-uniq", action="store_true", default=False, help="Enforce uniqueness")
+    parser.add_argument("-debug", action="store_true", default=False, help="Print output to console, don't create files")
+    parser.add_argument("-randstart", action="store_true", default=False, help="Start drawing at random position")
     parser.add_argument("-output_dir", type=str, default="output/generate_images", help="output directory for images")
     args = parser.parse_args()
 
@@ -131,13 +128,28 @@ if __name__ == "__main__":
     if not os.path.exists(args.output_dir):
         os.makedirs(args.output_dir)
 
+    bitmaps = set()
+
     for i in range(args.npics):
-        bitmap = genpic(args.nblocks, args.dim, args.rprob, args.mprob, args.diag)
+
+        bitmap=None
+        while bitmap is None or (args.uniq and tuple(bitmap.flatten()) in bitmaps):
+            bitmap,commands,actions = generate_bitmap_and_commands(args.nblocks, args.dim, args.rprob, args.mprob, args.diag, args.randstart)
+        bitmaps.add(tuple(bitmap.flatten()))
+        
         if args.debug:
             np.savetxt(sys.stdout, bitmap, fmt='%d')
             print("")
         else:
-            imgmaker.save_bitmap(bitmap, "{}/img_{:04d}.gif".format(args.output_dir,i))
-            np.savetxt("{}/img_{:04d}.txt".format(args.output_dir,i), bitmap, fmt='%d')
+            bitmap_file = "{}/img_{:04d}.gif".format(args.output_dir,i)
+            numpy_file = "{}/img_{:04d}.txt".format(args.output_dir,i)
+            numpy_flat_file = "{}/img_flat_{:04d}.txt".format(args.output_dir,i)
+            proto_commands_file = "{}/proto_commands_{:04d}.txt".format(args.output_dir,i)
+            actions_file = "{}/actions_{:04d}.txt".format(args.output_dir,i)
+            imgmaker.save_bitmap(bitmap, bitmap_file)
+            np.savetxt(numpy_file, bitmap, fmt='%d')
+            np.savetxt(numpy_flat_file, bitmap.flatten()[None,:], fmt='%d')
+            write_text_to_file(" _ ".join(commands), proto_commands_file)
+            write_text_to_file(" _ ".join(actions), actions_file)
     
 
