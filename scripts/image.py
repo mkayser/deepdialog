@@ -4,11 +4,12 @@ from PIL import Image
 class ImageMaker(object):
     w=None
     s=None
-    grayscalecolors = np.array([255,32,128],dtype=np.dtype(np.uint8))
+    grayscalecolors=None
     
-    def __init__(self, width, padding):
+    def __init__(self, width, padding, colors=[255,32,128]):
         self.w = width
         self.s = padding
+        self.grayscalecolors = np.array(colors,dtype=np.dtype(np.uint8))
 
     def make_block(self):
         s = self.s
