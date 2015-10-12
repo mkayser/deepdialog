@@ -14,6 +14,7 @@ if __name__ == "__main__":
     parser.add_argument("-image_field", type=str, default="Input.image_url", help="Name of CSV field containing image url")
     parser.add_argument("-description_field", type=str, default="Answer.TranscriptionTexts", help="Name of CSV field containing mturk worker descriptions")
     parser.add_argument("-worker_id_field", type=str, default="WorkerId", help="Name of CSV field containing mturk worker ID")
+    parser.add_argument("-work_time_field", type=str, default="WorkTimeInSeconds", help="Name of CSV field containing mturk work time")
     parser.add_argument("-output_file", type=str, default=None, help="File to write to")
     parser.add_argument("-upload", action="store_true", default=False, help="Publish to HTML server")
     parser.add_argument("-upload_loc", type=str, default="jacob.stanford.edu:/u/apache/htdocs/mkayser/reports/", help="Location to publish HTML doc to")
@@ -24,32 +25,59 @@ if __name__ == "__main__":
         args.output_file = "{}.html".format(os.path.basename(args.csv))
 
     workers = {}
+    worker_counts = {}
+
+    html_lines = []
+
+    work_times = []
+    total_work_time = 0
+    nrows = 0
+
+    with open(args.csv) as fin:
+        reader = csv.reader(fin)
+        header = next(reader)
+        image_index = header.index(args.image_field)
+        descr_index = header.index(args.description_field)
+        worker_id_index = header.index(args.worker_id_field)
+        work_time_index = header.index(args.work_time_field)
+
+        for i,row in enumerate(reader):
+            image_url = row[image_index]
+            description = row[descr_index]
+            worker_id = row[worker_id_index]
+            work_time = float(row[work_time_index])
+            
+            worker_index = workers.setdefault(worker_id, len(workers))
+            worker_counts.setdefault(worker_index,0)
+            worker_counts[worker_index] += 1
+
+            nrows += 1
+
+            work_times.append(work_time)
+            total_work_time += work_time
+                
+            lines = [s.strip() for s in description.replace("\r","").split("\n")]
+            html_lines.append("<h2>{}</h2>".format(image_url))
+            html_lines.append("<h2>Worker: #{:02d}</h2>".format(worker_index))
+            html_lines.append("<img src=\"{}\">".format(image_url))
+            html_lines.append("<br>")
+            html_lines.append(" <br> ".join(lines) + " <br> <br>")
+            html_lines.append("<hr>")
+
+    average_work_time = float(total_work_time) / float(nrows)
+    work_times = sorted(work_times)
 
     with open(args.output_file, "w") as fout:
-        with open(args.csv) as fin:
-            reader = csv.reader(fin)
-            header = next(reader)
-            image_index = header.index(args.image_field)
-            descr_index = header.index(args.description_field)
-            worker_id_index = header.index(args.worker_id_field)
-
-            fout.write("<HTML>\n")
-
-            for i,row in enumerate(reader):
-                image_url = row[image_index]
-                description = row[descr_index]
-                worker_id = row[worker_id_index]
-            
-                worker_index = workers.setdefault(worker_id, len(workers))
-                
-                lines = [s.strip() for s in description.replace("\r","").split("\n")]
-                fout.write("<h2>{}</h2>".format(image_url))
-                fout.write("<h2>Worker: #{:02d}</h2>".format(worker_index))
-                fout.write("<img src=\"{}\">".format(image_url))
-                fout.write("<br>")
-                fout.write(" <br> ".join(lines) + " <br> <br>")
-                fout.write("<hr>")
-            fout.write("</HTML>")
+        fout.write("<HTML>")
+        for index in np.arange(10) * .1 * nrows:
+            index = int(index)
+            print("Time ({:.0f} percentile) {}s <br>".format(100*(float(index)/float(nrows)),work_times[index]))
+        for i in range(len(workers)):
+            count = worker_counts[i]
+            fout.write("Worker {:02d} ({} hits) <br> \n".format(i,count)) 
+        for line in html_lines:
+            fout.write(line)
+        fout.write("</HTML>")
 
     if args.upload:
         upload_command = "scp {} {}".format(args.output_file, args.upload_loc)
