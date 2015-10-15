@@ -1,0 +1,51 @@
+000	A21YQXPL0SNNR2	175	OKish		"If a block is already filled in" 
+001	A22CF8BF9YQND7	54	OK
+004	AOGT0KZDUX8CC	93	Reject		"In the first row, place blocks in columns 1,3,4"
+007	AWW4I36TBGE2D	76	OK		Good enough
+008	A3GMT4AGHPT362	53	OK		"Place three blocks in a column to the left of the second highest block of the first step"
+011	A38BNV13AV0S8Y	53	OKish		"Place one block on the top left." Ambiguous
+013	AN3KR7C1SLYY3	101	OK		"Place a block to the left of the topmost block"
+015	A18I566TMVVSFQ	90	OK		Very hard. "Over the last row, place a row of five blocks, side by side, letting two of them overhang the left side of the previous row."
+018	A2WKZI3JQCE3Z6	134	OK		"Move down and place 5 blocks in a row with the 3rd under the block in the prior row."
+020	A2O7H7VXLFN6BP	54	OKish		"Find the lowest block. Place 2 blocks to the right of it."
+023	A1I9ZBV75AVWUS	73	OK		"Place one block above the block in the lower right corner"
+025	A3UE459HVZC0FF	76	Reject		"For the first row put a block in position 1 and 5 (1 being left most, 5 being right most)"
+031	A3579N2TITA69M	65	OK		"place two rows of three in the middle of the page"
+032	A1NGGAVIGC9O7V	109	OK		"Place three blocks above the second block from the left in the original row." 
+033	A2AWBDW9V1E9KT	94	OKish?		Weird. "Put four blocks together to make a square. The Upper-Right Block is Block A."
+040	AOAZMLP27GD81	98	OK		Standard. "Place two blocks horizontally to the left of the second block from the bottom "
+045	A24ZCFIA6MPZ84	63	OK		Hard. "Place a column of three blocks to the bottom of the middle block in the row of three "
+054	A2O31IKB0RQXPE	100	OK		"Next place four blocks horizontally, directly to the left of the center block of the first column."
+056	A3TMUAPCRFG63N	110	OK		"place one block to the left of the second block down from the top"
+061	A1MYLQQL8BBOYT  100	OK		"To the right of the third block, place a row of three blocks."
+067	A1MJVTR0PCKBWW  56	OK		"place 1 block below first block of original row"
+071	ADJ9I7ZBFYFH7   53	OK		"Place two blocks above the block on the left, creating a column of three blocks."
+
+006 A1M03U3W99BGZ4 REJECT
+010 A2DXEPC4QFV4R1 OK
+012 A3H6EW539UJPJF OK
+016 A38K3QQPV8CTPC OK
+019 A3NKM6RL2KVUB6 REJECT	"Use of 'row' is not clear -- row implies horizontal"
+022 A31A4YKVSOYRVS OK
+026 A3ICWVGCEDRXS0 ??		"Use of 'go' for placing blocks is not obvious"
+029 A1T6EY2JB6S5ZZ OK?		
+034 A3FFZN4FO3Q789 REJECT	"These instructions are not specific enough, e.g. 'Place three blocks vertically' without describing where to place them"
+037 A3RVYJNYREMTAH REJECT	"These instructions mainly give grid coordinates, which we do not want."
+038 A1JFZ5EX06Y8YV OK
+039 A3T90ZWPBV0MCI REJECT	"We did not find these instructions to be easy to follow"
+041 A16MQ156BQ3HRZ OK
+042 A2FI2VTA8JVYS6 OK
+047 A11VJ9HVZPID81 OK
+049 AIC8CB12DQC0K  OK-B
+057 OKish
+060 OK
+064 OKish
+068 OK
+069 OKish
+070 OKish
+077 REJECT grid
+081 OK
+089 OK
+091 OK
+101 OK
+106 
