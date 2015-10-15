@@ -4,6 +4,8 @@ import numpy as np
 import argparse
 import csv
 import subprocess
+import itertools
+import re
 from image import ImageMaker
 
 
@@ -32,6 +34,7 @@ if __name__ == "__main__":
     work_times = []
     total_work_time = 0
     nrows = 0
+    wordcounts = {}
 
     with open(args.csv) as fin:
         reader = csv.reader(fin)
@@ -41,7 +44,9 @@ if __name__ == "__main__":
         worker_id_index = header.index(args.worker_id_field)
         work_time_index = header.index(args.work_time_field)
 
-        for i,row in enumerate(reader):
+        rows = sorted(list(reader),lambda a,b:cmp(a[image_index],b[image_index]))
+
+        for i,row in enumerate(rows):
             image_url = row[image_index]
             description = row[descr_index]
             worker_id = row[worker_id_index]
@@ -57,8 +62,15 @@ if __name__ == "__main__":
             total_work_time += work_time
                 
             lines = [s.strip() for s in description.replace("\r","").split("\n")]
+            words = itertools.chain(*[re.findall("[A-Z]{2,}(?![a-z])|[A-Z][a-z]+(?=[A-Z])|[\'\w\-]+",l) for l in lines])
+            for w in words:
+                wordcounts.setdefault(w.lower(),0)
+                wordcounts[w.lower()] += 1
+
             html_lines.append("<h2>{}</h2>".format(image_url))
-            html_lines.append("<h2>Worker: #{:02d}</h2>".format(worker_index))
+            html_lines.append("<h2>Worker: #{:03d} ({}) (WORKER_{:03d}_NUM_HITS hits) </h2>".format(worker_index,worker_id,worker_index))
+            html_lines.append("<b>Image: {}</b> <br>".format(image_url))
+            
             html_lines.append("<img src=\"{}\">".format(image_url))
             html_lines.append("<br>")
             html_lines.append(" <br> ".join(lines) + " <br> <br>")
@@ -66,15 +78,38 @@ if __name__ == "__main__":
 
     average_work_time = float(total_work_time) / float(nrows)
     work_times = sorted(work_times)
+    freq_words = sorted(wordcounts.iteritems(), lambda a,b: cmp(b[1],a[1]))
+    total_word_count = sum([t[1] for t in freq_words])
+
+    for i in range(len(workers)):
+        html_lines = [l.replace("WORKER_{:03d}_NUM_HITS".format(i), str(worker_counts[i])) for l in html_lines]
 
     with open(args.output_file, "w") as fout:
         fout.write("<HTML>")
+
+        fout.write("<h2> {} total HIT's </h2>".format(nrows))
+        fout.write("<h2> Time stats </h2> <br>")
         for index in np.arange(10) * .1 * nrows:
             index = int(index)
-            print("Time ({:.0f} percentile) {}s <br>".format(100*(float(index)/float(nrows)),work_times[index]))
+            fout.write("Time ({:.0f} percentile) {}s <br>".format(100*(float(index)/float(nrows)),work_times[index]))
+
+        fout.write("<h2> Worker output </h2> <br>")
         for i in range(len(workers)):
             count = worker_counts[i]
-            fout.write("Worker {:02d} ({} hits) <br> \n".format(i,count)) 
+            fout.write("{} Worker {:03d} ({} hits) <br> {} \n".format("<b>" if count>50 else "",i,count,"</b>" if count>50 else "")) 
+
+        fout.write("<h2> Word stats </h2> <br>")
+        running_total=0
+        fout.write("<table>")
+        for i,pair in enumerate(freq_words):
+            w,c = pair
+            running_total += c
+            pct = 100.0 * float(c) / total_word_count
+            cum_pct = 100.0 * float(running_total)/total_word_count
+            fout.write("<tr><td>{}</td> <td>{}</td> <td>{}</td> <td>{:.2f}</td> <td>({:.2f})</td></tr> \n".format(i, w, c, pct, cum_pct)) 
+        fout.write("</table>")
+
+        fout.write("<h2> Results </h2> <br>")
         for line in html_lines:
             fout.write(line)
         fout.write("</HTML>")
