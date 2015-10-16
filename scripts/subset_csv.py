@@ -18,6 +18,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-csv", type=str, required=True, help="input CSV file with drawing task results")
     parser.add_argument("-rejected_workers", type=str, default=None, help="plaintext file containing list of rejected worker ID's")
+    parser.add_argument("-max_images", type=int, default=10000000, help="max #images")
     parser.add_argument("-num_per_image", type=int, required=True, help="max # rows per image")
     parser.add_argument("-output_csv", type=str, required=True, help="output CSV")
     args = parser.parse_args()
@@ -35,7 +36,9 @@ if __name__ == "__main__":
     worker_id_idx = row_set.index_of(worker_id_field)
 
     if args.rejected_workers:
-        rejected_workers = read_list_from_file(args.rejected_workers)
+        rejected_workers = set(read_list_from_file(args.rejected_workers))
+    else:
+        rejected_workers = set()
 
     rejected_row_count = 0
 
@@ -48,6 +51,15 @@ if __name__ == "__main__":
 
     output_rows = []
     unused_rows = []
+
+    num_total_images = len(image_instances)
+
+    if args.max_images < num_total_images:
+        all_keys = image_instances.keys()
+        subset_keys = set(random.sample(all_keys, args.max_images))
+        image_instances = dict((k,v) for k,v in image_instances.iteritems() if k in subset_keys)
+        
+
     for image,rows in image_instances.items():
         subset = []
         if len(rows) > args.num_per_image:
@@ -69,8 +81,8 @@ if __name__ == "__main__":
 
     output_rows.extend(additional_rows)
 
+    print("{} images in original set, {} images requested => {} images in subset".format(num_total_images, args.max_images, len(image_instances)))
     print("{} rows per image requested".format(args.num_per_image))
-    print("{} images".format(len(image_instances)))
     print("{} total rows requested".format(num_requested))
     print("{} rows from rejected workers excluded".format(rejected_row_count))
     print("{} unfulfilled (not enough samples for some images)".format(num_unfulfilled))
