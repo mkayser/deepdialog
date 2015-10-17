@@ -4,6 +4,7 @@ import numpy as np
 import argparse
 import csv
 from image import ImageMaker
+from bitmap import BitmapMaker
 
 
 
@@ -18,6 +19,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     imgmaker = ImageMaker(args.width, args.padding)
+    bmpmaker = BitmapMaker(args.width, args.width)
     np.random.seed(0)
 
     if not os.path.exists(args.output_dir):
@@ -30,17 +32,9 @@ if __name__ == "__main__":
         colindex = header.index(args.field)
         for i,row in enumerate(reader):
             commands_str = row[colindex]
-            commands = [s.strip().split() for s in commands_str.replace("\r","").split("\n")]
-            int_t = np.dtype(np.int32)
-            bitmap = np.zeros((args.dim,args.dim),dtype=int_t)
-            for c in commands:
-                print("Processing command: {}".format(c))
-                val = 0
-                if c[0]=="ADD":
-                    val = 1
-                else:
-                    assert c[0]=="DEL"
-                bitmap[int(c[1])][int(c[2])] = val
+            bmpmaker.clear()
+            bmpmaker.process_commands_str(commands_str)
+            bitmap = bmpmaker.bitmap
             bitmap_file = "{}/img_{:04d}.gif".format(args.output_dir,i)
             imgmaker.save_bitmap(bitmap, bitmap_file)
     
