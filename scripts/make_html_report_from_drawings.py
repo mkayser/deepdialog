@@ -8,8 +8,11 @@ import itertools
 import re
 from image import ImageMaker
 from bitmap import BitmapMaker
+import urllib
 
-
+def save_txt_to_file(txt,file_name):
+    with open(file_name, "w") as fout:
+        fout.write(txt)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -44,7 +47,7 @@ if __name__ == "__main__":
 
     try:
         os.mkdir(args.output_dir)
-    except os.OsError:
+    except OSError:
         pass
 
     with open(args.csv) as fin:
@@ -61,7 +64,7 @@ if __name__ == "__main__":
         rows = list(reader)
 
         for i,row in enumerate(rows):
-            image_url = row[image_index]
+            true_image_url = row[image_index]
             commands = row[commands_index]
             draw_events = row[draw_events_index]
             worker_id = row[worker_id_index]
@@ -76,19 +79,38 @@ if __name__ == "__main__":
             work_times.append(work_time)
             total_work_time += work_time
 
+            # Save true bitmap GIF and TXT to directory
+            true_txt_url = true_image_url.replace(".gif",".txt")
+
+            true_image_file = "true_img_{:04d}.gif".format(i)
+            true_txt_file = "true_img_{:04d}.txt".format(i)
+            urllib.urlretrieve (true_image_url, "{}/{}".format(args.output_dir,true_image_file))
+            urllib.urlretrieve (true_txt_url, "{}/{}".format(args.output_dir,true_txt_file))
+
             # Make GIF from draw events
             bmpmaker.clear()
             bmpmaker.process_commands_str(draw_events)
             bitmap = bmpmaker.bitmap
-            bitmap_file = "img_{:04d}.gif".format(i)
-            bitmap_save_path = "{}/{}".format(args.output_dir,bitmap_file)
-            imgmaker.save_bitmap(bitmap, bitmap_save_path)
+            drawn_image_file = "drawn_img_{:04d}.gif".format(i)
+            drawn_image_save_path = "{}/{}".format(args.output_dir,drawn_image_file)
+            imgmaker.save_bitmap(bitmap, drawn_image_save_path)
+
+            # Make TXT from draw events
+            drawn_txt_file = "drawn_img_{:04d}.txt".format(i)
+            drawn_txt_save_path = "{}/{}".format(args.output_dir,drawn_txt_file)
+            np.savetxt(drawn_txt_save_path, bitmap, fmt='%d')
+
+            # Save command text and generated events text too
+            commands_txt_file = "written_commands_{:04d}.txt".format(i)
+            events_txt_file = "draw_events_{:04d}.txt".format(i)
+            save_txt_to_file(commands.replace("<br>","\n"), "{}/{}".format(args.output_dir,commands_txt_file))
+            save_txt_to_file(draw_events, "{}/{}".format(args.output_dir,events_txt_file))
 
             
             html_lines.append("<h2>Worker: #{:03d} ({}) (WORKER_{:03d}_NUM_HITS hits) </h2>".format(worker_index,worker_id,worker_index))
-            html_lines.append("<b>Image: {}</b> <br>".format(image_url))
+            html_lines.append("<b>Image: {}</b> <br>".format(true_image_url))
             
-            html_lines.append("<table><tr> <td><img src=\"{}\"><br>Original</td> <td>{}</td> <td><img src=\"{}\"><br>Drawn</td> </tr> </table>".format(image_url,commands,bitmap_file))
+            html_lines.append("<table><tr> <td><img src=\"{}\"><br>Original</td> <td>{}</td> <td><img src=\"{}\"><br>Drawn</td> </tr> </table>".format(true_image_url,commands,drawn_image_file))
             html_lines.append("<br>")
             html_lines.append("<hr>")
 
