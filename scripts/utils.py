@@ -1,4 +1,5 @@
 __author__ = 'anushabala'
+import csv
 
 def read_csv(inp):
     reader = csv.reader(open(inp, 'Ur'))

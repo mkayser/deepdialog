@@ -1,4 +1,4 @@
-__author__ = 'anushabala'
+__author__ = 'anushabala, mkayser'
 '''
 Provides functions to create training, test, and validation datasets given a file containing raw data from the drawing
 task. Run python create_datasets.py -h for details.
@@ -10,8 +10,39 @@ import random
 from utils import read_csv
 
 gif_pattern = r'(img_[0-9]+)\.gif'
-shuffle_times = 10
 
+def parse_draw_events(events_str):
+    lines = events_str.strip().replace("\r","").split("\n")
+    return [s.strip().split() for s in lines]
+
+# Strip out any block adds which are later deleted
+def canonicalize_events(events):
+    keep = [True for e in events]
+    for i,e in enumerate(events):
+        if e[0] == "DEL":
+            for j in range(i+1):
+                if events[j][1:] == e[1:]:
+                    keep[j]=False
+    output_events = [e for e,k in zip(events,keep) if k]
+    return output_events
+
+def convert_draw_events_to_relative(events):
+    output_events = []
+    prevpos = [None,None]
+
+    for i,e in enumerate(events):
+        pos = e[1:]
+        if i==0: 
+            output_events.append(["START"])
+        else:
+            jump = [str(int(a)-int(b)) for a,b in zip(pos,prevpos)]
+            output_events.append(["PUT"] + jump)
+        prevpos = pos
+
+    return output_events
+
+def serialize_events(events):
+    return " ".join([" ".join(e) for e in events])
 
 def write_data(header, data, images, image_field, commands_field, actions_field, output_file, relative=True):
     outfile = open(output_file, 'w')
@@ -26,8 +57,8 @@ def write_data(header, data, images, image_field, commands_field, actions_field,
             commands = commands.replace("</br>", " ")
             actions = row[actions_index]
             if relative:
-                # todo call Mike's function here
-                pass
+                events = convert_draw_events_to_relative(canonicalize_events(parse_draw_events(actions)))
+                actions = serialize_events(events)
             else:
                 actions = actions.replace("\r", "").replace("\n"," ")
             outfile.write("%s\t%s\n" % (commands, actions))
@@ -46,12 +77,11 @@ def split_images(header, data, image_field, train_ratio, test_ratio, val_ratio):
         images.add(image_key)
 
     images = list(images)
-    for i in range(0, shuffle_times):
-        random.shuffle(images)
+    random.shuffle(images)
 
     train_end = int(len(images) * train_ratio)
     test_end = int(train_end + len(images) * test_ratio)
-    val_end = int(test_end + len(images) * val_ratio)
+    val_end = len(images)
 
     train = images[0:train_end]
     test = images[train_end:test_end]
@@ -83,9 +113,9 @@ if __name__=="__main__":
     output_dir = args.output_dir
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    train_file = "%s/%s-train.txt" % (output_dir, input_csv[input_csv.rfind('/'):].replace(".csv", ""))
-    test_file = "%s/%s-test.txt" % (output_dir, input_csv[input_csv.rfind('/'):].replace(".csv", ""))
-    val_file = "%s/%s-val.txt" % (output_dir, input_csv[input_csv.rfind('/'):].replace(".csv", ""))
+    train_file = "%s/%s-%s-train.txt" % (output_dir, input_csv[input_csv.rfind('/'):].replace(".csv", ""), args.mode)
+    test_file = "%s/%s-%s-test.txt" % (output_dir, input_csv[input_csv.rfind('/'):].replace(".csv", ""), args.mode)
+    val_file = "%s/%s-%s-val.txt" % (output_dir, input_csv[input_csv.rfind('/'):].replace(".csv", ""), args.mode)
     relative = True if args.mode == 'relative' else False
     write_data(data_header, all_data, train_images, args.image_field, args.commands_field, args.draw_events_field, train_file, relative)
     write_data(data_header, all_data, test_images, args.image_field, args.commands_field, args.draw_events_field, test_file, relative)
