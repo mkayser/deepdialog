@@ -96,6 +96,8 @@ if __name__=="__main__":
                              "drawing task is used as is for model training/prediction. If 'relative' is used, the "
                              "commands are converted to relative commands.")
     parser.add_argument("-csv", type=str, required=True, help="Input CSV file with Hamming distances for each example [or raw data from Turk drawing task; see the -compute_distance parameter")
+    
+    parser.add_argument("-rseed", type=int, default=0, help="Random seed")
     parser.add_argument("-train_ratio", type=float, default=0.67, help="Ratio (between 0 and 1) of examples to use for training")
     parser.add_argument("-test_ratio", type=float, default=0.17, help="Ratio (between 0 and 1) of examples to use for testing")
     parser.add_argument("-val_ratio", type=float, default=0.16, help="Ratio (between 0 and 1) of examples to use for validation")
@@ -109,6 +111,9 @@ if __name__=="__main__":
     data_header, all_data = read_csv(args.csv)
     train_images, test_images, val_images = split_images(data_header, all_data, args.image_field, args.train_ratio,
                                                          args.test_ratio, args.val_ratio)
+
+    random.seed(args.rseed)
+
     input_csv = args.csv
     output_dir = args.output_dir
     if not os.path.exists(output_dir):
