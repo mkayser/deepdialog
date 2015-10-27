@@ -7,42 +7,11 @@ import argparse
 import os
 import re
 import random
+from events import AbsoluteEventSequence, RelativeEventSequence
 from utils import read_csv
 
 gif_pattern = r'(img_[0-9]+)\.gif'
 
-def parse_draw_events(events_str):
-    lines = events_str.strip().replace("\r","").split("\n")
-    return [s.strip().split() for s in lines]
-
-# Strip out any block adds which are later deleted
-def canonicalize_events(events):
-    keep = [True for e in events]
-    for i,e in enumerate(events):
-        if e[0] == "DEL":
-            for j in range(i+1):
-                if events[j][1:] == e[1:]:
-                    keep[j]=False
-    output_events = [e for e,k in zip(events,keep) if k]
-    return output_events
-
-def convert_draw_events_to_relative(events):
-    output_events = []
-    prevpos = [None,None]
-
-    for i,e in enumerate(events):
-        pos = e[1:]
-        if i==0: 
-            output_events.append(["START"])
-        else:
-            jump = [str(int(a)-int(b)) for a,b in zip(pos,prevpos)]
-            output_events.append(["PUT"] + jump)
-        prevpos = pos
-
-    return output_events
-
-def serialize_events(events):
-    return " ".join([" ".join(e) for e in events])
 
 def write_data(header, data, images, image_field, commands_field, actions_field, output_file, relative=True):
     outfile = open(output_file, 'w')
@@ -57,8 +26,8 @@ def write_data(header, data, images, image_field, commands_field, actions_field,
             commands = commands.replace("</br>", " ")
             actions = row[actions_index]
             if relative:
-                events = convert_draw_events_to_relative(canonicalize_events(parse_draw_events(actions)))
-                actions = serialize_events(events)
+                events = RelativeEventSequence.from_absolute(AbsoluteEventSequence.from_mturk_string(actions).canonicalize()))
+                actions = str(events)
             else:
                 actions = actions.replace("\r", "").replace("\n"," ")
             outfile.write("%s\t%s\n" % (commands, actions))
