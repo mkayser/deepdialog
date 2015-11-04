@@ -7,6 +7,9 @@ class BitmapMaker(object):
         int_t = np.dtype(np.int32)
         self.bitmap = np.zeros((xdim,ydim), dtype=int_t)
 
+    def shape(self):
+        return self.bitmap.shape
+
     def clear(self):
         self.bitmap[...] = 0
 
@@ -15,7 +18,7 @@ class BitmapMaker(object):
         if c[0]=="ADD":
             val = 1
         else:
-            assert c[0]=="DEL"
+            assert c[0]=="DEL", "command is neither ADD nor DEL: {}".format(c)
         self.bitmap[int(c[1])][int(c[2])] = val
 
     def process_commands(self, commands):

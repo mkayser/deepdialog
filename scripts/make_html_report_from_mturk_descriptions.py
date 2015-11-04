@@ -6,6 +6,7 @@ import csv
 import subprocess
 import itertools
 import re
+from treebank_tokenizer import TreebankWordTokenizer
 from image import ImageMaker
 
 
@@ -36,6 +37,8 @@ if __name__ == "__main__":
     nrows = 0
     wordcounts = {}
 
+    tokenizer = TreebankWordTokenizer()
+
     with open(args.csv) as fin:
         reader = csv.reader(fin)
         header = next(reader)
@@ -62,7 +65,7 @@ if __name__ == "__main__":
             total_work_time += work_time
                 
             lines = [s.strip() for s in description.replace("\r","").split("\n")]
-            words = itertools.chain(*[re.findall("[A-Z]{2,}(?![a-z])|[A-Z][a-z]+(?=[A-Z])|[\'\w\-]+",l) for l in lines])
+            words = itertools.chain(*[tokenizer.tokenize(l) for l in lines])
             for w in words:
                 wordcounts.setdefault(w.lower(),0)
                 wordcounts[w.lower()] += 1

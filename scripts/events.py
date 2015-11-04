@@ -56,7 +56,7 @@ class AbsoluteEventSequence(object):
                 pos = [prevpos[0]+e[1], prevpos[1]+e[2]]
             else:
                 raise Exception("Unsupported relative event: {}".format(e))
-            abs_events.append(["PUT", pos[0], pos[1]])
+            abs_events.append(["ADD", pos[0], pos[1]])
             prevpos = pos
         return cls(abs_events)
 
@@ -102,11 +102,17 @@ class RelativeEventSequence(object):
                 if i==0:
                     i += 1
                 else:
-                    if i+2 < len(tokens) and is_int(tokens[i+1]) and is_int(tokens[i+2])):
+                    if i+2 < len(tokens) and is_int(tokens[i+1]) and is_int(tokens[i+2]):
                         events.append(["PUT",int(tokens[i+1]),int(tokens[i+2])])
                         i += 3
                     else:
                         i += 1
+            else:
+                i += 1
         return cls(events)
 
-
+    @classmethod
+    def from_eval_str(cls, eval_str):
+        eval_str = eval_str.replace("</s>","")
+        eval_str = eval_str.replace("<s>","")
+        return cls.from_tokens(eval_str.strip().split())

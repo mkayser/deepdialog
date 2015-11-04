@@ -7,6 +7,7 @@ import argparse
 import os
 import re
 import random
+from treebank_tokenizer import TreebankWordTokenizer
 from events import AbsoluteEventSequence, RelativeEventSequence
 from utils import read_csv
 
@@ -18,16 +19,21 @@ def write_data(header, data, images, image_field, commands_field, actions_field,
     commands_index = header.index(commands_field)
     actions_index = header.index(actions_field)
     image_index = header.index(image_field)
+
+    tokenizer = TreebankWordTokenizer()
+
     for row in data:
         image_url = row[image_index]
         image_key = re.search(gif_pattern, image_url).group(1)
         if image_key in images:
             commands = row[commands_index]
-            commands = commands.replace("</br>", " ")
+            commands = commands.replace("</br>", " _ ")
+            commands = " ".join(tokenizer.tokenize(commands)).lower()
             actions = row[actions_index]
             if relative:
-                events = RelativeEventSequence.from_absolute(AbsoluteEventSequence.from_mturk_string(actions).canonicalize()))
-                actions = str(events)
+                abs_seq = AbsoluteEventSequence.from_mturk_string(actions).canonicalize()
+                rel_seq = RelativeEventSequence.from_absolute(abs_seq)
+                actions = str(rel_seq)
             else:
                 actions = actions.replace("\r", "").replace("\n"," ")
             outfile.write("%s\t%s\n" % (commands, actions))
