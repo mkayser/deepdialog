@@ -35,6 +35,16 @@ class AbsoluteEventSequence(object):
         return AbsoluteEventSequence(canonical_events)
 
     @classmethod
+    def from_string(cls, events_str):
+        tokens = events_str.strip().split()
+        events = []
+        assert(len(tokens) % 3 == 0)
+        for i in range(0,len(tokens),3):
+            action,arg1,arg2 = (tokens[i],tokens[i+1],tokens[i+2])
+            events.append([action, int(arg1), int(arg2)])
+        return cls(events)    
+
+    @classmethod
     def from_mturk_string(cls, events_str):
         lines = events_str.strip().replace("\r","").split("\n")
         events = []
