@@ -46,6 +46,9 @@ def write_data(header, data, images, image_field, commands_field, actions_field,
                 actions = str(rel_seq)
             elif mode=="raw":
                 actions = actions.replace("\r", "").replace("\n"," ")
+            elif mode=="absolute":
+                abs_seq = AbsoluteEventSequence.from_mturk_string(actions).canonicalize()
+                actions = str(abs_seq)
             elif mode=="cursor":
                 abs_seq = AbsoluteEventSequence.from_mturk_string(actions).canonicalize()
                 rel_seq = CursorEventSequence.from_absolute(abs_seq)
@@ -67,7 +70,7 @@ def split_images(header, data, image_field, train_ratio, test_ratio, val_ratio):
         image_key = re.search(gif_pattern, image_url).group(1)
         images.add(image_key)
 
-    images = list(images)
+    images = sorted(list(images))
     random.shuffle(images)
 
     train_end = int(len(images) * train_ratio)
@@ -81,14 +84,14 @@ def split_images(header, data, image_field, train_ratio, test_ratio, val_ratio):
     return train, test, val
 
 if __name__=="__main__":
-    valid_modes = ["relative","cursor","raw"]
+    valid_modes = ["relative","cursor","raw","absolute"]
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("-mode", type=str, default="relative_jump",
+    parser.add_argument("-mode", type=str, default="relative",
                         help="One of {}. If 'raw' is used, the sequence of commands from the "
                              "drawing task is used as is for model training/prediction. If 'relative' is used, the "
                              "commands are converted to relative commands. If cursor is used, commands are generated that."
-                             "move a cursor to add the blocks." .format(valid_modes))
+                             "move a cursor to add the blocks. If 'absolute', the absolute coordinates are used" .format(valid_modes))
     parser.add_argument("-csv", type=str, required=True, help="Input CSV file with Hamming distances for each example [or raw data from Turk drawing task; see the -compute_distance parameter")
     
     parser.add_argument("-rseed", type=int, default=0, help="Random seed")
@@ -102,11 +105,12 @@ if __name__=="__main__":
 
     args = parser.parse_args()
 
+    random.seed(args.rseed)
+
     data_header, all_data = read_csv(args.csv)
     train_images, test_images, val_images = split_images(data_header, all_data, args.image_field, args.train_ratio,
                                                          args.test_ratio, args.val_ratio)
 
-    random.seed(args.rseed)
 
     input_csv = args.csv
     output_dir = args.output_dir
