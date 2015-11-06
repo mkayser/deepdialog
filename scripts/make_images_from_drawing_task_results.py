@@ -5,6 +5,7 @@ import argparse
 import csv
 from image import ImageMaker
 from bitmap import BitmapMaker
+from create_datasets import canonicalize_events, parse_draw_events
 
 
 
@@ -33,9 +34,15 @@ if __name__ == "__main__":
         for i,row in enumerate(reader):
             commands_str = row[colindex]
             bmpmaker.clear()
-            bmpmaker.process_commands_str(commands_str)
+            canonical_events = canonicalize_events(parse_draw_events(commands_str))
+            bmpmaker.process_commands(canonical_events)
             bitmap = bmpmaker.bitmap
+            ordered_actions = bmpmaker.ordered_actions
+            print ordered_actions
             bitmap_file = "{}/img_{:04d}.gif".format(args.output_dir,i)
-            imgmaker.save_bitmap(bitmap, bitmap_file)
+            imgmaker.save_bitmap(bitmap, bitmap_file, ordered_actions)
+            #todo remove this
+            if i == 5:
+                break
     
 
