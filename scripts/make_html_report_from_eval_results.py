@@ -28,7 +28,7 @@ def convert_rel_commands_to_image_and_save_to_file(bmpmaker, imgmaker, rel_comma
     rel_seq = RelativeEventSequence.from_eval_str(rel_commands_str)
     abs_seq = AbsoluteEventSequence.from_relative(rel_seq, bmpmaker.shape()[0], bmpmaker.shape()[1])
     bmpmaker.process_commands(abs_seq.events)
-    imgmaker.save_bitmap(bmpmaker.bitmap, fn)
+    imgmaker.save_bitmap(bmpmaker.bitmap, fn, bmpmaker.ordered_actions)
     np.savetxt("{}.txt".format(fn), bmpmaker.bitmap.flatten(), fmt="%d", newline=" ", footer="\n")
 
 if __name__ == "__main__":
