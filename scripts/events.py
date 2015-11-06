@@ -15,6 +15,7 @@ def is_int(s):
 
 class AbsoluteEventSequence(object):
     events = []
+    # Coordinates in ROW, COL format, like for matrices
 
     def __init__(self, events):
         self.events = events
@@ -63,6 +64,7 @@ class AbsoluteEventSequence(object):
 
 class RelativeEventSequence(object):
     events = []
+    # Coordinates in ROWJUMP, COLJUMP format
 
     def __init__(self, events):
         self.events = events
@@ -89,6 +91,74 @@ class RelativeEventSequence(object):
 
     @classmethod
     def from_tokens(cls, tokens):
+        i=0
+        events = []
+        while i<len(tokens):
+            if tokens[i] == "START":
+                if i==0:
+                    events.append(["START"])
+                else:
+                    pass
+                i += 1
+            elif tokens[i] == "PUT":
+                if i==0:
+                    i += 1
+                else:
+                    if i+2 < len(tokens) and is_int(tokens[i+1]) and is_int(tokens[i+2]):
+                        events.append(["PUT",int(tokens[i+1]),int(tokens[i+2])])
+                        i += 3
+                    else:
+                        i += 1
+            else:
+                i += 1
+        return cls(events)
+
+    @classmethod
+    def from_eval_str(cls, eval_str):
+        eval_str = eval_str.replace("</s>","")
+        eval_str = eval_str.replace("<s>","")
+        return cls.from_tokens(eval_str.strip().split())
+
+
+
+class CursorEventSequence(object):
+    events = []
+    # UP/DOWN/LEFT/RIGHT sequence
+
+    def __init__(self, events):
+        self.events = events
+
+    def __str__(self):
+        return " ".join([" ".join(map(str,l)) for l in self.events])
+
+    @classmethod
+    def from_absolute(cls, absolute):
+        events = absolute.events
+        rel_events = []
+        prevpos = [None,None]
+
+        for i,e in enumerate(events):
+            pos = e[1:]
+            if i==0: 
+                rel_events.append(["START"])
+            else:
+                jump = [a-b for a,b in zip(pos,prevpos)]
+                if jump[0] > 0:
+                    rel_events.extend([["DOWN"] for i in range(jump[0])])
+                if jump[0] < 0:
+                    rel_events.extend([["UP"] for i in range(-jump[0])])
+                if jump[1] > 0:
+                    rel_events.extend([["RIGHT"] for i in range(jump[1])])
+                if jump[1] < 0:
+                    rel_events.extend([["LEFT"] for i in range(-jump[1])])
+                rel_events.append(["BLOCK"])
+            prevpos = pos
+
+        return cls(rel_events)
+
+    @classmethod
+    def from_tokens(cls, tokens):
+        raise Exception("Not implemented: current implementation is not complete.")
         i=0
         events = []
         while i<len(tokens):
