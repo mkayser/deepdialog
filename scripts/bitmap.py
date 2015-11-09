@@ -6,12 +6,14 @@ class BitmapMaker(object):
     def __init__(self, xdim, ydim):
         int_t = np.dtype(np.int32)
         self.bitmap = np.zeros((xdim,ydim), dtype=int_t)
+        self.ordered_actions = []
 
     def shape(self):
         return self.bitmap.shape
 
     def clear(self):
         self.bitmap[...] = 0
+        self.ordered_actions = []
 
     def process_command(self, c):
         val = 0
@@ -20,6 +22,7 @@ class BitmapMaker(object):
         else:
             assert c[0]=="DEL", "command is neither ADD nor DEL: {}".format(c)
         self.bitmap[int(c[1])][int(c[2])] = val
+        self.ordered_actions.append((int(c[1]), int(c[2])))
 
     def process_commands(self, commands):
         for c in commands:

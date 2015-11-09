@@ -5,7 +5,7 @@ import argparse
 import csv
 from image import ImageMaker
 from bitmap import BitmapMaker
-
+from events import AbsoluteEventSequence, RelativeEventSequence
 
 
 if __name__ == "__main__":
@@ -33,9 +33,12 @@ if __name__ == "__main__":
         for i,row in enumerate(reader):
             commands_str = row[colindex]
             bmpmaker.clear()
-            bmpmaker.process_commands_str(commands_str)
+            event_sequence = AbsoluteEventSequence.from_mturk_string(commands_str)
+            event_sequence = event_sequence.canonicalize()
+            canonical_events = event_sequence.events
+            bmpmaker.process_commands(canonical_events)
             bitmap = bmpmaker.bitmap
             bitmap_file = "{}/img_{:04d}.gif".format(args.output_dir,i)
             imgmaker.save_bitmap(bitmap, bitmap_file)
-    
+
 
