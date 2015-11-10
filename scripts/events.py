@@ -63,8 +63,11 @@ class AbsoluteEventSequence(object):
                 assert(prevpos is None)
                 pos = [int(gridx/2),int(gridy/2)]
             elif e[0] == "PUT":
-                assert(prevpos is not None)
-                pos = [prevpos[0]+e[1], prevpos[1]+e[2]]
+                #assert(prevpos is not None)
+                if prevpos is None:
+                    pos = [int(gridx/2),int(gridy/2)]
+                else:
+                    pos = [prevpos[0]+e[1], prevpos[1]+e[2]]
             else:
                 raise Exception("Unsupported relative event: {}".format(e))
             abs_events.append(["ADD", pos[0], pos[1]])
