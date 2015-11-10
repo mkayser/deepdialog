@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
     # Options pertaining to uploading to a webserver
     parser.add_argument("-upload", action="store_true", default=False, help="Publish to HTML server")
-    parser.add_argument("-upload_loc", type=str, default="jacob.stanford.edu:/u/apache/htdocs/mkayser/reports/", help="Location to publish HTML doc to")
+    parser.add_argument("-upload_loc", type=str, default="anusha@jacob.stanford.edu:/u/apache/htdocs/mkayser/reports/", help="Location to publish HTML doc to")
     parser.add_argument("-url_loc", type=str, default="http://nlp.stanford.edu/mkayser/reports/", help="URL location where report will appear")
     args = parser.parse_args()
 
@@ -62,16 +62,19 @@ if __name__ == "__main__":
     with open(args.json) as fin:
         eval_info = json.load(fin)
         html_lines = []
+        total_hamming = 0
         for i,sample in enumerate(eval_info):
             sample = AsNamespace(sample)
-        
+
             gen_filenames = lambda x: [prefix + "{}.{:04d}.gif".format(x,i) for prefix in ("","{}/".format(args.output_dir))]
-            
+
             y_pred_fn, y_pred_path = gen_filenames("y_pred")
             y_ref_fn, y_ref_path = gen_filenames("y_ref")
             
             convert_rel_commands_to_image_and_save_to_file(bmpmaker, imgmaker, sample.y_pred, y_pred_path)
             convert_rel_commands_to_image_and_save_to_file(bmpmaker, imgmaker, sample.y_ref, y_ref_path)
+
+            total_hamming += sample.hamming_distance
 
             html_lines.append("<h2>Sample #{:04d} </h2>".format(i))
             
@@ -79,10 +82,13 @@ if __name__ == "__main__":
             html_lines.append("<br>")
             html_lines.append("<hr>")
 
+    avg_distance = total_hamming/len(eval_info)
+
     with open("{}/{}".format(args.output_dir,output_file), "w") as fout:
         fout.write("<HTML>")
 
         fout.write("<h2> Results </h2> <br>")
+        fout.write("<h3> Average Hamming distance: %2.2f </h3> <br>" % avg_distance)
         for line in html_lines:
             fout.write(line)
         fout.write("</HTML>")

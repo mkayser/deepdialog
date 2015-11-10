@@ -6,7 +6,7 @@ class ImageMaker(object):
     w=None
     s=None
     grayscalecolors=None
-    default_font = ImageFont.truetype("Arial.ttf", size=20)
+    default_font = ImageFont.truetype("Arial.ttf", size=15)
     
     def __init__(self, width, padding, colors=[255,32,128]):
         self.w = width
@@ -39,11 +39,19 @@ class ImageMaker(object):
         grayscale = self.grayscalecolors[img_array.astype(np.uint8)]
         image = Image.fromarray(grayscale)
         if ordered_actions:
+            drawn_positions = {}
             draw = ImageDraw.Draw(image)
             for (idx,position) in enumerate(ordered_actions):
                 row = position[0]
                 col = position[1]
                 top_left_xdim = col * (self.w + self.s) + 1 + self.w/2
                 top_left_ydim = row * (self.w + self.s) + 1 + self.w/2
-                draw.text((top_left_xdim, top_left_ydim), str(idx+1), fill=(255, 255, 255), font=self.default_font)
+
+                if (top_left_xdim, top_left_ydim) in drawn_positions.keys():
+                    drawn_positions[(top_left_xdim, top_left_ydim)].append(str(idx))
+                else:
+                    drawn_positions[(top_left_xdim, top_left_ydim)] = [str(idx)]
+
+            for ((top_left_xdim, top_left_ydim), indexes) in drawn_positions.iteritems():
+                draw.text((top_left_xdim, top_left_ydim), ",".join(indexes), fill=(255, 255, 255), font=self.default_font)
         image.save(outfile)
