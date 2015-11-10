@@ -19,19 +19,22 @@ def load_data(train_file, test_file):
 
 
 def pick_random(dataset):
-    return dataset[random.randint(0, len(dataset)-1)]
+    return dataset[random.randint(0, len(dataset) - 1)]
 
 
-def run_baseline(test_data, train_data, baseline_type="random_train", verbose=False):
+def run_baseline(test_data, train_data, baseline_type="random_train", aligned=False, verbose=False):
     total_hamming_distance = 0.0
     source_dataset = train_data if baseline_type == "random_test" else test_data
     ctr = 0
     for example in test_data:
 
         selected = pick_random(source_dataset)
-
-        true_sequence_absolute = events.AbsoluteEventSequence.from_string(example[1])
-        pred_sequence_absolute = events.AbsoluteEventSequence.from_string(selected[1])
+        if aligned:
+            true_sequence_absolute = events.AbsoluteEventSequence.from_aligned_string(example[1])
+            pred_sequence_absolute = events.AbsoluteEventSequence.from_aligned_string(selected[1])
+        else:
+            true_sequence_absolute = events.AbsoluteEventSequence.from_string(example[1])
+            pred_sequence_absolute = events.AbsoluteEventSequence.from_string(selected[1])
 
         bmpmaker.clear()
         bmpmaker.process_commands(true_sequence_absolute.events)
@@ -44,11 +47,11 @@ def run_baseline(test_data, train_data, baseline_type="random_train", verbose=Fa
         hamming = evaluate.evaluate(true_bitmap, pred_bitmap)
         total_hamming_distance += hamming
 
-        ctr +=1
+        ctr += 1
         if verbose and ctr % 500 == 0:
             print "Progress: %d" % ctr
 
-    avg_hamming = total_hamming_distance/len(test_data)
+    avg_hamming = total_hamming_distance / len(test_data)
     print "Average Hamming distance: %2.2f" % avg_hamming
 
 
@@ -61,6 +64,8 @@ if __name__ == "__main__":
                                                                     "absolute event sequence")
     parser.add_argument("-baseline_type", type=str, default="random_train", help="Type of baseline to run - either one"
                                                                                  + " of random_train or random_test")
+    parser.add_argument("-sequence_type", type=str, default="raw",
+                        help="Type of sequence data (either 'raw' or 'aligned'")
     parser.add_argument("-v", type=bool, default=False, help="Print progress of baseline evaluation")
     args = parser.parse_args()
 
@@ -71,6 +76,5 @@ if __name__ == "__main__":
         raise ValueError("Baseline type should be either random_train or random_test")
     train, test = load_data(args.train_file, args.test_file)
     random.seed(0)
-
-    run_baseline(test, train, args.baseline_type, verbose=args.v)
-
+    aligned = True if args.sequence_type == "aligned" else False
+    run_baseline(test, train, args.baseline_type, aligned, verbose=args.v)

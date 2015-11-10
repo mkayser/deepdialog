@@ -71,6 +71,11 @@ class AbsoluteEventSequence(object):
             prevpos = pos
         return cls(abs_events)
 
+    @classmethod
+    def from_aligned_string(cls, events_str):
+        events_str = events_str.replace(" | ", " ")
+        return cls.from_string(events_str)
+
 
 class RelativeEventSequence(object):
     events = []
