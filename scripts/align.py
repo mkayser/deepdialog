@@ -1,7 +1,7 @@
 __author__ = 'anushabala'
 from argparse import ArgumentParser
 import math
-from events import is_int, RelativeEventSequence, AbsoluteEventSequence
+from events import is_int, RelativeEventSequence, AbsoluteEventSequence, CursorEventSequence
 from itertools import chain, combinations, permutations
 
 numbers = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9}
@@ -33,24 +33,46 @@ def is_adjacent_absolute(next_action, prev_action, axis='x'):
 
     return False
 
-
-def find_consecutive_actions(actions, start_idx, relative=True):
+def find_consecutive_actions(actions, start_idx, sequence_type="relative"):
     # starting from start_idx, count each action that places a block adjacent to the last block placed
     # in the SAME direction
     consecutive_tokens = []
     for axis in directions:
         ctr = 1  # number of consecutive tokens always includes the first one
         prev_action = actions[start_idx]
-        for action in actions[start_idx + 1:]:
-            if (relative and is_adjacent_relative(action, axis)) or \
-                    (not relative and is_adjacent_absolute(action, prev_action, axis)):
+        i = start_idx + 1
+        if sequence_type == "cursor":
+            if ['START'] in actions:
+                i = actions.index(['START']) + 1
+            else:
+                i = actions.index(['BLOCK']) + 1
+        while i < len(actions):
+            if sequence_type == "relative" and is_adjacent_relative(actions[i], axis):
                 ctr += 1
-                prev_action = action
+            elif sequence_type == "absolute" and is_adjacent_absolute(actions[i], prev_action, axis):
+                ctr += 1
+                prev_action = actions[i]
+            elif sequence_type == "cursor" and 'BLOCK' in actions[i+1]:
+                ctr += 1
+                i += 2
             else:
                 break
         consecutive_tokens.append(ctr)
 
     return max(consecutive_tokens)
+
+
+def find_last_cursor_index(actions, start_idx, num_actions):
+    ctr = 0
+    idx = start_idx
+    for action in actions[start_idx:]:
+        if 'START' in action or 'BLOCK' in action:
+            ctr += 1
+            if ctr == num_actions:
+                idx += 1
+                break
+        idx += 1
+    return idx
 
 
 def find_numbers(sentence):
@@ -136,22 +158,29 @@ def better_align(sentences, actions):
 
 
 def heuristic_align(sentences, actions, sequence_type="relative"):
-    relative = True if sequence_type == "relative" else False
     segmentations = []
-    find_segmentations(sentences, [], segmentations, len(actions))
+    max_actions = actions.count(["BLOCK"]) + 1 if sequence_type == "cursor" else len(actions)
+    find_segmentations(sentences, [], segmentations, max_actions)
     sentence_alignments = []
     for path in segmentations:
         action_idx = 0
         alignment = []
+
         for (i, num_actions) in enumerate(path):
-            aligned_actions = actions[action_idx:action_idx + num_actions]
-            action_idx += num_actions
+            if sequence_type == "cursor":
+                end_idx = find_last_cursor_index(actions, action_idx, num_actions)
+                aligned_actions = actions[action_idx: end_idx]
+                action_idx = end_idx
+            else:
+                aligned_actions = actions[action_idx:action_idx + num_actions]
+                action_idx += num_actions
             alignment.append((sentences[i], aligned_actions))
         if alignment:
             sentence_alignments.append((alignment, path))
+
     if not sentence_alignments:
         return 0, None, None
-    scored_alignments = [(score_alignment(alignment, relative), alignment, path) for (alignment, path) in
+    scored_alignments = [(score_alignment(alignment, sequence_type), alignment, path) for (alignment, path) in
                          sentence_alignments]
     return max(scored_alignments, key=lambda x: x[0])
 
@@ -175,18 +204,23 @@ def score_smart_alignment(alignment, path):
     return score
 
 
-def score_alignment(alignment, relative=True):
+def score_alignment(alignment, sequence_type="relative"):
     alignment_score = 0
     prev_actions = -1
     for (idx, (sentence, aligned_actions)) in enumerate(alignment):
+        num_aligned_actions = len(aligned_actions)
+        if sequence_type == "cursor":
+            num_aligned_actions = 0
+            if ['BLOCK'] in aligned_actions:
+                num_aligned_actions += aligned_actions.count(['BLOCK'])
+            if ['START'] in aligned_actions:
+                num_aligned_actions += 1
         if is_repeat_instruction(sentence):
-            alignment_score = alignment_score + 1 if len(aligned_actions) == prev_actions else alignment_score - 1
+            alignment_score = alignment_score + 1 if num_aligned_actions == prev_actions else alignment_score - 1
 
-        num_consecutive_actions = find_consecutive_actions(aligned_actions, 0, relative)
-        alignment_score = alignment_score + 1 if len(aligned_actions) <= num_consecutive_actions \
-            else alignment_score - 1
-        prev_actions = len(aligned_actions)
-
+        num_consecutive_actions = find_consecutive_actions(aligned_actions, 0, sequence_type)
+        alignment_score = alignment_score + 1 if num_aligned_actions <= num_consecutive_actions else alignment_score - 1
+        prev_actions = num_aligned_actions
     return alignment_score
 
 
@@ -228,17 +262,24 @@ if __name__ == "__main__":
     parser.add_argument("-alignment_type", type=str, default="clever", help="Type of algorithm to use for alignments."
                                                                             "(either 'silly' or 'clever'. Defaults to clever")
     parser.add_argument("-sequence_type", type=str, default="relative", help="Format of data (either one of 'relative' "
-                                                                             "or 'absolute'. Defaults to relative.")
+                                                                             ",'absolute', or 'cursor'. Defaults to relative.")
+    parser.add_argument("-bitmap_dim", type=int, default=25, help="Width of bitmap (assumed square)")
     args = parser.parse_args()
     infile = open(args.tsv, 'Ur')
     raw_data = [line.strip().split("\t") for line in infile.readlines()]
     all_alignments = []
     positive_score = 0
     neg_score = 0
+    if args.sequence_type == "cursor":
+        directions = ["x"]
     for (command_sequence, action_sequence) in raw_data:
         sentences = command_sequence.strip().split(" . ")
         if args.sequence_type == "absolute":
             event_sequence = AbsoluteEventSequence.from_string(action_sequence)
+        elif args.sequence_type == "cursor":
+            relative_sequence = RelativeEventSequence.from_eval_str(action_sequence)
+            abs_sequence = AbsoluteEventSequence.from_relative(relative_sequence, args.bitmap_dim, args.bitmap_dim)
+            event_sequence = CursorEventSequence.from_absolute(abs_sequence)
         else:
             event_sequence = RelativeEventSequence.from_eval_str(action_sequence)
         actions = event_sequence.events
