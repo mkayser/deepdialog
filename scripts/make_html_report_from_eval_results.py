@@ -62,7 +62,7 @@ if __name__ == "__main__":
     with open(args.json) as fin:
         eval_info = json.load(fin)
         html_lines = []
-        total_hamming = 0
+        total_hamming = 0.0
         for i,sample in enumerate(eval_info):
             sample = AsNamespace(sample)
 
@@ -74,11 +74,11 @@ if __name__ == "__main__":
             convert_rel_commands_to_image_and_save_to_file(bmpmaker, imgmaker, sample.y_pred, y_pred_path)
             convert_rel_commands_to_image_and_save_to_file(bmpmaker, imgmaker, sample.y_ref, y_ref_path)
 
-            total_hamming += sample.hamming_distance
+            total_hamming += float(sample.hamming_distance)
 
             html_lines.append("<h2>Sample #{:04d} </h2>".format(i))
             
-            html_lines.append("<table><tr> <td>{}</td> <td><img src=\"{}\"><br>Mturk reference</td> <td><img src=\"{}\"><br>EncDec output</td> </tr> </table>".format(sample.x, y_ref_fn, y_pred_fn))
+            html_lines.append("<table><tr> <td width=\"40%%\">{}</td> <td><img src=\"{}\"><br>Mturk reference</td> <td width=\"60%%\"><img src=\"{}\"><br>EncDec output</td> </tr> </table>".format("<br>".join(sample.x), y_ref_fn, y_pred_fn))
             html_lines.append("<br>")
             html_lines.append("<hr>")
 
