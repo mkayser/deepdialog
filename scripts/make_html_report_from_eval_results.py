@@ -6,7 +6,7 @@ import subprocess
 import json
 from image import ImageMaker
 from bitmap import BitmapMaker
-from events import RelativeEventSequence,AbsoluteEventSequence
+from events import RelativeEventSequence,AbsoluteEventSequence,CursorEventSequence
 import urllib
 
 def save_txt_to_file(txt,file_name):
@@ -23,10 +23,15 @@ class AsNamespace(object):
   def __init__(self, dict_):
     self.__dict__.update(dict_)
 
-def convert_rel_commands_to_image_and_save_to_file(bmpmaker, imgmaker, rel_commands_str, fn):
+def convert_commands_to_image_and_save_to_file(bmpmaker, imgmaker, commands_str, fn, mode):
     bmpmaker.clear()
-    rel_seq = RelativeEventSequence.from_eval_str(rel_commands_str)
-    abs_seq = AbsoluteEventSequence.from_relative(rel_seq, bmpmaker.shape()[0], bmpmaker.shape()[1])
+    if mode == "relative":
+        rel_seq = RelativeEventSequence.from_eval_str(commands_str)
+        abs_seq = AbsoluteEventSequence.from_relative(rel_seq, bmpmaker.shape()[0], bmpmaker.shape()[1])
+    elif mode == "cursor":
+        cur_seq = CursorEventSequence.from_eval_str(commands_str)
+        abs_seq = AbsoluteEventSequence.from_cursor(cur_seq, bmpmaker.shape()[0], bmpmaker.shape()[1])
+        
     bmpmaker.process_commands(abs_seq.events)
     imgmaker.save_bitmap(bmpmaker.bitmap, fn, bmpmaker.ordered_actions)
     np.savetxt("{}.txt".format(fn), bmpmaker.bitmap.flatten(), fmt="%d", newline=" ", footer="\n")
@@ -35,8 +40,9 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser()
     
-    # Input location
+    # Input location and mode
     parser.add_argument("-json", type=str, required=True, help="input json file with eval results")
+    parser.add_argument("-mode", type=str, required=True, help="Mode of output sequences, must be 'relative' or 'cursor'")
 
     # Options pertaining to drawing the pictures
     parser.add_argument("-block_px", type=int, default=16, help="Block width in pixels")
@@ -48,7 +54,7 @@ if __name__ == "__main__":
 
     # Options pertaining to uploading to a webserver
     parser.add_argument("-upload", action="store_true", default=False, help="Publish to HTML server")
-    parser.add_argument("-upload_loc", type=str, default="anusha@jacob.stanford.edu:/u/apache/htdocs/mkayser/reports/", help="Location to publish HTML doc to")
+    parser.add_argument("-upload_loc", type=str, default="mkayser@jacob.stanford.edu:/u/apache/htdocs/mkayser/reports/", help="Location to publish HTML doc to")
     parser.add_argument("-url_loc", type=str, default="http://nlp.stanford.edu/mkayser/reports/", help="URL location where report will appear")
     args = parser.parse_args()
 
@@ -71,8 +77,8 @@ if __name__ == "__main__":
             y_pred_fn, y_pred_path = gen_filenames("y_pred")
             y_ref_fn, y_ref_path = gen_filenames("y_ref")
             
-            convert_rel_commands_to_image_and_save_to_file(bmpmaker, imgmaker, sample.y_pred, y_pred_path)
-            convert_rel_commands_to_image_and_save_to_file(bmpmaker, imgmaker, sample.y_ref, y_ref_path)
+            convert_commands_to_image_and_save_to_file(bmpmaker, imgmaker, sample.y_pred, y_pred_path, args.mode)
+            convert_commands_to_image_and_save_to_file(bmpmaker, imgmaker, sample.y_ref, y_ref_path, args.mode)
 
             total_hamming += float(sample.hamming_distance)
 

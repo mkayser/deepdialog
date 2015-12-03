@@ -75,6 +75,36 @@ class AbsoluteEventSequence(object):
         return cls(abs_events)
 
     @classmethod
+    def from_cursor(cls,cur,gridx,gridy):
+        abs_events = []
+        pos=None
+
+        def check_pos(pos):
+            if pos[0] < 0 or pos[0] >= gridy or pos[1] < 0 or pos[1] >= gridx:
+                raise Exception("Converting from cursor to absolute with grid size=({},{}) yields off-grid position: {}".format(gridy,gridx,pos))
+
+        for i,e in enumerate(cur.events):
+            if e == ["START"]:
+                assert(pos is None)
+                pos = [int(gridx/2),int(gridy/2)]
+                abs_events.append(["ADD", pos[0], pos[1]])
+            elif e == ["UP"]:
+                pos[0]-=1
+            elif e == ["DOWN"]:
+                pos[0]+=1
+            elif e == ["LEFT"]:
+                pos[1]-=1
+            elif e == ["RIGHT"]:
+                pos[1]+=1
+            elif e == ["BLOCK"]:
+                abs_events.append(["ADD", pos[0], pos[1]])
+            else:
+                raise Exception("Unknown cursor command: {}".format(e))
+            check_pos(pos)
+
+        return cls(abs_events)
+
+    @classmethod
     def from_aligned_string(cls, events_str):
         events_str = events_str.replace(" | ", " ")
         return cls.from_string(events_str)
@@ -176,27 +206,18 @@ class CursorEventSequence(object):
 
     @classmethod
     def from_tokens(cls, tokens):
-        raise Exception("Not implemented: current implementation is not complete.")
         i=0
         events = []
+        events.append(["START"])
+
         while i<len(tokens):
             if tokens[i] == "START":
-                if i==0:
-                    events.append(["START"])
-                else:
-                    pass
                 i += 1
-            elif tokens[i] == "PUT":
-                if i==0:
-                    i += 1
-                else:
-                    if i+2 < len(tokens) and is_int(tokens[i+1]) and is_int(tokens[i+2]):
-                        events.append(["PUT",int(tokens[i+1]),int(tokens[i+2])])
-                        i += 3
-                    else:
-                        i += 1
+            elif tokens[i] in ["UP","DOWN","LEFT","RIGHT","BLOCK"]:
+                events.append([tokens[i]])
+                i += 1
             else:
-                i += 1
+                raise Exception("Unexpected cursor token: {}".format(tokens[i]))
         return cls(events)
 
     @classmethod
