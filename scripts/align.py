@@ -49,8 +49,10 @@ def find_consecutive_actions(actions, start_idx, sequence_type="relative"):
         while i < len(actions):
             if sequence_type == "relative" and is_adjacent_relative(actions[i], axis):
                 ctr += 1
+                i += 1
             elif sequence_type == "absolute" and is_adjacent_absolute(actions[i], prev_action, axis):
                 ctr += 1
+                i += 1
                 prev_action = actions[i]
             elif sequence_type == "cursor" and 'BLOCK' in actions[i+1]:
                 ctr += 1
@@ -263,6 +265,7 @@ if __name__ == "__main__":
                                                                             "(either 'silly' or 'clever'. Defaults to clever")
     parser.add_argument("-sequence_type", type=str, default="relative", help="Format of data (either one of 'relative' "
                                                                              ",'absolute', or 'cursor'. Defaults to relative.")
+    parser.add_argument("-all", action='store_true', help="Output all data, even unalignable data.")
     parser.add_argument("-bitmap_dim", type=int, default=25, help="Width of bitmap (assumed square)")
     args = parser.parse_args()
     infile = open(args.tsv, 'Ur')
@@ -270,9 +273,15 @@ if __name__ == "__main__":
     all_alignments = []
     positive_score = 0
     neg_score = 0
+    print "{} lines total".format(len(raw_data))
     if args.sequence_type == "cursor":
         directions = ["x"]
+
+    count = 0;
     for (command_sequence, action_sequence) in raw_data:
+        count += 1
+        if count % 100 == 0:
+            print "{}".format(count)
         sentences = command_sequence.strip().split(" . ")
         if args.sequence_type == "absolute":
             event_sequence = AbsoluteEventSequence.from_string(action_sequence)
@@ -293,6 +302,11 @@ if __name__ == "__main__":
                 all_alignments.append(alignments)
             elif score < len(sentences) - 4 and alignments:
                 neg_score += 1
+                if args.all:
+                    all_alignments.append(naive_align(sentences,actions))
+            else:
+                if args.all:
+                    all_alignments.append(naive_align(sentences,actions))
 
     print "(%d/%d) with score > (# of sentences - 4)" % (positive_score, len(raw_data))
     print "(%d/%d) with score < (# of sentences - 4)" % (neg_score, len(raw_data))
