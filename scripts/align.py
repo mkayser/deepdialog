@@ -243,7 +243,6 @@ def naive_align(sentences, actions):
 def actions_to_str(actions):
     return " ".join([" ".join(map(str, l)) for l in actions])
 
-
 def write_examples(alignments, output_file):
     for aligned_example in alignments:
         aligned_sentences = [example[0] for example in aligned_example]
@@ -255,6 +254,48 @@ def write_examples(alignments, output_file):
         for action in aligned_actions[:-1]:
             output_file.write("%s | " % actions_to_str(action))
         output_file.write("%s\n" % actions_to_str(aligned_actions[-1]))
+
+
+def align_sequences(sentences, actions, sequence_type, alignment_type, backup_using_naive=False):
+    # TODO: consider handling different sequence types by first converting to absolute
+    #       so that we don't need sequence_type-specific code
+    if alignment_type == "silly":
+        alignments = naive_align(sentences, actions)
+        return alignments
+
+    elif alignment_type == "clever":
+        (score, alignments, path) = heuristic_align(sentences, actions, sequence_type)
+        if score >= len(sentences) - 4 and alignments:
+            return (alignments,True)
+        elif score < len(sentences) - 4 and alignments:
+            if backup_using_naive:
+                return (naive_align(sentences,actions),False)
+            else:
+                return (None,None)
+        else:
+            if backup_using_naive:
+                return (naive_align(sentences,actions),False)
+            else:
+                return (None,None)
+
+def get_event_sequence(action_str, seq_type, bitmap_dim):
+        if seq_type == "absolute":
+            event_sequence = AbsoluteEventSequence.from_string(action_str)
+        elif seq_type == "cursor":
+            relative_sequence = RelativeEventSequence.from_eval_str(action_str)
+            abs_sequence = AbsoluteEventSequence.from_relative(relative_sequence, bitmap_dim, bitmap_dim)
+            event_sequence = CursorEventSequence.from_absolute(abs_sequence)
+        else:
+            event_sequence = RelativeEventSequence.from_eval_str(action_str)
+        return event_sequence.events
+
+
+def align_strings(sentences_str, actions_str, sequence_type, alignment_type, bitmap_dim, backup_using_naive=False):
+    sentences = sentences_str.strip().split(" . ")
+    actions = get_event_sequence(actions_str, sequence_type, bitmap_dim)
+    return align_sequences(sentences, actions, sequence_type, alignment_type, backup_using_naive=backup_using_naive)
+
+
 
 
 if __name__ == "__main__":
@@ -278,35 +319,20 @@ if __name__ == "__main__":
         directions = ["x"]
 
     count = 0;
-    for (command_sequence, action_sequence) in raw_data:
+    for (command_str, action_str) in raw_data:
         count += 1
         if count % 100 == 0:
             print "{}".format(count)
-        sentences = command_sequence.strip().split(" . ")
-        if args.sequence_type == "absolute":
-            event_sequence = AbsoluteEventSequence.from_string(action_sequence)
-        elif args.sequence_type == "cursor":
-            relative_sequence = RelativeEventSequence.from_eval_str(action_sequence)
-            abs_sequence = AbsoluteEventSequence.from_relative(relative_sequence, args.bitmap_dim, args.bitmap_dim)
-            event_sequence = CursorEventSequence.from_absolute(abs_sequence)
+
+        a = align_strings(command_str, action_str, args.sequence_type, args.alignment_type, args.bitmap_dim, backup_using_naive=args.all)
+        if a[0]:
+            all_alignments.append(a)
+
+        if a[1]:
+            positive_score += 1
         else:
-            event_sequence = RelativeEventSequence.from_eval_str(action_sequence)
-        actions = event_sequence.events
-        alignments = []
-        if args.alignment_type == "silly":
-            alignments = naive_align(sentences, actions)
-        elif args.alignment_type == "clever":
-            (score, alignments, path) = heuristic_align(sentences, actions, args.sequence_type)
-            if score >= len(sentences) - 4 and alignments:
-                positive_score += 1
-                all_alignments.append(alignments)
-            elif score < len(sentences) - 4 and alignments:
-                neg_score += 1
-                if args.all:
-                    all_alignments.append(naive_align(sentences,actions))
-            else:
-                if args.all:
-                    all_alignments.append(naive_align(sentences,actions))
+            neg_score += 1
+            
 
     print "(%d/%d) with score > (# of sentences - 4)" % (positive_score, len(raw_data))
     print "(%d/%d) with score < (# of sentences - 4)" % (neg_score, len(raw_data))
