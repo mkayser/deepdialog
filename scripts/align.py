@@ -52,8 +52,8 @@ def find_consecutive_actions(actions, start_idx, sequence_type="relative"):
                 i += 1
             elif sequence_type == "absolute" and is_adjacent_absolute(actions[i], prev_action, axis):
                 ctr += 1
-                i += 1
                 prev_action = actions[i]
+                i += 1
             elif sequence_type == "cursor" and 'BLOCK' in actions[i+1]:
                 ctr += 1
                 i += 2
@@ -259,22 +259,26 @@ def write_examples(alignments, output_file):
 def align_sequences(sentences, actions, sequence_type, alignment_type, backup_using_naive=False):
     # TODO: consider handling different sequence types by first converting to absolute
     #       so that we don't need sequence_type-specific code
+    bad_alignment_info = {"is_heuristically_alignable": False}
+    good_alignment_info = {"is_heuristically_alignable": True}
+
     if alignment_type == "silly":
         alignments = naive_align(sentences, actions)
-        return alignments
+        return (alignments, bad_alignment_info)
 
     elif alignment_type == "clever":
         (score, alignments, path) = heuristic_align(sentences, actions, sequence_type)
         if score >= len(sentences) - 4 and alignments:
-            return (alignments,True)
+            good_alignment_info["score_percentage"] = float(score)/float(len(sentences))
+            return (alignments,good_alignment_info)
         elif score < len(sentences) - 4 and alignments:
             if backup_using_naive:
-                return (naive_align(sentences,actions),False)
+                return (naive_align(sentences,actions),bad_alignment_info)
             else:
                 return (None,None)
         else:
             if backup_using_naive:
-                return (naive_align(sentences,actions),False)
+                return (naive_align(sentences,actions),bad_alignment_info)
             else:
                 return (None,None)
 
@@ -324,12 +328,14 @@ if __name__ == "__main__":
         if count % 100 == 0:
             print "{}".format(count)
 
-        a = align_strings(command_str, action_str, args.sequence_type, args.alignment_type, args.bitmap_dim, backup_using_naive=args.all)
-        if a[0]:
+        align,info = align_strings(command_str, action_str, args.sequence_type, args.alignment_type, args.bitmap_dim, backup_using_naive=args.all)
+        if align:
             all_alignments.append(a)
 
-        if a[1]:
-            positive_score += 1
+            if info["is_heuristically_alignable"]:
+                positive_score += 1
+            else:
+                neg_score += 1
         else:
             neg_score += 1
             

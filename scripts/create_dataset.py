@@ -7,6 +7,7 @@ import argparse
 import os
 import re
 import random
+import itertools
 from treebank_tokenizer import TreebankWordTokenizer
 from events import AbsoluteEventSequence, RelativeEventSequence, CursorEventSequence
 from bitmap import BitmapMaker
@@ -112,22 +113,25 @@ def write_data(rows, key_attrs, image_idx, commands_idx, actions_idx, output_fil
 
             raw_txt = actions.replace("\r", "").replace("\n"," ")
 
-            rel_alignments,well_aligned = align_strings(commands, rel_str, "relative", "clever", grid_dims[0], backup_using_naive=True)
-            
-            str_rel_alignments = []
-            for c,r in rel_alignments:
-                r_str = " ".join(str(i) for l in r for i in l)
-                str_rel_alignments.append((c,r_str))
+            rel_alignments,rel_align_info = align_strings(commands, rel_str, "relative", "clever", grid_dims[0], backup_using_naive=True)
+            abs_alignments,abs_align_info = align_strings(commands, abs_str, "absolute", "clever", grid_dims[0], backup_using_naive=True)
+
+            join_list_of_lists = lambda l: " ".join(str(i) for i in itertools.chain(*l))
+            str_rel_alignments = [(c,join_list_of_lists(r)) for c,r in rel_alignments]
+            str_abs_alignments = [(c,join_list_of_lists(r)) for c,r in abs_alignments]
 
             obj = {}
             obj["image_url"] = image_url
             obj["image_id"] = image_key
+            obj["sample_id"] = i
             obj["commands"] = commands  
             obj["actions.absolute"] = abs_str
             obj["actions.relative"] = rel_str
             obj["actions.cursor"] = cur_str
             obj["alignments.relative"] = str_rel_alignments
-            obj["alignments_type.relative"] = "clever_heuristic" if well_aligned else "naive_heuristic"
+            obj["alignments.relative.info"] = rel_align_info
+            obj["alignments.absolute"] = str_abs_alignments
+            obj["alignments.absolute.info"] = abs_align_info
 
             for key,val in key_attrs[image_key].iteritems():
                 obj[key] = val
