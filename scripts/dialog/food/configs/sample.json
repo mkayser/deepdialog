@@ -1,0 +1,25 @@
+{
+    "world": {
+	"price_ranges": [[0,10],[10,20],[20,30],[30,40],[40,50],[50,100]],
+	"price_range_probabilities": [0.2,0.3,0.2,0.2,0.05,0.05],
+	"restaurants_file": "./data/restaurants"
+    },
+    
+    "scenario_maker": {
+	"num_restaurants": 10,
+	"num_agents": 2,
+	"random_seed": 0,
+	"cuisine_func_factory": {
+	    "factor": 0.8,
+	    "min_val": 0.0,
+	    "max_val": 1.0
+	},
+	"spending_func_factory": {
+	    "start_val": 0.5,
+	    "end_val": 0.0,
+	    "max_val": 1.0
+	}
+    },
+
+    "num_scenarios": 10
+}
