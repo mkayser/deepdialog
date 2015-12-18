@@ -130,12 +130,14 @@ class Agent(object):
         return i
 
 class Scenario(object):
-    def __init__(self,restaurants, agents):
+    def __init__(self, cuisines, restaurants, agents):
+        self.cuisines = cuisines
         self.restaurants = restaurants
         self.agents = agents
 
     def __info__(self):
         d = {}
+        d["cuisines"] = self.cuisines
         d["restaurants"] = [r.__info__() for r in self.restaurants]
         d["agents"] = [a.__info__() for a in self.agents]
         return d
@@ -144,6 +146,7 @@ class Scenario(object):
 class ScenarioMaker(object):
     def __init__(self, world, config):
         self.world = world
+        self.num_cuisines = config["num_cuisines"]
         self.num_restaurants = config["num_restaurants"]
         self.num_agents = config["num_agents"]
         self.randgen = random.Random(config["random_seed"])
@@ -153,7 +156,11 @@ class ScenarioMaker(object):
         self.sfactory = SpendingFuncFactory(world.price_ranges, c["start_val"], c["end_val"], c["max_val"])
 
     def make(self):
-        restaurants = self.randgen.sample(self.world.restaurants, self.num_restaurants)
+        cuisines = self.randgen.sample(self.world.cuisines, self.num_cuisines)
+        
+        matching_restaurants = [r for r in self.world.restaurants if r.cuisine in cuisines]
+
+        restaurants = self.randgen.sample(matching_restaurants, min(self.num_restaurants,len(matching_restaurants)))
         
         agents = []
         for i in range(self.num_agents):
@@ -164,8 +171,7 @@ class ScenarioMaker(object):
             sf = self.sfactory.create_from_optimal_index(self.randgen.randrange(len(self.world.price_ranges)))
             agents.append(Agent(cf,sf))
 
-        return Scenario(restaurants, agents)
-        
+        return Scenario(cuisines, restaurants, agents)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -206,10 +212,12 @@ def main():
                     f.write("Agent Profile:\n")
                     f.write("{}Preferred Cuisine Order:\n".format(TAB))
                     for c,score in a.cuisine_func.get_preference_list():
-                        f.write("{}{}{}\n".format(TAB,TAB,c))
-                    f.write("{}Preferred Price Ranges:\n".format(TAB))
+                        if c in s.cuisines:
+                            f.write("{}{}{}\n".format(TAB,TAB,c))
+                    f.write("{}Preferred Price Range:\n".format(TAB))
                     for p,score in a.spending_func.get_preference_list():
                         f.write("{}{}${}-${}\n".format(TAB,TAB,p[0],p[1]))
+                        break
                     f.write("\n")
                     
                   

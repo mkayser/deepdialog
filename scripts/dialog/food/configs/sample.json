@@ -6,6 +6,7 @@
     },
     
     "scenario_maker": {
+	"num_cuisines": 5,
 	"num_restaurants": 10,
 	"num_agents": 2,
 	"random_seed": 0,

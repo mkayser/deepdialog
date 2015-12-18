@@ -3,63 +3,63 @@
         {
             "cuisine_func": [
                 [
-                    "Pizza", 
+                    "Vietnamese", 
                     0.99999999999999989
                 ], 
                 [
-                    "Japanese", 
+                    "Pizza", 
                     0.79079925388425287
                 ], 
                 [
-                    "Italian", 
+                    "SeaFood", 
                     0.62343865699165524
                 ], 
                 [
-                    "Mexican", 
+                    "Italian", 
                     0.48955017947757701
                 ], 
                 [
-                    "Indian", 
+                    "Japanese", 
                     0.38243939746631445
                 ], 
                 [
-                    "French", 
+                    "American", 
                     0.29675077185730442
                 ], 
                 [
-                    "Korean", 
+                    "Deli", 
                     0.2281998713700964
                 ], 
                 [
-                    "Chinese", 
+                    "Indian", 
                     0.17335915098032995
                 ], 
                 [
-                    "Spanish", 
+                    "French", 
                     0.12948657466851682
                 ], 
                 [
-                    "Mediterranean", 
+                    "Thai", 
                     0.094388513619066292
                 ], 
                 [
-                    "SeaFood", 
+                    "Chinese", 
                     0.066310064779505878
                 ], 
                 [
-                    "Vietnamese", 
+                    "Mediterranean", 
                     0.043847305707857546
                 ], 
                 [
-                    "Deli", 
+                    "Mexican", 
                     0.025877098450538878
                 ], 
                 [
-                    "American", 
+                    "Spanish", 
                     0.011500932644683945
                 ], 
                 [
-                    "Thai", 
+                    "Korean", 
                     0.0
                 ]
             ], 
@@ -111,23 +111,23 @@
         {
             "cuisine_func": [
                 [
-                    "American", 
+                    "Italian", 
                     0.99999999999999989
                 ], 
                 [
-                    "Italian", 
+                    "Pizza", 
                     0.79079925388425287
                 ], 
                 [
-                    "Vietnamese", 
+                    "Deli", 
                     0.62343865699165524
                 ], 
                 [
-                    "French", 
+                    "American", 
                     0.48955017947757701
                 ], 
                 [
-                    "Deli", 
+                    "Vietnamese", 
                     0.38243939746631445
                 ], 
                 [
@@ -135,19 +135,19 @@
                     0.29675077185730442
                 ], 
                 [
-                    "Korean", 
+                    "French", 
                     0.2281998713700964
                 ], 
                 [
-                    "Indian", 
+                    "Mexican", 
                     0.17335915098032995
                 ], 
                 [
-                    "Chinese", 
+                    "Thai", 
                     0.12948657466851682
                 ], 
                 [
-                    "Spanish", 
+                    "SeaFood", 
                     0.094388513619066292
                 ], 
                 [
@@ -155,57 +155,50 @@
                     0.066310064779505878
                 ], 
                 [
-                    "Thai", 
+                    "Spanish", 
                     0.043847305707857546
                 ], 
                 [
-                    "Mexican", 
+                    "Indian", 
                     0.025877098450538878
                 ], 
                 [
-                    "SeaFood", 
+                    "Korean", 
                     0.011500932644683945
                 ], 
                 [
-                    "Pizza", 
+                    "Chinese", 
                     0.0
                 ]
             ], 
             "spending_func": [
                 [
                     [
-                        50, 
-                        100
-                    ], 
-                    1.0
-                ], 
-                [
-                    [
                         40, 
                         50
                     ], 
-                    0.90000000000000002
+                    1.0
                 ], 
                 [
                     [
                         30, 
                         40
                     ], 
-                    0.80000000000000004
+                    0.875
                 ], 
                 [
                     [
                         20, 
                         30
                     ], 
-                    0.69999999999999996
+                    0.75
                 ], 
                 [
                     [
                         10, 
                         20
                     ], 
-                    0.59999999999999998
+                    0.625
                 ], 
                 [
                     [
@@ -213,89 +206,103 @@
                         10
                     ], 
                     0.5
+                ], 
+                [
+                    [
+                        50, 
+                        100
+                    ], 
+                    0.0
                 ]
             ]
         }
     ], 
+    "cuisines": [
+        "French", 
+        "American", 
+        "SeaFood", 
+        "Spanish", 
+        "Vietnamese"
+    ], 
     "restaurants": [
-        [
-            "Amarin Thai Cuisine", 
-            "Thai", 
-            [
-                30, 
-                40
-            ]
-        ], 
-        [
-            "Bushido", 
-            "Japanese", 
-            [
-                40, 
-                50
-            ]
-        ], 
         [
             "Drunken Lobster", 
             "SeaFood", 
             [
-                30, 
-                40
-            ]
-        ], 
-        [
-            "Shabuway", 
-            "Japanese", 
-            [
-                20, 
-                30
+                10, 
+                20
             ]
         ], 
         [
             "Shell Shock", 
             "SeaFood", 
             [
-                10, 
-                20
-            ]
-        ], 
-        [
-            "Niji Sushi", 
-            "Japanese", 
-            [
-                30, 
-                40
-            ]
-        ], 
-        [
-            "Queen House", 
-            "Chinese", 
-            [
-                40, 
-                50
-            ]
-        ], 
-        [
-            "Sakoon", 
-            "Indian", 
-            [
-                0, 
-                10
-            ]
-        ], 
-        [
-            "Amici's East Coast Pizzeria", 
-            "Pizza", 
-            [
-                10, 
-                20
+                20, 
+                30
             ]
         ], 
         [
             "Asian Box", 
             "Vietnamese", 
             [
-                40, 
-                50
+                30, 
+                40
+            ]
+        ], 
+        [
+            "Pho Hoa", 
+            "Vietnamese", 
+            [
+                0, 
+                10
+            ]
+        ], 
+        [
+            "Bierhaus", 
+            "American", 
+            [
+                30, 
+                40
+            ]
+        ], 
+        [
+            "Cascal", 
+            "Spanish", 
+            [
+                30, 
+                40
+            ]
+        ], 
+        [
+            "Xanh Restaurant", 
+            "Vietnamese", 
+            [
+                30, 
+                40
+            ]
+        ], 
+        [
+            "Steins Beer Garden", 
+            "American", 
+            [
+                0, 
+                10
+            ]
+        ], 
+        [
+            "The Crepevine", 
+            "American", 
+            [
+                50, 
+                100
+            ]
+        ], 
+        [
+            "Scratch", 
+            "American", 
+            [
+                20, 
+                30
             ]
         ]
     ]
