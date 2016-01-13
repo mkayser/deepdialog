@@ -2,6 +2,8 @@ from flask import session
 from flask.ext.socketio import emit, join_room, leave_room
 from .. import socketio
 from .. import constants
+import sqlite3
+
 
 @socketio.on('joined', namespace='/chat')
 def joined(message):
@@ -27,16 +29,28 @@ def left(message):
     A status message is broadcast to all people in the room."""
     room = session.get('room')
     leave_room(room)
+    update_db()
     end_chat()
     emit('status', {'msg': session.get('name') + ' has left the room or been disconnected. Please '
                                                  'click the link below to find a new opponent.'}, room=room)
+
 
 def end_chat():
     outfile = open('%s/ChatRoom_%s' % (constants.CHAT_DIRECTORY, str(session.get('room'))), 'a+')
     outfile.write(constants.CHAT_DELIM+"\n")
     outfile.close()
 
+
 def write_to_file(message):
     outfile = open('%s/ChatRoom_%s' % (constants.CHAT_DIRECTORY, str(session.get('room'))), 'a+')
     outfile.write("%s\t%s\n" % (session.get('name'), message))
     outfile.close()
+
+
+def update_db():
+    conn = sqlite3.connect(constants.CHAT_ROOM_DB)
+    c = conn.cursor()
+    c.execute("UPDATE Chatrooms SET participants = participants - 1 WHERE number=?", session.get('room'))
+    c.execute("UPDATE ActiveUsers SET room=0 WHERE name=?", session.get('name'))
+    conn.commit()
+    conn.close()

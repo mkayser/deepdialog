@@ -5,14 +5,17 @@ import os
 import shutil
 app = create_app(debug=True)
 
-
-def init_databases():
+# initialize database with table for chat rooms and active users
+def init_database():
     conn = sqlite3.connect(constants.CHAT_ROOM_DB)
     c = conn.cursor()
-    c.execute('''CREATE TABLE Chatrooms (number integer, player1 text, player2 text, participants integer)''')
+    # number: room number, participants: number of participants (0 - 2)
+    c.execute('''CREATE TABLE Chatrooms (number integer, participants integer)''')
+
     c.execute('''CREATE TABLE ActiveUsers (name text, room integer)''')
     conn.commit()
     conn.close()
+
 
 def clear_data():
     if os.path.exists(constants.CHAT_DIRECTORY):
@@ -22,7 +25,7 @@ def clear_data():
 if __name__ == '__main__':
     if os.path.exists(constants.CHAT_ROOM_DB):
         os.remove(constants.CHAT_ROOM_DB)
-    init_databases()
+    init_database()
     clear_data()
     socketio.run(app)
 
