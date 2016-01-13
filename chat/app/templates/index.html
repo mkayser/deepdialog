@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Negotiation Fun</title>
+        <script type="text/javascript">
+            function onSubmit() {
+                <!--document.getElementById("login").style.display = "none";-->
+                document.getElementById("waiting_message").style.display = "block";
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Flask-SocketIO-Chat</h1>
+        <form id="login" method="POST" onsubmit="onSubmit()">
+            {{ form.hidden_tag() }}
+            {{ form.name.label }}: {{ form.name() }} {% for error in form.name.errors %}{{ error }}{% endfor %}<br>
+            {{ form.submit() }}
+        </form>
+    <div id="waiting_message" style="display:none">
+        <h2>Please wait while we try to pair you up with an opponent...</h2>
+    </div>
+    </body>
+</html>
