@@ -39,15 +39,60 @@
 		leave_room();
 	    }
         </script>
+        <script type="text/javascript" charset="utf-8">
+					function getTimeRemaining(endtime) {
+					  var t = Date.parse(endtime) - Date.parse(new Date());
+					  var seconds = Math.floor((t / 1000) % 60);
+					  var minutes = Math.floor((t / 1000 / 60));
+					  return {
+					    'total': t,
+					    'minutes': minutes,
+					    'seconds': seconds
+					  };
+					}
+
+					function initializeClock(id, endtime) {
+					  var clock = document.getElementById(id);
+					  var minutesSpan = clock.querySelector('.minutes');
+					  var secondsSpan = clock.querySelector('.seconds');
+
+					  function updateClock() {
+					    var t = getTimeRemaining(endtime);
+
+					    minutesSpan.innerHTML = t.minutes;
+					    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+					    if (t.total <= 0) {
+					      clearInterval(timeinterval);
+					    }
+					  }
+
+					  updateClock();
+					  var timeinterval = setInterval(updateClock, 1000);
+					}
+
+					var deadline = new Date(Date.parse(new Date()) + {{ scenario.num_seconds }} * 1000);
+					initializeClock('clockdiv', deadline);	  
+        </script>
     </head>
     <body>
     <div id="chat_container", style="float:left; width:50%">
         <h1>Negotiation Fun</h1>
         <p>
-            To the right, we've displayed your culinary preferences and a list of restaurants that you could go to. Your
-             goal is to chat with your opponent and decide which of these restaurants to eat at, based on both your
-            preferences. May the best negotiator win!
+            It's Friday night, and you and your friend are trying to figure out where to eat dinner. You've discovered that there are {{ 	num_restaurants }} restaurants nearby. You like some kinds of food better than others, and have a preferred price range in mind. Use the chat box below to negotiate with your friend about where to go for dinner! 
         </p>
+
+        <div id="clockdiv">
+				  <div>
+				    <span class="minutes"></span>
+				    <div class="smalltext">Minutes</div>
+				  </div>
+				  <div>
+				    <span class="seconds"></span>
+				    <div class="smalltext">Seconds</div>
+				  </div>
+				</div>
+
         <textarea id="chat" cols="80" rows="20"></textarea><br><br>
         <input id="text" size="80" placeholder="Enter your message here"><br><br>
         <a href="/" onclick="leave_room();">Leave this room</a>

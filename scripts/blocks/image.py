@@ -6,7 +6,7 @@ class ImageMaker(object):
     w=None
     s=None
     grayscalecolors=None
-    default_font = ImageFont.truetype("Arial.ttf", size=15)
+    default_font = ImageFont.truetype("Arial.ttf", size=12)
     
     def __init__(self, width, padding, colors=[255,32,128]):
         self.w = width
@@ -34,18 +34,19 @@ class ImageMaker(object):
             rows.append(np.hstack([squares[k] for k in list(bitmap[i])]))
         return np.vstack(rows)
 
-    def save_bitmap(self, bitmap, outfile, ordered_actions=None):
+    def save_bitmap(self, bitmap, outfile, ordered_actions=None, image_format="GIF"):
         img_array = self.make_image_array(bitmap)
         grayscale = self.grayscalecolors[img_array.astype(np.uint8)]
         image = Image.fromarray(grayscale)
+        image = image.convert("RGB")
         if ordered_actions:
             drawn_positions = {}
             draw = ImageDraw.Draw(image)
             for (idx,position) in enumerate(ordered_actions):
                 row = position[0]
                 col = position[1]
-                top_left_xdim = col * (self.w + self.s) + 1 + self.w/2
-                top_left_ydim = row * (self.w + self.s) + 1 + self.w/2
+                top_left_xdim = col * (self.w + 2*self.s) + self.s + self.w/2
+                top_left_ydim = row * (self.w + 2*self.s) + self.s + 1
 
                 if (top_left_xdim, top_left_ydim) in drawn_positions.keys():
                     drawn_positions[(top_left_xdim, top_left_ydim)].append(str(idx))
@@ -54,4 +55,4 @@ class ImageMaker(object):
 
             for ((top_left_xdim, top_left_ydim), indexes) in drawn_positions.iteritems():
                 draw.text((top_left_xdim, top_left_ydim), ",".join(indexes), fill=(255, 255, 255), font=self.default_font)
-        image.save(outfile)
+        image.save(outfile, image_format)

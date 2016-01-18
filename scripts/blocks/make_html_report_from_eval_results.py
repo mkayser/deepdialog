@@ -8,6 +8,9 @@ from image import ImageMaker
 from bitmap import BitmapMaker
 from events import RelativeEventSequence,AbsoluteEventSequence,CursorEventSequence
 import urllib
+import base64
+import tempfile
+
 
 def save_txt_to_file(txt,file_name):
     with open(file_name, "w") as fout:
@@ -23,7 +26,7 @@ class AsNamespace(object):
   def __init__(self, dict_):
     self.__dict__.update(dict_)
 
-def convert_commands_to_image_and_save_to_file(bmpmaker, imgmaker, commands_str, fn, mode):
+def convert_commands_to_bitmap(bmpmaker, commands_str, mode):
     bmpmaker.clear()
     if mode == "relative":
         rel_seq = RelativeEventSequence.from_eval_str(commands_str)
@@ -33,8 +36,17 @@ def convert_commands_to_image_and_save_to_file(bmpmaker, imgmaker, commands_str,
         abs_seq = AbsoluteEventSequence.from_cursor(cur_seq, bmpmaker.shape()[0], bmpmaker.shape()[1])
         
     bmpmaker.process_commands(abs_seq.events)
-    imgmaker.save_bitmap(bmpmaker.bitmap, fn, bmpmaker.ordered_actions)
-    np.savetxt("{}.txt".format(fn), bmpmaker.bitmap.flatten(), fmt="%d", newline=" ", footer="\n")
+    return (bmpmaker.bitmap.copy(), bmpmaker.ordered_actions)
+
+def save_bitmap_to_file(imgmaker, bitmap, ordered_actions, fn):
+    imgmaker.save_bitmap(bitmap, fn, ordered_actions)
+    np.savetxt("{}.txt".format(fn), bitmap.flatten(), fmt="%d", newline=" ", footer="\n")
+
+def base64_encode_bitmap(imgmaker, bitmap, ordered_actions):
+    with tempfile.TemporaryFile() as f:
+        imgmaker.save_bitmap(bitmap, f, ordered_actions, image_format="PNG")
+        f.seek(0)
+        return base64.b64encode(f.read())
 
 if __name__ == "__main__":
     
@@ -48,6 +60,7 @@ if __name__ == "__main__":
     parser.add_argument("-block_px", type=int, default=16, help="Block width in pixels")
     parser.add_argument("-padding_px", type=int, default=1, help="Padding in pixels")
     parser.add_argument("-bitmap_dim", type=int, default=25, help="Width of bitmap in blocks (assumed square)")
+    parser.add_argument("-inline_images", action="store_true", default=False, help="Include images inline")
 
     # Output location
     parser.add_argument("-output_dir", type=str, required=True, help="Directory to write output to")
@@ -77,14 +90,24 @@ if __name__ == "__main__":
             y_pred_fn, y_pred_path = gen_filenames("y_pred")
             y_ref_fn, y_ref_path = gen_filenames("y_ref")
             
-            convert_commands_to_image_and_save_to_file(bmpmaker, imgmaker, sample.y_pred, y_pred_path, args.mode)
-            convert_commands_to_image_and_save_to_file(bmpmaker, imgmaker, sample.y_ref, y_ref_path, args.mode)
+            predpair = convert_commands_to_bitmap(bmpmaker, sample.y_pred, args.mode)
+            refpair = convert_commands_to_bitmap(bmpmaker, sample.y_ref, args.mode)
+
+
+            if args.inline_images:
+                pred_img_tag = "<img src=\"data:image/png;base64,{}\" />".format(base64_encode_bitmap(imgmaker, *predpair))
+                ref_img_tag = "<img src=\"data:image/png;base64,{}\" />".format(base64_encode_bitmap(imgmaker, *refpair))
+            else:
+                pred_img_tag = "<img src=\"{}\">".format(y_pred_fn)
+                ref_img_tag = "<img src=\"{}\">".format(y_ref_fn)
+                save_bitmap_to_file(imgmaker, predpair[0], predpair[1], y_pred_path)
+                save_bitmap_to_file(imgmaker, refpair[0], refpair[1], y_ref_path)
 
             total_hamming += float(sample.hamming_distance)
 
             html_lines.append("<h2>Sample #{:04d} </h2>".format(i))
             
-            html_lines.append("<table><tr> <td width=\"40%%\">{}</td> <td><img src=\"{}\"><br>Mturk reference</td> <td width=\"60%%\"><img src=\"{}\"><br>EncDec output</td> </tr> </table>".format("<br>".join(sample.x), y_ref_fn, y_pred_fn))
+            html_lines.append("<table><tr> <td width=\"40%%\">{}</td> <td>{}<br>Mturk reference</td> <td width=\"60%%\">{}<br>EncDec output</td> </tr> </table>".format("<br>".join(sample.x), ref_img_tag, pred_img_tag))
             html_lines.append("<br>")
             html_lines.append("<hr>")
 
