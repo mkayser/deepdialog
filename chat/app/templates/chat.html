@@ -79,7 +79,7 @@
     <div id="chat_container", style="float:left; width:50%">
         <h1>Negotiation Fun</h1>
         <p>
-            It's Friday night, and you and your friend are trying to figure out where to eat dinner. You've discovered that there are {{ 	num_restaurants }} restaurants nearby. You like some kinds of food better than others, and have a preferred price range in mind. Use the chat box below to negotiate with your friend about where to go for dinner! 
+            It's Friday night, and you and your friend are trying to figure out where to eat dinner. You've discovered that there are {{ scenario.num_restaurants }} restaurants nearby. You like some kinds of food better than others, and have a preferred price range in mind. Use the chat box below to negotiate with your friend about where to go for dinner! 
         </p>
 
         <div id="clockdiv">
@@ -95,7 +95,7 @@
 
         <textarea id="chat" cols="80" rows="20"></textarea><br><br>
         <input id="text" size="80" placeholder="Enter your message here"><br><br>
-        <a href="/" onclick="leave_room();">Leave this room</a>
+        <a href="/">Leave this room</a>
     </div>
     <div id="info_container", style="float:left; width:50%">
         <h3>Some scenario text here</h3>

@@ -83,8 +83,8 @@ class BackendConnection(object):
         try:
             with self.conn:
                 cursor = self.conn.cursor()
-                c.execute("UPDATE Chatrooms SET participants = participants - 1 WHERE number=?", (room,))
-                c.execute("UPDATE ActiveUsers SET room=0 WHERE name=?", (username,))
+                cursor.execute("UPDATE Chatrooms SET participants = participants - 1 WHERE number=?", (room,))
+                cursor.execute("UPDATE ActiveUsers SET room=0 WHERE name=?", (username,))
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 

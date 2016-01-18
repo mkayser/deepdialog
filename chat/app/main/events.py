@@ -23,10 +23,12 @@ def text(message):
     """Sent by a client when the user entered a new message.
     The message is sent to all people in the room."""
     room = session.get('room')
+    username = session.get('name')
+    msg = message['msg']
     # TODO: maybe change all logging to use app.logger
     app.logger.debug("Testing logger: User {} says {} in room {}.".format(username,message["msg"],room))
     write_to_file(message['msg'])
-    emit('message', {'msg': session.get('name') + ':' + message['msg']}, room=room)
+    emit('message', {'msg': username + ':' + msg}, room=room)
 
 
 @socketio.on('left', namespace='/chat')
