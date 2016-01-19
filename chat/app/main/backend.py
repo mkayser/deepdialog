@@ -1,6 +1,7 @@
 from flask import current_app as app
 import random
 import sqlite3
+import time
 
 
 class BackendConnection(object):
@@ -15,7 +16,7 @@ class BackendConnection(object):
     def create_user_if_necessary(self, username):
         with self.conn:
             cursor = self.conn.cursor()
-            cursor.execute('''INSERT OR IGNORE INTO ActiveUsers VALUES (?,?,?)''', (username, 0, 0))
+            cursor.execute('''INSERT OR IGNORE INTO ActiveUsers VALUES (?,?,?,?)''', (username, 0, 0, ''))
 
     def find_room_for_user_if_possible(self, username):
         try:
@@ -24,12 +25,14 @@ class BackendConnection(object):
                 # see if the current user has already been paired - a user is paired if their room != 0
                 cursor.execute('''SELECT * FROM ActiveUsers WHERE name=?''', (username,))
                 user_entry = cursor.fetchone()
+                app.logger.debug(user_entry)
                 room_id = user_entry[1]
                 if room_id != 0:
                     cursor.execute('''SELECT * FROM Chatrooms WHERE number=?''', (room_id,))
                     scenario_id = cursor.fetchone()[2]
                     agent_number = user_entry[2]
-                    return room_id, scenario_id, agent_number
+                    partner = user_entry[3]
+                    return room_id, scenario_id, agent_number, partner
 
                 # find all users who aren't currently paired (and not the current user)
                 cursor.execute('''SELECT name FROM ActiveUsers WHERE room = 0 AND name!=?''', (username,))
@@ -44,11 +47,11 @@ class BackendConnection(object):
                     agent_number = random.choice(range(1, 3))
                     other_agent = 1 if agent_number == 2 else 2
                     # update database to reflect that users have been assigned to these rooms
-                    cursor.execute('''UPDATE ActiveUsers SET room=?,agentid=? WHERE name=?''', (room_id, agent_number, paired_user))
-                    cursor.execute('''UPDATE ActiveUsers SET room=?,agentid=? WHERE name=?''', (room_id, other_agent, username))
-                    return room_id, scenario_id, agent_number
+                    cursor.execute('''UPDATE ActiveUsers SET room=?,agentid=?,partner=? WHERE name=?''', (room_id, agent_number, paired_user, username))
+                    cursor.execute('''UPDATE ActiveUsers SET room=?,agentid=?,partner=? WHERE name=?''', (room_id, other_agent, username, paired_user))
+                    return room_id, scenario_id, agent_number, paired_user
                 else:
-                    return None, None, 0
+                    return None, None, 0, None
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
@@ -87,6 +90,25 @@ class BackendConnection(object):
             with self.conn:
                 cursor = self.conn.cursor()
                 cursor.execute("UPDATE Chatrooms SET participants = participants - 1 WHERE number=?", (room,))
-                cursor.execute("UPDATE ActiveUsers SET room=0,agentid=0 WHERE name=?", (username,))
+                cursor.execute("UPDATE ActiveUsers SET room=0,agentid=0,partner='' WHERE name=?", (username,))
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
+
+    def select_restaurant(self, username, partner, scenario_id, outcome):
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                # see if the other user has already submitted an outcome for this chat
+                cursor.execute('''SELECT outcome FROM Outcomes WHERE agent1=? AND agent2=? AND scenario=? ORDER BY time DESC''', (partner, username, scenario_id))
+                stored_outcome = cursor.fetchone()
+                if stored_outcome:
+                    if stored_outcome != outcome:
+                        # do something - the two agents selected different restaurants
+                        pass
+                else:
+                    cursor.execute('''INSERT INTO Outcomes VALUES (?,?,?,?,?)''', (username, partner, scenario_id,
+                                                                                   outcome, int(time.time()*1000)))
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
+

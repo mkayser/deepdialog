@@ -1,6 +1,6 @@
 from flask.ext.wtf import Form
-from wtforms.fields import StringField, SubmitField, RadioField
-from wtforms.validators import Required
+from wtforms.fields import StringField, SubmitField, RadioField, SelectField
+from wtforms.validators import Required, AnyOf
 
 
 class LoginForm(Form):
@@ -11,5 +11,5 @@ class LoginForm(Form):
 
 class RestaurantForm(Form):
     """Select a restaurant from a list of radio buttons"""
-    restaurant_labels = RadioField('Restaurants', choices=[], validators=[Required()])
+    restaurants = RadioField('Restaurants', choices=[], coerce=int, validators=[AnyOf(range(0,10))])
     submit = SubmitField('Agree on a restaurant!')

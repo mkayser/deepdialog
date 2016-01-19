@@ -1,9 +1,7 @@
-from flask import g, session, redirect, url_for, render_template, request
+from flask import flash, session, redirect, url_for, render_template, request
 from flask import current_app as app
 from . import main
 from .forms import LoginForm, RestaurantForm
-import sqlite3
-import random
 import time
 from .utils import get_backend
 
@@ -36,24 +34,30 @@ def chat():
     room = session.get('room', None)
     agent_number = session.get('agent_number')
     scenario_id = session.get('scenario_id', None)
+    partner = session.get('partner')
     form=RestaurantForm()
+    scenario = None
     if scenario_id:
         scenario = app.config["scenarios"][scenario_id]
-        form.restaurant_labels.choices = list(enumerate([i[0] for i in scenario["restaurants"]]))
+        form.restaurants.choices = list(enumerate([i[0] for i in scenario["restaurants"]]))
 
     if form.validate_on_submit():
-        app.logger.debug("Testing logger: POST request, successfully validated.")
+        app.logger.debug("Testing logger: POST request, successfully validated. Data received: %s" % form.data)
+        backend = get_backend()
+        backend.select_restaurant(session['name'], session['partner'], session['scenario_id'], form.data['restaurants'])
+        flash("Waiting for your partner to submit the result...")
         return redirect(url_for('.index'))
     elif request.method == 'GET':
         app.logger.debug("Testing logger: chat requested.")
         if name is None or room is None or scenario_id is None:
             return redirect(url_for('.index'))
         else:
-            return render_template('chat.html', name=name, room=room, scenario=scenario, agent_number=agent_number, form=form)
+            return render_template('chat.html', name=name, room=room, scenario=scenario, agent_number=agent_number, form=form,
+                                   partner=partner)
     else:
-        app.logger.debug("Testing logger: POST request but not validated.")
+        app.logger.debug(form.errors)
+        app.logger.debug("Testing logger: POST request but not validated. Form data: %s" % form.data)
         
-
 
 @main.route('/single_task')
 # todo: something like this needs to happen when a single task is submitted, too
@@ -80,10 +84,11 @@ def add_new_user(username):
 
 def find_room_if_possible(username):
     backend = get_backend()
-    room, scenario_id, agent_number = backend.find_room_for_user_if_possible(username)
-    app.logger.debug("User %s has agent ID %d" % (session.get('name'), agent_number))
+    room, scenario_id, agent_number, partner = backend.find_room_for_user_if_possible(username)
+    app.logger.debug("User %s has agent ID %d" % (username, agent_number))
     if room:
         session["room"] = room
         session["scenario_id"] = scenario_id
         session["agent_number"] = agent_number
+        session["partner"] = partner
     return (room, scenario_id)
