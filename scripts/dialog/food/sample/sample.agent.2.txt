@@ -1,131 +1,252 @@
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Vietnamese
+        French
+        Italian
+        Pizza
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
 ====================================================================================
 ======= Scenario #0  ==============================================================
 ====================================================================================
 
 Restaurants:
-    Chez TJ                  	French                   	$0-$10
-    Doppio Zero              	Italian                  	$10-$20
+    Chez TJ                  	French                   	$30-$40
+    Doppio Zero              	Italian                  	$30-$40
     Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$50-$100
-    Blue Line Pizza          	Pizza                    	$30-$40
-    Cascal                   	Spanish                  	$30-$40
-    Asian Box                	Vietnamese               	$30-$40
+    Vaso Azzurro             	Italian                  	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Cascal                   	Spanish                  	$50-$100
+    Asian Box                	Vietnamese               	$10-$20
     Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$10-$20
-    Xanh Restaurant          	Vietnamese               	$30-$40
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
 
 Agent Profile:
     Preferred Cuisine Order:
+        Spanish
         Vietnamese
+        French
         Italian
         Pizza
-        French
-        Spanish
     Preferred Price Range:
+        $20-$30
         $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Korean
+        Pizza
+        Japanese
+        SeaFood
+        Chinese
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
 
 ====================================================================================
 ======= Scenario #1  ==============================================================
 ====================================================================================
 
 Restaurants:
-    Posh Bagel               	Deli                     	$40-$50
-    Subway                   	Deli                     	$40-$50
-    Totoro                   	Korean                   	$20-$30
-    Amici's East Coast Pizzeria	Pizza                    	$50-$100
-    Blue Line Pizza          	Pizza                    	$30-$40
-    Amarin Thai Cuisine      	Thai                     	$50-$100
-    Asian Box                	Vietnamese               	$30-$40
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$10-$20
-    Xanh Restaurant          	Vietnamese               	$30-$40
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Kirin                    	Chinese                  	$0-$10
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Maruichi Noodle House    	Japanese                 	$0-$10
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Yakko                    	Japanese                 	$20-$30
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Shell Shock              	SeaFood                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
-        Vietnamese
         Korean
-        Deli
-        Thai
         Pizza
+        Japanese
+        SeaFood
+        Chinese
     Preferred Price Range:
+        $50-$100
         $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        Chinese
+        Japanese
+        Spanish
+        Italian
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
 
 ====================================================================================
 ======= Scenario #2  ==============================================================
 ====================================================================================
 
 Restaurants:
-    Vaso Azzurro             	Italian                  	$50-$100
-    Ginseng                  	Korean                   	$0-$10
-    Ehpesus                  	Mediterranean            	$50-$100
-    Mediterranean Grill House	Mediterranean            	$30-$40
-    Morocco's                	Mediterranean            	$0-$10
-    Amici's East Coast Pizzeria	Pizza                    	$50-$100
-    Blue Line Pizza          	Pizza                    	$30-$40
-    Asian Box                	Vietnamese               	$30-$40
-    Pho To Chau              	Vietnamese               	$10-$20
-    Xanh Restaurant          	Vietnamese               	$30-$40
+    Kirin                    	Chinese                  	$0-$10
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Chez TJ                  	French                   	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Kappo Naminami           	Japanese                 	$50-$100
+    Maruichi Noodle House    	Japanese                 	$0-$10
+    Rumble Fish              	Japanese                 	$0-$10
+    Shalala                  	Japanese                 	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
-        Korean
-        Vietnamese
-        Pizza
+        French
+        Chinese
+        Japanese
+        Spanish
         Italian
-        Mediterranean
     Preferred Price Range:
+        $20-$30
+        $10-$20
         $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Pizza
+        Chinese
+        Spanish
+        Mexican
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
 
 ====================================================================================
 ======= Scenario #3  ==============================================================
 ====================================================================================
 
 Restaurants:
-    Hong Kong Bistro         	Chinese                  	$10-$20
-    New Mongolian BBQ        	Chinese                  	$30-$40
-    Sakoon                   	Indian                   	$50-$100
-    Shezan                   	Indian                   	$20-$30
-    Café Baklava            	Mediterranean            	$40-$50
-    Ehpesus                  	Mediterranean            	$50-$100
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Asian Box                	Vietnamese               	$30-$40
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$30-$40
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Kirin                    	Chinese                  	$0-$10
+    Queen House              	Chinese                  	$0-$10
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Shell Shock              	SeaFood                  	$30-$40
+    Cascal                   	Spanish                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
-        Mediterranean
-        Vietnamese
-        Indian
+        SeaFood
+        Pizza
         Chinese
+        Spanish
+        Mexican
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        Chinese
+        Mediterranean
+        SeaFood
         French
     Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
         $50-$100
+        $10-$20
+        $40-$50
 
 ====================================================================================
 ======= Scenario #4  ==============================================================
 ====================================================================================
 
 Restaurants:
-    Park Ballachi            	Indian                   	$30-$40
-    Shiva’s Indian Restaurant	Indian                   	$30-$40
-    Ehpesus                  	Mediterranean            	$50-$100
-    Morocco's                	Mediterranean            	$0-$10
-    Agave                    	Mexican                  	$10-$20
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$0-$10
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Pho To Chau              	Vietnamese               	$10-$20
-    Xanh Restaurant          	Vietnamese               	$30-$40
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Chez TJ                  	French                   	$30-$40
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Agave                    	Mexican                  	$30-$40
+    Shell Shock              	SeaFood                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
-        Vietnamese
-        Indian
-        Mediterranean
         Mexican
+        Chinese
+        Mediterranean
         SeaFood
+        French
     Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Spanish
+        Chinese
+        Deli
+        Thai
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
         $40-$50
 
 ====================================================================================
@@ -133,25 +254,46 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$30-$40
-    Scratch                  	American                 	$20-$30
-    Steins Beer Garden       	American                 	$0-$10
-    Hong Kong Bistro         	Chinese                  	$10-$20
-    Hunan Chili              	Chinese                  	$50-$100
-    Ryowa Noodle House       	Japanese                 	$50-$100
-    Shabuway                 	Japanese                 	$0-$10
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$20-$30
-    Bangkok Spoon            	Thai                     	$40-$50
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
-        Japanese
-        Thai
-        Chinese
-        SeaFood
         American
+        Spanish
+        Chinese
+        Deli
+        Thai
     Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        American
+        Pizza
+        Mediterranean
+        Thai
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
         $40-$50
 
 ====================================================================================
@@ -159,102 +301,4400 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
+    Bierhaus                 	American                 	$10-$20
     The Crepevine            	American                 	$50-$100
-    Fu Lam Mum               	Chinese                  	$50-$100
-    Hong Kong Bistro         	Chinese                  	$10-$20
-    Hunan Chili              	Chinese                  	$50-$100
-    Shiva’s Indian Restaurant	Indian                   	$30-$40
-    Café Baklava            	Mediterranean            	$40-$50
-    Ehpesus                  	Mediterranean            	$50-$100
-    Mediterranean Grill House	Mediterranean            	$30-$40
-    Amici's East Coast Pizzeria	Pizza                    	$50-$100
-    Blue Line Pizza          	Pizza                    	$30-$40
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Oren's Hummus            	Mediterranean            	$40-$50
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
 
 Agent Profile:
     Preferred Cuisine Order:
-        Chinese
+        Mexican
         American
         Pizza
-        Indian
         Mediterranean
+        Thai
     Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
         $20-$30
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        Thai
+        Indian
+        Pizza
+        French
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
 
 ====================================================================================
 ======= Scenario #7  ==============================================================
 ====================================================================================
 
 Restaurants:
-    Park Ballachi            	Indian                   	$30-$40
-    Sakoon                   	Indian                   	$50-$100
-    Shiva’s Indian Restaurant	Indian                   	$30-$40
-    Doppio Zero              	Italian                  	$10-$20
-    Vaso Azzurro             	Italian                  	$50-$100
-    Ehpesus                  	Mediterranean            	$50-$100
-    Mediterranean Grill House	Mediterranean            	$30-$40
-    Morocco's                	Mediterranean            	$0-$10
-    Agave                    	Mexican                  	$10-$20
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Chez TJ                  	French                   	$30-$40
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
 
 Agent Profile:
     Preferred Cuisine Order:
-        Mediterranean
-        Italian
-        Mexican
+        Vietnamese
+        Thai
         Indian
         Pizza
+        French
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        Vietnamese
+        Japanese
+        Deli
+        Italian
     Preferred Price Range:
         $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
 
 ====================================================================================
 ======= Scenario #8  ==============================================================
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$30-$40
-    Scratch                  	American                 	$20-$30
-    Steins Beer Garden       	American                 	$0-$10
-    The Crepevine            	American                 	$50-$100
-    Posh Bagel               	Deli                     	$40-$50
+    Posh Bagel               	Deli                     	$20-$30
     Subway                   	Deli                     	$40-$50
-    Agave                    	Mexican                  	$10-$20
-    Taqueria Los Charros     	Mexican                  	$20-$30
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$20-$30
+    Chez TJ                  	French                   	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Maruichi Noodle House    	Japanese                 	$0-$10
+    Niji Sushi               	Japanese                 	$40-$50
+    Rumble Fish              	Japanese                 	$0-$10
+    Shabuway                 	Japanese                 	$50-$100
+    Shalala                  	Japanese                 	$40-$50
+    Pho Hoa                  	Vietnamese               	$0-$10
 
 Agent Profile:
     Preferred Cuisine Order:
-        American
         French
-        SeaFood
-        Mexican
+        Vietnamese
+        Japanese
         Deli
+        Italian
     Preferred Price Range:
+        $40-$50
         $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        Japanese
+        American
+        SeaFood
+        Chinese
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
 
 ====================================================================================
 ======= Scenario #9  ==============================================================
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$30-$40
-    Scratch                  	American                 	$20-$30
-    Steins Beer Garden       	American                 	$0-$10
-    The Crepevine            	American                 	$50-$100
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hunan Chili              	Chinese                  	$50-$100
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Shabuway                 	Japanese                 	$50-$100
     Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$20-$30
-    Cascal                   	Spanish                  	$30-$40
-    Asian Box                	Vietnamese               	$30-$40
+    Shell Shock              	SeaFood                  	$30-$40
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        Japanese
+        American
+        SeaFood
+        Chinese
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Pizza
+        Vietnamese
+        Korean
+        SeaFood
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #10  ==============================================================
+====================================================================================
+
+Restaurants:
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Cascal                   	Spanish                  	$50-$100
+    Asian Box                	Vietnamese               	$10-$20
     Pho Hoa                  	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$30-$40
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Pizza
+        Vietnamese
+        Korean
+        SeaFood
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Japanese
+        Vietnamese
+        Indian
+        Italian
+        French
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #11  ==============================================================
+====================================================================================
+
+Restaurants:
+    Shezan                   	Indian                   	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Vaso Azzurro             	Italian                  	$0-$10
+    Bushido                  	Japanese                 	$40-$50
+    Maruichi Noodle House    	Japanese                 	$0-$10
+    Masa Sushi               	Japanese                 	$10-$20
+    Shalala                  	Japanese                 	$40-$50
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Japanese
+        Vietnamese
+        Indian
+        Italian
+        French
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mediterranean
+        Thai
+        Pizza
+        Indian
+        Spanish
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #12  ==============================================================
+====================================================================================
+
+Restaurants:
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Oren's Hummus            	Mediterranean            	$40-$50
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Cascal                   	Spanish                  	$50-$100
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mediterranean
+        Thai
+        Pizza
+        Indian
+        Spanish
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        SeaFood
+        Mexican
+        Italian
+        Korean
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #13  ==============================================================
+====================================================================================
+
+Restaurants:
+    Doppio Zero              	Italian                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Ginseng                  	Korean                   	$30-$40
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Cascal                   	Spanish                  	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        SeaFood
+        Mexican
+        Italian
+        Korean
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Japanese
+        Mediterranean
+        Deli
+        Korean
+        Thai
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #14  ==============================================================
+====================================================================================
+
+Restaurants:
+    Posh Bagel               	Deli                     	$20-$30
+    Bushido                  	Japanese                 	$40-$50
+    Maruichi Noodle House    	Japanese                 	$0-$10
+    Rumble Fish              	Japanese                 	$0-$10
+    Shalala                  	Japanese                 	$40-$50
+    Sushitomi                	Japanese                 	$20-$30
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Morocco's                	Mediterranean            	$50-$100
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Japanese
+        Mediterranean
+        Deli
+        Korean
+        Thai
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Korean
+        Indian
+        Deli
+        Chinese
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #15  ==============================================================
+====================================================================================
+
+Restaurants:
+    Hunan Chili              	Chinese                  	$50-$100
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Totoro                   	Korean                   	$40-$50
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Korean
+        Indian
+        Deli
+        Chinese
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Mexican
+        Italian
+        Deli
+        American
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #16  ==============================================================
+====================================================================================
+
+Restaurants:
+    Scratch                  	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Subway                   	Deli                     	$40-$50
+    Doppio Zero              	Italian                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Agave                    	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Mexican
+        Italian
+        Deli
+        American
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        American
+        Korean
+        Italian
+        Vietnamese
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #17  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Ginseng                  	Korean                   	$30-$40
+    Asian Box                	Vietnamese               	$10-$20
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        American
+        Korean
+        Italian
+        Vietnamese
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Chinese
+        Spanish
+        Pizza
+        Mexican
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #18  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hunan Chili              	Chinese                  	$50-$100
+    Kirin                    	Chinese                  	$0-$10
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Cascal                   	Spanish                  	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Chinese
+        Spanish
+        Pizza
+        Mexican
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        Mediterranean
+        Spanish
+        Pizza
+        Indian
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #19  ==============================================================
+====================================================================================
+
+Restaurants:
+    Shezan                   	Indian                   	$50-$100
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Cascal                   	Spanish                  	$50-$100
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        Mediterranean
+        Spanish
+        Pizza
+        Indian
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        SeaFood
+        Vietnamese
+        Mexican
+        American
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #20  ==============================================================
+====================================================================================
+
+Restaurants:
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Asian Box                	Vietnamese               	$10-$20
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        SeaFood
+        Vietnamese
+        Mexican
+        American
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Korean
+        Spanish
+        Thai
+        Deli
+        Indian
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #21  ==============================================================
+====================================================================================
+
+Restaurants:
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Korean
+        Spanish
+        Thai
+        Deli
+        Indian
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        Mediterranean
+        Indian
+        Chinese
+        Italian
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #22  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hunan Chili              	Chinese                  	$50-$100
+    Kirin                    	Chinese                  	$0-$10
+    Subway                   	Deli                     	$40-$50
+    Shezan                   	Indian                   	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Oren's Hummus            	Mediterranean            	$40-$50
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        Mediterranean
+        Indian
+        Chinese
+        Italian
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Japanese
+        Italian
+        Spanish
+        Chinese
+        French
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #23  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Kirin                    	Chinese                  	$0-$10
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Bushido                  	Japanese                 	$40-$50
+    Masa Sushi               	Japanese                 	$10-$20
+    Niji Sushi               	Japanese                 	$40-$50
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Shalala                  	Japanese                 	$40-$50
+    Sushitomi                	Japanese                 	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Japanese
+        Italian
+        Spanish
+        Chinese
+        French
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
 
 Agent Profile:
     Preferred Cuisine Order:
         American
+        French
+        Italian
+        Spanish
+        Chinese
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #24  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Kirin                    	Chinese                  	$0-$10
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Doppio Zero              	Italian                  	$30-$40
+    Vaso Azzurro             	Italian                  	$0-$10
+    Cascal                   	Spanish                  	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        French
+        Italian
+        Spanish
+        Chinese
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Mexican
+        Indian
+        Korean
+        Thai
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #25  ==============================================================
+====================================================================================
+
+Restaurants:
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Vaso Azzurro             	Italian                  	$0-$10
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Mexican
+        Indian
+        Korean
+        Thai
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Mediterranean
+        SeaFood
+        American
+        Thai
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #26  ==============================================================
+====================================================================================
+
+Restaurants:
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Oren's Hummus            	Mediterranean            	$40-$50
+    Shell Shock              	SeaFood                  	$30-$40
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Mediterranean
+        SeaFood
+        American
+        Thai
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        Italian
+        Pizza
+        Indian
+        Deli
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #27  ==============================================================
+====================================================================================
+
+Restaurants:
+    Posh Bagel               	Deli                     	$20-$30
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        Italian
+        Pizza
+        Indian
+        Deli
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Korean
+        Spanish
+        Deli
+        Mexican
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #28  ==============================================================
+====================================================================================
+
+Restaurants:
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Cascal                   	Spanish                  	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Korean
+        Spanish
+        Deli
+        Mexican
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Deli
+        Thai
+        Mediterranean
+        SeaFood
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #29  ==============================================================
+====================================================================================
+
+Restaurants:
+    Posh Bagel               	Deli                     	$20-$30
+    Park Ballachi            	Indian                   	$20-$30
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Morocco's                	Mediterranean            	$50-$100
+    Oren's Hummus            	Mediterranean            	$40-$50
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Deli
+        Thai
+        Mediterranean
+        SeaFood
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        French
+        Pizza
+        American
+        Mexican
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #30  ==============================================================
+====================================================================================
+
+Restaurants:
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        French
+        Pizza
+        American
+        Mexican
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Korean
+        Spanish
+        SeaFood
+        Chinese
+        French
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #31  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hunan Chili              	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Chez TJ                  	French                   	$30-$40
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Cascal                   	Spanish                  	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Korean
+        Spanish
+        SeaFood
+        Chinese
+        French
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        Korean
+        Vietnamese
+        Spanish
+        Chinese
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #32  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hunan Chili              	Chinese                  	$50-$100
+    Kirin                    	Chinese                  	$0-$10
+    Queen House              	Chinese                  	$0-$10
+    Ginseng                  	Korean                   	$30-$40
+    Cascal                   	Spanish                  	$50-$100
+    Bangkok Spoon            	Thai                     	$50-$100
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        Korean
+        Vietnamese
+        Spanish
+        Chinese
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Japanese
+        Italian
+        Mediterranean
+        Thai
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #33  ==============================================================
+====================================================================================
+
+Restaurants:
+    The Crepevine            	American                 	$50-$100
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Masa Sushi               	Japanese                 	$10-$20
+    Rumble Fish              	Japanese                 	$0-$10
+    Shabuway                 	Japanese                 	$50-$100
+    Shalala                  	Japanese                 	$40-$50
+    Sushitomi                	Japanese                 	$20-$30
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Oren's Hummus            	Mediterranean            	$40-$50
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Japanese
+        Italian
+        Mediterranean
+        Thai
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        Italian
+        Mexican
+        Spanish
+        Japanese
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #34  ==============================================================
+====================================================================================
+
+Restaurants:
+    Chez TJ                  	French                   	$30-$40
+    Doppio Zero              	Italian                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Kappo Naminami           	Japanese                 	$50-$100
+    Niji Sushi               	Japanese                 	$40-$50
+    Rumble Fish              	Japanese                 	$0-$10
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Sushitomi                	Japanese                 	$20-$30
+    Yakko                    	Japanese                 	$20-$30
+    Agave                    	Mexican                  	$30-$40
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        Italian
+        Mexican
+        Spanish
+        Japanese
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Korean
+        Pizza
+        Deli
+        Spanish
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #35  ==============================================================
+====================================================================================
+
+Restaurants:
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Cascal                   	Spanish                  	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Korean
+        Pizza
+        Deli
+        Spanish
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Japanese
+        Indian
+        SeaFood
+        Pizza
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #36  ==============================================================
+====================================================================================
+
+Restaurants:
+    Scratch                  	American                 	$10-$20
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Kappo Naminami           	Japanese                 	$50-$100
+    Niji Sushi               	Japanese                 	$40-$50
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Sushitomi                	Japanese                 	$20-$30
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Japanese
+        Indian
+        SeaFood
+        Pizza
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        Chinese
+        Deli
+        Korean
+        Japanese
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #37  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Subway                   	Deli                     	$40-$50
+    Bushido                  	Japanese                 	$40-$50
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Shabuway                 	Japanese                 	$50-$100
+    Yakko                    	Japanese                 	$20-$30
+    Ginseng                  	Korean                   	$30-$40
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Taqueria Los Charros     	Mexican                  	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        Chinese
+        Deli
+        Korean
+        Japanese
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Korean
+        Mediterranean
         Vietnamese
         French
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #38  ==============================================================
+====================================================================================
+
+Restaurants:
+    Chez TJ                  	French                   	$30-$40
+    Vaso Azzurro             	Italian                  	$0-$10
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Oren's Hummus            	Mediterranean            	$40-$50
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Korean
+        Mediterranean
+        Vietnamese
+        French
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Pizza
+        Vietnamese
+        Mediterranean
+        Thai
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #39  ==============================================================
+====================================================================================
+
+Restaurants:
+    Park Ballachi            	Indian                   	$20-$30
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Pizza
+        Vietnamese
+        Mediterranean
+        Thai
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        SeaFood
+        Mediterranean
+        Deli
+        Pizza
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #40  ==============================================================
+====================================================================================
+
+Restaurants:
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Oren's Hummus            	Mediterranean            	$40-$50
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Asian Box                	Vietnamese               	$10-$20
+    Pho To Chau              	Vietnamese               	$0-$10
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        SeaFood
+        Mediterranean
+        Deli
+        Pizza
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Vietnamese
+        Deli
+        Pizza
+        Mexican
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #41  ==============================================================
+====================================================================================
+
+Restaurants:
+    Subway                   	Deli                     	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Vietnamese
+        Deli
+        Pizza
+        Mexican
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Pizza
+        French
+        SeaFood
+        Vietnamese
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #42  ==============================================================
+====================================================================================
+
+Restaurants:
+    Chez TJ                  	French                   	$30-$40
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Cascal                   	Spanish                  	$50-$100
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Pizza
+        French
+        SeaFood
+        Vietnamese
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Mexican
+        Pizza
+        Japanese
+        French
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #43  ==============================================================
+====================================================================================
+
+Restaurants:
+    Chez TJ                  	French                   	$30-$40
+    Kappo Naminami           	Japanese                 	$50-$100
+    Masa Sushi               	Japanese                 	$10-$20
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Sushitomi                	Japanese                 	$20-$30
+    Yakko                    	Japanese                 	$20-$30
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Blue Line Pizza          	Pizza                    	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Mexican
+        Pizza
+        Japanese
+        French
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Pizza
+        Thai
+        Indian
+        SeaFood
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #44  ==============================================================
+====================================================================================
+
+Restaurants:
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Shell Shock              	SeaFood                  	$30-$40
+    Cascal                   	Spanish                  	$50-$100
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Pizza
+        Thai
+        Indian
+        SeaFood
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        Deli
+        Chinese
+        Mediterranean
+        Korean
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #45  ==============================================================
+====================================================================================
+
+Restaurants:
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Oren's Hummus            	Mediterranean            	$40-$50
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        Deli
+        Chinese
+        Mediterranean
+        Korean
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Japanese
+        Mediterranean
+        Deli
+        Italian
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #46  ==============================================================
+====================================================================================
+
+Restaurants:
+    Subway                   	Deli                     	$40-$50
+    Shezan                   	Indian                   	$50-$100
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Masa Sushi               	Japanese                 	$10-$20
+    Rumble Fish              	Japanese                 	$0-$10
+    Shabuway                 	Japanese                 	$50-$100
+    Café Baklava            	Mediterranean            	$20-$30
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Japanese
+        Mediterranean
+        Deli
+        Italian
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        Italian
+        American
+        Indian
+        Mediterranean
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #47  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Vaso Azzurro             	Italian                  	$0-$10
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        Italian
+        American
+        Indian
+        Mediterranean
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        Italian
+        Mexican
+        American
+        Japanese
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #48  ==============================================================
+====================================================================================
+
+Restaurants:
+    Scratch                  	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Vaso Azzurro             	Italian                  	$0-$10
+    Shabuway                 	Japanese                 	$50-$100
+    Shalala                  	Japanese                 	$40-$50
+    Yakko                    	Japanese                 	$20-$30
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        Italian
+        Mexican
+        American
+        Japanese
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Pizza
+        Korean
+        Deli
+        Vietnamese
+        Chinese
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #49  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hunan Chili              	Chinese                  	$50-$100
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Asian Box                	Vietnamese               	$10-$20
+    Pho To Chau              	Vietnamese               	$0-$10
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Pizza
+        Korean
+        Deli
+        Vietnamese
+        Chinese
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        Pizza
+        American
+        Italian
+        Thai
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #50  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    Vaso Azzurro             	Italian                  	$0-$10
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        Pizza
+        American
+        Italian
+        Thai
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Thai
+        Mexican
+        Spanish
+        SeaFood
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #51  ==============================================================
+====================================================================================
+
+Restaurants:
+    Doppio Zero              	Italian                  	$30-$40
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Cascal                   	Spanish                  	$50-$100
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Thai
+        Mexican
+        Spanish
+        SeaFood
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Indian
+        Italian
+        Vietnamese
+        Pizza
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #52  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Vaso Azzurro             	Italian                  	$0-$10
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Indian
+        Italian
+        Vietnamese
+        Pizza
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        French
+        Korean
+        Indian
+        Mediterranean
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #53  ==============================================================
+====================================================================================
+
+Restaurants:
+    Chez TJ                  	French                   	$30-$40
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Vaso Azzurro             	Italian                  	$0-$10
+    Ginseng                  	Korean                   	$30-$40
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Morocco's                	Mediterranean            	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        French
+        Korean
+        Indian
+        Mediterranean
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        Mexican
+        Chinese
+        Indian
+        Pizza
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #54  ==============================================================
+====================================================================================
+
+Restaurants:
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        Mexican
+        Chinese
+        Indian
+        Pizza
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Deli
+        Spanish
+        Mexican
+        Japanese
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #55  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Posh Bagel               	Deli                     	$20-$30
+    Masa Sushi               	Japanese                 	$10-$20
+    Rumble Fish              	Japanese                 	$0-$10
+    Shabuway                 	Japanese                 	$50-$100
+    Shalala                  	Japanese                 	$40-$50
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Taqueria Los Charros     	Mexican                  	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Deli
+        Spanish
+        Mexican
+        Japanese
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        Pizza
+        Thai
+        Japanese
+        SeaFood
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #56  ==============================================================
+====================================================================================
+
+Restaurants:
+    Chez TJ                  	French                   	$30-$40
+    Masa Sushi               	Japanese                 	$10-$20
+    Niji Sushi               	Japanese                 	$40-$50
+    Rumble Fish              	Japanese                 	$0-$10
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Shabuway                 	Japanese                 	$50-$100
+    Shalala                  	Japanese                 	$40-$50
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Shell Shock              	SeaFood                  	$30-$40
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        Pizza
+        Thai
+        Japanese
+        SeaFood
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mediterranean
+        Japanese
+        Chinese
+        Indian
+        Italian
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #57  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Park Ballachi            	Indian                   	$20-$30
+    Doppio Zero              	Italian                  	$30-$40
+    Shabuway                 	Japanese                 	$50-$100
+    Shalala                  	Japanese                 	$40-$50
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mediterranean
+        Japanese
+        Chinese
+        Indian
+        Italian
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Pizza
+        Chinese
+        Deli
+        SeaFood
+        Mexican
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #58  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hunan Chili              	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Drunken Lobster          	SeaFood                  	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Pizza
+        Chinese
+        Deli
+        SeaFood
+        Mexican
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        Korean
+        Chinese
+        Indian
+        Japanese
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #59  ==============================================================
+====================================================================================
+
+Restaurants:
+    Kirin                    	Chinese                  	$0-$10
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Kappo Naminami           	Japanese                 	$50-$100
+    Rumble Fish              	Japanese                 	$0-$10
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Shabuway                 	Japanese                 	$50-$100
+    Yakko                    	Japanese                 	$20-$30
+    Totoro                   	Korean                   	$40-$50
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        Korean
+        Chinese
+        Indian
+        Japanese
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Japanese
+        Pizza
+        Thai
+        Spanish
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #60  ==============================================================
+====================================================================================
+
+Restaurants:
+    Doppio Zero              	Italian                  	$30-$40
+    Bushido                  	Japanese                 	$40-$50
+    Maruichi Noodle House    	Japanese                 	$0-$10
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Shalala                  	Japanese                 	$40-$50
+    Yakko                    	Japanese                 	$20-$30
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Cascal                   	Spanish                  	$50-$100
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Japanese
+        Pizza
+        Thai
+        Spanish
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Deli
+        SeaFood
+        Chinese
+        Pizza
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #61  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Deli
+        SeaFood
+        Chinese
+        Pizza
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        SeaFood
+        Thai
+        American
+        Vietnamese
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #62  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Subway                   	Deli                     	$40-$50
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        SeaFood
+        Thai
+        American
+        Vietnamese
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Mexican
+        Korean
+        Deli
+        Italian
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #63  ==============================================================
+====================================================================================
+
+Restaurants:
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Doppio Zero              	Italian                  	$30-$40
+    Vaso Azzurro             	Italian                  	$0-$10
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Cascal                   	Spanish                  	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Mexican
+        Korean
+        Deli
+        Italian
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Italian
+        Mexican
+        Thai
+        American
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #64  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Taqueria Los Charros     	Mexican                  	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Italian
+        Mexican
+        Thai
+        American
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        Indian
+        Pizza
+        Italian
+        Mediterranean
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #65  ==============================================================
+====================================================================================
+
+Restaurants:
+    Subway                   	Deli                     	$40-$50
+    Park Ballachi            	Indian                   	$20-$30
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Vaso Azzurro             	Italian                  	$0-$10
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Oren's Hummus            	Mediterranean            	$40-$50
+    Blue Line Pizza          	Pizza                    	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        Indian
+        Pizza
+        Italian
+        Mediterranean
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        Mediterranean
+        Chinese
+        American
+        Indian
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #66  ==============================================================
+====================================================================================
+
+Restaurants:
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Kirin                    	Chinese                  	$0-$10
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        Mediterranean
+        Chinese
+        American
+        Indian
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Italian
+        SeaFood
+        Pizza
+        Spanish
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #67  ==============================================================
+====================================================================================
+
+Restaurants:
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Italian
+        SeaFood
+        Pizza
+        Spanish
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        Mexican
+        American
+        Mediterranean
+        Italian
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #68  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    Doppio Zero              	Italian                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Morocco's                	Mediterranean            	$50-$100
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Taqueria Los Charros     	Mexican                  	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        Mexican
+        American
+        Mediterranean
+        Italian
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        French
+        American
+        Italian
+        Mediterranean
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #69  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Oren's Hummus            	Mediterranean            	$40-$50
+    Cascal                   	Spanish                  	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        French
+        American
+        Italian
+        Mediterranean
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        Japanese
+        American
+        French
+        Pizza
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #70  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Subway                   	Deli                     	$40-$50
+    Maruichi Noodle House    	Japanese                 	$0-$10
+    Masa Sushi               	Japanese                 	$10-$20
+    Rumble Fish              	Japanese                 	$0-$10
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Yakko                    	Japanese                 	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Deli
+        Japanese
+        American
+        French
+        Pizza
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Thai
+        Mexican
+        French
+        Pizza
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #71  ==============================================================
+====================================================================================
+
+Restaurants:
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        Thai
+        Mexican
+        French
+        Pizza
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Indian
+        Korean
+        Thai
+        Italian
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #72  ==============================================================
+====================================================================================
+
+Restaurants:
+    Park Ballachi            	Indian                   	$20-$30
+    Sakoon                   	Indian                   	$10-$20
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Cascal                   	Spanish                  	$50-$100
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Indian
+        Korean
+        Thai
+        Italian
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Korean
+        Chinese
+        Pizza
+        Indian
+        Mexican
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #73  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Ginseng                  	Korean                   	$30-$40
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Korean
+        Chinese
+        Pizza
+        Indian
+        Mexican
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        French
+        Chinese
+        Indian
+        Italian
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #74  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Queen House              	Chinese                  	$0-$10
+    Chez TJ                  	French                   	$30-$40
+    Park Ballachi            	Indian                   	$20-$30
+    Shezan                   	Indian                   	$50-$100
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        French
+        Chinese
+        Indian
+        Italian
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Deli
+        French
+        Mediterranean
+        Spanish
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #75  ==============================================================
+====================================================================================
+
+Restaurants:
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Oren's Hummus            	Mediterranean            	$40-$50
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Cascal                   	Spanish                  	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Deli
+        French
+        Mediterranean
+        Spanish
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        French
+        Indian
+        Japanese
+        Italian
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #76  ==============================================================
+====================================================================================
+
+Restaurants:
+    Sakoon                   	Indian                   	$10-$20
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Bushido                  	Japanese                 	$40-$50
+    Kappo Naminami           	Japanese                 	$50-$100
+    Maruichi Noodle House    	Japanese                 	$0-$10
+    Niji Sushi               	Japanese                 	$40-$50
+    Yakko                    	Japanese                 	$20-$30
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        French
+        Indian
+        Japanese
+        Italian
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        Korean
+        Chinese
+        Italian
+        Mediterranean
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #77  ==============================================================
+====================================================================================
+
+Restaurants:
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hunan Chili              	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Totoro                   	Korean                   	$40-$50
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        Korean
+        Chinese
+        Italian
+        Mediterranean
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        Italian
+        Japanese
+        Korean
+        French
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #78  ==============================================================
+====================================================================================
+
+Restaurants:
+    Maruichi Noodle House    	Japanese                 	$0-$10
+    Masa Sushi               	Japanese                 	$10-$20
+    Shabuway                 	Japanese                 	$50-$100
+    Shalala                  	Japanese                 	$40-$50
+    Sushitomi                	Japanese                 	$20-$30
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Agave                    	Mexican                  	$30-$40
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        Italian
+        Japanese
+        Korean
+        French
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        Deli
+        Vietnamese
+        SeaFood
+        French
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #79  ==============================================================
+====================================================================================
+
+Restaurants:
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        Deli
+        Vietnamese
+        SeaFood
+        French
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        Deli
+        Spanish
+        Thai
+        Chinese
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #80  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hunan Chili              	Chinese                  	$50-$100
+    Kirin                    	Chinese                  	$0-$10
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Chez TJ                  	French                   	$30-$40
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        Deli
+        Spanish
+        Thai
+        Chinese
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mediterranean
+        Thai
+        Deli
+        French
+        Pizza
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #81  ==============================================================
+====================================================================================
+
+Restaurants:
+    Subway                   	Deli                     	$40-$50
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Oren's Hummus            	Mediterranean            	$40-$50
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mediterranean
+        Thai
+        Deli
+        French
+        Pizza
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Chinese
+        Mediterranean
+        Japanese
         SeaFood
         Spanish
     Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #82  ==============================================================
+====================================================================================
+
+Restaurants:
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Bushido                  	Japanese                 	$40-$50
+    Masa Sushi               	Japanese                 	$10-$20
+    Rumble Fish              	Japanese                 	$0-$10
+    Shalala                  	Japanese                 	$40-$50
+    Sushitomi                	Japanese                 	$20-$30
+    Café Baklava            	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Cascal                   	Spanish                  	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Chinese
+        Mediterranean
+        Japanese
+        SeaFood
+        Spanish
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Vietnamese
+        American
+        Japanese
+        SeaFood
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #83  ==============================================================
+====================================================================================
+
+Restaurants:
+    Steins Beer Garden       	American                 	$10-$20
+    Vaso Azzurro             	Italian                  	$0-$10
+    Niji Sushi               	Japanese                 	$40-$50
+    Rumble Fish              	Japanese                 	$0-$10
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Shabuway                 	Japanese                 	$50-$100
+    Sushitomi                	Japanese                 	$20-$30
+    Shell Shock              	SeaFood                  	$30-$40
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Vietnamese
+        American
+        Japanese
+        SeaFood
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        American
+        Mexican
+        Mediterranean
+        Spanish
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #84  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    Café Baklava            	Mediterranean            	$20-$30
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Asian Box                	Vietnamese               	$10-$20
+    Pho To Chau              	Vietnamese               	$0-$10
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        American
+        Mexican
+        Mediterranean
+        Spanish
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Vietnamese
+        American
+        Japanese
+        Thai
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #85  ==============================================================
+====================================================================================
+
+Restaurants:
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    Doppio Zero              	Italian                  	$30-$40
+    Kappo Naminami           	Japanese                 	$50-$100
+    Niji Sushi               	Japanese                 	$40-$50
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Sushitomi                	Japanese                 	$20-$30
+    Bangkok Spoon            	Thai                     	$50-$100
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Italian
+        Vietnamese
+        American
+        Japanese
+        Thai
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Pizza
+        Italian
+        Thai
+        Indian
+        American
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #86  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    Shiva’s Indian Restaurant	Indian                   	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Pizza
+        Italian
+        Thai
+        Indian
+        American
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        Korean
+        French
+        Thai
+        Pizza
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #87  ==============================================================
+====================================================================================
+
+Restaurants:
+    Chez TJ                  	French                   	$30-$40
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mexican
+        Korean
+        French
+        Thai
+        Pizza
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Korean
+        Vietnamese
+        Thai
+        SeaFood
+        Italian
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #88  ==============================================================
+====================================================================================
+
+Restaurants:
+    Doppio Zero              	Italian                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Ginseng                  	Korean                   	$30-$40
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Amarin Thai Cuisine      	Thai                     	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+    Xanh Restaurant          	Vietnamese               	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Korean
+        Vietnamese
+        Thai
+        SeaFood
+        Italian
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        SeaFood
+        Korean
+        Spanish
+        Mexican
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+====================================================================================
+======= Scenario #89  ==============================================================
+====================================================================================
+
+Restaurants:
+    Agave                    	Mexican                  	$30-$40
+    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
+    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Taqueria Los Charros     	Mexican                  	$10-$20
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Shell Shock              	SeaFood                  	$30-$40
+    Cascal                   	Spanish                  	$50-$100
+    Asian Box                	Vietnamese               	$10-$20
+    Pho Hoa                  	Vietnamese               	$0-$10
+    Pho To Chau              	Vietnamese               	$0-$10
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Vietnamese
+        SeaFood
+        Korean
+        Spanish
+        Mexican
+    Preferred Price Range:
+        $50-$100
+        $30-$40
+        $20-$30
+        $10-$20
+        $40-$50
+        $0-$10
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Chinese
+        Italian
+        Thai
+        American
+        SeaFood
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #90  ==============================================================
+====================================================================================
+
+Restaurants:
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hunan Chili              	Chinese                  	$50-$100
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Drunken Lobster          	SeaFood                  	$10-$20
+    Bangkok Spoon            	Thai                     	$50-$100
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Chinese
+        Italian
+        Thai
+        American
+        SeaFood
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Mexican
+        Korean
+        SeaFood
+        Chinese
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #91  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Kirin                    	Chinese                  	$0-$10
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Queen House              	Chinese                  	$0-$10
+    Shell Shock              	SeaFood                  	$30-$40
+
+Agent Profile:
+    Preferred Cuisine Order:
+        American
+        Mexican
+        Korean
+        SeaFood
+        Chinese
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Korean
+        Chinese
+        Indian
+        Pizza
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #92  ==============================================================
+====================================================================================
+
+Restaurants:
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hunan Chili              	Chinese                  	$50-$100
+    Kirin                    	Chinese                  	$0-$10
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Shezan                   	Indian                   	$50-$100
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+    Drunken Lobster          	SeaFood                  	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        SeaFood
+        Korean
+        Chinese
+        Indian
+        Pizza
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        American
+        Korean
+        Deli
+        Chinese
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+====================================================================================
+======= Scenario #93  ==============================================================
+====================================================================================
+
+Restaurants:
+    Scratch                  	American                 	$10-$20
+    Steins Beer Garden       	American                 	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hunan Chili              	Chinese                  	$50-$100
+    Kirin                    	Chinese                  	$0-$10
+    Queen House              	Chinese                  	$0-$10
+    Posh Bagel               	Deli                     	$20-$30
+    Subway                   	Deli                     	$40-$50
+    Sakoon                   	Indian                   	$10-$20
+    Ginseng                  	Korean                   	$30-$40
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Indian
+        American
+        Korean
+        Deli
+        Chinese
+    Preferred Price Range:
+        $40-$50
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Thai
+        Japanese
+        Italian
+        Pizza
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #94  ==============================================================
+====================================================================================
+
+Restaurants:
+    Vaso Azzurro             	Italian                  	$0-$10
+    Bushido                  	Japanese                 	$40-$50
+    Kappo Naminami           	Japanese                 	$50-$100
+    Maruichi Noodle House    	Japanese                 	$0-$10
+    Niji Sushi               	Japanese                 	$40-$50
+    Shabuway                 	Japanese                 	$50-$100
+    Shalala                  	Japanese                 	$40-$50
+    Yakko                    	Japanese                 	$20-$30
+    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Blue Line Pizza          	Pizza                    	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Spanish
+        Thai
+        Japanese
+        Italian
+        Pizza
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        Italian
+        Chinese
+        Japanese
+        Korean
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #95  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hunan Chili              	Chinese                  	$50-$100
+    Kirin                    	Chinese                  	$0-$10
+    Doppio Zero              	Italian                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Kappo Naminami           	Japanese                 	$50-$100
+    Masa Sushi               	Japanese                 	$10-$20
+    Ryowa Noodle House       	Japanese                 	$20-$30
+    Ginseng                  	Korean                   	$30-$40
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Thai
+        Italian
+        Chinese
+        Japanese
+        Korean
+    Preferred Price Range:
+        $30-$40
+        $20-$30
+        $10-$20
+        $0-$10
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        SeaFood
+        American
+        Korean
+        Mediterranean
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #96  ==============================================================
+====================================================================================
+
+Restaurants:
+    Bierhaus                 	American                 	$10-$20
+    Scratch                  	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Chez TJ                  	French                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Morocco's                	Mediterranean            	$50-$100
+    Drunken Lobster          	SeaFood                  	$10-$20
+
+Agent Profile:
+    Preferred Cuisine Order:
+        French
+        SeaFood
+        American
+        Korean
+        Mediterranean
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Chinese
+        Spanish
+        Japanese
+        Deli
+        Korean
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #97  ==============================================================
+====================================================================================
+
+Restaurants:
+    Fu Lam Mum               	Chinese                  	$10-$20
+    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hunan Chili              	Chinese                  	$50-$100
+    New Mongolian BBQ        	Chinese                  	$50-$100
+    Bushido                  	Japanese                 	$40-$50
+    Kappo Naminami           	Japanese                 	$50-$100
+    Maruichi Noodle House    	Japanese                 	$0-$10
+    Niji Sushi               	Japanese                 	$40-$50
+    Sushitomi                	Japanese                 	$20-$30
+    Yakko                    	Japanese                 	$20-$30
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Chinese
+        Spanish
+        Japanese
+        Deli
+        Korean
+    Preferred Price Range:
+        $20-$30
+        $10-$20
+        $0-$10
+        $30-$40
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Korean
+        Italian
+        French
+        American
+        Japanese
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+====================================================================================
+======= Scenario #98  ==============================================================
+====================================================================================
+
+Restaurants:
+    The Crepevine            	American                 	$50-$100
+    Chez TJ                  	French                   	$30-$40
+    Doppio Zero              	Italian                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Bushido                  	Japanese                 	$40-$50
+    Rumble Fish              	Japanese                 	$0-$10
+    Shabuway                 	Japanese                 	$50-$100
+    Ginseng                  	Korean                   	$30-$40
+    Totoro                   	Korean                   	$40-$50
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Korean
+        Italian
+        French
+        American
+        Japanese
+    Preferred Price Range:
+        $10-$20
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $40-$50
+
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mediterranean
+        Spanish
+        American
+        Italian
+        Korean
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
+        $40-$50
+
+====================================================================================
+======= Scenario #99  ==============================================================
+====================================================================================
+
+Restaurants:
+    Steins Beer Garden       	American                 	$10-$20
+    The Crepevine            	American                 	$50-$100
+    Doppio Zero              	Italian                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Vaso Azzurro             	Italian                  	$0-$10
+    Ginseng                  	Korean                   	$30-$40
+    Café Baklava            	Mediterranean            	$20-$30
+    Ehpesus                  	Mediterranean            	$30-$40
+    Mediterranean Grill House	Mediterranean            	$20-$30
+    Oren's Hummus            	Mediterranean            	$40-$50
+
+Agent Profile:
+    Preferred Cuisine Order:
+        Mediterranean
+        Spanish
+        American
+        Italian
+        Korean
+    Preferred Price Range:
+        $0-$10
+        $30-$40
+        $20-$30
+        $50-$100
+        $10-$20
         $40-$50
 

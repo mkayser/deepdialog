@@ -11,16 +11,14 @@
 	"num_agents": 2,
 	"random_seed": 0,
 	"cuisine_func_factory": {
-	    "factor": 0.8,
-	    "min_val": 0.0,
-	    "max_val": 1.0
+	    "index_to_utility": [10,6,2,0,0]
 	},
 	"spending_func_factory": {
-	    "start_val": 0.5,
-	    "end_val": 0.0,
-	    "max_val": 1.0
+	    "utility_if_match": 5,
+	    "utility_if_more_expensive": 0,
+	    "utility_if_cheaper": 2
 	}
     },
 
-    "num_scenarios": 10
+    "num_scenarios": 100
 }

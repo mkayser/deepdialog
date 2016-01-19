@@ -1,6 +1,7 @@
 import sys
 import random
 import json
+import uuid
 import numpy as np
 import argparse
 
@@ -66,17 +67,19 @@ class SpendingFunc(object):
 
 
 class SpendingFuncFactory(object):
-    def __init__(self, ranges, m1=0.0, m2=0.5, M=1.0):
+    def __init__(self, ranges, u_match, u_exp, u_cheap, u_dtype=np.int_):
         self.ranges = ranges
-        self.m1 = m1
-        self.m2 = m2
-        self.M = M
+        self.u_match = u_match
+        self.u_exp = u_exp
+        self.u_cheap = u_cheap
+        self.u_dtype = u_dtype
 
     def create_from_optimal_index(self, index):
         assert index < len(self.ranges)
-        u = np.zeros(len(self.ranges))
-        u[:index+1] = np.linspace(self.m1, self.M, index+1)
-        u[index:] = np.linspace(self.M, self.m2, len(self.ranges)-index)
+        u = np.zeros(len(self.ranges), dtype=self.u_dtype)
+        u[:index] = self.u_cheap
+        u[index] = self.u_match
+        u[index+1:] = self.u_exp
         m = {item:index for index,item in enumerate(self.ranges)}
         return SpendingFunc(u, m)
 
@@ -101,18 +104,12 @@ class CuisineFunc(object):
         return results
 
 class CuisineFuncFactory(object):
-    def __init__(self, factor, m, M):
-        self.factor = factor
-        self.m = m
-        self.M = M
+    def __init__(self, index_to_utility):
+        self.index_to_utility = index_to_utility
 
     def create_from_ordering(self, ordering):
-        a = self.factor ** np.arange(len(ordering))
-        a -= a.min()
-        a *= (self.M-self.m) / a.max()
-        a += self.m
         _map = {item:index for index,item in enumerate(ordering)}
-        return CuisineFunc(a,_map)
+        return CuisineFunc(self.index_to_utility,_map)
         
 
 class Agent(object):
@@ -134,12 +131,14 @@ class Scenario(object):
         self.cuisines = cuisines
         self.restaurants = restaurants
         self.agents = agents
+        self.uuid = str(uuid.uuid4())
 
     def __info__(self):
         d = {}
         d["cuisines"] = self.cuisines
         d["restaurants"] = [r.__info__() for r in self.restaurants]
         d["agents"] = [a.__info__() for a in self.agents]
+        d["uuid"] = self.uuid
         return d
             
 
@@ -151,9 +150,9 @@ class ScenarioMaker(object):
         self.num_agents = config["num_agents"]
         self.randgen = random.Random(config["random_seed"])
         c = config["cuisine_func_factory"]
-        self.cfactory = CuisineFuncFactory(c["factor"], c["min_val"], c["max_val"])
+        self.cfactory = CuisineFuncFactory(c["index_to_utility"])
         c = config["spending_func_factory"]
-        self.sfactory = SpendingFuncFactory(world.price_ranges, c["start_val"], c["end_val"], c["max_val"])
+        self.sfactory = SpendingFuncFactory(world.price_ranges, c["utility_if_match"], c["utility_if_more_expensive"], c["utility_if_cheaper"])
 
     def make(self):
         cuisines = self.randgen.sample(self.world.cuisines, self.num_cuisines)
@@ -164,7 +163,8 @@ class ScenarioMaker(object):
         
         agents = []
         for i in range(self.num_agents):
-            cuisine_ordering = self.world.cuisines[:]
+            #cuisine_ordering = self.world.cuisines[:]
+            cuisine_ordering = cuisines[:]
             self.randgen.shuffle(cuisine_ordering)
 
             cf = self.cfactory.create_from_ordering(cuisine_ordering)
@@ -190,36 +190,35 @@ def main():
     scenario_maker = ScenarioMaker(world, config["scenario_maker"])
     n = config["num_scenarios"]
     TAB="    "
-    with open("{}.agent.1.txt".format(args.output_prefix),"w") as f1:
-        with open("{}.agent.2.txt".format(args.output_prefix),"w") as f2:
-            for i in range(n):
-                s = scenario_maker.make()
-                obj = s.__info__()
-                with open("{}.info.json".format(args.output_prefix),"w") as fout:
-                    json.dump(obj, fout, indent=4, sort_keys=True)
+    scenario_objs = []
+    with open("{}.info.json".format(args.output_prefix),"w") as fout:
+        with open("{}.agent.1.txt".format(args.output_prefix),"w") as f1:
+            with open("{}.agent.2.txt".format(args.output_prefix),"w") as f2:
+                for i in range(n):
+                    s = scenario_maker.make()
+                    scenario_objs.append(s.__info__())
 
-                for f in [f1,f2]:
-                    f.write("====================================================================================\n")
-                    f.write("======= Scenario #{}  ==============================================================\n".format(i))
-                    f.write("====================================================================================\n")
-                    f.write("\n")
-                    f.write("Restaurants:\n")
-                    for r in sorted(s.restaurants, key=lambda x:(x.cuisine,x.name)):
-                        f.write("{}{:25}\t{:25}\t${}-${}\n".format(TAB, r.name, r.cuisine, r.price_range[0],r.price_range[1]))
+                    for f in [f1,f2]:
+                        f.write("====================================================================================\n")
+                        f.write("======= Scenario #{}  ==============================================================\n".format(i))
+                        f.write("====================================================================================\n")
+                        f.write("\n")
+                        f.write("Restaurants:\n")
+                        for r in sorted(s.restaurants, key=lambda x:(x.cuisine,x.name)):
+                            f.write("{}{:25}\t{:25}\t${}-${}\n".format(TAB, r.name, r.cuisine, r.price_range[0],r.price_range[1]))
 
-                for a,f in [(s.agents[0],f1),(s.agents[1],f2)]:
-                    f.write("\n")
-                    f.write("Agent Profile:\n")
-                    f.write("{}Preferred Cuisine Order:\n".format(TAB))
-                    for c,score in a.cuisine_func.get_preference_list():
-                        if c in s.cuisines:
-                            f.write("{}{}{}\n".format(TAB,TAB,c))
-                    f.write("{}Preferred Price Range:\n".format(TAB))
-                    for p,score in a.spending_func.get_preference_list():
-                        f.write("{}{}${}-${}\n".format(TAB,TAB,p[0],p[1]))
-                        break
-                    f.write("\n")
-                    
+                        for a,f in [(s.agents[0],f1),(s.agents[1],f2)]:
+                            f.write("\n")
+                            f.write("Agent Profile:\n")
+                            f.write("{}Preferred Cuisine Order:\n".format(TAB))
+                            for c,score in a.cuisine_func.get_preference_list():
+                                if c in s.cuisines:
+                                    f.write("{}{}{}\n".format(TAB,TAB,c))
+                            f.write("{}Preferred Price Range:\n".format(TAB))
+                            for p,score in a.spending_func.get_preference_list():
+                                f.write("{}{}${}-${}\n".format(TAB,TAB,p[0],p[1]))
+                            f.write("\n")
+        json.dump(scenario_objs, fout)
                   
 
 
