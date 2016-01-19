@@ -102,13 +102,24 @@ class BackendConnection(object):
                 cursor.execute('''SELECT outcome FROM Outcomes WHERE agent1=? AND agent2=? AND scenario=? ORDER BY time DESC''', (partner, username, scenario_id))
                 stored_outcome = cursor.fetchone()
                 if stored_outcome:
+                    stored_outcome = stored_outcome[0]
+                    app.logger.debug("Found outcome %d already present when inserting outcome %d" % (stored_outcome, outcome))
                     if stored_outcome != outcome:
-                        # do something - the two agents selected different restaurants
-                        pass
-                else:
-                    cursor.execute('''INSERT INTO Outcomes VALUES (?,?,?,?,?)''', (username, partner, scenario_id,
+                        return -1
+                    else:
+                        cursor.execute('''INSERT INTO Outcomes VALUES (?,?,?,?,?)''', (username, partner, scenario_id,
                                                                                    outcome, int(time.time()*1000)))
+                        return 1
+                else:
+                    cursor.execute('''SELECT outcome FROM Outcomes WHERE agent1=? AND agent2=? AND scenario=? ORDER BY time DESC''', (username, partner, scenario_id))
+                    # if this agent already stored their outcome, don't store it again
+                    stored_outcome = cursor.fetchone()
+                    if not stored_outcome:
+                        app.logger.debug("Newly inserted outcome %d" % outcome)
+                        cursor.execute('''INSERT INTO Outcomes VALUES (?,?,?,?,?)''', (username, partner, scenario_id,
+                                                                                       outcome, int(time.time()*1000)))
+                    return 0
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
-
+        return -1
