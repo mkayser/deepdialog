@@ -79,7 +79,7 @@
     <div id="chat_container", style="float:left; width:50%">
         <h1>Negotiation Fun</h1>
         <p>
-            It's Friday night, and you and your friend are trying to figure out where to eat dinner. You've discovered that there are {{ 	num_restaurants }} restaurants nearby. You like some kinds of food better than others, and have a preferred price range in mind. Use the chat box below to negotiate with your friend about where to go for dinner! 
+            It's Friday night, and you and your friend are trying to figure out where to eat dinner. You've discovered that there are {{scenario["restaurants"]|length}} restaurants nearby. You like some kinds of food better than others, and have a preferred price range in mind. Use the chat box below to decide where to go for dinner!
         </p>
 
         <div id="clockdiv">
@@ -98,7 +98,10 @@
         <a href="/" onclick="leave_room();">Leave this room</a>
     </div>
     <div id="info_container", style="float:left; width:50%">
-        <h3>Some scenario text here</h3>
+        <h3>Restaurants nearby</h3>
+        {% for restaurant in scenario["restaurants"] %}
+        <li>{{ "restaurant[0]", "restaurant[1]", "restaurant[2][0]", "restaurant[2][1]" }}</li>
+        {% endfor %}
         <button id="submit">Submit</button>
     </div>
     </body>

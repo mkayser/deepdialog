@@ -23,6 +23,7 @@ def text(message):
     """Sent by a client when the user entered a new message.
     The message is sent to all people in the room."""
     room = session.get('room')
+    username = session.get('name')
     # TODO: maybe change all logging to use app.logger
     app.logger.debug("Testing logger: User {} says {} in room {}.".format(username,message["msg"],room))
     write_to_file(message['msg'])

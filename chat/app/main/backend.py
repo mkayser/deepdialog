@@ -39,6 +39,7 @@ class BackendConnection(object):
                 # if there are any unpaired users, pick one at random and pair
                 if unpaired_users:
                     paired_user = random.choice(unpaired_users)[0]
+                    app.logger.debug("Paired new user %s with %s" % (username, paired_user))
                     scenario_id = random.choice(self.scenario_ids)
                     room_id = self.assign_room(scenario_id)
                     # update database to reflect that users have been assigned to these rooms
@@ -83,8 +84,8 @@ class BackendConnection(object):
         try:
             with self.conn:
                 cursor = self.conn.cursor()
-                c.execute("UPDATE Chatrooms SET participants = participants - 1 WHERE number=?", (room,))
-                c.execute("UPDATE ActiveUsers SET room=0 WHERE name=?", (username,))
+                cursor.execute("UPDATE Chatrooms SET participants = participants - 1 WHERE number=?", (room,))
+                cursor.execute("UPDATE ActiveUsers SET room=0 WHERE name=?", (username,))
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
