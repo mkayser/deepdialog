@@ -68,8 +68,8 @@ class BackendConnection(object):
                 if empty_rooms:
                     r = random.sample(empty_rooms, 1)
                     room = r[0]
-                    cursor.execute('''UPDATE Chatrooms SET participants=2,scenario=? WHERE number=?''',
-                                   (scenario_id, room))
+                    app.logger.debug("Found empty room %d" % room)
+                    cursor.execute('''UPDATE Chatrooms SET participants=2,scenario=? WHERE number=?''', (scenario_id, room))
                 else:
                     # otherwise, find the max room number and create a new room with number = max + 1
                     # (or 1 if it's the first room)
