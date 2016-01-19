@@ -37,6 +37,10 @@ def chat():
     agent_number = session.get('agent_number')
     scenario_id = session.get('scenario_id', None)
     form=RestaurantForm()
+    if scenario_id:
+        scenario = app.config["scenarios"][scenario_id]
+        form.restaurant_labels.choices = list(enumerate([i[0] for i in scenario["restaurants"]]))
+
     if form.validate_on_submit():
         app.logger.debug("Testing logger: POST request, successfully validated.")
         return redirect(url_for('.index'))
@@ -45,7 +49,6 @@ def chat():
         if name is None or room is None or scenario_id is None:
             return redirect(url_for('.index'))
         else:
-            scenario = app.config["scenarios"][scenario_id]
             return render_template('chat.html', name=name, room=room, scenario=scenario, agent_number=agent_number, form=form)
     else:
         app.logger.debug("Testing logger: POST request but not validated.")

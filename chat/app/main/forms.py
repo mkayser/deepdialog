@@ -11,5 +11,5 @@ class LoginForm(Form):
 
 class RestaurantForm(Form):
     """Select a restaurant from a list of radio buttons"""
-    restaurant_labels = RadioField('Restaurants', choices=[])
+    restaurant_labels = RadioField('Restaurants', choices=[], validators=[Required()])
     submit = SubmitField('Agree on a restaurant!')
