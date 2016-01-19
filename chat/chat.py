@@ -13,8 +13,7 @@ def init_database(params):
     c = conn.cursor()
     # number: room number, participants: number of participants (0 - 2)
     c.execute('''CREATE TABLE Chatrooms (number integer, participants integer, scenario text)''')
-
-    c.execute('''CREATE TABLE ActiveUsers (name text unique, room integer)''')
+    c.execute('''CREATE TABLE ActiveUsers (name text unique, room integer, agentid integer)''')
     conn.commit()
     conn.close()
 

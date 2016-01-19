@@ -1,7 +1,7 @@
 from flask import g, session, redirect, url_for, render_template, request
 from flask import current_app as app
 from . import main
-from .forms import LoginForm
+from .forms import LoginForm, RestaurantForm
 import sqlite3
 import random
 import time
@@ -18,7 +18,7 @@ def index():
     if form.validate_on_submit():
         session['name'] = form.name.data
         add_new_user(session["name"])
-        room,scenario_id = find_room_if_possible(session["name"])
+        room, scenario_id = find_room_if_possible(session["name"])
         if room:
             return redirect(url_for('.chat'))
         else:
@@ -34,14 +34,14 @@ def chat():
     the session."""
     name = session.get('name', None)
     room = session.get('room', None)
+    agent_number = session.get('agent_number')
     scenario_id = session.get('scenario_id', None)
-
     app.logger.debug("Testing logger: chat requested.")
     if name is None or room is None or scenario_id is None:
         return redirect(url_for('.index'))
     else:
         scenario = app.config["scenarios"][scenario_id]
-        return render_template('chat.html', name=name, room=room, scenario=scenario)
+        return render_template('chat.html', name=name, room=room, scenario=scenario, agent_number=agent_number)
 
 
 @main.route('/single_task')
@@ -52,7 +52,7 @@ def waiting():
     while ctr < app.config["user_params"]["WAITING_TIME"]:
         time.sleep(1)
         ctr += 1
-        room,scenario_id = find_room_if_possible(name)
+        room, scenario_id = find_room_if_possible(name)
         if room:
             ctr = 0
             return redirect(url_for('.chat'))
@@ -61,15 +61,18 @@ def waiting():
     ctr = 0
     return render_template('single_task.html')
 
+
 def add_new_user(username):
     backend = get_backend()
     backend.create_user_if_necessary(username)
 
+
 def find_room_if_possible(username):
     backend = get_backend()
-    room,scenario_id = backend.find_room_for_user_if_possible(username)
+    room, scenario_id, agent_number = backend.find_room_for_user_if_possible(username)
+    app.logger.debug("User %s has agent ID %d" % (session.get('name'), agent_number))
     if room:
         session["room"] = room
         session["scenario_id"] = scenario_id
-    return (room,scenario_id)
-
+        session["agent_number"] = agent_number
+    return (room, scenario_id)

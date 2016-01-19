@@ -100,9 +100,22 @@
     <div id="info_container", style="float:left; width:50%">
         <h3>Restaurants nearby</h3>
         {% for restaurant in scenario["restaurants"] %}
-        <li>{{ "restaurant[0]", "restaurant[1]", "restaurant[2][0]", "restaurant[2][1]" }}</li>
+        <li><b>{{ restaurant[0] }}</b>: {{ restaurant[1]}}, ${{ restaurant[2][0] }} - ${{ restaurant[2][1] }}</li>
         {% endfor %}
-        <button id="submit">Submit</button>
+        <h3>Your cuisine preferences</h3>
+        {% for cuisine in scenario["agents"][agent_number - 1]["cuisine_func"] %}
+        <li>{{cuisine[0]}}</li>
+        {% endfor %}
+        <h3>Your preferred price range</h3>
+        {% set price_range = scenario["agents"][agent_number - 1]["spending_func"][0][0] %}
+        <p>${{ price_range[0] }} - ${{price_range[1]}}</p>
+
+        <form id="select_restaurant" method="POST">
+            {{ form.hidden_tag() }}
+            {{ form.restaurant_labels() }}
+            {{ form.submit() }}
+        </form>
+        <!--<button id="submit">Submit</button>-->
     </div>
     </body>
 </html>
