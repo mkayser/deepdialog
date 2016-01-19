@@ -26,7 +26,7 @@ def clear_data(params):
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument('-p', description="File containing app configuration params", type=str,
+    parser.add_argument('-p', help="File containing app configuration params", type=str,
                         default="params.json")
     args = parser.parse_args()
     params_file = args.p
