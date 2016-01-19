@@ -6,6 +6,6 @@ from .backend import BackendConnection
 def get_backend():
     backend = getattr(g, '_backend', None)
     if backend is None:
-        scenario_ids = app.config["scenarios"].keys()
+        scenario_ids = sorted(app.config["scenarios"].keys())
         backend = g._backend = BackendConnection(app.config["user_params"]["CHAT_ROOM_DB"], scenario_ids)
     return backend

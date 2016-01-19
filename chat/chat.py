@@ -12,7 +12,7 @@ def init_database(params):
     conn = sqlite3.connect(params["CHAT_ROOM_DB"])
     c = conn.cursor()
     # number: room number, participants: number of participants (0 - 2)
-    c.execute('''CREATE TABLE Chatrooms (number integer, participants integer, scenario integer)''')
+    c.execute('''CREATE TABLE Chatrooms (number integer, participants integer, scenario text)''')
 
     c.execute('''CREATE TABLE ActiveUsers (name text unique, room integer)''')
     conn.commit()
@@ -39,12 +39,10 @@ if __name__ == '__main__':
     clear_data(params)
     app = create_app(debug=True)
     with open(params["scenarios_json_file"]) as fin:
-        list_scenarios = json.load(fin)
-        scenarios = defaultdict(dict)
-        for scenario in list_scenarios:
-            scenarios[scenario["uuid"]] = scenario
+        scenarios = json.load(fin)
+        scenarios_dict = {v["uuid"]:v for v in scenarios}
     app.config["user_params"] = params
-    app.config["scenarios"] = scenarios
+    app.config["scenarios"] = scenarios_dict
     socketio.run(app)
 
 
