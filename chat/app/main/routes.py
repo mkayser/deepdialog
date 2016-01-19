@@ -28,7 +28,7 @@ def index():
     return render_template('index.html', form=form)
 
 
-@main.route('/chat')
+@main.route('/chat', methods=['GET', 'POST'])
 def chat():
     """Chat room. The user's name and room must be stored in
     the session."""
@@ -36,12 +36,20 @@ def chat():
     room = session.get('room', None)
     agent_number = session.get('agent_number')
     scenario_id = session.get('scenario_id', None)
-    app.logger.debug("Testing logger: chat requested.")
-    if name is None or room is None or scenario_id is None:
+    form=RestaurantForm()
+    if form.validate_on_submit():
+        app.logger.debug("Testing logger: POST request, successfully validated.")
         return redirect(url_for('.index'))
+    elif request.method == 'GET':
+        app.logger.debug("Testing logger: chat requested.")
+        if name is None or room is None or scenario_id is None:
+            return redirect(url_for('.index'))
+        else:
+            scenario = app.config["scenarios"][scenario_id]
+            return render_template('chat.html', name=name, room=room, scenario=scenario, agent_number=agent_number, form=form)
     else:
-        scenario = app.config["scenarios"][scenario_id]
-        return render_template('chat.html', name=name, room=room, scenario=scenario, agent_number=agent_number)
+        app.logger.debug("Testing logger: POST request but not validated.")
+        
 
 
 @main.route('/single_task')
