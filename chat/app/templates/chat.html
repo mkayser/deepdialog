@@ -36,11 +36,34 @@
                 });
             }
             window.onbeforeunload = function(){
-		leave_room();
-	    }
-	        function submit() {
-
+		        leave_room();
 	        }
+
+	        $("#select_restaurants").submit(submit);
+
+	        function submit() {
+                $('#wait').style.display = "block";
+                $('#select_restaurant').style.display = "none";
+                $.ajax(
+                {url: '/_validate',
+                type: 'POST',
+                data: '{reset:1}',
+                success: handle_submission
+                })
+	        }
+
+	        function handle_submission(data) {
+                    if (data.success == -1) {
+                        window.alert('You and your friend selected different restaurants. Please make sure you select
+                        the correct restaurant before submitting the form!')
+                        $('#wait').style.display = "none";
+                        $('#select_restaurant').style.display = "block";
+                    }
+                    else {
+                    window.alert('Congratulations! Your score for this game is:'+data.score);
+                    leave_room();
+                    }
+                }
         </script>
         <script type="text/javascript" charset="utf-8">
 					function getTimeRemaining(endtime) {
@@ -104,7 +127,7 @@
         <input id="text" size="80" placeholder="Enter your message here"><br><br>
         <a href="/">Leave this room</a>
     </div>
-    <div id="info_container", style="float:left; width:50%">
+    <div id="info_container" style="float:left; width:50%">
         <h3>Your cuisine preferences</h3>
         {% for cuisine in scenario["agents"][agent_number - 1]["cuisine_func"] %}
         <li>{{cuisine[0]}}</li>
@@ -117,7 +140,7 @@
         <li><b>{{ restaurant[0] }}</b>: {{ restaurant[1]}}, ${{ restaurant[2][0] }} - ${{ restaurant[2][1] }}</li>
         {% endfor %}
 
-        <form id="select_restaurant" method="POST", onsubmit="submit()">
+        <form id="select_restaurant" method="POST">
             {{ form.hidden_tag() }}
             <h3> {{ form.restaurants.label }}</h3>
             <table>
@@ -131,6 +154,10 @@
 
             {{ form.submit() }}
         </form>
+        <div id="wait" style="display:none">
+            <h3>Please wait while we wait for your partner to submit a response...</h3>
+        </div>
+
     </div>
     </body>
 </html>
