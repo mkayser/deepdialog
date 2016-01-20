@@ -17,7 +17,7 @@ class BackendConnection(object):
     def create_user_if_necessary(self, username):
         with self.conn:
             cursor = self.conn.cursor()
-            cursor.execute('''INSERT OR IGNORE INTO ActiveUsers VALUES (?,?,?,?)''', (username, 0, 0, ''))
+            cursor.execute('''INSERT OR REPLACE INTO ActiveUsers VALUES (?,?,?,?)''', (username, 0, 0, ''))
 
     def find_room_for_user_if_possible(self, username):
         try:
@@ -67,9 +67,9 @@ class BackendConnection(object):
 
                 # If there are any empty (unused) rooms, assign participants to that room
                 if empty_rooms:
-                    r = random.sample(empty_rooms, 1)
+                    r = random.choice(empty_rooms)
                     room = r[0]
-                    app.logger.debug("Found empty room %d" % room)
+                    app.logger.debug("Found empty room %d, scenario %s" % (room, scenario_id))
                     cursor.execute('''UPDATE Chatrooms SET participants=2,scenario=? WHERE number=?''', (scenario_id, room))
                 else:
                     # otherwise, find the max room number and create a new room with number = max + 1
@@ -91,7 +91,7 @@ class BackendConnection(object):
             with self.conn:
                 cursor = self.conn.cursor()
                 cursor.execute("UPDATE Chatrooms SET participants = participants - 1 WHERE number=?", (room,))
-                cursor.execute("UPDATE ActiveUsers SET room=0,agentid=0,partner='' WHERE name=?", (username,))
+                cursor.execute("UPDATE ActiveUsers SET room=-1,agentid=0,partner='' WHERE name=?", (username,))
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
