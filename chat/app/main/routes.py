@@ -4,6 +4,7 @@ from . import main
 from .forms import LoginForm, RestaurantForm
 import time
 from .utils import get_backend, generate_outcome_key
+from .events import write_outcome
 
 pairing_wait_ctr = 0
 validation_wait_ctr = 0
@@ -67,7 +68,7 @@ def reset():
 @main.route('/_validate', methods=['GET'])
 def validate_and_compute_score():
     global validation_wait_ctr
-    outcome = int(request.args.get('outcome', "-1", type=str))
+    outcome = request.args.get('outcome', -1, type=int)
     app.logger.debug("%d" % (outcome))
 
     name = session.get('name', None)
@@ -75,7 +76,7 @@ def validate_and_compute_score():
     scenario_id = session.get('scenario_id', None)
     scenario = app.config["scenarios"][scenario_id]
     partner = session.get('partner')
-
+    restaurant = scenario["restaurants"][outcome]
     backend = get_backend()
 
     success = 0
@@ -89,6 +90,9 @@ def validate_and_compute_score():
     else:
         if success == 0:
             success = -2 #indicates timeout
+
+    if success == 1:
+        write_outcome(outcome, *restaurant)
     return jsonify(success=success, score=score)
 
 

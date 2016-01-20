@@ -4,7 +4,9 @@ from flask.ext.socketio import emit, join_room, leave_room
 from .. import socketio
 import sqlite3
 from . import utils
+from datetime import datetime
 
+date_fmt = '%m-%d-%Y:%H-%M-%S'
 
 @socketio.on('joined', namespace='/chat')
 def joined(message):
@@ -47,15 +49,26 @@ def left(message):
                                                  'click the link below to find a new opponent.'}, room=room)
 
 
+def start_chat():
+    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session.get('room'))), 'a+')
+    outfile.write("%s\t%s\tjoined\n" % (datetime.now().strftime(date_fmt), session.get('name')))
+    outfile.close()
+
+
 def end_chat():
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session.get('room'))), 'a+')
-    outfile.write(app.config["user_params"]["CHAT_DELIM"]+"\n")
+    outfile.write("%s\t%s\n" % (datetime.now().strftime(date_fmt), app.config["user_params"]["CHAT_DELIM"]))
     outfile.close()
 
 
 def write_to_file(message):
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session.get('room'))), 'a+')
-    outfile.write("%s\t%s\n" % (session.get('name'), message))
+    outfile.write("%s\t%s\t%s\n" % (datetime.now().strftime(date_fmt), session.get('name'), message))
     outfile.close()
 
 
+def write_outcome(restaurant_idx, name, cuisine, price_range):
+    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session.get('room'))), 'a+')
+    outfile.write("%s\tSelected restaurant:\t%d\t%s\t%s\t%s\n" %
+                  (datetime.now().strftime(date_fmt), restaurant_idx, name, cuisine,
+                   "\t".join([str(p) for p in price_range])))

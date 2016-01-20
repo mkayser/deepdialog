@@ -4,6 +4,7 @@ import random
 import sqlite3
 import utils
 
+
 class BackendConnection(object):
     def __init__(self, location, scenario_ids):
         self.conn = sqlite3.connect(location)

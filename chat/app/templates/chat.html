@@ -4,11 +4,11 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
         <script type="text/javascript" charset="utf-8">
-        	//alert("are we seeing this?");
-            
+
 			function handle_submission(data) {
 			    if (data.success == 0) {
-			        var selected = $('input[name=restaurant]:checked', '#restaurantForm').val();
+			        var ddlist = document.getElementById("restaurantsDDL");
+			        var selected = ddlist.selectedIndex;
                     $.getJSON('/_validate', {outcome:selected}, handle_submission);
 			    }
 				else if (data.success == -1) {
@@ -26,7 +26,8 @@
             
 	        function onSubmit() {
 	            jQuery.post('/_validate', {}, null);
-	            var selected = $('input[name=restaurant]:checked', '#restaurantForm').val();
+	            var ddlist = document.getElementById("restaurantsDDL");
+                var selected = ddlist.selectedIndex;
                 document.getElementById("wait").style.display = "block";
                 document.getElementById("restaurantForm").style.display = "none";
                 document.getElementById("submitform").style.display = "none";
@@ -117,8 +118,8 @@
             It's Friday night, and you and your friend, {{partner}} are trying to figure out where to eat dinner.
             You've discovered that there are {{scenario["restaurants"]|length}} restaurants nearby.
             You like some kinds of food better than others, and have a preferred price range in mind.
-            Use the chat box below to decide where to go for dinner! Once you've decided on a restaurant, select it
-            in the form to the right and submit the form.
+            Use the chat box below to decide where to go for dinner! Once you've decided on a restaurant, select it from
+            the drop down list on the right, and click 'Pick this restaurant!'.
         </p>
 
         <div id="clockdiv">
@@ -152,14 +153,16 @@
         </div>
 
         <form id="restaurantForm" method="POST">
-            <h3>Choose a restaurant below:</h3>
-            {% set ctr = 0 %}
-            {% for restaurant in scenario["restaurants"] %}
-            <input type="radio" name="restaurant" value={{ctr}}>{{ restaurant[0] }} <br>
-            {% set ctr = ctr + 1 %}
-            {% endfor %}
+        	<h3>Choose a restaurant below:</h3>
+            <select id="restaurantsDDL">
+                {% set ctr = 0 %}
+                {% for restaurant in scenario["restaurants"] %}
+                <option value={{ctr}}>{{ restaurant[0] }}</option>
+                {% set ctr = ctr + 1 %}
+                {% endfor %}
+            </select>
         </form>
-        <a href="javascript:void();" id="submitform"><button type="button">Pick the restaurant!</button></a>
+        <a href="javascript:void();" id="submitform"><button type="button">Pick this restaurant!</button></a>
         <div id="wait" style="display:none">
             <h3>Please wait while we wait for your partner to submit a response...</h3>
         </div>
