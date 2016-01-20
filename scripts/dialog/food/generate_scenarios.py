@@ -22,7 +22,11 @@ class Restaurant(object):
             raise Exception("Unexpected format for line: {}".format(line))
 
     def __info__(self):
-        return (self.name, self.cuisine, self.price_range)
+        return {
+            "name": self.name, 
+            "cuisine": self.cuisine, 
+            "price_range": self.price_range
+        }
 
         
 

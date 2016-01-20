@@ -1,8 +1,8 @@
 from __future__ import with_statement
-from flask import current_app as app
 import random
 import sqlite3
-import utils
+import app.main.utils
+from flask import current_app as app
 
 
 class BackendConnection(object):

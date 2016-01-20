@@ -3,16 +3,16 @@
 ====================================================================================
 
 Restaurants:
-    Chez TJ                  	French                   	$30-$40
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Cascal                   	Spanish                  	$50-$100
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Chez TJ                  	French                   	$50-$100
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Cascal                   	Spanish                  	$30-$40
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -50,16 +50,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Hong Kong Bistro         	Chinese                  	$30-$40
-    Kirin                    	Chinese                  	$0-$10
+    Hong Kong Bistro         	Chinese                  	$40-$50
+    Kirin                    	Chinese                  	$30-$40
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Maruichi Noodle House    	Japanese                 	$0-$10
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Yakko                    	Japanese                 	$20-$30
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Shell Shock              	SeaFood                  	$30-$40
+    Maruichi Noodle House    	Japanese                 	$10-$20
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Yakko                    	Japanese                 	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Shell Shock              	SeaFood                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -97,16 +97,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Kirin                    	Chinese                  	$0-$10
+    Kirin                    	Chinese                  	$30-$40
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Chez TJ                  	French                   	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Kappo Naminami           	Japanese                 	$50-$100
-    Maruichi Noodle House    	Japanese                 	$0-$10
-    Rumble Fish              	Japanese                 	$0-$10
-    Shalala                  	Japanese                 	$40-$50
+    Queen House              	Chinese                  	$20-$30
+    Chez TJ                  	French                   	$50-$100
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Kappo Naminami           	Japanese                 	$10-$20
+    Maruichi Noodle House    	Japanese                 	$10-$20
+    Rumble Fish              	Japanese                 	$10-$20
+    Shalala                  	Japanese                 	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -144,16 +144,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
-    Kirin                    	Chinese                  	$0-$10
-    Queen House              	Chinese                  	$0-$10
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Shell Shock              	SeaFood                  	$30-$40
-    Cascal                   	Spanish                  	$50-$100
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Hong Kong Bistro         	Chinese                  	$40-$50
+    Kirin                    	Chinese                  	$30-$40
+    Queen House              	Chinese                  	$20-$30
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Shell Shock              	SeaFood                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -191,16 +191,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hong Kong Bistro         	Chinese                  	$40-$50
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Chez TJ                  	French                   	$30-$40
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Agave                    	Mexican                  	$30-$40
-    Shell Shock              	SeaFood                  	$30-$40
+    Queen House              	Chinese                  	$20-$30
+    Chez TJ                  	French                   	$50-$100
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
+    Agave                    	Mexican                  	$50-$100
+    Shell Shock              	SeaFood                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -238,16 +238,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Steins Beer Garden       	American                 	$30-$40
+    Hong Kong Bistro         	Chinese                  	$40-$50
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
+    Queen House              	Chinese                  	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -285,16 +285,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
+    Bierhaus                 	American                 	$40-$50
+    The Crepevine            	American                 	$30-$40
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
+    Oren's Hummus            	Mediterranean            	$50-$100
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -332,16 +332,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Chez TJ                  	French                   	$30-$40
-    Park Ballachi            	Indian                   	$20-$30
+    Chez TJ                  	French                   	$50-$100
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
+    Bangkok Spoon            	Thai                     	$40-$50
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -379,16 +379,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Chez TJ                  	French                   	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Maruichi Noodle House    	Japanese                 	$0-$10
-    Niji Sushi               	Japanese                 	$40-$50
-    Rumble Fish              	Japanese                 	$0-$10
-    Shabuway                 	Japanese                 	$50-$100
-    Shalala                  	Japanese                 	$40-$50
-    Pho Hoa                  	Vietnamese               	$0-$10
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Chez TJ                  	French                   	$50-$100
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Maruichi Noodle House    	Japanese                 	$10-$20
+    Niji Sushi               	Japanese                 	$20-$30
+    Rumble Fish              	Japanese                 	$10-$20
+    Shabuway                 	Japanese                 	$30-$40
+    Shalala                  	Japanese                 	$50-$100
+    Pho Hoa                  	Vietnamese               	$20-$30
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -426,16 +426,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Steins Beer Garden       	American                 	$30-$40
+    Hong Kong Bistro         	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Shabuway                 	Japanese                 	$50-$100
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Bangkok Spoon            	Thai                     	$50-$100
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Shabuway                 	Japanese                 	$30-$40
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -473,16 +473,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Cascal                   	Spanish                  	$50-$100
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -520,16 +520,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Shezan                   	Indian                   	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Vaso Azzurro             	Italian                  	$0-$10
-    Bushido                  	Japanese                 	$40-$50
-    Maruichi Noodle House    	Japanese                 	$0-$10
+    Shezan                   	Indian                   	$0-$10
+    Doppio Zero              	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Bushido                  	Japanese                 	$50-$100
+    Maruichi Noodle House    	Japanese                 	$10-$20
     Masa Sushi               	Japanese                 	$10-$20
-    Shalala                  	Japanese                 	$40-$50
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Shalala                  	Japanese                 	$50-$100
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -567,16 +567,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Cascal                   	Spanish                  	$50-$100
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
+    Oren's Hummus            	Mediterranean            	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Cascal                   	Spanish                  	$30-$40
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -614,16 +614,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Ginseng                  	Korean                   	$30-$40
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Cascal                   	Spanish                  	$50-$100
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -661,15 +661,15 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Posh Bagel               	Deli                     	$20-$30
-    Bushido                  	Japanese                 	$40-$50
-    Maruichi Noodle House    	Japanese                 	$0-$10
-    Rumble Fish              	Japanese                 	$0-$10
-    Shalala                  	Japanese                 	$40-$50
-    Sushitomi                	Japanese                 	$20-$30
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Morocco's                	Mediterranean            	$50-$100
+    Posh Bagel               	Deli                     	$50-$100
+    Bushido                  	Japanese                 	$50-$100
+    Maruichi Noodle House    	Japanese                 	$10-$20
+    Rumble Fish              	Japanese                 	$10-$20
+    Shalala                  	Japanese                 	$50-$100
+    Sushitomi                	Japanese                 	$50-$100
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Morocco's                	Mediterranean            	$40-$50
     Amarin Thai Cuisine      	Thai                     	$10-$20
 
 Agent Profile:
@@ -710,14 +710,14 @@ Agent Profile:
 Restaurants:
     Hunan Chili              	Chinese                  	$50-$100
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Park Ballachi            	Indian                   	$20-$30
+    Queen House              	Chinese                  	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Totoro                   	Korean                   	$40-$50
+    Totoro                   	Korean                   	$10-$20
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -756,15 +756,15 @@ Agent Profile:
 
 Restaurants:
     Scratch                  	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Subway                   	Deli                     	$40-$50
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Agave                    	Mexican                  	$30-$40
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
+    The Crepevine            	American                 	$30-$40
+    Subway                   	Deli                     	$20-$30
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Agave                    	Mexican                  	$50-$100
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -802,16 +802,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
+    The Crepevine            	American                 	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Ginseng                  	Korean                   	$30-$40
-    Asian Box                	Vietnamese               	$10-$20
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Shezan                   	Indian                   	$0-$10
+    Doppio Zero              	Italian                  	$20-$30
+    Ginseng                  	Korean                   	$50-$100
+    Asian Box                	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -849,16 +849,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Hong Kong Bistro         	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
-    Kirin                    	Chinese                  	$0-$10
+    Kirin                    	Chinese                  	$30-$40
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Cascal                   	Spanish                  	$50-$100
+    Queen House              	Chinese                  	$20-$30
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Cascal                   	Spanish                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -896,16 +896,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Shezan                   	Indian                   	$50-$100
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Cascal                   	Spanish                  	$50-$100
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Shezan                   	Indian                   	$0-$10
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Cascal                   	Spanish                  	$30-$40
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -944,15 +944,15 @@ Agent Profile:
 
 Restaurants:
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
+    Steins Beer Garden       	American                 	$30-$40
+    The Crepevine            	American                 	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Asian Box                	Vietnamese               	$10-$20
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Shezan                   	Indian                   	$0-$10
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Asian Box                	Vietnamese               	$20-$30
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -990,16 +990,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Park Ballachi            	Indian                   	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1037,16 +1037,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Hong Kong Bistro         	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
-    Kirin                    	Chinese                  	$0-$10
-    Subway                   	Deli                     	$40-$50
-    Shezan                   	Indian                   	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Oren's Hummus            	Mediterranean            	$40-$50
+    Kirin                    	Chinese                  	$30-$40
+    Subway                   	Deli                     	$20-$30
+    Shezan                   	Indian                   	$0-$10
+    Doppio Zero              	Italian                  	$20-$30
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Oren's Hummus            	Mediterranean            	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1084,16 +1084,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Kirin                    	Chinese                  	$0-$10
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Bushido                  	Japanese                 	$40-$50
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Kirin                    	Chinese                  	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Bushido                  	Japanese                 	$50-$100
     Masa Sushi               	Japanese                 	$10-$20
-    Niji Sushi               	Japanese                 	$40-$50
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Shalala                  	Japanese                 	$40-$50
-    Sushitomi                	Japanese                 	$20-$30
+    Niji Sushi               	Japanese                 	$20-$30
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Shalala                  	Japanese                 	$50-$100
+    Sushitomi                	Japanese                 	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1131,16 +1131,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
-    Kirin                    	Chinese                  	$0-$10
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Hong Kong Bistro         	Chinese                  	$40-$50
+    Kirin                    	Chinese                  	$30-$40
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Doppio Zero              	Italian                  	$30-$40
-    Vaso Azzurro             	Italian                  	$0-$10
-    Cascal                   	Spanish                  	$50-$100
+    Queen House              	Chinese                  	$20-$30
+    Doppio Zero              	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1178,15 +1178,15 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Vaso Azzurro             	Italian                  	$0-$10
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Taqueria Los Charros     	Mexican                  	$10-$20
+    Doppio Zero              	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Taqueria Los Charros     	Mexican                  	$50-$100
     Amarin Thai Cuisine      	Thai                     	$10-$20
 
 Agent Profile:
@@ -1226,14 +1226,14 @@ Agent Profile:
 
 Restaurants:
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Shell Shock              	SeaFood                  	$30-$40
+    Steins Beer Garden       	American                 	$30-$40
+    The Crepevine            	American                 	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Oren's Hummus            	Mediterranean            	$50-$100
+    Shell Shock              	SeaFood                  	$50-$100
     Amarin Thai Cuisine      	Thai                     	$10-$20
 
 Agent Profile:
@@ -1272,16 +1272,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Posh Bagel               	Deli                     	$20-$30
-    Park Ballachi            	Indian                   	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Shezan                   	Indian                   	$0-$10
+    Doppio Zero              	Italian                  	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1319,16 +1319,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Cascal                   	Spanish                  	$50-$100
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1366,16 +1366,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Posh Bagel               	Deli                     	$20-$30
-    Park Ballachi            	Indian                   	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Park Ballachi            	Indian                   	$30-$40
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Morocco's                	Mediterranean            	$50-$100
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Drunken Lobster          	SeaFood                  	$10-$20
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Morocco's                	Mediterranean            	$40-$50
+    Oren's Hummus            	Mediterranean            	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1414,15 +1414,15 @@ Agent Profile:
 
 Restaurants:
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    Park Ballachi            	Indian                   	$20-$30
+    Steins Beer Garden       	American                 	$30-$40
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1460,16 +1460,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Hong Kong Bistro         	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Chez TJ                  	French                   	$30-$40
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Cascal                   	Spanish                  	$50-$100
+    Queen House              	Chinese                  	$20-$30
+    Chez TJ                  	French                   	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1507,16 +1507,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
+    Fu Lam Mum               	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
-    Kirin                    	Chinese                  	$0-$10
-    Queen House              	Chinese                  	$0-$10
-    Ginseng                  	Korean                   	$30-$40
-    Cascal                   	Spanish                  	$50-$100
-    Bangkok Spoon            	Thai                     	$50-$100
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
+    Kirin                    	Chinese                  	$30-$40
+    Queen House              	Chinese                  	$20-$30
+    Ginseng                  	Korean                   	$50-$100
+    Cascal                   	Spanish                  	$30-$40
+    Bangkok Spoon            	Thai                     	$40-$50
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1554,16 +1554,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    The Crepevine            	American                 	$50-$100
-    Ristorante Don Giovanni  	Italian                  	$0-$10
+    The Crepevine            	American                 	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$20-$30
     Masa Sushi               	Japanese                 	$10-$20
-    Rumble Fish              	Japanese                 	$0-$10
-    Shabuway                 	Japanese                 	$50-$100
-    Shalala                  	Japanese                 	$40-$50
-    Sushitomi                	Japanese                 	$20-$30
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Oren's Hummus            	Mediterranean            	$40-$50
+    Rumble Fish              	Japanese                 	$10-$20
+    Shabuway                 	Japanese                 	$30-$40
+    Shalala                  	Japanese                 	$50-$100
+    Sushitomi                	Japanese                 	$50-$100
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Oren's Hummus            	Mediterranean            	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1601,16 +1601,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Chez TJ                  	French                   	$30-$40
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Kappo Naminami           	Japanese                 	$50-$100
-    Niji Sushi               	Japanese                 	$40-$50
-    Rumble Fish              	Japanese                 	$0-$10
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Sushitomi                	Japanese                 	$20-$30
-    Yakko                    	Japanese                 	$20-$30
-    Agave                    	Mexican                  	$30-$40
+    Chez TJ                  	French                   	$50-$100
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Kappo Naminami           	Japanese                 	$10-$20
+    Niji Sushi               	Japanese                 	$20-$30
+    Rumble Fish              	Japanese                 	$10-$20
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Sushitomi                	Japanese                 	$50-$100
+    Yakko                    	Japanese                 	$50-$100
+    Agave                    	Mexican                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1649,15 +1649,15 @@ Agent Profile:
 
 Restaurants:
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Cascal                   	Spanish                  	$50-$100
+    Steins Beer Garden       	American                 	$30-$40
+    The Crepevine            	American                 	$30-$40
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Cascal                   	Spanish                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1696,15 +1696,15 @@ Agent Profile:
 
 Restaurants:
     Scratch                  	American                 	$10-$20
-    Park Ballachi            	Indian                   	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
-    Kappo Naminami           	Japanese                 	$50-$100
-    Niji Sushi               	Japanese                 	$40-$50
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Sushitomi                	Japanese                 	$20-$30
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
+    Shezan                   	Indian                   	$0-$10
+    Kappo Naminami           	Japanese                 	$10-$20
+    Niji Sushi               	Japanese                 	$20-$30
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Sushitomi                	Japanese                 	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1742,16 +1742,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Subway                   	Deli                     	$40-$50
-    Bushido                  	Japanese                 	$40-$50
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Shabuway                 	Japanese                 	$50-$100
-    Yakko                    	Japanese                 	$20-$30
-    Ginseng                  	Korean                   	$30-$40
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Taqueria Los Charros     	Mexican                  	$10-$20
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Subway                   	Deli                     	$20-$30
+    Bushido                  	Japanese                 	$50-$100
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Shabuway                 	Japanese                 	$30-$40
+    Yakko                    	Japanese                 	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Taqueria Los Charros     	Mexican                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1789,16 +1789,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Chez TJ                  	French                   	$30-$40
-    Vaso Azzurro             	Italian                  	$0-$10
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Chez TJ                  	French                   	$50-$100
+    Vaso Azzurro             	Italian                  	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Oren's Hummus            	Mediterranean            	$50-$100
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1836,16 +1836,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Park Ballachi            	Indian                   	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Bangkok Spoon            	Thai                     	$40-$50
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1883,16 +1883,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Asian Box                	Vietnamese               	$10-$20
-    Pho To Chau              	Vietnamese               	$0-$10
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Oren's Hummus            	Mediterranean            	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Asian Box                	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1930,16 +1930,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Subway                   	Deli                     	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Subway                   	Deli                     	$20-$30
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -1977,16 +1977,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Chez TJ                  	French                   	$30-$40
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Cascal                   	Spanish                  	$50-$100
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Chez TJ                  	French                   	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2024,16 +2024,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Chez TJ                  	French                   	$30-$40
-    Kappo Naminami           	Japanese                 	$50-$100
+    Chez TJ                  	French                   	$50-$100
+    Kappo Naminami           	Japanese                 	$10-$20
     Masa Sushi               	Japanese                 	$10-$20
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Sushitomi                	Japanese                 	$20-$30
-    Yakko                    	Japanese                 	$20-$30
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Blue Line Pizza          	Pizza                    	$20-$30
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Sushitomi                	Japanese                 	$50-$100
+    Yakko                    	Japanese                 	$50-$100
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Blue Line Pizza          	Pizza                    	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2071,16 +2071,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Park Ballachi            	Indian                   	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Shell Shock              	SeaFood                  	$30-$40
-    Cascal                   	Spanish                  	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Shell Shock              	SeaFood                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2119,15 +2119,15 @@ Agent Profile:
 
 Restaurants:
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Oren's Hummus            	Mediterranean            	$50-$100
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2165,16 +2165,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Subway                   	Deli                     	$40-$50
-    Shezan                   	Indian                   	$50-$100
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
+    Subway                   	Deli                     	$20-$30
+    Shezan                   	Indian                   	$0-$10
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
     Masa Sushi               	Japanese                 	$10-$20
-    Rumble Fish              	Japanese                 	$0-$10
-    Shabuway                 	Japanese                 	$50-$100
-    Café Baklava            	Mediterranean            	$20-$30
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
+    Rumble Fish              	Japanese                 	$10-$20
+    Shabuway                 	Japanese                 	$30-$40
+    Café Baklava            	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2212,16 +2212,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
-    Park Ballachi            	Indian                   	$20-$30
+    Bierhaus                 	American                 	$40-$50
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Vaso Azzurro             	Italian                  	$0-$10
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
+    Vaso Azzurro             	Italian                  	$50-$100
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2260,15 +2260,15 @@ Agent Profile:
 
 Restaurants:
     Scratch                  	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Vaso Azzurro             	Italian                  	$0-$10
-    Shabuway                 	Japanese                 	$50-$100
-    Shalala                  	Japanese                 	$40-$50
-    Yakko                    	Japanese                 	$20-$30
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
+    The Crepevine            	American                 	$30-$40
+    Vaso Azzurro             	Italian                  	$50-$100
+    Shabuway                 	Japanese                 	$30-$40
+    Shalala                  	Japanese                 	$50-$100
+    Yakko                    	Japanese                 	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2306,16 +2306,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Hong Kong Bistro         	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Asian Box                	Vietnamese               	$10-$20
-    Pho To Chau              	Vietnamese               	$0-$10
+    Queen House              	Chinese                  	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Asian Box                	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2353,15 +2353,15 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    Vaso Azzurro             	Italian                  	$0-$10
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
+    Bierhaus                 	American                 	$40-$50
+    Steins Beer Garden       	American                 	$30-$40
+    Vaso Azzurro             	Italian                  	$50-$100
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
     Amarin Thai Cuisine      	Thai                     	$10-$20
 
 Agent Profile:
@@ -2400,16 +2400,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Doppio Zero              	Italian                  	$30-$40
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Cascal                   	Spanish                  	$50-$100
+    Doppio Zero              	Italian                  	$20-$30
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2447,16 +2447,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
+    Bierhaus                 	American                 	$40-$50
+    Steins Beer Garden       	American                 	$30-$40
+    The Crepevine            	American                 	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Vaso Azzurro             	Italian                  	$0-$10
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Doppio Zero              	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2494,16 +2494,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Chez TJ                  	French                   	$30-$40
-    Park Ballachi            	Indian                   	$20-$30
+    Chez TJ                  	French                   	$50-$100
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Vaso Azzurro             	Italian                  	$0-$10
-    Ginseng                  	Korean                   	$30-$40
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Morocco's                	Mediterranean            	$50-$100
+    Vaso Azzurro             	Italian                  	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Morocco's                	Mediterranean            	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2541,16 +2541,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hong Kong Bistro         	Chinese                  	$40-$50
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Park Ballachi            	Indian                   	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Bangkok Spoon            	Thai                     	$50-$100
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2588,16 +2588,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Posh Bagel               	Deli                     	$20-$30
+    The Crepevine            	American                 	$30-$40
+    Posh Bagel               	Deli                     	$50-$100
     Masa Sushi               	Japanese                 	$10-$20
-    Rumble Fish              	Japanese                 	$0-$10
-    Shabuway                 	Japanese                 	$50-$100
-    Shalala                  	Japanese                 	$40-$50
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Taqueria Los Charros     	Mexican                  	$10-$20
+    Rumble Fish              	Japanese                 	$10-$20
+    Shabuway                 	Japanese                 	$30-$40
+    Shalala                  	Japanese                 	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Taqueria Los Charros     	Mexican                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2635,16 +2635,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Chez TJ                  	French                   	$30-$40
+    Chez TJ                  	French                   	$50-$100
     Masa Sushi               	Japanese                 	$10-$20
-    Niji Sushi               	Japanese                 	$40-$50
-    Rumble Fish              	Japanese                 	$0-$10
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Shabuway                 	Japanese                 	$50-$100
-    Shalala                  	Japanese                 	$40-$50
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Shell Shock              	SeaFood                  	$30-$40
-    Bangkok Spoon            	Thai                     	$50-$100
+    Niji Sushi               	Japanese                 	$20-$30
+    Rumble Fish              	Japanese                 	$10-$20
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Shabuway                 	Japanese                 	$30-$40
+    Shalala                  	Japanese                 	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Shell Shock              	SeaFood                  	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2682,16 +2682,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
+    Fu Lam Mum               	Chinese                  	$40-$50
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Park Ballachi            	Indian                   	$20-$30
-    Doppio Zero              	Italian                  	$30-$40
-    Shabuway                 	Japanese                 	$50-$100
-    Shalala                  	Japanese                 	$40-$50
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
+    Queen House              	Chinese                  	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
+    Doppio Zero              	Italian                  	$20-$30
+    Shabuway                 	Japanese                 	$30-$40
+    Shalala                  	Japanese                 	$50-$100
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2729,16 +2729,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Hong Kong Bistro         	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Drunken Lobster          	SeaFood                  	$10-$20
+    Queen House              	Chinese                  	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2776,16 +2776,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Kirin                    	Chinese                  	$0-$10
+    Kirin                    	Chinese                  	$30-$40
     New Mongolian BBQ        	Chinese                  	$50-$100
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
-    Kappo Naminami           	Japanese                 	$50-$100
-    Rumble Fish              	Japanese                 	$0-$10
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Shabuway                 	Japanese                 	$50-$100
-    Yakko                    	Japanese                 	$20-$30
-    Totoro                   	Korean                   	$40-$50
+    Shezan                   	Indian                   	$0-$10
+    Kappo Naminami           	Japanese                 	$10-$20
+    Rumble Fish              	Japanese                 	$10-$20
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Shabuway                 	Japanese                 	$30-$40
+    Yakko                    	Japanese                 	$50-$100
+    Totoro                   	Korean                   	$10-$20
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2823,16 +2823,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Doppio Zero              	Italian                  	$30-$40
-    Bushido                  	Japanese                 	$40-$50
-    Maruichi Noodle House    	Japanese                 	$0-$10
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Shalala                  	Japanese                 	$40-$50
-    Yakko                    	Japanese                 	$20-$30
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Cascal                   	Spanish                  	$50-$100
-    Bangkok Spoon            	Thai                     	$50-$100
+    Doppio Zero              	Italian                  	$20-$30
+    Bushido                  	Japanese                 	$50-$100
+    Maruichi Noodle House    	Japanese                 	$10-$20
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Shalala                  	Japanese                 	$50-$100
+    Yakko                    	Japanese                 	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Cascal                   	Spanish                  	$30-$40
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2870,16 +2870,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
+    Fu Lam Mum               	Chinese                  	$40-$50
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Park Ballachi            	Indian                   	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2917,16 +2917,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Subway                   	Deli                     	$40-$50
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Bierhaus                 	American                 	$40-$50
+    Steins Beer Garden       	American                 	$30-$40
+    The Crepevine            	American                 	$30-$40
+    Subway                   	Deli                     	$20-$30
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -2964,16 +2964,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Doppio Zero              	Italian                  	$30-$40
-    Vaso Azzurro             	Italian                  	$0-$10
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Cascal                   	Spanish                  	$50-$100
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Doppio Zero              	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3011,16 +3011,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Park Ballachi            	Indian                   	$20-$30
+    The Crepevine            	American                 	$30-$40
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Taqueria Los Charros     	Mexican                  	$10-$20
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Taqueria Los Charros     	Mexican                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3058,16 +3058,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Subway                   	Deli                     	$40-$50
-    Park Ballachi            	Indian                   	$20-$30
-    Shezan                   	Indian                   	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Vaso Azzurro             	Italian                  	$0-$10
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Blue Line Pizza          	Pizza                    	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
+    Oren's Hummus            	Mediterranean            	$50-$100
+    Blue Line Pizza          	Pizza                    	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3106,14 +3106,14 @@ Agent Profile:
 
 Restaurants:
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
-    Kirin                    	Chinese                  	$0-$10
+    Steins Beer Garden       	American                 	$30-$40
+    Hong Kong Bistro         	Chinese                  	$40-$50
+    Kirin                    	Chinese                  	$30-$40
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Park Ballachi            	Indian                   	$20-$30
+    Queen House              	Chinese                  	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
 
 Agent Profile:
@@ -3152,16 +3152,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Park Ballachi            	Indian                   	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3199,16 +3199,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Morocco's                	Mediterranean            	$50-$100
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Taqueria Los Charros     	Mexican                  	$10-$20
+    Bierhaus                 	American                 	$40-$50
+    Steins Beer Garden       	American                 	$30-$40
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Morocco's                	Mediterranean            	$40-$50
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Taqueria Los Charros     	Mexican                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3246,16 +3246,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Cascal                   	Spanish                  	$50-$100
+    The Crepevine            	American                 	$30-$40
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
+    Oren's Hummus            	Mediterranean            	$50-$100
+    Cascal                   	Spanish                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3293,16 +3293,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Subway                   	Deli                     	$40-$50
-    Maruichi Noodle House    	Japanese                 	$0-$10
+    Steins Beer Garden       	American                 	$30-$40
+    The Crepevine            	American                 	$30-$40
+    Subway                   	Deli                     	$20-$30
+    Maruichi Noodle House    	Japanese                 	$10-$20
     Masa Sushi               	Japanese                 	$10-$20
-    Rumble Fish              	Japanese                 	$0-$10
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Yakko                    	Japanese                 	$20-$30
+    Rumble Fish              	Japanese                 	$10-$20
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Yakko                    	Japanese                 	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3340,16 +3340,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Park Ballachi            	Indian                   	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3387,16 +3387,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Park Ballachi            	Indian                   	$20-$30
+    Park Ballachi            	Indian                   	$30-$40
     Sakoon                   	Indian                   	$10-$20
-    Shezan                   	Indian                   	$50-$100
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Cascal                   	Spanish                  	$50-$100
+    Doppio Zero              	Italian                  	$20-$30
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Cascal                   	Spanish                  	$30-$40
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3434,16 +3434,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
+    Fu Lam Mum               	Chinese                  	$40-$50
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Shezan                   	Indian                   	$50-$100
+    Queen House              	Chinese                  	$20-$30
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Ginseng                  	Korean                   	$30-$40
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
+    Ginseng                  	Korean                   	$50-$100
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3481,16 +3481,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Queen House              	Chinese                  	$0-$10
-    Chez TJ                  	French                   	$30-$40
-    Park Ballachi            	Indian                   	$20-$30
-    Shezan                   	Indian                   	$50-$100
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Queen House              	Chinese                  	$20-$30
+    Chez TJ                  	French                   	$50-$100
+    Park Ballachi            	Indian                   	$30-$40
+    Shezan                   	Indian                   	$0-$10
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3528,16 +3528,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Cascal                   	Spanish                  	$50-$100
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
+    Oren's Hummus            	Mediterranean            	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3577,14 +3577,14 @@ Agent Profile:
 Restaurants:
     Sakoon                   	Indian                   	$10-$20
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Bushido                  	Japanese                 	$40-$50
-    Kappo Naminami           	Japanese                 	$50-$100
-    Maruichi Noodle House    	Japanese                 	$0-$10
-    Niji Sushi               	Japanese                 	$40-$50
-    Yakko                    	Japanese                 	$20-$30
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
+    Doppio Zero              	Italian                  	$20-$30
+    Bushido                  	Japanese                 	$50-$100
+    Kappo Naminami           	Japanese                 	$10-$20
+    Maruichi Noodle House    	Japanese                 	$10-$20
+    Niji Sushi               	Japanese                 	$20-$30
+    Yakko                    	Japanese                 	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3622,16 +3622,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hong Kong Bistro         	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Totoro                   	Korean                   	$40-$50
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Queen House              	Chinese                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Totoro                   	Korean                   	$10-$20
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3669,16 +3669,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Maruichi Noodle House    	Japanese                 	$0-$10
+    Maruichi Noodle House    	Japanese                 	$10-$20
     Masa Sushi               	Japanese                 	$10-$20
-    Shabuway                 	Japanese                 	$50-$100
-    Shalala                  	Japanese                 	$40-$50
-    Sushitomi                	Japanese                 	$20-$30
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Agave                    	Mexican                  	$30-$40
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
+    Shabuway                 	Japanese                 	$30-$40
+    Shalala                  	Japanese                 	$50-$100
+    Sushitomi                	Japanese                 	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Agave                    	Mexican                  	$50-$100
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3716,16 +3716,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Bangkok Spoon            	Thai                     	$40-$50
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3763,15 +3763,15 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Hong Kong Bistro         	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
-    Kirin                    	Chinese                  	$0-$10
+    Kirin                    	Chinese                  	$30-$40
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
-    Chez TJ                  	French                   	$30-$40
+    Queen House              	Chinese                  	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
+    Chez TJ                  	French                   	$50-$100
     Amarin Thai Cuisine      	Thai                     	$10-$20
 
 Agent Profile:
@@ -3810,16 +3810,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Subway                   	Deli                     	$40-$50
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Oren's Hummus            	Mediterranean            	$40-$50
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
+    Subway                   	Deli                     	$20-$30
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
+    Oren's Hummus            	Mediterranean            	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3857,16 +3857,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hong Kong Bistro         	Chinese                  	$40-$50
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Bushido                  	Japanese                 	$40-$50
+    Bushido                  	Japanese                 	$50-$100
     Masa Sushi               	Japanese                 	$10-$20
-    Rumble Fish              	Japanese                 	$0-$10
-    Shalala                  	Japanese                 	$40-$50
-    Sushitomi                	Japanese                 	$20-$30
-    Café Baklava            	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Cascal                   	Spanish                  	$50-$100
+    Rumble Fish              	Japanese                 	$10-$20
+    Shalala                  	Japanese                 	$50-$100
+    Sushitomi                	Japanese                 	$50-$100
+    Café Baklava            	Mediterranean            	$40-$50
+    Morocco's                	Mediterranean            	$40-$50
+    Cascal                   	Spanish                  	$30-$40
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3904,16 +3904,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Steins Beer Garden       	American                 	$10-$20
-    Vaso Azzurro             	Italian                  	$0-$10
-    Niji Sushi               	Japanese                 	$40-$50
-    Rumble Fish              	Japanese                 	$0-$10
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Shabuway                 	Japanese                 	$50-$100
-    Sushitomi                	Japanese                 	$20-$30
-    Shell Shock              	SeaFood                  	$30-$40
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
+    Steins Beer Garden       	American                 	$30-$40
+    Vaso Azzurro             	Italian                  	$50-$100
+    Niji Sushi               	Japanese                 	$20-$30
+    Rumble Fish              	Japanese                 	$10-$20
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Shabuway                 	Japanese                 	$30-$40
+    Sushitomi                	Japanese                 	$50-$100
+    Shell Shock              	SeaFood                  	$50-$100
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3951,16 +3951,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    Café Baklava            	Mediterranean            	$20-$30
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Asian Box                	Vietnamese               	$10-$20
-    Pho To Chau              	Vietnamese               	$0-$10
+    Steins Beer Garden       	American                 	$30-$40
+    Café Baklava            	Mediterranean            	$40-$50
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Asian Box                	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -3999,15 +3999,15 @@ Agent Profile:
 
 Restaurants:
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    Doppio Zero              	Italian                  	$30-$40
-    Kappo Naminami           	Japanese                 	$50-$100
-    Niji Sushi               	Japanese                 	$40-$50
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Sushitomi                	Japanese                 	$20-$30
-    Bangkok Spoon            	Thai                     	$50-$100
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
+    Steins Beer Garden       	American                 	$30-$40
+    Doppio Zero              	Italian                  	$20-$30
+    Kappo Naminami           	Japanese                 	$10-$20
+    Niji Sushi               	Japanese                 	$20-$30
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Sushitomi                	Japanese                 	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4045,15 +4045,15 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
+    Steins Beer Garden       	American                 	$30-$40
     Shiva’s Indian Restaurant	Indian                   	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
     Amarin Thai Cuisine      	Thai                     	$10-$20
 
 Agent Profile:
@@ -4092,16 +4092,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Chez TJ                  	French                   	$30-$40
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Blue Line Pizza          	Pizza                    	$20-$30
+    Chez TJ                  	French                   	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Blue Line Pizza          	Pizza                    	$50-$100
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4139,16 +4139,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Ginseng                  	Korean                   	$30-$40
-    Drunken Lobster          	SeaFood                  	$10-$20
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
     Amarin Thai Cuisine      	Thai                     	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
-    Xanh Restaurant          	Vietnamese               	$20-$30
+    Bangkok Spoon            	Thai                     	$40-$50
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
+    Xanh Restaurant          	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4186,16 +4186,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Agave                    	Mexican                  	$30-$40
-    Casa Lupe Mexican Restaurant	Mexican                  	$40-$50
-    Fiesta Del Mar Too       	Mexican                  	$20-$30
-    Taqueria Los Charros     	Mexican                  	$10-$20
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Shell Shock              	SeaFood                  	$30-$40
-    Cascal                   	Spanish                  	$50-$100
-    Asian Box                	Vietnamese               	$10-$20
-    Pho Hoa                  	Vietnamese               	$0-$10
-    Pho To Chau              	Vietnamese               	$0-$10
+    Agave                    	Mexican                  	$50-$100
+    Casa Lupe Mexican Restaurant	Mexican                  	$0-$10
+    Fiesta Del Mar Too       	Mexican                  	$30-$40
+    Taqueria Los Charros     	Mexican                  	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Shell Shock              	SeaFood                  	$50-$100
+    Cascal                   	Spanish                  	$30-$40
+    Asian Box                	Vietnamese               	$20-$30
+    Pho Hoa                  	Vietnamese               	$20-$30
+    Pho To Chau              	Vietnamese               	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4234,15 +4234,15 @@ Agent Profile:
 
 Restaurants:
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Fu Lam Mum               	Chinese                  	$10-$20
+    Steins Beer Garden       	American                 	$30-$40
+    The Crepevine            	American                 	$30-$40
+    Fu Lam Mum               	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Drunken Lobster          	SeaFood                  	$10-$20
-    Bangkok Spoon            	Thai                     	$50-$100
+    Queen House              	Chinese                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
+    Bangkok Spoon            	Thai                     	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4280,16 +4280,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
-    Kirin                    	Chinese                  	$0-$10
+    Steins Beer Garden       	American                 	$30-$40
+    The Crepevine            	American                 	$30-$40
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Hong Kong Bistro         	Chinese                  	$40-$50
+    Kirin                    	Chinese                  	$30-$40
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Queen House              	Chinese                  	$0-$10
-    Shell Shock              	SeaFood                  	$30-$40
+    Queen House              	Chinese                  	$20-$30
+    Shell Shock              	SeaFood                  	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4327,16 +4327,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Hong Kong Bistro         	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
-    Kirin                    	Chinese                  	$0-$10
+    Kirin                    	Chinese                  	$30-$40
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Shezan                   	Indian                   	$50-$100
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
-    Drunken Lobster          	SeaFood                  	$10-$20
+    Shezan                   	Indian                   	$0-$10
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
+    Drunken Lobster          	SeaFood                  	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4375,15 +4375,15 @@ Agent Profile:
 
 Restaurants:
     Scratch                  	American                 	$10-$20
-    Steins Beer Garden       	American                 	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Steins Beer Garden       	American                 	$30-$40
+    Hong Kong Bistro         	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
-    Kirin                    	Chinese                  	$0-$10
-    Queen House              	Chinese                  	$0-$10
-    Posh Bagel               	Deli                     	$20-$30
-    Subway                   	Deli                     	$40-$50
+    Kirin                    	Chinese                  	$30-$40
+    Queen House              	Chinese                  	$20-$30
+    Posh Bagel               	Deli                     	$50-$100
+    Subway                   	Deli                     	$20-$30
     Sakoon                   	Indian                   	$10-$20
-    Ginseng                  	Korean                   	$30-$40
+    Ginseng                  	Korean                   	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4421,16 +4421,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Vaso Azzurro             	Italian                  	$0-$10
-    Bushido                  	Japanese                 	$40-$50
-    Kappo Naminami           	Japanese                 	$50-$100
-    Maruichi Noodle House    	Japanese                 	$0-$10
-    Niji Sushi               	Japanese                 	$40-$50
-    Shabuway                 	Japanese                 	$50-$100
-    Shalala                  	Japanese                 	$40-$50
-    Yakko                    	Japanese                 	$20-$30
-    Amici's East Coast Pizzeria	Pizza                    	$0-$10
-    Blue Line Pizza          	Pizza                    	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Bushido                  	Japanese                 	$50-$100
+    Kappo Naminami           	Japanese                 	$10-$20
+    Maruichi Noodle House    	Japanese                 	$10-$20
+    Niji Sushi               	Japanese                 	$20-$30
+    Shabuway                 	Japanese                 	$30-$40
+    Shalala                  	Japanese                 	$50-$100
+    Yakko                    	Japanese                 	$50-$100
+    Amici's East Coast Pizzeria	Pizza                    	$20-$30
+    Blue Line Pizza          	Pizza                    	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4468,16 +4468,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
+    Fu Lam Mum               	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
-    Kirin                    	Chinese                  	$0-$10
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Kappo Naminami           	Japanese                 	$50-$100
+    Kirin                    	Chinese                  	$30-$40
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Kappo Naminami           	Japanese                 	$10-$20
     Masa Sushi               	Japanese                 	$10-$20
-    Ryowa Noodle House       	Japanese                 	$20-$30
-    Ginseng                  	Korean                   	$30-$40
+    Ryowa Noodle House       	Japanese                 	$40-$50
+    Ginseng                  	Korean                   	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4515,16 +4515,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Bierhaus                 	American                 	$10-$20
+    Bierhaus                 	American                 	$40-$50
     Scratch                  	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Chez TJ                  	French                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Morocco's                	Mediterranean            	$50-$100
-    Drunken Lobster          	SeaFood                  	$10-$20
+    The Crepevine            	American                 	$30-$40
+    Chez TJ                  	French                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Morocco's                	Mediterranean            	$40-$50
+    Drunken Lobster          	SeaFood                  	$40-$50
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4562,16 +4562,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Fu Lam Mum               	Chinese                  	$10-$20
-    Hong Kong Bistro         	Chinese                  	$30-$40
+    Fu Lam Mum               	Chinese                  	$40-$50
+    Hong Kong Bistro         	Chinese                  	$40-$50
     Hunan Chili              	Chinese                  	$50-$100
     New Mongolian BBQ        	Chinese                  	$50-$100
-    Bushido                  	Japanese                 	$40-$50
-    Kappo Naminami           	Japanese                 	$50-$100
-    Maruichi Noodle House    	Japanese                 	$0-$10
-    Niji Sushi               	Japanese                 	$40-$50
-    Sushitomi                	Japanese                 	$20-$30
-    Yakko                    	Japanese                 	$20-$30
+    Bushido                  	Japanese                 	$50-$100
+    Kappo Naminami           	Japanese                 	$10-$20
+    Maruichi Noodle House    	Japanese                 	$10-$20
+    Niji Sushi               	Japanese                 	$20-$30
+    Sushitomi                	Japanese                 	$50-$100
+    Yakko                    	Japanese                 	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4609,16 +4609,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    The Crepevine            	American                 	$50-$100
-    Chez TJ                  	French                   	$30-$40
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Bushido                  	Japanese                 	$40-$50
-    Rumble Fish              	Japanese                 	$0-$10
-    Shabuway                 	Japanese                 	$50-$100
-    Ginseng                  	Korean                   	$30-$40
-    Totoro                   	Korean                   	$40-$50
+    The Crepevine            	American                 	$30-$40
+    Chez TJ                  	French                   	$50-$100
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Bushido                  	Japanese                 	$50-$100
+    Rumble Fish              	Japanese                 	$10-$20
+    Shabuway                 	Japanese                 	$30-$40
+    Ginseng                  	Korean                   	$50-$100
+    Totoro                   	Korean                   	$10-$20
 
 Agent Profile:
     Preferred Cuisine Order:
@@ -4656,16 +4656,16 @@ Agent Profile:
 ====================================================================================
 
 Restaurants:
-    Steins Beer Garden       	American                 	$10-$20
-    The Crepevine            	American                 	$50-$100
-    Doppio Zero              	Italian                  	$30-$40
-    Ristorante Don Giovanni  	Italian                  	$0-$10
-    Vaso Azzurro             	Italian                  	$0-$10
-    Ginseng                  	Korean                   	$30-$40
-    Café Baklava            	Mediterranean            	$20-$30
-    Ehpesus                  	Mediterranean            	$30-$40
-    Mediterranean Grill House	Mediterranean            	$20-$30
-    Oren's Hummus            	Mediterranean            	$40-$50
+    Steins Beer Garden       	American                 	$30-$40
+    The Crepevine            	American                 	$30-$40
+    Doppio Zero              	Italian                  	$20-$30
+    Ristorante Don Giovanni  	Italian                  	$20-$30
+    Vaso Azzurro             	Italian                  	$50-$100
+    Ginseng                  	Korean                   	$50-$100
+    Café Baklava            	Mediterranean            	$40-$50
+    Ehpesus                  	Mediterranean            	$40-$50
+    Mediterranean Grill House	Mediterranean            	$0-$10
+    Oren's Hummus            	Mediterranean            	$50-$100
 
 Agent Profile:
     Preferred Cuisine Order:

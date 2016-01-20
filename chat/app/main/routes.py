@@ -27,6 +27,17 @@ def index():
         form.name.data = session.get('name', '')
     return render_template('index.html', form=form)
 
+def compute_agent_score(agent, restaurant):
+    pr = restaurant["price_range"]
+    c = restaurant["cuisine"]
+    
+    sf = agent["spending_func"]
+    cf = agent["cuisine_func"]
+
+    pr_points = next(points for pr_,points in sf if pr_==pr)
+    c_points = next(points for c_,points in cf if c_==c)
+    
+    return pr_points + c_points
 
 @main.route('/chat', methods=['GET', 'POST'])
 def chat():
@@ -42,14 +53,17 @@ def chat():
     scenario = None
     if scenario_id:
         scenario = app.config["scenarios"][scenario_id]
-        form.restaurants.choices = list(enumerate([i[0] for i in scenario["restaurants"]]))
+        scenario_num_seconds = app.config["user_params"]["scenario_time_seconds"]
+        agent = scenario["agents"][agent_number-1]
+        sorted_restaurants = sorted(scenario["restaurants"], key=lambda x: -compute_agent_score(agent, x))
+        form.restaurants.choices = list(enumerate([i["name"] for i in scenario["restaurants"]]))
 
     app.logger.debug("Testing logger: chat requested.")
     if name is None or room is None or scenario_id is None:
         return redirect(url_for('.index'))
     else:
         return render_template('chat.html', name=name, room=room, scenario=scenario, agent_number=agent_number, form=form,
-                               partner=partner)
+                               partner=partner, sorted_restaurants=sorted_restaurants, agent=agent, scenario_num_seconds=scenario_num_seconds)
 
 
 @main.route('/_validate', methods=['POST'])
@@ -81,7 +95,7 @@ def validate_and_compute_score():
 
     success = 0
     score = 0
-    if validation_wait_ctr < app.config["user_params"]["WAITING_TIME"]:
+    if validation_wait_ctr < app.config["user_params"]["waiting_time_seconds"]:
         time.sleep(2)
         validation_wait_ctr += 1
         success = backend.select_restaurant(name, partner, scenario_id, outcome)
@@ -115,7 +129,7 @@ def score_outcome(scenario, choice, agent_number):
 def waiting():
     name = session.get('name', None)
     global pairing_wait_ctr
-    while pairing_wait_ctr < app.config["user_params"]["WAITING_TIME"]:
+    while pairing_wait_ctr < app.config["user_params"]["waiting_time_seconds"]:
         time.sleep(1)
         pairing_wait_ctr += 1
         room, scenario_id = find_room_if_possible(name)
