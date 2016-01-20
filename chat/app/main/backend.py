@@ -1,8 +1,8 @@
+from __future__ import with_statement
 from flask import current_app as app
 import random
 import sqlite3
-import time
-
+import utils
 
 class BackendConnection(object):
     def __init__(self, location, scenario_ids):
@@ -95,31 +95,20 @@ class BackendConnection(object):
             print("WARNING: Rolled back transaction")
 
     def select_restaurant(self, username, partner, scenario_id, outcome):
-        try:
-            with self.conn:
-                cursor = self.conn.cursor()
-                # see if the other user has already submitted an outcome for this chat
-                cursor.execute('''SELECT outcome FROM Outcomes WHERE agent1=? AND agent2=? AND scenario=? ORDER BY time DESC''', (partner, username, scenario_id))
-                stored_outcome = cursor.fetchone()
-                if stored_outcome:
-                    stored_outcome = stored_outcome[0]
-                    app.logger.debug("Found outcome %d already present when inserting outcome %d" % (stored_outcome, outcome))
-                    if stored_outcome != outcome:
-                        return -1
-                    else:
-                        cursor.execute('''INSERT INTO Outcomes VALUES (?,?,?,?,?)''', (username, partner, scenario_id,
-                                                                                   outcome, int(time.time()*1000)))
-                        return 1
-                else:
-                    cursor.execute('''SELECT outcome FROM Outcomes WHERE agent1=? AND agent2=? AND scenario=? ORDER BY time DESC''', (username, partner, scenario_id))
-                    # if this agent already stored their outcome, don't store it again
-                    stored_outcome = cursor.fetchone()
-                    if not stored_outcome:
-                        app.logger.debug("Newly inserted outcome %d" % outcome)
-                        cursor.execute('''INSERT INTO Outcomes VALUES (?,?,?,?,?)''', (username, partner, scenario_id,
-                                                                                       outcome, int(time.time()*1000)))
-                    return 0
-        except sqlite3.IntegrityError:
-            print("WARNING: Rolled back transaction")
+        key = utils.generate_outcome_key(username, partner, scenario_id)
+        if app.config["outcomes"][key] == -1:
+            app.logger.debug("Inserted new outcome %d" % outcome)
+            app.config["outcomes"][key] = outcome
 
-        return -1
+        partner_key = utils.generate_partner_key(username, partner, scenario_id)
+        stored_outcome = app.config["outcomes"][partner_key]
+        if stored_outcome != -1:
+            if stored_outcome != outcome or stored_outcome == app.config["user_params"]["OUTCOME_MISMATCH"]:
+                app.logger.debug("Found outcome %d already present when inserting outcome %d" % (stored_outcome, outcome))
+                app.config["outcomes"][key] = app.config["user_params"]["OUTCOME_MISMATCH"]
+                return -1
+            else:
+                return 1
+
+        return 0
+

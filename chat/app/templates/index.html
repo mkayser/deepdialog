@@ -9,14 +9,14 @@
         </script>
     </head>
     <body>
-        <h1>Flask-SocketIO-Chat</h1>
+        <h1>Restaurant Negotiations</h1>
         <form id="login" method="POST" onsubmit="onSubmit()">
             {{ form.hidden_tag() }}
             {{ form.name.label }}: {{ form.name() }} {% for error in form.name.errors %}{{ error }}{% endfor %}<br>
             {{ form.submit() }}
         </form>
     <div id="waiting_message" style="display:none">
-        <h2>Please wait while we try to pair you up with an opponent...</h2>
+        <h2>Please wait while we try to pair you up with someone...</h2>
     </div>
     </body>
 </html>

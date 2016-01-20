@@ -4,6 +4,41 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
         <script type="text/javascript" charset="utf-8">
+        	//alert("are we seeing this?");
+            
+			function handle_submission(data) {
+			    if (data.success == 0) {
+			        var selected = $('input[name=restaurant]:checked', '#restaurantForm').val();
+                    $.getJSON('/_validate', {outcome:selected}, handle_submission);
+			    }
+				else if (data.success == -1) {
+				    jQuery.post('/_validate', {}, null);
+					window.alert('You and your friend selected different restaurants. Please make sure you select the correct restaurant before submitting the form!')
+					document.getElementById("wait").style.display = "none";
+					document.getElementById("restaurantForm").style.display = "block";
+					document.getElementById("submitform").style.display = "block";
+				}
+				else {
+				window.alert('Congratulations! Your score for this game is:'+data.score);
+				leave_room();
+				}
+            }
+            
+	        function onSubmit() {
+	            jQuery.post('/_validate', {}, null);
+	            var selected = $('input[name=restaurant]:checked', '#restaurantForm').val();
+                document.getElementById("wait").style.display = "block";
+                document.getElementById("restaurantForm").style.display = "none";
+                document.getElementById("submitform").style.display = "none";
+                $.getJSON('/_validate', {outcome:selected}, handle_submission);
+                return false;
+	        }
+	        
+            $(function() { 
+            $("a#submitform").bind('click', onSubmit); 
+            });
+        </script>
+        <script type="text/javascript" charset="utf-8">
             var socket;
             $(document).ready(function(){
                 socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
@@ -30,41 +65,15 @@
             function leave_room() {
                 socket.emit('left', {}, function() {
                     socket.disconnect();
-		    return null;
-                    // go back to the login page
                     window.location.href = "{{ url_for('main.index') }}";
+                    return null;
                 });
             }
             window.onbeforeunload = function(){
 		        leave_room();
 	        }
-
-	        $("#select_restaurants").submit(submit);
-
-	        function submit() {
-                $('#wait').style.display = "block";
-                $('#select_restaurant').style.display = "none";
-                $.ajax(
-                {url: '/_validate',
-                type: 'POST',
-                data: '{reset:1}',
-                success: handle_submission
-                })
-	        }
-
-	        function handle_submission(data) {
-                    if (data.success == -1) {
-                        window.alert('You and your friend selected different restaurants. Please make sure you select
-                        the correct restaurant before submitting the form!')
-                        $('#wait').style.display = "none";
-                        $('#select_restaurant').style.display = "block";
-                    }
-                    else {
-                    window.alert('Congratulations! Your score for this game is:'+data.score);
-                    leave_room();
-                    }
-                }
         </script>
+        
         <script type="text/javascript" charset="utf-8">
 					function getTimeRemaining(endtime) {
 					  var t = Date.parse(endtime) - Date.parse(new Date());
@@ -128,32 +137,29 @@
         <a href="/">Leave this room</a>
     </div>
     <div id="info_container" style="float:left; width:50%">
-        <h3>Your cuisine preferences</h3>
-        {% for cuisine in scenario["agents"][agent_number - 1]["cuisine_func"] %}
-        <li>{{cuisine[0]}}</li>
-        {% endfor %}
-        <h3>Your preferred price range</h3>
-        {% set price_range = scenario["agents"][agent_number - 1]["spending_func"][0][0] %}
-        <p>${{ price_range[0] }} - ${{price_range[1]}}</p>
-        <h3>Restaurants nearby</h3>
-        {% for restaurant in scenario["restaurants"] %}
-        <li><b>{{ restaurant[0] }}</b>: {{ restaurant[1]}}, ${{ restaurant[2][0] }} - ${{ restaurant[2][1] }}</li>
-        {% endfor %}
+        <div id="preferences">
+            <h3>Your cuisine preferences</h3>
+            {% for cuisine in scenario["agents"][agent_number - 1]["cuisine_func"] %}
+            <li>{{cuisine[0]}}</li>
+            {% endfor %}
+            <h3>Your preferred price range</h3>
+            {% set price_range = scenario["agents"][agent_number - 1]["spending_func"][0][0] %}
+            <p>${{ price_range[0] }} - ${{price_range[1]}}</p>
+            <h3>Restaurants nearby</h3>
+            {% for restaurant in scenario["restaurants"] %}
+            <li><b>{{ restaurant[0] }}</b>: {{ restaurant[1]}}, ${{ restaurant[2][0] }} - ${{ restaurant[2][1] }}</li>
+            {% endfor %}
+        </div>
 
-        <form id="select_restaurant" method="POST">
-            {{ form.hidden_tag() }}
-            <h3> {{ form.restaurants.label }}</h3>
-            <table>
-                {% for restaurant in form.restaurants %}
-                <tr>
-                    <td>{{ restaurant }}</td>
-                    <td>{{ restaurant.label }}</td>
-                </tr>
-                {% endfor %}
-            </table>
-
-            {{ form.submit() }}
+        <form id="restaurantForm" method="POST">
+            <h3>Choose a restaurant below:</h3>
+            {% set ctr = 0 %}
+            {% for restaurant in scenario["restaurants"] %}
+            <input type="radio" name="restaurant" value={{ctr}}>{{ restaurant[0] }} <br>
+            {% set ctr = ctr + 1 %}
+            {% endfor %}
         </form>
+        <a href="javascript:void();" id="submitform"><button type="button">Pick the restaurant!</button></a>
         <div id="wait" style="display:none">
             <h3>Please wait while we wait for your partner to submit a response...</h3>
         </div>

@@ -7,6 +7,7 @@ import shutil
 import json
 from argparse import ArgumentParser
 
+
 # initialize database with table for chat rooms and active users
 def init_database(params):
     conn = sqlite3.connect(params["CHAT_ROOM_DB"])
@@ -14,7 +15,6 @@ def init_database(params):
     # number: room number, participants: number of participants (0 - 2)
     c.execute('''CREATE TABLE Chatrooms (number integer, participants integer, scenario text)''')
     c.execute('''CREATE TABLE ActiveUsers (name text unique, room integer, agentid integer, partner text)''')
-    c.execute('''CREATE TABLE Outcomes (agent1 text, agent2 text, scenario text, outcome integer, time integer)''')
     conn.commit()
     conn.close()
 
@@ -43,6 +43,7 @@ if __name__ == '__main__':
         scenarios_dict = {v["uuid"]:v for v in scenarios}
     app.config["user_params"] = params
     app.config["scenarios"] = scenarios_dict
+    app.config["outcomes"] = defaultdict(lambda : -1)
     socketio.run(app)
 
 

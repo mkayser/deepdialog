@@ -1,9 +1,9 @@
-from flask import flash, session, redirect, url_for, render_template, request, jsonify
+from flask import session, redirect, url_for, render_template, request, jsonify
 from flask import current_app as app
 from . import main
 from .forms import LoginForm, RestaurantForm
 import time
-from .utils import get_backend
+from .utils import get_backend, generate_outcome_key
 
 pairing_wait_ctr = 0
 validation_wait_ctr = 0
@@ -27,7 +27,7 @@ def index():
     return render_template('index.html', form=form)
 
 
-@main.route('/chat', methods=['GET'])
+@main.route('/chat', methods=['GET', 'POST'])
 def chat():
     """Chat room. The user's name and room must be stored in
     the session."""
@@ -36,35 +36,39 @@ def chat():
     agent_number = session.get('agent_number')
     scenario_id = session.get('scenario_id', None)
     partner = session.get('partner')
+
     form=RestaurantForm()
     scenario = None
     if scenario_id:
         scenario = app.config["scenarios"][scenario_id]
         form.restaurants.choices = list(enumerate([i[0] for i in scenario["restaurants"]]))
 
-    # if form.validate_on_submit():
-    #     app.logger.debug("Testing logger: POST request, successfully validated. Data received: %s" % form.data)
-    #     backend = get_backend()
-    #     backend.select_restaurant(session['name'], session['partner'], session['scenario_id'], form.data['restaurants'])
-    #     flash("Waiting for your partner to submit the result...")
-    #     return redirect(url_for('.index'))
     app.logger.debug("Testing logger: chat requested.")
     if name is None or room is None or scenario_id is None:
         return redirect(url_for('.index'))
     else:
         return render_template('chat.html', name=name, room=room, scenario=scenario, agent_number=agent_number, form=form,
                                partner=partner)
-# else:
-    #     app.logger.debug(form.errors)
-    #     app.logger.debug("Testing logger: POST request but not validated. Form data: %s" % form.data)
-        
 
-@main.route('/chat', methods=['POST'])
+
+@main.route('/_validate', methods=['POST'])
+def reset():
+    app.logger.debug("Resetting outcomes...")
+    global validation_wait_ctr
+    validation_wait_ctr = 0
+    name = session.get('name', None)
+    partner = session.get('partner')
+    scenario_id = session.get('scenario_id', None)
+    key = generate_outcome_key(name, partner, scenario_id)
+    app.config["outcomes"][key] = -1
+    return jsonify(completed=True)
+
+
+@main.route('/_validate', methods=['GET'])
 def validate_and_compute_score():
     global validation_wait_ctr
-    reset = request.args.get('reset', 0, type=int)
-    if reset == 1:
-        validation_wait_ctr = 0
+    outcome = int(request.args.get('outcome', "-1", type=str))
+    app.logger.debug("%d" % (outcome))
 
     name = session.get('name', None)
     agent_number = session.get('agent_number')
@@ -72,26 +76,20 @@ def validate_and_compute_score():
     scenario = app.config["scenarios"][scenario_id]
     partner = session.get('partner')
 
-    form=RestaurantForm()
-    form.restaurants.choices = list(enumerate([i[0] for i in scenario["restaurants"]]))
-    if form.validate_on_submit():
-        app.logger.debug("Testing logger: POST request, successfully validated. Data received: %s" % form.data)
-        backend = get_backend()
-        outcome = form.data['restaurants']
+    backend = get_backend()
 
-        success = 0
-        while validation_wait_ctr < app.config["user_params"]["WAITING_TIME"]:
-            time.sleep(1)
-            validation_wait_ctr += 1
-            success = backend.select_restaurant(name, partner, scenario_id, outcome)
-            if success == 1:
-                break
-        score = score_outcome(scenario, outcome, agent_number)
-        return jsonify(success=success, score=score)
+    success = 0
+    score = 0
+    if validation_wait_ctr < app.config["user_params"]["WAITING_TIME"]:
+        time.sleep(2)
+        validation_wait_ctr += 1
+        success = backend.select_restaurant(name, partner, scenario_id, outcome)
+        if success != -1:
+            score = score_outcome(scenario, outcome, agent_number)
     else:
-        app.logger.debug(form.errors)
-        app.logger.debug("Testing logger: POST request but not validated. Form data: %s" % form.data)
-        return jsonify(success=-1, score=0)
+        if success == 0:
+            success = -2 #indicates timeout
+    return jsonify(success=success, score=score)
 
 
 def score_outcome(scenario, choice, agent_number):
