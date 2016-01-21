@@ -56,7 +56,7 @@ def pick(message):
 
         other_agent_info = scenario["agents"][1 - (agent_number-1)]
         other_name = session.get('partner')
-        other_score = utils.compute_agent_score(my_agent_info, restaurant)
+        other_score = utils.compute_agent_score(other_agent_info, restaurant)
 
         emit_message_to_chat_room("{} has received {} points.".format(my_name, my_score), room, status_message=True)
         emit_message_to_chat_room("{} has received {} points.".format(other_name, other_score), room, status_message=True)
