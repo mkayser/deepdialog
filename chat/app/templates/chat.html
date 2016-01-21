@@ -115,7 +115,13 @@
                     }
                 });
 	       $('#btnPickRestaurant').click(function(e) {
-                    socket.emit('pick', {restaurant: $('#ddRestaurants').val()});
+                    socket.emit('pick', {restaurant: $('#ddRestaurants').val()},
+                    function(response) {
+                    if (response) {
+                    	alert('Congratulations! Your chat has now ended. You can now play again with another friend.');
+                    	leave_room();
+                    }
+                    });
                 });
             });
             function leave_room() {
@@ -155,6 +161,8 @@
 
 					    if (t.total <= 0) {
 					      clearInterval(timeinterval);
+					      alert("You and your friend have run out of time for this game! Redirecting you to the login page..");
+					      leave_room();
 					    }
 					  }
 
