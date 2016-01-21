@@ -17,7 +17,7 @@ def joined(message):
 
     join_room(room)
     app.logger.debug("Testing logger: User {} has entered room {}.".format(username,room))
-    emit('status', {'msg': username + ' has entered the room.'}, room=room)
+    emit_message_to_chat_room("{} has entered the room.".format(username), room, status_message=True)
 
 
 @socketio.on('text', namespace='/chat')
@@ -30,7 +30,43 @@ def text(message):
     # TODO: maybe change all logging to use app.logger
     app.logger.debug("Testing logger: User {} says {} in room {}.".format(username,message["msg"],room))
     write_to_file(message['msg'])
-    emit('message', {'msg': username + ':' + msg}, room=room)
+    emit_message_to_chat_room("{}: {}".format(username, msg), room)
+
+@socketio.on('pick', namespace='/chat')
+def pick(message):
+    """Sent by a client when the user entered a new message.
+    The message is sent to all people in the room."""
+    username = session.get('name')
+    room = session.get('room')
+    agent_number = session.get('agent_number')
+    restaurant_id = int(message['restaurant'])
+    scenario_id = session.get('scenario_id')
+    scenario = app.config["scenarios"][scenario_id]
+
+    backend = utils.get_backend()
+    is_match, matching_restaurant_id = backend.pick_restaurant_and_check_match(room, agent_number, restaurant_id)
+    if is_match:
+        restaurant = scenario["restaurants"][matching_restaurant_id]
+        emit_message_to_chat_room("Both users have selected restaurant: \"{}\"".format(restaurant["name"]), room, status_message=True)
+
+        # Get agent info and scores
+        my_agent_info = scenario["agents"][agent_number-1]
+        my_name = username
+        my_score = utils.compute_agent_score(my_agent_info, restaurant)
+
+        other_agent_info = scenario["agents"][1 - (agent_number-1)]
+        other_name = session.get('partner')
+        other_score = utils.compute_agent_score(my_agent_info, restaurant)
+
+        emit_message_to_chat_room("{} has received {} points.".format(my_name, my_score), room, status_message=True)
+        emit_message_to_chat_room("{} has received {} points.".format(other_name, other_score), room, status_message=True)
+        
+        backend.update_user_points([(my_name,my_score),(other_name,other_score)])
+    else:
+        restaurant = scenario["restaurants"][restaurant_id]
+        # TODO: maybe change all logging to use app.logger
+        app.logger.debug("Testing logger: User {} picks {} in room {}.".format(username,restaurant_id,room))
+        emit_message_to_chat_room("{} has selected restaurant: \"{}\"".format(username, restaurant["name"]), room, status_message=True)
 
 
 @socketio.on('left', namespace='/chat')
@@ -45,9 +81,14 @@ def left(message):
     backend.leave_room(username,room)
     end_chat()
     app.logger.debug("Testing logger: User {} left room {}.".format(username,room))
-    emit('status', {'msg': session.get('name') + ' has left the room or been disconnected. Please '
-                                                 'click the link below to find a new opponent.'}, room=room)
+    emit_message_to_chat_room("{} has left the room or been disconnected. Please click the link below to find a new opponent.".format(session.get('name')), 
+                              room, status_message=True)
 
+def emit_message_to_chat_room(message, room, status_message=False):
+    timestamp = datetime.now().strftime('%x %X')
+    left_delim = "<" if status_message else ""    
+    right_delim = ">" if status_message else ""
+    emit('message', {'msg': "[{}] {}{}{}".format(timestamp, left_delim, message, right_delim)}, room=room)
 
 def start_chat():
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session.get('room'))), 'a+')

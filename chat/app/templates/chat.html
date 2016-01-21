@@ -32,6 +32,29 @@
 	  width: 100%;
 	  }
 
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+}
+
+#clockdiv > div{
+    padding: 7px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+
 	</style>
 
         <script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
@@ -79,21 +102,20 @@
                 socket.on('connect', function() {
                     socket.emit('joined', {});
                 });
-                socket.on('status', function(data) {
-                    $('#chat').val($('#chat').val() + '<' + data.msg + '>\n');
-                    $('#chat').scrollTop($('#chat')[0].scrollHeight);
-                });
                 socket.on('message', function(data) {
                     $('#chat').val($('#chat').val() + data.msg + '\n');
                     $('#chat').scrollTop($('#chat')[0].scrollHeight);
-                });
-                $('#text').keypress(function(e) {
+                }); 
+               $('#text').keypress(function(e) {
                     var code = e.keyCode || e.which;
                     if (code == 13) {
                         text = $('#text').val();
                         $('#text').val('');
                         socket.emit('text', {msg: text});
                     }
+                });
+	       $('#btnPickRestaurant').click(function(e) {
+                    socket.emit('pick', {restaurant: $('#ddRestaurants').val()});
                 });
             });
             function leave_room() {
@@ -140,30 +162,35 @@
 					  var timeinterval = setInterval(updateClock, 1000);
 					}
 
-					var deadline = new Date(Date.parse(new Date()) + {{ scenario_num_seconds }} * 1000);
-					initializeClock('clockdiv', deadline);	  
+
+					function init() {
+					  var deadline = new Date(Date.parse(new Date()) + {{ scenario_num_seconds }} * 1000);
+					  initializeClock('clockdiv', deadline);
+				        }
         </script>
     </head>
-    <body>
+    <body onload='init()'>
       <div class="clearfix">
     <div id="chat_container">
-        <h1>Negotiation Fun</h1>
+        <h1>Where Should We Eat?</h1>
         <p>
             It's Friday night, and you and your friend, <b>{{partner}}</b> are trying to figure out where to eat dinner.
             You've discovered that there are {{scenario["restaurants"]|length}} restaurants nearby.
             You like some kinds of food better than others, and have a preferred price range in mind.
-            Use the chat box below to decide where to go for dinner! Once you've decided on a restaurant, select it from
-            the drop down list on the right, and click 'Pick this restaurant!'.
         </p>
+	<ul>
+	  <li> Use the chat box below to negotiate where to go for dinner. </li>
+	  <li> Once you've <b>agreed on a restaurant</b>, select it from
+            the drop down list on the right, and click 'Pick this restaurant!'.</li>
+	</ul>
 
-        <div id="clockdiv">
+        <div id="clockdiv" align="right">
+	  Time Remaining: 
 	  <div>
 	    <span class="minutes"></span>
-	    <div class="smalltext">Minutes</div>
 	  </div>
 	  <div>
 	    <span class="seconds"></span>
-	    <div class="smalltext">Seconds</div>
 	  </div>
 	</div>
 
@@ -199,7 +226,7 @@
 
         <form id="restaurantForm" method="POST">
         	<h3>Choose a restaurant below:</h3>
-            <select id="restaurantsDDL">
+            <select id="ddRestaurants">
                 {% set ctr = 0 %}
                 {% for restaurant in scenario["restaurants"] %}
                 <option value={{ctr}}>{{ restaurant["name"] }}</option>
@@ -207,7 +234,7 @@
                 {% endfor %}
             </select>
         </form>
-        <a href="javascript:void();" id="submitform"><button type="button">Pick this restaurant!</button></a>
+        <button type="button" id="btnPickRestaurant">Pick this restaurant!</button>
         <div id="wait" style="display:none">
             <h3>Please wait while we wait for your partner to submit a response...</h3>
         </div>

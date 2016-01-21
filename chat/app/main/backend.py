@@ -17,7 +17,32 @@ class BackendConnection(object):
     def create_user_if_necessary(self, username):
         with self.conn:
             cursor = self.conn.cursor()
-            cursor.execute('''INSERT OR REPLACE INTO ActiveUsers VALUES (?,?,?,?)''', (username, 0, 0, ''))
+            cursor.execute('''INSERT OR REPLACE INTO ActiveUsers VALUES (?,?,?,?,?)''', (username, 0, 0, '',0))
+
+    def pick_restaurant_and_check_match(self, room, agent_number, restaurant_id):
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                selected_column = "selected_restaurant_{}".format(agent_number)
+                cursor.execute("UPDATE Chatrooms SET {} = ? WHERE number=?".format(selected_column), (restaurant_id, room))
+                cursor.execute("SELECT selected_restaurant_1,selected_restaurant_2 FROM Chatrooms WHERE number=?", (room,))
+                entry = cursor.fetchone()
+                app.logger.debug(entry)
+                if entry[0] is not None and entry[1] is not None and entry[0] == entry[1]:
+                    return True, entry[0]
+                else:
+                    return False, None
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
+    def update_user_points(self, pairs):
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                for username, points in pairs:
+                    cursor.execute("UPDATE ActiveUsers SET cumulative_points = cumulative_points + {} WHERE name=?".format(points), (username,))
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
 
     def find_room_for_user_if_possible(self, username):
         try:
@@ -80,7 +105,7 @@ class BackendConnection(object):
                         room = 1
                     else:
                         room = r[0] + 1
-                    cursor.execute('''INSERT INTO Chatrooms VALUES (?,2,?)''', (room, scenario_id))
+                    cursor.execute('''INSERT INTO Chatrooms VALUES (?,2,?,-1,-1)''', (room, scenario_id))
                 return room
 
         except sqlite3.IntegrityError:

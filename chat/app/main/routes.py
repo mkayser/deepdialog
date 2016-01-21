@@ -3,7 +3,7 @@ from flask import current_app as app
 from . import main
 from .forms import LoginForm, RestaurantForm
 import time
-from .utils import get_backend, generate_outcome_key
+from .utils import get_backend, generate_outcome_key, compute_agent_score
 from .events import write_outcome
 
 pairing_wait_ctr = 0
@@ -26,18 +26,6 @@ def index():
     elif request.method == 'GET':
         form.name.data = session.get('name', '')
     return render_template('index.html', form=form)
-
-def compute_agent_score(agent, restaurant):
-    pr = restaurant["price_range"]
-    c = restaurant["cuisine"]
-    
-    sf = agent["spending_func"]
-    cf = agent["cuisine_func"]
-
-    pr_points = next(points for pr_,points in sf if pr_==pr)
-    c_points = next(points for c_,points in cf if c_==c)
-    
-    return pr_points + c_points
 
 @main.route('/chat', methods=['GET', 'POST'])
 def chat():
