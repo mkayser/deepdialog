@@ -1,12 +1,12 @@
-from flask import g, session
+from flask import g, session, jsonify
 from flask import current_app as app
 from flask.ext.socketio import emit, join_room, leave_room
 from .. import socketio
-import sqlite3
 from . import utils
 from datetime import datetime
 
 date_fmt = '%m-%d-%Y:%H-%M-%S'
+
 
 @socketio.on('joined', namespace='/chat')
 def joined(message):
@@ -31,6 +31,7 @@ def text(message):
     app.logger.debug("Testing logger: User {} says {} in room {}.".format(username,message["msg"],room))
     write_to_file(message['msg'])
     emit_message_to_chat_room("{}: {}".format(username, msg), room)
+
 
 @socketio.on('pick', namespace='/chat')
 def pick(message):
@@ -62,11 +63,13 @@ def pick(message):
         emit_message_to_chat_room("{} has received {} points.".format(other_name, other_score), room, status_message=True)
         
         backend.update_user_points([(my_name,my_score),(other_name,other_score)])
+        return True
     else:
         restaurant = scenario["restaurants"][restaurant_id]
         # TODO: maybe change all logging to use app.logger
         app.logger.debug("Testing logger: User {} picks {} in room {}.".format(username,restaurant_id,room))
         emit_message_to_chat_room("{} has selected restaurant: \"{}\"".format(username, restaurant["name"]), room, status_message=True)
+        return False
 
 
 @socketio.on('left', namespace='/chat')
@@ -84,11 +87,13 @@ def left(message):
     emit_message_to_chat_room("{} has left the room or been disconnected. Please click the link below to find a new opponent.".format(session.get('name')), 
                               room, status_message=True)
 
+
 def emit_message_to_chat_room(message, room, status_message=False):
     timestamp = datetime.now().strftime('%x %X')
     left_delim = "<" if status_message else ""    
     right_delim = ">" if status_message else ""
     emit('message', {'msg': "[{}] {}{}{}".format(timestamp, left_delim, message, right_delim)}, room=room)
+
 
 def start_chat():
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session.get('room'))), 'a+')
