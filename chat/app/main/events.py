@@ -14,7 +14,7 @@ def joined(message):
     A status message is broadcast to all people in the room."""
     username = session.get("name")
     room = session.get('room')
-
+    start_chat()
     join_room(room)
     app.logger.debug("Testing logger: User {} has entered room {}.".format(username,room))
     emit_message_to_chat_room("{} has entered the room.".format(username), room, status_message=True)
@@ -63,6 +63,9 @@ def pick(message):
         emit_message_to_chat_room("{} has received {} points.".format(other_name, other_score), room, status_message=True)
         
         backend.update_user_points([(my_name,my_score),(other_name,other_score)])
+        emit('endchat',
+             {'message':'Congratulations! Your chat has now ended. You can now play again with another friend.'},
+             room=room)
         return True
     else:
         restaurant = scenario["restaurants"][restaurant_id]
@@ -84,8 +87,9 @@ def left(message):
     backend.leave_room(username,room)
     end_chat()
     app.logger.debug("Testing logger: User {} left room {}.".format(username,room))
-    emit_message_to_chat_room("{} has left the room or been disconnected. Please click the link below to find a new opponent.".format(session.get('name')), 
-                              room, status_message=True)
+    emit('endchat',
+         {'message':'Your friend has left the room or been disconnected. Redirecting you to the login page...'},
+         room=room, include_self=False)
 
 
 def emit_message_to_chat_room(message, room, status_message=False):
@@ -97,7 +101,8 @@ def emit_message_to_chat_room(message, room, status_message=False):
 
 def start_chat():
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session.get('room'))), 'a+')
-    outfile.write("%s\t%s\tjoined\n" % (datetime.now().strftime(date_fmt), session.get('name')))
+    outfile.write("%s\t%s\t%s\tjoined\n" % (datetime.now().strftime(date_fmt), session.get('scenario_id'),
+                                            session.get('name')))
     outfile.close()
 
 
@@ -109,12 +114,13 @@ def end_chat():
 
 def write_to_file(message):
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session.get('room'))), 'a+')
-    outfile.write("%s\t%s\t%s\n" % (datetime.now().strftime(date_fmt), session.get('name'), message))
+    outfile.write("%s\t%s\t%s\t%s\n" %
+                  (datetime.now().strftime(date_fmt), session.get('scenario_id'), session.get('name'), message))
     outfile.close()
 
 
 def write_outcome(restaurant_idx, name, cuisine, price_range):
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session.get('room'))), 'a+')
-    outfile.write("%s\tSelected restaurant:\t%d\t%s\t%s\t%s\n" %
-                  (datetime.now().strftime(date_fmt), restaurant_idx, name, cuisine,
+    outfile.write("%s\t%s\tSelected restaurant:\t%d\t%s\t%s\t%s\n" %
+                  (datetime.now().strftime(date_fmt), session.get('scenario_id'), restaurant_idx, name, cuisine,
                    "\t".join([str(p) for p in price_range])))
