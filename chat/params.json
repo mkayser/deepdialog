@@ -1,6 +1,6 @@
 {
     "CHAT_ROOM_DB": "/home/mkayser/school/research/deepdialog/chat/chat_state.db",
-    "waiting_time_seconds": 10,
+    "waiting_time_seconds": 120,
     "CHAT_DIRECTORY": "/home/mkayser/school/research/deepdialog/chat/transcripts",
     "CHAT_DELIM": "---",
     "scenarios_json_file": "scenarios.json",

@@ -105,7 +105,11 @@
                 socket.on('message', function(data) {
                     $('#chat').val($('#chat').val() + data.msg + '\n');
                     $('#chat').scrollTop($('#chat')[0].scrollHeight);
-                }); 
+                });
+                socket.on('endchat', function(data) {
+                    alert(data['message']);
+                    leave_room();
+                });
                $('#text').keypress(function(e) {
                     var code = e.keyCode || e.which;
                     if (code == 13) {
@@ -115,13 +119,7 @@
                     }
                 });
 	       $('#btnPickRestaurant').click(function(e) {
-                    socket.emit('pick', {restaurant: $('#ddRestaurants').val()},
-                    function(response) {
-                    if (response) {
-                    	alert('Congratulations! Your chat has now ended. You can now play again with another friend.');
-                    	leave_room();
-                    }
-                    });
+                    socket.emit('pick', {restaurant: $('#ddRestaurants').val()});
                 });
             });
             function leave_room() {
@@ -205,6 +203,7 @@
         <textarea id="chat"></textarea><br><br>
         <input id="text" placeholder="Enter your message here"><br><br>
         <a href="/">Leave this room</a>
+
     </div>
 
     <div id="info_container">

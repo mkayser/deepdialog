@@ -112,10 +112,11 @@ class BackendConnection(object):
             print("WARNING: Rolled back transaction")
 
     def leave_room(self, username, room):
+        app.logger.debug("Update user %s in database" % username)
         try:
             with self.conn:
                 cursor = self.conn.cursor()
-                cursor.execute("UPDATE Chatrooms SET participants = participants - 1 WHERE number=?", (room,))
+                cursor.execute("UPDATE Chatrooms SET participants = participants - 1,selected_restaurant_1=-1,selected_restaurant_1=-1 WHERE number=?", (room,))
                 cursor.execute("UPDATE ActiveUsers SET room=-1,agentid=0,partner='' WHERE name=?", (username,))
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
