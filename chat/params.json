@@ -4,6 +4,10 @@
     "CHAT_DIRECTORY": "/home/mkayser/school/research/deepdialog/chat/transcripts",
     "CHAT_DELIM": "---",
     "scenarios_json_file": "scenarios.json",
-    "scenario_time_seconds": 300
+    "scenario_time_seconds": 300,
+    "chat_presentation_config": {
+	"numerical_preferences": false,
+	"numerical_prices": false
+    }
 }
 

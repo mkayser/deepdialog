@@ -11,8 +11,8 @@ def compute_agent_score(agent, restaurant):
     sf = agent["spending_func"]
     cf = agent["cuisine_func"]
 
-    pr_points = next(points for pr_,points in sf if pr_==pr)
-    c_points = next(points for c_,points in cf if c_==c)
+    pr_points = next(obj["utility"] for obj in sf if obj["price_range"]==pr)
+    c_points = next(obj["utility"] for obj in cf if obj["cuisine"]==c)
     
     return pr_points + c_points
 

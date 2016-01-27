@@ -5,6 +5,7 @@ from .forms import LoginForm, RestaurantForm
 import time
 from .utils import get_backend, generate_outcome_key, compute_agent_score
 from .events import write_outcome
+import copy
 
 pairing_wait_ctr = 0
 validation_wait_ctr = 0
@@ -45,14 +46,36 @@ def chat():
         agent = scenario["agents"][agent_number-1]
         sorted_restaurants = sorted(scenario["restaurants"], key=lambda x: -compute_agent_score(agent, x))
         form.restaurants.choices = list(enumerate([i["name"] for i in scenario["restaurants"]]))
+        config = app.config["user_params"]["chat_presentation_config"]
 
     app.logger.debug("Testing logger: chat requested.")
     if name is None or room is None or scenario_id is None:
         return redirect(url_for('.index'))
     else:
         return render_template('chat.html', name=name, room=room, scenario=scenario, agent_number=agent_number, form=form,
-                               partner=partner, sorted_restaurants=sorted_restaurants, agent=agent, scenario_num_seconds=scenario_num_seconds)
+                               partner=partner, sorted_restaurants=sorted_restaurants, agent=agent, scenario_num_seconds=scenario_num_seconds,
+                               config=config)
 
+# def compute_dollar_rating(price_range, dollar_ratings):
+#     for pr,rating in dollar_ratings:
+#         if pr==price_range:
+#             return rating
+#     raise Exception("No dollar rating found")
+
+# def compute_cuisine_rating(utility, cuisine_ratings):
+#     for u,rating in cuisine_ratings:
+#         if u>=utility:
+#             return rating
+#     raise Exception("No dollar rating found")
+
+# # TODO: change this hacky way of getting stars/etc. information 
+# def augment_agent_info(agent, ratings_info):
+#     a = copy.deepcopy(agent)
+#     for o in a["spending_func"]:
+#         o["dollar_rating"] = compute_dollar_rating(o["price_range"], ratings_info["dollar_ratings"])
+#     for o in a["cuisine_func"]:
+#         o["cuisine_rating"] = compute_cuisine_rating(o["utility"], ratings_info["cuisine_ratings"])
+#     return a
 
 @main.route('/_validate', methods=['POST'])
 def reset():

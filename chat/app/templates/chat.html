@@ -28,6 +28,16 @@
 	  height: 50%;
 	  }
 
+	  img.heart {
+	  height: 15px;
+	  width: 15px;
+	  }
+
+	  img.dollar {
+	  height: 16px;
+	  width: 9px;
+	  }
+
 	  input#text {
 	  width: 100%;
 	  }
@@ -212,22 +222,48 @@
             <h3>Your cuisine preferences</h3>
             <ol class="cuisine_preferences_list">
 	    {% for cuisine in agent["cuisine_func"] %}
-            <li>{{cuisine[0]}} <span class="points"> ({{ cuisine[1] }} points) </span> </li>
+            <li>{{cuisine["cuisine"]}} 
+	      {% if config["numerical_preferences"] %} 
+	      <span class="points"> ({{ cuisine["utility"] }} points) </span> 
+	      {% else %} 
+	      {% for i in range(cuisine["utility_rating"]) %} <img src="{{ url_for('static', filename='img/heart.svg') }}" class="heart"/> {% endfor %}
+	      {% endif %} </li>
             {% endfor %}
 	    </ol>
 
-            <h3>Your price range preferences</h3>
+            <h3>Your price range preference</h3>
+
+	    {% if config["numerical_prices"] %} 
 	    <ul>
-	    {% for range,points in agent["spending_func"] %}
-            <li> ${{ range[0] }} - ${{ range[1] }} <span class="points"> ({{ points }} points) </span> </li>
-            {% endfor %}
+	      {% for obj in agent["spending_func"] %}
+              <li>
+		${{ obj["price_range"][0] }} - ${{ obj["price_range"][1] }}
+	      </li>
+	      <span class="points"> ({{ obj["utility"] }} points) </span> </li>
+              {% endfor %}
 	    </ul>
+
+            {% else %}
+            {% for i in range((agent["spending_func"][0]["price_rating"]) | int) %} 
+              <img src="{{ url_for('static', filename='img/dollar.png') }}" class="dollar"/> 
+            {% endfor %}
+            {% endif %}
 
             <h3>Restaurants nearby</h3>
 	    <ul>
             {% for restaurant in sorted_restaurants %}
-            <li><b>{{ restaurant["name"] }}</b>: {{ restaurant["cuisine"]}}, ${{ restaurant["price_range"][0] }} - ${{ restaurant["price_range"][1] }}</li>
+            <li><b>{{ restaurant["name"] }}</b>: {{ restaurant["cuisine"]}}, 
+
+	      {% if config["numerical_prices"] %} 
+	      ${{ restaurant["price_range"][0] }} - ${{ restaurant["price_range"][1] }}
+              {% else %}
+                {% for i in range((restaurant["price_rating"]) | int) %} 
+              <img src="{{ url_for('static', filename='img/dollar.png') }}" class="dollar"/> 
             {% endfor %}
+            {% endif %}
+	    </li>
+            
+	    {% endfor %}
 	    </ul>
         </div>
 
