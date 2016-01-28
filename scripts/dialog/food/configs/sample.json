@@ -1,8 +1,13 @@
 {
     "world": {
-	"price_ranges": [[0,10],[10,20],[20,30],[30,40],[40,50],[50,100]],
-	"price_range_probabilities": [0.2,0.3,0.2,0.2,0.05,0.05],
+	"price_ranges": [[0,10],[10,20],[20,30],[30,60]],
+	"price_range_probabilities": [0.3,0.3,0.2,0.2],
 	"restaurants_file": "./data/restaurants"
+    },
+
+    "ratings": {
+	"utility_to_rating": [[0,1],[4,2],[8,3],[12,4]],
+	"price_range_to_rating": [[[0,10],1],[[10,20],2],[[20,30],3],[[30,60],4]]
     },
     
     "scenario_maker": {
@@ -10,6 +15,7 @@
 	"num_restaurants": 10,
 	"num_agents": 2,
 	"random_seed": 0,
+	"scripts_file": "./scripts/scripts.v1.json",
 	"cuisine_func_factory": {
 	    "index_to_utility": [10,6,2,0,0]
 	},
