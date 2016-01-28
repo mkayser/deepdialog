@@ -70,42 +70,6 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
         <script type="text/javascript" charset="utf-8">
-
-			function handle_submission(data) {
-			    if (data.success == 0) {
-			        var ddlist = document.getElementById("restaurantsDDL");
-			        var selected = ddlist.selectedIndex;
-                    $.getJSON('/_validate', {outcome:selected}, handle_submission);
-			    }
-				else if (data.success == -1) {
-				    jQuery.post('/_validate', {}, null);
-					window.alert('You and your friend selected different restaurants. Please make sure you select the correct restaurant before submitting the form!')
-					document.getElementById("wait").style.display = "none";
-					document.getElementById("restaurantForm").style.display = "block";
-					document.getElementById("submitform").style.display = "block";
-				}
-				else {
-				window.alert('Congratulations! Your score for this game is:'+data.score);
-				leave_room();
-				}
-            }
-            
-	        function onSubmit() {
-	            jQuery.post('/_validate', {}, null);
-	            var ddlist = document.getElementById("restaurantsDDL");
-                var selected = ddlist.selectedIndex;
-                document.getElementById("wait").style.display = "block";
-                document.getElementById("restaurantForm").style.display = "none";
-                document.getElementById("submitform").style.display = "none";
-                $.getJSON('/_validate', {outcome:selected}, handle_submission);
-                return false;
-	        }
-	        
-            $(function() { 
-            $("a#submitform").bind('click', onSubmit); 
-            });
-        </script>
-        <script type="text/javascript" charset="utf-8">
             var socket;
             $(document).ready(function(){
                 socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
@@ -128,7 +92,7 @@
                         socket.emit('text', {msg: text});
                     }
                 });
-	       $('#btnPickRestaurant').click(function(e) {
+	       $('#ddRestaurants').change(function(e) {
                     socket.emit('pick', {restaurant: $('#ddRestaurants').val()});
                 });
             });
@@ -190,14 +154,16 @@
     <div id="chat_container">
         <h1>Where Should We Eat?</h1>
         <p>
-            It's Friday night, and you and your friend, <b>{{partner}}</b> are trying to figure out where to eat dinner.
+            It's Friday night, and you and your friend are trying to figure out where to eat dinner.
             You've discovered that there are {{scenario["restaurants"]|length}} restaurants nearby.
             You like some kinds of food better than others, and have a preferred price range in mind.
         </p>
+	<h3>How to Play:</h3>
 	<ul>
-	  <li> Use the chat box below to negotiate where to go for dinner. </li>
+	  <li> Look at your <b>list of preferred cuisines</b>, and <b>preferred price range</b>, at right. </li>
+	  <li> Use the <b>chat box below</b> to negotiate where to go for dinner. </li>
 	  <li> Once you've <b>agreed on a restaurant</b>, select it from
-            the drop down list on the right, and click 'Pick this restaurant!'.</li>
+            the drop down list on the right.</li>
 	</ul>
 
         <div id="clockdiv" align="right">
@@ -267,7 +233,6 @@
 	    </ul>
         </div>
 
-        <form id="restaurantForm" method="POST">
         	<h3>Choose a restaurant below:</h3>
             <select id="ddRestaurants">
                 {% set ctr = 0 %}
@@ -276,8 +241,6 @@
                 {% set ctr = ctr + 1 %}
                 {% endfor %}
             </select>
-        </form>
-        <button type="button" id="btnPickRestaurant">Pick this restaurant!</button>
         <div id="wait" style="display:none">
             <h3>Please wait while we wait for your partner to submit a response...</h3>
         </div>

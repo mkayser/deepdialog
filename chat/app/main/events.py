@@ -7,39 +7,37 @@ from datetime import datetime
 
 date_fmt = '%m-%d-%Y:%H-%M-%S'
 
+def chat_session():
+    return session.get("chat_session")
+
 
 @socketio.on('joined', namespace='/chat')
 def joined(message):
     """Sent by clients when they enter a room.
     A status message is broadcast to all people in the room."""
-    username = session.get("name")
-    room = session.get('room')
-    start_chat()
-    join_room(room)
-    app.logger.debug("Testing logger: User {} has entered room {}.".format(username,room))
-    emit_message_to_chat_room("{} has entered the room.".format(username), room, status_message=True)
+    C = chat_session()
+    start_chat(C.room_id)
+    join_room(C.room_id)
+    app.logger.debug("Testing logger: User {} has entered room {}.".format(C.my_id, C.room))
+    emit_message_to_userid("Your partner has entered the room.", C.partner_id, status_message=True)
 
 
 @socketio.on('text', namespace='/chat')
 def text(message):
     """Sent by a client when the user entered a new message.
     The message is sent to all people in the room."""
-    room = session.get('room')
-    username = session.get('name')
+    C = chat_session()
     msg = message['msg']
-    # TODO: maybe change all logging to use app.logger
-    app.logger.debug("Testing logger: User {} says {} in room {}.".format(username,message["msg"],room))
     write_to_file(message['msg'])
-    emit_message_to_chat_room("{}: {}".format(username, msg), room)
+    emit_message_to_user_id("You: {}".format(msg), C.my_id)
+    emit_message_to_user_id("Partner: {}".format(msg), C.partner_id)
 
-
+# TODO pick() isn't revised yet
 @socketio.on('pick', namespace='/chat')
 def pick(message):
     """Sent by a client when the user entered a new message.
     The message is sent to all people in the room."""
-    username = session.get('name')
-    room = session.get('room')
-    agent_number = session.get('agent_number')
+    C = chat_session()
     restaurant_id = int(message['restaurant'])
     scenario_id = session.get('scenario_id')
     scenario = app.config["scenarios"][scenario_id]
@@ -92,13 +90,14 @@ def left(message):
          room=room, include_self=False)
 
 
-def emit_message_to_chat_room(message, room, status_message=False):
+def emit_message_to_user_id(message, user_id, status_message=False):
     timestamp = datetime.now().strftime('%x %X')
     left_delim = "<" if status_message else ""    
     right_delim = ">" if status_message else ""
-    emit('message', {'msg': "[{}] {}{}{}".format(timestamp, left_delim, message, right_delim)}, room=room)
+    emit('message', {'msg': "[{}] {}{}{}".format(timestamp, left_delim, message, right_delim)}, room=user_id)
 
 
+# TODO logging to file is not revised to use the correct ID's in place of name
 def start_chat():
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session.get('room'))), 'a+')
     outfile.write("%s\t%s\t%s\tjoined\n" % (datetime.now().strftime(date_fmt), session.get('scenario_id'),
