@@ -25,7 +25,7 @@ def userid():
 
 # todo try and use one connection everywhere, put code to find unpaired users into single function
 @main.route('/', methods=['GET', 'POST'])
-@main.route('/waiting.html', methods=['GET', 'POST'])
+@main.route('/chat', methods=['GET', 'POST'])
 def chat():
     """Chat room. The user's name and room must be stored in
     the session."""
@@ -35,25 +35,26 @@ def chat():
     session["chat_session"] = None
     add_new_user(userid())
 
-    global pairing_wait_ctr
-    while pairing_wait_ctr < app.config["user_params"]["waiting_time_seconds"]:
-        if pairing_wait_ctr > 0:
-            time.sleep(1)
-
-        find_room_if_possible(userid())
-        chat_session = session.get('chat_session', None)
-        print chat_session
-        if chat_session:
-            pairing_wait_ctr = 0
-            presentation_config = app.config["user_params"]["chat_presentation_config"]
-            return render_template('chat.html',
-                                   room=chat_session["room"],
-                                   scenario=chat_session["scenario"],
-                                   agent=chat_session["agent_info"],
-                                   config=presentation_config)
-        else:
-            pairing_wait_ctr += 1
-            return render_template('waiting.html')
+    return render_template('chat.html', userid=userid())
+    # global pairing_wait_ctr
+    # while pairing_wait_ctr < app.config["user_params"]["waiting_time_seconds"]:
+    #     if pairing_wait_ctr > 0:
+    #         time.sleep(1)
+    #
+    #     find_room_if_possible(userid())
+    #     chat_session = session.get('chat_session', None)
+    #     print chat_session
+    #     if chat_session:
+    #         pairing_wait_ctr = 0
+    #         presentation_config = app.config["user_params"]["chat_presentation_config"]
+    #         return render_template('chat.html',
+    #                                room=chat_session["room"],
+    #                                scenario=chat_session["scenario"],
+    #                                agent=chat_session["agent_info"],
+    #                                config=presentation_config)
+    #     else:
+    #         pairing_wait_ctr += 1
+    #         return render_template('waiting.html')
 
 
 # @main.route('/')
@@ -86,5 +87,4 @@ def find_room_if_possible(username):
         session["chat_session"] = chat.to_dict()
         return True
 
-    print "NO ROOM FOUND"
     return False

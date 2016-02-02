@@ -70,36 +70,10 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
         <script type="text/javascript" charset="utf-8">
-            var socket;
-            $(document).ready(function(){
-                socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
-                socket.on('connect', function() {
-                    socket.emit('joined', {});
-                });
-                socket.on('message', function(data) {
-                    $('#chat').val($('#chat').val() + data.msg + '\n');
-                    $('#chat').scrollTop($('#chat')[0].scrollHeight);
-                });
-                socket.on('endchat', function(data) {
-                    alert(data['message']);
-                    leave_room();
-                });
-               $('#text').keypress(function(e) {
-                    var code = e.keyCode || e.which;
-                    if (code == 13) {
-                        text = $('#text').val();
-                        $('#text').val('');
-                        socket.emit('text', {msg: text});
-                    }
-                });
-	       $('#ddRestaurants').change(function(e) {
-                    socket.emit('pick', {restaurant: $('#ddRestaurants').val()});
-                });
-            });
             function leave_room() {
                 socket.emit('left', {}, function() {
                     socket.disconnect();
-                    window.location.href = "{{ url_for('main.index') }}";
+                    window.location.href = "{{ url_for('main.chat') }}";
                     return null;
                 });
             }
@@ -148,16 +122,71 @@
 					  initializeClock('clockdiv', deadline);
 				        }
         </script>
+        <script type="text/javascript" charset="utf-8">
+            function waiting() {
+                document.getElementById("waiting").style.display = "block";
+                document.getElementById("chat_container").style.display = "none";
+                document.getElementById("info_container").style.display = "none";
+                socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
+                socket.on('connect', function() {
+                	socket.emit('begin_wait', {userid: '{{userid}}' });
+            	});
+            	
+            	function pollServer() {
+            		socket.emit('still_waiting', {userid: '{{userid}}' }, );
+            	}
+            	
+            	function checkIfPaired(data) {
+            	// handle information returned by events.begin_waiting or events.still_waiting
+            	// if pair was found, handle empty dict, otherwise retrieve room number, scenario number, etc, set text in divs
+            	// accordingly (chat_container, etc.), and then call initChat() to start sending messages back and forth
+            	}
+            	}
+            function initChat() {
+            	var socket;
+           	 	$(document).ready(function(){
+					document.getElementById("waiting").style.display = "none";
+            	    document.getElementById("chat_container").style.display = "block";
+        	        document.getElementById("info_container").style.display = "block";           	 	
+                	
+                	// add back an emit to say that the chat has been joined
+                	socket.on('message', function(data) {
+                    	$('#chat').val($('#chat').val() + data.msg + '\n');
+                    	$('#chat').scrollTop($('#chat')[0].scrollHeight);
+                	});
+                	socket.on('endchat', function(data) {
+                    	alert(data['message']);
+                    	leave_room();
+                	});
+               		$('#text').keypress(function(e) {
+                    	var code = e.keyCode || e.which;
+                    	if (code == 13) {
+                        	text = $('#text').val();
+                        	$('#text').val('');
+                        	socket.emit('text', {msg: text});
+                    	}
+                	});
+	       			$('#ddRestaurants').change(function(e) {
+                    	socket.emit('pick', {restaurant: $('#ddRestaurants').val()});
+                	});
+            	});
+            }
+        </script>
     </head>
-    <body onload='init()'>
+    <body onload='waiting()'>
+      <div id="waiting">
+          <h2>Please wait while we try to pair you up with an opponent to play with..</h2>
+      </div>
       <div class="clearfix">
     <div id="chat_container">
+        {% if agent is defined and scenario is defined %}
         <h1>Where Should We Eat?</h1>
         <p>
             It's Friday night, and you and your friend are trying to figure out where to eat dinner.
             You've discovered that there are {{scenario["restaurants"]|length}} restaurants nearby.
             You like some kinds of food better than others, and have a preferred price range in mind.
         </p>
+        {% endif %}
 	<h3>How to Play:</h3>
 	<ul>
 	  <li> Look at your <b>list of preferred cuisines</b>, and <b>preferred price range</b>, at right. </li>
@@ -183,6 +212,7 @@
     </div>
 
     <div id="info_container">
+        {% if agent is defined and scenario is defined %}
         <div id="preferences">
 
             <h3>Your cuisine preferences</h3>
@@ -244,7 +274,7 @@
         <div id="wait" style="display:none">
             <h3>Please wait while we wait for your partner to submit a response...</h3>
         </div>
-
+        {% endif %}
     </div>
     </div>
     </body>

@@ -4,12 +4,33 @@ from flask.ext.socketio import emit, join_room, leave_room
 from .. import socketio
 from . import utils
 from datetime import datetime
+from . import routes
 
 date_fmt = '%m-%d-%Y:%H-%M-%S'
 
 
 def chat_session():
     return session.get("chat_session")
+
+
+@socketio.on('begin_wait', namespace='/chat')
+def begin_wait(data):
+    userid = data['userid']
+    app.logger.debug("User %s started waiting" % userid)
+    app.config["waiting_users"].put(userid)
+    return attempt_pair(userid)
+
+
+@socketio.on('still_waiting', namespace='/chat')
+def check_paired(data):
+    userid = data['userid']
+    app.logger.debug("User %s polled server" % userid)
+    return attempt_pair(userid)
+
+
+def attempt_pair(userid):
+    routes.find_room_if_possible(userid)
+    # return chat information back to the client if paired, else return empty dictionary,
 
 
 @socketio.on('joined', namespace='/chat')

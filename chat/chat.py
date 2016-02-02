@@ -1,4 +1,5 @@
 #!/bin/env python
+from Queue import Queue
 from collections import defaultdict
 from app import create_app, socketio
 import sqlite3
@@ -44,6 +45,7 @@ if __name__ == '__main__':
     app.config["user_params"] = params
     app.config["scenarios"] = scenarios_dict
     app.config["outcomes"] = defaultdict(lambda : -1)
+    app.config["waiting_users"] = Queue()
     socketio.run(app)
 
 
