@@ -135,19 +135,30 @@ class CuisineFuncFactory(object):
         
 
 class Agent(object):
-    def __init__(self, cuisine_func, spending_func, script):
+    def __init__(self, cuisine_func, spending_func, script, restaurants):
         self.cuisine_func = cuisine_func
         self.spending_func = spending_func
         self.script = script
+        self.sorted_restaurants = self.create_sorted_restaurants(restaurants)
+
+    def create_sorted_restaurants(self, restaurants):
+        sorted_restaurants = []
+        for r in restaurants:
+            rnew = vars(r)
+            rnew["utility"] = self.utility(r)
+            sorted_restaurants.append(rnew)
+        sorted_restaurants = sorted(sorted_restaurants, key=lambda x:-x["utility"])
+        return sorted_restaurants
 
     def utility(self, restaurant):
-        return self.cuisine_func.f(restaurant.cuisine) + self.spending_func(restaurant.price_range)
+        return self.cuisine_func.f(restaurant.cuisine) + self.spending_func.f(restaurant.price_range)
 
     def __info__(self):
         i = {}
         i["spending_func"] = self.spending_func.__info__()
         i["cuisine_func"] = self.cuisine_func.__info__()
         i["script"] = self.script
+        i["sorted_restaurants"] = self.sorted_restaurants 
         return i
 
 class Scenario(object):
@@ -211,7 +222,7 @@ class ScenarioMaker(object):
 
             cf = self.cfactory.create_from_ordering(cuisine_ordering)
             sf = self.sfactory.create_from_optimal_index(self.randgen.randrange(len(self.world.price_ranges)))
-            agents.append(Agent(cf,sf,script_set[i]))
+            agents.append(Agent(cf,sf,script_set[i], restaurants))
 
         return Scenario(cuisines, restaurants, agents)
 

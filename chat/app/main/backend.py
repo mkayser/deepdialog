@@ -51,7 +51,6 @@ class BackendConnection(object):
                 # see if the current user has already been paired - a user is paired if their room != 0
                 cursor.execute('''SELECT * FROM ActiveUsers WHERE name=?''', (username,))
                 user_entry = cursor.fetchone()
-                app.logger.debug(user_entry)
                 room_id = user_entry[1]
                 if room_id != 0:
                     cursor.execute('''SELECT * FROM Chatrooms WHERE number=?''', (room_id,))
