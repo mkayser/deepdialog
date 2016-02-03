@@ -1,12 +1,29 @@
 <html>
     <head>
         <title>Negotiation Fun</title>
+        <script type="text/javascript" charset="utf-8">
+            var socket;
+            $(document).ready(function(){
+                socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
+                socket.on('connect', pollServer);
+                var timeInterval = setInterval(pollServer, 1000);
+            });
+
+            function pollServer() {
+                socket.emit('check_status_change', {'current_status':'waiting'}, function(data) {
+                    if (data['status_change']) {
+                        clearInterval(timeInterval);
+                        window.location.reload(true);
+                    }
+                }
+            }
+        </script>
     </head>
     <body>
     <div id="content">
         <h2>Negotiation Fun</h2>
         <h3>
-            Please wait while we try to pair you up with a friend...
+            {{ waiting_message }}
         </h3>
     </div>
 

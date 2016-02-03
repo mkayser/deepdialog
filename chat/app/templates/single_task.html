@@ -1,6 +1,20 @@
 <html>
     <head>
         <title>Negotiation Fun</title>
+        <script type="text/javascript" charset="utf-8">
+            var socket;
+            $(document).ready(function() {
+                socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
+            });
+            function pollServer() {
+            	// todo actually return some data here
+            	socket.emit('submit_task', {}, function() {
+					// maybe display a div before reload to let them know what's happening
+            		window.location.reload(true);
+
+            	});
+            }
+		</script>
     </head>
     <body>
     <div id="content">
@@ -9,10 +23,10 @@
             can answer some questions for fun instead!
         </h3>
         <h4>
-            Some randomly generated content here.
+            {{ scenario }} TODO display scenario
         </h4>
-        <button id="submit_task">
-            Submit and find me an opponent!
+        <button id="submit_task" onclick="pollServer">
+            Submit and play again!
         </button>
     </div>
 
