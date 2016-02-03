@@ -16,16 +16,30 @@ def compute_agent_score(agent, restaurant):
 
     return pr_points + c_points
 
+class FinishedSession(object):
+    def __init__(self, message, num_seconds):
+        self.message = message
+        self.num_seconds = num_seconds
+        # TODO: How to ensure that user doesn't see finished screen when returning for a second (third, etc.) task
+        # One way is to have a new socketIO event that flags that the user has submitted the MTurk code
+
+class WaitingSession(object):
+    def __init__(self, message, num_seconds):
+        self.message = message
+        self.num_seconds = num_seconds
+
+class SingleTaskSession(object):
+    def __init__(self, task, num_seconds):
+        self.task = task
+        self.num_seconds = num_seconds
 
 class UserChatSession(object):
-    def __init__(self, room_id, agent_index, scenario, num_seconds, my_id, partner_id):
+    def __init__(self, room_id, agent_index, scenario, num_seconds):
         self.room_id = room_id
         self.agent_index = agent_index
         self.scenario = scenario
         self.agent_info = scenario[agent_index]
         self.num_seconds = num_seconds
-        self.my_id = my_id
-        self.partner_id = partner_id
 
     def to_dict(self):
         return {"room": self.room_id,
