@@ -14,8 +14,8 @@ def init_database(params):
     conn = sqlite3.connect(params["CHAT_ROOM_DB"])
     c = conn.cursor()
     # number: room number, participants: number of participants (0 - 2)
-    c.execute('''CREATE TABLE Chatrooms (number integer, participants integer, scenario text, selected_restaurant_1 integer, selected_restaurant_2 integer)''')
-    c.execute('''CREATE TABLE ActiveUsers (name text unique, room integer, agentid integer, partner text, cumulative_points integer)''')
+    c.execute('''CREATE TABLE ActiveUsers (name text unique, status integer, status_timestamp integer, message text, room_id integer, agent_index integer, selected_index integer, single_task_id text, cumulative_points integer)''')
+    c.execute('''CREATE TABLE Chatrooms (room_id integer, scenario_id text)''')
     conn.commit()
     conn.close()
 

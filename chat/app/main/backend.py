@@ -2,13 +2,25 @@ from __future__ import with_statement
 import random
 import sqlite3
 import app.main.utils
+import datetime
+import time
 from flask import current_app as app
 
+class Status(object):
+    Waiting, Chat, SingleTask, Finished = range(4)
+
+def current_timestamp_in_seconds():
+    return int(time.mktime(datetime.datetime.now().timetuple()))
+
+class StatusChangedException(Exception):
+    pass
 
 class BackendConnection(object):
-    def __init__(self, location, scenario_ids):
-        self.conn = sqlite3.connect(location)
-        self.scenario_ids = scenario_ids
+    def __init__(self, config, scenarios, single_tasks):
+        self.config = config
+        self.conn = sqlite3.connect(config["db"]["location"])
+        self.scenarios = scenarios
+        self.single_tasks = single_tasks
 
     def close(self):
         self.conn.close()
@@ -17,23 +29,111 @@ class BackendConnection(object):
     def create_user_if_necessary(self, username):
         with self.conn:
             cursor = self.conn.cursor()
-            cursor.execute('''INSERT OR REPLACE INTO ActiveUsers VALUES (?,?,?,?,?)''', (username, 0, 0, '',0))
+            cursor.execute('''INSERT OR REPLACE INTO ActiveUsers VALUES (?,?,?,?,?,?)''', (username, Status.Waiting, 0, 0, '',0))
 
-    def pick_restaurant_and_check_match(self, room, agent_number, restaurant_id):
+    def get_status(self, userid):
+        with self.conn:
+            cursor = self.conn.cursor()
+            cursor.execute('''SELECT status FROM ActiveUsers WHERE name=?''', (userid,))
+            entry = cursor.fetchone()
+            return entry[0]
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
+    def get_chat_info(self, userid):
+        with self.conn:
+            cursor = self.conn.cursor()
+            cursor.execute('''SELECT status,status_timestamp,room_id,agent_index FROM ActiveUsers WHERE name=?''', (userid,))
+            status,status_timestamp,room_id,agent_index = cursor.fetchone()
+            num_seconds_remaining = (self.config["status_params"]["chat"]["num_seconds"] + status_timestamp) - current_timestamp_in_seconds()
+
+            if status != Status.Chat or num_seconds_remaining<=0:
+                raise StatusChangedException()
+            else:
+                cursor.execute('''SELECT scenario_id FROM ChatRooms WHERE room_id=?''', (room_id,))
+                scenario_id = cursor.fetchone()
+                scenario = self.scenarios[scenario_id]
+                return UserChatSession(room_id, agent_index, scenario, num_seconds_remaining)
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
+    def get_single_task_info(self, userid):
+        with self.conn:
+            cursor = self.conn.cursor()
+            cursor.execute('''SELECT status,status_timestamp,single_task_id FROM ActiveUsers WHERE name=?''', (userid,))
+            status,status_timestamp,single_task_id = cursor.fetchone()
+            num_seconds_remaining = (self.config["status_params"]["single_task"]["num_seconds"] + status_timestamp) - current_timestamp_in_seconds()
+
+            if status != Status.SingleTask or num_seconds_remaining<=0:
+                raise StatusChangedException()
+            else:
+                single_task = self.single_tasks[single_task_id]
+                return SingleTaskSession(single_task, num_seconds_remaining)
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
+    def get_waiting_info(self, userid):
+        with self.conn:
+            cursor = self.conn.cursor()
+            cursor.execute('''SELECT status,status_timestamp,message FROM ActiveUsers WHERE name=?''', (userid,))
+            status,status_timestamp,message = cursor.fetchone()
+            num_seconds_remaining = (self.config["status_params"]["waiting"]["num_seconds"] + status_timestamp) - current_timestamp_in_seconds()
+
+            if status != Status.Waiting or num_seconds_remaining<=0:
+                raise StatusChangedException()
+            else:
+                return WaitingSession(message, num_seconds)
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
+    def get_finished_info(self, userid):
+        with self.conn:
+            cursor = self.conn.cursor()
+            cursor.execute('''SELECT status,status_timestamp,message FROM ActiveUsers WHERE name=?''', (userid,))
+            status,status_timestamp,message = cursor.fetchone()
+            num_seconds_remaining = (self.config["status_params"]["finished"]["num_seconds"] + status_timestamp) - current_timestamp_in_seconds()
+
+            if status != Status.Finished or num_seconds_remaining<=0:
+                raise StatusChangedException()
+            else:
+                return FinishedSession(message, num_seconds)
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
+    def pick_restaurant(self, userid, restaurant_index):
         try:
             with self.conn:
                 cursor = self.conn.cursor()
-                selected_column = "selected_restaurant_{}".format(agent_number)
-                cursor.execute("UPDATE Chatrooms SET {} = ? WHERE number=?".format(selected_column), (restaurant_id, room))
-                cursor.execute("SELECT selected_restaurant_1,selected_restaurant_2 FROM Chatrooms WHERE number=?", (room,))
-                entry = cursor.fetchone()
-                app.logger.debug(entry)
-                if entry[0] is not None and entry[1] is not None and entry[0] == entry[1]:
-                    return True, entry[0]
-                else:
-                    return False, None
+
+                cursor.execute("SELECT status, status_timestamp, room_id, agent_index, cumulative_points FROM ActiveUsers WHERE name=?", (userid,))
+                
+                status, status_timestamp, room_id, agent_index, cumulative_points = cursor.fetchone()
+                self._validate_status_or_throw(Status.Chat, status, status_timestamp)
+
+                cursor.execute("SELECT selected_index FROM ActiveUsers WHERE room=? AND name!=?", (room_id, userid))
+                other_selection = cursor.fetchone()[0]
+                
+                #TODO finish logic here
+                
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
+
+    def _validate_status_or_throw(self, assumed_status, status, status_timestamp):
+        if status != assumed_status:
+            raise StatusChangedException
+        else:
+            # TODO: Check for timeout
+            pass
+            #Waiting, Chat, SingleTask, Finished = range(4)
+            #if status == Status.Waiting:
+            #    pass
+            
+
+    def submit_single_task(self, userid, user_input):
+        pass
+
+    def leave_room(self, userid):
+        pass
 
     def update_user_points(self, pairs):
         try:

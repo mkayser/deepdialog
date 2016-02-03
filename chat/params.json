@@ -1,13 +1,37 @@
 {
-    "CHAT_ROOM_DB": "/home/mkayser/school/research/deepdialog/chat/chat_state.db",
-    "waiting_time_seconds": 120,
-    "CHAT_DIRECTORY": "/home/mkayser/school/research/deepdialog/chat/transcripts",
-    "CHAT_DELIM": "---",
+    "status_params": {
+	"waiting": {
+	    "num_seconds": 15,
+	},
+	
+	"chat": {
+	    "num_seconds": 300
+	    "presentation_config": {
+		"numerical_preferences": false,
+		"numerical_prices": false
+    	    }
+	},
+	
+	"single_task": {
+	    "num_seconds": 60,
+	    "max_tasks": 5
+	},
+	
+	"finished": {
+	    "num_seconds": 15
+	},
+    },
+    
     "scenarios_json_file": "scenarios.json",
-    "scenario_time_seconds": 300,
-    "chat_presentation_config": {
-	"numerical_preferences": false,
-	"numerical_prices": false
+    "single_tasks_json_file": "single_tasks.json",
+    
+    "db": {
+	"location": "/home/mkayser/school/research/deepdialog/chat/chat_state.db"
+    },
+    
+    "logging": {
+	"chat_dir": "/home/mkayser/school/research/deepdialog/chat/transcripts",
+	"chat_delimiter": "---"
     }
 }
 
