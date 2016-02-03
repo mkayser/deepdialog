@@ -5,6 +5,8 @@ from .. import socketio
 from . import utils
 from datetime import datetime
 from . import routes
+from .utils import get_backend
+from .routes import userid
 
 date_fmt = '%m-%d-%Y:%H-%M-%S'
 
@@ -13,19 +15,22 @@ def chat_session():
     return session.get("chat_session")
 
 
-@socketio.on('begin_wait', namespace='/chat')
-def begin_wait(data):
-    userid = data['userid']
-    app.logger.debug("User %s started waiting" % userid)
-    app.config["waiting_users"].put(userid)
-    return attempt_pair(userid)
+@socketio.on('check_status_change', namespace='/chat')
+def check_status_change(data):
+    backend = get_backend(userid())
+    current_status = data['current_status']
+
+    new_status = backend.get_status()
+    if current_status == new_status:
+        return {'status_change':False}
+    else:
+        return {'status_change':True}
 
 
-@socketio.on('still_waiting', namespace='/chat')
-def check_paired(data):
-    userid = data['userid']
-    app.logger.debug("User %s polled server" % userid)
-    return attempt_pair(userid)
+@socketio.on('submit_task', namespace='/chat')
+def submit_task(data):
+    backend = get_backend()
+    backend.submit_singe_task(userid(), data) # todo maybe need to unpack the return values first before passing
 
 
 def attempt_pair(userid):
