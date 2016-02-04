@@ -51,56 +51,14 @@ def main():
         return render_template('finished.html',
                                mturk_code = finished_info['mturk_code'],
                                finished_message = finished_info['finished_message'])
-    return render_template('chat.html', userid=userid())
-    # global pairing_wait_ctr
-    # while pairing_wait_ctr < app.config["user_params"]["waiting_time_seconds"]:
-    #     if pairing_wait_ctr > 0:
-    #         time.sleep(1)
-    #
-    #     find_room_if_possible(userid())
-    #     chat_session = session.get('chat_session', None)
-    #     print chat_session
-    #     if chat_session:
-    #         pairing_wait_ctr = 0
-    #         presentation_config = app.config["user_params"]["chat_presentation_config"]
-    #         return render_template('chat.html',
-    #                                room=chat_session["room"],
-    #                                scenario=chat_session["scenario"],
-    #                                agent=chat_session["agent_info"],
-    #                                config=presentation_config)
-    #     else:
-    #         pairing_wait_ctr += 1
-    #         return render_template('waiting.html')
-
-
-# @main.route('/')
-# # todo: something like this needs to happen when a single task is submitted, too
-# def waiting():
-#     global pairing_wait_ctr
-#     while pairing_wait_ctr < app.config["user_params"]["waiting_time_seconds"]:
-#         time.sleep(1)
-#         pairing_wait_ctr += 1
-#         found_room = find_room_if_possible(userid())
-#         if found_room:
-#             pairing_wait_ctr = 0
-#             return redirect(url_for('.chat'))
-#         else:
-#             return redirect(url_for('.waiting'))
-#     pairing_wait_ctr = 0
-#     return render_template('single_task.html')
-#
-
-def add_new_user(username):
-    backend = get_backend()
-    backend.create_user_if_necessary(username)
-
-
-def find_room_if_possible(username):
-    backend = get_backend()
-    room, scenario_id, agent_index, partner_id = backend.find_room_for_user_if_possible(username)
-    if room:
-        chat = UserChatSession(room, agent_index, scenario_id, app.config["user_params"]["scenario_time_seconds"], userid(), partner_id)
-        session["chat_session"] = chat.to_dict()
-        return True
-
-    return False
+    else:
+        chat_info = backend.get_chat_info(userid())
+        chat_dict = chat_info.to_dict()
+        presentation_config = app.config["user_params"]["chat_presentation_config"]
+        session["room"] = chat_dict["room"]
+        return render_template('chat.html',
+                               room = chat_dict["room"],
+                               scenario = chat_dict["scenario"],
+                               agent = chat_dict["agent_info"],
+                               num_seconds = chat_dict["num_seconds"],
+                               config=presentation_config)

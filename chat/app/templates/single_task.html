@@ -5,26 +5,72 @@
             var socket;
             $(document).ready(function() {
                 socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
+                socket.on('disconnect', function() {
+                // do something to let the server know that this user has been disconnected
+                }
             });
-            function pollServer() {
-            	// todo actually return some data here
-            	socket.emit('submit_task', {}, function() {
-					// maybe display a div before reload to let them know what's happening
-            		window.location.reload(true);
+            function validateAndSubmit() {
 
-            	});
+            	data = validateResponse();
+            	if (data['valid']) {
+                    socket.emit('submit_task', {}, function() {
+                        // maybe display a div before reload to let them know what's happening
+                        window.location.reload(true);
+
+                    });
+            	}
+            }
+
+            function validateResponse() {
+                ddRestaurants = document.getElementById("restaurantChoices");
+            	textArea = document.getElementById("starterText");
+            	selected_idx = ddRestaurants.options[ddRestaurants.selectedIndex].value;
+            	selected_restaurant = ddRestaurants.options[ddRestaurants.selectedIndex].text;
+            	starter_text = starterText.value;
+
+            	if (selected_idx != 0 && starter_text != "") {
+            	    document.getElementById('choiceError').style.display="none";
+            	    document.getElementById('textError').style.display="block";
+            	    return {'restaurant': selected_restaurant,
+            	            'starter_text': starter_text,
+            	            'valid': true};
+            	}
+            	if (selected_idx == 0) {
+            	    document.getElementById('choiceError').style.display="block";
+            	}
+            	if (starter_text == "") {
+                    document.getElementById('textError').style.display="block";
+            	}
+
+            	return {'valid': false};
             }
 		</script>
     </head>
     <body>
     <div id="content">
         <h3>
-            There are no users currently online to test your negotiation skills against :( . While you wait, you
-            can answer some questions for fun instead!
+            There are no other users online at the moment to play with! Please answer the questions on this survey instead.
         </h3>
         <h4>
             {{ scenario }} TODO display scenario
         </h4>
+        <p>
+            Given your preferences and the different restaurant options, which restaurant would be your top choice?
+        </p>
+        <div class="choiceError" style="display:none"><h3>Please select a valid option below</h3></div>
+        <select id="restaurantChoices">
+            <option selected="selected" value=0>-- Select one --</option>
+            <option value=1>Restaurant 1</option>
+            <option value=2>Restaurant 2</option>
+        </select>
+        <p>
+            Imagine that you and a friend are chatting online, and you want to choose one of these restaurants to eat at.
+            What would you say first to get the discussion going? (Please don't include greetings and other conversational
+            dialogues like "Hi", "Where do you want to eat?", etc.)
+        </p>
+        <div class="textError" style="display:none"><h3>Please enter your response in the box.</h3></div>
+        <textarea id="starterText" rows="2" cols="50">
+        </textarea>
         <button id="submit_task" onclick="pollServer">
             Submit and play again!
         </button>
