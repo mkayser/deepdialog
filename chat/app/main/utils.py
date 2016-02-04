@@ -29,8 +29,10 @@ class WaitingSession(object):
         self.num_seconds = num_seconds
 
 class SingleTaskSession(object):
-    def __init__(self, task, num_seconds):
-        self.task = task
+    def __init__(self, scenario, agent_index, num_seconds):
+        self.scenario = scenario
+        self.agent_index = agent_index
+        self.agent_info = scenario[agent_index]
         self.num_seconds = num_seconds
 
 class UserChatSession(object):

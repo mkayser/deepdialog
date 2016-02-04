@@ -73,34 +73,6 @@ def pick(message):
     scenario = app.config["scenarios"][scenario_id]
 
     backend = utils.get_backend()
-    is_match, matching_restaurant_id = backend.pick_restaurant_and_check_match(room, agent_number, restaurant_id)
-    if is_match:
-        restaurant = scenario["restaurants"][matching_restaurant_id]
-        emit_message_to_chat_room("Both users have selected restaurant: \"{}\"".format(restaurant["name"]), room, status_message=True)
-
-        # Get agent info and scores
-        my_agent_info = scenario["agents"][agent_number-1]
-        my_name = username
-        my_score = utils.compute_agent_score(my_agent_info, restaurant)
-
-        other_agent_info = scenario["agents"][1 - (agent_number-1)]
-        other_name = chat_session().partner_id
-        other_score = utils.compute_agent_score(other_agent_info, restaurant)
-
-        emit_message_to_chat_room("{} has received {} points.".format(my_name, my_score), room, status_message=True)
-        emit_message_to_chat_room("{} has received {} points.".format(other_name, other_score), room, status_message=True)
-        
-        backend.update_user_points([(my_name,my_score),(other_name,other_score)])
-        emit('endchat',
-             {'message':'Congratulations! Your chat has now ended. You can now play again with another friend.'},
-             room=room)
-        return True
-    else:
-        restaurant = scenario["restaurants"][restaurant_id]
-        # TODO: maybe change all logging to use app.logger
-        app.logger.debug("Testing logger: User {} picks {} in room {}.".format(username,restaurant_id,room))
-        emit_message_to_chat_room("{} has selected restaurant: \"{}\"".format(username, restaurant["name"]), room, status_message=True)
-        return False
 
 
 @socketio.on('left', namespace='/chat')
