@@ -46,9 +46,7 @@ class UserChatSession(object):
                 "agent_index": self.agent_index,
                 "scenario": self.scenario,
                 "agent_info": self.agent_info,
-                "num_seconds": self.num_seconds,
-                "my_id": self.my_id,
-                "partner_id": self.partner_id}
+                "num_seconds": self.num_seconds}
 
 
 def get_backend():
