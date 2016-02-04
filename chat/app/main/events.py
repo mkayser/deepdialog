@@ -10,10 +10,6 @@ from .routes import userid
 date_fmt = '%m-%d-%Y:%H-%M-%S'
 
 
-def chat_session():
-    return session.get("chat_session")
-
-
 @socketio.on('check_status_change', namespace='/chat')
 def check_status_change(data):
     backend = get_backend()
@@ -118,14 +114,14 @@ def start_chat():
 
 
 def end_chat():
-    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(chat_session().room)), 'a+')
+    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session["room"])), 'a+')
     outfile.write("%s\t%s\n" % (datetime.now().strftime(date_fmt), app.config["user_params"]["CHAT_DELIM"]))
     outfile.close()
 
 
 def write_to_file(message):
     chat_dict = get_backend().get_chat_info(userid()).to_dict()
-    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(chat_session().room)), 'a+')
+    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session["room"])), 'a+')
     outfile.write("%s\t%s\tUser %s\t%s\n" %
                   (datetime.now().strftime(date_fmt), chat_dict["scenario"]["uuid"],
                    str(chat_dict["agent_index"]), message))
@@ -134,6 +130,6 @@ def write_to_file(message):
 
 def write_outcome(name):
     chat_dict = get_backend().get_chat_info(userid()).to_dict()
-    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(chat_session().room)), 'a+')
+    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session["room"])), 'a+')
     outfile.write("%s\t%s\tUser %s\tSelected restaurant:\t%s\n" %
-                  (datetime.now().strftime(date_fmt), chat_session().scenario, chat_dict["agent_index"], name))
+                  (datetime.now().strftime(date_fmt), chat_dict["scenario"]["uuid"], chat_dict["agent_index"], name))

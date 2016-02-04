@@ -4,6 +4,7 @@ from . import main
 import time
 from .utils import get_backend, UserChatSession
 import uuid
+from .backend import Status
 
 pairing_wait_ctr = 0
 validation_wait_ctr = 0
@@ -37,21 +38,21 @@ def main():
 
     status = backend.get_status()
 
-    if status == "waiting":
+    if status == Status.Waiting:
         waiting_info = backend.get_waiting_info(userid())
         return render_template('waiting.html',
                                seconds_until_expiration = waiting_info['seconds_until_expiration'],
                                waiting_message = waiting_info['waiting_message'])
-    elif status == "single_task":
+    elif status == Status.SingleTask:
         single_task_info = backend.get_single_task_info(userid())
         return render_template('single_task.html',
                                scenario = single_task_info['scenario'])
-    elif status == "finished":
+    elif status == Status.Finished:
         finished_info = backend.get_finished_info(userid())
         return render_template('finished.html',
                                mturk_code = finished_info['mturk_code'],
                                finished_message = finished_info['finished_message'])
-    else:
+    elif status == Status.Chat:
         chat_info = backend.get_chat_info(userid())
         chat_dict = chat_info.to_dict()
         presentation_config = app.config["user_params"]["chat_presentation_config"]
