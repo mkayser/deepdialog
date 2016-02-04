@@ -7,9 +7,7 @@
                 socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
                 socket.on('connect', pollServer);
 				socket.on('disconnect', function() {
-                // do something to let the server know that this user has been disconnected
-                // this should run even if the user's internet connection is lost (albeit after some time)
-                // want to remove user from database if they leave
+                	socket.emit('user_disconnected', {});
                 });
                 var timeInterval = setInterval(pollServer, 1000);
             });

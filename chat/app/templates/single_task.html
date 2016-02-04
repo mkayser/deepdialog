@@ -6,8 +6,8 @@
             $(document).ready(function() {
                 socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
                 socket.on('disconnect', function() {
-                // do something to let the server know that this user has been disconnected
-                }
+                	socket.emit('user_disconnected', {});
+                });
             });
             function validateAndSubmit() {
 

@@ -2,7 +2,6 @@ from flask import session, request
 from flask import current_app as app
 from flask.ext.socketio import emit, join_room, leave_room
 from .. import socketio
-from . import utils
 from datetime import datetime
 from .utils import get_backend
 from .routes import userid
@@ -74,12 +73,22 @@ def left(message):
     room = session["room"]
 
     leave_room(room)
-    backend = utils.get_backend()
+    backend = get_backend()
     backend.disconnect(userid())
     end_chat()
     emit('endchat',
          {'message':'Your friend has left or been disconnected. Redirecting you...'},
          room=room, include_self=False)
+
+
+@socketio.on('user_disconnected', namespace='/chat')
+def disconnect():
+    """
+    Called when user disconnects from a state other than Status.Chat
+    :return: No return value
+    """
+    backend = get_backend()
+    backend.disonnect(userid())
 
 
 def emit_message_to_self(message, status_message=False):
