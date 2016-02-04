@@ -1,7 +1,7 @@
 from __future__ import with_statement
 import random
 import sqlite3
-import app.main.utils
+from .utils import UserChatSession, SingleTaskSession, FinishedSession, WaitingSession
 import datetime
 import time
 from flask import current_app as app

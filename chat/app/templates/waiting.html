@@ -6,6 +6,9 @@
             $(document).ready(function(){
                 socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
                 socket.on('connect', pollServer);
+				socket.on('disconnect', function() {
+                	socket.emit('user_disconnected', {});
+                });
                 var timeInterval = setInterval(pollServer, 1000);
             });
 
