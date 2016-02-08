@@ -13,7 +13,19 @@ class Status(object):
 def current_timestamp_in_seconds():
     return int(time.mktime(datetime.datetime.now().timetuple()))
 
-class StatusChangedException(Exception):
+class BadChatException(Exception):
+    pass
+
+class NoSuchUserException(Exception):
+    pass
+
+class UnexpectedStatusException(Exception):
+    pass
+
+class ConnectionTimeoutException(Exception):
+    pass
+
+class StatusTimeoutException(Exception):
     pass
 
 class User(object):
@@ -25,14 +37,14 @@ class User(object):
         self.connected_timestamp = row[4]
         self.message = row[5]
         self.room_id = row[6]
-        self.scenario_id = row[7]
-        self.agent_index = row[8]
-        self.selected_index = row[9]
-        self.single_task_id = row[10]
-        self.num_single_tasks_completed = row[11]
-        self.cumulative_points = row[12]
+        self.partner_id = row[7]
+        self.scenario_id = row[8]
+        self.agent_index = row[9]
+        self.selected_index = row[10]
+        self.single_task_id = row[11]
+        self.num_single_tasks_completed = row[12]
+        self.cumulative_points = row[13]
 
-    
 
 class BackendConnection(object):
     def __init__(self, config, scenarios):
@@ -47,101 +59,165 @@ class BackendConnection(object):
     def create_user_if_necessary(self, username):
         with self.conn:
             cursor = self.conn.cursor()
-            cursor.execute('''INSERT OR REPLACE INTO ActiveUsers VALUES (?,?,?,?,?,?)''', (username, Status.Waiting, 0, -1, '',0))
+            now = current_timestamp_in_seconds()
+            # name,status,timestamp,connected_status,connected_timestamp,message,room_id,partner_id,scenario_id,agent_index,selected_index,single_task_id,num_single_tasks_completed,cumul_pts
+            cursor.execute('''INSERT OR REPLACE INTO ActiveUsers VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)''', (username, Status.Waiting, now, 1, now, "", -1, "", "", -1, -1, "", 0, 0))
 
-    def get_status(self, userid):
-        with self.conn:
-            cursor = self.conn.cursor()
-            try:
-                u=self._get_user_info(cursor, userid, assumed_status=None)
-            except StatusChangedException:
-                u = self._get_user_info_unchecked(self, cursor, userid)
-                if u.status == Status.Waiting:
-                    self._transition_to_single_task(cursor, userid)
-                elif u.status == Status.SingleTask:
-                    # Do nothing in case of timeout for SingleTask
-                    pass
-                elif u.status == Status.Chat:
-                    self._end_chat_and_transition_to_waiting(cursor, userid)
-                elif u.status == Status.Finished:
-                    # Do nothing in case of timeout for SingleTask
-                    pass
-                else:
-                    raise Exception("Unknown status: {} for user: {}".format(u.status, userid))
-                
 
-            # TODO do the status update
-            cursor.execute('''SELECT status FROM ActiveUsers WHERE name=?''', (userid,))
-            entry = cursor.fetchone()
-            return entry[0]
+    def is_status_unchanged(self, userid, assumed_status):
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                try:
+                    u=self._get_user_info(cursor, userid, assumed_status=assumed_status)
+                    return True
+                except (UnexpectedStatusException,ConnectionTimeoutException,StatusTimeoutException) as e:
+                    return False
+
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+        
+
+    def get_updated_status(self, userid):
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                try:
+                    u=self._get_user_info(cursor, userid, assumed_status=None)
+                except (UnexpectedStatusException,ConnectionTimeoutException,StatusTimeoutException) as e:
+                    # Handle timeouts by performing the relevant update
+                    u = self._get_user_info_unchecked(self, cursor, userid)
+                    if u.status == Status.Waiting:
+                        self._transition_to_single_task(cursor, userid)
+                        return Status.SingleTask
+                    elif u.status == Status.SingleTask:
+                        return u.status
+                    elif u.status == Status.Chat:
+                        if isinstance(e, ConnectionTimeoutException):
+                            message = "Your partner's connection has timed out! Waiting for a new chat..."
+                        else:
+                            message = "Darn, you ran out of time! Waiting for a new chat..."
+                        self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=message, partner_message=message)
+                        return Status.Waiting
+                    elif u.status == Status.Finished:
+                        return u.status
+                    else:
+                        raise Exception("Unknown status: {} for user: {}".format(u.status, userid))
+
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
 
     def _transition_to_single_task(cursor, userid):
-        #TODO
-        pass
-            
-    def end_chat_and_transition_to_waiting(cursor, userid):
-        #TODO
-        pass
+        scenario_id = random.choice(self.scenarios)["uuid"]
+        my_agent_index = random.choice([0,1])
+        self._update_user(cursor, userid, 
+                          status=Status.SingleTask, 
+                          single_task_id=scenario_id,
+                          agent_index=my_agent_index,
+                          selected_index=-1,
+                          message="")
+
+    def _end_chat_and_transition_to_waiting(cursor, userid, partner_id,message,partner_message):
+        self._update_user(cursor, userid, 
+                          status=Status.Waiting, 
+                          room_id=-1,
+                          message=message)
+        self._update_user(cursor, partner_id, 
+                          status=Status.Waiting, 
+                          room_id=-1,
+                          message=partner_message)
 
     def get_chat_info(self, userid):
-        with self.conn:
-            cursor = self.conn.cursor()
-            u = _get_user_info(cursor, userid, assumed_status=Status.Chat)
-
-            num_seconds_remaining = (self.config["status_params"]["chat"]["num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
-            scenario = self.scenarios[u.scenario_id]
-            return UserChatSession(room_id, u.agent_index, scenario, num_seconds_remaining)
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                u = _get_user_info(cursor, userid, assumed_status=Status.Chat)
+                num_seconds_remaining = (self.config["status_params"]["chat"]["num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
+                scenario = self.scenarios[u.scenario_id]
+                return UserChatSession(room_id, u.agent_index, scenario, num_seconds_remaining)
 
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
     def get_single_task_info(self, userid):
-        with self.conn:
-            cursor = self.conn.cursor()
-            u = _get_user_info(cursor, userid, assumed_status=Status.SingleTask)
-
-            num_seconds_remaining = (self.config["status_params"]["single_task"]["num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
-            scenario = self.scenarios[u.single_task_id]
-
-            return SingleTaskSession(scenario, u.agent_index, num_seconds_remaining)
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                u = _get_user_info(cursor, userid, assumed_status=Status.SingleTask)                
+                num_seconds_remaining = (self.config["status_params"]["single_task"]["num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
+                scenario = self.scenarios[u.single_task_id]
+                return SingleTaskSession(scenario, u.agent_index, num_seconds_remaining)
 
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
     def get_waiting_info(self, userid):
-        with self.conn:
-            cursor = self.conn.cursor()
-            u = _get_user_info(cursor, userid, assumed_status=Status.Waiting)
-            num_seconds = (self.config["status_params"]["waiting"]["num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
-            return WaitingSession(message, num_seconds)
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                u = _get_user_info(cursor, userid, assumed_status=Status.Waiting)
+                num_seconds = (self.config["status_params"]["waiting"]["num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
+                return WaitingSession(message, num_seconds)
 
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
     def get_finished_info(self, userid):
-        with self.conn:
-            cursor = self.conn.cursor()
-            u = _get_user_info(cursor, userid, assumed_status=Status.Finished)
-            num_seconds = (self.config["status_params"]["finished"]["num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
-            return FinishedSession(u.message, num_seconds)
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                u = _get_user_info(cursor, userid, assumed_status=Status.Finished)
+                num_seconds = (self.config["status_params"]["finished"]["num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
+                return FinishedSession(u.message, num_seconds)
 
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
     def is_chat_valid(self, userid):
-        # TODO: update the connected_status and connected_timestamp
-        pass
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                try:
+                    u = _get_user_info(cursor, userid, assumed_status=Status.Chat)
+                    u2 = _get_user_info(cursor, u.partner_id, assumed_status=Status.Chat)
+                    return u.room_id == u2.room_id
+                except UnexpectedStatusException:
+                    return False
+                except StatusTimeoutException:
+                    return False
+                except ConnectionTimeoutException:
+                    return False
+
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+            return False
 
     def connect(self, userid):
-        # TODO: update the connected_status and connected_timestamp
-        pass
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                self._update_user(cursor, userid, 
+                                  connected_status=1)
+
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
     
     def disconnect(self, userid):
-        # TODO: update the connected_status and connected_timestamp
-        pass
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                self._update_user(cursor, userid, 
+                                  connected_status=0)
+
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
+    def _ensure_not_none(self, v, exception_class):
+        if v is None:
+            raise exception_class()
+        else:
+            return v
 
     def pick_restaurant(self, userid, restaurant_index):
         def _get_points(scenario, agent_index, restaurant_name):
@@ -158,7 +234,7 @@ class BackendConnection(object):
                 u = _get_user_info(cursor, userid, assumed_status=Status.Chat)
 
                 cursor.execute("SELECT name, selected_index,cumulative_points FROM ActiveUsers WHERE room=? AND name!=?", (u.room_id, userid))
-                other_userid, other_restaurant_index, other_P = cursor.fetchone()[0]
+                other_userid, other_restaurant_index, other_P = self._ensure_not_none(cursor.fetchone(),BadChatException)[0]
 
                 P = u.cumulative_points
                 scenario = self.scenarios[u.single_task_id]
@@ -180,20 +256,33 @@ class BackendConnection(object):
 
     def _validate_status_or_throw(self, assumed_status, status):
         if status != assumed_status:
-            raise StatusChangedException()
+            raise UnexpectedStatusException()
         return 
 
-    def _validate_no_timeout_or_throw(self, status, status_timestamp):
+    def _assert_no_status_timeout(self, status, status_timestamp):
         N = self.config["status_params"][Status._names[status]]["num_seconds"]
         num_seconds_remaining = (N + status_timestamp) - current_timestamp_in_seconds()
         if num_seconds_remaining>=0:
             return 
         else:
-            raise StatusChangedException()
+            raise StatusTimeoutException()
+
+    def _assert_no_connection_timeout(self, status, timestamp):
+        if status:
+            return
+        else:
+            N = self.config["connection_timeout_num_seconds"]
+            num_seconds_remaining = (N + timestamp) - current_timestamp_in_seconds()
+            if num_seconds_remaining>=0:
+                return 
+            else:
+                raise ConnectionTimeoutException()
 
     def _update_user(self, cursor, userid, **kwargs):
         if "status" in kwargs:
             kwargs["status_timestamp"] = current_timestamp_in_seconds()
+        if "connected_status" in kwargs:
+            kwargs["connected_timestamp"] = current_timestamp_in_seconds()
         keys = sorted(kwargs.keys())
         values = [kwargs[k] for k in keys]
 
@@ -203,14 +292,15 @@ class BackendConnection(object):
 
     def _get_user_info_unchecked(self, cursor, userid):
         cursor.execute("SELECT * FROM ActiveUsers WHERE name=?", (userid,))
-        u = User(cursor.fetchone())
+        u = User(self._ensure_not_none(cursor.fetchone(),NoSuchUserException))
         return u
 
     def _get_user_info(self, cursor, userid, assumed_status=None):
         u = self._get_user_info_unchecked(cursor, userid)
         if assumed_status is not None:
             self._validate_status_or_throw(assumed_status, u.status)
-        self._validate_no_timeout_or_throw(u.status, u.status_timestamp)
+        self._assert_no_status_timeout(u.status, u.status_timestamp)
+        self._assert_no_connection_timeout(u.status, u.status_timestamp)
         return u
 
     def submit_single_task(self, userid, user_input):
@@ -235,8 +325,16 @@ class BackendConnection(object):
             print("WARNING: Rolled back transaction")
 
     def leave_room(self, userid):
-        # TODO
-        pass
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                u = _get_user_info(cursor, userid, assumed_status=Status.Chat)
+                message="You have left the room. Waiting for a new chat..."
+                partner_message="Your partner has left the room! Waiting for a new chat..."
+                self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=message, partner_message=partner_message)
+
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
 
     def attempt_join_room(self, userid):
         def _get_other_waiting_users(cursor, userid):
@@ -255,11 +353,28 @@ class BackendConnection(object):
                 cursor = self.conn.cursor()
                 u = _get_user_info(cursor, userid, assumed_status=Status.Waiting)
                 others = _get_other_waiting_users(cursor, userid)
+
                 if len(others)>0:
+                    scenario_id = random.choice(self.scenarios)["uuid"]
                     other_userid = random.choice(others)
                     next_room_id = _get_max_room_id(cursor)+1
-                    self._update_user(cursor, userid, status=Status.Chat, room_id=next_room_id, message="")
-                    self._update_user(cursor, other_userid, Status.Chat, room_id=next_room_id, message="")
+                    my_agent_index = random.choice([0,1])
+                    self._update_user(cursor, other_userid, 
+                                      status=Status.Chat, 
+                                      room_id=next_room_id, 
+                                      partner_id=userid,
+                                      scenario_id=scenario_id,
+                                      agent_index=1-my_agent_index,
+                                      selected_index=-1,
+                                      message="")
+                    self._update_user(cursor, userid, 
+                                      status=Status.Chat, 
+                                      room_id=next_room_id,
+                                      partner_id=other_userid,
+                                      scenario_id=scenario_id,
+                                      agent_index=my_agent_index,
+                                      selected_index=-1,
+                                      message="")
                     return next_room_id
                 else:
                     return None

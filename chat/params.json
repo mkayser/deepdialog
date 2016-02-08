@@ -24,6 +24,8 @@
     
     "scenarios_json_file": "scenarios.json",
     "single_tasks_json_file": "single_tasks.json",
+
+    "connection_timeout_num_seconds": 15,
     
     "db": {
 	"location": "/home/mkayser/school/research/deepdialog/chat/chat_state.db"
