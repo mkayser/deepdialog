@@ -11,7 +11,10 @@ class FinishedSession(object):
 
 class WaitingSession(object):
     def __init__(self, message, num_seconds):
-        self.message = message
+        if message and len(message) > 0:
+            self.message = message
+        else:
+            self.message = "Please wait while we try to find a partner to pair you up with.."
         self.num_seconds = num_seconds
 
 
