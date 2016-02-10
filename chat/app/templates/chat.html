@@ -72,7 +72,7 @@
         <script type="text/javascript" charset="utf-8">
             var socket;
             $(document).ready(function(){
-                socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
+                socket = io.connect('http://' + document.domain + ':' + location.port);
                 socket.on('connect', function() {
                     socket.emit('joined', {});
                 });
@@ -81,15 +81,13 @@
                     $('#chat').scrollTop($('#chat')[0].scrollHeight);
                 });
                 socket.on('disconnect', function() {
-					socket.emit('left_room', {}, 
-					function() {
-						window.location.reload(true);
-					});
+					socket.disconnect();
 				});
-				socket.on('endchat', function() {
+				socket.on('endchat', function(data) {
 					socket.emit('left_room', {}, 
 					function() {
-						window.location.reload(true);
+						alert(data['message']);
+						setTimeout(function() { window.location.reload(true); }, 1000);
 					});
 				});
                	$('#text').keypress(function(e) {
@@ -100,19 +98,25 @@
                         socket.emit('text', {msg: text});
                     }
                 });
-	    		$('#ddRestaurants').change(function(e) {
-                    socket.emit('pick', 
-                    {restaurant: $('#ddRestaurants').val()},
-                	function() {
-                		window.location.reload(true)
-                	});
+	    		
+	    		$('#ddRestaurants').change(function() {
+	    			selected = $('option:selected').val();
+                	socket.emit('pick', {restaurant: selected});
                 });
             });
             function leave_room() {
                 socket.emit('left', {}, function() {
                     socket.disconnect();
-                    window.location.href = "{{ url_for('main.index') }}";
+                    window.location.href = "{{ url_for('main.main') }}";
                     return null;
+                });
+            }
+            
+            function pollServer() {
+            	socket.emit('check_status_change', {'current_status':'waiting'}, function(data) {
+                    if (data['status_change']) { 
+                        setTimeout(function() {  window.location.reload(true); }, 1000);   
+                    }
                 });
             }
 
@@ -143,7 +147,7 @@
 
 					    if (t.total <= 0) {
 					      clearInterval(timeinterval);
-					      leave_room();
+					      pollServer();
 					    }
 					  }
 
@@ -153,7 +157,7 @@
 
 
 					function init() {
-					  var deadline = new Date(Date.parse(new Date()) + {{ scenario_num_seconds }} * 1000);
+					  var deadline = new Date(Date.parse(new Date()) + {{ num_seconds }} * 1000);
 					  initializeClock('clockdiv', deadline);
 				        }
         </script>
@@ -164,13 +168,13 @@
         <h1>Where Should We Eat?</h1>
         <p>
             It's Friday night, and you and your friend are trying to figure out where to eat dinner.
-            You've discovered that there are {{scenario["restaurants"]|length}} restaurants nearby.
+            You've discovered that there are <b>{{scenario["restaurants"]|length}}</b> restaurants nearby.
             You like some kinds of food better than others, and have a preferred price range in mind.
         </p>
 	<h3>How to Play:</h3>
 	<ul>
 	  <li> Look at your <b>list of preferred cuisines</b>, and <b>preferred price range</b>, at right. </li>
-	  <li> Use the <b>chat box below</b> to negotiate where to go for dinner. </li>
+	  <li> Use the <b>chat box below</b> to chat with your friend and decide where to eat dinner. </li>
 	  <li> Once you've <b>agreed on a restaurant</b>, select it from
             the drop down list on the right.</li>
 	</ul>
@@ -225,7 +229,7 @@
 
             <h3>Restaurants nearby</h3>
 	    <ul>
-            {% for restaurant in sorted_restaurants %}
+            {% for restaurant in scenario["restaurants"] %}
             <li><b>{{ restaurant["name"] }}</b>: {{ restaurant["cuisine"]}}, 
 
 	      {% if config["numerical_prices"] %} 
@@ -243,6 +247,7 @@
 
         	<h3>Choose a restaurant below:</h3>
             <select id="ddRestaurants">
+            	<option value="-1">Select a restaurant</option>
                 {% set ctr = 0 %}
                 {% for restaurant in scenario["restaurants"] %}
                 <option value={{ctr}}>{{ restaurant["name"] }}</option>

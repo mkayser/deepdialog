@@ -4,30 +4,37 @@ from flask.ext.socketio import emit, join_room, leave_room
 from .. import socketio
 from datetime import datetime
 from .utils import get_backend
+from .backend import Status
 from .routes import userid
 
 date_fmt = '%m-%d-%Y:%H-%M-%S'
 
 
-@socketio.on('check_status_change', namespace='/chat')
+@socketio.on('is_chat_valid')
+def check_valid_chat():
+    backend = get_backend()
+    valid = backend.is_chat_valid(userid())
+    return {'valid':valid}
+
+
+@socketio.on('check_status_change')
 def check_status_change(data):
     backend = get_backend()
-    current_status = data['current_status']
+    current_status = Status.from_str(data['current_status'])
 
-    new_status = backend.get_status(userid())
-    if current_status == new_status:
+    if backend.is_status_unchanged(userid(), current_status):
         return {'status_change':False}
     else:
         return {'status_change':True}
 
 
-@socketio.on('submit_task', namespace='/chat')
+@socketio.on('submit_task')
 def submit_task(data):
     backend = get_backend()
-    backend.submit_singe_task(userid(), data) # todo maybe need to unpack the return values first before passing
+    backend.submit_single_task(userid(), data) # todo maybe need to unpack the return values first before passing
 
 
-@socketio.on('joined', namespace='/chat')
+@socketio.on('joined')
 def joined(message):
     """Sent by clients when they enter a room.
     A status message is broadcast to all people in the room."""
@@ -36,7 +43,7 @@ def joined(message):
     emit_message_to_partner("Your partner has entered the room.", status_message=True)
 
 
-@socketio.on('text', namespace='/chat')
+@socketio.on('text')
 def text(message):
     """Sent by a client when the user entered a new message.
     The message is sent to all people in the room."""
@@ -46,14 +53,16 @@ def text(message):
     emit_message_to_partner("Partner: {}".format(msg))
 
 
-@socketio.on('pick', namespace='/chat')
+@socketio.on('pick')
 def pick(message):
     """Sent by a client when the user entered a new message.
     The message is sent to all people in the room."""
     backend = get_backend()
+    chat_info = backend.get_chat_info(userid())
     restaurant_id = int(message['restaurant'])
+    if restaurant_id == -1:
+        return
     room = session["room"]
-
     restaurant, is_match = backend.pick_restaurant(userid(), restaurant_id)
     if is_match:
         emit_message_to_chat_room("Both users have selected restaurant: \"{}\"".format(restaurant), status_message=True)
@@ -61,34 +70,33 @@ def pick(message):
              {'message':"You've completed this task! Redirecting you..."},
              room=room)
     else:
-        emit_message_to_partner("Your friend has selected restaurant: \"{}\"".format(restaurant["name"]), status_message=True)
-        emit_message_to_self("You selected restaurant: \"{}\"".format(restaurant["name"]), status_message=True)
-    write_outcome(restaurant)
+        emit_message_to_partner("Your friend has selected restaurant: \"{}\"".format(restaurant), status_message=True)
+        emit_message_to_self("You selected restaurant: \"{}\"".format(restaurant), status_message=True)
+    write_outcome(restaurant, chat_info)
 
 
-@socketio.on('left_room', namespace='/chat')
+@socketio.on('left_room')
 def left(message):
     """Sent by clients when they leave a room.
     A status message is broadcast to all people in the room."""
     room = session["room"]
 
     leave_room(room)
-    backend = get_backend()
-    backend.disconnect(userid())
+    # backend = get_backend()
+    # backend.leave_room(userid())
+    # backend.disconnect(userid())
     end_chat()
-    emit('endchat',
-         {'message':'Your friend has left or been disconnected. Redirecting you...'},
-         room=room, include_self=False)
 
 
-@socketio.on('user_disconnected', namespace='/chat')
+@socketio.on('disconnect')
 def disconnect():
     """
-    Called when user disconnects from a state other than Status.Chat
+    Called when user disconnects from any state
     :return: No return value
     """
     backend = get_backend()
-    backend.disonnect(userid())
+    #todo check if state is chat here - actually just implement isvalidchat here
+    backend.disconnect(userid())
 
 
 def emit_message_to_self(message, status_message=False):
@@ -109,36 +117,36 @@ def emit_message_to_partner(message, status_message=False):
     timestamp = datetime.now().strftime('%x %X')
     left_delim = "<" if status_message else ""    
     right_delim = ">" if status_message else ""
-    emit('message', {'msg': "[{}] {}{}{}".format(timestamp, left_delim, message, right_delim)}, exclude_self = True)
+    emit('message', {'msg': "[{}] {}{}{}".format(timestamp, left_delim, message, right_delim)}, room=session["room"],
+         include_self=False)
 
 
 def start_chat():
-    chat_dict = get_backend().get_chat_info(userid()).to_dict()
+    chat_info = get_backend().get_chat_info(userid())
 
-    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session["room"])), 'a+')
+    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["logging"]["chat_dir"], str(session["room"])), 'a+')
     outfile.write("%s\t%s\tUser %s\tjoined\n" % (datetime.now().strftime(date_fmt),
-                                            chat_dict["scenario"]["uuid"],
-                                            str(chat_dict["agent_index"])))
+                                            chat_info.scenario["uuid"],
+                                            str(chat_info.agent_index)))
     outfile.close()
 
 
 def end_chat():
-    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session["room"])), 'a+')
-    outfile.write("%s\t%s\n" % (datetime.now().strftime(date_fmt), app.config["user_params"]["CHAT_DELIM"]))
+    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["logging"]["chat_dir"], str(session["room"])), 'a+')
+    outfile.write("%s\t%s\n" % (datetime.now().strftime(date_fmt), app.config["user_params"]["logging"]["chat_delimiter"]))
     outfile.close()
 
 
 def write_to_file(message):
-    chat_dict = get_backend().get_chat_info(userid()).to_dict()
-    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session["room"])), 'a+')
+    chat_info = get_backend().get_chat_info(userid())
+    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["logging"]["chat_dir"], str(session["room"])), 'a+')
     outfile.write("%s\t%s\tUser %s\t%s\n" %
-                  (datetime.now().strftime(date_fmt), chat_dict["scenario"]["uuid"],
-                   str(chat_dict["agent_index"]), message))
+                  (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"],
+                   str(chat_info.agent_index), message))
     outfile.close()
 
 
-def write_outcome(name):
-    chat_dict = get_backend().get_chat_info(userid()).to_dict()
-    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["CHAT_DIRECTORY"], str(session["room"])), 'a+')
+def write_outcome(name, chat_info):
+    outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["logging"]["chat_dir"], str(session["room"])), 'a+')
     outfile.write("%s\t%s\tUser %s\tSelected restaurant:\t%s\n" %
-                  (datetime.now().strftime(date_fmt), chat_dict["scenario"]["uuid"], chat_dict["agent_index"], name))
+                  (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"], chat_info.agent_index, name))
