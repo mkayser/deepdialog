@@ -130,7 +130,8 @@ class BackendConnection(object):
                                                                  partner_message=message)
                         return Status.Waiting
                     elif u.status == Status.Finished:
-                        return self._update_user(cursor, userid, status=Status.Waiting)
+                        self._update_user(cursor, userid, status=Status.Waiting)
+                        return Status.Waiting
                     else:
                         raise Exception("Unknown status: {} for user: {}".format(u.status, userid))
 
