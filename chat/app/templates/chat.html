@@ -41,6 +41,10 @@
 	  input#text {
 	  width: 100%;
 	  }
+	  
+	  td {
+	  padding: 0 15px 0 15px;
+	  }
 
 #clockdiv{
     font-family: sans-serif;
@@ -112,6 +116,15 @@
                 });
             }
             
+            function isChatValid() {
+            	socket.emit('is_chat_valid', {}, 
+            	function(data) {
+            		if (!data['valid']) {
+            			alert(data['message']);
+            			setTimeout(function() { window.location.reload(true); }, 1000);
+            		}
+            	}
+            }
             function pollServer() {
             	socket.emit('check_status_change', {'current_status':'waiting'}, function(data) {
                     if (data['status_change']) { 
@@ -169,12 +182,11 @@
         <p>
             It's Friday night, and you and your friend are trying to figure out where to eat dinner.
             You've discovered that there are <b>{{scenario["restaurants"]|length}}</b> restaurants nearby.
-            You like some kinds of food better than others, and have a preferred price range in mind.
         </p>
 	<h3>How to Play:</h3>
 	<ul>
 	  <li> Look at your <b>list of preferred cuisines</b>, and <b>preferred price range</b>, at right. </li>
-	  <li> Use the <b>chat box below</b> to chat with your friend and decide where to eat dinner. </li>
+	  <li> Use the <b>chat box below</b> to chat with your friend and negotiate a restaurant to eat at. </li>
 	  <li> Once you've <b>agreed on a restaurant</b>, select it from
             the drop down list on the right.</li>
 	</ul>

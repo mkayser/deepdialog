@@ -44,7 +44,8 @@ def main():
         return render_template('single_task.html',
                                scenario=single_task_info.scenario,
                                agent=single_task_info.agent_info,
-                               config=presentation_config)
+                               config=presentation_config,
+                               num_seconds=single_task_info.num_seconds)
     elif status == Status.Finished:
         finished_info = backend.get_finished_info(userid())
         return render_template('finished.html',

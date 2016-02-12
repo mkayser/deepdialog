@@ -4,7 +4,8 @@ import sqlite3
 from .backend_utils import UserChatSession, SingleTaskSession, WaitingSession, FinishedSession
 import datetime
 import time
-from flask import current_app as app
+import os
+from multiprocessing import Queue
 
 
 class Status(object):
@@ -299,18 +300,20 @@ class BackendConnection(object):
 
     def _assert_no_status_timeout(self, status, status_timestamp):
         N = self.config["status_params"][Status._names[status]]["num_seconds"]
+        if N < 0: # don't timeout for some statuses
+            return
         num_seconds_remaining = (N + status_timestamp) - current_timestamp_in_seconds()
         if num_seconds_remaining >= 0:
             return
         else:
             raise StatusTimeoutException()
 
-    def _assert_no_connection_timeout(self, status, timestamp):
-        if status:
+    def _assert_no_connection_timeout(self, connection_status, connection_timestamp):
+        if connection_status == 1:
             return
         else:
             N = self.config["connection_timeout_num_seconds"]
-            num_seconds_remaining = (N + timestamp) - current_timestamp_in_seconds()
+            num_seconds_remaining = (N + connection_timestamp) - current_timestamp_in_seconds()
             if num_seconds_remaining >= 0:
                 return
             else:
@@ -338,8 +341,14 @@ class BackendConnection(object):
         if assumed_status is not None:
             self._validate_status_or_throw(assumed_status, u.status)
         self._assert_no_status_timeout(u.status, u.status_timestamp)
-        self._assert_no_connection_timeout(u.status, u.status_timestamp)
+        self._assert_no_connection_timeout(u.connected_status, u.connected_timestamp)
         return u
+
+    def get_user_message(self, userid):
+        with self.conn:
+            cursor = self.conn.cursor()
+            u = self._get_user_info_unchecked(cursor, userid)
+            return u.message
 
     def submit_single_task(self, userid, user_input):
         def _complete_task_and_wait(cursor, userid, num_finished):
@@ -352,11 +361,16 @@ class BackendConnection(object):
             message = "Great, you've finished {} exercises!".format(num_finished)
             self._update_user(cursor, userid, status=Status.Finished, message=message,
                               num_single_tasks_completed=num_finished)
-        # todo log user input
+
+        def _log_user_submission(cursor, userid, scenario_id, user_input):
+            cursor.execute('INSERT INTO SingleTasks VALUES (?,?,?,?,?)',
+                           (userid, scenario_id, user_input["restaurant_index"], user_input["restaurant"], user_input["starter_text"]))
+
         try:
             with self.conn:
                 cursor = self.conn.cursor()
                 u = self._get_user_info(cursor, userid, assumed_status=Status.SingleTask)
+                _log_user_submission(cursor, userid, u.scenario_id, user_input)
                 if u.num_single_tasks_completed == self.config["status_params"]["single_task"]["max_tasks"] - 1:
                     _complete_task_and_finished(cursor, userid, u.num_single_tasks_completed + 1)
                 else:

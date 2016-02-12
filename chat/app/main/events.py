@@ -14,7 +14,10 @@ date_fmt = '%m-%d-%Y:%H-%M-%S'
 def check_valid_chat():
     backend = get_backend()
     valid = backend.is_chat_valid(userid())
-    return {'valid':valid}
+    msg = None
+    if not valid:
+        msg = backend.get_user_message(userid())
+    return {'valid':valid, 'message':msg}
 
 
 @socketio.on('check_status_change')
@@ -31,7 +34,7 @@ def check_status_change(data):
 @socketio.on('submit_task')
 def submit_task(data):
     backend = get_backend()
-    backend.submit_single_task(userid(), data) # todo maybe need to unpack the return values first before passing
+    backend.submit_single_task(userid(), data)
 
 
 @socketio.on('joined')
