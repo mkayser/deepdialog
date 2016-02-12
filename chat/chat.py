@@ -29,6 +29,7 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('-p', help="File containing app configuration params", type=str,
                         default="params.json")
+    parser.add_argument('--host', help="Host IP address to run app on - defaults to localhost", type=str, default="127.0.0.1")
     args = parser.parse_args()
     params_file = args.p
     with open(params_file) as fin:
@@ -46,6 +47,6 @@ if __name__ == '__main__':
     app.config["scenarios"] = scenarios_dict
     app.config["outcomes"] = defaultdict(lambda : -1)
     app.config["waiting_users"] = Queue()
-    socketio.run(app)
+    socketio.run(app, host=args.host)
 
 
