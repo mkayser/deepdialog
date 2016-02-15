@@ -1,4 +1,4 @@
-from flask import session, redirect, url_for, render_template, request, jsonify
+from flask import session, render_template, request
 from flask import current_app as app
 from . import main
 from .utils import get_backend
@@ -23,6 +23,7 @@ def userid():
 
 
 @main.route('/', methods=['GET', 'POST'])
+@main.route('/game', methods=['GET', 'POST'])
 def main():
     """Chat room. The user's name and room must be stored in
     the session."""
@@ -32,7 +33,9 @@ def main():
     # session["chat_session"] = None
     backend = get_backend()
     backend.create_user_if_necessary(userid())
+
     status = backend.get_updated_status(userid())
+    session["mturk"] = True if request.args.get('mturk') else None
     if status == Status.Waiting:
         waiting_info = backend.get_waiting_info(userid())
         return render_template('waiting.html',
@@ -47,9 +50,13 @@ def main():
                                config=presentation_config,
                                num_seconds=single_task_info.num_seconds)
     elif status == Status.Finished:
-        finished_info = backend.get_finished_info(userid())
+        finished_info = backend.get_finished_info(userid(), from_mturk=session["mturk"])
+        session["__clear__"] = True
+        mturk_code = finished_info.mturk_code if session["mturk"] else None
+        clear_session()
         return render_template('finished.html',
-                               finished_message=finished_info.message)
+                               finished_message=finished_info.message,
+                               mturk_code=mturk_code)
     elif status == Status.Chat:
         chat_info = backend.get_chat_info(userid())
         presentation_config = app.config["user_params"]["status_params"]["chat"]["presentation_config"]
@@ -60,3 +67,10 @@ def main():
                                agent=chat_info.agent_info,
                                num_seconds=chat_info.num_seconds,
                                config=presentation_config)
+
+
+def clear_session():
+    if "__clear__" in session and session["__clear__"]:
+        session["room"] = -1
+        session["mturk"] = None
+        session["__clear__"] = False

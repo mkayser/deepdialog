@@ -14,18 +14,18 @@
 
 	  div#chat_container {
 	  float:left;
-	  width: 60%;
+	  width: 50%;
 	  }
 
 	  div#info_container {
-	  margin-left: 62%;
+	  margin-left: 52%;
 	  }
 
 	  textarea#chat {
 	  width: 100%;
-	  rows: 20;
-	  cols: 200;
-	  height: 50%;
+	  rows: 10;
+	  cols: 100;
+	  height: 25%;
 	  }
 
 	  img.heart {
@@ -45,6 +45,10 @@
 	  td {
 	  padding: 0 15px 0 15px;
 	  }
+	  
+	  table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    	content: " \25B4\25BE" 
+		}
 
 #clockdiv{
     font-family: sans-serif;
@@ -71,12 +75,13 @@
 
 	</style>
 
+		<script type="text/javascript" src="http://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script> 
         <script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
         <script type="text/javascript" charset="utf-8">
-            var socket;
+            var socket, validCheckInterval;
             $(document).ready(function(){
-                socket = io.connect('http://' + document.domain + ':' + location.port);
+                socket = io.connect('http://' + document.domain + ':' + location.port+'/chat');
                 socket.on('connect', function() {
                     socket.emit('joined', {});
                 });
@@ -84,15 +89,13 @@
                     $('#chat').val($('#chat').val() + data.msg + '\n');
                     $('#chat').scrollTop($('#chat')[0].scrollHeight);
                 });
-                socket.on('disconnect', function() {
-					socket.disconnect();
-				});
+                 socket.on('disconnect', function() {
+ 					socket.disconnect();
+ 					clearInterval(validCheckInterval);
+ 				});
 				socket.on('endchat', function(data) {
-					socket.emit('left_room', {}, 
-					function() {
-						alert(data['message']);
-						setTimeout(function() { window.location.reload(true); }, 1000);
-					});
+					clearInterval(validCheckInterval);
+					window.location.reload(true);
 				});
                	$('#text').keypress(function(e) {
                     var code = e.keyCode || e.which;
@@ -107,28 +110,14 @@
 	    			selected = $('option:selected').val();
                 	socket.emit('pick', {restaurant: selected});
                 });
+                
+				validCheckInterval = setInterval(pollServer, 3000);
             });
-            function leave_room() {
-                socket.emit('left', {}, function() {
-                    socket.disconnect();
-                    window.location.href = "{{ url_for('main.main') }}";
-                    return null;
-                });
-            }
             
-            function isChatValid() {
-            	socket.emit('is_chat_valid', {}, 
-            	function(data) {
-            		if (!data['valid']) {
-            			alert(data['message']);
-            			setTimeout(function() { window.location.reload(true); }, 1000);
-            		}
-            	}
-            }
             function pollServer() {
-            	socket.emit('check_status_change', {'current_status':'waiting'}, function(data) {
-                    if (data['status_change']) { 
-                        setTimeout(function() {  window.location.reload(true); }, 1000);   
+            	socket.emit('is_chat_valid', {}, function(data) {
+                    if (!data['valid']) { 
+                        window.location.reload(true);   
                     }
                 });
             }
@@ -159,8 +148,9 @@
 					    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
 					    if (t.total <= 0) {
-					      clearInterval(timeinterval);
-					      pollServer();
+					    	clearInterval(validCheckInterval);
+					    	clearInterval(timeinterval);
+					    	pollServer();
 					    }
 					  }
 
@@ -201,7 +191,7 @@
 	  </div>
 	</div>
 
-        <textarea id="chat"></textarea><br><br>
+        <textarea readonly id="chat"></textarea><br><br>
         <input id="text" placeholder="Enter your message here"><br><br>
 
     </div>
@@ -210,16 +200,20 @@
         <div id="preferences">
 
             <h3>Your cuisine preferences</h3>
-            <ol class="cuisine_preferences_list">
-	    {% for cuisine in agent["cuisine_func"] %}
-            <li>{{cuisine["cuisine"]}} 
-	      {% if config["numerical_preferences"] %} 
-	      <span class="points"> ({{ cuisine["utility"] }} points) </span> 
-	      {% else %} 
-	      {% for i in range(cuisine["utility_rating"]) %} <img src="{{ url_for('static', filename='img/heart.svg') }}" class="heart"/> {% endfor %}
-	      {% endif %} </li>
-            {% endfor %}
-	    </ol>
+            <table class="cuisine_preferences_list">
+				{% for cuisine in agent["cuisine_func"] %}
+					<tr>
+						<td>{{cuisine["cuisine"]}} </td>
+						<td>
+						{% if config["numerical_preferences"] %} 
+						<span class="points"> ({{ cuisine["utility"] }} points) </span> 
+						{% else %} 
+						{% for i in range(cuisine["utility_rating"]) %} <img src="{{ url_for('static', filename='img/heart.svg') }}" class="heart"/> {% endfor %}
+						{% endif %} 
+						</td>
+				  </tr>
+					{% endfor %}
+			</table>
 
             <h3>Your price range preference</h3>
 
@@ -240,21 +234,33 @@
             {% endif %}
 
             <h3>Restaurants nearby</h3>
-	    <ul>
+	    <table class="sortable">
+	    <thead>
+	    <tr>
+	    <th>Name</th>
+	    <th>Cuisine</th>
+	    <th class="sorttable_numeric">Price range</th>
+	    </tr>
+	    </thead>
+	    <tbody>
             {% for restaurant in scenario["restaurants"] %}
-            <li><b>{{ restaurant["name"] }}</b>: {{ restaurant["cuisine"]}}, 
-
-	      {% if config["numerical_prices"] %} 
-	      ${{ restaurant["price_range"][0] }} - ${{ restaurant["price_range"][1] }}
-              {% else %}
-                {% for i in range((restaurant["price_rating"]) | int) %} 
-              <img src="{{ url_for('static', filename='img/dollar.png') }}" class="dollar"/> 
-            {% endfor %}
-            {% endif %}
-	    </li>
-            
+            <tr>
+				<td><b>{{ restaurant["name"] }}</b></td>
+				<td>{{ restaurant["cuisine"]}}</td> 
+				
+				<td sorttable_customkey="{{restaurant['price_rating'] | int}}">
+				  {% if config["numerical_prices"] %} 
+				  ${{ restaurant["price_range"][0] }} - ${{ restaurant["price_range"][1] }}
+					  {% else %}
+						{% for i in range((restaurant["price_rating"]) | int) %} 
+					  <img src="{{ url_for('static', filename='img/dollar.png') }}" class="dollar"/> 
+						{% endfor %}
+					{% endif %}
+				</td>
+	    	</tr>
 	    {% endfor %}
-	    </ul>
+	    </tbody>
+	    </table>
         </div>
 
         	<h3>Choose a restaurant below:</h3>

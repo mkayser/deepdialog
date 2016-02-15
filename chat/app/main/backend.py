@@ -118,9 +118,15 @@ class BackendConnection(object):
                     # Handle timeouts by performing the relevant update
                     u = self._get_user_info_unchecked(cursor, userid)
                     if u.status == Status.Waiting:
+                        if isinstance(e, ConnectionTimeoutException):
+                            self._update_user(cursor, userid, connected_status=1)
+                            return u.status
                         self._transition_to_single_task(cursor, userid)
                         return Status.SingleTask
                     elif u.status == Status.SingleTask:
+                        if isinstance(e, ConnectionTimeoutException):
+                            self._update_user(cursor, userid, connected_status=1, status=Status.Waiting)
+                            return Status.Waiting
                         return u.status
                     elif u.status == Status.Chat:
                         if isinstance(e, ConnectionTimeoutException):
@@ -131,7 +137,7 @@ class BackendConnection(object):
                                                                  partner_message=message)
                         return Status.Waiting
                     elif u.status == Status.Finished:
-                        self._update_user(cursor, userid, status=Status.Waiting, message='')
+                        self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, message='')
                         return Status.Waiting
                     else:
                         raise Exception("Unknown status: {} for user: {}".format(u.status, userid))
@@ -190,20 +196,27 @@ class BackendConnection(object):
             with self.conn:
                 cursor = self.conn.cursor()
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Waiting)
-                num_seconds = (self.config["status_params"]["waiting"][
-                                   "num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
+                num_seconds = (self.config["status_params"]["waiting"]["num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
                 return WaitingSession(u.message, num_seconds)
 
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
-    def get_finished_info(self, userid):
+    def get_finished_info(self, userid, from_mturk=False):
+        def _generate_mturk_code(user_info):
+            if user_info.scenario_id:
+                return user_info.scenario_id
+            else:
+                return user_info.single_task_id
         try:
             with self.conn:
                 cursor = self.conn.cursor()
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Finished)
                 num_seconds = (self.config["status_params"]["finished"][
                                    "num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
+                if from_mturk:
+                    mturk_code = _generate_mturk_code(u)
+                    return FinishedSession(u.message, num_seconds, mturk_code)
                 return FinishedSession(u.message, num_seconds)
 
         except sqlite3.IntegrityError:
@@ -370,7 +383,7 @@ class BackendConnection(object):
             with self.conn:
                 cursor = self.conn.cursor()
                 u = self._get_user_info(cursor, userid, assumed_status=Status.SingleTask)
-                _log_user_submission(cursor, userid, u.scenario_id, user_input)
+                _log_user_submission(cursor, userid, u.single_task_id, user_input)
                 if u.num_single_tasks_completed == self.config["status_params"]["single_task"]["max_tasks"] - 1:
                     _complete_task_and_finished(cursor, userid, u.num_single_tasks_completed + 1)
                 else:
@@ -388,7 +401,8 @@ class BackendConnection(object):
                 partner_message = "Your partner has left the room! Waiting for a new chat..."
                 self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=message,
                                                          partner_message=partner_message)
-
+        except UnexpectedStatusException:
+            return
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
@@ -396,7 +410,7 @@ class BackendConnection(object):
         def _get_other_waiting_users(cursor, userid):
             # NOTE: we could try to handle single task as another waiting mode
             #       we could also even interrupt single task mode (requires e.g. periodic polling by client during SingleTask mode)
-            cursor.execute("SELECT name FROM ActiveUsers WHERE name!=? AND status=?", (userid, Status.Waiting))
+            cursor.execute("SELECT name FROM ActiveUsers WHERE name!=? AND status=? AND connected_status=1", (userid, Status.Waiting))
             userids = [r[0] for r in cursor.fetchall()]
             return userids
 

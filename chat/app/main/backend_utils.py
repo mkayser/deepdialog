@@ -2,11 +2,10 @@ __author__ = 'anushabala'
 
 
 class FinishedSession(object):
-    def __init__(self, message, num_seconds):
+    def __init__(self, message, num_seconds, mturk_code=None):
         self.message = message
         self.num_seconds = num_seconds
-        # TODO: How to ensure that user doesn't see finished screen when returning for a second (third, etc.) task
-        # One way is to have a new socketIO event that flags that the user has submitted the MTurk code
+        self.mturk_code = mturk_code
 
 
 class WaitingSession(object):

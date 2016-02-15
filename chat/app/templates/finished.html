@@ -8,6 +8,10 @@
         <h3>
             {{ finished_message }}
         </h3>
+        <hr>
+        {% if mturk_code is not none %}
+        <h3>Thanks for completing this HIT! Please copy and paste this code into the HIT on Mechanical Turk: {{ mturk_code }}</h3>
+        {% endif %}
     </div>
 
     </body>
