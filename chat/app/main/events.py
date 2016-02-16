@@ -6,30 +6,43 @@ from datetime import datetime
 from .utils import get_backend
 from .backend import Status
 from .routes import userid
+import logging
 
 date_fmt = '%m-%d-%Y:%H-%M-%S'
+logger = logging.getLogger(__name__)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler = logging.FileHandler("chat.log")
+handler.setLevel(logging.INFO)
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+
+def userid_prefix():
+    return userid()[:6]
 
 
 @socketio.on('connect', namespace='/main')
 def connect():
     backend = get_backend()
     backend.connect(userid())
+    logger.info("User %s established connection on non-chat template" % userid_prefix())
 
 
 @socketio.on('connect', namespace='/chat')
 def connect():
     backend = get_backend()
     backend.connect(userid())
+    logger.info("User %s established connection on chat template" % userid_prefix())
 
 
 @socketio.on('is_chat_valid', namespace='/chat')
 def check_valid_chat(data):
     backend = get_backend()
-    assumed_status = Status.Chat
 
-    if backend.is_status_unchanged(userid(), assumed_status):
+    if backend.is_chat_valid(userid()):
+        logger.debug("Chat is still valid for user %s" % userid_prefix())
         return {'valid': True}
     else:
+        logger.info("Chat is not valid for user %s" % userid_prefix())
         return {'valid': False, 'message': backend.get_user_message(userid())}
 
 
@@ -39,14 +52,17 @@ def check_status_change(data):
     assumed_status = Status.from_str(data['current_status'])
 
     if backend.is_status_unchanged(userid(), assumed_status):
+        logger.debug("User %s status unchanged. Status: %s" % (userid_prefix(), Status._names[assumed_status]))
         return {'status_change': False}
     else:
+        logger.info("User %s status changed from %s" % (userid_prefix(), Status._names[assumed_status]))
         return {'status_change': True}
 
 
 @socketio.on('submit_task', namespace='/main')
 def submit_task(data):
     backend = get_backend()
+    logger.debug("User %s submitted single task. Form data: %s" % (userid_prefix(), str(data)))
     backend.submit_single_task(userid(), data)
 
 
@@ -56,6 +72,7 @@ def joined(message):
     A status message is broadcast to all people in the room."""
     start_chat()
     join_room(session["room"])
+    logger.debug("User %s joined chat room %d" % (userid_prefix(), session["room"]))
     emit_message_to_partner("Your partner has entered the room.", status_message=True)
 
 
@@ -64,7 +81,8 @@ def text(message):
     """Sent by a client when the user entered a new message.
     The message is sent to all people in the room."""
     msg = message['msg']
-    write_to_file(message['msg'])
+    write_to_file(msg)
+    logger.debug("User %s said: %s" % (userid_prefix(), msg))
     emit_message_to_self("You: {}".format(msg))
     emit_message_to_partner("Partner: {}".format(msg))
 
@@ -80,12 +98,15 @@ def pick(message):
         return
     room = session["room"]
     restaurant, is_match = backend.pick_restaurant(userid(), restaurant_id)
+    logger.debug("User %s in room %d selected restaurant: %s" % (userid_prefix(), room, restaurant))
     if is_match:
+        logger.info("User %s selection matches with partner selection" % userid_prefix())
         emit_message_to_chat_room("Both users have selected restaurant: \"{}\"".format(restaurant), status_message=True)
         emit('endchat',
              {'message':"You've completed this task! Redirecting you..."},
              room=room)
     else:
+        logger.debug("User %s selection doesn't match with partner selection" % userid_prefix())
         emit_message_to_partner("Your friend has selected restaurant: \"{}\"".format(restaurant), status_message=True)
         emit_message_to_self("You selected restaurant: \"{}\"".format(restaurant), status_message=True)
     write_outcome(restaurant, chat_info)
@@ -99,8 +120,9 @@ def disconnect():
 
     leave_room(room)
     backend = get_backend()
-    backend.leave_room(userid())
+    # backend.leave_room(userid())
     backend.disconnect(userid())
+    logger.info("User %s disconnected from chat and left room %d" % (userid_prefix(), room))
     end_chat()
 
 
@@ -112,6 +134,7 @@ def disconnect():
     """
     backend = get_backend()
     backend.disconnect(userid())
+    logger.info("User %s disconnected" % (userid_prefix()))
 
 
 def emit_message_to_self(message, status_message=False):

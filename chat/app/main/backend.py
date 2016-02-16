@@ -4,8 +4,15 @@ import sqlite3
 from .backend_utils import UserChatSession, SingleTaskSession, WaitingSession, FinishedSession
 import datetime
 import time
-import os
-from multiprocessing import Queue
+import logging
+
+
+logger = logging.getLogger(__name__)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler = logging.FileHandler("chat.log")
+handler.setLevel(logging.INFO)
+handler.setFormatter(formatter)
+logger.addHandler(handler)
 
 
 class Status(object):
@@ -40,7 +47,9 @@ class NoSuchUserException(Exception):
 
 
 class UnexpectedStatusException(Exception):
-    pass
+    def __init__(self, found_status, expected_status):
+        self.expected_status = expected_status
+        self.found_status = found_status
 
 
 class ConnectionTimeoutException(Exception):
@@ -88,6 +97,7 @@ class BackendConnection(object):
         with self.conn:
             cursor = self.conn.cursor()
             now = current_timestamp_in_seconds()
+            logger.debug("Created user %s" % username[:6])
             cursor.execute('''INSERT OR IGNORE INTO ActiveUsers VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)''',
                            (username, Status.Waiting, now, 1, now, "", -1, "", "", -1, -1, "", 0, 0))
 
@@ -96,12 +106,18 @@ class BackendConnection(object):
             with self.conn:
                 cursor = self.conn.cursor()
                 try:
+                    logger.debug("Checking whether status has changed from %s for user %s" % (Status._names[assumed_status], userid[:6]))
                     u = self._get_user_info(cursor, userid, assumed_status=assumed_status)
                     if u.status == Status.Waiting:
+                        logger.debug("User %s is waiting. Checking if other users are available for chat..")
                         self.attempt_join_room(userid)
                         u = self._get_user_info(cursor, userid, assumed_status=assumed_status)
+                    logger.debug("Returning TRUE (user status hasn't changed)")
                     return True
                 except (UnexpectedStatusException, ConnectionTimeoutException, StatusTimeoutException) as e:
+                    logger.warn("Caught %s while getting status for user %s. Returning FALSE (user status has changed)" % (type(e).__name__, userid[:6]))
+                    if isinstance(e, UnexpectedStatusException):
+                            logger.warn("Found status %s, expected (assumed) status %s" % (Status._names[e.found_status], Status._names[e.expected_status]))
                     return False
 
         except sqlite3.IntegrityError:
@@ -109,34 +125,46 @@ class BackendConnection(object):
 
     def get_updated_status(self, userid):
         try:
+            logger.debug("Getting current status for user %s" % userid[:6])
             with self.conn:
                 cursor = self.conn.cursor()
                 try:
                     u = self._get_user_info(cursor, userid, assumed_status=None)
+                    logger.debug("Got user info for user %s without exceptions. Returning status %s" % (userid[:6], Status._names[u.status]))
                     return u.status
                 except (UnexpectedStatusException, ConnectionTimeoutException, StatusTimeoutException) as e:
+                    logger.warn("Caught %s while getting status for user %s" % (type(e).__name__, userid[:6]))
+                    if isinstance(e, UnexpectedStatusException):
+                            logger.warn("Unexpected behavior: got UnexpectedStatusException while getting user status") # this should never happen
                     # Handle timeouts by performing the relevant update
                     u = self._get_user_info_unchecked(cursor, userid)
+                    logger.debug("Unchecked user status for user %s: %s" % (userid[:6], u.status))
                     if u.status == Status.Waiting:
                         if isinstance(e, ConnectionTimeoutException):
+                            logger.info("User %s had connection timeout in waiting state. Updating connection status to connected to reenter waiting state." % userid[:6])
                             self._update_user(cursor, userid, connected_status=1)
                             return u.status
+                        logger.info("User %s had status timeout in waiting state." % userid[:6])
                         self._transition_to_single_task(cursor, userid)
                         return Status.SingleTask
                     elif u.status == Status.SingleTask:
                         if isinstance(e, ConnectionTimeoutException):
+                            logger.info("User %s had connection timeout in single task state. Updating connection status to connected and reentering waiting state." % userid[:6])
                             self._update_user(cursor, userid, connected_status=1, status=Status.Waiting)
                             return Status.Waiting
-                        return u.status
+                        return u.status # this should never happen because single tasks can't time out
                     elif u.status == Status.Chat:
                         if isinstance(e, ConnectionTimeoutException):
+                            logger.info("User %s had connection timeout in chat state. Updating connection status to connected and reentering waiting state." % userid[:6])
                             message = "Your partner's connection has timed out! Waiting for a new chat..."
                         else:
+                            logger.info("Chat timed out for user %s. Leaving chat room and eentering waiting state.." % userid[:6])
                             message = "Darn, you ran out of time! Waiting for a new chat..."
                         self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=message,
                                                                  partner_message=message)
                         return Status.Waiting
                     elif u.status == Status.Finished:
+                        logger.info("User %s was previously in finished state. Updating to waiting state with connection status = connected." % userid[:6])
                         self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, message='')
                         return Status.Waiting
                     else:
@@ -146,7 +174,9 @@ class BackendConnection(object):
             print("WARNING: Rolled back transaction")
 
     def _transition_to_single_task(self, cursor, userid):
+        logger.info("Updating status for user %s from Waiting to SINGLE TASK" % userid[:6])
         scenario_id = random.choice(self.scenarios.keys())
+        logger.debug("Chose scenario %s for user" % scenario_id)
         my_agent_index = random.choice([0, 1])
         self._update_user(cursor, userid,
                           status=Status.SingleTask,
@@ -156,6 +186,7 @@ class BackendConnection(object):
                           message="")
 
     def _end_chat_and_transition_to_waiting(self, cursor, userid, partner_id, message, partner_message):
+        logger.info("Removing users %s and %s from chat room - transition to WAIT" % (userid[:6], partner_id[:6]))
         self._update_user(cursor, userid,
                           status=Status.Waiting,
                           room_id=-1,
@@ -168,6 +199,7 @@ class BackendConnection(object):
     def get_chat_info(self, userid):
         try:
             with self.conn:
+                logger.info("Getting chat info for user %s" % userid[:6])
                 cursor = self.conn.cursor()
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Chat)
                 num_seconds_remaining = (self.config["status_params"]["chat"][
@@ -181,6 +213,7 @@ class BackendConnection(object):
     def get_single_task_info(self, userid):
         try:
             with self.conn:
+                logger.info("Getting single task info for user %s" % userid[:6])
                 cursor = self.conn.cursor()
                 u = self._get_user_info(cursor, userid, assumed_status=Status.SingleTask)
                 num_seconds_remaining = (self.config["status_params"]["single_task"][
@@ -194,6 +227,7 @@ class BackendConnection(object):
     def get_waiting_info(self, userid):
         try:
             with self.conn:
+                logger.info("Getting waiting session info for user %s" % userid[:6])
                 cursor = self.conn.cursor()
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Waiting)
                 num_seconds = (self.config["status_params"]["waiting"]["num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
@@ -209,12 +243,14 @@ class BackendConnection(object):
             else:
                 return user_info.single_task_id
         try:
+            logger.info("Trying to get finished session info for user %s" % userid[:6])
             with self.conn:
                 cursor = self.conn.cursor()
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Finished)
                 num_seconds = (self.config["status_params"]["finished"][
                                    "num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
                 if from_mturk:
+                    logger.debug("Generating mechanical turk code for user %s" % userid[:6])
                     mturk_code = _generate_mturk_code(u)
                     return FinishedSession(u.message, num_seconds, mturk_code)
                 return FinishedSession(u.message, num_seconds)
@@ -247,7 +283,6 @@ class BackendConnection(object):
                 cursor = self.conn.cursor()
                 self._update_user(cursor, userid,
                                   connected_status=1)
-
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
@@ -263,6 +298,8 @@ class BackendConnection(object):
 
     def _ensure_not_none(self, v, exception_class):
         if v is None:
+            logger.warn("None: ", v)
+            logger.warn("Raising exception %s" % type(exception_class).__name__)
             raise exception_class()
         else:
             return v
@@ -273,9 +310,9 @@ class BackendConnection(object):
                         obj["name"] == restaurant_name)
 
         def _user_finished(cursor, userid, prev_points, my_points, other_points):
-            status = Status.Finished
             message = "Great, you've finished the chat! You scored {} points and your partner scored {} points.".format(
                 my_points, other_points)
+            logger.info("Updating user %s to status FINISHED from status chat, with total points %d" % (userid[:6], prev_points+my_points))
             self._update_user(cursor, userid, status=Status.Finished, message=message,
                               cumulative_points=prev_points + my_points)
 
@@ -294,12 +331,16 @@ class BackendConnection(object):
                 restaurant_name = scenario["restaurants"][restaurant_index]["name"]
                 if u.selected_index == other_restaurant_index:
                     # Match
+                    logger.info("User %s restaurant selection matches with partner's. Selected restaurant: %s" % (userid[:6], restaurant_name))
                     Pdelta = _get_points(scenario, u.agent_index, restaurant_name)
                     other_Pdelta = _get_points(scenario, 1 - u.agent_index, restaurant_name)
+                    logger.info("User %s got %d points, User %s got %d points" % (userid[:6], Pdelta, other_userid[:6], other_Pdelta))
                     _user_finished(cursor, userid, P, Pdelta, other_Pdelta)
                     _user_finished(cursor, other_userid, other_P, other_Pdelta, Pdelta)
                     return restaurant_name, True
                 else:
+                    logger.debug("User %s selection (%d) doesn't match with partner's selection (%d). " %
+                                 (userid[:6], restaurant_index, other_restaurant_index))
                     # Non match
                     return restaurant_name, False
 
@@ -307,35 +348,51 @@ class BackendConnection(object):
             print("WARNING: Rolled back transaction")
 
     def _validate_status_or_throw(self, assumed_status, status):
+        logger.debug("Validating status: User status {}, assumed status {}".format(status, assumed_status))
         if status != assumed_status:
-            raise UnexpectedStatusException()
+            logger.warn("Validating status: User status {}, assumed status {} Raising UnexpectedStatusException".format(status, assumed_status))
+            raise UnexpectedStatusException(status, assumed_status)
         return
 
     def _assert_no_status_timeout(self, status, status_timestamp):
         N = self.config["status_params"][Status._names[status]]["num_seconds"]
         if N < 0: # don't timeout for some statuses
+            logger.debug("Checking for status timeout: no status timeout for status {}".format(Status._names[status]))
             return
         num_seconds_remaining = (N + status_timestamp) - current_timestamp_in_seconds()
+
         if num_seconds_remaining >= 0:
+            logger.debug("No status timeout")
+            logger.debug("Checking for timeout of status '%s': Seconds for status: %d Status timestamp: %d Seconds remaining: %d" % (Status._names[status], N, status_timestamp, num_seconds_remaining))
             return
         else:
+            logger.info("Checking for timeout of status '%s': Seconds for status: %d Status timestamp: %d Seconds remaining: %d" % (Status._names[status], N, status_timestamp, num_seconds_remaining))
+            logger.warn("Checking for status timeout: Raising StatusTimeoutException")
             raise StatusTimeoutException()
 
     def _assert_no_connection_timeout(self, connection_status, connection_timestamp):
+        logger.debug("Checking for connection timeout: Connection status %d" % connection_status)
         if connection_status == 1:
+            logger.debug("No connection timeout")
             return
         else:
             N = self.config["connection_timeout_num_seconds"]
             num_seconds_remaining = (N + connection_timestamp) - current_timestamp_in_seconds()
             if num_seconds_remaining >= 0:
+                logger.debug("Timeout limit: %d Status timestamp: %d Seconds remaining: %d" % (N, connection_timestamp, num_seconds_remaining))
+                logger.debug("No connection timeout")
                 return
             else:
+                logger.info("Timeout limit: %d Status timestamp: %d Seconds remaining: %d" % (N, connection_timestamp, num_seconds_remaining))
+                logger.warn("Checking for connection timeout: Raising ConnectionTimeoutException")
                 raise ConnectionTimeoutException()
 
     def _update_user(self, cursor, userid, **kwargs):
         if "status" in kwargs:
+            logger.info("Updating status for user %s to %s" % (userid[:6], Status._names[kwargs["status"]]))
             kwargs["status_timestamp"] = current_timestamp_in_seconds()
         if "connected_status" in kwargs:
+            logger.info("Updating connected status for user %s to %d" % (userid[:6], kwargs["connected_status"]))
             kwargs["connected_timestamp"] = current_timestamp_in_seconds()
         keys = sorted(kwargs.keys())
         values = [kwargs[k] for k in keys]
@@ -350,6 +407,7 @@ class BackendConnection(object):
         return u
 
     def _get_user_info(self, cursor, userid, assumed_status=None):
+        logger.debug("Getting info for user {} (assumed status: {})".format(userid[:6], assumed_status))
         u = self._get_user_info_unchecked(cursor, userid)
         if assumed_status is not None:
             self._validate_status_or_throw(assumed_status, u.status)
@@ -367,15 +425,18 @@ class BackendConnection(object):
         def _complete_task_and_wait(cursor, userid, num_finished):
             message = "Great, you've finished {} exercises! Waiting a few seconds for a partner to chat with...".format(
                 num_finished)
+            logger.info("Updating user info for user %s after single task completion - transition to WAIT" % userid[:6])
             self._update_user(cursor, userid, status=Status.Waiting, message=message,
                               num_single_tasks_completed=num_finished)
 
         def _complete_task_and_finished(cursor, userid, num_finished):
             message = "Great, you've finished {} exercises!".format(num_finished)
+            logger.info("Updating user info for user %s after single task completion - transition to FINISHED" % userid[:6])
             self._update_user(cursor, userid, status=Status.Finished, message=message,
                               num_single_tasks_completed=num_finished)
 
         def _log_user_submission(cursor, userid, scenario_id, user_input):
+            logger.debug("Logging submission from user %s to database. Submission: %s" % (userid[:6], str(user_input)))
             cursor.execute('INSERT INTO SingleTasks VALUES (?,?,?,?,?)',
                            (userid, scenario_id, user_input["restaurant_index"], user_input["restaurant"], user_input["starter_text"]))
 
@@ -396,12 +457,15 @@ class BackendConnection(object):
         try:
             with self.conn:
                 cursor = self.conn.cursor()
+                logger.info("Removing user %s and partner from chat" % userid[:6])
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Chat)
                 message = "You have left the room. Waiting for a new chat..."
                 partner_message = "Your partner has left the room! Waiting for a new chat..."
+                logger.debug("Successfully retrieved user and partner information")
                 self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=message,
                                                          partner_message=partner_message)
         except UnexpectedStatusException:
+            logger.warn("leave_room(): Got UnexpectedStatusException while trying to get user information for user %s" % userid[:6])
             return
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
@@ -419,14 +483,18 @@ class BackendConnection(object):
             return cursor.fetchone()[0]
 
         try:
+            logger.debug("Attempting to find room for user %s" % userid[:6])
             with self.conn:
                 cursor = self.conn.cursor()
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Waiting)
                 others = _get_other_waiting_users(cursor, userid)
+                logger.debug("Found %d other unpaired users" % len(others))
                 if len(others) > 0:
                     scenario_id = random.choice(self.scenarios.keys())
                     other_userid = random.choice(others)
                     next_room_id = _get_max_room_id(cursor) + 1
+                    logger.info("Paired user %s with user %s, room %d, scenario %s" % (userid[:6], other_userid[:6], next_room_id, scenario_id))
+                    logger.debug("Updating users with new chat information")
                     my_agent_index = random.choice([0, 1])
                     self._update_user(cursor, other_userid,
                                       status=Status.Chat,
@@ -436,7 +504,6 @@ class BackendConnection(object):
                                       agent_index=1 - my_agent_index,
                                       selected_index=-1,
                                       message="")
-                    self.conn.commit()
                     self._update_user(cursor, userid,
                                       status=Status.Chat,
                                       room_id=next_room_id,
@@ -445,7 +512,6 @@ class BackendConnection(object):
                                       agent_index=my_agent_index,
                                       selected_index=-1,
                                       message="")
-                    self.conn.commit()
                     return next_room_id
                 else:
                     return None
