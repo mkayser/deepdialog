@@ -258,7 +258,6 @@ class BackendConnection(object):
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
-    # this method isn't used anywhere
     def is_chat_valid(self, userid):
         try:
             with self.conn:

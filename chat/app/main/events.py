@@ -37,13 +37,12 @@ def connect():
 @socketio.on('is_chat_valid', namespace='/chat')
 def check_valid_chat(data):
     backend = get_backend()
-    assumed_status = Status.Chat
 
-    if backend.is_status_unchanged(userid(), assumed_status):
-        logger.debug("User %s status unchanged. Status: %s" % (userid_prefix(), Status._names[assumed_status]))
+    if backend.is_chat_valid(userid()):
+        logger.debug("Chat is still valid for user %s" % userid_prefix())
         return {'valid': True}
     else:
-        logger.info("User %s status changed from %s" % (userid_prefix(), Status._names[assumed_status]))
+        logger.info("Chat is not valid for user %s" % userid_prefix())
         return {'valid': False, 'message': backend.get_user_message(userid())}
 
 
@@ -121,7 +120,7 @@ def disconnect():
 
     leave_room(room)
     backend = get_backend()
-    backend.leave_room(userid())
+    # backend.leave_room(userid())
     backend.disconnect(userid())
     logger.info("User %s disconnected from chat and left room %d" % (userid_prefix(), room))
     end_chat()
