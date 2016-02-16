@@ -81,6 +81,13 @@ class User(object):
         self.num_single_tasks_completed = row[12]
         self.cumulative_points = row[13]
 
+class Messages(object):
+    ChatExpired="Darn, you ran out of time! Waiting for a new chat..."
+    PartnerConnectionTimeout="Your partner's connection has timed out! Waiting for a new chat..."
+    ConnectionTimeout="Your connection has timed out! Waiting for a new chat..."
+    YouLeftRoom="You have left the room. Waiting for a new chat..."
+    PartnerLeftRoom="Your partner has left the room! Waiting for a new chat..."
+
 
 class BackendConnection(object):
     def __init__(self, config, scenarios):
@@ -156,10 +163,10 @@ class BackendConnection(object):
                     elif u.status == Status.Chat:
                         if isinstance(e, ConnectionTimeoutException):
                             logger.info("User %s had connection timeout in chat state. Updating connection status to connected and reentering waiting state." % userid[:6])
-                            message = "Your partner's connection has timed out! Waiting for a new chat..."
+                            message = Messages.PartnerConnectionTimeout                            
                         else:
-                            logger.info("Chat timed out for user %s. Leaving chat room and eentering waiting state.." % userid[:6])
-                            message = "Darn, you ran out of time! Waiting for a new chat..."
+                            logger.info("Chat timed out for user %s. Leaving chat room and entering waiting state.." % userid[:6])
+                            message = Messages.ChatExpired
                         self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=message,
                                                                  partner_message=message)
                         return Status.Waiting
@@ -190,11 +197,13 @@ class BackendConnection(object):
         self._update_user(cursor, userid,
                           status=Status.Waiting,
                           room_id=-1,
+                          connected_status=1,
                           message=message)
-        self._update_user(cursor, partner_id,
-                          status=Status.Waiting,
-                          room_id=-1,
-                          message=partner_message)
+        if partner_id is not None:
+            self._update_user(cursor, partner_id,
+                              status=Status.Waiting,
+                              room_id=-1,
+                              message=partner_message)
 
     def get_chat_info(self, userid):
         try:
@@ -264,14 +273,33 @@ class BackendConnection(object):
                 cursor = self.conn.cursor()
                 try:
                     u = self._get_user_info(cursor, userid, assumed_status=Status.Chat)
-                    u2 = self._get_user_info(cursor, u.partner_id, assumed_status=Status.Chat)
-                    return u.room_id == u2.room_id
                 except UnexpectedStatusException:
                     return False
                 except StatusTimeoutException:
+                    u = self._get_user_info_unchecked(cursor, userid)
+                    logger.debug("User {} had status timeout.".format(u.userid[:6]))
+                    self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=Messages.YouLeftRoom,
+                                                             partner_message=Messages.PartnerLeftRoom)
                     return False
                 except ConnectionTimeoutException:
                     return False
+
+                try:
+                    u2 = self._get_user_info(cursor, u.partner_id, assumed_status=Status.Chat)
+                except UnexpectedStatusException:
+                    self._end_chat_and_transition_to_waiting(cursor, userid, None, message=Messages.PartnerLeftRoom,
+                                                             partner_message=None)
+                    return False
+                except StatusTimeoutException:
+                    self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=Messages.ChatExpired,
+                                                             partner_message=Messages.ChatExpired)
+                    return False
+                except ConnectionTimeoutException:
+                    self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=Messages.PartnerConnectionTimeout,
+                                                             partner_message=Messages.ConnectionTimeout)
+                    return False
+
+                return u.room_id == u2.room_id
 
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
