@@ -4,10 +4,17 @@ from . import main
 from .utils import get_backend
 import uuid
 from .backend import Status
+import logging
 
 pairing_wait_ctr = 0
 validation_wait_ctr = 0
 
+logger = logging.getLogger(__name__)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler = logging.FileHandler("chat.log")
+handler.setLevel(logging.INFO)
+handler.setFormatter(formatter)
+logger.addHandler(handler)
 
 def set_or_get_userid():
     if "sid" in session and session["sid"]:
@@ -30,18 +37,22 @@ def main():
 
     set_or_get_userid()
     # clear all chat session data
-    # session["chat_session"] = None
     backend = get_backend()
     backend.create_user_if_necessary(userid())
 
     status = backend.get_updated_status(userid())
+    logger.info("Got updated status %s for user %s" % (Status._names[status], userid()[:6]))
     session["mturk"] = True if request.args.get('mturk') else None
+    if session["mturk"]:
+        logger.debug("User %s is from Mechanical Turk" % userid()[:6])
     if status == Status.Waiting:
+        logger.info("Getting waiting information for user %s" % userid()[:6])
         waiting_info = backend.get_waiting_info(userid())
         return render_template('waiting.html',
                                seconds_until_expiration=waiting_info.num_seconds,
                                waiting_message=waiting_info.message)
     elif status == Status.SingleTask:
+        logger.info("Getting single task information for user %s" % userid()[:6])
         single_task_info = backend.get_single_task_info(userid())
         presentation_config = app.config["user_params"]["status_params"]["chat"]["presentation_config"]
         return render_template('single_task.html',
@@ -50,6 +61,7 @@ def main():
                                config=presentation_config,
                                num_seconds=single_task_info.num_seconds)
     elif status == Status.Finished:
+        logger.info("Getting finished information for user %s" % userid()[:6])
         finished_info = backend.get_finished_info(userid(), from_mturk=session["mturk"])
         session["__clear__"] = True
         mturk_code = finished_info.mturk_code if session["mturk"] else None
@@ -58,6 +70,7 @@ def main():
                                finished_message=finished_info.message,
                                mturk_code=mturk_code)
     elif status == Status.Chat:
+        logger.info("Getting chat information for user %s" % userid()[:6])
         chat_info = backend.get_chat_info(userid())
         presentation_config = app.config["user_params"]["status_params"]["chat"]["presentation_config"]
         session["room"] = chat_info.room_id

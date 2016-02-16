@@ -7,6 +7,7 @@ import os
 import shutil
 import json
 from argparse import ArgumentParser
+import logging
 
 
 # initialize database with table for chat rooms and active users
@@ -31,6 +32,7 @@ if __name__ == '__main__':
     parser.add_argument('-p', help="File containing app configuration params", type=str,
                         default="params.json")
     parser.add_argument('--host', help="Host IP address to run app on - defaults to localhost", type=str, default="127.0.0.1")
+    parser.add_argument('--log', help="File to log app output to", type=str, default="chat.log")
     args = parser.parse_args()
     params_file = args.p
     with open(params_file) as fin:
@@ -38,16 +40,21 @@ if __name__ == '__main__':
 
     if os.path.exists(params["db"]["location"]):
         os.remove(params["db"]["location"])
+
     init_database(params["db"]["location"])
     clear_data(params["logging"]["chat_dir"])
+
     app = create_app(debug=True)
+
     with open(params["scenarios_json_file"]) as fin:
         scenarios = json.load(fin)
         scenarios_dict = {v["uuid"]:v for v in scenarios}
+
     app.config["user_params"] = params
     app.config["scenarios"] = scenarios_dict
     app.config["outcomes"] = defaultdict(lambda : -1)
     app.config["waiting_users"] = Queue()
+
+    logging.basicConfig(filename=params["logging"]["app_logs"], level=logging.INFO)
+
     socketio.run(app, host=args.host)
-
-
