@@ -27,12 +27,12 @@
     "connection_timeout_num_seconds": 15,
     
     "db": {
-	"location": "/Users/anushabala/projects/deepdialog/chat/chat_state.db"
+	"location": "/home/mkayser/research/deepdialog/chat/chat_state.db"
     },
     
     "logging": {
-	  "app_logs": "/Users/anushabala/projects/deepdialog/chat/chat.log",
-	"chat_dir": "/Users/anushabala/projects/deepdialog/chat/transcripts",
+	"app_logs": "/home/mkayser/research/deepdialog/chat/chat.log",
+	"chat_dir": "/home/mkayser/research/deepdialog/chat/transcripts",
 	"chat_delimiter": "---"
     }
 }

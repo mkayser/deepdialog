@@ -182,7 +182,7 @@ class BackendConnection(object):
 
     def _transition_to_single_task(self, cursor, userid):
         logger.info("Updating status for user %s from Waiting to SINGLE TASK" % userid[:6])
-        scenario_id = random.choice(self.scenarios.keys())
+        scenario_id = random.choice(list(self.scenarios.keys()))
         logger.debug("Chose scenario %s for user" % scenario_id)
         my_agent_index = random.choice([0, 1])
         self._update_user(cursor, userid,
@@ -518,7 +518,7 @@ class BackendConnection(object):
                 others = _get_other_waiting_users(cursor, userid)
                 logger.debug("Found %d other unpaired users" % len(others))
                 if len(others) > 0:
-                    scenario_id = random.choice(self.scenarios.keys())
+                    scenario_id = random.choice(list(self.scenarios.keys()))
                     other_userid = random.choice(others)
                     next_room_id = _get_max_room_id(cursor) + 1
                     logger.info("Paired user %s with user %s, room %d, scenario %s" % (userid[:6], other_userid[:6], next_room_id, scenario_id))
