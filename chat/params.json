@@ -1,11 +1,11 @@
 {
     "status_params": {
 	"waiting": {
-	    "num_seconds": 15,
+	    "num_seconds": 15
 	},
 	
 	"chat": {
-	    "num_seconds": 300
+	    "num_seconds": 300,
 	    "presentation_config": {
 		"numerical_preferences": false,
 		"numerical_prices": false
@@ -13,26 +13,25 @@
 	},
 	
 	"single_task": {
-	    "num_seconds": 60,
+	    "num_seconds": -1,
 	    "max_tasks": 5
 	},
 	
 	"finished": {
 	    "num_seconds": 15
-	},
+	}
     },
     
     "scenarios_json_file": "scenarios.json",
     "single_tasks_json_file": "single_tasks.json",
-
     "connection_timeout_num_seconds": 15,
     
     "db": {
-	"location": "/home/mkayser/school/research/deepdialog/chat/chat_state.db"
+	"location": "/Users/anushabala/projects/deepdialog/chat/chat_state.db"
     },
     
     "logging": {
-	"chat_dir": "/home/mkayser/school/research/deepdialog/chat/transcripts",
+	"chat_dir": "/Users/anushabala/projects/deepdialog/chat/transcripts",
 	"chat_delimiter": "---"
     }
 }
