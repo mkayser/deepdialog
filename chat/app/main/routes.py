@@ -51,8 +51,11 @@ def index():
     backend.create_user_if_necessary(userid())
 
     key = request.args.get('key')
-    if 'key' in session and session['key'] != key and backend.is_connected(userid()):
-        return render_template('error.html')
+    if 'key' in session and session['key'] != key:
+        if backend.is_connected(userid()):
+            return render_template('error.html')
+        else:
+            session['key'] = key
     elif 'key' not in session:
         session['key'] = key
 
