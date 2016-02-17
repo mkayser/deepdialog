@@ -84,7 +84,7 @@ def text(message):
     write_to_file(msg)
     logger.debug("User %s said: %s" % (userid_prefix(), msg))
     emit_message_to_self("You: {}".format(msg))
-    emit_message_to_partner("Partner: {}".format(msg))
+    emit_message_to_partner("Friend: {}".format(msg))
 
 
 @socketio.on('pick', namespace='/chat')

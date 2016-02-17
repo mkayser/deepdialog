@@ -83,10 +83,10 @@ class User(object):
 
 class Messages(object):
     ChatExpired="Darn, you ran out of time! Waiting for a new chat..."
-    PartnerConnectionTimeout="Your partner's connection has timed out! Waiting for a new chat..."
+    PartnerConnectionTimeout="Your friend's connection has timed out! Waiting for a new chat..."
     ConnectionTimeout="Your connection has timed out! Waiting for a new chat..."
     YouLeftRoom="You have left the room. Waiting for a new chat..."
-    PartnerLeftRoom="Your partner has left the room! Waiting for a new chat..."
+    PartnerLeftRoom="Your friend has left the room! Waiting for a new chat..."
 
 
 class BackendConnection(object):
@@ -296,8 +296,8 @@ class BackendConnection(object):
                                                              partner_message=Messages.ChatExpired)
                     return False
                 except ConnectionTimeoutException:
-                    self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=Messages.PartnerConnectionTimeout,
-                                                             partner_message=Messages.ConnectionTimeout)
+                    self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=Messages.PartnerLeftRoom,
+                                                             partner_message=Messages.YouLeftRoom)
                     return False
 
                 return u.room_id == u2.room_id
@@ -339,7 +339,7 @@ class BackendConnection(object):
                         obj["name"] == restaurant_name)
 
         def _user_finished(cursor, userid, prev_points, my_points, other_points):
-            message = "Great, you've finished the chat! You scored {} points and your partner scored {} points.".format(
+            message = "Great, you've finished the chat! You scored {} points and your friend scored {} points.".format(
                 my_points, other_points)
             logger.info("Updating user %s to status FINISHED from status chat, with total points %d" % (userid[:6], prev_points+my_points))
             self._update_user(cursor, userid, status=Status.Finished, message=message,
@@ -452,7 +452,7 @@ class BackendConnection(object):
 
     def submit_single_task(self, userid, user_input):
         def _complete_task_and_wait(cursor, userid, num_finished):
-            message = "Great, you've finished {} exercises! Waiting a few seconds for a partner to chat with...".format(
+            message = "Great, you've finished {} exercises! Waiting a few seconds for someone to chat with...".format(
                 num_finished)
             logger.info("Updating user info for user %s after single task completion - transition to WAIT" % userid[:6])
             self._update_user(cursor, userid, status=Status.Waiting, message=message,
@@ -488,8 +488,8 @@ class BackendConnection(object):
                 cursor = self.conn.cursor()
                 logger.info("Removing user %s and partner from chat" % userid[:6])
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Chat)
-                message = "You have left the room. Waiting for a new chat..."
-                partner_message = "Your partner has left the room! Waiting for a new chat..."
+                message = Messages.YouLeftRoom
+                partner_message = Messages.PartnerLeftRoom
                 logger.debug("Successfully retrieved user and partner information")
                 self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=message,
                                                          partner_message=partner_message)
