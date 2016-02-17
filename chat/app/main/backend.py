@@ -149,7 +149,7 @@ class BackendConnection(object):
                     if u.status == Status.Waiting:
                         if isinstance(e, ConnectionTimeoutException):
                             logger.info("User %s had connection timeout in waiting state. Updating connection status to connected to reenter waiting state." % userid[:6])
-                            self._update_user(cursor, userid, connected_status=1)
+                            self._update_user(cursor, userid, connected_status=1, status=Status.Waiting)
                             return u.status
                         logger.info("User %s had status timeout in waiting state." % userid[:6])
                         self._transition_to_single_task(cursor, userid)
@@ -439,8 +439,8 @@ class BackendConnection(object):
         u = self._get_user_info_unchecked(cursor, userid)
         if assumed_status is not None:
             self._validate_status_or_throw(assumed_status, u.status)
-        self._assert_no_status_timeout(u.status, u.status_timestamp)
         self._assert_no_connection_timeout(u.connected_status, u.connected_timestamp)
+        self._assert_no_status_timeout(u.status, u.status_timestamp)
         return u
 
     def get_user_message(self, userid):
@@ -461,7 +461,7 @@ class BackendConnection(object):
             message = "Great, you've finished {} exercises!".format(num_finished)
             logger.info("Updating user info for user %s after single task completion - transition to FINISHED" % userid[:6])
             self._update_user(cursor, userid, status=Status.Finished, message=message,
-                              num_single_tasks_completed=num_finished)
+                              num_single_tasks_completed=0)
 
         def _log_user_submission(cursor, userid, scenario_id, user_input):
             logger.debug("Logging submission from user %s to database. Submission: %s" % (userid[:6], str(user_input)))
