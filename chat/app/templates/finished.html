@@ -4,12 +4,12 @@
     </head>
     <body>
     <div id="content">
-        <h2>Negotiation Fun</h2>
+        <h2>Negotiation Game: Where Should We Eat?</h2>
         <h3>
             {{ finished_message }}
         </h3>
-        <hr>
         {% if mturk_code is not none %}
+		<hr>	
         <h3>Thanks for completing this HIT! Please copy and paste this code into the HIT on Mechanical Turk: {{ mturk_code }}</h3>
         {% endif %}
     </div>

@@ -106,7 +106,7 @@ class BackendConnection(object):
             now = current_timestamp_in_seconds()
             logger.debug("Created user %s" % username[:6])
             cursor.execute('''INSERT OR IGNORE INTO ActiveUsers VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)''',
-                           (username, Status.Waiting, now, 1, now, "", -1, "", "", -1, -1, "", 0, 0))
+                           (username, Status.Waiting, now, 0, now, "", -1, "", "", -1, -1, "", 0, 0))
 
     def is_status_unchanged(self, userid, assumed_status):
         try:
@@ -126,6 +126,16 @@ class BackendConnection(object):
                     if isinstance(e, UnexpectedStatusException):
                             logger.warn("Found status %s, expected (assumed) status %s" % (Status._names[e.found_status], Status._names[e.expected_status]))
                     return False
+
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
+    def is_connected(self, userid):
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                u = self._get_user_info_unchecked(cursor, userid)
+                return True if u.connected_status == 1 else False
 
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
