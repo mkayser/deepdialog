@@ -149,7 +149,7 @@ class BackendConnection(object):
                     if u.status == Status.Waiting:
                         if isinstance(e, ConnectionTimeoutException):
                             logger.info("User %s had connection timeout in waiting state. Updating connection status to connected to reenter waiting state." % userid[:6])
-                            self._update_user(cursor, userid, connected_status=1, status=Status.Waiting)
+                            self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, num_single_tasks_completed=0)
                             return u.status
                         logger.info("User %s had status timeout in waiting state." % userid[:6])
                         self._transition_to_single_task(cursor, userid)
@@ -157,7 +157,7 @@ class BackendConnection(object):
                     elif u.status == Status.SingleTask:
                         if isinstance(e, ConnectionTimeoutException):
                             logger.info("User %s had connection timeout in single task state. Updating connection status to connected and reentering waiting state." % userid[:6])
-                            self._update_user(cursor, userid, connected_status=1, status=Status.Waiting)
+                            self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, num_single_tasks_completed=0)
                             return Status.Waiting
                         return u.status # this should never happen because single tasks can't time out
                     elif u.status == Status.Chat:
@@ -172,7 +172,7 @@ class BackendConnection(object):
                         return Status.Waiting
                     elif u.status == Status.Finished:
                         logger.info("User %s was previously in finished state. Updating to waiting state with connection status = connected." % userid[:6])
-                        self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, message='')
+                        self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, message='', num_single_tasks_completed=0)
                         return Status.Waiting
                     else:
                         raise Exception("Unknown status: {} for user: {}".format(u.status, userid))
