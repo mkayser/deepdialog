@@ -83,10 +83,10 @@ class User(object):
 
 class Messages(object):
     ChatExpired="Darn, you ran out of time! Waiting for a new chat..."
-    PartnerConnectionTimeout="Your partner's connection has timed out! Waiting for a new chat..."
+    PartnerConnectionTimeout="Your friend's connection has timed out! Waiting for a new chat..."
     ConnectionTimeout="Your connection has timed out! Waiting for a new chat..."
     YouLeftRoom="You have left the room. Waiting for a new chat..."
-    PartnerLeftRoom="Your partner has left the room! Waiting for a new chat..."
+    PartnerLeftRoom="Your friend has left the room! Waiting for a new chat..."
 
 
 class BackendConnection(object):
@@ -106,7 +106,7 @@ class BackendConnection(object):
             now = current_timestamp_in_seconds()
             logger.debug("Created user %s" % username[:6])
             cursor.execute('''INSERT OR IGNORE INTO ActiveUsers VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)''',
-                           (username, Status.Waiting, now, 1, now, "", -1, "", "", -1, -1, "", 0, 0))
+                           (username, Status.Waiting, now, 0, now, "", -1, "", "", -1, -1, "", 0, 0))
 
     def is_status_unchanged(self, userid, assumed_status):
         try:
@@ -130,6 +130,16 @@ class BackendConnection(object):
         except sqlite3.IntegrityError:
             print("WARNING: Rolled back transaction")
 
+    def is_connected(self, userid):
+        try:
+            with self.conn:
+                cursor = self.conn.cursor()
+                u = self._get_user_info_unchecked(cursor, userid)
+                return True if u.connected_status == 1 else False
+
+        except sqlite3.IntegrityError:
+            print("WARNING: Rolled back transaction")
+
     def get_updated_status(self, userid):
         try:
             logger.debug("Getting current status for user %s" % userid[:6])
@@ -149,7 +159,7 @@ class BackendConnection(object):
                     if u.status == Status.Waiting:
                         if isinstance(e, ConnectionTimeoutException):
                             logger.info("User %s had connection timeout in waiting state. Updating connection status to connected to reenter waiting state." % userid[:6])
-                            self._update_user(cursor, userid, connected_status=1)
+                            self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, num_single_tasks_completed=0)
                             return u.status
                         logger.info("User %s had status timeout in waiting state." % userid[:6])
                         self._transition_to_single_task(cursor, userid)
@@ -157,13 +167,14 @@ class BackendConnection(object):
                     elif u.status == Status.SingleTask:
                         if isinstance(e, ConnectionTimeoutException):
                             logger.info("User %s had connection timeout in single task state. Updating connection status to connected and reentering waiting state." % userid[:6])
-                            self._update_user(cursor, userid, connected_status=1, status=Status.Waiting)
+                            self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, num_single_tasks_completed=0)
                             return Status.Waiting
                         return u.status # this should never happen because single tasks can't time out
                     elif u.status == Status.Chat:
                         if isinstance(e, ConnectionTimeoutException):
                             logger.info("User %s had connection timeout in chat state. Updating connection status to connected and reentering waiting state." % userid[:6])
-                            message = Messages.PartnerConnectionTimeout                            
+                            message = Messages.PartnerConnectionTimeout
+                            self._update_user(cursor, userid, num_single_tasks_completed=0)
                         else:
                             logger.info("Chat timed out for user %s. Leaving chat room and entering waiting state.." % userid[:6])
                             message = Messages.ChatExpired
@@ -172,7 +183,7 @@ class BackendConnection(object):
                         return Status.Waiting
                     elif u.status == Status.Finished:
                         logger.info("User %s was previously in finished state. Updating to waiting state with connection status = connected." % userid[:6])
-                        self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, message='')
+                        self._update_user(cursor, userid, connected_status=1, status=Status.Waiting, message='', num_single_tasks_completed=0)
                         return Status.Waiting
                     else:
                         raise Exception("Unknown status: {} for user: {}".format(u.status, userid))
@@ -295,8 +306,8 @@ class BackendConnection(object):
                                                              partner_message=Messages.ChatExpired)
                     return False
                 except ConnectionTimeoutException:
-                    self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=Messages.PartnerConnectionTimeout,
-                                                             partner_message=Messages.ConnectionTimeout)
+                    self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=Messages.PartnerLeftRoom,
+                                                             partner_message=Messages.YouLeftRoom)
                     return False
 
                 return u.room_id == u2.room_id
@@ -338,7 +349,7 @@ class BackendConnection(object):
                         obj["name"] == restaurant_name)
 
         def _user_finished(cursor, userid, prev_points, my_points, other_points):
-            message = "Great, you've finished the chat! You scored {} points and your partner scored {} points.".format(
+            message = "Great, you've finished the chat! You scored {} points and your friend scored {} points.".format(
                 my_points, other_points)
             logger.info("Updating user %s to status FINISHED from status chat, with total points %d" % (userid[:6], prev_points+my_points))
             self._update_user(cursor, userid, status=Status.Finished, message=message,
@@ -439,8 +450,8 @@ class BackendConnection(object):
         u = self._get_user_info_unchecked(cursor, userid)
         if assumed_status is not None:
             self._validate_status_or_throw(assumed_status, u.status)
-        self._assert_no_status_timeout(u.status, u.status_timestamp)
         self._assert_no_connection_timeout(u.connected_status, u.connected_timestamp)
+        self._assert_no_status_timeout(u.status, u.status_timestamp)
         return u
 
     def get_user_message(self, userid):
@@ -451,7 +462,7 @@ class BackendConnection(object):
 
     def submit_single_task(self, userid, user_input):
         def _complete_task_and_wait(cursor, userid, num_finished):
-            message = "Great, you've finished {} exercises! Waiting a few seconds for a partner to chat with...".format(
+            message = "Great, you've finished {} exercises! Waiting a few seconds for someone to chat with...".format(
                 num_finished)
             logger.info("Updating user info for user %s after single task completion - transition to WAIT" % userid[:6])
             self._update_user(cursor, userid, status=Status.Waiting, message=message,
@@ -461,7 +472,7 @@ class BackendConnection(object):
             message = "Great, you've finished {} exercises!".format(num_finished)
             logger.info("Updating user info for user %s after single task completion - transition to FINISHED" % userid[:6])
             self._update_user(cursor, userid, status=Status.Finished, message=message,
-                              num_single_tasks_completed=num_finished)
+                              num_single_tasks_completed=0)
 
         def _log_user_submission(cursor, userid, scenario_id, user_input):
             logger.debug("Logging submission from user %s to database. Submission: %s" % (userid[:6], str(user_input)))
@@ -487,8 +498,8 @@ class BackendConnection(object):
                 cursor = self.conn.cursor()
                 logger.info("Removing user %s and partner from chat" % userid[:6])
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Chat)
-                message = "You have left the room. Waiting for a new chat..."
-                partner_message = "Your partner has left the room! Waiting for a new chat..."
+                message = Messages.YouLeftRoom
+                partner_message = Messages.PartnerLeftRoom
                 logger.debug("Successfully retrieved user and partner information")
                 self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=message,
                                                          partner_message=partner_message)

@@ -1,4 +1,4 @@
-from flask import session, render_template, request
+from flask import session, render_template, request, redirect, url_for
 from flask import current_app as app
 from . import main
 from .utils import get_backend
@@ -29,20 +29,41 @@ def userid():
     return session["sid"]
 
 
+def generate_unique_key():
+    return str(uuid.uuid4().hex)
+
+
+@main.route('/index', methods=['GET', 'POST'])
 @main.route('/', methods=['GET', 'POST'])
-@main.route('/game', methods=['GET', 'POST'])
-def main():
+def index():
     """Chat room. The user's name and room must be stored in
     the session."""
 
     set_or_get_userid()
-    # clear all chat session data
+
+    if not request.args.get('key'):
+        if request.args.get('mturk'):
+            return redirect(url_for('main.index', key=generate_unique_key(), mturk=request.args.get('mturk')))
+        else:
+            return redirect(url_for('main.index', key=generate_unique_key()))
+
     backend = get_backend()
     backend.create_user_if_necessary(userid())
 
+    key = request.args.get('key')
+    if 'key' in session and session['key'] != key:
+        if backend.is_connected(userid()):
+            return render_template('error.html')
+        else:
+            session['key'] = key
+    elif 'key' not in session:
+        session['key'] = key
+
+
+
     status = backend.get_updated_status(userid())
     logger.info("Got updated status %s for user %s" % (Status._names[status], userid()[:6]))
-    session["mturk"] = True if request.args.get('mturk') else None
+    session["mturk"] = True if request.args.get('mturk') and request.args.get('mturk') == 1 else None
     if session["mturk"]:
         logger.debug("User %s is from Mechanical Turk" % userid()[:6])
     if status == Status.Waiting:

@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Negotiation Fun</title>
+        <title>Negotiation Game: Where Should We Eat?</title>
         <style>
 
 	  div#questions {
@@ -25,6 +25,10 @@
 	  }
 	  td {
 	  padding: 0 15px 0 15px;
+	  }
+	  
+	  .error {
+	  color: #ff0000;
 	  }
 	  
 	  table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
@@ -96,7 +100,7 @@
             Given your preferences and the different restaurant options, which restaurant would be your top choice?
         </h4>
 
-        <div id="choiceError" style="display:none"><h3>Please select a valid option below</h3></div>
+        <div id="choiceError" class="error" style="display:none"><h3>Please select a valid option below</h3></div>
         <select id="restaurantChoices">
             <option selected="selected" value=-1>-- Select one --</option>
             {% set ctr = 0 %}
@@ -106,9 +110,9 @@
             {% endfor %}
         </select>
         <h4>
-            What would your first negotiation move in the conversation be?
+            What is the first thing you would say to negotiate on a place to eat?
         </h4>
-        <div id="textError" style="display:none"><h3>Please enter your response in the box.</h3></div>
+        <div id="textError" class="error" style="display:none"><h3>Please enter your response in the box.</h3></div>
         <textarea id="starterText" rows="2" cols="50"></textarea>
         <button id="submit_task" onclick="validateAndSubmit();">
             Submit!
