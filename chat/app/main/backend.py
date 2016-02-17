@@ -163,7 +163,8 @@ class BackendConnection(object):
                     elif u.status == Status.Chat:
                         if isinstance(e, ConnectionTimeoutException):
                             logger.info("User %s had connection timeout in chat state. Updating connection status to connected and reentering waiting state." % userid[:6])
-                            message = Messages.PartnerConnectionTimeout                            
+                            message = Messages.PartnerConnectionTimeout
+                            self._update_user(cursor, userid, num_single_tasks_completed=0)
                         else:
                             logger.info("Chat timed out for user %s. Leaving chat room and entering waiting state.." % userid[:6])
                             message = Messages.ChatExpired
