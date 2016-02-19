@@ -3,6 +3,7 @@ import random
 import json
 import uuid
 import numpy as np
+import copy
 import argparse
 
 class Restaurant(object):
@@ -144,7 +145,7 @@ class Agent(object):
     def create_sorted_restaurants(self, restaurants):
         sorted_restaurants = []
         for r in restaurants:
-            rnew = vars(r)
+            rnew = copy.deepcopy(vars(r))
             rnew["utility"] = self.utility(r)
             sorted_restaurants.append(rnew)
         sorted_restaurants = sorted(sorted_restaurants, key=lambda x:-x["utility"])

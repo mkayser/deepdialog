@@ -63,7 +63,7 @@ def index():
 
     status = backend.get_updated_status(userid())
     logger.info("Got updated status %s for user %s" % (Status._names[status], userid()[:6]))
-    session["mturk"] = True if request.args.get('mturk') and request.args.get('mturk') == 1 else None
+    session["mturk"] = True if request.args.get('mturk') and int(request.args.get('mturk')) == 1 else None
     if session["mturk"]:
         logger.debug("User %s is from Mechanical Turk" % userid()[:6])
     if status == Status.Waiting:

@@ -5,6 +5,7 @@ from .backend_utils import UserChatSession, SingleTaskSession, WaitingSession, F
 import datetime
 import time
 import logging
+import uuid
 
 
 logger = logging.getLogger(__name__)
@@ -79,7 +80,8 @@ class User(object):
         self.selected_index = row[10]
         self.single_task_id = row[11]
         self.num_single_tasks_completed = row[12]
-        self.cumulative_points = row[13]
+        self.num_chats_completed = row[13]
+        self.cumulative_points = row[14]
 
 class Messages(object):
     ChatExpired="Darn, you ran out of time! Waiting for a new chat..."
@@ -105,8 +107,8 @@ class BackendConnection(object):
             cursor = self.conn.cursor()
             now = current_timestamp_in_seconds()
             logger.debug("Created user %s" % username[:6])
-            cursor.execute('''INSERT OR IGNORE INTO ActiveUsers VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)''',
-                           (username, Status.Waiting, now, 0, now, "", -1, "", "", -1, -1, "", 0, 0))
+            cursor.execute('''INSERT OR IGNORE INTO ActiveUsers VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)''',
+                           (username, Status.Waiting, now, 0, now, "", -1, "", "", -1, -1, "", 0, 0, 0))
 
     def is_status_unchanged(self, userid, assumed_status):
         try:
@@ -258,10 +260,13 @@ class BackendConnection(object):
 
     def get_finished_info(self, userid, from_mturk=False):
         def _generate_mturk_code(user_info):
-            if user_info.scenario_id:
-                return user_info.scenario_id
-            else:
-                return user_info.single_task_id
+            return "MTURK_TASK_{}".format(str(uuid.uuid4().hex))
+
+        def _add_finished_task_row(cursor, userid, mturk_code, num_single_tasks_completed, num_chats_completed):
+            logger.info("Adding row into CompletedTasks: userid={},mturk_code={},numsingle={},numchats={}".format(userid[:6],mturk_code,num_single_tasks_completed,num_chats_completed))
+            cursor.execute('INSERT INTO CompletedTasks VALUES (?,?,?,?)',
+                           (userid, mturk_code, num_single_tasks_completed, num_chats_completed))
+
         try:
             logger.info("Trying to get finished session info for user %s" % userid[:6])
             with self.conn:
@@ -270,8 +275,9 @@ class BackendConnection(object):
                 num_seconds = (self.config["status_params"]["finished"][
                                    "num_seconds"] + u.status_timestamp) - current_timestamp_in_seconds()
                 if from_mturk:
-                    logger.debug("Generating mechanical turk code for user %s" % userid[:6])
+                    logger.info("Generating mechanical turk code for user %s" % userid[:6])
                     mturk_code = _generate_mturk_code(u)
+                    _add_finished_task_row(cursor, userid, mturk_code, u.num_single_tasks_completed, u.num_chats_completed)
                     return FinishedSession(u.message, num_seconds, mturk_code)
                 return FinishedSession(u.message, num_seconds)
 
@@ -348,12 +354,14 @@ class BackendConnection(object):
             return next(obj["utility"] for obj in scenario["agents"][agent_index]["sorted_restaurants"] if
                         obj["name"] == restaurant_name)
 
-        def _user_finished(cursor, userid, prev_points, my_points, other_points):
+        def _user_finished(cursor, userid, prev_points, my_points, other_points,prev_chats_completed):
             message = "Great, you've finished the chat! You scored {} points and your friend scored {} points.".format(
                 my_points, other_points)
-            logger.info("Updating user %s to status FINISHED from status chat, with total points %d" % (userid[:6], prev_points+my_points))
+            logger.info("Updating user %s to status FINISHED from status chat, with total points %d+%d=%d" % (userid[:6], prev_points, my_points, prev_points+my_points))
             self._update_user(cursor, userid, status=Status.Finished, message=message,
-                              cumulative_points=prev_points + my_points)
+                              cumulative_points=prev_points + my_points,
+                              num_chats_completed=prev_chats_completed+1
+                          )
 
         try:
             with self.conn:
@@ -362,9 +370,9 @@ class BackendConnection(object):
                 u = self._get_user_info(cursor, userid, assumed_status=Status.Chat)
 
                 cursor.execute(
-                    "SELECT name, selected_index,cumulative_points FROM ActiveUsers WHERE room_id=? AND name!=?",
+                    "SELECT name, selected_index,cumulative_points,num_chats_completed FROM ActiveUsers WHERE room_id=? AND name!=?",
                     (u.room_id, userid))
-                other_userid, other_restaurant_index, other_P = self._ensure_not_none(cursor.fetchone(), BadChatException)
+                other_userid, other_restaurant_index, other_P, other_num_chats_completed = self._ensure_not_none(cursor.fetchone(), BadChatException)
                 P = u.cumulative_points
                 scenario = self.scenarios[u.scenario_id]
                 restaurant_name = scenario["restaurants"][restaurant_index]["name"]
@@ -374,8 +382,8 @@ class BackendConnection(object):
                     Pdelta = _get_points(scenario, u.agent_index, restaurant_name)
                     other_Pdelta = _get_points(scenario, 1 - u.agent_index, restaurant_name)
                     logger.info("User %s got %d points, User %s got %d points" % (userid[:6], Pdelta, other_userid[:6], other_Pdelta))
-                    _user_finished(cursor, userid, P, Pdelta, other_Pdelta)
-                    _user_finished(cursor, other_userid, other_P, other_Pdelta, Pdelta)
+                    _user_finished(cursor, userid, P, Pdelta, other_Pdelta, u.num_chats_completed)
+                    _user_finished(cursor, other_userid, other_P, other_Pdelta, Pdelta, other_num_chats_completed)
                     return restaurant_name, True
                 else:
                     logger.debug("User %s selection (%d) doesn't match with partner's selection (%d). " %
@@ -472,7 +480,7 @@ class BackendConnection(object):
             message = "Great, you've finished {} exercises!".format(num_finished)
             logger.info("Updating user info for user %s after single task completion - transition to FINISHED" % userid[:6])
             self._update_user(cursor, userid, status=Status.Finished, message=message,
-                              num_single_tasks_completed=0)
+                              num_single_tasks_completed=num_finished)
 
         def _log_user_submission(cursor, userid, scenario_id, user_input):
             logger.debug("Logging submission from user %s to database. Submission: %s" % (userid[:6], str(user_input)))
