@@ -73,7 +73,7 @@ def joined(message):
     start_chat()
     join_room(session["room"])
     logger.debug("User %s joined chat room %d" % (userid_prefix(), session["room"]))
-    emit_message_to_partner("Your partner has entered the room.", status_message=True)
+    emit_message_to_partner("Your friend has entered the room.", status_message=True)
 
 
 @socketio.on('text', namespace='/chat')
