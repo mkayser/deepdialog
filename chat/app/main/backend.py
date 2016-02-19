@@ -294,7 +294,7 @@ class BackendConnection(object):
                     return False
                 except StatusTimeoutException:
                     u = self._get_user_info_unchecked(cursor, userid)
-                    logger.debug("User {} had status timeout.".format(u.userid[:6]))
+                    logger.debug("User {} had status timeout.".format(u.name[:6]))
                     self._end_chat_and_transition_to_waiting(cursor, userid, u.partner_id, message=Messages.YouLeftRoom,
                                                              partner_message=Messages.PartnerLeftRoom)
                     return False
