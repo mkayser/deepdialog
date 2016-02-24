@@ -57,3 +57,5 @@ if __name__ == "__main__":
     with db_connection:
         cursor = db_connection.cursor()
         grant_bonuses(mturk_connection, cursor, results_file)
+
+    db_connection.close()
