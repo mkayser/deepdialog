@@ -9,8 +9,8 @@ access_key = 'AKIAJR4ULNPXFICAGAXA'
 secret_key = '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'
 
 
-def grant_bonuses(mturk_conn, db_cursor, results_csv):
-    reader = csv.reader(results_csv)
+def grant_bonuses(mturk_conn, db_cursor, results_csv, bonus_amount):
+    reader = csv.reader(open(results_csv, 'r'))
     header = reader.next()
     assignment_idx = header.index('AssignmentId')
     worker_idx = header.index('WorkerId')
@@ -27,8 +27,8 @@ def grant_bonuses(mturk_conn, db_cursor, results_csv):
             print "ERROR: Couldn't find submitted MTurk code %s in database." % code
         else:
             if result[0] == 1:
-                print "Granting bonus to worker %s with MTurk code %s" % (workerid, code)
-                mturk_connection.grant_bonus(workerid, assignmentid, Price(amount=0.50),
+                print "Granting bonus of %2.2f to worker %s with MTurk code %s" % (bonus_amount,workerid, code)
+                mturk_connection.grant_bonus(workerid, assignmentid, Price(amount=bonus_amount),
                                              reason='For great negotiation skills!')
 
 if __name__ == "__main__":
@@ -36,11 +36,13 @@ if __name__ == "__main__":
     parser.add_argument('-m', type=str, default='SANDBOX', help="Mode ('SANDBOX' or 'PROD')")
     parser.add_argument('-f', type=str, required=True, help="Path to CSV results from MTurk")
     parser.add_argument('--db', type=str, default='../chat_state.db', help='Path to database containing survey codes. Defaults to ../chat_state.db')
+    parser.add_argument('--amount', type=float, default=0.05, help='Amount to grant as bonus to each worker per assignment.')
 
     args = parser.parse_args()
     mode = args.m
     db = args.db
     results_file = args.f
+    bonus = args.amount
 
     host = 'mechanicalturk.sandbox.amazonaws.com'
     if mode == 'PROD':
@@ -50,12 +52,9 @@ if __name__ == "__main__":
                                  aws_secret_access_key=secret_key,
                                  host=host)
 
-    mturk_connection.grant_bonus('A29YQT3EEC0ZEC', '3RRCEFRB7N6QG0IIYO46PS2CSS64B9', Price(amount=0.50),
-                           reason='just testing this')
-
     db_connection = sqlite3.connect(db)
     with db_connection:
         cursor = db_connection.cursor()
-        grant_bonuses(mturk_connection, cursor, results_file)
+        grant_bonuses(mturk_connection, cursor, results_file, bonus)
 
     db_connection.close()
