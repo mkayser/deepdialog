@@ -444,12 +444,10 @@ class BackendConnection(object):
                     other_is_optimal, other_optimal_choice = _is_optimal_choice(scenario, 1 - u.agent_index,
                                                                                 restaurant_name, other_Pdelta)
                     if is_optimal:
-                        logger.info("User %s picked their optimal choice." % userid[:6])
                         _user_finished(cursor, userid, P, Pdelta, other_Pdelta, u.num_chats_completed)
                     else:
                         _user_finished(cursor, userid, P, Pdelta, other_Pdelta, u.num_chats_completed, optimal_choice)
                     if other_is_optimal:
-                        logger.info("User %s picked their optimal choice." % other_userid[:6])
                         _user_finished(cursor, other_userid, other_P, other_Pdelta, Pdelta, other_num_chats_completed)
                     else:
                         _user_finished(cursor, other_userid, other_P, other_Pdelta, Pdelta, other_num_chats_completed,
