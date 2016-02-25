@@ -313,8 +313,8 @@ class BackendConnection(object):
                         message += "<p><b>Good job on this negotiation! You'll receive a bonus on Mechanical Turk.</b></p>"
                     _add_finished_task_row(cursor, userid, mturk_code, u.num_single_tasks_completed,
                                            u.num_chats_completed, u.bonus)
-                    self._update_user(cursor, userid, bonus=0)
                     return FinishedSession(Markup(message), num_seconds, mturk_code)
+                self._update_user(cursor, userid, bonus=0)
                 return FinishedSession(Markup(u.message), num_seconds)
 
         except sqlite3.IntegrityError:
