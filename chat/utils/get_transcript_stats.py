@@ -139,7 +139,7 @@ if __name__ == "__main__":
 
 
     ctr = 0
-    invalid = {NO_OUTCOME: 0, TOO_SHORT: 0, SHORT: 0}
+    invalid = {NO_OUTCOME: 0, TOO_SHORT: 0, SHORT: 0, VALID: 0}
     optimal_choice = {BOTH: 0, NEITHER: 0, ONE: 0}
 
     for name in os.listdir(args.transcripts):
