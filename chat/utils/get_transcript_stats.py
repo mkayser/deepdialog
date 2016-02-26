@@ -18,6 +18,7 @@ SHORT = "SHORT"
 BOTH = "BOTH"
 NEITHER = "NEITHER"
 ONE = "ONE"
+VALID = "VALID"
 
 
 def load_scenarios(scenarios_file):
@@ -161,6 +162,8 @@ if __name__ == "__main__":
             short, reason = is_transcript_short(transcript)
             if short:
                 invalid[reason] += 1
+            else:
+                invalid[VALID] += 1
 
             user_0_optimal = user_picked_optimal(0, transcript, scenarios)
             user_1_optimal = user_picked_optimal(1, transcript, scenarios)
