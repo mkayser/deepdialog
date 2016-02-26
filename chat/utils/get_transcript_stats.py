@@ -172,10 +172,15 @@ if __name__ == "__main__":
             else:
                 optimal_choice[NEITHER] += 1
 
+            out_file.write("Final selection: %s" % transcript["outcome"][1])
             if user_0_optimal:
                 out_file.write("User 0 selected their optimal choice (or something close).\n")
+            else:
+                out_file.write("User 0 did not select their optimal choice.")
             if user_1_optimal:
                 out_file.write("User 1 selected their optimal choice (or something close).\n")
+            else:
+                out_file.write("User 1 did not select their optimal choice.")
 
             out_file.close()
         ctr += 1
