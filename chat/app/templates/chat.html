@@ -46,6 +46,10 @@
 	  padding: 0 15px 0 15px;
 	  }
 	  
+	  #instructions > p,li {
+	  font-size:18px;
+	  }
+	  
 	  table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
     	content: " \25B4\25BE" 
 		}
@@ -165,18 +169,20 @@
     <body onload='init()'>
       <div class="clearfix">
     <div id="chat_container">
+    <div id="instructions">
         <h1>Negotiation Game: Where Should We Eat?</h1>
         <p>
             It's Friday night, and you and your friend are trying to figure out where to eat dinner.
             You've discovered that there are <b>{{scenario["restaurants"]|length}}</b> restaurants nearby.
         </p>
-	<h3>How to Play:</h3>
+	<h2>Instructions</h2>
 	<ul>
-	  <li> Look at your <b>list of preferred cuisines</b>, and <b>preferred price range</b>, at right. </li>
+	  <li> <b>Look at your list of preferred cuisines</b>, and <b>preferred price range</b>, at right. </li>
 	  <li> Use the <b>chat box below</b> to chat with your friend and negotiate a restaurant to eat at. </li>
-	  <li> Once you've <b>agreed on a restaurant</b>, select it from
-            the drop down list on the right.</li>
+	  <li> Once you've <b>agreed on a restaurant</b>, select it from the <b>drop down list on the right</b>. You can select a restaurant as many times as you want, but the chat will only end when you and your friend both select the same restaurant.</li>
 	</ul>
+	<p><b>Use your negotiation skills well! </b> There will be a <b>bonus</b> for agreeing on a restaurant that matches your preferences as closely as possible.</p>
+	</div>
 
         <div id="clockdiv" align="right">
 	  Time Remaining: 

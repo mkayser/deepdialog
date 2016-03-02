@@ -16,6 +16,7 @@ handler.setLevel(logging.INFO)
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
+
 def userid_prefix():
     return userid()[:6]
 
@@ -103,13 +104,13 @@ def pick(message):
         logger.info("User %s selection matches with partner selection" % userid_prefix())
         emit_message_to_chat_room("Both users have selected restaurant: \"{}\"".format(restaurant), status_message=True)
         emit('endchat',
-             {'message':"You've completed this task! Redirecting you..."},
+             {'message': "You've completed this task! Redirecting you..."},
              room=room)
     else:
         logger.debug("User %s selection doesn't match with partner selection" % userid_prefix())
         emit_message_to_partner("Your friend has selected restaurant: \"{}\"".format(restaurant), status_message=True)
         emit_message_to_self("You selected restaurant: \"{}\"".format(restaurant), status_message=True)
-    write_outcome(restaurant, chat_info)
+    write_outcome(restaurant_id, restaurant, chat_info)
 
 
 @socketio.on('disconnect', namespace='/chat')
@@ -153,7 +154,7 @@ def emit_message_to_chat_room(message, status_message=False):
 
 def emit_message_to_partner(message, status_message=False):
     timestamp = datetime.now().strftime('%x %X')
-    left_delim = "<" if status_message else ""    
+    left_delim = "<" if status_message else ""
     right_delim = ">" if status_message else ""
     emit('message', {'msg': "[{}] {}{}{}".format(timestamp, left_delim, message, right_delim)}, room=session["room"],
          include_self=False)
@@ -164,14 +165,19 @@ def start_chat():
 
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["logging"]["chat_dir"], str(session["room"])), 'a+')
     outfile.write("%s\t%s\tUser %s\tjoined\n" % (datetime.now().strftime(date_fmt),
-                                            chat_info.scenario["uuid"],
-                                            str(chat_info.agent_index)))
+                                                 chat_info.scenario["uuid"],
+                                                 str(chat_info.agent_index)))
+    outfile.write("%s\t%s\tUser %s has user ID %s" % (datetime.now().strftime(date_fmt),
+                                                      chat_info.scenario["uuid"],
+                                                      str(chat_info.agent_index),
+                                                      userid()))
     outfile.close()
 
 
 def end_chat():
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["logging"]["chat_dir"], str(session["room"])), 'a+')
-    outfile.write("%s\t%s\n" % (datetime.now().strftime(date_fmt), app.config["user_params"]["logging"]["chat_delimiter"]))
+    outfile.write(
+        "%s\t%s\n" % (datetime.now().strftime(date_fmt), app.config["user_params"]["logging"]["chat_delimiter"]))
     outfile.close()
 
 
@@ -184,7 +190,7 @@ def write_to_file(message):
     outfile.close()
 
 
-def write_outcome(name, chat_info):
+def write_outcome(idx, name, chat_info):
     outfile = open('%s/ChatRoom_%s' % (app.config["user_params"]["logging"]["chat_dir"], str(session["room"])), 'a+')
-    outfile.write("%s\t%s\tUser %s\tSelected restaurant:\t%s\n" %
-                  (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"], chat_info.agent_index, name))
+    outfile.write("%s\t%s\tUser %s\tSelected restaurant %d:\t%s\n" %
+                  (datetime.now().strftime(date_fmt), chat_info.scenario["uuid"], chat_info.agent_index, idx, name))
