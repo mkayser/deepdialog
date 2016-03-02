@@ -1,0 +1,32 @@
+02-19-2016:16-40-27	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	joined
+02-19-2016:16-40-28	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0	joined
+02-19-2016:16-40-31	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	Hi
+02-19-2016:16-40-32	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0	hey
+02-19-2016:16-40-33	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	lets do whatever
+02-19-2016:16-40-36	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	Selected restaurant:	Asian Box
+02-19-2016:16-40-44	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	the points DONT matter
+02-19-2016:16-40-45	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0	chinese please
+02-19-2016:16-40-49	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0	Selected restaurant:	New Mongolian BBQ
+02-19-2016:16-40-51	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	Selected restaurant:	Queen House
+02-19-2016:16-40-53	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	Selected restaurant:	New Mongolian BBQ
+02-19-2016:16-40-53	---
+02-19-2016:16-41-53	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Italian, Deli, Spanish, Vietnamese
+User 1 preferences: 20-30	Italian, Deli, Chinese, Spanish, Vietnamese
+
+Asian Box	Vietnamese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Pho To Chau	Vietnamese	20-30
+New Mongolian BBQ	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Doppio Zero	Italian	30-60
+Queen House	Chinese	0-10
+Kirin	Chinese	10-20
+Pho Hoa	Vietnamese	30-60
+Cascal	Spanish	30-60
+
+Final selection: New Mongolian BBQUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

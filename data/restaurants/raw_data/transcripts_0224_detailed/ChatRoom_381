@@ -1,0 +1,30 @@
+02-24-2016:19-51-17	2f83c23b-321f-4199-abf5-169d75f69dc7	User 1	joined
+02-24-2016:19-51-17	2f83c23b-321f-4199-abf5-169d75f69dc7	User 1 has user ID f551a9c8ef7447e68e7255c087c8f416
+02-24-2016:19-51-23	2f83c23b-321f-4199-abf5-169d75f69dc7	User 0	joined
+02-24-2016:19-51-23	2f83c23b-321f-4199-abf5-169d75f69dc7	User 0 has user ID 78de429b6e684f988804a99bd73bb576
+02-24-2016:19-51-28	2f83c23b-321f-4199-abf5-169d75f69dc7	User 0	deli?
+02-24-2016:19-51-42	2f83c23b-321f-4199-abf5-169d75f69dc7	User 0	Selected restaurant 0:	Subway
+02-24-2016:19-51-45	2f83c23b-321f-4199-abf5-169d75f69dc7	User 1	Really feeling Shabuway. I've had a lot of Deli lately and it makes me bloat.
+02-24-2016:19-52-05	2f83c23b-321f-4199-abf5-169d75f69dc7	User 0	Selected restaurant 2:	Shabuway
+02-24-2016:19-52-07	2f83c23b-321f-4199-abf5-169d75f69dc7	User 1	Selected restaurant 2:	Shabuway
+02-24-2016:19-52-08	---
+02-24-2016:19-52-08	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Italian, Spanish, American, Japanese
+User 1 preferences: 30-60	Japanese, Deli, Italian, American, Spanish
+
+Subway	Deli	10-20
+Cascal	Spanish	30-60
+Shabuway	Japanese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Ryowa Noodle House	Japanese	20-30
+Bierhaus	American	0-10
+Shalala	Japanese	10-20
+Bushido	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+The Crepevine	American	30-60
+
+Final selection: ShabuwayUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

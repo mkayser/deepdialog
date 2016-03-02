@@ -1,0 +1,29 @@
+02-24-2016:19-52-02	df42719a-13e9-4773-b2a2-5000d623560c	User 1	joined
+02-24-2016:19-52-02	df42719a-13e9-4773-b2a2-5000d623560c	User 1 has user ID a5f49c8e73684a73afa11fd1a1cf8951
+02-24-2016:19-52-03	df42719a-13e9-4773-b2a2-5000d623560c	User 0	joined
+02-24-2016:19-52-03	df42719a-13e9-4773-b2a2-5000d623560c	User 0 has user ID 96d42710883249c7a3611371ae1ae951
+02-24-2016:19-52-08	df42719a-13e9-4773-b2a2-5000d623560c	User 1	Selected restaurant 1:	Rumble Fish
+02-24-2016:19-52-21	df42719a-13e9-4773-b2a2-5000d623560c	User 0	Selected restaurant 0:	Maruichi Noodle House
+02-24-2016:19-52-44	df42719a-13e9-4773-b2a2-5000d623560c	User 1	Selected restaurant 2:	Shalala
+02-24-2016:19-52-49	df42719a-13e9-4773-b2a2-5000d623560c	User 0	Selected restaurant 2:	Shalala
+02-24-2016:19-52-49	---
+02-24-2016:19-52-49	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, Japanese, Vietnamese, American, French
+User 1 preferences: 10-20	Japanese, American, French, Korean, Vietnamese
+
+Maruichi Noodle House	Japanese	0-10
+Rumble Fish	Japanese	30-60
+Shalala	Japanese	10-20
+Asian Box	Vietnamese	30-60
+Bierhaus	American	0-10
+Masa Sushi	Japanese	0-10
+Ryowa Noodle House	Japanese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Pho Hoa	Vietnamese	30-60
+Ginseng	Korean	10-20
+
+Final selection: ShalalaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

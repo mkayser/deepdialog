@@ -1,0 +1,33 @@
+02-19-2016:16-16-11	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	joined
+02-19-2016:16-16-12	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	joined
+02-19-2016:16-16-14	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	Hi
+02-19-2016:16-16-20	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	Hello
+02-19-2016:16-16-22	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	How about Shabuway?
+02-19-2016:16-16-34	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	Not big on Japanese.
+02-19-2016:16-16-40	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	Pho Hoa?
+02-19-2016:16-17-01	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	Vietnamese is good, but that is a bit pricy, can you meet me in middle at pho to Chau?
+02-19-2016:16-17-08	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	Sure lets do it
+02-19-2016:16-17-13	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	Great
+02-19-2016:16-17-13	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	Selected restaurant:	Pho To Chau
+02-19-2016:16-17-15	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	Selected restaurant:	Pho To Chau
+02-19-2016:16-17-16	---
+02-19-2016:16-17-16	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Vietnamese, Chinese, Indian, Japanese
+User 1 preferences: 30-60	Japanese, Vietnamese, Chinese, SeaFood, Indian
+
+Pho To Chau	Vietnamese	20-30
+Sakoon	Indian	30-60
+Pho Hoa	Vietnamese	30-60
+Shabuway	Japanese	30-60
+Park Ballachi	Indian	0-10
+Shell Shock	SeaFood	10-20
+Shezan	Indian	10-20
+Niji Sushi	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+New Mongolian BBQ	Chinese	30-60
+
+Final selection: Pho To ChauUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

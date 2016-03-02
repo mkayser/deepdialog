@@ -1,0 +1,35 @@
+02-19-2016:16-39-58	c49b63b2-38be-4b2f-a051-1dfabba21092	User 0	joined
+02-19-2016:16-39-59	c49b63b2-38be-4b2f-a051-1dfabba21092	User 1	joined
+02-19-2016:16-40-04	c49b63b2-38be-4b2f-a051-1dfabba21092	User 1	Hello there Amigo
+02-19-2016:16-40-15	c49b63b2-38be-4b2f-a051-1dfabba21092	User 0	whoah, those are some pricey restaurants in this one
+02-19-2016:16-40-19	---
+02-19-2016:16-40-20	c49b63b2-38be-4b2f-a051-1dfabba21092	User 0	joined
+02-19-2016:16-40-25	c49b63b2-38be-4b2f-a051-1dfabba21092	User 1	Sure are
+02-19-2016:16-40-40	c49b63b2-38be-4b2f-a051-1dfabba21092	User 1	Im down for something three stars
+02-19-2016:16-40-43	c49b63b2-38be-4b2f-a051-1dfabba21092	User 0	who would go for 4-$ Thai food? Thai food is so great cause it's cheap
+02-19-2016:16-40-58	c49b63b2-38be-4b2f-a051-1dfabba21092	User 1	sure
+02-19-2016:16-40-59	c49b63b2-38be-4b2f-a051-1dfabba21092	User 0	hey, Ginseng's reasonably priced
+02-19-2016:16-41-08	c49b63b2-38be-4b2f-a051-1dfabba21092	User 1	lets make it happen
+02-19-2016:16-41-11	c49b63b2-38be-4b2f-a051-1dfabba21092	User 1	Selected restaurant:	Ginseng
+02-19-2016:16-41-12	c49b63b2-38be-4b2f-a051-1dfabba21092	User 0	and cheap Korean is good too, like cheap Thai
+02-19-2016:16-41-15	c49b63b2-38be-4b2f-a051-1dfabba21092	User 0	Selected restaurant:	Ginseng
+02-19-2016:16-41-15	---
+02-19-2016:16-41-15	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Korean, Thai, French, Italian, Spanish
+User 1 preferences: 20-30	Italian, Korean, Spanish, Thai, French
+
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Totoro	Korean	20-30
+Chez TJ	French	30-60
+Amarin Thai Cuisine	Thai	20-30
+Ginseng	Korean	10-20
+Cascal	Spanish	30-60
+Bangkok Spoon	Thai	30-60
+Doppio Zero	Italian	30-60
+
+Final selection: GinsengUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

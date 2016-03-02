@@ -1,0 +1,29 @@
+02-19-2016:16-50-24	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 0	joined
+02-19-2016:16-50-25	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 1	joined
+02-19-2016:16-50-40	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 0	Im feeling blue line pizza
+02-19-2016:16-50-44	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 1	Famished, what are you in the mood for?
+02-19-2016:16-50-49	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 1	Sounds great
+02-19-2016:16-50-50	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 0	What do you think buddy?
+02-19-2016:16-50-52	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-50-55	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-50-55	---
+02-19-2016:16-50-55	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Chinese, Pizza, French, Japanese
+User 1 preferences: 30-60	French, Japanese, Pizza, Chinese, Spanish
+
+Maruichi Noodle House	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Ryowa Noodle House	Japanese	20-30
+Hunan Chili	Chinese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+New Mongolian BBQ	Chinese	30-60
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

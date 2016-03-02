@@ -1,0 +1,30 @@
+02-24-2016:19-38-35	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 1	joined
+02-24-2016:19-38-35	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 1 has user ID 1e64b000bb644aa396f0bfdef8dc61c0
+02-24-2016:19-38-36	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 0	joined
+02-24-2016:19-38-36	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 0 has user ID 7e2a61d4126442ffbe04457f7627eb3c
+02-24-2016:19-38-41	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 1	Selected restaurant 5:	Hong Kong Bistro
+02-24-2016:19-38-52	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 1	pls
+02-24-2016:19-38-56	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 0	How about Mediterranean?
+02-24-2016:19-38-58	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 0	Selected restaurant 1:	Morocco's
+02-24-2016:19-39-07	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 1	Selected restaurant 1:	Morocco's
+02-24-2016:19-39-08	---
+02-24-2016:19-39-08	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Deli, Chinese, SeaFood, Spanish
+User 1 preferences: 20-30	Mediterranean, Chinese, Spanish, Deli, SeaFood
+
+Queen House	Chinese	0-10
+Morocco's	Mediterranean	10-20
+Café Baklava	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Posh Bagel	Deli	10-20
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+New Mongolian BBQ	Chinese	30-60
+Shell Shock	SeaFood	10-20
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Morocco'sUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

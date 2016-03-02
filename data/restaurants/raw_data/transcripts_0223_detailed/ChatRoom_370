@@ -1,0 +1,32 @@
+02-19-2016:16-24-08	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 1	joined
+02-19-2016:16-24-09	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 0	joined
+02-19-2016:16-24-27	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 0	Hey what do you feel like eating?
+02-19-2016:16-24-39	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 1	Vietnamese or american
+02-19-2016:16-25-16	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 0	I'm sort of in the mood for some Korean food. You feel like it or nah?
+02-19-2016:16-25-34	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 1	not especially. how about a deli?
+02-19-2016:16-26-11	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 0	I actually went to a deli for lunch today. Maybe Mexican food?
+02-19-2016:16-26-27	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 1	Agave?
+02-19-2016:16-26-31	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 1	Selected restaurant:	Agave
+02-19-2016:16-26-34	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 0	Sounds good
+02-19-2016:16-26-36	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 0	Selected restaurant:	Agave
+02-19-2016:16-26-36	---
+02-19-2016:16-26-37	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Korean, Mexican, Vietnamese, Deli, American
+User 1 preferences: 20-30	Vietnamese, American, Deli, Mexican, Korean
+
+Scratch	American	0-10
+Asian Box	Vietnamese	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Xanh Restaurant	Vietnamese	10-20
+Subway	Deli	10-20
+Bierhaus	American	0-10
+Agave	Mexican	20-30
+Steins Beer Garden	American	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Pho To Chau	Vietnamese	20-30
+
+Final selection: AgaveUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

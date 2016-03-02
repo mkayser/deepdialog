@@ -1,0 +1,29 @@
+02-19-2016:15-57-46	5879980c-76cb-48a1-958f-f64fe34720ee	User 0	joined
+02-19-2016:15-57-46	5879980c-76cb-48a1-958f-f64fe34720ee	User 1	joined
+02-19-2016:15-57-56	5879980c-76cb-48a1-958f-f64fe34720ee	User 1	Masa Sushi?
+02-19-2016:15-58-21	5879980c-76cb-48a1-958f-f64fe34720ee	User 0	Oh, how about Shalala instead?
+02-19-2016:15-58-34	5879980c-76cb-48a1-958f-f64fe34720ee	User 1	Sure
+02-19-2016:15-58-39	5879980c-76cb-48a1-958f-f64fe34720ee	User 1	Selected restaurant:	Shalala
+02-19-2016:15-58-39	5879980c-76cb-48a1-958f-f64fe34720ee	User 0	awesome
+02-19-2016:15-58-42	5879980c-76cb-48a1-958f-f64fe34720ee	User 0	Selected restaurant:	Shalala
+02-19-2016:15-58-43	---
+02-19-2016:15-58-43	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Pizza, Vietnamese, Korean, Japanese, Thai
+User 1 preferences: 0-10	Japanese, Thai, Korean, Pizza, Vietnamese
+
+Masa Sushi	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Shalala	Japanese	10-20
+Niji Sushi	Japanese	10-20
+Asian Box	Vietnamese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Ginseng	Korean	10-20
+Bushido	Japanese	10-20
+Ryowa Noodle House	Japanese	20-30
+
+Final selection: ShalalaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,29 @@
+02-24-2016:19-41-18	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	joined
+02-24-2016:19-41-18	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1 has user ID 1185fb427e3d49c29548e288ddc13446
+02-24-2016:19-41-20	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	joined
+02-24-2016:19-41-20	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0 has user ID 0398c4f9eab24ba2b94f5ab59c5301b9
+02-24-2016:19-41-30	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	Blue Line Pizza?
+02-24-2016:19-41-32	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	Selected restaurant 2:	Blue Line Pizza
+02-24-2016:19-41-56	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	Selected restaurant 3:	Ginseng
+02-24-2016:19-41-59	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	Selected restaurant 3:	Ginseng
+02-24-2016:19-41-59	---
+02-24-2016:19-42-00	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Korean, Pizza, Mediterranean, SeaFood
+User 1 preferences: 20-30	Pizza, Mediterranean, Korean, SeaFood, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Ehpesus	Mediterranean	0-10
+Blue Line Pizza	Pizza	10-20
+Ginseng	Korean	10-20
+Drunken Lobster	SeaFood	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Totoro	Korean	20-30
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Shell Shock	SeaFood	10-20
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

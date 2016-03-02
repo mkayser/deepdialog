@@ -1,0 +1,30 @@
+02-24-2016:19-49-35	476a2155-ad19-48dc-8123-b134e475d6f0	User 1	joined
+02-24-2016:19-49-35	476a2155-ad19-48dc-8123-b134e475d6f0	User 1 has user ID 1e64b000bb644aa396f0bfdef8dc61c0
+02-24-2016:19-49-36	476a2155-ad19-48dc-8123-b134e475d6f0	User 0	joined
+02-24-2016:19-49-36	476a2155-ad19-48dc-8123-b134e475d6f0	User 0 has user ID 732ecfccbdc44825a1016d27b9a01985
+02-24-2016:19-49-39	476a2155-ad19-48dc-8123-b134e475d6f0	User 0	Kirin
+02-24-2016:19-49-43	476a2155-ad19-48dc-8123-b134e475d6f0	User 0	Is my preference
+02-24-2016:19-49-47	476a2155-ad19-48dc-8123-b134e475d6f0	User 1	Selected restaurant 5:	Kirin
+02-24-2016:19-49-49	476a2155-ad19-48dc-8123-b134e475d6f0	User 0	Ehpesus would be a close second
+02-24-2016:19-49-53	476a2155-ad19-48dc-8123-b134e475d6f0	User 0	Selected restaurant 5:	Kirin
+02-24-2016:19-49-53	---
+02-24-2016:19-49-54	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Chinese, Mediterranean, Thai, French, Pizza
+User 1 preferences: 0-10	French, Pizza, Mediterranean, Thai, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Bangkok Spoon	Thai	30-60
+Hunan Chili	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Ehpesus	Mediterranean	0-10
+Kirin	Chinese	10-20
+Chez TJ	French	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Café Baklava	Mediterranean	10-20
+
+Final selection: KirinUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

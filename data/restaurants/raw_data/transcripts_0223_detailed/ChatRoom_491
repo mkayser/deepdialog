@@ -1,0 +1,29 @@
+02-19-2016:16-35-16	1af2955b-15a4-43a8-a0f4-c1e98cead2de	User 0	joined
+02-19-2016:16-35-17	1af2955b-15a4-43a8-a0f4-c1e98cead2de	User 1	joined
+02-19-2016:16-35-20	1af2955b-15a4-43a8-a0f4-c1e98cead2de	User 0	Hi
+02-19-2016:16-35-20	1af2955b-15a4-43a8-a0f4-c1e98cead2de	User 1	hiya! 
+02-19-2016:16-35-23	1af2955b-15a4-43a8-a0f4-c1e98cead2de	User 0	Pho To Chau?
+02-19-2016:16-35-33	1af2955b-15a4-43a8-a0f4-c1e98cead2de	User 1	YES!
+02-19-2016:16-35-37	1af2955b-15a4-43a8-a0f4-c1e98cead2de	User 0	Selected restaurant:	Pho To Chau
+02-19-2016:16-35-38	1af2955b-15a4-43a8-a0f4-c1e98cead2de	User 1	Selected restaurant:	Pho To Chau
+02-19-2016:16-35-38	---
+02-19-2016:16-35-38	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Vietnamese, Chinese, Mexican, Deli, Spanish
+User 1 preferences: 0-10	Vietnamese, Spanish, Chinese, Deli, Mexican
+
+Hong Kong Bistro	Chinese	20-30
+Posh Bagel	Deli	10-20
+Pho To Chau	Vietnamese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Queen House	Chinese	0-10
+Agave	Mexican	20-30
+Cascal	Spanish	30-60
+Fiesta Del Mar Too	Mexican	10-20
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+
+Final selection: Pho To ChauUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

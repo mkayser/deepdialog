@@ -1,0 +1,32 @@
+02-24-2016:20-00-24	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	joined
+02-24-2016:20-00-24	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0 has user ID a8feb03f2d914cf190086a19dfc22193
+02-24-2016:20-00-25	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	joined
+02-24-2016:20-00-25	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1 has user ID a2b1f77d63ba47b6a973dbe700d79aee
+02-24-2016:20-00-26	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	Hi
+02-24-2016:20-00-31	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	pizza!!?
+02-24-2016:20-00-36	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	Hi, American restaurant?
+02-24-2016:20-00-38	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	sure
+02-24-2016:20-00-44	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	american is ok
+02-24-2016:20-00-47	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	Selected restaurant 7:	The Crepevine
+02-24-2016:20-00-50	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	Selected restaurant 7:	The Crepevine
+02-24-2016:20-00-51	---
+02-24-2016:20-00-51	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Thai, American, Italian, Pizza, Korean
+User 1 preferences: 30-60	Pizza, American, Korean, Italian, Thai
+
+Bangkok Spoon	Thai	30-60
+Blue Line Pizza	Pizza	10-20
+Vaso Azzurro	Italian	20-30
+Ginseng	Korean	10-20
+Bierhaus	American	0-10
+Ristorante Don Giovanni	Italian	0-10
+Scratch	American	0-10
+The Crepevine	American	30-60
+Doppio Zero	Italian	30-60
+Totoro	Korean	20-30
+
+Final selection: The CrepevineUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

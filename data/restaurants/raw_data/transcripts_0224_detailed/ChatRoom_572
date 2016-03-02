@@ -1,0 +1,29 @@
+02-24-2016:19-57-42	426e3d23-895b-43c4-9018-5120258e559a	User 1	joined
+02-24-2016:19-57-42	426e3d23-895b-43c4-9018-5120258e559a	User 1 has user ID b745a91d655a4b418f42f8d3bf219f17
+02-24-2016:19-57-46	426e3d23-895b-43c4-9018-5120258e559a	User 0	joined
+02-24-2016:19-57-46	426e3d23-895b-43c4-9018-5120258e559a	User 0 has user ID 72679093c091484e962e0896462ad42b
+02-24-2016:19-57-50	426e3d23-895b-43c4-9018-5120258e559a	User 1	How about Hong Kong Bistro?
+02-24-2016:19-59-11	426e3d23-895b-43c4-9018-5120258e559a	User 0	cool
+02-24-2016:19-59-15	426e3d23-895b-43c4-9018-5120258e559a	User 0	Selected restaurant 0:	Hong Kong Bistro
+02-24-2016:19-59-44	426e3d23-895b-43c4-9018-5120258e559a	User 1	Selected restaurant 0:	Hong Kong Bistro
+02-24-2016:19-59-44	---
+02-24-2016:19-59-44	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Korean, Chinese, Indian, Spanish
+User 1 preferences: 30-60	Chinese, Spanish, SeaFood, Indian, Korean
+
+Hong Kong Bistro	Chinese	20-30
+Shezan	Indian	10-20
+Kirin	Chinese	10-20
+Sakoon	Indian	30-60
+New Mongolian BBQ	Chinese	30-60
+Queen House	Chinese	0-10
+Hunan Chili	Chinese	30-60
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Hong Kong BistroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

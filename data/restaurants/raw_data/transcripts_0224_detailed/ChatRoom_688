@@ -1,0 +1,29 @@
+02-24-2016:20-03-38	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	joined
+02-24-2016:20-03-38	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1 has user ID 6dc8794cd43543a283d457c40fd5be37
+02-24-2016:20-03-40	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	joined
+02-24-2016:20-03-40	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0 has user ID 636466e4c18f4aa0ab4ae2d4c678f8b3
+02-24-2016:20-03-43	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	Selected restaurant 0:	Shezan
+02-24-2016:20-03-47	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	Selected restaurant 3:	Posh Bagel
+02-24-2016:20-03-55	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	Selected restaurant 9:	Queen House
+02-24-2016:20-04-04	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	Selected restaurant 9:	Queen House
+02-24-2016:20-04-04	---
+02-24-2016:20-04-04	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Chinese, Spanish, Indian, Mediterranean
+User 1 preferences: 10-20	Indian, Chinese, Deli, Mediterranean, Spanish
+
+Shezan	Indian	10-20
+Sakoon	Indian	30-60
+New Mongolian BBQ	Chinese	30-60
+Posh Bagel	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Morocco's	Mediterranean	10-20
+Park Ballachi	Indian	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Queen House	Chinese	0-10
+
+Final selection: Queen HouseUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

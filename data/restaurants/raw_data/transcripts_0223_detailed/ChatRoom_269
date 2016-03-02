@@ -1,0 +1,29 @@
+02-19-2016:16-09-19	abfa2e02-5be1-4f58-9246-43b384c0a248	User 1	joined
+02-19-2016:16-09-20	abfa2e02-5be1-4f58-9246-43b384c0a248	User 0	joined
+02-19-2016:16-09-26	abfa2e02-5be1-4f58-9246-43b384c0a248	User 0	Totoro?
+02-19-2016:16-09-54	abfa2e02-5be1-4f58-9246-43b384c0a248	User 0	NO?
+02-19-2016:16-09-58	abfa2e02-5be1-4f58-9246-43b384c0a248	User 0	U PICK
+02-19-2016:16-10-02	abfa2e02-5be1-4f58-9246-43b384c0a248	User 1	how about Morocco's
+02-19-2016:16-10-08	abfa2e02-5be1-4f58-9246-43b384c0a248	User 0	Selected restaurant:	Morocco's
+02-19-2016:16-10-16	abfa2e02-5be1-4f58-9246-43b384c0a248	User 1	Selected restaurant:	Morocco's
+02-19-2016:16-10-17	---
+02-19-2016:16-10-17	---
+
+Chat Information:
+
+User 0 preferences: 30-60	American, Mediterranean, Pizza, Korean, Thai
+User 1 preferences: 20-30	Korean, American, Mediterranean, Pizza, Thai
+
+Oren's Hummus	Mediterranean	10-20
+Bangkok Spoon	Thai	30-60
+Ginseng	Korean	10-20
+Ehpesus	Mediterranean	0-10
+Steins Beer Garden	American	20-30
+Café Baklava	Mediterranean	10-20
+Scratch	American	0-10
+Bierhaus	American	0-10
+Totoro	Korean	20-30
+Morocco's	Mediterranean	10-20
+
+Final selection: Morocco'sUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

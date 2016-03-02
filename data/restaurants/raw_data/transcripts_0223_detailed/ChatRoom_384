@@ -1,0 +1,29 @@
+02-19-2016:16-26-02	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 1	joined
+02-19-2016:16-26-02	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 0	joined
+02-19-2016:16-26-10	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 1	hiya
+02-19-2016:16-26-14	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 0	Lets do Ristorante
+02-19-2016:16-26-14	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 1	Fancy some Pizza?
+02-19-2016:16-26-27	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 1	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-26-31	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 0	or not
+02-19-2016:16-26-34	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 0	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-26-34	---
+02-19-2016:16-26-34	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Chinese, SeaFood, Pizza, Korean
+User 1 preferences: 30-60	Pizza, Chinese, Korean, Italian, SeaFood
+
+Ristorante Don Giovanni	Italian	0-10
+Ginseng	Korean	10-20
+Vaso Azzurro	Italian	20-30
+Queen House	Chinese	0-10
+Shell Shock	SeaFood	10-20
+Totoro	Korean	20-30
+Fu Lam Mum	Chinese	30-60
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+New Mongolian BBQ	Chinese	30-60
+
+Final selection: Amici's East Coast PizzeriaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

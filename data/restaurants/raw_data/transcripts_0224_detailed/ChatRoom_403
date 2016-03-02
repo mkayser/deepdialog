@@ -1,0 +1,27 @@
+02-24-2016:19-51-47	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0	joined
+02-24-2016:19-51-47	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0 has user ID 31395e8a44434644a8be53817cae0a98
+02-24-2016:19-51-48	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	joined
+02-24-2016:19-51-48	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1 has user ID 2d1722cd19ea47eab12b5ee6a5538838
+02-24-2016:19-51-54	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	Selected restaurant 5:	Hunan Chili
+02-24-2016:19-51-57	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0	Selected restaurant 5:	Hunan Chili
+02-24-2016:19-51-57	---
+02-24-2016:19-51-57	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Chinese, Mediterranean, American, Indian
+User 1 preferences: 0-10	Chinese, American, Deli, Indian, Mediterranean
+
+Park Ballachi	Indian	0-10
+Bierhaus	American	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Scratch	American	0-10
+Shezan	Indian	10-20
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Sakoon	Indian	30-60
+New Mongolian BBQ	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Hunan ChiliUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

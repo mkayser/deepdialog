@@ -1,0 +1,30 @@
+02-19-2016:16-50-04	1a322eb1-9ecd-461e-ac52-60106b30a35e	User 0	joined
+02-19-2016:16-50-05	1a322eb1-9ecd-461e-ac52-60106b30a35e	User 1	joined
+02-19-2016:16-50-15	1a322eb1-9ecd-461e-ac52-60106b30a35e	User 1	hiya
+02-19-2016:16-50-16	1a322eb1-9ecd-461e-ac52-60106b30a35e	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-50-23	1a322eb1-9ecd-461e-ac52-60106b30a35e	User 1	yuck deli
+02-19-2016:16-50-25	1a322eb1-9ecd-461e-ac52-60106b30a35e	User 0	POSH BAGELS CUZ WE POSH?
+02-19-2016:16-50-25	1a322eb1-9ecd-461e-ac52-60106b30a35e	User 1	American?
+02-19-2016:16-50-35	1a322eb1-9ecd-461e-ac52-60106b30a35e	User 1	Ok I guess cause it's you buddy
+02-19-2016:16-50-38	1a322eb1-9ecd-461e-ac52-60106b30a35e	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-50-38	---
+02-19-2016:16-50-38	---
+
+Chat Information:
+
+User 0 preferences: 20-30	French, Korean, American, Deli, Mediterranean
+User 1 preferences: 20-30	Mediterranean, American, Korean, Deli, French
+
+Bierhaus	American	0-10
+The Crepevine	American	30-60
+Subway	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Steins Beer Garden	American	20-30
+Posh Bagel	Deli	10-20
+Chez TJ	French	30-60
+Ginseng	Korean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Totoro	Korean	20-30
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

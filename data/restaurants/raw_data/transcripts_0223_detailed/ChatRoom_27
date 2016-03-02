@@ -1,0 +1,28 @@
+02-19-2016:15-29-43	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 1	joined
+02-19-2016:15-29-44	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 0	joined
+02-19-2016:15-30-02	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 1	Hey what do you think about Queen House?
+02-19-2016:15-30-31	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 0	I was thinking Pizza, How about Blue Line Pizza?
+02-19-2016:15-30-48	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 1	Yea I can go with that.
+02-19-2016:15-30-53	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-30-57	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-30-57	---
+02-19-2016:15-30-58	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, Spanish, Chinese, Thai, SeaFood
+User 1 preferences: 10-20	Spanish, Chinese, Thai, Pizza, SeaFood
+
+Kirin	Chinese	10-20
+Queen House	Chinese	0-10
+Amarin Thai Cuisine	Thai	20-30
+Blue Line Pizza	Pizza	10-20
+Cascal	Spanish	30-60
+Hunan Chili	Chinese	30-60
+New Mongolian BBQ	Chinese	30-60
+Drunken Lobster	SeaFood	10-20
+Fu Lam Mum	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,33 @@
+02-24-2016:19-54-07	11680913-3538-4b49-a33a-002707d017b0	User 0	joined
+02-24-2016:19-54-07	11680913-3538-4b49-a33a-002707d017b0	User 0 has user ID cfb7f0ba7d194d2fbc1ab23d0de62457
+02-24-2016:19-54-07	11680913-3538-4b49-a33a-002707d017b0	User 1	joined
+02-24-2016:19-54-07	11680913-3538-4b49-a33a-002707d017b0	User 1 has user ID 9547d7e8f5874b66abcde179967688b1
+02-24-2016:19-54-16	11680913-3538-4b49-a33a-002707d017b0	User 0	Can we do Mexican?
+02-24-2016:19-54-19	11680913-3538-4b49-a33a-002707d017b0	User 0	Selected restaurant 3:	Casa Lupe Mexican Restaurant
+02-24-2016:19-54-22	11680913-3538-4b49-a33a-002707d017b0	User 1	I'm feeling pizza tonight
+02-24-2016:19-54-36	11680913-3538-4b49-a33a-002707d017b0	User 0	Only thing like pizza I can do is Italian!
+02-24-2016:19-54-37	11680913-3538-4b49-a33a-002707d017b0	User 1	don giovanni looks good
+02-24-2016:19-54-39	11680913-3538-4b49-a33a-002707d017b0	User 0	Selected restaurant 2:	Doppio Zero
+02-24-2016:19-54-57	11680913-3538-4b49-a33a-002707d017b0	User 1	doppio it is
+02-24-2016:19-55-00	11680913-3538-4b49-a33a-002707d017b0	User 1	Selected restaurant 2:	Doppio Zero
+02-24-2016:19-55-00	---
+02-24-2016:19-55-00	---
+
+Chat Information:
+
+User 0 preferences: 30-60	SeaFood, Mexican, Italian, Pizza, Thai
+User 1 preferences: 30-60	Pizza, Thai, Italian, Mexican, SeaFood
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Agave	Mexican	20-30
+Doppio Zero	Italian	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Ristorante Don Giovanni	Italian	0-10
+Amarin Thai Cuisine	Thai	20-30
+Vaso Azzurro	Italian	20-30
+Taqueria Los Charros	Mexican	0-10
+Blue Line Pizza	Pizza	10-20
+Bangkok Spoon	Thai	30-60
+
+Final selection: Doppio ZeroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

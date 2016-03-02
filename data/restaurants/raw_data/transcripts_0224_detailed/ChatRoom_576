@@ -1,0 +1,34 @@
+02-24-2016:19-57-54	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 0	joined
+02-24-2016:19-57-54	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 0 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:19-57-55	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 1	joined
+02-24-2016:19-57-55	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:19-57-59	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 1	Selected restaurant 4:	Subway
+02-24-2016:19-58-00	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 0	I feel like Mediterranean.
+02-24-2016:19-58-03	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 1	I want dat foorlong
+02-24-2016:19-58-06	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 1	footlong too
+02-24-2016:19-58-15	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 0	How about Ehpesus?
+02-24-2016:19-58-17	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 1	Im allergic to seafood
+02-24-2016:19-58-22	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 0	K
+02-24-2016:19-58-24	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 0	Subway it is.
+02-24-2016:19-58-26	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 0	Selected restaurant 4:	Subway
+02-24-2016:19-58-27	---
+02-24-2016:19-58-27	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Deli, Japanese, Mexican, Pizza
+User 1 preferences: 10-20	Deli, Japanese, Pizza, Mediterranean, Mexican
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Oren's Hummus	Mediterranean	10-20
+Maruichi Noodle House	Japanese	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Subway	Deli	10-20
+Morocco's	Mediterranean	10-20
+Niji Sushi	Japanese	10-20
+Ehpesus	Mediterranean	0-10
+Bushido	Japanese	10-20
+Taqueria Los Charros	Mexican	0-10
+
+Final selection: SubwayUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

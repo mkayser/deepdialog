@@ -1,0 +1,27 @@
+02-19-2016:16-24-21	616ded11-3d76-4ddb-b395-2773ba008a1a	User 1	joined
+02-19-2016:16-24-23	616ded11-3d76-4ddb-b395-2773ba008a1a	User 0	joined
+02-19-2016:16-24-29	616ded11-3d76-4ddb-b395-2773ba008a1a	User 1	Casa Luipe?
+02-19-2016:16-24-35	616ded11-3d76-4ddb-b395-2773ba008a1a	User 1	Selected restaurant:	Casa Lupe Mexican Restaurant
+02-19-2016:16-24-43	616ded11-3d76-4ddb-b395-2773ba008a1a	User 0	It's a negotiation
+02-19-2016:16-24-51	616ded11-3d76-4ddb-b395-2773ba008a1a	User 0	Selected restaurant:	Casa Lupe Mexican Restaurant
+02-19-2016:16-24-52	---
+02-19-2016:16-24-52	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Thai, Korean, SeaFood, Mexican, Italian
+User 1 preferences: 30-60	Thai, Mexican, SeaFood, Korean, Italian
+
+Ginseng	Korean	10-20
+Agave	Mexican	20-30
+Drunken Lobster	SeaFood	10-20
+Amarin Thai Cuisine	Thai	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Shell Shock	SeaFood	10-20
+Ristorante Don Giovanni	Italian	0-10
+Totoro	Korean	20-30
+Doppio Zero	Italian	30-60
+Taqueria Los Charros	Mexican	0-10
+
+Final selection: Casa Lupe Mexican RestaurantUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

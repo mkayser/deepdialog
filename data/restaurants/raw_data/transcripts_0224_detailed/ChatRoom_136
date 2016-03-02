@@ -1,0 +1,29 @@
+02-24-2016:19-42-38	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 0	joined
+02-24-2016:19-42-38	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 0 has user ID 5d5bb4d599184ba786b986e87ff1077c
+02-24-2016:19-42-39	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 1	joined
+02-24-2016:19-42-39	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 1 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:19-42-53	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 1	I like spanish or french
+02-24-2016:19-42-53	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 0	Selected restaurant 7:	Agave
+02-24-2016:19-43-04	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 1	mexican works 
+02-24-2016:19-43-07	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 1	Selected restaurant 7:	Agave
+02-24-2016:19-43-07	---
+02-24-2016:19-43-07	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, French, Deli, Korean, Mexican
+User 1 preferences: 30-60	Spanish, French, Mexican, Deli, Korean
+
+Ginseng	Korean	10-20
+Cascal	Spanish	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Subway	Deli	10-20
+Taqueria Los Charros	Mexican	0-10
+Posh Bagel	Deli	10-20
+Totoro	Korean	20-30
+Agave	Mexican	20-30
+Chez TJ	French	30-60
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: AgaveUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

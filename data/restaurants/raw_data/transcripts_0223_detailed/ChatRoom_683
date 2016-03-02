@@ -1,0 +1,25 @@
+02-19-2016:16-48-55	a1d1c1c1-5161-41f6-b883-d4e5d665f0d5	User 1	joined
+02-19-2016:16-48-56	a1d1c1c1-5161-41f6-b883-d4e5d665f0d5	User 0	joined
+02-19-2016:16-48-57	a1d1c1c1-5161-41f6-b883-d4e5d665f0d5	User 1	Selected restaurant:	Sakoon
+02-19-2016:16-49-13	a1d1c1c1-5161-41f6-b883-d4e5d665f0d5	User 0	Selected restaurant:	Sakoon
+02-19-2016:16-49-13	---
+02-19-2016:16-49-14	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Korean, French, Indian, Pizza, Vietnamese
+User 1 preferences: 30-60	Indian, Vietnamese, Korean, Pizza, French
+
+Shezan	Indian	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Xanh Restaurant	Vietnamese	10-20
+Sakoon	Indian	30-60
+Pho To Chau	Vietnamese	20-30
+Pho Hoa	Vietnamese	30-60
+Chez TJ	French	30-60
+Ginseng	Korean	10-20
+Totoro	Korean	20-30
+
+Final selection: SakoonUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

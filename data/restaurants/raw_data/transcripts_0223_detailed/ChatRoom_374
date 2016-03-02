@@ -1,0 +1,28 @@
+02-19-2016:16-24-37	9ee3beb3-600c-4304-b241-13c7e547f652	User 0	joined
+02-19-2016:16-24-38	9ee3beb3-600c-4304-b241-13c7e547f652	User 1	joined
+02-19-2016:16-24-54	9ee3beb3-600c-4304-b241-13c7e547f652	User 0	Lets try Hunana chili
+02-19-2016:16-24-56	9ee3beb3-600c-4304-b241-13c7e547f652	User 1	Id like Hunan Chili
+02-19-2016:16-24-57	9ee3beb3-600c-4304-b241-13c7e547f652	User 0	Hunan
+02-19-2016:16-24-58	9ee3beb3-600c-4304-b241-13c7e547f652	User 1	Selected restaurant:	Hunan Chili
+02-19-2016:16-25-02	9ee3beb3-600c-4304-b241-13c7e547f652	User 0	Selected restaurant:	Hunan Chili
+02-19-2016:16-25-02	---
+02-19-2016:16-25-02	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Mexican, Indian, Deli, SeaFood
+User 1 preferences: 0-10	Chinese, Indian, Mexican, Deli, SeaFood
+
+Hunan Chili	Chinese	30-60
+Drunken Lobster	SeaFood	10-20
+Shell Shock	SeaFood	10-20
+New Mongolian BBQ	Chinese	30-60
+Subway	Deli	10-20
+Posh Bagel	Deli	10-20
+Park Ballachi	Indian	0-10
+Kirin	Chinese	10-20
+Taqueria Los Charros	Mexican	0-10
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: Hunan ChiliUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

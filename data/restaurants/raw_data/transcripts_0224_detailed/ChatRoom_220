@@ -1,0 +1,30 @@
+02-24-2016:19-46-02	f076cf32-e40b-476b-8baf-b403f0b6d718	User 0	joined
+02-24-2016:19-46-02	f076cf32-e40b-476b-8baf-b403f0b6d718	User 0 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:19-46-02	f076cf32-e40b-476b-8baf-b403f0b6d718	User 1	joined
+02-24-2016:19-46-02	f076cf32-e40b-476b-8baf-b403f0b6d718	User 1 has user ID a5b28e4fd1bc4ac787293876fd1e7212
+02-24-2016:19-46-10	f076cf32-e40b-476b-8baf-b403f0b6d718	User 1	Chinese?
+02-24-2016:19-46-17	f076cf32-e40b-476b-8baf-b403f0b6d718	User 0	Queen House?
+02-24-2016:19-46-22	f076cf32-e40b-476b-8baf-b403f0b6d718	User 1	kay
+02-24-2016:19-46-24	f076cf32-e40b-476b-8baf-b403f0b6d718	User 0	Selected restaurant 5:	Queen House
+02-24-2016:19-46-25	f076cf32-e40b-476b-8baf-b403f0b6d718	User 1	Selected restaurant 5:	Queen House
+02-24-2016:19-46-25	---
+02-24-2016:19-46-25	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, Deli, Chinese, Spanish, Mediterranean
+User 1 preferences: 30-60	Chinese, Spanish, Mediterranean, Deli, Italian
+
+Subway	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Vaso Azzurro	Italian	20-30
+Fu Lam Mum	Chinese	30-60
+Posh Bagel	Deli	10-20
+Queen House	Chinese	0-10
+Doppio Zero	Italian	30-60
+Hunan Chili	Chinese	30-60
+Kirin	Chinese	10-20
+Mediterranean Grill House	Mediterranean	0-10
+
+Final selection: Queen HouseUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

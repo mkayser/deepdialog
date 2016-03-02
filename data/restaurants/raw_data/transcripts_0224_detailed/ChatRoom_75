@@ -1,0 +1,30 @@
+02-24-2016:19-39-16	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 1	joined
+02-24-2016:19-39-16	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 1 has user ID 1393e15d6fde46cb9f4502aa09ae8331
+02-24-2016:19-39-16	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 0	joined
+02-24-2016:19-39-16	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 0 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-39-22	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 1	American food?
+02-24-2016:19-39-46	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 0	how about Vietnamese
+02-24-2016:19-39-53	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 1	Sounds good
+02-24-2016:19-39-58	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 0	Selected restaurant 5:	Pho To Chau
+02-24-2016:19-39-59	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 1	Selected restaurant 5:	Pho To Chau
+02-24-2016:19-40-00	---
+02-24-2016:19-40-00	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Vietnamese, Japanese, Thai, Pizza, American
+User 1 preferences: 30-60	American, Vietnamese, Japanese, Pizza, Thai
+
+Bushido	Japanese	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Bierhaus	American	0-10
+Ryowa Noodle House	Japanese	20-30
+Scratch	American	0-10
+Pho To Chau	Vietnamese	20-30
+Amarin Thai Cuisine	Thai	20-30
+Shalala	Japanese	10-20
+Steins Beer Garden	American	20-30
+The Crepevine	American	30-60
+
+Final selection: Pho To ChauUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

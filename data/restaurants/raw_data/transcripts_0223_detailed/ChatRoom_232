@@ -1,0 +1,31 @@
+02-19-2016:16-03-30	7b57438f-6349-4362-a884-fd5bfa01de7b	User 1	joined
+02-19-2016:16-03-30	7b57438f-6349-4362-a884-fd5bfa01de7b	User 0	joined
+02-19-2016:16-03-37	7b57438f-6349-4362-a884-fd5bfa01de7b	User 0	Hi!
+02-19-2016:16-03-43	7b57438f-6349-4362-a884-fd5bfa01de7b	User 1	Hey, you feelin some French?  I'm in the mood for some snail!
+02-19-2016:16-03-44	7b57438f-6349-4362-a884-fd5bfa01de7b	User 0	What do you feel like eating today?
+02-19-2016:16-03-47	7b57438f-6349-4362-a884-fd5bfa01de7b	User 0	ROFLOL
+02-19-2016:16-03-55	7b57438f-6349-4362-a884-fd5bfa01de7b	User 0	Sure.  Chez TJ it is!
+02-19-2016:16-03-59	7b57438f-6349-4362-a884-fd5bfa01de7b	User 1	haha, great!  Thanks!
+02-19-2016:16-04-04	7b57438f-6349-4362-a884-fd5bfa01de7b	User 1	Selected restaurant:	Chez TJ
+02-19-2016:16-04-06	7b57438f-6349-4362-a884-fd5bfa01de7b	User 0	Selected restaurant:	Chez TJ
+02-19-2016:16-04-07	---
+02-19-2016:16-04-07	---
+
+Chat Information:
+
+User 0 preferences: 20-30	French, Vietnamese, Indian, SeaFood, Pizza
+User 1 preferences: 10-20	French, Indian, Pizza, SeaFood, Vietnamese
+
+Shell Shock	SeaFood	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Shezan	Indian	10-20
+Blue Line Pizza	Pizza	10-20
+Chez TJ	French	30-60
+Pho To Chau	Vietnamese	20-30
+Park Ballachi	Indian	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Sakoon	Indian	30-60
+Pho Hoa	Vietnamese	30-60
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

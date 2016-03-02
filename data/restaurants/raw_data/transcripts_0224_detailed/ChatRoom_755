@@ -1,0 +1,28 @@
+02-24-2016:20-07-32	8609103c-9952-42cf-9dec-e8dc9c6df596	User 1	joined
+02-24-2016:20-07-32	8609103c-9952-42cf-9dec-e8dc9c6df596	User 1 has user ID b2cb8075f5a04922b3896e3eaba43ce9
+02-24-2016:20-07-32	8609103c-9952-42cf-9dec-e8dc9c6df596	User 0	joined
+02-24-2016:20-07-32	8609103c-9952-42cf-9dec-e8dc9c6df596	User 0 has user ID 4c7802c2a0cd41d4af419f45cef3b8fa
+02-24-2016:20-07-37	8609103c-9952-42cf-9dec-e8dc9c6df596	User 0	Selected restaurant 4:	Casa Lupe Mexican Restaurant
+02-24-2016:20-07-39	8609103c-9952-42cf-9dec-e8dc9c6df596	User 1	Selected restaurant 7:	Steins Beer Garden
+02-24-2016:20-07-45	8609103c-9952-42cf-9dec-e8dc9c6df596	User 0	Selected restaurant 7:	Steins Beer Garden
+02-24-2016:20-07-45	---
+02-24-2016:20-07-46	---
+
+Chat Information:
+
+User 0 preferences: 30-60	American, Mexican, Vietnamese, Mediterranean, Thai
+User 1 preferences: 30-60	American, Mexican, Vietnamese, Mediterranean, Thai
+
+Pho To Chau	Vietnamese	20-30
+Asian Box	Vietnamese	30-60
+Morocco's	Mediterranean	10-20
+Pho Hoa	Vietnamese	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Bangkok Spoon	Thai	30-60
+Steins Beer Garden	American	20-30
+Xanh Restaurant	Vietnamese	10-20
+Bierhaus	American	0-10
+
+Final selection: Steins Beer GardenUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

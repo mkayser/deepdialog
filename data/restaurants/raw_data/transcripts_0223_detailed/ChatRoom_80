@@ -1,0 +1,28 @@
+02-19-2016:15-36-45	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 0	joined
+02-19-2016:15-36-48	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 1	joined
+02-19-2016:15-37-26	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 0	Morrocco's?
+02-19-2016:15-37-31	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 1	Lets eat at Oren's Hummus
+02-19-2016:15-37-38	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 0	okay sounds good
+02-19-2016:15-37-43	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 0	Selected restaurant:	Oren's Hummus
+02-19-2016:15-37-50	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 1	Selected restaurant:	Oren's Hummus
+02-19-2016:15-37-50	---
+02-19-2016:15-37-50	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Chinese, SeaFood, French, Spanish
+User 1 preferences: 0-10	Mediterranean, Chinese, Spanish, SeaFood, French
+
+Shell Shock	SeaFood	10-20
+Kirin	Chinese	10-20
+Chez TJ	French	30-60
+Oren's Hummus	Mediterranean	10-20
+Cascal	Spanish	30-60
+Hong Kong Bistro	Chinese	20-30
+Mediterranean Grill House	Mediterranean	0-10
+New Mongolian BBQ	Chinese	30-60
+Morocco's	Mediterranean	10-20
+Café Baklava	Mediterranean	10-20
+
+Final selection: Oren's HummusUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

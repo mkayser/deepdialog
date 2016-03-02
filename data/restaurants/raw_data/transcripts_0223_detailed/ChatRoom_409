@@ -1,0 +1,29 @@
+02-19-2016:16-28-25	f4b6cbbd-bfcb-47f3-824f-c79bff2fdbda	User 1	joined
+02-19-2016:16-28-28	f4b6cbbd-bfcb-47f3-824f-c79bff2fdbda	User 1	hey
+02-19-2016:16-28-28	f4b6cbbd-bfcb-47f3-824f-c79bff2fdbda	User 0	joined
+02-19-2016:16-28-41	f4b6cbbd-bfcb-47f3-824f-c79bff2fdbda	User 0	Hello
+02-19-2016:16-28-47	f4b6cbbd-bfcb-47f3-824f-c79bff2fdbda	User 1	mediterranean?
+02-19-2016:16-28-54	f4b6cbbd-bfcb-47f3-824f-c79bff2fdbda	User 1	Selected restaurant:	Oren's Hummus
+02-19-2016:16-28-57	f4b6cbbd-bfcb-47f3-824f-c79bff2fdbda	User 0	Sure'
+02-19-2016:16-29-01	f4b6cbbd-bfcb-47f3-824f-c79bff2fdbda	User 0	Selected restaurant:	Oren's Hummus
+02-19-2016:16-29-02	---
+02-19-2016:16-29-02	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, French, Pizza, American, Mediterranean
+User 1 preferences: 20-30	Mediterranean, Pizza, Deli, American, French
+
+Scratch	American	0-10
+Steins Beer Garden	American	20-30
+Ehpesus	Mediterranean	0-10
+Blue Line Pizza	Pizza	10-20
+Chez TJ	French	30-60
+Oren's Hummus	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Subway	Deli	10-20
+Posh Bagel	Deli	10-20
+The Crepevine	American	30-60
+
+Final selection: Oren's HummusUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

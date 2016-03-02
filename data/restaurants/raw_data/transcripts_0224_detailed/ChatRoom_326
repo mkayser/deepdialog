@@ -1,0 +1,30 @@
+02-24-2016:19-49-39	63be4c53-fef6-4174-a714-95aada004522	User 1	joined
+02-24-2016:19-49-39	63be4c53-fef6-4174-a714-95aada004522	User 1 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-49-42	63be4c53-fef6-4174-a714-95aada004522	User 0	joined
+02-24-2016:19-49-42	63be4c53-fef6-4174-a714-95aada004522	User 0 has user ID d3b7ef4428254d3ab7a0802bf5f803d2
+02-24-2016:19-49-58	63be4c53-fef6-4174-a714-95aada004522	User 0	taqueria?
+02-24-2016:19-50-04	63be4c53-fef6-4174-a714-95aada004522	User 1	Selected restaurant 3:	Sakoon
+02-24-2016:19-50-09	63be4c53-fef6-4174-a714-95aada004522	User 1	Selected restaurant 8:	Taqueria Los Charros
+02-24-2016:19-50-10	63be4c53-fef6-4174-a714-95aada004522	User 0	Selected restaurant 3:	Sakoon
+02-24-2016:19-50-16	63be4c53-fef6-4174-a714-95aada004522	User 0	Selected restaurant 8:	Taqueria Los Charros
+02-24-2016:19-50-17	---
+02-24-2016:19-50-17	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Mexican, American, Indian, Spanish
+User 1 preferences: 30-60	American, Italian, Indian, Mexican, Spanish
+
+Fiesta Del Mar Too	Mexican	10-20
+Agave	Mexican	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Sakoon	Indian	30-60
+Cascal	Spanish	30-60
+Bierhaus	American	0-10
+Scratch	American	0-10
+Shezan	Indian	10-20
+Taqueria Los Charros	Mexican	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Taqueria Los CharrosUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

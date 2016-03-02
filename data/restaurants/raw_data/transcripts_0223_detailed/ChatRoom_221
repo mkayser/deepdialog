@@ -1,0 +1,36 @@
+02-19-2016:16-02-02	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	joined
+02-19-2016:16-02-03	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 1	joined
+02-19-2016:16-02-13	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	Selected restaurant:	Doppio Zero
+02-19-2016:16-02-19	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 1	No dude.
+02-19-2016:16-02-24	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	Selected restaurant:	Hong Kong Bistro
+02-19-2016:16-02-26	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	Selected restaurant:	Vaso Azzurro
+02-19-2016:16-02-28	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	Selected restaurant:	Queen House
+02-19-2016:16-02-30	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	Selected restaurant:	Hunan Chili
+02-19-2016:16-02-31	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-02-33	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	Selected restaurant:	New Mongolian BBQ
+02-19-2016:16-02-34	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	Selected restaurant:	Subway
+02-19-2016:16-02-34	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 1	Selected restaurant:	Queen House
+02-19-2016:16-02-38	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	Selected restaurant:	Kirin
+02-19-2016:16-02-42	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 1	Youre indecisive
+02-19-2016:16-03-08	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 1	Selected restaurant:	Kirin
+02-19-2016:16-03-08	---
+02-19-2016:16-03-09	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Deli, Chinese, Italian, French
+User 1 preferences: 0-10	Spanish, French, Deli, Italian, Chinese
+
+Hong Kong Bistro	Chinese	20-30
+Vaso Azzurro	Italian	20-30
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Posh Bagel	Deli	10-20
+Subway	Deli	10-20
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Doppio Zero	Italian	30-60
+Chez TJ	French	30-60
+
+Final selection: KirinUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

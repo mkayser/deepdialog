@@ -1,0 +1,32 @@
+02-19-2016:16-24-41	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 0	joined
+02-19-2016:16-24-42	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 1	joined
+02-19-2016:16-24-44	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 0	hi
+02-19-2016:16-24-49	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 1	Hiya
+02-19-2016:16-24-58	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 0	korean?
+02-19-2016:16-25-03	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 1	I do like Korean girls
+02-19-2016:16-25-03	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 0	Selected restaurant:	Ginseng
+02-19-2016:16-25-09	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 0	how about ginseng
+02-19-2016:16-25-11	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 1	Selected restaurant:	Totoro
+02-19-2016:16-25-17	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 1	totoro looks better
+02-19-2016:16-25-20	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 0	Selected restaurant:	Totoro
+02-19-2016:16-25-21	---
+02-19-2016:16-25-21	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Italian, Korean, Mexican, Spanish, American
+User 1 preferences: 30-60	Italian, Korean, American, Spanish, Mexican
+
+Ristorante Don Giovanni	Italian	0-10
+Cascal	Spanish	30-60
+Taqueria Los Charros	Mexican	0-10
+Totoro	Korean	20-30
+Bierhaus	American	0-10
+Steins Beer Garden	American	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Vaso Azzurro	Italian	20-30
+Doppio Zero	Italian	30-60
+Ginseng	Korean	10-20
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

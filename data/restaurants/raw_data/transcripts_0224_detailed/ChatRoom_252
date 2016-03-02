@@ -1,0 +1,28 @@
+02-24-2016:19-47-16	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 1	joined
+02-24-2016:19-47-16	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 1 has user ID 7e2a61d4126442ffbe04457f7627eb3c
+02-24-2016:19-47-17	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 0	joined
+02-24-2016:19-47-17	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 0 has user ID 1c72f4728567475d8f76220880432e4e
+02-24-2016:19-47-31	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 0	Selected restaurant 4:	Subway
+02-24-2016:19-47-34	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 1	Deli?
+02-24-2016:19-47-35	c7a2125e-a35e-4de4-85c2-ef8e5572d3c8	User 1	Selected restaurant 4:	Subway
+02-24-2016:19-47-36	---
+02-24-2016:19-47-36	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Deli, Japanese, Mexican, Pizza
+User 1 preferences: 10-20	Deli, Japanese, Pizza, Mediterranean, Mexican
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Oren's Hummus	Mediterranean	10-20
+Maruichi Noodle House	Japanese	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Subway	Deli	10-20
+Morocco's	Mediterranean	10-20
+Niji Sushi	Japanese	10-20
+Ehpesus	Mediterranean	0-10
+Bushido	Japanese	10-20
+Taqueria Los Charros	Mexican	0-10
+
+Final selection: SubwayUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

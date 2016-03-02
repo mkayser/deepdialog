@@ -1,0 +1,28 @@
+02-19-2016:16-42-50	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 0	joined
+02-19-2016:16-42-52	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 1	joined
+02-19-2016:16-43-05	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 0	hi
+02-19-2016:16-43-06	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 0	pick any
+02-19-2016:16-43-09	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 1	Kirin
+02-19-2016:16-43-11	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 1	also hi
+02-19-2016:16-43-12	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 0	Selected restaurant:	Kirin
+02-19-2016:16-43-15	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 1	Selected restaurant:	Kirin
+02-19-2016:16-43-15	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Deli, Italian, Mediterranean, Chinese
+User 1 preferences: 0-10	Chinese, Mediterranean, Spanish, Deli, Italian
+
+Kirin	Chinese	10-20
+Doppio Zero	Italian	30-60
+Hong Kong Bistro	Chinese	20-30
+Morocco's	Mediterranean	10-20
+Hunan Chili	Chinese	30-60
+Posh Bagel	Deli	10-20
+Ristorante Don Giovanni	Italian	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Ehpesus	Mediterranean	0-10
+Oren's Hummus	Mediterranean	10-20
+
+Final selection: KirinUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

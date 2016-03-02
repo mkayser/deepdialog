@@ -1,0 +1,25 @@
+02-19-2016:16-53-39	f633d347-03ef-4e47-bd7e-a2e00dd12ca5	User 0	joined
+02-19-2016:16-53-41	f633d347-03ef-4e47-bd7e-a2e00dd12ca5	User 1	joined
+02-19-2016:16-53-46	f633d347-03ef-4e47-bd7e-a2e00dd12ca5	User 0	Selected restaurant:	Shezan
+02-19-2016:16-53-56	f633d347-03ef-4e47-bd7e-a2e00dd12ca5	User 1	Selected restaurant:	Shezan
+02-19-2016:16-53-56	---
+02-19-2016:16-53-56	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Mediterranean, French, SeaFood, Japanese
+User 1 preferences: 10-20	French, Indian, SeaFood, Mediterranean, Japanese
+
+Drunken Lobster	SeaFood	10-20
+Masa Sushi	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Shezan	Indian	10-20
+Shabuway	Japanese	30-60
+Rumble Fish	Japanese	30-60
+Ehpesus	Mediterranean	0-10
+Shell Shock	SeaFood	10-20
+Chez TJ	French	30-60
+Mediterranean Grill House	Mediterranean	0-10
+
+Final selection: ShezanUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

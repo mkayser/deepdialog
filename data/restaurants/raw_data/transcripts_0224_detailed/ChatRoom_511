@@ -1,0 +1,28 @@
+02-24-2016:19-54-31	5825b9fc-9ef8-49f6-98f2-7ad92882dc04	User 0	joined
+02-24-2016:19-54-31	5825b9fc-9ef8-49f6-98f2-7ad92882dc04	User 0 has user ID 757a79ba8ec34bbd8f4acc291696d015
+02-24-2016:19-54-31	5825b9fc-9ef8-49f6-98f2-7ad92882dc04	User 1	joined
+02-24-2016:19-54-31	5825b9fc-9ef8-49f6-98f2-7ad92882dc04	User 1 has user ID a686d289fea54d228398211bf4135821
+02-24-2016:19-54-42	5825b9fc-9ef8-49f6-98f2-7ad92882dc04	User 1	Selected restaurant 7:	Sakoon
+02-24-2016:19-54-48	5825b9fc-9ef8-49f6-98f2-7ad92882dc04	User 0	great
+02-24-2016:19-54-54	5825b9fc-9ef8-49f6-98f2-7ad92882dc04	User 0	Selected restaurant 7:	Sakoon
+02-24-2016:19-54-54	---
+02-24-2016:19-54-54	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Indian, Thai, Korean, French, Italian
+User 1 preferences: 30-60	Indian, French, Italian, Korean, Thai
+
+Shezan	Indian	10-20
+Amarin Thai Cuisine	Thai	20-30
+Park Ballachi	Indian	0-10
+Totoro	Korean	20-30
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Chez TJ	French	30-60
+Sakoon	Indian	30-60
+Bangkok Spoon	Thai	30-60
+Ginseng	Korean	10-20
+
+Final selection: SakoonUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

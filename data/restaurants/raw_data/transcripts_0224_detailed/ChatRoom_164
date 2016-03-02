@@ -1,0 +1,27 @@
+02-24-2016:19-43-55	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 1	joined
+02-24-2016:19-43-55	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 1 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-43-56	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 0	joined
+02-24-2016:19-43-56	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 0 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-44-10	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 0	Selected restaurant 3:	Shell Shock
+02-24-2016:19-44-19	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 1	Selected restaurant 3:	Shell Shock
+02-24-2016:19-44-20	---
+02-24-2016:19-44-20	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Mexican, Vietnamese, Mediterranean, French
+User 1 preferences: 30-60	Mediterranean, Mexican, Vietnamese, SeaFood, French
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Chez TJ	French	30-60
+Ehpesus	Mediterranean	0-10
+Shell Shock	SeaFood	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Agave	Mexican	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Morocco's	Mediterranean	10-20
+Oren's Hummus	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

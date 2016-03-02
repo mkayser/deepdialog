@@ -1,0 +1,29 @@
+02-19-2016:15-51-21	1e6af2e3-a36f-4639-8286-c5a22f8afc0a	User 1	joined
+02-19-2016:15-51-22	1e6af2e3-a36f-4639-8286-c5a22f8afc0a	User 0	joined
+02-19-2016:15-51-40	1e6af2e3-a36f-4639-8286-c5a22f8afc0a	User 0	Where should we go eat?
+02-19-2016:15-51-44	1e6af2e3-a36f-4639-8286-c5a22f8afc0a	User 1	How about Amici's East Coast Pizzeria or Ehpesus
+02-19-2016:15-52-16	1e6af2e3-a36f-4639-8286-c5a22f8afc0a	User 0	I'm feeling Amici's East Coast Pizzeria
+02-19-2016:15-52-19	1e6af2e3-a36f-4639-8286-c5a22f8afc0a	User 1	OK
+02-19-2016:15-52-23	1e6af2e3-a36f-4639-8286-c5a22f8afc0a	User 1	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:15-52-27	1e6af2e3-a36f-4639-8286-c5a22f8afc0a	User 0	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:15-52-27	---
+02-19-2016:15-52-27	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, Mediterranean, French, Mexican, Thai
+User 1 preferences: 0-10	Pizza, French, Mediterranean, Mexican, Thai
+
+Ehpesus	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+Agave	Mexican	20-30
+Morocco's	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Bangkok Spoon	Thai	30-60
+Café Baklava	Mediterranean	10-20
+Chez TJ	French	30-60
+Oren's Hummus	Mediterranean	10-20
+
+Final selection: Amici's East Coast PizzeriaUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

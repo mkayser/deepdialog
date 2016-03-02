@@ -1,0 +1,32 @@
+02-24-2016:19-52-57	5101c837-0b20-41ab-8820-3cc0a7fec37d	User 1	joined
+02-24-2016:19-52-57	5101c837-0b20-41ab-8820-3cc0a7fec37d	User 1 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:19-52-58	5101c837-0b20-41ab-8820-3cc0a7fec37d	User 0	joined
+02-24-2016:19-52-58	5101c837-0b20-41ab-8820-3cc0a7fec37d	User 0 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:19-53-01	---
+02-24-2016:19-53-04	5101c837-0b20-41ab-8820-3cc0a7fec37d	User 1	joined
+02-24-2016:19-53-04	5101c837-0b20-41ab-8820-3cc0a7fec37d	User 1 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:19-53-11	5101c837-0b20-41ab-8820-3cc0a7fec37d	User 0	I want to do Scratch.
+02-24-2016:19-53-15	5101c837-0b20-41ab-8820-3cc0a7fec37d	User 1	Ok
+02-24-2016:19-53-19	5101c837-0b20-41ab-8820-3cc0a7fec37d	User 0	Selected restaurant 2:	Scratch
+02-24-2016:19-53-19	5101c837-0b20-41ab-8820-3cc0a7fec37d	User 1	Selected restaurant 2:	Scratch
+02-24-2016:19-53-20	---
+02-24-2016:19-53-20	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, Chinese, Mexican, Indian, American
+User 1 preferences: 20-30	Chinese, Mexican, Indian, American, SeaFood
+
+Sakoon	Indian	30-60
+Shell Shock	SeaFood	10-20
+Scratch	American	0-10
+Agave	Mexican	20-30
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Fu Lam Mum	Chinese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Shezan	Indian	10-20
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: ScratchUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

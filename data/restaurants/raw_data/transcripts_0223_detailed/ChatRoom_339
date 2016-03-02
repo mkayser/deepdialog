@@ -1,0 +1,28 @@
+02-19-2016:16-19-32	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 0	joined
+02-19-2016:16-19-32	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 1	joined
+02-19-2016:16-19-39	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 0	I really would love to eat at Posh
+02-19-2016:16-19-44	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-19-48	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 1	bagel time
+02-19-2016:16-19-48	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 0	Sweet
+02-19-2016:16-19-51	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-19-51	---
+02-19-2016:16-19-51	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, American, Korean, Mediterranean, Spanish
+User 1 preferences: 20-30	Korean, Spanish, Deli, Mediterranean, American
+
+Cascal	Spanish	30-60
+Ginseng	Korean	10-20
+Morocco's	Mediterranean	10-20
+The Crepevine	American	30-60
+Ehpesus	Mediterranean	0-10
+Bierhaus	American	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Totoro	Korean	20-30
+Scratch	American	0-10
+Posh Bagel	Deli	10-20
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,28 @@
+02-24-2016:19-44-05	4d90042b-b263-47e9-95ba-972925c032c6	User 0	joined
+02-24-2016:19-44-05	4d90042b-b263-47e9-95ba-972925c032c6	User 0 has user ID fa5ef707d303408b8cf87b5b555c36cc
+02-24-2016:19-44-11	4d90042b-b263-47e9-95ba-972925c032c6	User 1	joined
+02-24-2016:19-44-11	4d90042b-b263-47e9-95ba-972925c032c6	User 1 has user ID 5d5bb4d599184ba786b986e87ff1077c
+02-24-2016:19-44-14	4d90042b-b263-47e9-95ba-972925c032c6	User 0	Selected restaurant 2:	Hong Kong Bistro
+02-24-2016:19-44-14	4d90042b-b263-47e9-95ba-972925c032c6	User 1	Selected restaurant 0:	Shell Shock
+02-24-2016:19-44-16	4d90042b-b263-47e9-95ba-972925c032c6	User 1	Selected restaurant 2:	Hong Kong Bistro
+02-24-2016:19-44-16	---
+02-24-2016:19-44-16	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Vietnamese, Indian, SeaFood, Chinese
+User 1 preferences: 0-10	SeaFood, Vietnamese, Chinese, Indian, Spanish
+
+Shell Shock	SeaFood	10-20
+Shezan	Indian	10-20
+Hong Kong Bistro	Chinese	20-30
+Queen House	Chinese	0-10
+Fu Lam Mum	Chinese	30-60
+Pho To Chau	Vietnamese	20-30
+New Mongolian BBQ	Chinese	30-60
+Park Ballachi	Indian	0-10
+Asian Box	Vietnamese	30-60
+Hunan Chili	Chinese	30-60
+
+Final selection: Hong Kong BistroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

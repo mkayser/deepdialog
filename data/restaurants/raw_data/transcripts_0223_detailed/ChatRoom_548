@@ -1,0 +1,29 @@
+02-19-2016:16-40-19	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	joined
+02-19-2016:16-40-22	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	joined
+02-19-2016:16-40-35	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	Hey, I like cheap Spanish or Italian
+02-19-2016:16-40-40	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	Hey!  I'd love to go to that Italian place
+02-19-2016:16-40-46	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	Rostorante Don
+02-19-2016:16-40-49	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-40-53	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	sounds good
+02-19-2016:16-40-53	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-40-53	---
+02-19-2016:16-40-54	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Italian, Vietnamese, Mediterranean, French
+User 1 preferences: 0-10	Mediterranean, Spanish, French, Italian, Vietnamese
+
+Ristorante Don Giovanni	Italian	0-10
+Oren's Hummus	Mediterranean	10-20
+Cascal	Spanish	30-60
+Pho To Chau	Vietnamese	20-30
+Pho Hoa	Vietnamese	30-60
+Morocco's	Mediterranean	10-20
+Doppio Zero	Italian	30-60
+Xanh Restaurant	Vietnamese	10-20
+Asian Box	Vietnamese	30-60
+Café Baklava	Mediterranean	10-20
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

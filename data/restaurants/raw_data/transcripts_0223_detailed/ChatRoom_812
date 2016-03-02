@@ -1,0 +1,27 @@
+02-19-2016:17-10-11	b48a9f5d-5e24-4bdd-9245-54daf733aa83	User 1	joined
+02-19-2016:17-10-11	b48a9f5d-5e24-4bdd-9245-54daf733aa83	User 0	joined
+02-19-2016:17-10-17	b48a9f5d-5e24-4bdd-9245-54daf733aa83	User 0	Could we have Fu Lam Mum?
+02-19-2016:17-10-20	b48a9f5d-5e24-4bdd-9245-54daf733aa83	User 0	It is the best
+02-19-2016:17-10-23	b48a9f5d-5e24-4bdd-9245-54daf733aa83	User 0	Selected restaurant:	Fu Lam Mum
+02-19-2016:17-10-25	b48a9f5d-5e24-4bdd-9245-54daf733aa83	User 1	Selected restaurant:	Fu Lam Mum
+02-19-2016:17-10-26	---
+02-19-2016:17-10-26	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Chinese, Japanese, Pizza, Korean, Indian
+User 1 preferences: 20-30	Pizza, Indian, Chinese, Korean, Japanese
+
+Sushitomi	Japanese	20-30
+Ryowa Noodle House	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Sakoon	Indian	30-60
+Fu Lam Mum	Chinese	30-60
+Park Ballachi	Indian	0-10
+Queen House	Chinese	0-10
+
+Final selection: Fu Lam MumUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,30 @@
+02-24-2016:19-59-38	53169880-8e87-46d1-ad6b-954184e217d8	User 1	joined
+02-24-2016:19-59-38	53169880-8e87-46d1-ad6b-954184e217d8	User 1 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:19-59-38	53169880-8e87-46d1-ad6b-954184e217d8	User 0	joined
+02-24-2016:19-59-38	53169880-8e87-46d1-ad6b-954184e217d8	User 0 has user ID 0aad6311afd54583be7b3db7575a384e
+02-24-2016:19-59-46	53169880-8e87-46d1-ad6b-954184e217d8	User 0	cascal?
+02-24-2016:19-59-53	53169880-8e87-46d1-ad6b-954184e217d8	User 1	Agave?
+02-24-2016:19-59-58	53169880-8e87-46d1-ad6b-954184e217d8	User 0	sure
+02-24-2016:20-00-01	53169880-8e87-46d1-ad6b-954184e217d8	User 0	Selected restaurant 5:	Agave
+02-24-2016:20-00-02	53169880-8e87-46d1-ad6b-954184e217d8	User 1	Selected restaurant 5:	Agave
+02-24-2016:20-00-02	---
+02-24-2016:20-00-02	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Spanish, Pizza, Korean, Mexican, Italian
+User 1 preferences: 30-60	Mexican, Spanish, Pizza, Korean, Italian
+
+Ristorante Don Giovanni	Italian	0-10
+Ginseng	Korean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Doppio Zero	Italian	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Agave	Mexican	20-30
+Totoro	Korean	20-30
+Cascal	Spanish	30-60
+Taqueria Los Charros	Mexican	0-10
+Blue Line Pizza	Pizza	10-20
+
+Final selection: AgaveUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

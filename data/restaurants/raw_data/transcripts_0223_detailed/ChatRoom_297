@@ -1,0 +1,32 @@
+02-19-2016:16-13-21	6dbfa9a4-56b8-45e2-8054-90c8d7b1044b	User 1	joined
+02-19-2016:16-13-22	6dbfa9a4-56b8-45e2-8054-90c8d7b1044b	User 0	joined
+02-19-2016:16-13-27	6dbfa9a4-56b8-45e2-8054-90c8d7b1044b	User 0	Hi
+02-19-2016:16-13-29	6dbfa9a4-56b8-45e2-8054-90c8d7b1044b	User 1	How about Drunken Lobster?
+02-19-2016:16-13-42	6dbfa9a4-56b8-45e2-8054-90c8d7b1044b	User 0	Sorry, I have seafood allergies.
+02-19-2016:16-14-05	6dbfa9a4-56b8-45e2-8054-90c8d7b1044b	User 1	Chez TJ?
+02-19-2016:16-14-10	6dbfa9a4-56b8-45e2-8054-90c8d7b1044b	User 0	Amici's would be my favorite, but I want something for both of us.
+02-19-2016:16-14-20	6dbfa9a4-56b8-45e2-8054-90c8d7b1044b	User 1	I can roll with Amici
+02-19-2016:16-14-24	6dbfa9a4-56b8-45e2-8054-90c8d7b1044b	User 1	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-14-25	6dbfa9a4-56b8-45e2-8054-90c8d7b1044b	User 0	Sounds great!
+02-19-2016:16-14-28	6dbfa9a4-56b8-45e2-8054-90c8d7b1044b	User 0	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-14-28	---
+02-19-2016:16-14-28	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Pizza, American, Mexican, SeaFood, French
+User 1 preferences: 10-20	French, SeaFood, Pizza, Mexican, American
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Taqueria Los Charros	Mexican	0-10
+Blue Line Pizza	Pizza	10-20
+Chez TJ	French	30-60
+Agave	Mexican	20-30
+Drunken Lobster	SeaFood	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Shell Shock	SeaFood	10-20
+Scratch	American	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Amici's East Coast PizzeriaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

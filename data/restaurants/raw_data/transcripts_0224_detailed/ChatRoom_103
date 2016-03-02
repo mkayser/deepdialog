@@ -1,0 +1,34 @@
+02-24-2016:19-40-51	426e3d23-895b-43c4-9018-5120258e559a	User 0	joined
+02-24-2016:19-40-51	426e3d23-895b-43c4-9018-5120258e559a	User 0 has user ID 9547d7e8f5874b66abcde179967688b1
+02-24-2016:19-40-52	426e3d23-895b-43c4-9018-5120258e559a	User 1	joined
+02-24-2016:19-40-52	426e3d23-895b-43c4-9018-5120258e559a	User 1 has user ID a5b28e4fd1bc4ac787293876fd1e7212
+02-24-2016:19-40-59	426e3d23-895b-43c4-9018-5120258e559a	User 1	Hey
+02-24-2016:19-41-03	426e3d23-895b-43c4-9018-5120258e559a	User 1	Chinese?
+02-24-2016:19-41-12	426e3d23-895b-43c4-9018-5120258e559a	User 1	Selected restaurant 4:	New Mongolian BBQ
+02-24-2016:19-41-15	426e3d23-895b-43c4-9018-5120258e559a	User 0	I think Hong kong bistro sounds good
+02-24-2016:19-41-21	426e3d23-895b-43c4-9018-5120258e559a	User 0	I like HK style chinese
+02-24-2016:19-41-26	426e3d23-895b-43c4-9018-5120258e559a	User 1	that works!
+02-24-2016:19-41-30	426e3d23-895b-43c4-9018-5120258e559a	User 0	Great!
+02-24-2016:19-41-31	426e3d23-895b-43c4-9018-5120258e559a	User 1	Selected restaurant 0:	Hong Kong Bistro
+02-24-2016:19-41-33	426e3d23-895b-43c4-9018-5120258e559a	User 0	Selected restaurant 0:	Hong Kong Bistro
+02-24-2016:19-41-33	---
+02-24-2016:19-41-33	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Korean, Chinese, Indian, Spanish
+User 1 preferences: 30-60	Chinese, Spanish, SeaFood, Indian, Korean
+
+Hong Kong Bistro	Chinese	20-30
+Shezan	Indian	10-20
+Kirin	Chinese	10-20
+Sakoon	Indian	30-60
+New Mongolian BBQ	Chinese	30-60
+Queen House	Chinese	0-10
+Hunan Chili	Chinese	30-60
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Hong Kong BistroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

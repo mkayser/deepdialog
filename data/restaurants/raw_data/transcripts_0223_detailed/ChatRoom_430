@@ -1,0 +1,32 @@
+02-19-2016:16-30-03	68bd6982-bc4d-4113-b81f-0ab9fc65c439	User 0	joined
+02-19-2016:16-30-04	68bd6982-bc4d-4113-b81f-0ab9fc65c439	User 1	joined
+02-19-2016:16-30-07	68bd6982-bc4d-4113-b81f-0ab9fc65c439	User 0	Pizza work for you?
+02-19-2016:16-30-18	68bd6982-bc4d-4113-b81f-0ab9fc65c439	User 1	ye si love italian
+02-19-2016:16-30-21	68bd6982-bc4d-4113-b81f-0ab9fc65c439	User 1	cheap ok 
+02-19-2016:16-30-27	68bd6982-bc4d-4113-b81f-0ab9fc65c439	User 1	im broke
+02-19-2016:16-30-35	68bd6982-bc4d-4113-b81f-0ab9fc65c439	User 1	mid cheap lol
+02-19-2016:16-30-40	68bd6982-bc4d-4113-b81f-0ab9fc65c439	User 1	Selected restaurant:	Shezan
+02-19-2016:16-30-50	68bd6982-bc4d-4113-b81f-0ab9fc65c439	User 0	Shezan works for me.
+02-19-2016:16-30-53	68bd6982-bc4d-4113-b81f-0ab9fc65c439	User 1	great
+02-19-2016:16-30-53	68bd6982-bc4d-4113-b81f-0ab9fc65c439	User 0	Selected restaurant:	Shezan
+02-19-2016:16-30-54	---
+02-19-2016:16-30-54	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Pizza, Indian, Vietnamese, Italian, American
+User 1 preferences: 10-20	Italian, American, Indian, Pizza, Vietnamese
+
+Vaso Azzurro	Italian	20-30
+Shezan	Indian	10-20
+Sakoon	Indian	30-60
+Bierhaus	American	0-10
+Doppio Zero	Italian	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Pho Hoa	Vietnamese	30-60
+The Crepevine	American	30-60
+Steins Beer Garden	American	20-30
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

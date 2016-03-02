@@ -1,0 +1,32 @@
+02-19-2016:16-51-31	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	joined
+02-19-2016:16-51-34	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	joined
+02-19-2016:16-51-37	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	Hungry?
+02-19-2016:16-51-45	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	Do you like Deli food?
+02-19-2016:16-51-45	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	I got two dollar signs man. Yeah I'm pretty hungry
+02-19-2016:16-51-50	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	I love deli food
+02-19-2016:16-52-01	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	cool - how about Posh Bagel?
+02-19-2016:16-52-09	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	Sounds great!
+02-19-2016:16-52-12	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-52-14	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	Cool! :)
+02-19-2016:16-52-17	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-52-17	---
+02-19-2016:16-52-17	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Chinese, Spanish, Indian, Mediterranean
+User 1 preferences: 10-20	Indian, Chinese, Deli, Mediterranean, Spanish
+
+Shezan	Indian	10-20
+Sakoon	Indian	30-60
+New Mongolian BBQ	Chinese	30-60
+Posh Bagel	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Morocco's	Mediterranean	10-20
+Park Ballachi	Indian	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Queen House	Chinese	0-10
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,28 @@
+02-24-2016:19-35-43	036a1073-f6c4-4364-adb9-abb3640d1552	User 0	joined
+02-24-2016:19-35-43	036a1073-f6c4-4364-adb9-abb3640d1552	User 0 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:19-35-46	036a1073-f6c4-4364-adb9-abb3640d1552	User 1	joined
+02-24-2016:19-35-46	036a1073-f6c4-4364-adb9-abb3640d1552	User 1 has user ID 75c434db8e144d9497add4d63035b3da
+02-24-2016:19-35-54	036a1073-f6c4-4364-adb9-abb3640d1552	User 0	Hi seafood?
+02-24-2016:19-36-27	036a1073-f6c4-4364-adb9-abb3640d1552	User 1	Selected restaurant 5:	Shell Shock
+02-24-2016:19-36-37	036a1073-f6c4-4364-adb9-abb3640d1552	User 0	Selected restaurant 5:	Shell Shock
+02-24-2016:19-36-38	---
+02-24-2016:19-36-38	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Pizza, Italian, Indian, American
+User 1 preferences: 10-20	Pizza, Italian, Indian, SeaFood, American
+
+Blue Line Pizza	Pizza	10-20
+Steins Beer Garden	American	20-30
+Vaso Azzurro	Italian	20-30
+Ristorante Don Giovanni	Italian	0-10
+Drunken Lobster	SeaFood	10-20
+Shell Shock	SeaFood	10-20
+The Crepevine	American	30-60
+Scratch	American	0-10
+Bierhaus	American	0-10
+Shezan	Indian	10-20
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

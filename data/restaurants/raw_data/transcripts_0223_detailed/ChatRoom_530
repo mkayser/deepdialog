@@ -1,0 +1,28 @@
+02-19-2016:16-38-43	b85bf985-6cc9-4607-a1cc-503517fe1726	User 1	joined
+02-19-2016:16-39-01	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0	joined
+02-19-2016:16-39-07	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0	Could we have Cascal?
+02-19-2016:16-39-09	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0	789
+02-19-2016:16-39-32	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0	Selected restaurant:	Cascal
+02-19-2016:16-39-42	b85bf985-6cc9-4607-a1cc-503517fe1726	User 1	Sure
+02-19-2016:16-39-46	b85bf985-6cc9-4607-a1cc-503517fe1726	User 1	Selected restaurant:	Cascal
+02-19-2016:16-39-47	---
+02-19-2016:16-39-47	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, Mediterranean, SeaFood, Vietnamese, French
+User 1 preferences: 0-10	Vietnamese, French, Mediterranean, SeaFood, Spanish
+
+Café Baklava	Mediterranean	10-20
+Pho To Chau	Vietnamese	20-30
+Oren's Hummus	Mediterranean	10-20
+Morocco's	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+Ehpesus	Mediterranean	0-10
+Cascal	Spanish	30-60
+Chez TJ	French	30-60
+
+Final selection: CascalUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

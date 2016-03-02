@@ -1,0 +1,27 @@
+02-19-2016:16-25-57	5b9df144-3e64-4fac-8147-9c301b35b600	User 1	joined
+02-19-2016:16-25-59	5b9df144-3e64-4fac-8147-9c301b35b600	User 0	joined
+02-19-2016:16-26-10	5b9df144-3e64-4fac-8147-9c301b35b600	User 1	You want some Mexican?
+02-19-2016:16-26-15	5b9df144-3e64-4fac-8147-9c301b35b600	User 1	Lets try Agave
+02-19-2016:16-26-21	5b9df144-3e64-4fac-8147-9c301b35b600	User 1	Selected restaurant:	Agave
+02-19-2016:16-26-28	5b9df144-3e64-4fac-8147-9c301b35b600	User 0	Selected restaurant:	Agave
+02-19-2016:16-26-28	---
+02-19-2016:16-26-29	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Mediterranean, Mexican, Deli, Italian
+User 1 preferences: 20-30	Mexican, Deli, Indian, Mediterranean, Italian
+
+Shezan	Indian	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Park Ballachi	Indian	0-10
+Subway	Deli	10-20
+Taqueria Los Charros	Mexican	0-10
+Ehpesus	Mediterranean	0-10
+Agave	Mexican	20-30
+Morocco's	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+
+Final selection: AgaveUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

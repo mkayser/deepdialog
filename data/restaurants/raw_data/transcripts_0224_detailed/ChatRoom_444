@@ -1,0 +1,32 @@
+02-24-2016:19-52-50	55b9c5e9-7812-4516-be22-f4bc73813b68	User 1	joined
+02-24-2016:19-52-50	55b9c5e9-7812-4516-be22-f4bc73813b68	User 1 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:19-52-52	55b9c5e9-7812-4516-be22-f4bc73813b68	User 0	joined
+02-24-2016:19-52-52	55b9c5e9-7812-4516-be22-f4bc73813b68	User 0 has user ID 0398c4f9eab24ba2b94f5ab59c5301b9
+02-24-2016:19-52-53	55b9c5e9-7812-4516-be22-f4bc73813b68	User 1	Hello.
+02-24-2016:19-52-57	55b9c5e9-7812-4516-be22-f4bc73813b68	User 0	hi
+02-24-2016:19-52-57	55b9c5e9-7812-4516-be22-f4bc73813b68	User 1	I'm in the mood for korean.
+02-24-2016:19-53-00	55b9c5e9-7812-4516-be22-f4bc73813b68	User 1	How about Totoro?
+02-24-2016:19-53-16	55b9c5e9-7812-4516-be22-f4bc73813b68	User 0	sure
+02-24-2016:19-53-17	55b9c5e9-7812-4516-be22-f4bc73813b68	User 1	Selected restaurant 1:	Totoro
+02-24-2016:19-53-19	55b9c5e9-7812-4516-be22-f4bc73813b68	User 0	Selected restaurant 1:	Totoro
+02-24-2016:19-53-19	---
+02-24-2016:19-53-20	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Spanish, Italian, Mexican, Korean
+User 1 preferences: 0-10	Korean, Spanish, Mexican, Indian, Italian
+
+Vaso Azzurro	Italian	20-30
+Totoro	Korean	20-30
+Agave	Mexican	20-30
+Shezan	Indian	10-20
+Sakoon	Indian	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Ristorante Don Giovanni	Italian	0-10
+Taqueria Los Charros	Mexican	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

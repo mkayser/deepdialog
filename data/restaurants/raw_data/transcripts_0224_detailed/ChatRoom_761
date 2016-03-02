@@ -1,0 +1,28 @@
+02-24-2016:20-08-16	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 0	joined
+02-24-2016:20-08-16	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 0 has user ID 6dc8794cd43543a283d457c40fd5be37
+02-24-2016:20-08-17	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 1	joined
+02-24-2016:20-08-17	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 1 has user ID 4c7802c2a0cd41d4af419f45cef3b8fa
+02-24-2016:20-08-20	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 1	Selected restaurant 2:	Masa Sushi
+02-24-2016:20-08-21	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 0	Selected restaurant 4:	Hunan Chili
+02-24-2016:20-08-25	45ce47b5-cd1a-4ec1-bc5a-5e7deac68deb	User 1	Selected restaurant 4:	Hunan Chili
+02-24-2016:20-08-25	---
+02-24-2016:20-08-25	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Chinese, Pizza, French, Japanese
+User 1 preferences: 30-60	French, Japanese, Pizza, Chinese, Spanish
+
+Maruichi Noodle House	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Ryowa Noodle House	Japanese	20-30
+Hunan Chili	Chinese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+New Mongolian BBQ	Chinese	30-60
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Hunan ChiliUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,30 @@
+02-19-2016:15-51-22	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1	joined
+02-19-2016:15-51-22	71a752e5-38d4-410f-8c90-d9c6b274b693	User 0	joined
+02-19-2016:15-51-27	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1	what do you have in mind?
+02-19-2016:15-51-31	71a752e5-38d4-410f-8c90-d9c6b274b693	User 0	Spanish or Deli?
+02-19-2016:15-51-56	71a752e5-38d4-410f-8c90-d9c6b274b693	User 0	Subway?  Does that work?
+02-19-2016:15-52-11	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1	Not a fan of Subway and theres no spanish place near by. would you like to try maruichi
+02-19-2016:15-52-22	71a752e5-38d4-410f-8c90-d9c6b274b693	User 0	Sure
+02-19-2016:15-52-28	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1	Selected restaurant:	Maruichi Noodle House
+02-19-2016:15-52-28	71a752e5-38d4-410f-8c90-d9c6b274b693	User 0	Selected restaurant:	Maruichi Noodle House
+02-19-2016:15-52-29	---
+02-19-2016:15-52-29	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Deli, SeaFood, Korean, Japanese
+User 1 preferences: 0-10	Japanese, Korean, Spanish, Deli, SeaFood
+
+Bushido	Japanese	10-20
+Niji Sushi	Japanese	10-20
+Totoro	Korean	20-30
+Subway	Deli	10-20
+Masa Sushi	Japanese	0-10
+Yakko	Japanese	0-10
+Shell Shock	SeaFood	10-20
+Shalala	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+
+Final selection: Maruichi Noodle HouseUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

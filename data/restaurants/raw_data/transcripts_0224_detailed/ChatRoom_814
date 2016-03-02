@@ -1,0 +1,33 @@
+02-24-2016:20-17-44	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 0	joined
+02-24-2016:20-17-44	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 0 has user ID 3e16de53a7d244e6925daac0a6f75e5a
+02-24-2016:20-17-46	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 1	joined
+02-24-2016:20-17-46	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 1 has user ID 636466e4c18f4aa0ab4ae2d4c678f8b3
+02-24-2016:20-17-52	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 1	Selected restaurant 0:	Shell Shock
+02-24-2016:20-18-00	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 0	Selected restaurant 3:	Posh Bagel
+02-24-2016:20-18-01	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 1	named after a new order song :D
+02-24-2016:20-18-12	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 1	nah they closed last week
+02-24-2016:20-18-22	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 0	How about subway
+02-24-2016:20-18-28	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 1	ew gross
+02-24-2016:20-18-44	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 0	pizza?
+02-24-2016:20-18-45	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 1	Selected restaurant 8:	Drunken Lobster
+02-24-2016:20-18-52	0e692405-a1e4-4fb4-8861-8f680b53ef1a	User 0	Selected restaurant 8:	Drunken Lobster
+02-24-2016:20-18-52	---
+02-24-2016:20-18-52	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Spanish, Pizza, Korean, SeaFood
+User 1 preferences: 10-20	SeaFood, Korean, Pizza, Deli, Spanish
+
+Shell Shock	SeaFood	10-20
+Cascal	Spanish	30-60
+Subway	Deli	10-20
+Posh Bagel	Deli	10-20
+Totoro	Korean	20-30
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Ginseng	Korean	10-20
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Drunken LobsterUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

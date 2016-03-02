@@ -1,0 +1,30 @@
+02-24-2016:19-51-00	8224a235-e449-483e-ba55-2a387650c283	User 0	joined
+02-24-2016:19-51-00	8224a235-e449-483e-ba55-2a387650c283	User 0 has user ID 1393e15d6fde46cb9f4502aa09ae8331
+02-24-2016:19-51-01	8224a235-e449-483e-ba55-2a387650c283	User 1	joined
+02-24-2016:19-51-01	8224a235-e449-483e-ba55-2a387650c283	User 1 has user ID 714726608fb04babba37ffb9e1d8f25d
+02-24-2016:19-51-06	8224a235-e449-483e-ba55-2a387650c283	User 0	Thai or pizza?
+02-24-2016:19-51-16	8224a235-e449-483e-ba55-2a387650c283	User 1	Selected restaurant 8:	Subway
+02-24-2016:19-51-19	8224a235-e449-483e-ba55-2a387650c283	User 1	um
+02-24-2016:19-51-28	8224a235-e449-483e-ba55-2a387650c283	User 1	thai
+02-24-2016:19-51-30	8224a235-e449-483e-ba55-2a387650c283	User 0	Selected restaurant 8:	Subway
+02-24-2016:19-51-30	---
+02-24-2016:19-51-30	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Thai, Pizza, French, Deli, Mexican
+User 1 preferences: 0-10	Deli, Thai, Pizza, Mexican, French
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Taqueria Los Charros	Mexican	0-10
+Agave	Mexican	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Bangkok Spoon	Thai	30-60
+Chez TJ	French	30-60
+Subway	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: SubwayUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

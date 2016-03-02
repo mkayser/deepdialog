@@ -1,0 +1,28 @@
+02-24-2016:19-45-53	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 0	joined
+02-24-2016:19-45-53	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 0 has user ID d44226f09679417e8a4fa2ffacbb4fa8
+02-24-2016:19-46-02	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 1	joined
+02-24-2016:19-46-02	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 1 has user ID a08eb0381f614efb81f21a4ed99a6912
+02-24-2016:19-46-04	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 0	how about some japanese?
+02-24-2016:19-46-07	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 0	Selected restaurant 0:	Kappo Naminami
+02-24-2016:19-46-14	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 1	Selected restaurant 0:	Kappo Naminami
+02-24-2016:19-46-14	---
+02-24-2016:19-46-16	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Japanese, Vietnamese, French, Deli, Korean
+User 1 preferences: 20-30	French, Deli, Korean, Japanese, Vietnamese
+
+Kappo Naminami	Japanese	30-60
+Pho To Chau	Vietnamese	20-30
+Pho Hoa	Vietnamese	30-60
+Bushido	Japanese	10-20
+Ginseng	Korean	10-20
+Maruichi Noodle House	Japanese	0-10
+Shabuway	Japanese	30-60
+Shalala	Japanese	10-20
+Chez TJ	French	30-60
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: Kappo NaminamiUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

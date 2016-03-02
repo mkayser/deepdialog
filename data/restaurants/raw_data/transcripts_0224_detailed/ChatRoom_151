@@ -1,0 +1,28 @@
+02-24-2016:19-43-16	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	joined
+02-24-2016:19-43-16	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-43-17	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0	joined
+02-24-2016:19-43-17	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0 has user ID d10616914a2d46829a3973b29463fd9f
+02-24-2016:19-43-21	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	Selected restaurant 3:	Amici's East Coast Pizzeria
+02-24-2016:19-43-23	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0	Selected restaurant 1:	New Mongolian BBQ
+02-24-2016:19-43-34	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	Selected restaurant 1:	New Mongolian BBQ
+02-24-2016:19-43-34	---
+02-24-2016:19-43-34	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Mediterranean, Japanese, Indian, Pizza
+User 1 preferences: 20-30	Pizza, Chinese, Japanese, Indian, Mediterranean
+
+Niji Sushi	Japanese	10-20
+New Mongolian BBQ	Chinese	30-60
+Morocco's	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Hong Kong Bistro	Chinese	20-30
+Shezan	Indian	10-20
+Oren's Hummus	Mediterranean	10-20
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Bushido	Japanese	10-20
+
+Final selection: New Mongolian BBQUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

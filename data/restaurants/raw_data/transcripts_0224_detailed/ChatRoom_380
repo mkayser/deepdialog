@@ -1,0 +1,30 @@
+02-24-2016:19-51-15	6f9036d5-1766-4162-b5a6-b032db00b731	User 0	joined
+02-24-2016:19-51-15	6f9036d5-1766-4162-b5a6-b032db00b731	User 0 has user ID 1185fb427e3d49c29548e288ddc13446
+02-24-2016:19-51-15	6f9036d5-1766-4162-b5a6-b032db00b731	User 1	joined
+02-24-2016:19-51-15	6f9036d5-1766-4162-b5a6-b032db00b731	User 1 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:19-51-27	6f9036d5-1766-4162-b5a6-b032db00b731	User 1	How about Sushitomi?
+02-24-2016:19-51-34	6f9036d5-1766-4162-b5a6-b032db00b731	User 0	Selected restaurant 0:	Sushitomi
+02-24-2016:19-51-35	6f9036d5-1766-4162-b5a6-b032db00b731	User 1	How about Sushitomi?Ok
+02-24-2016:19-51-36	6f9036d5-1766-4162-b5a6-b032db00b731	User 0	sounds good
+02-24-2016:19-51-42	6f9036d5-1766-4162-b5a6-b032db00b731	User 1	Selected restaurant 0:	Sushitomi
+02-24-2016:19-51-42	---
+02-24-2016:19-51-42	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Vietnamese, French, Mexican, Japanese
+User 1 preferences: 20-30	Japanese, Mediterranean, French, Mexican, Vietnamese
+
+Sushitomi	Japanese	20-30
+Kappo Naminami	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Taqueria Los Charros	Mexican	0-10
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Pho To Chau	Vietnamese	20-30
+Pho Hoa	Vietnamese	30-60
+Maruichi Noodle House	Japanese	0-10
+
+Final selection: SushitomiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

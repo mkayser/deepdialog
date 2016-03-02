@@ -1,0 +1,27 @@
+02-24-2016:19-59-55	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 0	joined
+02-24-2016:19-59-55	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 0 has user ID a5f49c8e73684a73afa11fd1a1cf8951
+02-24-2016:19-59-55	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 1	joined
+02-24-2016:19-59-55	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 1 has user ID 51628bb1c5814045b18d463cb43e3ae4
+02-24-2016:20-00-04	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 0	Selected restaurant 4:	Masa Sushi
+02-24-2016:20-00-13	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 1	Selected restaurant 4:	Masa Sushi
+02-24-2016:20-00-13	---
+02-24-2016:20-00-13	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Japanese, Spanish, Mexican, Korean, Italian
+User 1 preferences: 20-30	Japanese, Spanish, Mexican, Korean, Italian
+
+Bushido	Japanese	10-20
+Ryowa Noodle House	Japanese	20-30
+Rumble Fish	Japanese	30-60
+Sushitomi	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Ristorante Don Giovanni	Italian	0-10
+Ginseng	Korean	10-20
+Yakko	Japanese	0-10
+Vaso Azzurro	Italian	20-30
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: Masa SushiUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

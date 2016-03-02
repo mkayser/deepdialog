@@ -1,0 +1,34 @@
+02-24-2016:19-54-16	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 0	joined
+02-24-2016:19-54-16	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 0 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-54-16	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 1	joined
+02-24-2016:19-54-16	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 1 has user ID 395393f0c81d4f3fb75560e1c438dde9
+02-24-2016:19-54-27	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 1	Hi! How are you?
+02-24-2016:19-54-35	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 1	Like Italian?
+02-24-2016:19-54-40	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 0	Hell yeah
+02-24-2016:19-54-45	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 0	Selected restaurant 4:	Ristorante Don Giovanni
+02-24-2016:19-54-51	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 1	Cool...want to pick that?
+02-24-2016:19-54-52	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 1	TY
+02-24-2016:19-54-54	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 0	I'm great btw, thanks for asking
+02-24-2016:19-55-04	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 1	Lag...sorry. Nice to meet you
+02-24-2016:19-55-08	360a1c44-d925-4ae7-b502-6815b7ec8f9e	User 1	Selected restaurant 4:	Ristorante Don Giovanni
+02-24-2016:19-55-09	---
+02-24-2016:19-55-09	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Korean, Italian, Japanese, Deli, Thai
+User 1 preferences: 10-20	Thai, Deli, Korean, Japanese, Italian
+
+Masa Sushi	Japanese	0-10
+Amarin Thai Cuisine	Thai	20-30
+Yakko	Japanese	0-10
+Ginseng	Korean	10-20
+Ristorante Don Giovanni	Italian	0-10
+Totoro	Korean	20-30
+Rumble Fish	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+Bangkok Spoon	Thai	30-60
+Shabuway	Japanese	30-60
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

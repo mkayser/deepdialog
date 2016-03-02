@@ -1,0 +1,28 @@
+02-19-2016:16-07-09	2b057132-9dca-478f-8baa-7afb0236dbc5	User 0	joined
+02-19-2016:16-07-09	2b057132-9dca-478f-8baa-7afb0236dbc5	User 1	joined
+02-19-2016:16-07-22	2b057132-9dca-478f-8baa-7afb0236dbc5	User 1	I like Korean, you?
+02-19-2016:16-07-22	2b057132-9dca-478f-8baa-7afb0236dbc5	User 0	You like american food?
+02-19-2016:16-07-36	2b057132-9dca-478f-8baa-7afb0236dbc5	User 0	Totoro works.
+02-19-2016:16-07-43	2b057132-9dca-478f-8baa-7afb0236dbc5	User 1	Selected restaurant:	Totoro
+02-19-2016:16-07-46	2b057132-9dca-478f-8baa-7afb0236dbc5	User 0	Selected restaurant:	Totoro
+02-19-2016:16-07-46	---
+02-19-2016:16-07-46	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Deli, American, Chinese, Korean, Pizza
+User 1 preferences: 20-30	Korean, Pizza, American, Deli, Chinese
+
+Subway	Deli	10-20
+New Mongolian BBQ	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Ginseng	Korean	10-20
+Steins Beer Garden	American	20-30
+Posh Bagel	Deli	10-20
+Hong Kong Bistro	Chinese	20-30
+Totoro	Korean	20-30
+Kirin	Chinese	10-20
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

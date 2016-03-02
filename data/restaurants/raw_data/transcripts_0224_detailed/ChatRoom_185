@@ -1,0 +1,29 @@
+02-24-2016:19-44-55	46c9d6f6-80e5-4d9c-a5b4-c71330d4e1cb	User 0	joined
+02-24-2016:19-44-55	46c9d6f6-80e5-4d9c-a5b4-c71330d4e1cb	User 0 has user ID 1393e15d6fde46cb9f4502aa09ae8331
+02-24-2016:19-44-56	46c9d6f6-80e5-4d9c-a5b4-c71330d4e1cb	User 1	joined
+02-24-2016:19-44-56	46c9d6f6-80e5-4d9c-a5b4-c71330d4e1cb	User 1 has user ID 1e64b000bb644aa396f0bfdef8dc61c0
+02-24-2016:19-45-01	46c9d6f6-80e5-4d9c-a5b4-c71330d4e1cb	User 0	Mexican?
+02-24-2016:19-45-12	46c9d6f6-80e5-4d9c-a5b4-c71330d4e1cb	User 1	Selected restaurant 5:	Agave
+02-24-2016:19-45-17	46c9d6f6-80e5-4d9c-a5b4-c71330d4e1cb	User 1	ok
+02-24-2016:19-45-18	46c9d6f6-80e5-4d9c-a5b4-c71330d4e1cb	User 0	Selected restaurant 5:	Agave
+02-24-2016:19-45-19	---
+02-24-2016:19-45-19	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mexican, Thai, Mediterranean, SeaFood, Korean
+User 1 preferences: 20-30	Mediterranean, Thai, Mexican, Korean, SeaFood
+
+Totoro	Korean	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Ginseng	Korean	10-20
+Morocco's	Mediterranean	10-20
+Bangkok Spoon	Thai	30-60
+Agave	Mexican	20-30
+Taqueria Los Charros	Mexican	0-10
+Café Baklava	Mediterranean	10-20
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+
+Final selection: AgaveUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-24-2016:19-51-43	d38962e0-9efa-43a5-8d3e-75624d8ef331	User 1	joined
+02-24-2016:19-51-43	d38962e0-9efa-43a5-8d3e-75624d8ef331	User 1 has user ID 1e7d23c916b7426aa7356a7313658cdf
+02-24-2016:19-51-44	d38962e0-9efa-43a5-8d3e-75624d8ef331	User 0	joined
+02-24-2016:19-51-44	d38962e0-9efa-43a5-8d3e-75624d8ef331	User 0 has user ID 6146510ec3fb49a1badc09978fbcc832
+02-24-2016:19-51-50	d38962e0-9efa-43a5-8d3e-75624d8ef331	User 0	Selected restaurant 0:	Rumble Fish
+02-24-2016:19-51-55	d38962e0-9efa-43a5-8d3e-75624d8ef331	User 1	Selected restaurant 0:	Rumble Fish
+02-24-2016:19-51-55	---
+02-24-2016:19-51-55	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Japanese, Mexican, American, Mediterranean, Italian
+User 1 preferences: 30-60	Mediterranean, American, Mexican, Japanese, Italian
+
+Rumble Fish	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+Agave	Mexican	20-30
+Doppio Zero	Italian	30-60
+Ehpesus	Mediterranean	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+Kappo Naminami	Japanese	30-60
+Bushido	Japanese	10-20
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: Rumble FishUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

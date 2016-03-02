@@ -1,0 +1,30 @@
+02-19-2016:17-02-15	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 1	joined
+02-19-2016:17-02-19	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 0	joined
+02-19-2016:17-02-22	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 1	Coud we have Chinses for dinner?
+02-19-2016:17-02-26	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 0	sure
+02-19-2016:17-02-29	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 1	Hunan?
+02-19-2016:17-02-30	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 0	Selected restaurant:	New Mongolian BBQ
+02-19-2016:17-02-33	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 0	Selected restaurant:	Hunan Chili
+02-19-2016:17-02-33	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 1	Ok 
+02-19-2016:17-02-37	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 1	Selected restaurant:	Hunan Chili
+02-19-2016:17-02-37	---
+02-19-2016:17-02-37	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Indian, Chinese, American, Mexican
+User 1 preferences: 0-10	Chinese, Italian, Mexican, American, Indian
+
+New Mongolian BBQ	Chinese	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Sakoon	Indian	30-60
+Agave	Mexican	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Shezan	Indian	10-20
+Bierhaus	American	0-10
+Hunan Chili	Chinese	30-60
+The Crepevine	American	30-60
+Vaso Azzurro	Italian	20-30
+
+Final selection: Hunan ChiliUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,30 @@
+02-19-2016:16-44-50	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	joined
+02-19-2016:16-44-50	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	joined
+02-19-2016:16-45-01	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	Hi
+02-19-2016:16-45-05	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	Chez TJ for a budget?
+02-19-2016:16-45-15	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	Too pricey, how about Posh Bagel
+02-19-2016:16-45-24	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	Posh it is.
+02-19-2016:16-45-29	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	Super
+02-19-2016:16-45-31	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-45-34	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-45-34	---
+02-19-2016:16-45-35	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Thai, Vietnamese, Deli, Spanish, French
+User 1 preferences: 0-10	Spanish, Deli, Vietnamese, Thai, French
+
+Pho To Chau	Vietnamese	20-30
+Cascal	Spanish	30-60
+Subway	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+Chez TJ	French	30-60
+Xanh Restaurant	Vietnamese	10-20
+Posh Bagel	Deli	10-20
+Asian Box	Vietnamese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Bangkok Spoon	Thai	30-60
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

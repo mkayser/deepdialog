@@ -1,0 +1,27 @@
+02-24-2016:20-04-21	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	joined
+02-24-2016:20-04-21	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:20-04-22	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 1	joined
+02-24-2016:20-04-22	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 1 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:20-04-28	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	Selected restaurant 6:	Fu Lam Mum
+02-24-2016:20-04-36	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 1	Selected restaurant 6:	Fu Lam Mum
+02-24-2016:20-04-36	---
+02-24-2016:20-04-36	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, American, French, Mediterranean, Korean
+User 1 preferences: 10-20	American, Korean, French, Chinese, Mediterranean
+
+Totoro	Korean	20-30
+Kirin	Chinese	10-20
+Ginseng	Korean	10-20
+Hong Kong Bistro	Chinese	20-30
+Steins Beer Garden	American	20-30
+Scratch	American	0-10
+Fu Lam Mum	Chinese	30-60
+Bierhaus	American	0-10
+Mediterranean Grill House	Mediterranean	0-10
+The Crepevine	American	30-60
+
+Final selection: Fu Lam MumUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

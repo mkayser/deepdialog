@@ -1,0 +1,28 @@
+02-19-2016:15-43-54	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 1	joined
+02-19-2016:15-43-54	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 0	joined
+02-19-2016:15-44-10	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 1	Let's go to Chez TJ
+02-19-2016:15-44-23	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 0	How about Ehpesus instead?
+02-19-2016:15-44-33	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 1	Sure why not? 
+02-19-2016:15-44-35	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 0	Selected restaurant:	Ehpesus
+02-19-2016:15-44-38	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 1	Selected restaurant:	Ehpesus
+02-19-2016:15-44-39	---
+02-19-2016:15-44-39	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Italian, Deli, Spanish, Mediterranean, French
+User 1 preferences: 20-30	French, Deli, Italian, Spanish, Mediterranean
+
+Ehpesus	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Chez TJ	French	30-60
+Posh Bagel	Deli	10-20
+Ristorante Don Giovanni	Italian	0-10
+Cascal	Spanish	30-60
+Oren's Hummus	Mediterranean	10-20
+Café Baklava	Mediterranean	10-20
+Vaso Azzurro	Italian	20-30
+
+Final selection: EhpesusUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

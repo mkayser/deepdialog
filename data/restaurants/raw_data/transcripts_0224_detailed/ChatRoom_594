@@ -1,0 +1,30 @@
+02-24-2016:19-58-47	c825cb27-da13-45c8-8e12-6dacb8416b70	User 0	joined
+02-24-2016:19-58-47	c825cb27-da13-45c8-8e12-6dacb8416b70	User 0 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-58-48	c825cb27-da13-45c8-8e12-6dacb8416b70	User 1	joined
+02-24-2016:19-58-48	c825cb27-da13-45c8-8e12-6dacb8416b70	User 1 has user ID 0aad6311afd54583be7b3db7575a384e
+02-24-2016:19-58-55	c825cb27-da13-45c8-8e12-6dacb8416b70	User 1	subway?
+02-24-2016:19-58-56	c825cb27-da13-45c8-8e12-6dacb8416b70	User 0	Japanese food?
+02-24-2016:19-59-07	c825cb27-da13-45c8-8e12-6dacb8416b70	User 1	sure
+02-24-2016:19-59-13	c825cb27-da13-45c8-8e12-6dacb8416b70	User 0	Selected restaurant 3:	Sushitomi
+02-24-2016:19-59-16	c825cb27-da13-45c8-8e12-6dacb8416b70	User 1	Selected restaurant 3:	Sushitomi
+02-24-2016:19-59-16	---
+02-24-2016:19-59-16	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, Japanese, Mediterranean, Deli, American
+User 1 preferences: 0-10	Deli, Japanese, Pizza, American, Mediterranean
+
+Subway	Deli	10-20
+Posh Bagel	Deli	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Sushitomi	Japanese	20-30
+Shabuway	Japanese	30-60
+Oren's Hummus	Mediterranean	10-20
+Steins Beer Garden	American	20-30
+Niji Sushi	Japanese	10-20
+Bierhaus	American	0-10
+Maruichi Noodle House	Japanese	0-10
+
+Final selection: SushitomiUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

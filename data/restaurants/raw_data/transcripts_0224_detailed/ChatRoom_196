@@ -1,0 +1,33 @@
+02-24-2016:19-45-17	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0	joined
+02-24-2016:19-45-17	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-45-17	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1	joined
+02-24-2016:19-45-17	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1 has user ID 075889b8ff3749148bd3444bc217e2bb
+02-24-2016:19-45-25	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0	I'm dying for some spanish food
+02-24-2016:19-45-29	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0	How about Cascal?
+02-24-2016:19-45-46	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0	I could also get down with cheap mexican if that's more your style
+02-24-2016:19-45-49	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1	Gross. How about mexican? 
+02-24-2016:19-45-52	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1	Yeah!
+02-24-2016:19-45-53	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0	yeah!
+02-24-2016:19-45-56	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1	Selected restaurant 5:	Taqueria Los Charros
+02-24-2016:19-45-57	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0	Selected restaurant 5:	Taqueria Los Charros
+02-24-2016:19-45-58	---
+02-24-2016:19-45-58	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Mexican, French, SeaFood, Chinese
+User 1 preferences: 0-10	Mexican, French, Chinese, SeaFood, Spanish
+
+Drunken Lobster	SeaFood	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Cascal	Spanish	30-60
+Kirin	Chinese	10-20
+Shell Shock	SeaFood	10-20
+Taqueria Los Charros	Mexican	0-10
+New Mongolian BBQ	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Chez TJ	French	30-60
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

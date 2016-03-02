@@ -1,0 +1,27 @@
+02-24-2016:19-52-25	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1	joined
+02-24-2016:19-52-25	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1 has user ID 78b3350e8981423db6314ab4f742d355
+02-24-2016:19-52-30	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0	joined
+02-24-2016:19-52-30	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0 has user ID 32b396a234f9471cb66c6a2793ad04f7
+02-24-2016:19-52-32	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0	Selected restaurant 5:	Shezan
+02-24-2016:19-52-41	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1	Selected restaurant 5:	Shezan
+02-24-2016:19-52-41	---
+02-24-2016:19-52-41	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Pizza, Korean, Deli, Vietnamese, Indian
+User 1 preferences: 0-10	Indian, Vietnamese, Deli, Korean, Pizza
+
+Xanh Restaurant	Vietnamese	10-20
+Subway	Deli	10-20
+Ginseng	Korean	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Asian Box	Vietnamese	30-60
+Shezan	Indian	10-20
+Pho To Chau	Vietnamese	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Posh Bagel	Deli	10-20
+Park Ballachi	Indian	0-10
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

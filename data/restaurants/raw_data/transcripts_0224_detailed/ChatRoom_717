@@ -1,0 +1,31 @@
+02-24-2016:20-05-08	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 1	joined
+02-24-2016:20-05-08	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 1 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:20-05-09	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 0	joined
+02-24-2016:20-05-09	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 0 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:20-05-15	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 0	I'd like some deli.
+02-24-2016:20-05-16	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 0	Maybe Posh?
+02-24-2016:20-05-17	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 1	SUBWAY
+02-24-2016:20-05-21	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 0	Selected restaurant 2:	Subway
+02-24-2016:20-05-25	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 0	sure
+02-24-2016:20-05-30	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 1	Selected restaurant 2:	Subway
+02-24-2016:20-05-30	---
+02-24-2016:20-05-31	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Thai, American, Mexican, Korean
+User 1 preferences: 0-10	Thai, Deli, Korean, American, Mexican
+
+Taqueria Los Charros	Mexican	0-10
+Bierhaus	American	0-10
+Subway	Deli	10-20
+Scratch	American	0-10
+Posh Bagel	Deli	10-20
+Totoro	Korean	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Agave	Mexican	20-30
+The Crepevine	American	30-60
+
+Final selection: SubwayUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

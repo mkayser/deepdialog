@@ -1,0 +1,32 @@
+02-19-2016:15-33-42	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	joined
+02-19-2016:15-33-44	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1	joined
+02-19-2016:15-33-53	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1	hello
+02-19-2016:15-33-57	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	hi!
+02-19-2016:15-34-07	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1	hows it going
+02-19-2016:15-34-18	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	good
+02-19-2016:15-34-30	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	I'd like to eat at a very nice restaurant
+02-19-2016:15-34-31	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1	Okay hunny we are eating at shezan and thats final
+02-19-2016:15-34-48	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	okay
+02-19-2016:15-34-52	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	Selected restaurant:	Shezan
+02-19-2016:15-34-54	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1	Selected restaurant:	Shezan
+02-19-2016:15-34-55	---
+02-19-2016:15-34-55	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Deli, Mediterranean, Indian, Vietnamese, Spanish
+User 1 preferences: 30-60	Indian, Mediterranean, Vietnamese, Deli, Spanish
+
+Asian Box	Vietnamese	30-60
+Subway	Deli	10-20
+Xanh Restaurant	Vietnamese	10-20
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+Pho To Chau	Vietnamese	20-30
+Ehpesus	Mediterranean	0-10
+Shezan	Indian	10-20
+Posh Bagel	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

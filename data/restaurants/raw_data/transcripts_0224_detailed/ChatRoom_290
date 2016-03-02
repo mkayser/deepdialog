@@ -1,0 +1,27 @@
+02-24-2016:19-48-28	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 0	joined
+02-24-2016:19-48-28	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 0 has user ID 5c22bcff0d4c4412aa5162fdd54286d8
+02-24-2016:19-48-28	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 1	joined
+02-24-2016:19-48-28	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 1 has user ID fd6adc76ca994bd79a4054960194f86e
+02-24-2016:19-48-38	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 0	Selected restaurant 7:	Vaso Azzurro
+02-24-2016:19-48-47	9362fc7c-250c-43fd-9dc3-f1d992a3cdba	User 1	Selected restaurant 7:	Vaso Azzurro
+02-24-2016:19-48-47	---
+02-24-2016:19-48-47	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Italian, Korean, Mexican, Spanish, American
+User 1 preferences: 30-60	Italian, Korean, American, Spanish, Mexican
+
+Ristorante Don Giovanni	Italian	0-10
+Cascal	Spanish	30-60
+Taqueria Los Charros	Mexican	0-10
+Totoro	Korean	20-30
+Bierhaus	American	0-10
+Steins Beer Garden	American	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Vaso Azzurro	Italian	20-30
+Doppio Zero	Italian	30-60
+Ginseng	Korean	10-20
+
+Final selection: Vaso AzzurroUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

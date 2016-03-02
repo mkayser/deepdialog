@@ -1,0 +1,29 @@
+02-19-2016:16-19-32	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 0	joined
+02-19-2016:16-19-38	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 1	joined
+02-19-2016:16-19-39	---
+02-19-2016:16-19-43	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 1	joined
+02-19-2016:16-19-53	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 1	Chez TJ?
+02-19-2016:16-20-02	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 1	I feel fancy.
+02-19-2016:16-20-11	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 1	Selected restaurant:	Chez TJ
+02-19-2016:16-20-16	---
+02-19-2016:16-20-26	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 0	Selected restaurant:	Chez TJ
+02-19-2016:16-20-27	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Mediterranean, French, Vietnamese, Italian
+User 1 preferences: 30-60	Indian, Italian, Mediterranean, Vietnamese, French
+
+Sakoon	Indian	30-60
+Asian Box	Vietnamese	30-60
+Vaso Azzurro	Italian	20-30
+Oren's Hummus	Mediterranean	10-20
+Chez TJ	French	30-60
+Shezan	Indian	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Doppio Zero	Italian	30-60
+Morocco's	Mediterranean	10-20
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

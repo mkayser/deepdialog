@@ -1,0 +1,28 @@
+02-19-2016:15-48-18	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 1	joined
+02-19-2016:15-48-21	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 0	joined
+02-19-2016:15-48-28	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 1	How about Taqueria Los Charros?
+02-19-2016:15-49-01	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 0	That sounds perfect, actually!
+02-19-2016:15-49-05	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 1	yay! 
+02-19-2016:15-49-08	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 1	Selected restaurant:	Taqueria Los Charros
+02-19-2016:15-49-14	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 0	Selected restaurant:	Taqueria Los Charros
+02-19-2016:15-49-14	---
+02-19-2016:15-49-15	---
+
+Chat Information:
+
+User 0 preferences: 0-10	American, Indian, Vietnamese, Mexican, Korean
+User 1 preferences: 0-10	Vietnamese, Korean, Mexican, Indian, American
+
+Ginseng	Korean	10-20
+Taqueria Los Charros	Mexican	0-10
+Park Ballachi	Indian	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Asian Box	Vietnamese	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Pho Hoa	Vietnamese	30-60
+Bierhaus	American	0-10
+Sakoon	Indian	30-60
+Shezan	Indian	10-20
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

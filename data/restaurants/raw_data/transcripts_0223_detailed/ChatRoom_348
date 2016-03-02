@@ -1,0 +1,36 @@
+02-19-2016:16-20-32	63be4c53-fef6-4174-a714-95aada004522	User 0	joined
+02-19-2016:16-20-33	63be4c53-fef6-4174-a714-95aada004522	User 1	joined
+02-19-2016:16-20-37	63be4c53-fef6-4174-a714-95aada004522	User 0	Hi
+02-19-2016:16-20-47	63be4c53-fef6-4174-a714-95aada004522	User 1	I'm hungry
+02-19-2016:16-20-51	63be4c53-fef6-4174-a714-95aada004522	User 1	what shall we eat
+02-19-2016:16-20-54	63be4c53-fef6-4174-a714-95aada004522	User 0	Let's get Mexican
+02-19-2016:16-21-03	63be4c53-fef6-4174-a714-95aada004522	User 1	ugh i hate Mexican
+02-19-2016:16-21-10	63be4c53-fef6-4174-a714-95aada004522	User 1	how about italian?
+02-19-2016:16-21-24	63be4c53-fef6-4174-a714-95aada004522	User 0	I like italian but it isn't a choice
+02-19-2016:16-21-27	63be4c53-fef6-4174-a714-95aada004522	User 1	oh darn
+02-19-2016:16-21-32	63be4c53-fef6-4174-a714-95aada004522	User 1	American?
+02-19-2016:16-21-37	63be4c53-fef6-4174-a714-95aada004522	User 0	Yeah, that works
+02-19-2016:16-21-44	63be4c53-fef6-4174-a714-95aada004522	User 1	Selected restaurant:	Bierhaus
+02-19-2016:16-21-47	63be4c53-fef6-4174-a714-95aada004522	User 0	Bierhaus?
+02-19-2016:16-21-53	63be4c53-fef6-4174-a714-95aada004522	User 0	Selected restaurant:	Bierhaus
+02-19-2016:16-21-53	---
+02-19-2016:16-21-53	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Mexican, American, Indian, Spanish
+User 1 preferences: 30-60	American, Italian, Indian, Mexican, Spanish
+
+Fiesta Del Mar Too	Mexican	10-20
+Agave	Mexican	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Sakoon	Indian	30-60
+Cascal	Spanish	30-60
+Bierhaus	American	0-10
+Scratch	American	0-10
+Shezan	Indian	10-20
+Taqueria Los Charros	Mexican	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: BierhausUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

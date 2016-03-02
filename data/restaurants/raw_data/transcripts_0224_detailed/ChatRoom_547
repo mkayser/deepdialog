@@ -1,0 +1,28 @@
+02-24-2016:19-56-25	e91f8e8b-9efd-4133-ace8-eb7cbf42d87b	User 0	joined
+02-24-2016:19-56-25	e91f8e8b-9efd-4133-ace8-eb7cbf42d87b	User 0 has user ID a5f49c8e73684a73afa11fd1a1cf8951
+02-24-2016:19-56-27	e91f8e8b-9efd-4133-ace8-eb7cbf42d87b	User 1	joined
+02-24-2016:19-56-27	e91f8e8b-9efd-4133-ace8-eb7cbf42d87b	User 1 has user ID 1e7d23c916b7426aa7356a7313658cdf
+02-24-2016:19-56-30	e91f8e8b-9efd-4133-ace8-eb7cbf42d87b	User 1	Hey
+02-24-2016:19-56-30	e91f8e8b-9efd-4133-ace8-eb7cbf42d87b	User 0	Selected restaurant 3:	Amici's East Coast Pizzeria
+02-24-2016:19-56-33	e91f8e8b-9efd-4133-ace8-eb7cbf42d87b	User 1	Selected restaurant 3:	Amici's East Coast Pizzeria
+02-24-2016:19-56-34	---
+02-24-2016:19-56-34	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Pizza, American, Mexican, Indian, Italian
+User 1 preferences: 10-20	Pizza, Italian, American, Indian, Mexican
+
+Scratch	American	0-10
+Sakoon	Indian	30-60
+Shezan	Indian	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+The Crepevine	American	30-60
+Ristorante Don Giovanni	Italian	0-10
+Steins Beer Garden	American	20-30
+Doppio Zero	Italian	30-60
+Park Ballachi	Indian	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: Amici's East Coast PizzeriaUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

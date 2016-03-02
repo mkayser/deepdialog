@@ -1,0 +1,30 @@
+02-24-2016:19-43-14	3b42ec84-f214-4526-9ae3-c5f328118f2a	User 0	joined
+02-24-2016:19-43-14	3b42ec84-f214-4526-9ae3-c5f328118f2a	User 0 has user ID 714726608fb04babba37ffb9e1d8f25d
+02-24-2016:19-43-16	3b42ec84-f214-4526-9ae3-c5f328118f2a	User 1	joined
+02-24-2016:19-43-16	3b42ec84-f214-4526-9ae3-c5f328118f2a	User 1 has user ID 6034b71030634f59ad2ef4d6e30365da
+02-24-2016:19-43-23	3b42ec84-f214-4526-9ae3-c5f328118f2a	User 0	Selected restaurant 7:	Scratch
+02-24-2016:19-43-32	3b42ec84-f214-4526-9ae3-c5f328118f2a	User 1	Scratch?
+02-24-2016:19-43-39	3b42ec84-f214-4526-9ae3-c5f328118f2a	User 0	Selected restaurant 3:	Queen House
+02-24-2016:19-43-42	3b42ec84-f214-4526-9ae3-c5f328118f2a	User 1	Selected restaurant 7:	Scratch
+02-24-2016:19-43-49	3b42ec84-f214-4526-9ae3-c5f328118f2a	User 0	Selected restaurant 7:	Scratch
+02-24-2016:19-43-49	---
+02-24-2016:19-43-49	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Pizza, Chinese, French, American, Indian
+User 1 preferences: 0-10	American, Pizza, Indian, French, Chinese
+
+Shezan	Indian	10-20
+Sakoon	Indian	30-60
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Chez TJ	French	30-60
+Hong Kong Bistro	Chinese	20-30
+New Mongolian BBQ	Chinese	30-60
+Scratch	American	0-10
+Kirin	Chinese	10-20
+Park Ballachi	Indian	0-10
+
+Final selection: ScratchUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

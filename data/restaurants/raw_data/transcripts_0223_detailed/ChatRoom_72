@@ -1,0 +1,32 @@
+02-19-2016:15-35-32	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	joined
+02-19-2016:15-35-32	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 0	joined
+02-19-2016:15-35-45	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	What ya feeling?
+02-19-2016:15-35-54	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	Apparently I like mexican food.
+02-19-2016:15-35-57	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 0	Deli, Vietnamese or French?
+02-19-2016:15-36-08	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	French! let's go French.
+02-19-2016:15-36-11	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	Sound good?
+02-19-2016:15-36-23	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 0	Chez TJ?
+02-19-2016:15-36-29	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	Agreed
+02-19-2016:15-36-33	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 0	Selected restaurant:	Chez TJ
+02-19-2016:15-36-35	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	Selected restaurant:	Chez TJ
+02-19-2016:15-36-35	---
+02-19-2016:15-36-35	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Deli, Vietnamese, French, Mediterranean, Mexican
+User 1 preferences: 20-30	Mexican, French, Deli, Mediterranean, Vietnamese
+
+Ehpesus	Mediterranean	0-10
+Chez TJ	French	30-60
+Xanh Restaurant	Vietnamese	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Posh Bagel	Deli	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Asian Box	Vietnamese	30-60
+Morocco's	Mediterranean	10-20
+Agave	Mexican	20-30
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

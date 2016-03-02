@@ -1,0 +1,30 @@
+02-19-2016:16-24-01	9cf8a28a-cb93-4839-bb5a-911b6a82fe59	User 0	joined
+02-19-2016:16-24-01	9cf8a28a-cb93-4839-bb5a-911b6a82fe59	User 1	joined
+02-19-2016:16-24-19	9cf8a28a-cb93-4839-bb5a-911b6a82fe59	User 1	Hey!
+02-19-2016:16-24-22	9cf8a28a-cb93-4839-bb5a-911b6a82fe59	User 0	hi
+02-19-2016:16-24-27	9cf8a28a-cb93-4839-bb5a-911b6a82fe59	User 1	What do you think about Blue Line?
+02-19-2016:16-24-30	9cf8a28a-cb93-4839-bb5a-911b6a82fe59	User 0	lets go for it
+02-19-2016:16-24-33	9cf8a28a-cb93-4839-bb5a-911b6a82fe59	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-24-34	9cf8a28a-cb93-4839-bb5a-911b6a82fe59	User 1	whoohoo!
+02-19-2016:16-24-37	9cf8a28a-cb93-4839-bb5a-911b6a82fe59	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-24-38	---
+02-19-2016:16-24-38	---
+
+Chat Information:
+
+User 0 preferences: 10-20	French, Mediterranean, Vietnamese, Thai, Pizza
+User 1 preferences: 0-10	Pizza, French, Vietnamese, Thai, Mediterranean
+
+Pho To Chau	Vietnamese	20-30
+Blue Line Pizza	Pizza	10-20
+Pho Hoa	Vietnamese	30-60
+Ehpesus	Mediterranean	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Oren's Hummus	Mediterranean	10-20
+Chez TJ	French	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Bangkok Spoon	Thai	30-60
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

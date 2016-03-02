@@ -1,0 +1,28 @@
+02-19-2016:15-41-31	265ebe33-126d-4ef0-8f5d-81cc5903c47f	User 0	joined
+02-19-2016:15-41-31	265ebe33-126d-4ef0-8f5d-81cc5903c47f	User 1	joined
+02-19-2016:15-41-45	265ebe33-126d-4ef0-8f5d-81cc5903c47f	User 0	Taqueria Los Charros?
+02-19-2016:15-41-45	265ebe33-126d-4ef0-8f5d-81cc5903c47f	User 1	Selected restaurant:	Casa Lupe Mexican Restaurant
+02-19-2016:15-41-52	265ebe33-126d-4ef0-8f5d-81cc5903c47f	User 1	Selected restaurant:	Taqueria Los Charros
+02-19-2016:15-41-56	265ebe33-126d-4ef0-8f5d-81cc5903c47f	User 1	that works
+02-19-2016:15-41-57	265ebe33-126d-4ef0-8f5d-81cc5903c47f	User 0	Selected restaurant:	Taqueria Los Charros
+02-19-2016:15-41-57	---
+02-19-2016:15-41-57	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Italian, French, Deli, Japanese
+User 1 preferences: 0-10	Mexican, Italian, Japanese, Deli, French
+
+Niji Sushi	Japanese	10-20
+Masa Sushi	Japanese	0-10
+Rumble Fish	Japanese	30-60
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Ristorante Don Giovanni	Italian	0-10
+Posh Bagel	Deli	10-20
+Taqueria Los Charros	Mexican	0-10
+Doppio Zero	Italian	30-60
+
+Final selection: Taqueria Los CharrosUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

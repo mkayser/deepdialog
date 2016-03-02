@@ -1,0 +1,26 @@
+02-19-2016:16-54-18	8c9a63c8-f2b5-4f20-ac41-b6458f296cb9	User 0	joined
+02-19-2016:16-54-24	8c9a63c8-f2b5-4f20-ac41-b6458f296cb9	User 1	joined
+02-19-2016:16-54-27	8c9a63c8-f2b5-4f20-ac41-b6458f296cb9	User 0	pick one
+02-19-2016:16-54-32	8c9a63c8-f2b5-4f20-ac41-b6458f296cb9	User 1	Selected restaurant:	Fiesta Del Mar Too
+02-19-2016:16-54-37	8c9a63c8-f2b5-4f20-ac41-b6458f296cb9	User 0	Selected restaurant:	Fiesta Del Mar Too
+02-19-2016:16-54-38	---
+02-19-2016:16-55-38	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Pizza, Mediterranean, Mexican, Spanish, French
+User 1 preferences: 20-30	Mexican, Mediterranean, Spanish, Pizza, French
+
+Fiesta Del Mar Too	Mexican	10-20
+Oren's Hummus	Mediterranean	10-20
+Agave	Mexican	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Blue Line Pizza	Pizza	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Cascal	Spanish	30-60
+Ehpesus	Mediterranean	0-10
+
+Final selection: Fiesta Del Mar TooUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,33 @@
+02-24-2016:19-43-02	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 0	joined
+02-24-2016:19-43-02	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 0 has user ID 1185fb427e3d49c29548e288ddc13446
+02-24-2016:19-43-03	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1	joined
+02-24-2016:19-43-03	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1 has user ID 72c8d67e547348d6a886baa109ea6c7a
+02-24-2016:19-43-12	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 0	Casa Lupe Mexican Restaurant	?
+02-24-2016:19-43-12	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1	mexican?
+02-24-2016:19-43-16	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 0	Selected restaurant 9:	Casa Lupe Mexican Restaurant
+02-24-2016:19-43-20	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1	other mexican
+02-24-2016:19-43-21	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1	i'm cheap
+02-24-2016:19-43-25	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1	los charros
+02-24-2016:19-43-28	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1	Selected restaurant 7:	Taqueria Los Charros
+02-24-2016:19-43-31	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 0	Selected restaurant 7:	Taqueria Los Charros
+02-24-2016:19-43-31	---
+02-24-2016:19-43-31	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mexican, Vietnamese, Deli, Pizza, Indian
+User 1 preferences: 0-10	Deli, Mexican, Indian, Vietnamese, Pizza
+
+Blue Line Pizza	Pizza	10-20
+Agave	Mexican	20-30
+Shezan	Indian	10-20
+Asian Box	Vietnamese	30-60
+Posh Bagel	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Taqueria Los Charros	Mexican	0-10
+Sakoon	Indian	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Taqueria Los CharrosUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

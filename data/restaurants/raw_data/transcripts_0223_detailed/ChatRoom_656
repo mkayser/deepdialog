@@ -1,0 +1,35 @@
+02-19-2016:16-47-19	5a361293-27f3-4a93-b344-f27e30551650	User 0	joined
+02-19-2016:16-47-19	5a361293-27f3-4a93-b344-f27e30551650	User 1	joined
+02-19-2016:16-47-25	5a361293-27f3-4a93-b344-f27e30551650	User 0	SUP!  
+02-19-2016:16-47-33	5a361293-27f3-4a93-b344-f27e30551650	User 1	I only got two dollar signs man.
+02-19-2016:16-47-34	5a361293-27f3-4a93-b344-f27e30551650	User 0	Indian food, you and me, RIGHT NOW!
+02-19-2016:16-47-39	5a361293-27f3-4a93-b344-f27e30551650	User 0	I only got on!
+02-19-2016:16-47-41	5a361293-27f3-4a93-b344-f27e30551650	User 1	I'm broke but I get paid tomorrow
+02-19-2016:16-47-48	5a361293-27f3-4a93-b344-f27e30551650	User 1	Ok we can do that
+02-19-2016:16-47-55	5a361293-27f3-4a93-b344-f27e30551650	User 0	I feel you man, I'm super broke too.  Let's go to Park Ballachi!
+02-19-2016:16-47-57	5a361293-27f3-4a93-b344-f27e30551650	User 1	You can pick!
+02-19-2016:16-48-02	5a361293-27f3-4a93-b344-f27e30551650	User 1	Alright!
+02-19-2016:16-48-03	5a361293-27f3-4a93-b344-f27e30551650	User 0	Super cheap, super yummy!
+02-19-2016:16-48-07	5a361293-27f3-4a93-b344-f27e30551650	User 0	Selected restaurant:	Park Ballachi
+02-19-2016:16-48-07	5a361293-27f3-4a93-b344-f27e30551650	User 1	Selected restaurant:	Park Ballachi
+02-19-2016:16-48-08	---
+02-19-2016:16-48-08	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, SeaFood, Pizza, Mediterranean, American
+User 1 preferences: 10-20	SeaFood, Mediterranean, Pizza, Indian, American
+
+Shell Shock	SeaFood	10-20
+Oren's Hummus	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Park Ballachi	Indian	0-10
+Bierhaus	American	0-10
+Mediterranean Grill House	Mediterranean	0-10
+The Crepevine	American	30-60
+Drunken Lobster	SeaFood	10-20
+Ehpesus	Mediterranean	0-10
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Park BallachiUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

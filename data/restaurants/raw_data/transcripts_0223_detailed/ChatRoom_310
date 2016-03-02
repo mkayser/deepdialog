@@ -1,0 +1,29 @@
+02-19-2016:16-15-37	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 0	joined
+02-19-2016:16-15-38	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 1	joined
+02-19-2016:16-15-45	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 0	Hey, you feeling some Italian?
+02-19-2016:16-15-45	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 1	what do you have in mind?
+02-19-2016:16-16-01	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 1	Would you like Posh bagel instead?
+02-19-2016:16-16-11	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 0	I think I can settle on that, I can always go for a good sandwich.  Let's do it.
+02-19-2016:16-16-16	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-16-18	8404fc34-5664-469e-9b6e-7cd2f44144cb	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-16-18	---
+02-19-2016:16-16-18	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Italian, Deli, Spanish, Mediterranean, French
+User 1 preferences: 20-30	French, Deli, Italian, Spanish, Mediterranean
+
+Ehpesus	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Chez TJ	French	30-60
+Posh Bagel	Deli	10-20
+Ristorante Don Giovanni	Italian	0-10
+Cascal	Spanish	30-60
+Oren's Hummus	Mediterranean	10-20
+Café Baklava	Mediterranean	10-20
+Vaso Azzurro	Italian	20-30
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

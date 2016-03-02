@@ -1,0 +1,29 @@
+02-24-2016:19-53-09	ae824a89-7142-4b1a-919e-d46136feaff9	User 0	joined
+02-24-2016:19-53-09	ae824a89-7142-4b1a-919e-d46136feaff9	User 0 has user ID eed796d22f004217bcc4845a4ccca8fe
+02-24-2016:19-53-10	ae824a89-7142-4b1a-919e-d46136feaff9	User 1	joined
+02-24-2016:19-53-10	ae824a89-7142-4b1a-919e-d46136feaff9	User 1 has user ID f551a9c8ef7447e68e7255c087c8f416
+02-24-2016:19-53-21	ae824a89-7142-4b1a-919e-d46136feaff9	User 1	Mediterranean Grill House?
+02-24-2016:19-53-24	ae824a89-7142-4b1a-919e-d46136feaff9	User 0	Selected restaurant 9:	Casa Lupe Mexican Restaurant
+02-24-2016:19-53-42	ae824a89-7142-4b1a-919e-d46136feaff9	User 1	I guess I can deal with Casa Lupe
+02-24-2016:19-53-45	ae824a89-7142-4b1a-919e-d46136feaff9	User 1	Selected restaurant 9:	Casa Lupe Mexican Restaurant
+02-24-2016:19-53-45	---
+02-24-2016:19-53-45	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Japanese, Mexican, Deli, Mediterranean, Korean
+User 1 preferences: 10-20	Mediterranean, Mexican, Deli, Korean, Japanese
+
+Subway	Deli	10-20
+Niji Sushi	Japanese	10-20
+Totoro	Korean	20-30
+Taqueria Los Charros	Mexican	0-10
+Ryowa Noodle House	Japanese	20-30
+Bushido	Japanese	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Ginseng	Korean	10-20
+Posh Bagel	Deli	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Casa Lupe Mexican RestaurantUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

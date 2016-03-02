@@ -1,0 +1,29 @@
+02-19-2016:16-23-11	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 0	joined
+02-19-2016:16-23-11	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1	joined
+02-19-2016:16-23-24	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 0	Hello
+02-19-2016:16-23-25	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1	Hey
+02-19-2016:16-23-31	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 0	lets do ristorante
+02-19-2016:16-23-36	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1	Ok :D
+02-19-2016:16-23-37	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-23-40	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-23-41	---
+02-19-2016:16-23-41	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Thai, Deli, Indian, SeaFood
+User 1 preferences: 0-10	SeaFood, Italian, Thai, Deli, Indian
+
+Shezan	Indian	10-20
+Ristorante Don Giovanni	Italian	0-10
+Bangkok Spoon	Thai	30-60
+Vaso Azzurro	Italian	20-30
+Drunken Lobster	SeaFood	10-20
+Subway	Deli	10-20
+Doppio Zero	Italian	30-60
+Park Ballachi	Indian	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

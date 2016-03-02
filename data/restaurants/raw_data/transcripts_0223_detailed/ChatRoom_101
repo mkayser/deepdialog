@@ -1,0 +1,28 @@
+02-19-2016:15-40-56	5981ad27-73fc-4050-be9f-ba4ce319dc3a	User 0	joined
+02-19-2016:15-41-01	5981ad27-73fc-4050-be9f-ba4ce319dc3a	User 1	joined
+02-19-2016:15-41-17	5981ad27-73fc-4050-be9f-ba4ce319dc3a	User 0	In the mood for some Pizza?
+02-19-2016:15-41-24	5981ad27-73fc-4050-be9f-ba4ce319dc3a	User 1	Sure
+02-19-2016:15-41-29	5981ad27-73fc-4050-be9f-ba4ce319dc3a	User 0	Blue Line it is!
+02-19-2016:15-41-31	5981ad27-73fc-4050-be9f-ba4ce319dc3a	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-41-34	5981ad27-73fc-4050-be9f-ba4ce319dc3a	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-41-35	---
+02-19-2016:15-41-35	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, Mediterranean, Indian, Vietnamese, Italian
+User 1 preferences: 0-10	Italian, Mediterranean, Indian, Pizza, Vietnamese
+
+Shiva’s Indian Restaurant	Indian	0-10
+Oren's Hummus	Mediterranean	10-20
+Blue Line Pizza	Pizza	10-20
+Park Ballachi	Indian	0-10
+Xanh Restaurant	Vietnamese	10-20
+Sakoon	Indian	30-60
+Morocco's	Mediterranean	10-20
+Ristorante Don Giovanni	Italian	0-10
+Pho To Chau	Vietnamese	20-30
+Doppio Zero	Italian	30-60
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

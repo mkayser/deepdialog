@@ -1,0 +1,31 @@
+02-19-2016:16-45-33	da14228b-40a8-452c-919b-abce4c6c2d6d	User 1	joined
+02-19-2016:16-45-35	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	joined
+02-19-2016:16-45-40	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	hey
+02-19-2016:16-45-44	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	I like seafood
+02-19-2016:16-45-47	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	do you?
+02-19-2016:16-45-58	da14228b-40a8-452c-919b-abce4c6c2d6d	User 1	there is none
+02-19-2016:16-46-01	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	Wish we could have some but I'll settle for French
+02-19-2016:16-46-02	da14228b-40a8-452c-919b-abce4c6c2d6d	User 1	french/
+02-19-2016:16-46-04	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	Selected restaurant:	Chez TJ
+02-19-2016:16-46-11	da14228b-40a8-452c-919b-abce4c6c2d6d	User 1	Selected restaurant:	Chez TJ
+02-19-2016:16-46-11	---
+02-19-2016:16-46-11	---
+
+Chat Information:
+
+User 0 preferences: 30-60	SeaFood, French, Vietnamese, Japanese, Chinese
+User 1 preferences: 0-10	SeaFood, French, Chinese, Japanese, Vietnamese
+
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Niji Sushi	Japanese	10-20
+Xanh Restaurant	Vietnamese	10-20
+New Mongolian BBQ	Chinese	30-60
+Masa Sushi	Japanese	0-10
+Asian Box	Vietnamese	30-60
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Chez TJ	French	30-60
+
+Final selection: Chez TJUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

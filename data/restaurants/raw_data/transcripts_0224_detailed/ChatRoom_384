@@ -1,0 +1,27 @@
+02-24-2016:19-51-22	2b057132-9dca-478f-8baa-7afb0236dbc5	User 1	joined
+02-24-2016:19-51-22	2b057132-9dca-478f-8baa-7afb0236dbc5	User 1 has user ID 0e14dc0c024b4d3a8a04f997d0238b3e
+02-24-2016:19-51-23	2b057132-9dca-478f-8baa-7afb0236dbc5	User 0	joined
+02-24-2016:19-51-23	2b057132-9dca-478f-8baa-7afb0236dbc5	User 0 has user ID 926d651c606046169445ac278961ede1
+02-24-2016:19-51-28	2b057132-9dca-478f-8baa-7afb0236dbc5	User 1	Selected restaurant 8:	Totoro
+02-24-2016:19-51-30	2b057132-9dca-478f-8baa-7afb0236dbc5	User 0	Selected restaurant 8:	Totoro
+02-24-2016:19-51-30	---
+02-24-2016:19-51-30	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Deli, American, Chinese, Korean, Pizza
+User 1 preferences: 20-30	Korean, Pizza, American, Deli, Chinese
+
+Subway	Deli	10-20
+New Mongolian BBQ	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Ginseng	Korean	10-20
+Steins Beer Garden	American	20-30
+Posh Bagel	Deli	10-20
+Hong Kong Bistro	Chinese	20-30
+Totoro	Korean	20-30
+Kirin	Chinese	10-20
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

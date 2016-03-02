@@ -1,0 +1,36 @@
+02-24-2016:19-53-06	b1cb0812-b98f-49b5-8125-e631692129ce	User 1	joined
+02-24-2016:19-53-06	b1cb0812-b98f-49b5-8125-e631692129ce	User 1 has user ID 732ecfccbdc44825a1016d27b9a01985
+02-24-2016:19-53-07	b1cb0812-b98f-49b5-8125-e631692129ce	User 0	joined
+02-24-2016:19-53-07	b1cb0812-b98f-49b5-8125-e631692129ce	User 0 has user ID 7c3f08710d574bf69cd9ebf456eabaaa
+02-24-2016:19-53-14	b1cb0812-b98f-49b5-8125-e631692129ce	User 1	Amicis
+02-24-2016:19-53-16	b1cb0812-b98f-49b5-8125-e631692129ce	User 1	would be great
+02-24-2016:19-53-19	b1cb0812-b98f-49b5-8125-e631692129ce	User 1	Selected restaurant 9:	Amici's East Coast Pizzeria
+02-24-2016:19-53-43	b1cb0812-b98f-49b5-8125-e631692129ce	User 0	I was thinking asian actually!
+02-24-2016:19-53-52	b1cb0812-b98f-49b5-8125-e631692129ce	User 1	Mediterranean
+02-24-2016:19-53-54	b1cb0812-b98f-49b5-8125-e631692129ce	User 1	Would be alright
+02-24-2016:19-53-56	b1cb0812-b98f-49b5-8125-e631692129ce	User 0	what about oren's and we compromise?
+02-24-2016:19-54-00	b1cb0812-b98f-49b5-8125-e631692129ce	User 1	Orens?
+02-24-2016:19-54-01	b1cb0812-b98f-49b5-8125-e631692129ce	User 1	yeah
+02-24-2016:19-54-01	b1cb0812-b98f-49b5-8125-e631692129ce	User 0	Selected restaurant 6:	Oren's Hummus
+02-24-2016:19-54-04	b1cb0812-b98f-49b5-8125-e631692129ce	User 1	Selected restaurant 6:	Oren's Hummus
+02-24-2016:19-54-04	---
+02-24-2016:19-54-05	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Vietnamese, Deli, American, Pizza, Mediterranean
+User 1 preferences: 10-20	Pizza, Mediterranean, Deli, American, Vietnamese
+
+Bierhaus	American	0-10
+The Crepevine	American	30-60
+Posh Bagel	Deli	10-20
+Morocco's	Mediterranean	10-20
+Scratch	American	0-10
+Pho To Chau	Vietnamese	20-30
+Oren's Hummus	Mediterranean	10-20
+Asian Box	Vietnamese	30-60
+Steins Beer Garden	American	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: Oren's HummusUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

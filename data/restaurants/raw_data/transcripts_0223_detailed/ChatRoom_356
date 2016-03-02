@@ -1,0 +1,31 @@
+02-19-2016:16-22-05	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	joined
+02-19-2016:16-22-06	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	joined
+02-19-2016:16-22-11	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	Hello
+02-19-2016:16-22-11	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	NOMNOMNOM
+02-19-2016:16-22-14	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	yas thank god
+02-19-2016:16-22-14	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	Let's feast
+02-19-2016:16-22-21	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	Pizza?
+02-19-2016:16-22-24	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	sure
+02-19-2016:16-22-27	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-22-30	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-22-30	---
+02-19-2016:16-22-31	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Deli, Pizza, Mexican, Indian
+User 1 preferences: 10-20	Pizza, Mediterranean, Mexican, Deli, Indian
+
+Taqueria Los Charros	Mexican	0-10
+Sakoon	Indian	30-60
+Shezan	Indian	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Café Baklava	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Posh Bagel	Deli	10-20
+Blue Line Pizza	Pizza	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Park Ballachi	Indian	0-10
+
+Final selection: Amici's East Coast PizzeriaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

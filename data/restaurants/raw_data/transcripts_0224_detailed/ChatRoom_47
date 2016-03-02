@@ -1,0 +1,41 @@
+02-24-2016:19-37-38	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	joined
+02-24-2016:19-37-38	0d43c926-012c-4d98-a681-45a26a7a139a	User 0 has user ID 714726608fb04babba37ffb9e1d8f25d
+02-24-2016:19-37-38	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	joined
+02-24-2016:19-37-38	0d43c926-012c-4d98-a681-45a26a7a139a	User 1 has user ID 493ab10331b1486fbed19ddd6f3d572f
+02-24-2016:19-37-47	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	Selected restaurant 9:	Bangkok Spoon
+02-24-2016:19-37-49	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	Hello
+02-24-2016:19-37-54	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	Hello
+02-24-2016:19-38-12	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	Selected restaurant 2:	Subway
+02-24-2016:19-38-24	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	I do not like Thai 
+02-24-2016:19-38-29	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	viet?
+02-24-2016:19-38-37	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	i have w hearts for subway
+02-24-2016:19-38-42	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	2
+02-24-2016:19-39-01	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	3 for viet
+02-24-2016:19-39-04	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	But it's cheap and very good
+02-24-2016:19-39-18	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	I have 3 for deli
+02-24-2016:19-39-30	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	what do you have for vietnamese?
+02-24-2016:19-39-39	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	2
+02-24-2016:19-39-53	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	and you have 1 for thai?
+02-24-2016:19-39-58	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	Yes
+02-24-2016:19-40-02	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	Selected restaurant 2:	Subway
+02-24-2016:19-40-03	---
+02-24-2016:19-40-03	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Thai, Vietnamese, Deli, Spanish, French
+User 1 preferences: 0-10	Spanish, Deli, Vietnamese, Thai, French
+
+Pho To Chau	Vietnamese	20-30
+Cascal	Spanish	30-60
+Subway	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+Chez TJ	French	30-60
+Xanh Restaurant	Vietnamese	10-20
+Posh Bagel	Deli	10-20
+Asian Box	Vietnamese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Bangkok Spoon	Thai	30-60
+
+Final selection: SubwayUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

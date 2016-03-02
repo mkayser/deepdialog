@@ -1,0 +1,28 @@
+02-19-2016:16-50-57	0fb0b876-5f7c-486c-9fae-699fea72ac71	User 0	joined
+02-19-2016:16-50-58	0fb0b876-5f7c-486c-9fae-699fea72ac71	User 1	joined
+02-19-2016:16-51-07	0fb0b876-5f7c-486c-9fae-699fea72ac71	User 0	lets try vaso
+02-19-2016:16-51-22	0fb0b876-5f7c-486c-9fae-699fea72ac71	User 1	I don't really like Italian. How about Stein's?
+02-19-2016:16-51-40	0fb0b876-5f7c-486c-9fae-699fea72ac71	User 0	sure
+02-19-2016:16-51-43	0fb0b876-5f7c-486c-9fae-699fea72ac71	User 1	Selected restaurant:	Steins Beer Garden
+02-19-2016:16-51-44	0fb0b876-5f7c-486c-9fae-699fea72ac71	User 0	Selected restaurant:	Steins Beer Garden
+02-19-2016:16-51-44	---
+02-19-2016:16-51-44	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, American, Spanish, Deli, Thai
+User 1 preferences: 10-20	American, Thai, Spanish, Deli, Italian
+
+Subway	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+Bangkok Spoon	Thai	30-60
+Doppio Zero	Italian	30-60
+Ristorante Don Giovanni	Italian	0-10
+Steins Beer Garden	American	20-30
+Vaso Azzurro	Italian	20-30
+Posh Bagel	Deli	10-20
+Scratch	American	0-10
+Cascal	Spanish	30-60
+
+Final selection: Steins Beer GardenUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,32 @@
+02-19-2016:16-50-48	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	joined
+02-19-2016:16-50-49	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	joined
+02-19-2016:16-50-52	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	Hi
+02-19-2016:16-50-55	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	hiya
+02-19-2016:16-51-00	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	Where do you wanna eat?
+02-19-2016:16-51-10	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	beer house?
+02-19-2016:16-51-17	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	seems legit
+02-19-2016:16-51-20	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	Good choice friend
+02-19-2016:16-51-24	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	Selected restaurant:	Bangkok Spoon
+02-19-2016:16-51-25	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	Selected restaurant:	Bierhaus
+02-19-2016:16-51-28	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	Selected restaurant:	Bierhaus
+02-19-2016:16-51-29	---
+02-19-2016:16-51-29	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Thai, American, Italian, Pizza, Korean
+User 1 preferences: 30-60	Pizza, American, Korean, Italian, Thai
+
+Bangkok Spoon	Thai	30-60
+Blue Line Pizza	Pizza	10-20
+Vaso Azzurro	Italian	20-30
+Ginseng	Korean	10-20
+Bierhaus	American	0-10
+Ristorante Don Giovanni	Italian	0-10
+Scratch	American	0-10
+The Crepevine	American	30-60
+Doppio Zero	Italian	30-60
+Totoro	Korean	20-30
+
+Final selection: BierhausUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

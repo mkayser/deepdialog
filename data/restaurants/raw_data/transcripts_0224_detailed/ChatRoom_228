@@ -1,0 +1,34 @@
+02-24-2016:19-46-26	0fa74b36-a237-4895-92e0-309134fa51ae	User 1	joined
+02-24-2016:19-46-26	0fa74b36-a237-4895-92e0-309134fa51ae	User 1 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-46-28	0fa74b36-a237-4895-92e0-309134fa51ae	User 0	joined
+02-24-2016:19-46-28	0fa74b36-a237-4895-92e0-309134fa51ae	User 0 has user ID 78de429b6e684f988804a99bd73bb576
+02-24-2016:19-46-31	0fa74b36-a237-4895-92e0-309134fa51ae	User 0	hello
+02-24-2016:19-46-34	0fa74b36-a237-4895-92e0-309134fa51ae	User 1	Hi!
+02-24-2016:19-46-39	0fa74b36-a237-4895-92e0-309134fa51ae	User 0	KAppo Naminamni?
+02-24-2016:19-46-39	0fa74b36-a237-4895-92e0-309134fa51ae	User 1	I'm an indian fan, and on a budget
+02-24-2016:19-46-44	0fa74b36-a237-4895-92e0-309134fa51ae	User 1	How about Park Ballachi?
+02-24-2016:19-46-47	0fa74b36-a237-4895-92e0-309134fa51ae	User 0	ok park ballachi?
+02-24-2016:19-46-47	0fa74b36-a237-4895-92e0-309134fa51ae	User 1	It's super cheap 
+02-24-2016:19-46-50	0fa74b36-a237-4895-92e0-309134fa51ae	User 0	Selected restaurant 4:	Park Ballachi
+02-24-2016:19-46-52	0fa74b36-a237-4895-92e0-309134fa51ae	User 1	Selected restaurant 4:	Park Ballachi
+02-24-2016:19-46-52	---
+02-24-2016:19-46-52	---
+
+Chat Information:
+
+User 0 preferences: 30-60	French, Italian, Indian, Mexican, Japanese
+User 1 preferences: 10-20	Indian, Japanese, Mexican, French, Italian
+
+Kappo Naminami	Japanese	30-60
+Bushido	Japanese	10-20
+Chez TJ	French	30-60
+Rumble Fish	Japanese	30-60
+Park Ballachi	Indian	0-10
+Vaso Azzurro	Italian	20-30
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Doppio Zero	Italian	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Park BallachiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

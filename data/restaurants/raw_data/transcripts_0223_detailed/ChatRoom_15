@@ -1,0 +1,31 @@
+02-19-2016:15-27-37	b5c29fab-255d-4714-b6db-cf10af893fa3	User 0	joined
+02-19-2016:15-27-38	b5c29fab-255d-4714-b6db-cf10af893fa3	User 1	joined
+02-19-2016:15-28-02	b5c29fab-255d-4714-b6db-cf10af893fa3	User 0	Let's eat at Amici's East Coast Pizzeria
+02-19-2016:15-28-33	b5c29fab-255d-4714-b6db-cf10af893fa3	User 1	its too expensive
+02-19-2016:15-28-45	b5c29fab-255d-4714-b6db-cf10af893fa3	User 0	How about Blue Line Pizza
+02-19-2016:15-28-49	b5c29fab-255d-4714-b6db-cf10af893fa3	User 1	yes
+02-19-2016:15-28-52	b5c29fab-255d-4714-b6db-cf10af893fa3	User 1	perfect
+02-19-2016:15-28-53	b5c29fab-255d-4714-b6db-cf10af893fa3	User 0	Ok 
+02-19-2016:15-28-58	b5c29fab-255d-4714-b6db-cf10af893fa3	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-29-09	b5c29fab-255d-4714-b6db-cf10af893fa3	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-29-09	---
+02-19-2016:15-29-09	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Pizza, Korean, SeaFood, Vietnamese, Italian
+User 1 preferences: 20-30	Korean, Pizza, Italian, Vietnamese, SeaFood
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Pho To Chau	Vietnamese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Doppio Zero	Italian	30-60
+Totoro	Korean	20-30
+Pho Hoa	Vietnamese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Drunken Lobster	SeaFood	10-20
+Blue Line Pizza	Pizza	10-20
+Ginseng	Korean	10-20
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

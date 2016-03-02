@@ -1,0 +1,32 @@
+02-24-2016:20-10-48	5ce913c2-148d-429e-96a2-392c154ed014	User 1	joined
+02-24-2016:20-10-48	5ce913c2-148d-429e-96a2-392c154ed014	User 1 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:20-10-49	5ce913c2-148d-429e-96a2-392c154ed014	User 0	joined
+02-24-2016:20-10-49	5ce913c2-148d-429e-96a2-392c154ed014	User 0 has user ID cfb7f0ba7d194d2fbc1ab23d0de62457
+02-24-2016:20-10-57	5ce913c2-148d-429e-96a2-392c154ed014	User 0	let's get chinese take out!
+02-24-2016:20-11-02	5ce913c2-148d-429e-96a2-392c154ed014	User 0	i want some kung pao
+02-24-2016:20-11-08	5ce913c2-148d-429e-96a2-392c154ed014	User 1	no prefer italian
+02-24-2016:20-11-16	5ce913c2-148d-429e-96a2-392c154ed014	User 1	or thai
+02-24-2016:20-11-17	5ce913c2-148d-429e-96a2-392c154ed014	User 0	fine fine
+02-24-2016:20-11-19	5ce913c2-148d-429e-96a2-392c154ed014	User 0	Selected restaurant 6:	Ristorante Don Giovanni
+02-24-2016:20-11-25	5ce913c2-148d-429e-96a2-392c154ed014	User 1	Selected restaurant 6:	Ristorante Don Giovanni
+02-24-2016:20-11-26	---
+02-24-2016:20-11-26	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Thai, Chinese, Italian, Japanese, Korean
+User 1 preferences: 10-20	Italian, Thai, Japanese, Korean, Chinese
+
+Shalala	Japanese	10-20
+Niji Sushi	Japanese	10-20
+Hunan Chili	Chinese	30-60
+Shabuway	Japanese	30-60
+Ginseng	Korean	10-20
+Yakko	Japanese	0-10
+Ristorante Don Giovanni	Italian	0-10
+Rumble Fish	Japanese	30-60
+Doppio Zero	Italian	30-60
+Ryowa Noodle House	Japanese	20-30
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

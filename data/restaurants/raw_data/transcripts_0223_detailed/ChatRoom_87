@@ -1,0 +1,27 @@
+02-19-2016:15-38-09	66f84c48-d9e3-4e8e-99d1-764721d63823	User 1	joined
+02-19-2016:15-38-11	66f84c48-d9e3-4e8e-99d1-764721d63823	User 0	joined
+02-19-2016:15-38-25	66f84c48-d9e3-4e8e-99d1-764721d63823	User 0	Cascal?
+02-19-2016:15-38-39	66f84c48-d9e3-4e8e-99d1-764721d63823	User 1	Sure, Spanish sounds good to me.
+02-19-2016:15-38-43	66f84c48-d9e3-4e8e-99d1-764721d63823	User 0	Selected restaurant:	Cascal
+02-19-2016:15-38-46	66f84c48-d9e3-4e8e-99d1-764721d63823	User 1	Selected restaurant:	Cascal
+02-19-2016:15-38-46	---
+02-19-2016:15-38-46	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, Indian, Vietnamese, Italian, Chinese
+User 1 preferences: 0-10	Chinese, Italian, Indian, Spanish, Vietnamese
+
+Hunan Chili	Chinese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Vaso Azzurro	Italian	20-30
+Pho Hoa	Vietnamese	30-60
+Doppio Zero	Italian	30-60
+Ristorante Don Giovanni	Italian	0-10
+Cascal	Spanish	30-60
+Kirin	Chinese	10-20
+Queen House	Chinese	0-10
+Park Ballachi	Indian	0-10
+
+Final selection: CascalUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

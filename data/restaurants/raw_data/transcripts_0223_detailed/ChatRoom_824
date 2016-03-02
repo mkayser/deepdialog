@@ -1,0 +1,30 @@
+02-19-2016:17-22-15	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 1	joined
+02-19-2016:17-22-16	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 0	joined
+02-19-2016:17-22-18	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 0	hey hey
+02-19-2016:17-22-22	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 1	thai
+02-19-2016:17-22-23	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 0	Fancy some Thai?
+02-19-2016:17-22-30	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 0	you read my mind friend
+02-19-2016:17-22-32	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 1	yes 
+02-19-2016:17-22-33	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 0	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:17-22-38	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 1	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:17-22-38	---
+02-19-2016:17-22-38	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Thai, Pizza, SeaFood, Italian, Mediterranean
+User 1 preferences: 10-20	Thai, Mediterranean, Italian, Pizza, SeaFood
+
+Vaso Azzurro	Italian	20-30
+Café Baklava	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Morocco's	Mediterranean	10-20
+Shell Shock	SeaFood	10-20
+Ehpesus	Mediterranean	0-10
+Blue Line Pizza	Pizza	10-20
+Doppio Zero	Italian	30-60
+Amarin Thai Cuisine	Thai	20-30
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,29 @@
+02-19-2016:16-31-49	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 1	joined
+02-19-2016:16-31-51	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 0	joined
+02-19-2016:16-31-55	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 1	How about some Pizza?
+02-19-2016:16-32-12	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 0	I was thinking something mexican like Agave
+02-19-2016:16-32-29	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 1	I'm not feelin Mexican...how about that new seafood joint that opened up, Shell Shock I think it was.
+02-19-2016:16-32-37	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 0	yea that works
+02-19-2016:16-32-41	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 1	Selected restaurant:	Shell Shock
+02-19-2016:16-32-41	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 0	Selected restaurant:	Shell Shock
+02-19-2016:16-32-41	---
+02-19-2016:16-32-41	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Vietnamese, Mexican, SeaFood, Pizza, Spanish
+User 1 preferences: 10-20	Pizza, SeaFood, Spanish, Vietnamese, Mexican
+
+Taqueria Los Charros	Mexican	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Shell Shock	SeaFood	10-20
+Cascal	Spanish	30-60
+Agave	Mexican	20-30
+Pho Hoa	Vietnamese	30-60
+Drunken Lobster	SeaFood	10-20
+Blue Line Pizza	Pizza	10-20
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: Shell ShockUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

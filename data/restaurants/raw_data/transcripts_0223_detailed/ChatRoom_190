@@ -1,0 +1,32 @@
+02-19-2016:15-56-23	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	joined
+02-19-2016:15-56-24	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	joined
+02-19-2016:15-56-30	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	what do you have in mind?
+02-19-2016:15-56-30	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Hey there
+02-19-2016:15-56-53	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	I'm thinking Japanese from our choices
+02-19-2016:15-56-55	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	You?
+02-19-2016:15-57-03	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	I can do that
+02-19-2016:15-57-07	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	shabuway?
+02-19-2016:15-57-11	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Sure!
+02-19-2016:15-57-14	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	Selected restaurant:	Shabuway
+02-19-2016:15-57-19	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Selected restaurant:	Shabuway
+02-19-2016:15-57-19	---
+02-19-2016:15-57-19	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Japanese, French, Pizza, Mediterranean
+User 1 preferences: 10-20	Japanese, Mediterranean, French, Vietnamese, Pizza
+
+Xanh Restaurant	Vietnamese	10-20
+Chez TJ	French	30-60
+Ryowa Noodle House	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Shabuway	Japanese	30-60
+Morocco's	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Pho To Chau	Vietnamese	20-30
+
+Final selection: ShabuwayUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

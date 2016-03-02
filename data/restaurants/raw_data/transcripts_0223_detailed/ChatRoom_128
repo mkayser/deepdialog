@@ -1,0 +1,27 @@
+02-19-2016:15-46-01	49339280-522f-4fcd-b8db-4cde134b1bf1	User 0	joined
+02-19-2016:15-46-02	49339280-522f-4fcd-b8db-4cde134b1bf1	User 1	joined
+02-19-2016:15-46-08	49339280-522f-4fcd-b8db-4cde134b1bf1	User 1	back for more
+02-19-2016:15-46-10	49339280-522f-4fcd-b8db-4cde134b1bf1	User 0	How about Cascal?
+02-19-2016:15-46-28	49339280-522f-4fcd-b8db-4cde134b1bf1	User 1	Selected restaurant:	Cascal
+02-19-2016:15-46-38	49339280-522f-4fcd-b8db-4cde134b1bf1	User 0	Selected restaurant:	Cascal
+02-19-2016:15-46-38	---
+02-19-2016:15-46-39	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Spanish, Chinese, American, Italian, Vietnamese
+User 1 preferences: 10-20	Italian, Spanish, American, Vietnamese, Chinese
+
+Ristorante Don Giovanni	Italian	0-10
+Kirin	Chinese	10-20
+The Crepevine	American	30-60
+Pho Hoa	Vietnamese	30-60
+Vaso Azzurro	Italian	20-30
+Queen House	Chinese	0-10
+Doppio Zero	Italian	30-60
+Cascal	Spanish	30-60
+Scratch	American	0-10
+Steins Beer Garden	American	20-30
+
+Final selection: CascalUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

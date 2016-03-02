@@ -1,0 +1,28 @@
+02-19-2016:16-33-36	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	joined
+02-19-2016:16-33-38	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	joined
+02-19-2016:16-33-46	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	lets try amici's
+02-19-2016:16-33-59	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	That's expensive.  Blue Line?
+02-19-2016:16-34-03	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	sure
+02-19-2016:16-34-07	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-34-08	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-34-08	---
+02-19-2016:16-34-09	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Italian, Thai, Pizza, Korean
+User 1 preferences: 30-60	Pizza, Thai, Korean, Italian, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Hong Kong Bistro	Chinese	20-30
+Ginseng	Korean	10-20
+Doppio Zero	Italian	30-60
+Bangkok Spoon	Thai	30-60
+Blue Line Pizza	Pizza	10-20
+Hunan Chili	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Totoro	Korean	20-30
+New Mongolian BBQ	Chinese	30-60
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,28 @@
+02-19-2016:16-26-45	aab6b711-8534-4118-9f1e-ada42837b37c	User 1	joined
+02-19-2016:16-26-46	aab6b711-8534-4118-9f1e-ada42837b37c	User 0	joined
+02-19-2016:16-26-52	aab6b711-8534-4118-9f1e-ada42837b37c	User 1	Japanese work for you?  I'm really feeling some Sushi today.
+02-19-2016:16-27-02	aab6b711-8534-4118-9f1e-ada42837b37c	User 0	Lets try Kappo
+02-19-2016:16-27-06	aab6b711-8534-4118-9f1e-ada42837b37c	User 0	Selected restaurant:	Kappo Naminami
+02-19-2016:16-27-19	aab6b711-8534-4118-9f1e-ada42837b37c	User 1	I suppose they'll have Sushi there, works for me.
+02-19-2016:16-27-21	aab6b711-8534-4118-9f1e-ada42837b37c	User 1	Selected restaurant:	Kappo Naminami
+02-19-2016:16-27-21	---
+02-19-2016:16-27-21	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Italian, Vietnamese, Pizza, Japanese, Chinese
+User 1 preferences: 0-10	Japanese, Italian, Vietnamese, Pizza, Chinese
+
+Kappo Naminami	Japanese	30-60
+Shabuway	Japanese	30-60
+Blue Line Pizza	Pizza	10-20
+Hong Kong Bistro	Chinese	20-30
+Pho Hoa	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Vaso Azzurro	Italian	20-30
+Bushido	Japanese	10-20
+Kirin	Chinese	10-20
+Masa Sushi	Japanese	0-10
+
+Final selection: Kappo NaminamiUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

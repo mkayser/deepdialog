@@ -1,0 +1,35 @@
+02-24-2016:19-54-51	660da281-0568-4e9f-9096-970312616e3e	User 0	joined
+02-24-2016:19-54-51	660da281-0568-4e9f-9096-970312616e3e	User 0 has user ID cd8e156d33b74a0494917b48f6d699a4
+02-24-2016:19-54-52	660da281-0568-4e9f-9096-970312616e3e	User 1	joined
+02-24-2016:19-54-52	660da281-0568-4e9f-9096-970312616e3e	User 1 has user ID 636466e4c18f4aa0ab4ae2d4c678f8b3
+02-24-2016:19-55-03	660da281-0568-4e9f-9096-970312616e3e	User 0	drunken lobster?
+02-24-2016:19-55-05	660da281-0568-4e9f-9096-970312616e3e	User 0	that sounds fun.
+02-24-2016:19-55-15	660da281-0568-4e9f-9096-970312616e3e	User 1	how about scratch?
+02-24-2016:19-55-19	660da281-0568-4e9f-9096-970312616e3e	User 1	Selected restaurant 7:	Scratch
+02-24-2016:19-55-35	660da281-0568-4e9f-9096-970312616e3e	User 0	that's probably my last choice. :/ ehhesus?
+02-24-2016:19-55-39	660da281-0568-4e9f-9096-970312616e3e	User 1	cascal?
+02-24-2016:19-55-44	660da281-0568-4e9f-9096-970312616e3e	User 1	Selected restaurant 9:	Cascal
+02-24-2016:19-55-52	660da281-0568-4e9f-9096-970312616e3e	User 0	shell shock?
+02-24-2016:19-55-55	660da281-0568-4e9f-9096-970312616e3e	User 1	Selected restaurant 3:	Shell Shock
+02-24-2016:19-55-58	660da281-0568-4e9f-9096-970312616e3e	User 0	Selected restaurant 3:	Shell Shock
+02-24-2016:19-55-58	---
+02-24-2016:19-55-58	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, Mediterranean, Vietnamese, Spanish, American
+User 1 preferences: 10-20	Spanish, American, Mediterranean, Vietnamese, SeaFood
+
+The Crepevine	American	30-60
+Drunken Lobster	SeaFood	10-20
+Oren's Hummus	Mediterranean	10-20
+Shell Shock	SeaFood	10-20
+Café Baklava	Mediterranean	10-20
+Pho To Chau	Vietnamese	20-30
+Morocco's	Mediterranean	10-20
+Scratch	American	0-10
+Ehpesus	Mediterranean	0-10
+Cascal	Spanish	30-60
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

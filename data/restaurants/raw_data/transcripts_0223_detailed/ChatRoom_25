@@ -1,0 +1,29 @@
+02-19-2016:15-29-33	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 0	joined
+02-19-2016:15-29-34	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	joined
+02-19-2016:15-29-44	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 0	Lets go to Amarin Thai Cuisine 
+02-19-2016:15-30-09	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	I love Thai food. What about the Bangkok Spoon?
+02-19-2016:15-30-25	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 0	Amarin Thai Cuisine is closer to my price range does that work?
+02-19-2016:15-30-56	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	Sure.. It is closer to my price range as well... 
+02-19-2016:15-31-03	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:15-31-06	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 0	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:15-31-06	---
+02-19-2016:15-31-07	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, SeaFood, American, Chinese, Pizza
+User 1 preferences: 10-20	SeaFood, American, Thai, Pizza, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Bierhaus	American	0-10
+Fu Lam Mum	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Kirin	Chinese	10-20
+Hunan Chili	Chinese	30-60
+Bangkok Spoon	Thai	30-60
+The Crepevine	American	30-60
+Hong Kong Bistro	Chinese	20-30
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

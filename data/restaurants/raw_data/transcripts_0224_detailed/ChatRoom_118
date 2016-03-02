@@ -1,0 +1,28 @@
+02-24-2016:19-41-50	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	joined
+02-24-2016:19-41-50	5bf34861-8396-4c94-b4ee-68306e369b04	User 0 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-41-55	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	Selected restaurant 2:	Cascal
+02-24-2016:19-41-56	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	joined
+02-24-2016:19-41-56	5bf34861-8396-4c94-b4ee-68306e369b04	User 1 has user ID fa5ef707d303408b8cf87b5b555c36cc
+02-24-2016:19-42-01	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	Selected restaurant 0:	Ristorante Don Giovanni
+02-24-2016:19-42-05	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	Selected restaurant 0:	Ristorante Don Giovanni
+02-24-2016:19-42-05	---
+02-24-2016:19-42-06	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Italian, Vietnamese, Mediterranean, French
+User 1 preferences: 0-10	Mediterranean, Spanish, French, Italian, Vietnamese
+
+Ristorante Don Giovanni	Italian	0-10
+Oren's Hummus	Mediterranean	10-20
+Cascal	Spanish	30-60
+Pho To Chau	Vietnamese	20-30
+Pho Hoa	Vietnamese	30-60
+Morocco's	Mediterranean	10-20
+Doppio Zero	Italian	30-60
+Xanh Restaurant	Vietnamese	10-20
+Asian Box	Vietnamese	30-60
+Café Baklava	Mediterranean	10-20
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

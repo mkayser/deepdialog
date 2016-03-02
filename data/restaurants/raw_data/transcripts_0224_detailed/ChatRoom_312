@@ -1,0 +1,30 @@
+02-24-2016:19-49-18	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	joined
+02-24-2016:19-49-18	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0 has user ID 1393e15d6fde46cb9f4502aa09ae8331
+02-24-2016:19-49-18	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	joined
+02-24-2016:19-49-18	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1 has user ID 1c72f4728567475d8f76220880432e4e
+02-24-2016:19-49-23	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	Selected restaurant 2:	Shell Shock
+02-24-2016:19-49-24	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	French?
+02-24-2016:19-49-29	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	Selected restaurant 1:	Chez TJ
+02-24-2016:19-49-33	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	sure
+02-24-2016:19-49-33	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	Selected restaurant 1:	Chez TJ
+02-24-2016:19-49-34	---
+02-24-2016:19-49-34	---
+
+Chat Information:
+
+User 0 preferences: 0-10	French, Japanese, Korean, SeaFood, Italian
+User 1 preferences: 10-20	Japanese, French, SeaFood, Korean, Italian
+
+Shabuway	Japanese	30-60
+Chez TJ	French	30-60
+Shell Shock	SeaFood	10-20
+Totoro	Korean	20-30
+Rumble Fish	Japanese	30-60
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Doppio Zero	Italian	30-60
+Masa Sushi	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+
+Final selection: Chez TJUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,29 @@
+02-19-2016:16-38-46	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 0	joined
+02-19-2016:16-38-48	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 1	joined
+02-19-2016:16-39-01	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 1	Ristorante?
+02-19-2016:16-39-23	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 1	...
+02-19-2016:16-39-25	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 0	Ristorante Don Giovanni?
+02-19-2016:16-39-28	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 1	ya
+02-19-2016:16-39-31	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-39-33	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-39-33	---
+02-19-2016:16-39-34	---
+
+Chat Information:
+
+User 0 preferences: 0-10	French, Italian, Deli, Spanish, Mexican
+User 1 preferences: 0-10	French, Italian, Mexican, Deli, Spanish
+
+Vaso Azzurro	Italian	20-30
+Agave	Mexican	20-30
+Posh Bagel	Deli	10-20
+Ristorante Don Giovanni	Italian	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Chez TJ	French	30-60
+Taqueria Los Charros	Mexican	0-10
+Subway	Deli	10-20
+Doppio Zero	Italian	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

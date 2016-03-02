@@ -1,0 +1,34 @@
+02-19-2016:16-30-34	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 1	joined
+02-19-2016:16-30-37	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 0	joined
+02-19-2016:16-30-39	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 1	Hi! 
+02-19-2016:16-30-46	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 0	hi
+02-19-2016:16-30-46	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 1	What do you think about Rumble fish tonight?
+02-19-2016:16-30-55	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 0	not great
+02-19-2016:16-30-58	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 0	chinese food?
+02-19-2016:16-31-16	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 1	not really, but I could stand it at new mongolian
+02-19-2016:16-31-32	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 0	mmm....what about a sub?
+02-19-2016:16-31-43	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 1	posh?
+02-19-2016:16-31-48	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 0	sure
+02-19-2016:16-31-52	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-31-56	1ee6a508-3eac-48f8-8d5a-4cb3e225c7a3	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-31-56	---
+02-19-2016:16-31-56	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Chinese, Deli, Vietnamese, Korean, Japanese
+User 1 preferences: 30-60	Japanese, Deli, Vietnamese, Korean, Chinese
+
+New Mongolian BBQ	Chinese	30-60
+Masa Sushi	Japanese	0-10
+Posh Bagel	Deli	10-20
+Hunan Chili	Chinese	30-60
+Rumble Fish	Japanese	30-60
+Pho Hoa	Vietnamese	30-60
+Niji Sushi	Japanese	10-20
+Asian Box	Vietnamese	30-60
+Sushitomi	Japanese	20-30
+Shalala	Japanese	10-20
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

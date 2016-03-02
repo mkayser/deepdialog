@@ -1,0 +1,28 @@
+02-19-2016:16-32-47	996ebcff-20f5-46b2-a364-3d198bf9e1e6	User 0	joined
+02-19-2016:16-32-48	996ebcff-20f5-46b2-a364-3d198bf9e1e6	User 1	joined
+02-19-2016:16-32-52	996ebcff-20f5-46b2-a364-3d198bf9e1e6	User 0	hi
+02-19-2016:16-32-56	996ebcff-20f5-46b2-a364-3d198bf9e1e6	User 1	Lets have some thai!
+02-19-2016:16-32-57	996ebcff-20f5-46b2-a364-3d198bf9e1e6	User 0	Selected restaurant:	Shezan
+02-19-2016:16-33-00	996ebcff-20f5-46b2-a364-3d198bf9e1e6	User 0	indian?
+02-19-2016:16-33-02	996ebcff-20f5-46b2-a364-3d198bf9e1e6	User 1	Selected restaurant:	Shezan
+02-19-2016:16-33-03	---
+02-19-2016:16-33-03	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Indian, Thai, Japanese, American, Vietnamese
+User 1 preferences: 20-30	Thai, Indian, Japanese, American, Vietnamese
+
+Bangkok Spoon	Thai	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Bushido	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Asian Box	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Park Ballachi	Indian	0-10
+Masa Sushi	Japanese	0-10
+Shezan	Indian	10-20
+Yakko	Japanese	0-10
+
+Final selection: ShezanUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

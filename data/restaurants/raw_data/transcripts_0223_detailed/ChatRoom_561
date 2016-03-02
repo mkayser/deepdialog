@@ -1,0 +1,40 @@
+02-19-2016:16-41-21	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	joined
+02-19-2016:16-41-23	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	joined
+02-19-2016:16-41-41	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Hi! What kind of food do you like?
+02-19-2016:16-41-45	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	My name is Joy.
+02-19-2016:16-41-58	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	I like French.
+02-19-2016:16-42-13	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Selected restaurant:	Chez TJ
+02-19-2016:16-42-25	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	Hello. I'm more partial to Vietnamese or Japanese.
+02-19-2016:16-42-41	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	But I'm not too picky. French is fine.
+02-19-2016:16-42-42	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Hi! OK, I can be flexible. Japanese is good with me.
+02-19-2016:16-42-45	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	What's your name?
+02-19-2016:16-42-49	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	Kyle
+02-19-2016:16-42-52	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Nice to meet you.
+02-19-2016:16-42-55	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Hi, Kyle.
+02-19-2016:16-43-04	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Which Japanese?
+02-19-2016:16-43-14	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	How about Niji Sushi?
+02-19-2016:16-43-19	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	 There are multiple restaurants, and we are running out of time.
+02-19-2016:16-43-22	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Good with me.
+02-19-2016:16-43-28	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	Selected restaurant:	Niji Sushi
+02-19-2016:16-43-30	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Selected restaurant:	Niji Sushi
+02-19-2016:16-43-30	---
+02-19-2016:16-43-31	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Japanese, French, Pizza, Mediterranean
+User 1 preferences: 10-20	Japanese, Mediterranean, French, Vietnamese, Pizza
+
+Xanh Restaurant	Vietnamese	10-20
+Chez TJ	French	30-60
+Ryowa Noodle House	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Shabuway	Japanese	30-60
+Morocco's	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Pho To Chau	Vietnamese	20-30
+
+Final selection: Niji SushiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

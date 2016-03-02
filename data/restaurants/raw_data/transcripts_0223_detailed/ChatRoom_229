@@ -1,0 +1,30 @@
+02-19-2016:16-03-07	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 0	joined
+02-19-2016:16-03-07	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 1	joined
+02-19-2016:16-03-15	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 0	How about Shell Shock?
+02-19-2016:16-03-26	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 1	I'm allergic to seafood. :(
+02-19-2016:16-03-36	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 0	Agave instead?
+02-19-2016:16-03-52	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 1	Sure, I heard they have great tacos!
+02-19-2016:16-03-56	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 1	And margaritas...
+02-19-2016:16-03-59	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 0	Selected restaurant:	Agave
+02-19-2016:16-04-00	8d246b2f-ae71-4365-bdd9-360bc32bdbee	User 1	Selected restaurant:	Agave
+02-19-2016:16-04-00	---
+02-19-2016:16-04-00	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Mexican, Vietnamese, Mediterranean, French
+User 1 preferences: 30-60	Mediterranean, Mexican, Vietnamese, SeaFood, French
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Chez TJ	French	30-60
+Ehpesus	Mediterranean	0-10
+Shell Shock	SeaFood	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Agave	Mexican	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Morocco's	Mediterranean	10-20
+Oren's Hummus	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: AgaveUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

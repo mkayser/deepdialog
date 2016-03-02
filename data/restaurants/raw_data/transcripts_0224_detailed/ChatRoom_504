@@ -1,0 +1,29 @@
+02-24-2016:19-54-17	3de3298a-d32a-4d24-8a20-71e26a7d8834	User 1	joined
+02-24-2016:19-54-17	3de3298a-d32a-4d24-8a20-71e26a7d8834	User 1 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:19-54-17	3de3298a-d32a-4d24-8a20-71e26a7d8834	User 0	joined
+02-24-2016:19-54-17	3de3298a-d32a-4d24-8a20-71e26a7d8834	User 0 has user ID 12dfd22b352441e0ae363490f50068fc
+02-24-2016:19-54-23	3de3298a-d32a-4d24-8a20-71e26a7d8834	User 0	Hey, how does Subway sound?
+02-24-2016:19-54-33	3de3298a-d32a-4d24-8a20-71e26a7d8834	User 1	Ok
+02-24-2016:19-54-36	3de3298a-d32a-4d24-8a20-71e26a7d8834	User 1	Selected restaurant 8:	Subway
+02-24-2016:19-54-36	3de3298a-d32a-4d24-8a20-71e26a7d8834	User 0	Selected restaurant 8:	Subway
+02-24-2016:19-54-37	---
+02-24-2016:19-54-37	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Mexican, Mediterranean, Korean, Italian
+User 1 preferences: 0-10	Deli, Mexican, Korean, Mediterranean, Italian
+
+Mediterranean Grill House	Mediterranean	0-10
+Totoro	Korean	20-30
+Café Baklava	Mediterranean	10-20
+Ristorante Don Giovanni	Italian	0-10
+Agave	Mexican	20-30
+Morocco's	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Oren's Hummus	Mediterranean	10-20
+Subway	Deli	10-20
+Ginseng	Korean	10-20
+
+Final selection: SubwayUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

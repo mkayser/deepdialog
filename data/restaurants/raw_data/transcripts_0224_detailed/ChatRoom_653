@@ -1,0 +1,28 @@
+02-24-2016:20-01-51	546f25b4-33ed-4395-8d2e-ea27bfde8503	User 1	joined
+02-24-2016:20-01-51	546f25b4-33ed-4395-8d2e-ea27bfde8503	User 1 has user ID a8feb03f2d914cf190086a19dfc22193
+02-24-2016:20-01-51	546f25b4-33ed-4395-8d2e-ea27bfde8503	User 0	joined
+02-24-2016:20-01-51	546f25b4-33ed-4395-8d2e-ea27bfde8503	User 0 has user ID 6dc8794cd43543a283d457c40fd5be37
+02-24-2016:20-01-54	546f25b4-33ed-4395-8d2e-ea27bfde8503	User 1	Deli
+02-24-2016:20-01-55	546f25b4-33ed-4395-8d2e-ea27bfde8503	User 0	Selected restaurant 4:	Morocco's
+02-24-2016:20-02-02	546f25b4-33ed-4395-8d2e-ea27bfde8503	User 1	Selected restaurant 4:	Morocco's
+02-24-2016:20-02-03	---
+02-24-2016:20-02-03	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Chinese, Spanish, Mediterranean, Mexican
+User 1 preferences: 10-20	Deli, Chinese, Mediterranean, Mexican, Spanish
+
+New Mongolian BBQ	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Cascal	Spanish	30-60
+Morocco's	Mediterranean	10-20
+Queen House	Chinese	0-10
+Hunan Chili	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Agave	Mexican	20-30
+
+Final selection: Morocco'sUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

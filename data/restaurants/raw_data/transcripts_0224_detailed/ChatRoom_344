@@ -1,0 +1,27 @@
+02-24-2016:19-50-12	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 1	joined
+02-24-2016:19-50-12	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 1 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:19-50-17	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 0	joined
+02-24-2016:19-50-17	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 0 has user ID 20564f20d8714dc4af09c24a64219e9f
+02-24-2016:19-50-29	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 0	Selected restaurant 6:	Xanh Restaurant
+02-24-2016:19-50-35	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 1	Selected restaurant 6:	Xanh Restaurant
+02-24-2016:19-50-35	---
+02-24-2016:19-50-36	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Vietnamese, Mexican, Italian, Korean, French
+User 1 preferences: 10-20	Italian, French, Mexican, Korean, Vietnamese
+
+Ristorante Don Giovanni	Italian	0-10
+Taqueria Los Charros	Mexican	0-10
+Agave	Mexican	20-30
+Doppio Zero	Italian	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Asian Box	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Pho Hoa	Vietnamese	30-60
+Totoro	Korean	20-30
+
+Final selection: Xanh RestaurantUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

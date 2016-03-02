@@ -1,0 +1,30 @@
+02-19-2016:15-40-31	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 0	joined
+02-19-2016:15-40-34	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 1	joined
+02-19-2016:15-40-46	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 1	Want to go to Bierhaus?
+02-19-2016:15-41-13	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 0	No, not really
+02-19-2016:15-41-28	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 0	How about some French food?
+02-19-2016:15-41-38	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 1	We could do Chez TJ
+02-19-2016:15-41-50	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 0	ok. 
+02-19-2016:15-41-51	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 1	Selected restaurant:	Chez TJ
+02-19-2016:15-41-55	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 0	Selected restaurant:	Chez TJ
+02-19-2016:15-41-55	---
+02-19-2016:15-41-55	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, French, Italian, American, Chinese
+User 1 preferences: 10-20	American, French, Italian, Spanish, Chinese
+
+Chez TJ	French	30-60
+Ristorante Don Giovanni	Italian	0-10
+Bierhaus	American	0-10
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+Vaso Azzurro	Italian	20-30
+Queen House	Chinese	0-10
+Steins Beer Garden	American	20-30
+Cascal	Spanish	30-60
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,30 @@
+02-24-2016:19-42-48	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 0	joined
+02-24-2016:19-42-48	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 0 has user ID 5442047d286246d4831d271e9201ffbe
+02-24-2016:19-42-48	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 1	joined
+02-24-2016:19-42-48	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 1 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-43-08	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 1	Mediterranean grill house is what I'm craving
+02-24-2016:19-43-10	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 1	How about it?
+02-24-2016:19-43-18	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 0	That is perfect !
+02-24-2016:19-43-24	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 0	Selected restaurant 6:	Mediterranean Grill House
+02-24-2016:19-43-26	5bf30de6-d39b-42e9-85bd-8180ddf9d8e1	User 1	Selected restaurant 6:	Mediterranean Grill House
+02-24-2016:19-43-26	---
+02-24-2016:19-43-27	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Chinese, SeaFood, French, Spanish
+User 1 preferences: 0-10	Mediterranean, Chinese, Spanish, SeaFood, French
+
+Shell Shock	SeaFood	10-20
+Kirin	Chinese	10-20
+Chez TJ	French	30-60
+Oren's Hummus	Mediterranean	10-20
+Cascal	Spanish	30-60
+Hong Kong Bistro	Chinese	20-30
+Mediterranean Grill House	Mediterranean	0-10
+New Mongolian BBQ	Chinese	30-60
+Morocco's	Mediterranean	10-20
+Café Baklava	Mediterranean	10-20
+
+Final selection: Mediterranean Grill HouseUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

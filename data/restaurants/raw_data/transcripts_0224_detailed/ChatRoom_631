@@ -1,0 +1,29 @@
+02-24-2016:20-00-45	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 1	joined
+02-24-2016:20-00-45	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 1 has user ID 6dc8794cd43543a283d457c40fd5be37
+02-24-2016:20-00-46	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 0	joined
+02-24-2016:20-00-46	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 0 has user ID 72c8d67e547348d6a886baa109ea6c7a
+02-24-2016:20-00-48	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 1	Selected restaurant 1:	Doppio Zero
+02-24-2016:20-00-48	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 0	hi baby
+02-24-2016:20-00-56	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 1	we're gonna make out after dinner
+02-24-2016:20-01-10	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 0	Selected restaurant 1:	Doppio Zero
+02-24-2016:20-01-10	---
+02-24-2016:20-01-10	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Indian, Thai, Italian, Deli, Chinese
+User 1 preferences: 30-60	Deli, Thai, Indian, Chinese, Italian
+
+Amarin Thai Cuisine	Thai	20-30
+Doppio Zero	Italian	30-60
+Bangkok Spoon	Thai	30-60
+Ristorante Don Giovanni	Italian	0-10
+Hunan Chili	Chinese	30-60
+Posh Bagel	Deli	10-20
+New Mongolian BBQ	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Park Ballachi	Indian	0-10
+Kirin	Chinese	10-20
+
+Final selection: Doppio ZeroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

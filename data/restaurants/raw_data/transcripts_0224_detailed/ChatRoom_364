@@ -1,0 +1,31 @@
+02-24-2016:19-50-38	00a1c4fa-376b-498d-9812-61d88a263da4	User 0	joined
+02-24-2016:19-50-38	00a1c4fa-376b-498d-9812-61d88a263da4	User 0 has user ID 96d42710883249c7a3611371ae1ae951
+02-24-2016:19-50-39	00a1c4fa-376b-498d-9812-61d88a263da4	User 1	joined
+02-24-2016:19-50-39	00a1c4fa-376b-498d-9812-61d88a263da4	User 1 has user ID d3b7ef4428254d3ab7a0802bf5f803d2
+02-24-2016:19-50-46	00a1c4fa-376b-498d-9812-61d88a263da4	User 1	ristorante?
+02-24-2016:19-51-12	00a1c4fa-376b-498d-9812-61d88a263da4	User 0	French or vietnamese?
+02-24-2016:19-51-23	00a1c4fa-376b-498d-9812-61d88a263da4	User 1	viet
+02-24-2016:19-51-30	00a1c4fa-376b-498d-9812-61d88a263da4	User 1	pho?
+02-24-2016:19-51-31	00a1c4fa-376b-498d-9812-61d88a263da4	User 0	Selected restaurant 4:	Pho Hoa
+02-24-2016:19-51-33	00a1c4fa-376b-498d-9812-61d88a263da4	User 1	Selected restaurant 4:	Pho Hoa
+02-24-2016:19-51-34	---
+02-24-2016:19-51-34	---
+
+Chat Information:
+
+User 0 preferences: 20-30	French, Vietnamese, Italian, SeaFood, Mexican
+User 1 preferences: 10-20	Italian, SeaFood, Mexican, Vietnamese, French
+
+Taqueria Los Charros	Mexican	0-10
+Ristorante Don Giovanni	Italian	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Shell Shock	SeaFood	10-20
+Pho Hoa	Vietnamese	30-60
+Doppio Zero	Italian	30-60
+Vaso Azzurro	Italian	20-30
+Chez TJ	French	30-60
+Drunken Lobster	SeaFood	10-20
+Agave	Mexican	20-30
+
+Final selection: Pho HoaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

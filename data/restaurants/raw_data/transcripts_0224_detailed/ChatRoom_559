@@ -1,0 +1,30 @@
+02-24-2016:19-57-05	a1802c11-cd34-44b3-8ec6-895940184995	User 1	joined
+02-24-2016:19-57-05	a1802c11-cd34-44b3-8ec6-895940184995	User 1 has user ID 757a79ba8ec34bbd8f4acc291696d015
+02-24-2016:19-57-05	a1802c11-cd34-44b3-8ec6-895940184995	User 0	joined
+02-24-2016:19-57-05	a1802c11-cd34-44b3-8ec6-895940184995	User 0 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:19-57-09	a1802c11-cd34-44b3-8ec6-895940184995	User 0	Hey yo
+02-24-2016:19-57-14	a1802c11-cd34-44b3-8ec6-895940184995	User 0	How about Mash Sushi?
+02-24-2016:19-57-23	a1802c11-cd34-44b3-8ec6-895940184995	User 1	hi sounds good
+02-24-2016:19-57-24	a1802c11-cd34-44b3-8ec6-895940184995	User 0	Selected restaurant 4:	Masa Sushi
+02-24-2016:19-57-29	a1802c11-cd34-44b3-8ec6-895940184995	User 1	Selected restaurant 4:	Masa Sushi
+02-24-2016:19-57-29	---
+02-24-2016:19-57-29	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Japanese, Mexican, Italian, Indian, Chinese
+User 1 preferences: 10-20	Indian, Chinese, Mexican, Japanese, Italian
+
+Niji Sushi	Japanese	10-20
+Shezan	Indian	10-20
+Taqueria Los Charros	Mexican	0-10
+Kappo Naminami	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Ristorante Don Giovanni	Italian	0-10
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+Park Ballachi	Indian	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: Masa SushiUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

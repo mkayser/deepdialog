@@ -1,0 +1,25 @@
+02-19-2016:16-37-40	27b97cb6-7711-4eac-8e16-7d67ecaf1d9f	User 0	joined
+02-19-2016:16-37-42	27b97cb6-7711-4eac-8e16-7d67ecaf1d9f	User 1	joined
+02-19-2016:16-37-43	27b97cb6-7711-4eac-8e16-7d67ecaf1d9f	User 1	Selected restaurant:	Pho To Chau
+02-19-2016:16-37-47	27b97cb6-7711-4eac-8e16-7d67ecaf1d9f	User 0	Selected restaurant:	Pho To Chau
+02-19-2016:16-37-47	---
+02-19-2016:16-37-47	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Vietnamese, Korean, Pizza, Japanese
+User 1 preferences: 0-10	Japanese, Korean, Vietnamese, Pizza, Italian
+
+Blue Line Pizza	Pizza	10-20
+Ginseng	Korean	10-20
+Pho To Chau	Vietnamese	20-30
+Sushitomi	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Bushido	Japanese	10-20
+Yakko	Japanese	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Asian Box	Vietnamese	30-60
+Maruichi Noodle House	Japanese	0-10
+
+Final selection: Pho To ChauUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

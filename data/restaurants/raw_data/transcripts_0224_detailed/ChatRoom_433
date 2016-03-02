@@ -1,0 +1,31 @@
+02-24-2016:19-52-32	63be4c53-fef6-4174-a714-95aada004522	User 1	joined
+02-24-2016:19-52-32	63be4c53-fef6-4174-a714-95aada004522	User 1 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:19-52-34	63be4c53-fef6-4174-a714-95aada004522	User 0	joined
+02-24-2016:19-52-34	63be4c53-fef6-4174-a714-95aada004522	User 0 has user ID 383f38ef4e444d45841915071886b100
+02-24-2016:19-52-39	63be4c53-fef6-4174-a714-95aada004522	User 1	Burger??
+02-24-2016:19-52-59	63be4c53-fef6-4174-a714-95aada004522	User 1	How about Casa Lupe?
+02-24-2016:19-53-06	63be4c53-fef6-4174-a714-95aada004522	User 0	Fiesta Del Mar?
+02-24-2016:19-53-15	63be4c53-fef6-4174-a714-95aada004522	User 1	Im game if you are
+02-24-2016:19-53-19	63be4c53-fef6-4174-a714-95aada004522	User 0	Selected restaurant 0:	Fiesta Del Mar Too
+02-24-2016:19-53-23	63be4c53-fef6-4174-a714-95aada004522	User 1	Selected restaurant 0:	Fiesta Del Mar Too
+02-24-2016:19-53-23	---
+02-24-2016:19-53-24	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Mexican, American, Indian, Spanish
+User 1 preferences: 30-60	American, Italian, Indian, Mexican, Spanish
+
+Fiesta Del Mar Too	Mexican	10-20
+Agave	Mexican	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Sakoon	Indian	30-60
+Cascal	Spanish	30-60
+Bierhaus	American	0-10
+Scratch	American	0-10
+Shezan	Indian	10-20
+Taqueria Los Charros	Mexican	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Fiesta Del Mar TooUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

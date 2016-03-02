@@ -1,0 +1,27 @@
+02-19-2016:16-27-26	49bf0795-e46e-4a61-874f-c0ddf9563395	User 1	joined
+02-19-2016:16-27-28	49bf0795-e46e-4a61-874f-c0ddf9563395	User 0	joined
+02-19-2016:16-27-47	49bf0795-e46e-4a61-874f-c0ddf9563395	User 0	Wanna go to Cascal? 
+02-19-2016:16-27-53	49bf0795-e46e-4a61-874f-c0ddf9563395	User 1	Sure that sounds good
+02-19-2016:16-27-57	49bf0795-e46e-4a61-874f-c0ddf9563395	User 1	Selected restaurant:	Cascal
+02-19-2016:16-27-58	49bf0795-e46e-4a61-874f-c0ddf9563395	User 0	Selected restaurant:	Cascal
+02-19-2016:16-27-59	---
+02-19-2016:16-27-59	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, SeaFood, Deli, Vietnamese, French
+User 1 preferences: 30-60	Vietnamese, French, Spanish, Deli, SeaFood
+
+Shell Shock	SeaFood	10-20
+Asian Box	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Posh Bagel	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+Drunken Lobster	SeaFood	10-20
+Cascal	Spanish	30-60
+Subway	Deli	10-20
+Chez TJ	French	30-60
+Pho To Chau	Vietnamese	20-30
+
+Final selection: CascalUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,29 @@
+02-24-2016:19-45-54	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 1	joined
+02-24-2016:19-45-54	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 1 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:19-45-55	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 0	joined
+02-24-2016:19-45-55	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 0 has user ID 1185fb427e3d49c29548e288ddc13446
+02-24-2016:19-46-10	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 1	scratch/?'
+02-24-2016:19-46-12	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 1	Selected restaurant 2:	Scratch
+02-24-2016:19-46-14	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 0	ok
+02-24-2016:19-46-16	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 0	Selected restaurant 2:	Scratch
+02-24-2016:19-46-16	---
+02-24-2016:19-46-16	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Indian, Chinese, French, American, Italian
+User 1 preferences: 10-20	American, Indian, Italian, Chinese, French
+
+Fu Lam Mum	Chinese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Scratch	American	0-10
+Bierhaus	American	0-10
+Park Ballachi	Indian	0-10
+Kirin	Chinese	10-20
+Chez TJ	French	30-60
+Shezan	Indian	10-20
+Vaso Azzurro	Italian	20-30
+Queen House	Chinese	0-10
+
+Final selection: ScratchUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

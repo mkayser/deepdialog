@@ -1,0 +1,34 @@
+02-19-2016:16-29-49	da14228b-40a8-452c-919b-abce4c6c2d6d	User 1	joined
+02-19-2016:16-29-50	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	joined
+02-19-2016:16-29-53	da14228b-40a8-452c-919b-abce4c6c2d6d	User 1	Hi
+02-19-2016:16-29-56	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	Hey how's it going?
+02-19-2016:16-30-05	da14228b-40a8-452c-919b-abce4c6c2d6d	User 1	Good, but hungry!
+02-19-2016:16-30-07	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	I am into Mongolian BBQ
+02-19-2016:16-30-12	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	How about you?
+02-19-2016:16-30-18	da14228b-40a8-452c-919b-abce4c6c2d6d	User 1	Can I join you?
+02-19-2016:16-30-18	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	Sooo hungry
+02-19-2016:16-30-24	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	Yup!
+02-19-2016:16-30-31	da14228b-40a8-452c-919b-abce4c6c2d6d	User 1	Selected restaurant:	New Mongolian BBQ
+02-19-2016:16-30-37	da14228b-40a8-452c-919b-abce4c6c2d6d	User 1	Cool
+02-19-2016:16-30-37	da14228b-40a8-452c-919b-abce4c6c2d6d	User 0	Selected restaurant:	New Mongolian BBQ
+02-19-2016:16-30-37	---
+02-19-2016:16-30-37	---
+
+Chat Information:
+
+User 0 preferences: 30-60	SeaFood, French, Vietnamese, Japanese, Chinese
+User 1 preferences: 0-10	SeaFood, French, Chinese, Japanese, Vietnamese
+
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Niji Sushi	Japanese	10-20
+Xanh Restaurant	Vietnamese	10-20
+New Mongolian BBQ	Chinese	30-60
+Masa Sushi	Japanese	0-10
+Asian Box	Vietnamese	30-60
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Chez TJ	French	30-60
+
+Final selection: New Mongolian BBQUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

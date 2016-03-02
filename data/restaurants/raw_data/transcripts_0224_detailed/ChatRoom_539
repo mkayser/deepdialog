@@ -1,0 +1,31 @@
+02-24-2016:19-55-55	97843dc3-d313-4ec9-9637-099822d84319	User 1	joined
+02-24-2016:19-55-55	97843dc3-d313-4ec9-9637-099822d84319	User 1 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:19-55-56	97843dc3-d313-4ec9-9637-099822d84319	User 0	joined
+02-24-2016:19-55-56	97843dc3-d313-4ec9-9637-099822d84319	User 0 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:19-55-59	97843dc3-d313-4ec9-9637-099822d84319	User 0	I feel line chinese.
+02-24-2016:19-56-01	97843dc3-d313-4ec9-9637-099822d84319	User 1	Selected restaurant 2:	Hunan Chili
+02-24-2016:19-56-01	97843dc3-d313-4ec9-9637-099822d84319	User 0	How about Hunan?
+02-24-2016:19-56-06	97843dc3-d313-4ec9-9637-099822d84319	User 0	like*
+02-24-2016:19-56-06	97843dc3-d313-4ec9-9637-099822d84319	User 1	done
+02-24-2016:19-56-09	97843dc3-d313-4ec9-9637-099822d84319	User 0	Selected restaurant 2:	Hunan Chili
+02-24-2016:19-56-09	---
+02-24-2016:19-56-09	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Deli, American, Mediterranean, Spanish
+User 1 preferences: 10-20	Chinese, Mediterranean, Deli, American, Spanish
+
+Mediterranean Grill House	Mediterranean	0-10
+The Crepevine	American	30-60
+Hunan Chili	Chinese	30-60
+Oren's Hummus	Mediterranean	10-20
+Queen House	Chinese	0-10
+Bierhaus	American	0-10
+Scratch	American	0-10
+Subway	Deli	10-20
+Ehpesus	Mediterranean	0-10
+Cascal	Spanish	30-60
+
+Final selection: Hunan ChiliUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,27 @@
+02-24-2016:19-49-04	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 0	joined
+02-24-2016:19-49-04	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 0 has user ID 3d8c57e2643c4a70927a8d5384de185e
+02-24-2016:19-49-05	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 1	joined
+02-24-2016:19-49-05	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 1 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-49-16	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 1	Selected restaurant 1:	Asian Box
+02-24-2016:19-49-22	e2bc7fcc-b825-4ade-ba4a-55de6da8ef81	User 0	Selected restaurant 1:	Asian Box
+02-24-2016:19-49-23	---
+02-24-2016:19-49-23	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Korean, Mexican, Vietnamese, Deli, American
+User 1 preferences: 20-30	Vietnamese, American, Deli, Mexican, Korean
+
+Scratch	American	0-10
+Asian Box	Vietnamese	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Xanh Restaurant	Vietnamese	10-20
+Subway	Deli	10-20
+Bierhaus	American	0-10
+Agave	Mexican	20-30
+Steins Beer Garden	American	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Pho To Chau	Vietnamese	20-30
+
+Final selection: Asian BoxUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

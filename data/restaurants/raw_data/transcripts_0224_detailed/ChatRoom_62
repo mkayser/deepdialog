@@ -1,0 +1,28 @@
+02-24-2016:19-38-33	5a62018a-064c-42de-aac2-56793a63fdad	User 0	joined
+02-24-2016:19-38-33	5a62018a-064c-42de-aac2-56793a63fdad	User 0 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-38-33	5a62018a-064c-42de-aac2-56793a63fdad	User 1	joined
+02-24-2016:19-38-33	5a62018a-064c-42de-aac2-56793a63fdad	User 1 has user ID 1393e15d6fde46cb9f4502aa09ae8331
+02-24-2016:19-38-40	5a62018a-064c-42de-aac2-56793a63fdad	User 0	Selected restaurant 1:	Hunan Chili
+02-24-2016:19-38-52	5a62018a-064c-42de-aac2-56793a63fdad	User 0	Chinese?
+02-24-2016:19-38-55	5a62018a-064c-42de-aac2-56793a63fdad	User 1	Selected restaurant 1:	Hunan Chili
+02-24-2016:19-38-55	---
+02-24-2016:19-38-55	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Chinese, Italian, Indian, Pizza, Japanese
+User 1 preferences: 30-60	Japanese, Indian, Italian, Pizza, Chinese
+
+Masa Sushi	Japanese	0-10
+Hunan Chili	Chinese	30-60
+New Mongolian BBQ	Chinese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Queen House	Chinese	0-10
+Kappo Naminami	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Shabuway	Japanese	30-60
+Blue Line Pizza	Pizza	10-20
+Vaso Azzurro	Italian	20-30
+
+Final selection: Hunan ChiliUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

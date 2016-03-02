@@ -1,0 +1,26 @@
+02-24-2016:19-48-51	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 1	joined
+02-24-2016:19-48-51	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 1 has user ID 7e2a61d4126442ffbe04457f7627eb3c
+02-24-2016:19-48-52	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 0	joined
+02-24-2016:19-48-52	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 0 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-48-55	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 1	Selected restaurant 2:	Blue Line Pizza
+02-24-2016:19-48-59	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 0	Selected restaurant 2:	Blue Line Pizza
+02-24-2016:19-48-59	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, Pizza, Italian, Vietnamese, French
+User 1 preferences: 0-10	Pizza, Spanish, Italian, Vietnamese, French
+
+Chez TJ	French	30-60
+Pho To Chau	Vietnamese	20-30
+Blue Line Pizza	Pizza	10-20
+Cascal	Spanish	30-60
+Xanh Restaurant	Vietnamese	10-20
+Doppio Zero	Italian	30-60
+Ristorante Don Giovanni	Italian	0-10
+Asian Box	Vietnamese	30-60
+Pho Hoa	Vietnamese	30-60
+Vaso Azzurro	Italian	20-30
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

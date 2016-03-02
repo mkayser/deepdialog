@@ -1,0 +1,29 @@
+02-24-2016:20-03-50	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 1	joined
+02-24-2016:20-03-50	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 1 has user ID 1e7d23c916b7426aa7356a7313658cdf
+02-24-2016:20-03-51	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 0	joined
+02-24-2016:20-03-51	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 0 has user ID 0b2be01ca959434c9f60c8c19dca7236
+02-24-2016:20-04-01	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 1	chinese
+02-24-2016:20-04-05	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 1	Selected restaurant 3:	Fu Lam Mum
+02-24-2016:20-04-12	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 0	Selected restaurant 1:	Kirin
+02-24-2016:20-04-16	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 1	Selected restaurant 1:	Kirin
+02-24-2016:20-04-16	---
+02-24-2016:20-04-16	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Chinese, American, Thai, Pizza
+User 1 preferences: 20-30	Chinese, Pizza, Thai, Indian, American
+
+Blue Line Pizza	Pizza	10-20
+Kirin	Chinese	10-20
+New Mongolian BBQ	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Bierhaus	American	0-10
+Sakoon	Indian	30-60
+Steins Beer Garden	American	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Shezan	Indian	10-20
+
+Final selection: KirinUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

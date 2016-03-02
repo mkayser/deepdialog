@@ -1,0 +1,28 @@
+02-24-2016:20-15-42	5155378b-7993-44a5-8e2a-848fbbdc6175	User 1	joined
+02-24-2016:20-15-42	5155378b-7993-44a5-8e2a-848fbbdc6175	User 1 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:20-15-42	5155378b-7993-44a5-8e2a-848fbbdc6175	User 0	joined
+02-24-2016:20-15-42	5155378b-7993-44a5-8e2a-848fbbdc6175	User 0 has user ID 636466e4c18f4aa0ab4ae2d4c678f8b3
+02-24-2016:20-15-48	5155378b-7993-44a5-8e2a-848fbbdc6175	User 0	Selected restaurant 9:	Cascal
+02-24-2016:20-15-48	5155378b-7993-44a5-8e2a-848fbbdc6175	User 1	Spanish food?
+02-24-2016:20-15-52	5155378b-7993-44a5-8e2a-848fbbdc6175	User 1	Selected restaurant 9:	Cascal
+02-24-2016:20-15-52	---
+02-24-2016:20-15-52	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Spanish, SeaFood, French, Indian, American
+User 1 preferences: 30-60	Spanish, American, French, Indian, SeaFood
+
+The Crepevine	American	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Shell Shock	SeaFood	10-20
+Park Ballachi	Indian	0-10
+Steins Beer Garden	American	20-30
+Shezan	Indian	10-20
+Sakoon	Indian	30-60
+Scratch	American	0-10
+Chez TJ	French	30-60
+Cascal	Spanish	30-60
+
+Final selection: CascalUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

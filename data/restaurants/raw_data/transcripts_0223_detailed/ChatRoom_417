@@ -1,0 +1,33 @@
+02-19-2016:16-29-02	46809d62-6370-47f2-b2a7-43ab55506259	User 1	joined
+02-19-2016:16-29-04	46809d62-6370-47f2-b2a7-43ab55506259	User 0	joined
+02-19-2016:16-29-11	46809d62-6370-47f2-b2a7-43ab55506259	User 1	japanese?
+02-19-2016:16-29-18	46809d62-6370-47f2-b2a7-43ab55506259	User 0	Oh no. Italian?
+02-19-2016:16-29-26	46809d62-6370-47f2-b2a7-43ab55506259	User 1	what about pizza?
+02-19-2016:16-29-34	46809d62-6370-47f2-b2a7-43ab55506259	User 1	that's close
+02-19-2016:16-29-39	46809d62-6370-47f2-b2a7-43ab55506259	User 0	I can do that. 
+02-19-2016:16-29-45	46809d62-6370-47f2-b2a7-43ab55506259	User 0	Amicis?
+02-19-2016:16-29-51	46809d62-6370-47f2-b2a7-43ab55506259	User 1	amicis?
+02-19-2016:16-29-54	46809d62-6370-47f2-b2a7-43ab55506259	User 1	great
+02-19-2016:16-29-56	46809d62-6370-47f2-b2a7-43ab55506259	User 0	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-30-00	46809d62-6370-47f2-b2a7-43ab55506259	User 1	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-30-00	---
+02-19-2016:16-30-00	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Italian, Pizza, Japanese, Deli, Mexican
+User 1 preferences: 30-60	Japanese, Pizza, Italian, Deli, Mexican
+
+Ristorante Don Giovanni	Italian	0-10
+Agave	Mexican	20-30
+Kappo Naminami	Japanese	30-60
+Doppio Zero	Italian	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Subway	Deli	10-20
+Yakko	Japanese	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Shalala	Japanese	10-20
+Shabuway	Japanese	30-60
+
+Final selection: Amici's East Coast PizzeriaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

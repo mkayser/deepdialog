@@ -1,0 +1,26 @@
+02-19-2016:16-55-02	8512190d-7db4-41c0-aa51-c51fdc62f713	User 1	joined
+02-19-2016:16-55-03	8512190d-7db4-41c0-aa51-c51fdc62f713	User 0	joined
+02-19-2016:16-55-05	8512190d-7db4-41c0-aa51-c51fdc62f713	User 1	pick one
+02-19-2016:16-55-08	8512190d-7db4-41c0-aa51-c51fdc62f713	User 0	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-55-10	8512190d-7db4-41c0-aa51-c51fdc62f713	User 1	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-55-11	---
+02-19-2016:16-56-10	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Vietnamese, Pizza, Korean, Mediterranean
+User 1 preferences: 10-20	Pizza, Vietnamese, Mediterranean, Korean, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Café Baklava	Mediterranean	10-20
+Queen House	Chinese	0-10
+New Mongolian BBQ	Chinese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Hong Kong Bistro	Chinese	20-30
+Fu Lam Mum	Chinese	30-60
+Blue Line Pizza	Pizza	10-20
+Ehpesus	Mediterranean	0-10
+Kirin	Chinese	10-20
+
+Final selection: Amici's East Coast PizzeriaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

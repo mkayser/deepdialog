@@ -1,0 +1,31 @@
+02-24-2016:19-35-00	518caa92-e646-427f-9887-64b49ccc55f0	User 1	joined
+02-24-2016:19-35-00	518caa92-e646-427f-9887-64b49ccc55f0	User 1 has user ID ee398c9fd94c434299627da9c2adc0a9
+02-24-2016:19-35-11	518caa92-e646-427f-9887-64b49ccc55f0	User 0	joined
+02-24-2016:19-35-11	518caa92-e646-427f-9887-64b49ccc55f0	User 0 has user ID a08eb0381f614efb81f21a4ed99a6912
+02-24-2016:19-35-16	518caa92-e646-427f-9887-64b49ccc55f0	User 1	hi friend what sounds good to you
+02-24-2016:19-35-20	518caa92-e646-427f-9887-64b49ccc55f0	User 1	price is no object
+02-24-2016:19-35-40	518caa92-e646-427f-9887-64b49ccc55f0	User 0	Hmm. How about Totoro then?
+02-24-2016:19-35-48	518caa92-e646-427f-9887-64b49ccc55f0	User 0	Selected restaurant 1:	Totoro
+02-24-2016:19-35-53	518caa92-e646-427f-9887-64b49ccc55f0	User 1	that's perfect! i would have chosen it just for the name
+02-24-2016:19-35-56	518caa92-e646-427f-9887-64b49ccc55f0	User 1	Selected restaurant 1:	Totoro
+02-24-2016:19-35-56	---
+02-24-2016:19-35-58	---
+
+Chat Information:
+
+User 0 preferences: 20-30	French, Italian, Korean, Pizza, Japanese
+User 1 preferences: 20-30	Japanese, Italian, Pizza, Korean, French
+
+Bushido	Japanese	10-20
+Totoro	Korean	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+Ristorante Don Giovanni	Italian	0-10
+Shalala	Japanese	10-20
+Ryowa Noodle House	Japanese	20-30
+Ginseng	Korean	10-20
+Shabuway	Japanese	30-60
+Rumble Fish	Japanese	30-60
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

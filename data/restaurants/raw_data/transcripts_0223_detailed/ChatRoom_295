@@ -1,0 +1,27 @@
+02-19-2016:16-13-02	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 1	joined
+02-19-2016:16-13-02	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	joined
+02-19-2016:16-13-11	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	I would love to eat at Subway 789
+02-19-2016:16-13-16	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 1	Okay.
+02-19-2016:16-13-20	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 0	Selected restaurant:	Subway
+02-19-2016:16-13-21	29f14a74-47e0-4788-8d3d-86bac11ff4cc	User 1	Selected restaurant:	Subway
+02-19-2016:16-13-21	---
+02-19-2016:16-13-21	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Deli, Chinese, Italian, French
+User 1 preferences: 0-10	Spanish, French, Deli, Italian, Chinese
+
+Hong Kong Bistro	Chinese	20-30
+Vaso Azzurro	Italian	20-30
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Posh Bagel	Deli	10-20
+Subway	Deli	10-20
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Doppio Zero	Italian	30-60
+Chez TJ	French	30-60
+
+Final selection: SubwayUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

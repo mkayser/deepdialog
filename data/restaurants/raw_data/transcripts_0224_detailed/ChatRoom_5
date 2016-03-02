@@ -1,0 +1,28 @@
+02-24-2016:19-34-26	54027d86-a1d6-4cc3-8938-479c4e861b20	User 0	joined
+02-24-2016:19-34-26	54027d86-a1d6-4cc3-8938-479c4e861b20	User 0 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-34-27	54027d86-a1d6-4cc3-8938-479c4e861b20	User 1	joined
+02-24-2016:19-34-27	54027d86-a1d6-4cc3-8938-479c4e861b20	User 1 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-34-40	54027d86-a1d6-4cc3-8938-479c4e861b20	User 0	Shell shock
+02-24-2016:19-35-01	54027d86-a1d6-4cc3-8938-479c4e861b20	User 0	Selected restaurant 0:	Shell Shock
+02-24-2016:19-35-11	54027d86-a1d6-4cc3-8938-479c4e861b20	User 1	Selected restaurant 0:	Shell Shock
+02-24-2016:19-35-11	---
+02-24-2016:19-35-11	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Mexican, Indian, SeaFood, Chinese, Spanish
+User 1 preferences: 0-10	SeaFood, Indian, Chinese, Mexican, Spanish
+
+Shell Shock	SeaFood	10-20
+Agave	Mexican	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+Fu Lam Mum	Chinese	30-60
+Shezan	Indian	10-20
+Hong Kong Bistro	Chinese	20-30
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Shell ShockUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

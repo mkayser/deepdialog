@@ -1,0 +1,28 @@
+02-24-2016:19-49-59	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	joined
+02-24-2016:19-49-59	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-49-59	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0	joined
+02-24-2016:19-49-59	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0 has user ID 166bcadc45f8455e86e59960617b71f9
+02-24-2016:19-50-06	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	Selected restaurant 3:	Oren's Hummus
+02-24-2016:19-50-09	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0	Selected restaurant 0:	Morocco's
+02-24-2016:19-50-13	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	Selected restaurant 0:	Morocco's
+02-24-2016:19-50-13	---
+02-24-2016:19-50-13	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Thai, Mediterranean, Italian, Japanese, Chinese
+User 1 preferences: 0-10	Thai, Mediterranean, Japanese, Chinese, Italian
+
+Morocco's	Mediterranean	10-20
+Kirin	Chinese	10-20
+New Mongolian BBQ	Chinese	30-60
+Oren's Hummus	Mediterranean	10-20
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+Maruichi Noodle House	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+
+Final selection: Morocco'sUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

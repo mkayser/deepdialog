@@ -1,0 +1,29 @@
+02-24-2016:19-52-32	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 0	joined
+02-24-2016:19-52-32	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 0 has user ID f551a9c8ef7447e68e7255c087c8f416
+02-24-2016:19-52-32	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 1	joined
+02-24-2016:19-52-32	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 1 has user ID 6034b71030634f59ad2ef4d6e30365da
+02-24-2016:19-52-43	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 0	Let's go to Posh Bagel
+02-24-2016:19-52-44	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 1	Posh bagel?
+02-24-2016:19-52-47	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 1	Selected restaurant 3:	Posh Bagel
+02-24-2016:19-52-47	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 0	Selected restaurant 3:	Posh Bagel
+02-24-2016:19-52-48	---
+02-24-2016:19-52-48	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Japanese, Italian, Indian, Chinese
+User 1 preferences: 20-30	Indian, Deli, Italian, Japanese, Chinese
+
+Ryowa Noodle House	Japanese	20-30
+Bushido	Japanese	10-20
+Niji Sushi	Japanese	10-20
+Posh Bagel	Deli	10-20
+Shalala	Japanese	10-20
+Sushitomi	Japanese	20-30
+Doppio Zero	Italian	30-60
+Vaso Azzurro	Italian	20-30
+Rumble Fish	Japanese	30-60
+Queen House	Chinese	0-10
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

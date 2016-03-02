@@ -1,0 +1,34 @@
+02-19-2016:16-41-41	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	joined
+02-19-2016:16-41-43	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	joined
+02-19-2016:16-41-46	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	Japenese?
+02-19-2016:16-41-50	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	Selected restaurant:	Bushido
+02-19-2016:16-42-02	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	not in the mood
+02-19-2016:16-42-07	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-42-07	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	spanish?
+02-19-2016:16-42-12	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	pizza works too
+02-19-2016:16-42-13	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	Pizza is preferred
+02-19-2016:16-42-18	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	awesome!
+02-19-2016:16-42-19	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	blue line
+02-19-2016:16-42-22	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	sure!
+02-19-2016:16-42-24	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-42-25	---
+02-19-2016:16-42-25	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Pizza, American, Mexican, Japanese
+User 1 preferences: 10-20	Japanese, Pizza, Mexican, American, Spanish
+
+Blue Line Pizza	Pizza	10-20
+The Crepevine	American	30-60
+Scratch	American	0-10
+Shabuway	Japanese	30-60
+Bushido	Japanese	10-20
+Agave	Mexican	20-30
+Maruichi Noodle House	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

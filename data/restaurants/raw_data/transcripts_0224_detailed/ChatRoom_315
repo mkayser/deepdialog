@@ -1,0 +1,30 @@
+02-24-2016:19-49-21	486f33c3-fdf7-4d85-bd50-78caceab1b39	User 1	joined
+02-24-2016:19-49-21	486f33c3-fdf7-4d85-bd50-78caceab1b39	User 1 has user ID 31395e8a44434644a8be53817cae0a98
+02-24-2016:19-49-21	486f33c3-fdf7-4d85-bd50-78caceab1b39	User 0	joined
+02-24-2016:19-49-21	486f33c3-fdf7-4d85-bd50-78caceab1b39	User 0 has user ID b745a91d655a4b418f42f8d3bf219f17
+02-24-2016:19-49-29	486f33c3-fdf7-4d85-bd50-78caceab1b39	User 1	Selected restaurant 9:	Queen House
+02-24-2016:19-49-29	486f33c3-fdf7-4d85-bd50-78caceab1b39	User 0	How about Taqueria Los Charros?
+02-24-2016:19-49-37	486f33c3-fdf7-4d85-bd50-78caceab1b39	User 1	sure
+02-24-2016:19-49-39	486f33c3-fdf7-4d85-bd50-78caceab1b39	User 0	Selected restaurant 3:	Taqueria Los Charros
+02-24-2016:19-49-46	486f33c3-fdf7-4d85-bd50-78caceab1b39	User 1	Selected restaurant 3:	Taqueria Los Charros
+02-24-2016:19-49-46	---
+02-24-2016:19-49-46	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Thai, SeaFood, Chinese, Spanish
+User 1 preferences: 0-10	Chinese, Thai, Spanish, Mexican, SeaFood
+
+Amarin Thai Cuisine	Thai	20-30
+Hunan Chili	Chinese	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Taqueria Los Charros	Mexican	0-10
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+New Mongolian BBQ	Chinese	30-60
+Bangkok Spoon	Thai	30-60
+Cascal	Spanish	30-60
+Queen House	Chinese	0-10
+
+Final selection: Taqueria Los CharrosUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

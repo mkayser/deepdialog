@@ -1,0 +1,33 @@
+02-24-2016:19-47-55	495555eb-4ef8-43a3-a1fb-22d5031265df	User 0	joined
+02-24-2016:19-47-55	495555eb-4ef8-43a3-a1fb-22d5031265df	User 0 has user ID 86eea2e4303c44ad8c8a835b9dbd464b
+02-24-2016:19-47-59	495555eb-4ef8-43a3-a1fb-22d5031265df	User 1	joined
+02-24-2016:19-47-59	495555eb-4ef8-43a3-a1fb-22d5031265df	User 1 has user ID 72679093c091484e962e0896462ad42b
+02-24-2016:19-48-03	495555eb-4ef8-43a3-a1fb-22d5031265df	User 1	whats up
+02-24-2016:19-48-29	495555eb-4ef8-43a3-a1fb-22d5031265df	User 0	Hi
+02-24-2016:19-48-35	495555eb-4ef8-43a3-a1fb-22d5031265df	User 0	How about indian?
+02-24-2016:19-48-35	495555eb-4ef8-43a3-a1fb-22d5031265df	User 1	I heard Fiesta Del Mar Too is great
+02-24-2016:19-48-48	495555eb-4ef8-43a3-a1fb-22d5031265df	User 0	I love Mexican, sounds great
+02-24-2016:19-48-55	495555eb-4ef8-43a3-a1fb-22d5031265df	User 1	Selected restaurant 3:	Fiesta Del Mar Too
+02-24-2016:19-49-00	495555eb-4ef8-43a3-a1fb-22d5031265df	User 1	cool
+02-24-2016:19-49-04	495555eb-4ef8-43a3-a1fb-22d5031265df	User 0	Selected restaurant 3:	Fiesta Del Mar Too
+02-24-2016:19-49-04	---
+02-24-2016:19-49-04	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Indian, Mexican, Korean, Chinese
+User 1 preferences: 10-20	Korean, Mexican, Indian, Deli, Chinese
+
+Queen House	Chinese	0-10
+Park Ballachi	Indian	0-10
+New Mongolian BBQ	Chinese	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Taqueria Los Charros	Mexican	0-10
+Hunan Chili	Chinese	30-60
+Sakoon	Indian	30-60
+Posh Bagel	Deli	10-20
+Shezan	Indian	10-20
+Hong Kong Bistro	Chinese	20-30
+
+Final selection: Fiesta Del Mar TooUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

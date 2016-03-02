@@ -1,0 +1,32 @@
+02-24-2016:19-35-15	62e50948-712c-4423-9440-f63dd7c3cb85	User 0	joined
+02-24-2016:19-35-15	62e50948-712c-4423-9440-f63dd7c3cb85	User 0 has user ID 005f24a474184188806bc902707b99f6
+02-24-2016:19-35-15	62e50948-712c-4423-9440-f63dd7c3cb85	User 1	joined
+02-24-2016:19-35-15	62e50948-712c-4423-9440-f63dd7c3cb85	User 1 has user ID e828351d29d1490b895ea058425efa3b
+02-24-2016:19-35-54	62e50948-712c-4423-9440-f63dd7c3cb85	User 0	Hey, do you want Mongolian BBQ?
+02-24-2016:19-36-02	62e50948-712c-4423-9440-f63dd7c3cb85	User 1	Selected restaurant 3:	Taqueria Los Charros
+02-24-2016:19-36-15	62e50948-712c-4423-9440-f63dd7c3cb85	User 1	Selected restaurant 1:	New Mongolian BBQ
+02-24-2016:19-36-19	62e50948-712c-4423-9440-f63dd7c3cb85	User 0	But i want Chinese
+02-24-2016:19-36-23	62e50948-712c-4423-9440-f63dd7c3cb85	User 1	ok sounds good
+02-24-2016:19-36-25	62e50948-712c-4423-9440-f63dd7c3cb85	User 0	Oh sweet, let's go!
+02-24-2016:19-36-31	62e50948-712c-4423-9440-f63dd7c3cb85	User 0	Selected restaurant 1:	New Mongolian BBQ
+02-24-2016:19-36-32	---
+02-24-2016:19-36-32	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Spanish, Mexican, Deli, Italian
+User 1 preferences: 20-30	Spanish, Mexican, Chinese, Deli, Italian
+
+Fiesta Del Mar Too	Mexican	10-20
+New Mongolian BBQ	Chinese	30-60
+Posh Bagel	Deli	10-20
+Taqueria Los Charros	Mexican	0-10
+Cascal	Spanish	30-60
+Fu Lam Mum	Chinese	30-60
+Doppio Zero	Italian	30-60
+Ristorante Don Giovanni	Italian	0-10
+Subway	Deli	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: New Mongolian BBQUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-19-2016:16-37-16	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	joined
+02-19-2016:16-37-16	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1	joined
+02-19-2016:16-37-24	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	pick one
+02-19-2016:16-37-30	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1	Hey ole friend!  I've missed you!  How about we catch up over some french food and wine?!
+02-19-2016:16-37-37	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	Selected restaurant:	Chez TJ
+02-19-2016:16-37-39	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1	Selected restaurant:	Chez TJ
+02-19-2016:16-37-40	---
+02-19-2016:16-37-40	---
+
+Chat Information:
+
+User 0 preferences: 0-10	French, Mexican, Italian, Mediterranean, Pizza
+User 1 preferences: 20-30	French, Mediterranean, Mexican, Italian, Pizza
+
+Doppio Zero	Italian	30-60
+Agave	Mexican	20-30
+Blue Line Pizza	Pizza	10-20
+Ehpesus	Mediterranean	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Chez TJ	French	30-60
+Café Baklava	Mediterranean	10-20
+Taqueria Los Charros	Mexican	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

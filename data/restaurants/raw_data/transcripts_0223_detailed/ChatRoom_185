@@ -1,0 +1,26 @@
+02-19-2016:15-55-29	78ca028d-632a-4d69-8275-954a52092df5	User 1	joined
+02-19-2016:15-55-30	78ca028d-632a-4d69-8275-954a52092df5	User 0	joined
+02-19-2016:15-55-37	78ca028d-632a-4d69-8275-954a52092df5	User 0	what do you have in mind?
+02-19-2016:15-55-51	78ca028d-632a-4d69-8275-954a52092df5	User 1	Selected restaurant:	Taqueria Los Charros
+02-19-2016:15-55-59	78ca028d-632a-4d69-8275-954a52092df5	User 0	Selected restaurant:	Taqueria Los Charros
+02-19-2016:15-55-59	---
+02-19-2016:15-55-59	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Japanese, Mexican, Vietnamese, American, Spanish
+User 1 preferences: 30-60	Japanese, Mexican, Spanish, American, Vietnamese
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Xanh Restaurant	Vietnamese	10-20
+Bushido	Japanese	10-20
+Asian Box	Vietnamese	30-60
+Kappo Naminami	Japanese	30-60
+Rumble Fish	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Taqueria Los Charros	Mexican	0-10
+Pho To Chau	Vietnamese	20-30
+Niji Sushi	Japanese	10-20
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

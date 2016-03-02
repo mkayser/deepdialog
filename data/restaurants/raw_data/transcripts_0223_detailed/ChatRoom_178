@@ -1,0 +1,29 @@
+02-19-2016:15-54-35	83d27040-6502-4b29-b05f-824765660241	User 1	joined
+02-19-2016:15-54-37	83d27040-6502-4b29-b05f-824765660241	User 0	joined
+02-19-2016:15-54-42	83d27040-6502-4b29-b05f-824765660241	User 0	what do you have in mind?
+02-19-2016:15-54-50	83d27040-6502-4b29-b05f-824765660241	User 1	Hey! What do yu think about Maruichi?
+02-19-2016:15-54-54	83d27040-6502-4b29-b05f-824765660241	User 1	Noodles sound good.
+02-19-2016:15-55-06	83d27040-6502-4b29-b05f-824765660241	User 0	yea I can do that
+02-19-2016:15-55-10	83d27040-6502-4b29-b05f-824765660241	User 1	Selected restaurant:	Maruichi Noodle House
+02-19-2016:15-55-11	83d27040-6502-4b29-b05f-824765660241	User 0	Selected restaurant:	Maruichi Noodle House
+02-19-2016:15-55-11	---
+02-19-2016:15-55-11	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, Deli, Mediterranean, Indian, Japanese
+User 1 preferences: 10-20	Japanese, Indian, Spanish, Deli, Mediterranean
+
+Shezan	Indian	10-20
+Shabuway	Japanese	30-60
+Café Baklava	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Ryowa Noodle House	Japanese	20-30
+Park Ballachi	Indian	0-10
+Maruichi Noodle House	Japanese	0-10
+Sakoon	Indian	30-60
+
+Final selection: Maruichi Noodle HouseUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,32 @@
+02-24-2016:19-47-05	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 1	joined
+02-24-2016:19-47-05	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 1 has user ID cd8e156d33b74a0494917b48f6d699a4
+02-24-2016:19-47-05	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 0	joined
+02-24-2016:19-47-05	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 0 has user ID 2dfe519efc3a42af846d3cdf7b32bf6b
+02-24-2016:19-47-14	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 0	i can spend about $$$
+02-24-2016:19-47-22	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 1	how about steins, then?
+02-24-2016:19-47-24	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 0	and like japanese food
+02-24-2016:19-47-31	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 1	shabuway?
+02-24-2016:19-47-46	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 0	yea
+02-24-2016:19-47-49	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 1	Selected restaurant 8:	Shabuway
+02-24-2016:19-47-51	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 0	Selected restaurant 8:	Shabuway
+02-24-2016:19-47-51	---
+02-24-2016:19-47-51	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Japanese, Chinese, American, Spanish, Italian
+User 1 preferences: 30-60	Italian, Japanese, Spanish, American, Chinese
+
+Yakko	Japanese	0-10
+Masa Sushi	Japanese	0-10
+New Mongolian BBQ	Chinese	30-60
+The Crepevine	American	30-60
+Niji Sushi	Japanese	10-20
+Bierhaus	American	0-10
+Scratch	American	0-10
+Steins Beer Garden	American	20-30
+Shabuway	Japanese	30-60
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: ShabuwayUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

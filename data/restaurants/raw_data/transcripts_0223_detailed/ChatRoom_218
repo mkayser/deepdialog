@@ -1,0 +1,30 @@
+02-19-2016:16-01-38	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	joined
+02-19-2016:16-01-39	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	joined
+02-19-2016:16-01-56	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	Hey, how we hit Steins?
+02-19-2016:16-02-04	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	I prefer Thai
+02-19-2016:16-02-20	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	How about Bangkok?
+02-19-2016:16-02-27	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	Bangkok Spoon is great
+02-19-2016:16-02-31	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	YAY!
+02-19-2016:16-02-34	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	Selected restaurant:	Bangkok Spoon
+02-19-2016:16-02-35	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	Selected restaurant:	Bangkok Spoon
+02-19-2016:16-02-35	---
+02-19-2016:16-02-36	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Thai, Vietnamese, French, Korean, American
+User 1 preferences: 30-60	American, French, Korean, Vietnamese, Thai
+
+Pho To Chau	Vietnamese	20-30
+Scratch	American	0-10
+Bierhaus	American	0-10
+Xanh Restaurant	Vietnamese	10-20
+Amarin Thai Cuisine	Thai	20-30
+Totoro	Korean	20-30
+Asian Box	Vietnamese	30-60
+Chez TJ	French	30-60
+Steins Beer Garden	American	20-30
+Bangkok Spoon	Thai	30-60
+
+Final selection: Bangkok SpoonUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

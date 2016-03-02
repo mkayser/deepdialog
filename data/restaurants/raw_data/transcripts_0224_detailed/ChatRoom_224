@@ -1,0 +1,31 @@
+02-24-2016:19-46-13	53169880-8e87-46d1-ad6b-954184e217d8	User 0	joined
+02-24-2016:19-46-13	53169880-8e87-46d1-ad6b-954184e217d8	User 0 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-46-13	53169880-8e87-46d1-ad6b-954184e217d8	User 1	joined
+02-24-2016:19-46-13	53169880-8e87-46d1-ad6b-954184e217d8	User 1 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:19-46-17	53169880-8e87-46d1-ad6b-954184e217d8	User 0	Selected restaurant 6:	Totoro
+02-24-2016:19-46-20	53169880-8e87-46d1-ad6b-954184e217d8	User 0	Selected restaurant 7:	Cascal
+02-24-2016:19-46-25	53169880-8e87-46d1-ad6b-954184e217d8	User 1	How about italian?
+02-24-2016:19-46-28	53169880-8e87-46d1-ad6b-954184e217d8	User 1	Ristorante?
+02-24-2016:19-46-32	53169880-8e87-46d1-ad6b-954184e217d8	User 0	Selected restaurant 0:	Ristorante Don Giovanni
+02-24-2016:19-46-34	53169880-8e87-46d1-ad6b-954184e217d8	User 1	Selected restaurant 0:	Ristorante Don Giovanni
+02-24-2016:19-46-35	---
+02-24-2016:19-46-35	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Spanish, Pizza, Korean, Mexican, Italian
+User 1 preferences: 30-60	Mexican, Spanish, Pizza, Korean, Italian
+
+Ristorante Don Giovanni	Italian	0-10
+Ginseng	Korean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Doppio Zero	Italian	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Agave	Mexican	20-30
+Totoro	Korean	20-30
+Cascal	Spanish	30-60
+Taqueria Los Charros	Mexican	0-10
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Ristorante Don GiovanniUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

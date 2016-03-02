@@ -1,0 +1,29 @@
+02-24-2016:19-45-01	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1	joined
+02-24-2016:19-45-01	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1 has user ID 757a79ba8ec34bbd8f4acc291696d015
+02-24-2016:19-45-01	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 0	joined
+02-24-2016:19-45-01	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 0 has user ID d3b7ef4428254d3ab7a0802bf5f803d2
+02-24-2016:19-45-10	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 0	doppio zero?
+02-24-2016:19-45-25	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1	sounds good
+02-24-2016:19-45-28	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 0	Selected restaurant 2:	Doppio Zero
+02-24-2016:19-45-31	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1	Selected restaurant 2:	Doppio Zero
+02-24-2016:19-45-32	---
+02-24-2016:19-45-32	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Spanish, Mediterranean, Thai, Chinese
+User 1 preferences: 20-30	Chinese, Spanish, Thai, Italian, Mediterranean
+
+Ristorante Don Giovanni	Italian	0-10
+Morocco's	Mediterranean	10-20
+Doppio Zero	Italian	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+Kirin	Chinese	10-20
+Cascal	Spanish	30-60
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Hong Kong Bistro	Chinese	20-30
+
+Final selection: Doppio ZeroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

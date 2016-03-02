@@ -1,0 +1,28 @@
+02-24-2016:19-42-44	4d90042b-b263-47e9-95ba-972925c032c6	User 0	joined
+02-24-2016:19-42-44	4d90042b-b263-47e9-95ba-972925c032c6	User 0 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-42-44	4d90042b-b263-47e9-95ba-972925c032c6	User 1	joined
+02-24-2016:19-42-44	4d90042b-b263-47e9-95ba-972925c032c6	User 1 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-42-51	4d90042b-b263-47e9-95ba-972925c032c6	User 0	Selected restaurant 5:	Pho To Chau
+02-24-2016:19-42-52	4d90042b-b263-47e9-95ba-972925c032c6	User 1	Selected restaurant 0:	Shell Shock
+02-24-2016:19-42-55	4d90042b-b263-47e9-95ba-972925c032c6	User 0	Selected restaurant 0:	Shell Shock
+02-24-2016:19-42-55	---
+02-24-2016:19-42-55	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Vietnamese, Indian, SeaFood, Chinese
+User 1 preferences: 0-10	SeaFood, Vietnamese, Chinese, Indian, Spanish
+
+Shell Shock	SeaFood	10-20
+Shezan	Indian	10-20
+Hong Kong Bistro	Chinese	20-30
+Queen House	Chinese	0-10
+Fu Lam Mum	Chinese	30-60
+Pho To Chau	Vietnamese	20-30
+New Mongolian BBQ	Chinese	30-60
+Park Ballachi	Indian	0-10
+Asian Box	Vietnamese	30-60
+Hunan Chili	Chinese	30-60
+
+Final selection: Shell ShockUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

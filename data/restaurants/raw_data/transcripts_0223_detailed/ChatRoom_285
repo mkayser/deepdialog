@@ -1,0 +1,30 @@
+02-19-2016:16-11-44	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	joined
+02-19-2016:16-11-44	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 0	joined
+02-19-2016:16-12-01	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	How about Totoro?
+02-19-2016:16-12-03	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 0	Hey.  I'm all about going to the Crepevine
+02-19-2016:16-12-12	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 0	We have more to spend than that
+02-19-2016:16-12-19	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	Ok lets do it
+02-19-2016:16-12-23	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	Selected restaurant:	The Crepevine
+02-19-2016:16-12-24	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 0	Woot woot
+02-19-2016:16-12-30	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 0	Selected restaurant:	The Crepevine
+02-19-2016:16-12-30	---
+02-19-2016:16-12-30	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Indian, Thai, Korean, American, Italian
+User 1 preferences: 30-60	Thai, Korean, Indian, American, Italian
+
+Sakoon	Indian	30-60
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Steins Beer Garden	American	20-30
+The Crepevine	American	30-60
+Doppio Zero	Italian	30-60
+Ginseng	Korean	10-20
+Scratch	American	0-10
+Totoro	Korean	20-30
+Shezan	Indian	10-20
+
+Final selection: The CrepevineUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

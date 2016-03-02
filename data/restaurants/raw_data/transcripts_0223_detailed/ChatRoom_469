@@ -1,0 +1,29 @@
+02-19-2016:16-33-15	dbc761c6-f428-4c5e-afdb-19017aa285d6	User 0	joined
+02-19-2016:16-33-16	dbc761c6-f428-4c5e-afdb-19017aa285d6	User 1	joined
+02-19-2016:16-33-20	dbc761c6-f428-4c5e-afdb-19017aa285d6	User 1	Hey!
+02-19-2016:16-33-29	dbc761c6-f428-4c5e-afdb-19017aa285d6	User 1	I was thinking some Korean?
+02-19-2016:16-33-31	dbc761c6-f428-4c5e-afdb-19017aa285d6	User 0	sure
+02-19-2016:16-33-37	dbc761c6-f428-4c5e-afdb-19017aa285d6	User 0	Selected restaurant:	Totoro
+02-19-2016:16-33-38	dbc761c6-f428-4c5e-afdb-19017aa285d6	User 1	Totoro
+02-19-2016:16-33-42	dbc761c6-f428-4c5e-afdb-19017aa285d6	User 1	Selected restaurant:	Totoro
+02-19-2016:16-33-42	---
+02-19-2016:16-33-42	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, Japanese, Italian, Vietnamese, Mexican
+User 1 preferences: 20-30	Mexican, Japanese, Italian, Korean, Vietnamese
+
+Bushido	Japanese	10-20
+Totoro	Korean	20-30
+Pho Hoa	Vietnamese	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Sushitomi	Japanese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Agave	Mexican	20-30
+Maruichi Noodle House	Japanese	0-10
+Masa Sushi	Japanese	0-10
+Shalala	Japanese	10-20
+
+Final selection: TotoroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

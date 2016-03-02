@@ -1,0 +1,32 @@
+02-24-2016:19-43-14	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 0	joined
+02-24-2016:19-43-14	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 0 has user ID 72679093c091484e962e0896462ad42b
+02-24-2016:19-43-27	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 1	joined
+02-24-2016:19-43-27	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 1 has user ID 78de429b6e684f988804a99bd73bb576
+02-24-2016:19-43-34	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 0	whats up
+02-24-2016:19-43-38	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 1	not much
+02-24-2016:19-43-40	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 1	yakko?
+02-24-2016:19-43-56	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 0	Sure
+02-24-2016:19-44-04	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 0	I was just thinking Japanese
+02-24-2016:19-44-05	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 1	Selected restaurant 1:	Yakko
+02-24-2016:19-44-10	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 0	Selected restaurant 1:	Yakko
+02-24-2016:19-44-10	---
+02-24-2016:19-44-10	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Japanese, Chinese, American, Vietnamese
+User 1 preferences: 30-60	Vietnamese, Mexican, Chinese, American, Japanese
+
+Hong Kong Bistro	Chinese	20-30
+Yakko	Japanese	0-10
+Kirin	Chinese	10-20
+Masa Sushi	Japanese	0-10
+Steins Beer Garden	American	20-30
+Asian Box	Vietnamese	30-60
+Pho To Chau	Vietnamese	20-30
+Rumble Fish	Japanese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: YakkoUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

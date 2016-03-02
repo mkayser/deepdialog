@@ -1,0 +1,34 @@
+02-24-2016:19-45-01	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 0	joined
+02-24-2016:19-45-01	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 0 has user ID 2dfe519efc3a42af846d3cdf7b32bf6b
+02-24-2016:19-45-02	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 1	joined
+02-24-2016:19-45-02	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 1 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-45-07	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 0	cheap or expensive dinner?
+02-24-2016:19-45-15	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 1	cheap, im a turker
+02-24-2016:19-45-25	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 1	pick 1
+02-24-2016:19-45-28	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 0	pl
+02-24-2016:19-45-29	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 0	ok
+02-24-2016:19-45-39	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 0	Fiesta Del mar too
+02-24-2016:19-45-42	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 0	?
+02-24-2016:19-45-43	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 1	Selected restaurant 9:	Fiesta Del Mar Too
+02-24-2016:19-45-47	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 0	Selected restaurant 9:	Fiesta Del Mar Too
+02-24-2016:19-45-47	---
+02-24-2016:19-45-47	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Indian, Spanish, Japanese, Italian, Mexican
+User 1 preferences: 0-10	Spanish, Mexican, Japanese, Italian, Indian
+
+Park Ballachi	Indian	0-10
+Doppio Zero	Italian	30-60
+Masa Sushi	Japanese	0-10
+Rumble Fish	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+Yakko	Japanese	0-10
+Sakoon	Indian	30-60
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: Fiesta Del Mar TooUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

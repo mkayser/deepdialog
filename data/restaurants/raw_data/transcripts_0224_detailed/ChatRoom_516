@@ -1,0 +1,28 @@
+02-24-2016:19-54-38	85df6c38-b895-4c50-b7a1-d77245a26294	User 0	joined
+02-24-2016:19-54-38	85df6c38-b895-4c50-b7a1-d77245a26294	User 0 has user ID 166720d565e2438a95fc42a5361c88f0
+02-24-2016:19-54-38	85df6c38-b895-4c50-b7a1-d77245a26294	User 1	joined
+02-24-2016:19-54-38	85df6c38-b895-4c50-b7a1-d77245a26294	User 1 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:19-54-47	85df6c38-b895-4c50-b7a1-d77245a26294	User 0	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:19-54-59	85df6c38-b895-4c50-b7a1-d77245a26294	User 1	Selected restaurant 6:	Oren's Hummus
+02-24-2016:19-55-12	85df6c38-b895-4c50-b7a1-d77245a26294	User 0	Selected restaurant 6:	Oren's Hummus
+02-24-2016:19-55-12	---
+02-24-2016:19-55-12	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, Thai, Mediterranean, Deli, SeaFood
+User 1 preferences: 30-60	Mediterranean, Deli, Spanish, SeaFood, Thai
+
+Morocco's	Mediterranean	10-20
+Shell Shock	SeaFood	10-20
+Ehpesus	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Subway	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Bangkok Spoon	Thai	30-60
+Café Baklava	Mediterranean	10-20
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Oren's HummusUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

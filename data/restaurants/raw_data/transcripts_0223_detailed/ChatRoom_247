@@ -1,0 +1,32 @@
+02-19-2016:16-06-07	ad2c90fd-7d0a-421a-8a7f-61a8039dcf5f	User 1	joined
+02-19-2016:16-06-19	ad2c90fd-7d0a-421a-8a7f-61a8039dcf5f	User 0	joined
+02-19-2016:16-06-20	ad2c90fd-7d0a-421a-8a7f-61a8039dcf5f	User 1	EAT.
+02-19-2016:16-06-25	ad2c90fd-7d0a-421a-8a7f-61a8039dcf5f	User 1	HUNGRY.
+02-19-2016:16-06-30	ad2c90fd-7d0a-421a-8a7f-61a8039dcf5f	User 1	PICK
+02-19-2016:16-06-31	ad2c90fd-7d0a-421a-8a7f-61a8039dcf5f	User 0	Pizza?
+02-19-2016:16-06-34	ad2c90fd-7d0a-421a-8a7f-61a8039dcf5f	User 1	YES!
+02-19-2016:16-06-37	ad2c90fd-7d0a-421a-8a7f-61a8039dcf5f	User 0	blue line?
+02-19-2016:16-06-39	ad2c90fd-7d0a-421a-8a7f-61a8039dcf5f	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-06-41	ad2c90fd-7d0a-421a-8a7f-61a8039dcf5f	User 1	 k
+02-19-2016:16-06-46	ad2c90fd-7d0a-421a-8a7f-61a8039dcf5f	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-06-46	---
+02-19-2016:16-06-47	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Pizza, Spanish, Japanese, Indian, Thai
+User 1 preferences: 20-30	Japanese, Spanish, Indian, Thai, Pizza
+
+Bangkok Spoon	Thai	30-60
+Kappo Naminami	Japanese	30-60
+Sakoon	Indian	30-60
+Cascal	Spanish	30-60
+Yakko	Japanese	0-10
+Masa Sushi	Japanese	0-10
+Amarin Thai Cuisine	Thai	20-30
+Bushido	Japanese	10-20
+Blue Line Pizza	Pizza	10-20
+Rumble Fish	Japanese	30-60
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

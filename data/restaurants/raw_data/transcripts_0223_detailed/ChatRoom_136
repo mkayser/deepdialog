@@ -1,0 +1,30 @@
+02-19-2016:15-46-57	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 1	joined
+02-19-2016:15-47-06	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	joined
+02-19-2016:15-47-07	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 1	How about Steins Beer Garden?
+02-19-2016:15-47-51	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	Hmm, what about Fu Lam Mum instead?
+02-19-2016:15-47-55	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	I kind of want Chrinese.
+02-19-2016:15-47-55	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 1	OK
+02-19-2016:15-47-57	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	*Chinese
+02-19-2016:15-48-00	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 1	Selected restaurant:	Fu Lam Mum
+02-19-2016:15-48-06	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	Selected restaurant:	Fu Lam Mum
+02-19-2016:15-48-06	---
+02-19-2016:15-48-06	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, American, French, Mediterranean, Korean
+User 1 preferences: 10-20	American, Korean, French, Chinese, Mediterranean
+
+Totoro	Korean	20-30
+Kirin	Chinese	10-20
+Ginseng	Korean	10-20
+Hong Kong Bistro	Chinese	20-30
+Steins Beer Garden	American	20-30
+Scratch	American	0-10
+Fu Lam Mum	Chinese	30-60
+Bierhaus	American	0-10
+Mediterranean Grill House	Mediterranean	0-10
+The Crepevine	American	30-60
+
+Final selection: Fu Lam MumUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

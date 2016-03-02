@@ -1,0 +1,30 @@
+02-24-2016:19-52-17	73cbb1c6-a5e7-446c-b79d-fc99d7eef037	User 1	joined
+02-24-2016:19-52-17	73cbb1c6-a5e7-446c-b79d-fc99d7eef037	User 1 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:19-52-20	73cbb1c6-a5e7-446c-b79d-fc99d7eef037	User 0	joined
+02-24-2016:19-52-20	73cbb1c6-a5e7-446c-b79d-fc99d7eef037	User 0 has user ID ee398c9fd94c434299627da9c2adc0a9
+02-24-2016:19-52-32	73cbb1c6-a5e7-446c-b79d-fc99d7eef037	User 0	hi friend. spanish or chinese near the top of your choices?
+02-24-2016:19-52-35	73cbb1c6-a5e7-446c-b79d-fc99d7eef037	User 1	u pick
+02-24-2016:19-52-53	73cbb1c6-a5e7-446c-b79d-fc99d7eef037	User 1	kirin?
+02-24-2016:19-52-58	73cbb1c6-a5e7-446c-b79d-fc99d7eef037	User 1	Selected restaurant 3:	Kirin
+02-24-2016:19-53-03	73cbb1c6-a5e7-446c-b79d-fc99d7eef037	User 0	Selected restaurant 3:	Kirin
+02-24-2016:19-53-03	---
+02-24-2016:19-53-03	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Chinese, American, Vietnamese, Korean
+User 1 preferences: 0-10	Spanish, Chinese, Vietnamese, American, Korean
+
+Hunan Chili	Chinese	30-60
+Pho Hoa	Vietnamese	30-60
+Totoro	Korean	20-30
+Kirin	Chinese	10-20
+Steins Beer Garden	American	20-30
+Ginseng	Korean	10-20
+Scratch	American	0-10
+Pho To Chau	Vietnamese	20-30
+Fu Lam Mum	Chinese	30-60
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: KirinUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

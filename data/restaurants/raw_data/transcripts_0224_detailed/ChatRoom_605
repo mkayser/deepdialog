@@ -1,0 +1,27 @@
+02-24-2016:19-59-29	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	joined
+02-24-2016:19-59-29	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0 has user ID fd6adc76ca994bd79a4054960194f86e
+02-24-2016:19-59-30	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	joined
+02-24-2016:19-59-30	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:19-59-32	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	Selected restaurant 0:	Steins Beer Garden
+02-24-2016:19-59-39	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	Selected restaurant 0:	Steins Beer Garden
+02-24-2016:19-59-39	---
+02-24-2016:19-59-39	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Japanese, Deli, Thai, American, Korean
+User 1 preferences: 30-60	American, Korean, Thai, Deli, Japanese
+
+Steins Beer Garden	American	20-30
+Sushitomi	Japanese	20-30
+The Crepevine	American	30-60
+Bangkok Spoon	Thai	30-60
+Ryowa Noodle House	Japanese	20-30
+Niji Sushi	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Shabuway	Japanese	30-60
+Bushido	Japanese	10-20
+Shalala	Japanese	10-20
+
+Final selection: Steins Beer GardenUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

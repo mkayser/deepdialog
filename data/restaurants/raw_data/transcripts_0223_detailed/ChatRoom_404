@@ -1,0 +1,29 @@
+02-19-2016:16-28-13	f2e0d553-34d9-4cdc-bc25-aa5a4e1046a7	User 0	joined
+02-19-2016:16-28-13	f2e0d553-34d9-4cdc-bc25-aa5a4e1046a7	User 1	joined
+02-19-2016:16-28-22	f2e0d553-34d9-4cdc-bc25-aa5a4e1046a7	User 1	Drunken Lobster?
+02-19-2016:16-28-59	f2e0d553-34d9-4cdc-bc25-aa5a4e1046a7	User 1	Selected restaurant:	Drunken Lobster
+02-19-2016:16-29-20	f2e0d553-34d9-4cdc-bc25-aa5a4e1046a7	User 0	Hi, do you prefer seafood too?
+02-19-2016:16-29-31	f2e0d553-34d9-4cdc-bc25-aa5a4e1046a7	User 1	Yea
+02-19-2016:16-30-02	f2e0d553-34d9-4cdc-bc25-aa5a4e1046a7	User 0	Yes, that sounds great, let's go with that
+02-19-2016:16-30-06	f2e0d553-34d9-4cdc-bc25-aa5a4e1046a7	User 0	Selected restaurant:	Drunken Lobster
+02-19-2016:16-30-06	---
+02-19-2016:16-30-07	---
+
+Chat Information:
+
+User 0 preferences: 30-60	SeaFood, Korean, Mexican, Deli, Indian
+User 1 preferences: 10-20	SeaFood, Korean, Deli, Indian, Mexican
+
+Shezan	Indian	10-20
+Taqueria Los Charros	Mexican	0-10
+Totoro	Korean	20-30
+Drunken Lobster	SeaFood	10-20
+Subway	Deli	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Posh Bagel	Deli	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Ginseng	Korean	10-20
+Park Ballachi	Indian	0-10
+
+Final selection: Drunken LobsterUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,30 @@
+02-19-2016:15-38-19	3783cbc6-bcfa-427c-9529-7019d597e22a	User 1	joined
+02-19-2016:15-38-20	3783cbc6-bcfa-427c-9529-7019d597e22a	User 0	joined
+02-19-2016:15-38-30	3783cbc6-bcfa-427c-9529-7019d597e22a	User 1	Howdy
+02-19-2016:15-38-58	3783cbc6-bcfa-427c-9529-7019d597e22a	User 1	Selected restaurant:	Doppio Zero
+02-19-2016:15-39-17	3783cbc6-bcfa-427c-9529-7019d597e22a	User 0	How about Amarin Thai. Mmmmm cold sesame noodles.
+02-19-2016:15-39-17	3783cbc6-bcfa-427c-9529-7019d597e22a	User 1	Doppio Zero?
+02-19-2016:15-39-22	3783cbc6-bcfa-427c-9529-7019d597e22a	User 1	Ah okay
+02-19-2016:15-39-23	3783cbc6-bcfa-427c-9529-7019d597e22a	User 0	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:15-39-45	3783cbc6-bcfa-427c-9529-7019d597e22a	User 1	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:15-39-46	---
+02-19-2016:15-39-46	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Korean, SeaFood, Chinese, Italian, Thai
+User 1 preferences: 10-20	Thai, Chinese, Korean, SeaFood, Italian
+
+Ginseng	Korean	10-20
+New Mongolian BBQ	Chinese	30-60
+Doppio Zero	Italian	30-60
+Hong Kong Bistro	Chinese	20-30
+Queen House	Chinese	0-10
+Shell Shock	SeaFood	10-20
+Fu Lam Mum	Chinese	30-60
+Drunken Lobster	SeaFood	10-20
+Ristorante Don Giovanni	Italian	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Amarin Thai CuisineUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

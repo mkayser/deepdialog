@@ -1,0 +1,29 @@
+02-19-2016:16-14-25	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 0	joined
+02-19-2016:16-14-30	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 1	joined
+02-19-2016:16-14-47	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 1	Lets go to shabuway
+02-19-2016:16-14-56	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 0	I prefer Spanish or Pizza
+02-19-2016:16-15-09	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 1	we can do blue line
+02-19-2016:16-15-12	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-15-14	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 0	sounds good
+02-19-2016:16-15-16	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-15-16	---
+02-19-2016:16-15-16	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Pizza, Spanish, Thai, Mediterranean, Japanese
+User 1 preferences: 30-60	Thai, Spanish, Japanese, Pizza, Mediterranean
+
+Rumble Fish	Japanese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Blue Line Pizza	Pizza	10-20
+Sushitomi	Japanese	20-30
+Shabuway	Japanese	30-60
+Bushido	Japanese	10-20
+Café Baklava	Mediterranean	10-20
+Yakko	Japanese	0-10
+Morocco's	Mediterranean	10-20
+Kappo Naminami	Japanese	30-60
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

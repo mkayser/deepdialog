@@ -1,0 +1,33 @@
+02-24-2016:20-18-00	064a4d28-66c3-42e2-9746-ca25122a7cae	User 1	joined
+02-24-2016:20-18-00	064a4d28-66c3-42e2-9746-ca25122a7cae	User 1 has user ID 053cd3f4e92140e9900bc5b4e07c6c68
+02-24-2016:20-18-01	064a4d28-66c3-42e2-9746-ca25122a7cae	User 0	joined
+02-24-2016:20-18-01	064a4d28-66c3-42e2-9746-ca25122a7cae	User 0 has user ID 68d186a75e564e918628c42e68787cfa
+02-24-2016:20-18-06	064a4d28-66c3-42e2-9746-ca25122a7cae	User 1	Hello.
+02-24-2016:20-18-09	064a4d28-66c3-42e2-9746-ca25122a7cae	User 1	How about pizza?
+02-24-2016:20-18-11	064a4d28-66c3-42e2-9746-ca25122a7cae	User 0	hey
+02-24-2016:20-18-13	064a4d28-66c3-42e2-9746-ca25122a7cae	User 1	Maybe Blue line?
+02-24-2016:20-18-17	064a4d28-66c3-42e2-9746-ca25122a7cae	User 0	mmm yum, sounds good!
+02-24-2016:20-18-19	064a4d28-66c3-42e2-9746-ca25122a7cae	User 1	Selected restaurant 8:	Blue Line Pizza
+02-24-2016:20-18-22	064a4d28-66c3-42e2-9746-ca25122a7cae	User 0	pefect!
+02-24-2016:20-18-27	064a4d28-66c3-42e2-9746-ca25122a7cae	User 0	Selected restaurant 8:	Blue Line Pizza
+02-24-2016:20-18-27	---
+02-24-2016:20-18-27	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Pizza, SeaFood, Japanese, Mexican, Korean
+User 1 preferences: 10-20	SeaFood, Pizza, Japanese, Mexican, Korean
+
+Sushitomi	Japanese	20-30
+Kappo Naminami	Japanese	30-60
+Niji Sushi	Japanese	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Masa Sushi	Japanese	0-10
+Ryowa Noodle House	Japanese	20-30
+Shabuway	Japanese	30-60
+Totoro	Korean	20-30
+Blue Line Pizza	Pizza	10-20
+Rumble Fish	Japanese	30-60
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

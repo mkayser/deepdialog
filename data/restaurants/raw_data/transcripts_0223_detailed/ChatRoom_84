@@ -1,0 +1,34 @@
+02-19-2016:15-37-42	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 0	joined
+02-19-2016:15-37-42	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 1	joined
+02-19-2016:15-37-48	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 0	Hello
+02-19-2016:15-38-00	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 1	Hello
+02-19-2016:15-38-07	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 1	How do you feel about French Food?
+02-19-2016:15-38-13	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 0	Listen here you little turd nugget we are eating at doppio zero and thats final
+02-19-2016:15-38-18	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 1	Um no
+02-19-2016:15-38-25	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 1	Don't be a douche
+02-19-2016:15-38-49	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 1	We can either eat at Chez TJ or Subway....your choice
+02-19-2016:15-38-52	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 0	Afraid so...I get the shits from french food
+02-19-2016:15-39-09	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 1	Then subway it is
+02-19-2016:15-39-28	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 0	Selected restaurant:	Subway
+02-19-2016:15-39-34	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 1	Selected restaurant:	Subway
+02-19-2016:15-39-34	---
+02-19-2016:15-39-34	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, French, Deli, Spanish, Indian
+User 1 preferences: 20-30	French, Deli, Italian, Spanish, Indian
+
+Ristorante Don Giovanni	Italian	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Vaso Azzurro	Italian	20-30
+Posh Bagel	Deli	10-20
+Doppio Zero	Italian	30-60
+Cascal	Spanish	30-60
+Subway	Deli	10-20
+Sakoon	Indian	30-60
+Park Ballachi	Indian	0-10
+Chez TJ	French	30-60
+
+Final selection: SubwayUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,27 @@
+02-24-2016:19-43-20	30addfee-134f-422f-905d-4b56b95b1e64	User 0	joined
+02-24-2016:19-43-20	30addfee-134f-422f-905d-4b56b95b1e64	User 0 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-43-20	30addfee-134f-422f-905d-4b56b95b1e64	User 1	joined
+02-24-2016:19-43-20	30addfee-134f-422f-905d-4b56b95b1e64	User 1 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-43-28	30addfee-134f-422f-905d-4b56b95b1e64	User 1	Selected restaurant 4:	Posh Bagel
+02-24-2016:19-43-32	30addfee-134f-422f-905d-4b56b95b1e64	User 0	Selected restaurant 4:	Posh Bagel
+02-24-2016:19-43-33	---
+02-24-2016:19-43-33	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Pizza, Chinese, Deli, Japanese
+User 1 preferences: 30-60	Deli, Japanese, Chinese, Pizza, Vietnamese
+
+Kirin	Chinese	10-20
+Shabuway	Japanese	30-60
+Shalala	Japanese	10-20
+Pho To Chau	Vietnamese	20-30
+Posh Bagel	Deli	10-20
+Ryowa Noodle House	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Sushitomi	Japanese	20-30
+Blue Line Pizza	Pizza	10-20
+Pho Hoa	Vietnamese	30-60
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

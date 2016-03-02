@@ -1,0 +1,32 @@
+02-24-2016:19-48-09	8832bce4-0524-4051-ae40-89cc0083f221	User 1	joined
+02-24-2016:19-48-09	8832bce4-0524-4051-ae40-89cc0083f221	User 1 has user ID 1185fb427e3d49c29548e288ddc13446
+02-24-2016:19-48-09	8832bce4-0524-4051-ae40-89cc0083f221	User 0	joined
+02-24-2016:19-48-09	8832bce4-0524-4051-ae40-89cc0083f221	User 0 has user ID f25cb379b00e47d38df696c2696759e8
+02-24-2016:19-48-19	8832bce4-0524-4051-ae40-89cc0083f221	User 1	Drunken Lobster?
+02-24-2016:19-48-22	8832bce4-0524-4051-ae40-89cc0083f221	User 0	Hi. How do you feel about The Crepevine?
+02-24-2016:19-48-22	8832bce4-0524-4051-ae40-89cc0083f221	User 1	Selected restaurant 8:	Drunken Lobster
+02-24-2016:19-48-33	8832bce4-0524-4051-ae40-89cc0083f221	User 1	ok
+02-24-2016:19-48-35	8832bce4-0524-4051-ae40-89cc0083f221	User 1	Selected restaurant 9:	The Crepevine
+02-24-2016:19-48-36	8832bce4-0524-4051-ae40-89cc0083f221	User 0	Selected restaurant 8:	Drunken Lobster
+02-24-2016:19-48-39	8832bce4-0524-4051-ae40-89cc0083f221	User 1	Selected restaurant 8:	Drunken Lobster
+02-24-2016:19-48-39	---
+02-24-2016:19-48-40	---
+
+Chat Information:
+
+User 0 preferences: 20-30	American, Japanese, Korean, SeaFood, Pizza
+User 1 preferences: 10-20	Korean, SeaFood, American, Pizza, Japanese
+
+Scratch	American	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Bierhaus	American	0-10
+Blue Line Pizza	Pizza	10-20
+Rumble Fish	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Sushitomi	Japanese	20-30
+Yakko	Japanese	0-10
+Drunken Lobster	SeaFood	10-20
+The Crepevine	American	30-60
+
+Final selection: Drunken LobsterUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

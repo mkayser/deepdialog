@@ -1,0 +1,38 @@
+02-24-2016:19-47-40	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 1	joined
+02-24-2016:19-47-40	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 1 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-47-41	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 0	joined
+02-24-2016:19-47-41	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 0 has user ID 5c962edeab04436b819f1dedb9784f2c
+02-24-2016:19-47-46	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 0	hi
+02-24-2016:19-47-49	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 1	Selected restaurant 6:	Totoro
+02-24-2016:19-47-53	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 1	hi
+02-24-2016:19-48-06	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 0	i do not like korean im sorry
+02-24-2016:19-48-06	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 1	want Korean?
+02-24-2016:19-48-18	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 0	we have to come up with something else
+02-24-2016:19-48-23	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 1	Pizza then ?
+02-24-2016:19-48-30	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 1	Selected restaurant 8:	Amici's East Coast Pizzeria
+02-24-2016:19-48-48	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 0	i really had my heart set on good deli sandwich 
+02-24-2016:19-48-53	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 0	i just had pizza
+02-24-2016:19-49-00	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 1	Selected restaurant 0:	Subway
+02-24-2016:19-49-06	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 0	Selected restaurant 4:	Doppio Zero
+02-24-2016:19-49-12	1091a1e7-a0b2-41d2-8fbd-b87cb8b8acc8	User 1	Selected restaurant 4:	Doppio Zero
+02-24-2016:19-49-13	---
+02-24-2016:19-49-13	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Pizza, Korean, Deli, Italian
+User 1 preferences: 30-60	Korean, Pizza, Deli, Spanish, Italian
+
+Subway	Deli	10-20
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Posh Bagel	Deli	10-20
+Doppio Zero	Italian	30-60
+Ginseng	Korean	10-20
+Totoro	Korean	20-30
+Cascal	Spanish	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Doppio ZeroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

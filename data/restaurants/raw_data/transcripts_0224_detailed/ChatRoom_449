@@ -1,0 +1,36 @@
+02-24-2016:19-52-56	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 1	joined
+02-24-2016:19-52-56	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 1 has user ID 0a5a57705ca34c879d6c70fbb5f1d30d
+02-24-2016:19-52-56	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	joined
+02-24-2016:19-52-56	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0 has user ID a5b28e4fd1bc4ac787293876fd1e7212
+02-24-2016:19-53-29	---
+02-24-2016:19-53-30	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	joined
+02-24-2016:19-53-30	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0 has user ID a5b28e4fd1bc4ac787293876fd1e7212
+02-24-2016:19-53-32	---
+02-24-2016:19-53-33	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	joined
+02-24-2016:19-53-33	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0 has user ID a5b28e4fd1bc4ac787293876fd1e7212
+02-24-2016:19-53-41	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	Selected restaurant 1:	Rumble Fish
+02-24-2016:19-53-46	---
+02-24-2016:19-53-50	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	joined
+02-24-2016:19-53-50	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0 has user ID a5b28e4fd1bc4ac787293876fd1e7212
+02-24-2016:19-53-52	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 1	Selected restaurant 1:	Rumble Fish
+02-24-2016:19-53-53	---
+02-24-2016:19-53-53	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Japanese, American, Spanish, Indian, Mexican
+User 1 preferences: 0-10	Spanish, Indian, American, Mexican, Japanese
+
+Park Ballachi	Indian	0-10
+Rumble Fish	Japanese	30-60
+Kappo Naminami	Japanese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Agave	Mexican	20-30
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Shabuway	Japanese	30-60
+Shalala	Japanese	10-20
+Cascal	Spanish	30-60
+
+Final selection: Rumble FishUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-24-2016:20-07-11	9074e606-a724-4a39-baf5-a5174622b302	User 1	joined
+02-24-2016:20-07-11	9074e606-a724-4a39-baf5-a5174622b302	User 1 has user ID 56a965da39604ed4b21a394e5ff4f573
+02-24-2016:20-07-11	9074e606-a724-4a39-baf5-a5174622b302	User 0	joined
+02-24-2016:20-07-11	9074e606-a724-4a39-baf5-a5174622b302	User 0 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:20-07-15	9074e606-a724-4a39-baf5-a5174622b302	User 1	Selected restaurant 0:	Shalala
+02-24-2016:20-07-22	9074e606-a724-4a39-baf5-a5174622b302	User 0	Selected restaurant 0:	Shalala
+02-24-2016:20-07-22	---
+02-24-2016:20-08-22	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Pizza, Mediterranean, American, Japanese
+User 1 preferences: 10-20	American, Mediterranean, Pizza, Deli, Japanese
+
+Shalala	Japanese	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Yakko	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Steins Beer Garden	American	20-30
+Shabuway	Japanese	30-60
+Sushitomi	Japanese	20-30
+Morocco's	Mediterranean	10-20
+Masa Sushi	Japanese	0-10
+Niji Sushi	Japanese	10-20
+
+Final selection: ShalalaUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

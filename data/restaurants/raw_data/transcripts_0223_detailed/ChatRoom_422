@@ -1,0 +1,29 @@
+02-19-2016:16-29-21	46809d62-6370-47f2-b2a7-43ab55506259	User 0	joined
+02-19-2016:16-29-24	46809d62-6370-47f2-b2a7-43ab55506259	User 1	joined
+02-19-2016:16-29-29	46809d62-6370-47f2-b2a7-43ab55506259	User 0	lets try doppio
+02-19-2016:16-29-52	46809d62-6370-47f2-b2a7-43ab55506259	User 1	too expensive
+02-19-2016:16-30-11	46809d62-6370-47f2-b2a7-43ab55506259	User 0	Ristorante don gio works as well
+02-19-2016:16-30-28	46809d62-6370-47f2-b2a7-43ab55506259	User 1	yeah that looks better
+02-19-2016:16-30-30	46809d62-6370-47f2-b2a7-43ab55506259	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-30-33	46809d62-6370-47f2-b2a7-43ab55506259	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-30-34	---
+02-19-2016:16-30-34	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Italian, Pizza, Japanese, Deli, Mexican
+User 1 preferences: 30-60	Japanese, Pizza, Italian, Deli, Mexican
+
+Ristorante Don Giovanni	Italian	0-10
+Agave	Mexican	20-30
+Kappo Naminami	Japanese	30-60
+Doppio Zero	Italian	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Subway	Deli	10-20
+Yakko	Japanese	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Shalala	Japanese	10-20
+Shabuway	Japanese	30-60
+
+Final selection: Ristorante Don GiovanniUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,34 @@
+02-19-2016:16-23-49	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	joined
+02-19-2016:16-23-51	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1	joined
+02-19-2016:16-24-00	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1	Hi
+02-19-2016:16-24-03	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	hi
+02-19-2016:16-24-08	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	japanese?
+02-19-2016:16-24-16	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	yakko?
+02-19-2016:16-24-19	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1	How deep ya pockets
+02-19-2016:16-24-26	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	not deep
+02-19-2016:16-24-31	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	you?
+02-19-2016:16-24-54	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	yakko?
+02-19-2016:16-24-55	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1	I'll bite, we can Yakko tonight
+02-19-2016:16-25-02	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	Selected restaurant:	Yakko
+02-19-2016:16-25-04	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1	Selected restaurant:	Yakko
+02-19-2016:16-25-04	---
+02-19-2016:16-25-04	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Japanese, Korean, Thai, Mexican, Chinese
+User 1 preferences: 10-20	Japanese, Mexican, Korean, Chinese, Thai
+
+Hunan Chili	Chinese	30-60
+Totoro	Korean	20-30
+Amarin Thai Cuisine	Thai	20-30
+Queen House	Chinese	0-10
+Maruichi Noodle House	Japanese	0-10
+Kirin	Chinese	10-20
+Yakko	Japanese	0-10
+Bangkok Spoon	Thai	30-60
+Kappo Naminami	Japanese	30-60
+Niji Sushi	Japanese	10-20
+
+Final selection: YakkoUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

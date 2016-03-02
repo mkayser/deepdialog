@@ -1,0 +1,30 @@
+02-19-2016:15-46-52	2fa63f98-7b21-4a46-b8a8-fa878ffc21e3	User 0	joined
+02-19-2016:15-46-55	2fa63f98-7b21-4a46-b8a8-fa878ffc21e3	User 1	joined
+02-19-2016:15-47-20	2fa63f98-7b21-4a46-b8a8-fa878ffc21e3	User 0	where would you like to eat?
+02-19-2016:15-47-41	2fa63f98-7b21-4a46-b8a8-fa878ffc21e3	User 1	How about something Mexican?
+02-19-2016:15-47-48	2fa63f98-7b21-4a46-b8a8-fa878ffc21e3	User 0	sure
+02-19-2016:15-47-55	2fa63f98-7b21-4a46-b8a8-fa878ffc21e3	User 0	Taqueria Los Charros?
+02-19-2016:15-48-08	2fa63f98-7b21-4a46-b8a8-fa878ffc21e3	User 1	That works for me.
+02-19-2016:15-48-10	2fa63f98-7b21-4a46-b8a8-fa878ffc21e3	User 0	Selected restaurant:	Taqueria Los Charros
+02-19-2016:15-48-18	2fa63f98-7b21-4a46-b8a8-fa878ffc21e3	User 1	Selected restaurant:	Taqueria Los Charros
+02-19-2016:15-48-18	---
+02-19-2016:15-48-19	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, Indian, Japanese, Mexican, Korean
+User 1 preferences: 30-60	Indian, SeaFood, Mexican, Korean, Japanese
+
+Shiva’s Indian Restaurant	Indian	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Taqueria Los Charros	Mexican	0-10
+Ryowa Noodle House	Japanese	20-30
+Bushido	Japanese	10-20
+Sakoon	Indian	30-60
+Shell Shock	SeaFood	10-20
+Kappo Naminami	Japanese	30-60
+Park Ballachi	Indian	0-10
+Totoro	Korean	20-30
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

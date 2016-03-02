@@ -1,0 +1,29 @@
+02-24-2016:19-51-50	3c9d7a1f-1d04-48dd-8ec2-580cfd56c4c6	User 0	joined
+02-24-2016:19-51-50	3c9d7a1f-1d04-48dd-8ec2-580cfd56c4c6	User 0 has user ID 41de63f2dbdd4b25af672abc97333263
+02-24-2016:19-51-50	3c9d7a1f-1d04-48dd-8ec2-580cfd56c4c6	User 1	joined
+02-24-2016:19-51-50	3c9d7a1f-1d04-48dd-8ec2-580cfd56c4c6	User 1 has user ID 7c3f08710d574bf69cd9ebf456eabaaa
+02-24-2016:19-51-55	3c9d7a1f-1d04-48dd-8ec2-580cfd56c4c6	User 0	Selected restaurant 9:	Scratch
+02-24-2016:19-52-21	3c9d7a1f-1d04-48dd-8ec2-580cfd56c4c6	User 1	Shawbuway
+02-24-2016:19-52-27	3c9d7a1f-1d04-48dd-8ec2-580cfd56c4c6	User 0	Selected restaurant 3:	Shabuway
+02-24-2016:19-52-32	3c9d7a1f-1d04-48dd-8ec2-580cfd56c4c6	User 1	Selected restaurant 3:	Shabuway
+02-24-2016:19-52-32	---
+02-24-2016:19-52-32	---
+
+Chat Information:
+
+User 0 preferences: 0-10	American, Japanese, Deli, Korean, Thai
+User 1 preferences: 10-20	Japanese, Korean, American, Deli, Thai
+
+Ginseng	Korean	10-20
+Ryowa Noodle House	Japanese	20-30
+Subway	Deli	10-20
+Shabuway	Japanese	30-60
+Sushitomi	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Shalala	Japanese	10-20
+Niji Sushi	Japanese	10-20
+Bushido	Japanese	10-20
+Scratch	American	0-10
+
+Final selection: ShabuwayUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,31 @@
+02-19-2016:16-48-44	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	joined
+02-19-2016:16-48-44	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	joined
+02-19-2016:16-48-48	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	Chinese or Spanish?
+02-19-2016:16-48-53	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	Mid to expensive?
+02-19-2016:16-49-01	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	Sup, I'm super rich and I'd be done for one of those
+02-19-2016:16-49-06	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	down*
+02-19-2016:16-49-07	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	MOnogolian bbq
+02-19-2016:16-49-12	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	Selected restaurant:	New Mongolian BBQ
+02-19-2016:16-49-18	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	yep sounds great
+02-19-2016:16-49-21	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	Selected restaurant:	New Mongolian BBQ
+02-19-2016:16-49-21	---
+02-19-2016:16-49-21	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Spanish, Pizza, Thai, French
+User 1 preferences: 30-60	Spanish, Chinese, Thai, Pizza, French
+
+Kirin	Chinese	10-20
+New Mongolian BBQ	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Blue Line Pizza	Pizza	10-20
+Hong Kong Bistro	Chinese	20-30
+Chez TJ	French	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Cascal	Spanish	30-60
+Queen House	Chinese	0-10
+Fu Lam Mum	Chinese	30-60
+
+Final selection: New Mongolian BBQUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

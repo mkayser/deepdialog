@@ -1,0 +1,27 @@
+02-19-2016:16-12-09	30e07bb1-54f5-4c6b-be09-b9d01a81efa2	User 1	joined
+02-19-2016:16-12-13	30e07bb1-54f5-4c6b-be09-b9d01a81efa2	User 0	joined
+02-19-2016:16-12-21	30e07bb1-54f5-4c6b-be09-b9d01a81efa2	User 0	I would love to have Moroccos 789
+02-19-2016:16-12-29	30e07bb1-54f5-4c6b-be09-b9d01a81efa2	User 1	Okay.
+02-19-2016:16-12-33	30e07bb1-54f5-4c6b-be09-b9d01a81efa2	User 0	Selected restaurant:	Morocco's
+02-19-2016:16-12-35	30e07bb1-54f5-4c6b-be09-b9d01a81efa2	User 1	Selected restaurant:	Morocco's
+02-19-2016:16-12-36	---
+02-19-2016:16-12-36	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Deli, Spanish, SeaFood, Thai
+User 1 preferences: 10-20	Thai, Deli, Spanish, Mediterranean, SeaFood
+
+Drunken Lobster	SeaFood	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Cascal	Spanish	30-60
+Bangkok Spoon	Thai	30-60
+Shell Shock	SeaFood	10-20
+Posh Bagel	Deli	10-20
+Morocco's	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+Café Baklava	Mediterranean	10-20
+
+Final selection: Morocco'sUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

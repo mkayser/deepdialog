@@ -1,0 +1,29 @@
+02-24-2016:20-03-35	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 0	joined
+02-24-2016:20-03-35	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 0 has user ID 3ed336309a3a43e8931f82008e7a89f1
+02-24-2016:20-03-36	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 1	joined
+02-24-2016:20-03-36	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 1 has user ID 757a79ba8ec34bbd8f4acc291696d015
+02-24-2016:20-03-40	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 0	Chez TJ?
+02-24-2016:20-03-43	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 0	Selected restaurant 7:	Chez TJ
+02-24-2016:20-03-46	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 1	seafood>
+02-24-2016:20-04-05	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 1	Selected restaurant 7:	Chez TJ
+02-24-2016:20-04-05	---
+02-24-2016:20-04-07	---
+
+Chat Information:
+
+User 0 preferences: 30-60	French, Japanese, Italian, SeaFood, Vietnamese
+User 1 preferences: 10-20	SeaFood, Italian, Japanese, Vietnamese, French
+
+Niji Sushi	Japanese	10-20
+Pho To Chau	Vietnamese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Kappo Naminami	Japanese	30-60
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Ryowa Noodle House	Japanese	20-30
+Chez TJ	French	30-60
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Chez TJUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

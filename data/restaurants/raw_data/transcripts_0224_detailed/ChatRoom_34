@@ -1,0 +1,30 @@
+02-24-2016:19-36-41	108f8351-25c8-4cfe-9119-8f6768e71396	User 1	joined
+02-24-2016:19-36-41	108f8351-25c8-4cfe-9119-8f6768e71396	User 1 has user ID ee398c9fd94c434299627da9c2adc0a9
+02-24-2016:19-36-45	108f8351-25c8-4cfe-9119-8f6768e71396	User 0	joined
+02-24-2016:19-36-45	108f8351-25c8-4cfe-9119-8f6768e71396	User 0 has user ID d3b7ef4428254d3ab7a0802bf5f803d2
+02-24-2016:19-37-07	108f8351-25c8-4cfe-9119-8f6768e71396	User 1	hi friend. hows the drunken lobster sound?
+02-24-2016:19-37-22	108f8351-25c8-4cfe-9119-8f6768e71396	User 1	i like the name
+02-24-2016:19-37-22	108f8351-25c8-4cfe-9119-8f6768e71396	User 0	wow, that actually sounds amazing
+02-24-2016:19-37-27	108f8351-25c8-4cfe-9119-8f6768e71396	User 1	Selected restaurant 6:	Drunken Lobster
+02-24-2016:19-37-31	108f8351-25c8-4cfe-9119-8f6768e71396	User 0	Selected restaurant 6:	Drunken Lobster
+02-24-2016:19-37-31	---
+02-24-2016:19-37-32	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, SeaFood, French, American, Italian
+User 1 preferences: 20-30	French, SeaFood, American, Chinese, Italian
+
+Kirin	Chinese	10-20
+Scratch	American	0-10
+Shell Shock	SeaFood	10-20
+Chez TJ	French	30-60
+Hunan Chili	Chinese	30-60
+Vaso Azzurro	Italian	20-30
+Drunken Lobster	SeaFood	10-20
+Ristorante Don Giovanni	Italian	0-10
+Doppio Zero	Italian	30-60
+Bierhaus	American	0-10
+
+Final selection: Drunken LobsterUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

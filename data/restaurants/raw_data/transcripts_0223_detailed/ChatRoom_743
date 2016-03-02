@@ -1,0 +1,27 @@
+02-19-2016:16-52-11	67090986-cac2-4876-8146-015420ebafcb	User 1	joined
+02-19-2016:16-52-13	67090986-cac2-4876-8146-015420ebafcb	User 0	joined
+02-19-2016:16-52-20	67090986-cac2-4876-8146-015420ebafcb	User 1	pick any
+02-19-2016:16-52-28	67090986-cac2-4876-8146-015420ebafcb	User 0	asian box
+02-19-2016:16-52-29	67090986-cac2-4876-8146-015420ebafcb	User 0	Selected restaurant:	Asian Box
+02-19-2016:16-52-31	67090986-cac2-4876-8146-015420ebafcb	User 1	Selected restaurant:	Asian Box
+02-19-2016:16-52-31	---
+02-19-2016:16-53-31	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Vietnamese, Japanese, Korean, Deli, Spanish
+User 1 preferences: 10-20	Spanish, Korean, Deli, Vietnamese, Japanese
+
+Asian Box	Vietnamese	30-60
+Yakko	Japanese	0-10
+Bushido	Japanese	10-20
+Masa Sushi	Japanese	0-10
+Pho To Chau	Vietnamese	20-30
+Rumble Fish	Japanese	30-60
+Subway	Deli	10-20
+Totoro	Korean	20-30
+Posh Bagel	Deli	10-20
+Kappo Naminami	Japanese	30-60
+
+Final selection: Asian BoxUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

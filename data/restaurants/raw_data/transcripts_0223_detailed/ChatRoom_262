@@ -1,0 +1,31 @@
+02-19-2016:16-08-25	510a7a8b-aa3f-4bb8-a7a4-a098d798fdcf	User 1	joined
+02-19-2016:16-08-32	510a7a8b-aa3f-4bb8-a7a4-a098d798fdcf	User 0	joined
+02-19-2016:16-08-39	510a7a8b-aa3f-4bb8-a7a4-a098d798fdcf	User 0	Hi! How does Mexican sound to you?
+02-19-2016:16-08-39	510a7a8b-aa3f-4bb8-a7a4-a098d798fdcf	User 1	what do you have in mind?
+02-19-2016:16-08-53	510a7a8b-aa3f-4bb8-a7a4-a098d798fdcf	User 0	Agave?
+02-19-2016:16-09-00	510a7a8b-aa3f-4bb8-a7a4-a098d798fdcf	User 1	I was kind of in the mood for Italian
+02-19-2016:16-09-11	510a7a8b-aa3f-4bb8-a7a4-a098d798fdcf	User 0	Doppio Zero?
+02-19-2016:16-09-16	510a7a8b-aa3f-4bb8-a7a4-a098d798fdcf	User 1	perfect
+02-19-2016:16-09-19	510a7a8b-aa3f-4bb8-a7a4-a098d798fdcf	User 1	Selected restaurant:	Doppio Zero
+02-19-2016:16-09-20	510a7a8b-aa3f-4bb8-a7a4-a098d798fdcf	User 0	Selected restaurant:	Doppio Zero
+02-19-2016:16-09-21	---
+02-19-2016:16-09-22	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Mexican, Vietnamese, Italian, Deli, Pizza
+User 1 preferences: 30-60	Italian, Deli, Vietnamese, Mexican, Pizza
+
+Pho To Chau	Vietnamese	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Pho Hoa	Vietnamese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Doppio Zero	Italian	30-60
+Agave	Mexican	20-30
+Taqueria Los Charros	Mexican	0-10
+Asian Box	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: Doppio ZeroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

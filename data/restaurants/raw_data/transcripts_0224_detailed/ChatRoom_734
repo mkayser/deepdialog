@@ -1,0 +1,30 @@
+02-24-2016:20-06-06	f1bcac82-cc7c-494d-8ba9-27c408266d1c	User 1	joined
+02-24-2016:20-06-06	f1bcac82-cc7c-494d-8ba9-27c408266d1c	User 1 has user ID 68d186a75e564e918628c42e68787cfa
+02-24-2016:20-06-06	f1bcac82-cc7c-494d-8ba9-27c408266d1c	User 0	joined
+02-24-2016:20-06-06	f1bcac82-cc7c-494d-8ba9-27c408266d1c	User 0 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:20-06-11	f1bcac82-cc7c-494d-8ba9-27c408266d1c	User 0	Lets do Italian.
+02-24-2016:20-06-14	f1bcac82-cc7c-494d-8ba9-27c408266d1c	User 0	I am starving.
+02-24-2016:20-06-17	f1bcac82-cc7c-494d-8ba9-27c408266d1c	User 0	Selected restaurant 4:	Ristorante Don Giovanni
+02-24-2016:20-06-23	f1bcac82-cc7c-494d-8ba9-27c408266d1c	User 1	sounds good to me!
+02-24-2016:20-06-28	f1bcac82-cc7c-494d-8ba9-27c408266d1c	User 1	Selected restaurant 4:	Ristorante Don Giovanni
+02-24-2016:20-06-28	---
+02-24-2016:20-06-28	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Vietnamese, Italian, Mediterranean, Korean, Japanese
+User 1 preferences: 10-20	Mediterranean, Italian, Korean, Vietnamese, Japanese
+
+Mediterranean Grill House	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Yakko	Japanese	0-10
+Asian Box	Vietnamese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Niji Sushi	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Pho Hoa	Vietnamese	30-60
+Maruichi Noodle House	Japanese	0-10
+Oren's Hummus	Mediterranean	10-20
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,28 @@
+02-19-2016:16-46-49	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 0	joined
+02-19-2016:16-46-50	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 1	joined
+02-19-2016:16-47-10	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 1	Chez TJ?
+02-19-2016:16-47-10	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 0	hey hey hey
+02-19-2016:16-47-40	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 0	okay
+02-19-2016:16-47-47	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 1	Selected restaurant:	Chez TJ
+02-19-2016:16-47-48	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 0	Selected restaurant:	Chez TJ
+02-19-2016:16-47-48	---
+02-19-2016:16-47-49	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, Mexican, SeaFood, Spanish, French
+User 1 preferences: 20-30	French, Mexican, Italian, SeaFood, Spanish
+
+Fiesta Del Mar Too	Mexican	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Agave	Mexican	20-30
+Vaso Azzurro	Italian	20-30
+Doppio Zero	Italian	30-60
+Shell Shock	SeaFood	10-20
+Taqueria Los Charros	Mexican	0-10
+Cascal	Spanish	30-60
+Chez TJ	French	30-60
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-24-2016:19-57-40	438690de-7712-4f95-a619-613bbb61dd4e	User 1	joined
+02-24-2016:19-57-40	438690de-7712-4f95-a619-613bbb61dd4e	User 1 has user ID 0060d829dc5d4372b82d1e4453c7a03f
+02-24-2016:19-57-42	438690de-7712-4f95-a619-613bbb61dd4e	User 0	joined
+02-24-2016:19-57-42	438690de-7712-4f95-a619-613bbb61dd4e	User 0 has user ID 3af245df6d3d4ea999525beb3bf030ea
+02-24-2016:19-57-45	438690de-7712-4f95-a619-613bbb61dd4e	User 0	Selected restaurant 0:	Sakoon
+02-24-2016:19-57-58	438690de-7712-4f95-a619-613bbb61dd4e	User 1	Selected restaurant 0:	Sakoon
+02-24-2016:19-57-58	---
+02-24-2016:19-57-58	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Korean, Italian, American, Spanish
+User 1 preferences: 30-60	Spanish, Italian, Indian, Korean, American
+
+Sakoon	Indian	30-60
+Bierhaus	American	0-10
+Cascal	Spanish	30-60
+Shezan	Indian	10-20
+Ristorante Don Giovanni	Italian	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Doppio Zero	Italian	30-60
+Ginseng	Korean	10-20
+Scratch	American	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: SakoonUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

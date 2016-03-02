@@ -1,0 +1,28 @@
+02-24-2016:19-56-21	50127bc2-af4b-41d7-8fa2-e55c21e26385	User 1	joined
+02-24-2016:19-56-21	50127bc2-af4b-41d7-8fa2-e55c21e26385	User 1 has user ID 0aad6311afd54583be7b3db7575a384e
+02-24-2016:19-56-31	50127bc2-af4b-41d7-8fa2-e55c21e26385	User 0	joined
+02-24-2016:19-56-31	50127bc2-af4b-41d7-8fa2-e55c21e26385	User 0 has user ID 75c434db8e144d9497add4d63035b3da
+02-24-2016:19-56-38	50127bc2-af4b-41d7-8fa2-e55c21e26385	User 1	How about Asian Box
+02-24-2016:19-56-41	50127bc2-af4b-41d7-8fa2-e55c21e26385	User 0	Selected restaurant 4:	Shell Shock
+02-24-2016:19-56-55	50127bc2-af4b-41d7-8fa2-e55c21e26385	User 1	Selected restaurant 4:	Shell Shock
+02-24-2016:19-56-56	---
+02-24-2016:19-56-56	---
+
+Chat Information:
+
+User 0 preferences: 10-20	SeaFood, Vietnamese, Italian, Mediterranean, Japanese
+User 1 preferences: 20-30	Vietnamese, SeaFood, Italian, Mediterranean, Japanese
+
+Maruichi Noodle House	Japanese	0-10
+Asian Box	Vietnamese	30-60
+Kappo Naminami	Japanese	30-60
+Shabuway	Japanese	30-60
+Shell Shock	SeaFood	10-20
+Niji Sushi	Japanese	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+Ehpesus	Mediterranean	0-10
+Rumble Fish	Japanese	30-60
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

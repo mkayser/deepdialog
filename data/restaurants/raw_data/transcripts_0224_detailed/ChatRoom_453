@@ -1,0 +1,31 @@
+02-24-2016:19-53-00	64298071-9ee9-49ae-99a6-557b8e320628	User 1	joined
+02-24-2016:19-53-00	64298071-9ee9-49ae-99a6-557b8e320628	User 1 has user ID 1185fb427e3d49c29548e288ddc13446
+02-24-2016:19-53-00	64298071-9ee9-49ae-99a6-557b8e320628	User 0	joined
+02-24-2016:19-53-00	64298071-9ee9-49ae-99a6-557b8e320628	User 0 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:19-53-12	64298071-9ee9-49ae-99a6-557b8e320628	User 1	Shell Shock?
+02-24-2016:19-53-14	64298071-9ee9-49ae-99a6-557b8e320628	User 1	Selected restaurant 2:	Shell Shock
+02-24-2016:19-53-22	64298071-9ee9-49ae-99a6-557b8e320628	User 0	Hi Sakoon?
+02-24-2016:19-53-29	64298071-9ee9-49ae-99a6-557b8e320628	User 1	sounds good
+02-24-2016:19-53-31	64298071-9ee9-49ae-99a6-557b8e320628	User 1	Selected restaurant 5:	Sakoon
+02-24-2016:19-53-35	64298071-9ee9-49ae-99a6-557b8e320628	User 0	Selected restaurant 5:	Sakoon
+02-24-2016:19-53-35	---
+02-24-2016:19-53-36	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Thai, French, SeaFood, Chinese
+User 1 preferences: 10-20	SeaFood, Thai, French, Chinese, Indian
+
+Shezan	Indian	10-20
+Bangkok Spoon	Thai	30-60
+Shell Shock	SeaFood	10-20
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+Sakoon	Indian	30-60
+Amarin Thai Cuisine	Thai	20-30
+Queen House	Chinese	0-10
+Chez TJ	French	30-60
+Kirin	Chinese	10-20
+
+Final selection: SakoonUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-24-2016:19-55-50	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 1	joined
+02-24-2016:19-55-50	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 1 has user ID 1393e15d6fde46cb9f4502aa09ae8331
+02-24-2016:19-55-51	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 0	joined
+02-24-2016:19-55-51	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 0 has user ID 1c72f4728567475d8f76220880432e4e
+02-24-2016:19-55-56	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 0	Selected restaurant 3:	Ehpesus
+02-24-2016:19-55-58	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 1	Hey I'm craving some Medit
+02-24-2016:19-56-02	46aaabe6-08de-4c90-b15a-7c0c1d155afe	User 1	Selected restaurant 3:	Ehpesus
+02-24-2016:19-56-02	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Deli, Chinese, SeaFood, Spanish
+User 1 preferences: 20-30	Mediterranean, Chinese, Spanish, Deli, SeaFood
+
+Queen House	Chinese	0-10
+Morocco's	Mediterranean	10-20
+Café Baklava	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Posh Bagel	Deli	10-20
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+New Mongolian BBQ	Chinese	30-60
+Shell Shock	SeaFood	10-20
+Fu Lam Mum	Chinese	30-60
+
+Final selection: EhpesusUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

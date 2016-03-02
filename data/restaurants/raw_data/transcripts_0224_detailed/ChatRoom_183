@@ -1,0 +1,28 @@
+02-24-2016:19-44-48	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	joined
+02-24-2016:19-44-48	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-44-50	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	joined
+02-24-2016:19-44-50	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0 has user ID 32b396a234f9471cb66c6a2793ad04f7
+02-24-2016:19-44-53	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	Selected restaurant 5:	Fiesta Del Mar Too
+02-24-2016:19-44-59	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	Selected restaurant 4:	Cascal
+02-24-2016:19-45-10	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	Selected restaurant 4:	Cascal
+02-24-2016:19-45-10	---
+02-24-2016:19-45-10	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Pizza, American, Spanish, Mexican, Korean
+User 1 preferences: 30-60	Spanish, Korean, Mexican, Pizza, American
+
+Bierhaus	American	0-10
+Steins Beer Garden	American	20-30
+Totoro	Korean	20-30
+Scratch	American	0-10
+Cascal	Spanish	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Blue Line Pizza	Pizza	10-20
+Agave	Mexican	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Taqueria Los Charros	Mexican	0-10
+
+Final selection: CascalUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

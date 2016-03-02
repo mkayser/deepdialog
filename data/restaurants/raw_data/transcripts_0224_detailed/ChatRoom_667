@@ -1,0 +1,27 @@
+02-24-2016:20-02-34	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	joined
+02-24-2016:20-02-34	ba5bd696-f70b-4729-ae94-6770b3995357	User 0 has user ID 56a965da39604ed4b21a394e5ff4f573
+02-24-2016:20-02-35	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	joined
+02-24-2016:20-02-35	ba5bd696-f70b-4729-ae94-6770b3995357	User 1 has user ID ac6ec300bec74d6ab9f72c4aac014060
+02-24-2016:20-02-36	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	Selected restaurant 0:	Xanh Restaurant
+02-24-2016:20-02-41	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Selected restaurant 0:	Xanh Restaurant
+02-24-2016:20-02-41	---
+02-24-2016:20-03-41	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Japanese, French, Pizza, Mediterranean
+User 1 preferences: 10-20	Japanese, Mediterranean, French, Vietnamese, Pizza
+
+Xanh Restaurant	Vietnamese	10-20
+Chez TJ	French	30-60
+Ryowa Noodle House	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Shabuway	Japanese	30-60
+Morocco's	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Pho To Chau	Vietnamese	20-30
+
+Final selection: Xanh RestaurantUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

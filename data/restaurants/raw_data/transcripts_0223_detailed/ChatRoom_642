@@ -1,0 +1,28 @@
+02-19-2016:16-46-31	c825cb27-da13-45c8-8e12-6dacb8416b70	User 0	joined
+02-19-2016:16-46-33	c825cb27-da13-45c8-8e12-6dacb8416b70	User 1	joined
+02-19-2016:16-46-34	c825cb27-da13-45c8-8e12-6dacb8416b70	User 1	Selected restaurant:	Maruichi Noodle House
+02-19-2016:16-46-39	c825cb27-da13-45c8-8e12-6dacb8416b70	User 1	NOODLES! <3
+02-19-2016:16-46-48	c825cb27-da13-45c8-8e12-6dacb8416b70	User 0	GREAT IDEA!
+02-19-2016:16-46-51	c825cb27-da13-45c8-8e12-6dacb8416b70	User 1	YAY!
+02-19-2016:16-46-52	c825cb27-da13-45c8-8e12-6dacb8416b70	User 0	Selected restaurant:	Maruichi Noodle House
+02-19-2016:16-46-52	---
+02-19-2016:16-46-52	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, Japanese, Mediterranean, Deli, American
+User 1 preferences: 0-10	Deli, Japanese, Pizza, American, Mediterranean
+
+Subway	Deli	10-20
+Posh Bagel	Deli	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Sushitomi	Japanese	20-30
+Shabuway	Japanese	30-60
+Oren's Hummus	Mediterranean	10-20
+Steins Beer Garden	American	20-30
+Niji Sushi	Japanese	10-20
+Bierhaus	American	0-10
+Maruichi Noodle House	Japanese	0-10
+
+Final selection: Maruichi Noodle HouseUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

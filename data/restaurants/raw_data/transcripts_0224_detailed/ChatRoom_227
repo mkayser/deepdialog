@@ -1,0 +1,31 @@
+02-24-2016:19-46-24	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	joined
+02-24-2016:19-46-24	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:19-46-33	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	Selected restaurant 0:	Taqueria Los Charros
+02-24-2016:19-46-33	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	joined
+02-24-2016:19-46-33	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0 has user ID e9cd6c60b03e4b1694694d01171aaec5
+02-24-2016:19-46-36	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	Selected restaurant 8:	Mediterranean Grill House
+02-24-2016:19-46-44	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	Mediterranean Grill house
+02-24-2016:19-47-04	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	Let's try taqueria los charos -  they are really good
+02-24-2016:19-47-16	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	And affordable
+02-24-2016:19-47-19	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	Selected restaurant 0:	Taqueria Los Charros
+02-24-2016:19-47-19	---
+02-24-2016:19-47-20	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Deli, Pizza, Mexican, Indian
+User 1 preferences: 10-20	Pizza, Mediterranean, Mexican, Deli, Indian
+
+Taqueria Los Charros	Mexican	0-10
+Sakoon	Indian	30-60
+Shezan	Indian	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Café Baklava	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Posh Bagel	Deli	10-20
+Blue Line Pizza	Pizza	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Park Ballachi	Indian	0-10
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

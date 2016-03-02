@@ -1,0 +1,29 @@
+02-19-2016:16-34-08	1ee3256e-203e-4557-a667-4320f9df8198	User 1	joined
+02-19-2016:16-34-09	1ee3256e-203e-4557-a667-4320f9df8198	User 0	joined
+02-19-2016:16-34-18	1ee3256e-203e-4557-a667-4320f9df8198	User 1	Hi
+02-19-2016:16-34-23	1ee3256e-203e-4557-a667-4320f9df8198	User 1	Xanh Restaurant?
+02-19-2016:16-34-33	1ee3256e-203e-4557-a667-4320f9df8198	User 0	yeah, Vietnamese is great
+02-19-2016:16-34-37	1ee3256e-203e-4557-a667-4320f9df8198	User 1	Selected restaurant:	Xanh Restaurant
+02-19-2016:16-34-52	1ee3256e-203e-4557-a667-4320f9df8198	User 0	I don't trust 1-$ Japanese food, haha
+02-19-2016:16-34-56	1ee3256e-203e-4557-a667-4320f9df8198	User 0	Selected restaurant:	Xanh Restaurant
+02-19-2016:16-34-57	---
+02-19-2016:16-34-57	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Indian, Thai, Vietnamese, Deli, Japanese
+User 1 preferences: 20-30	Vietnamese, Deli, Thai, Indian, Japanese
+
+Xanh Restaurant	Vietnamese	10-20
+Sushitomi	Japanese	20-30
+Posh Bagel	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+Shalala	Japanese	10-20
+Shezan	Indian	10-20
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+
+Final selection: Xanh RestaurantUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

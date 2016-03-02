@@ -1,0 +1,28 @@
+02-24-2016:19-54-24	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 0	joined
+02-24-2016:19-54-24	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 0 has user ID 75c434db8e144d9497add4d63035b3da
+02-24-2016:19-54-31	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 1	joined
+02-24-2016:19-54-31	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 1 has user ID 20564f20d8714dc4af09c24a64219e9f
+02-24-2016:19-54-44	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 1	Selected restaurant 1:	Ristorante Don Giovanni
+02-24-2016:19-54-49	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 0	Selected restaurant 9:	Bushido
+02-24-2016:19-55-28	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 1	Selected restaurant 9:	Bushido
+02-24-2016:19-55-28	---
+02-24-2016:19-55-28	---
+
+Chat Information:
+
+User 0 preferences: 10-20	French, Italian, Spanish, American, Japanese
+User 1 preferences: 0-10	French, American, Japanese, Spanish, Italian
+
+Bierhaus	American	0-10
+Ristorante Don Giovanni	Italian	0-10
+Shabuway	Japanese	30-60
+Vaso Azzurro	Italian	20-30
+Ryowa Noodle House	Japanese	20-30
+Doppio Zero	Italian	30-60
+Masa Sushi	Japanese	0-10
+Sushitomi	Japanese	20-30
+Yakko	Japanese	0-10
+Bushido	Japanese	10-20
+
+Final selection: BushidoUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

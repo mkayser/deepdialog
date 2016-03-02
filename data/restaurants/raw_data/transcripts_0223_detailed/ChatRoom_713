@@ -1,0 +1,28 @@
+02-19-2016:16-50-39	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 1	joined
+02-19-2016:16-50-40	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 0	joined
+02-19-2016:16-50-43	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 1	hi
+02-19-2016:16-50-50	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 0	Park Ballachi
+02-19-2016:16-50-55	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 1	id like mexican or jap
+02-19-2016:16-51-14	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 0	Selected restaurant:	Fiesta Del Mar Too
+02-19-2016:16-51-20	b96831cb-3475-49ae-b6f3-daf165ccfc5c	User 1	Selected restaurant:	Fiesta Del Mar Too
+02-19-2016:16-51-20	---
+02-19-2016:16-51-20	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Indian, Spanish, Japanese, Italian, Mexican
+User 1 preferences: 0-10	Spanish, Mexican, Japanese, Italian, Indian
+
+Park Ballachi	Indian	0-10
+Doppio Zero	Italian	30-60
+Masa Sushi	Japanese	0-10
+Rumble Fish	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+Yakko	Japanese	0-10
+Sakoon	Indian	30-60
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: Fiesta Del Mar TooUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

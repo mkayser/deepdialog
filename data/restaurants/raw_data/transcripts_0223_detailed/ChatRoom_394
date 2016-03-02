@@ -1,0 +1,31 @@
+02-19-2016:16-27-02	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 1	joined
+02-19-2016:16-27-03	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 0	joined
+02-19-2016:16-27-09	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 0	hiya
+02-19-2016:16-27-12	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 1	hey hey
+02-19-2016:16-27-12	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 0	I love Indian food
+02-19-2016:16-27-14	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 1	cheap date here
+02-19-2016:16-27-21	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 1	Park good?
+02-19-2016:16-27-24	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 0	Selected restaurant:	Park Ballachi
+02-19-2016:16-27-27	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 0	Delicious
+02-19-2016:16-27-31	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 1	Selected restaurant:	Park Ballachi
+02-19-2016:16-27-32	---
+02-19-2016:16-27-32	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Indian, Thai, French, Korean, American
+User 1 preferences: 0-10	Korean, Indian, American, French, Thai
+
+Bierhaus	American	0-10
+Chez TJ	French	30-60
+Park Ballachi	Indian	0-10
+Steins Beer Garden	American	20-30
+Totoro	Korean	20-30
+Scratch	American	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+The Crepevine	American	30-60
+Amarin Thai Cuisine	Thai	20-30
+Sakoon	Indian	30-60
+
+Final selection: Park BallachiUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,30 @@
+02-19-2016:16-36-16	1abad148-9d22-4d2e-b82c-f9f4ff91bdd5	User 1	joined
+02-19-2016:16-36-16	1abad148-9d22-4d2e-b82c-f9f4ff91bdd5	User 0	joined
+02-19-2016:16-36-18	1abad148-9d22-4d2e-b82c-f9f4ff91bdd5	User 0	hi
+02-19-2016:16-36-23	1abad148-9d22-4d2e-b82c-f9f4ff91bdd5	User 1	Hi
+02-19-2016:16-36-26	1abad148-9d22-4d2e-b82c-f9f4ff91bdd5	User 1	Ginseng?
+02-19-2016:16-36-31	1abad148-9d22-4d2e-b82c-f9f4ff91bdd5	User 1	or Sakoon?
+02-19-2016:16-36-32	1abad148-9d22-4d2e-b82c-f9f4ff91bdd5	User 0	Selected restaurant:	Ginseng
+02-19-2016:16-36-34	1abad148-9d22-4d2e-b82c-f9f4ff91bdd5	User 0	yes pls
+02-19-2016:16-36-36	1abad148-9d22-4d2e-b82c-f9f4ff91bdd5	User 1	Selected restaurant:	Ginseng
+02-19-2016:16-36-36	---
+02-19-2016:16-36-36	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Indian, Korean, SeaFood, Spanish, Japanese
+User 1 preferences: 30-60	Korean, Indian, Spanish, Japanese, SeaFood
+
+Sakoon	Indian	30-60
+Masa Sushi	Japanese	0-10
+Shell Shock	SeaFood	10-20
+Ginseng	Korean	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Niji Sushi	Japanese	10-20
+Shalala	Japanese	10-20
+Bushido	Japanese	10-20
+Park Ballachi	Indian	0-10
+Shabuway	Japanese	30-60
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,28 @@
+02-24-2016:19-47-26	1924f8df-e0eb-4521-968c-578097860832	User 1	joined
+02-24-2016:19-47-26	1924f8df-e0eb-4521-968c-578097860832	User 1 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-47-27	1924f8df-e0eb-4521-968c-578097860832	User 0	joined
+02-24-2016:19-47-27	1924f8df-e0eb-4521-968c-578097860832	User 0 has user ID 46caadf01a284c8993a97c081137721e
+02-24-2016:19-47-28	1924f8df-e0eb-4521-968c-578097860832	User 0	Selected restaurant 1:	Fiesta Del Mar Too
+02-24-2016:19-47-36	1924f8df-e0eb-4521-968c-578097860832	User 1	Selected restaurant 5:	Agave
+02-24-2016:19-47-39	1924f8df-e0eb-4521-968c-578097860832	User 0	Selected restaurant 5:	Agave
+02-24-2016:19-47-39	---
+02-24-2016:19-47-39	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Deli, SeaFood, Mexican, Japanese
+User 1 preferences: 0-10	Indian, Mexican, SeaFood, Deli, Japanese
+
+Ryowa Noodle House	Japanese	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Maruichi Noodle House	Japanese	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Sushitomi	Japanese	20-30
+Agave	Mexican	20-30
+Rumble Fish	Japanese	30-60
+Niji Sushi	Japanese	10-20
+Bushido	Japanese	10-20
+Shezan	Indian	10-20
+
+Final selection: AgaveUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

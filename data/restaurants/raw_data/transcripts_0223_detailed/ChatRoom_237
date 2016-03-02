@@ -1,0 +1,27 @@
+02-19-2016:16-04-26	0cec2373-d86a-40fb-826d-03417ccb1210	User 1	joined
+02-19-2016:16-04-26	0cec2373-d86a-40fb-826d-03417ccb1210	User 0	joined
+02-19-2016:16-04-35	0cec2373-d86a-40fb-826d-03417ccb1210	User 1	How about Shalala?
+02-19-2016:16-04-46	0cec2373-d86a-40fb-826d-03417ccb1210	User 0	That was easy! Sound delish!
+02-19-2016:16-04-49	0cec2373-d86a-40fb-826d-03417ccb1210	User 0	Selected restaurant:	Shalala
+02-19-2016:16-05-00	0cec2373-d86a-40fb-826d-03417ccb1210	User 1	Selected restaurant:	Shalala
+02-19-2016:16-05-00	---
+02-19-2016:16-05-00	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Japanese, SeaFood, American, Vietnamese
+User 1 preferences: 10-20	American, Japanese, Vietnamese, SeaFood, Mediterranean
+
+Oren's Hummus	Mediterranean	10-20
+Scratch	American	0-10
+Sushitomi	Japanese	20-30
+Yakko	Japanese	0-10
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Bierhaus	American	0-10
+Asian Box	Vietnamese	30-60
+Drunken Lobster	SeaFood	10-20
+Pho To Chau	Vietnamese	20-30
+
+Final selection: ShalalaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

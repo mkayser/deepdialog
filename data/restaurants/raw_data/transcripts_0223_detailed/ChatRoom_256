@@ -1,0 +1,27 @@
+02-19-2016:16-07-41	df42719a-13e9-4773-b2a2-5000d623560c	User 1	joined
+02-19-2016:16-07-42	df42719a-13e9-4773-b2a2-5000d623560c	User 0	joined
+02-19-2016:16-07-55	df42719a-13e9-4773-b2a2-5000d623560c	User 1	Awh man its been awhile since i have been to Rumble Fish, what do you think pal?
+02-19-2016:16-08-10	df42719a-13e9-4773-b2a2-5000d623560c	User 0	sounds good, lets do it
+02-19-2016:16-08-14	df42719a-13e9-4773-b2a2-5000d623560c	User 0	Selected restaurant:	Rumble Fish
+02-19-2016:16-08-17	df42719a-13e9-4773-b2a2-5000d623560c	User 1	Selected restaurant:	Rumble Fish
+02-19-2016:16-08-18	---
+02-19-2016:16-08-18	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, Japanese, Vietnamese, American, French
+User 1 preferences: 10-20	Japanese, American, French, Korean, Vietnamese
+
+Maruichi Noodle House	Japanese	0-10
+Rumble Fish	Japanese	30-60
+Shalala	Japanese	10-20
+Asian Box	Vietnamese	30-60
+Bierhaus	American	0-10
+Masa Sushi	Japanese	0-10
+Ryowa Noodle House	Japanese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Pho Hoa	Vietnamese	30-60
+Ginseng	Korean	10-20
+
+Final selection: Rumble FishUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

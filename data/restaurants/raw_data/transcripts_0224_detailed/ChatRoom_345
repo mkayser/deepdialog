@@ -1,0 +1,30 @@
+02-24-2016:19-50-14	610370cd-ef68-451d-bf14-23d6d0723e48	User 1	joined
+02-24-2016:19-50-14	610370cd-ef68-451d-bf14-23d6d0723e48	User 1 has user ID f551a9c8ef7447e68e7255c087c8f416
+02-24-2016:19-50-15	610370cd-ef68-451d-bf14-23d6d0723e48	User 0	joined
+02-24-2016:19-50-15	610370cd-ef68-451d-bf14-23d6d0723e48	User 0 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:19-50-24	610370cd-ef68-451d-bf14-23d6d0723e48	User 1	Asian Box?
+02-24-2016:19-50-37	610370cd-ef68-451d-bf14-23d6d0723e48	User 0	Ginseng would be better
+02-24-2016:19-50-48	610370cd-ef68-451d-bf14-23d6d0723e48	User 1	I can deal with that.
+02-24-2016:19-50-51	610370cd-ef68-451d-bf14-23d6d0723e48	User 1	Selected restaurant 9:	Ginseng
+02-24-2016:19-50-54	610370cd-ef68-451d-bf14-23d6d0723e48	User 0	Selected restaurant 9:	Ginseng
+02-24-2016:19-50-54	---
+02-24-2016:19-50-54	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Korean, Italian, Vietnamese, Japanese
+User 1 preferences: 20-30	Vietnamese, Italian, Korean, Deli, Japanese
+
+Bushido	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Doppio Zero	Italian	30-60
+Pho To Chau	Vietnamese	20-30
+Shabuway	Japanese	30-60
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Asian Box	Vietnamese	30-60
+Kappo Naminami	Japanese	30-60
+Ginseng	Korean	10-20
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

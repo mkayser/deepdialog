@@ -1,0 +1,28 @@
+02-24-2016:19-40-42	0fa74b36-a237-4895-92e0-309134fa51ae	User 0	joined
+02-24-2016:19-40-42	0fa74b36-a237-4895-92e0-309134fa51ae	User 0 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-40-45	0fa74b36-a237-4895-92e0-309134fa51ae	User 1	joined
+02-24-2016:19-40-45	0fa74b36-a237-4895-92e0-309134fa51ae	User 1 has user ID fa5ef707d303408b8cf87b5b555c36cc
+02-24-2016:19-40-55	0fa74b36-a237-4895-92e0-309134fa51ae	User 0	Selected restaurant 2:	Chez TJ
+02-24-2016:19-40-55	0fa74b36-a237-4895-92e0-309134fa51ae	User 1	Selected restaurant 5:	Vaso Azzurro
+02-24-2016:19-40-59	0fa74b36-a237-4895-92e0-309134fa51ae	User 0	Selected restaurant 5:	Vaso Azzurro
+02-24-2016:19-41-00	---
+02-24-2016:19-41-00	---
+
+Chat Information:
+
+User 0 preferences: 30-60	French, Italian, Indian, Mexican, Japanese
+User 1 preferences: 10-20	Indian, Japanese, Mexican, French, Italian
+
+Kappo Naminami	Japanese	30-60
+Bushido	Japanese	10-20
+Chez TJ	French	30-60
+Rumble Fish	Japanese	30-60
+Park Ballachi	Indian	0-10
+Vaso Azzurro	Italian	20-30
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Doppio Zero	Italian	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Vaso AzzurroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

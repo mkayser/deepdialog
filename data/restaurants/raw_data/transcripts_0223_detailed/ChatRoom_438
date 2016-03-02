@@ -1,0 +1,28 @@
+02-19-2016:16-30-40	2effc9f1-ba4e-4b2a-b936-8282cc965171	User 1	joined
+02-19-2016:16-30-41	2effc9f1-ba4e-4b2a-b936-8282cc965171	User 0	joined
+02-19-2016:16-30-46	2effc9f1-ba4e-4b2a-b936-8282cc965171	User 0	Selected restaurant:	Sakoon
+02-19-2016:16-31-06	2effc9f1-ba4e-4b2a-b936-8282cc965171	User 1	Shezan?
+02-19-2016:16-31-29	2effc9f1-ba4e-4b2a-b936-8282cc965171	User 0	Sure. That's okay too
+02-19-2016:16-31-34	2effc9f1-ba4e-4b2a-b936-8282cc965171	User 0	Selected restaurant:	Shezan
+02-19-2016:16-31-34	2effc9f1-ba4e-4b2a-b936-8282cc965171	User 1	Selected restaurant:	Shezan
+02-19-2016:16-31-35	---
+02-19-2016:16-31-35	---
+
+Chat Information:
+
+User 0 preferences: 30-60	French, Korean, Chinese, Indian, Italian
+User 1 preferences: 0-10	Indian, Italian, French, Korean, Chinese
+
+Sakoon	Indian	30-60
+Chez TJ	French	30-60
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Totoro	Korean	20-30
+Doppio Zero	Italian	30-60
+Shezan	Indian	10-20
+New Mongolian BBQ	Chinese	30-60
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

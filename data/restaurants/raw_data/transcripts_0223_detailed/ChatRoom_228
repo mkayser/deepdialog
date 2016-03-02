@@ -1,0 +1,28 @@
+02-19-2016:16-02-54	fd0c152a-9cd0-4c47-ac6c-3fe5c174c8e8	User 0	joined
+02-19-2016:16-02-54	fd0c152a-9cd0-4c47-ac6c-3fe5c174c8e8	User 1	joined
+02-19-2016:16-03-07	fd0c152a-9cd0-4c47-ac6c-3fe5c174c8e8	User 0	Do you mind Spanish food my friend?
+02-19-2016:16-03-28	fd0c152a-9cd0-4c47-ac6c-3fe5c174c8e8	User 1	I don't mind it, but i prefer mediterranean.
+02-19-2016:16-03-37	fd0c152a-9cd0-4c47-ac6c-3fe5c174c8e8	User 0	Ok, you pick the restaurant:)
+02-19-2016:16-03-43	fd0c152a-9cd0-4c47-ac6c-3fe5c174c8e8	User 1	Selected restaurant:	Morocco's
+02-19-2016:16-03-45	fd0c152a-9cd0-4c47-ac6c-3fe5c174c8e8	User 0	Selected restaurant:	Morocco's
+02-19-2016:16-03-45	---
+02-19-2016:16-03-45	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Spanish, Pizza, Deli, Mediterranean, Indian
+User 1 preferences: 10-20	Pizza, Indian, Mediterranean, Deli, Spanish
+
+Oren's Hummus	Mediterranean	10-20
+Cascal	Spanish	30-60
+Morocco's	Mediterranean	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Blue Line Pizza	Pizza	10-20
+Café Baklava	Mediterranean	10-20
+Park Ballachi	Indian	0-10
+Posh Bagel	Deli	10-20
+Shezan	Indian	10-20
+
+Final selection: Morocco'sUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

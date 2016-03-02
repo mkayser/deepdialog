@@ -1,0 +1,35 @@
+02-24-2016:19-59-36	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	joined
+02-24-2016:19-59-36	ba5bd696-f70b-4729-ae94-6770b3995357	User 0 has user ID f25cb379b00e47d38df696c2696759e8
+02-24-2016:19-59-37	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	joined
+02-24-2016:19-59-37	ba5bd696-f70b-4729-ae94-6770b3995357	User 1 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-59-40	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Japanese?
+02-24-2016:19-59-45	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Cheap preferably
+02-24-2016:19-59-56	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	I'm in the mood for Viet. How about Xanh?
+02-24-2016:19-59-56	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Or mediterranean would be good in a pinch if you don't do japanese
+02-24-2016:20-00-02	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	That's not too expensive
+02-24-2016:20-00-11	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Can we compromise on french, I don't like vietnamese
+02-24-2016:20-00-19	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Actually
+02-24-2016:20-00-20	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	fuck it
+02-24-2016:20-00-23	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Selected restaurant 0:	Xanh Restaurant
+02-24-2016:20-00-26	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	Selected restaurant 0:	Xanh Restaurant
+02-24-2016:20-00-26	---
+02-24-2016:20-00-26	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Japanese, French, Pizza, Mediterranean
+User 1 preferences: 10-20	Japanese, Mediterranean, French, Vietnamese, Pizza
+
+Xanh Restaurant	Vietnamese	10-20
+Chez TJ	French	30-60
+Ryowa Noodle House	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Shabuway	Japanese	30-60
+Morocco's	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Pho To Chau	Vietnamese	20-30
+
+Final selection: Xanh RestaurantUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

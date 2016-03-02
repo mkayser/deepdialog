@@ -1,0 +1,29 @@
+02-24-2016:19-55-59	8ac22e2c-6f54-4af6-884b-f54a259a04f6	User 1	joined
+02-24-2016:19-55-59	8ac22e2c-6f54-4af6-884b-f54a259a04f6	User 1 has user ID ecb9be7e240a471d97a69d5ebf6b8597
+02-24-2016:19-56-01	8ac22e2c-6f54-4af6-884b-f54a259a04f6	User 0	joined
+02-24-2016:19-56-01	8ac22e2c-6f54-4af6-884b-f54a259a04f6	User 0 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:19-56-09	8ac22e2c-6f54-4af6-884b-f54a259a04f6	User 1	I covet Blue Line Pizza.
+02-24-2016:19-56-14	8ac22e2c-6f54-4af6-884b-f54a259a04f6	User 1	Please, let us enjoy them together.
+02-24-2016:19-56-16	8ac22e2c-6f54-4af6-884b-f54a259a04f6	User 0	Selected restaurant 4:	Blue Line Pizza
+02-24-2016:19-56-18	8ac22e2c-6f54-4af6-884b-f54a259a04f6	User 1	Selected restaurant 4:	Blue Line Pizza
+02-24-2016:19-56-18	---
+02-24-2016:19-56-18	---
+
+Chat Information:
+
+User 0 preferences: 10-20	SeaFood, Korean, Pizza, Deli, Mediterranean
+User 1 preferences: 10-20	Pizza, SeaFood, Mediterranean, Deli, Korean
+
+Oren's Hummus	Mediterranean	10-20
+Subway	Deli	10-20
+Drunken Lobster	SeaFood	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+Morocco's	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Shell Shock	SeaFood	10-20
+Totoro	Korean	20-30
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

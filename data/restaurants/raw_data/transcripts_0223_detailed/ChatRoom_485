@@ -1,0 +1,37 @@
+02-19-2016:16-34-37	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 0	joined
+02-19-2016:16-34-40	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 1	joined
+02-19-2016:16-34-52	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 1	hey
+02-19-2016:16-34-57	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 0	hey
+02-19-2016:16-34-59	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 1	Do you like Vietnamese?
+02-19-2016:16-35-07	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 0	its 1 heart
+02-19-2016:16-35-12	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 1	Seafood?
+02-19-2016:16-35-19	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 0	yeah 
+02-19-2016:16-35-20	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 1	ah not a choice oops
+02-19-2016:16-35-23	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 0	dont see any though
+02-19-2016:16-35-26	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 1	I can settle for Japanese ;)
+02-19-2016:16-35-30	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 0	this is making me hungry as all get out
+02-19-2016:16-35-30	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 1	Selected restaurant:	Ryowa Noodle House
+02-19-2016:16-35-34	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 1	lol yep
+02-19-2016:16-35-39	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 1	Let's go now
+02-19-2016:16-35-41	76eb9dd8-ba8e-47f8-b70c-ce4c2d523f6b	User 0	Selected restaurant:	Ryowa Noodle House
+02-19-2016:16-35-41	---
+02-19-2016:16-35-41	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Japanese, SeaFood, Indian, Mediterranean, Vietnamese
+User 1 preferences: 20-30	Vietnamese, SeaFood, Japanese, Indian, Mediterranean
+
+Sakoon	Indian	30-60
+Park Ballachi	Indian	0-10
+Oren's Hummus	Mediterranean	10-20
+Ryowa Noodle House	Japanese	20-30
+Rumble Fish	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Morocco's	Mediterranean	10-20
+Bushido	Japanese	10-20
+Kappo Naminami	Japanese	30-60
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: Ryowa Noodle HouseUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

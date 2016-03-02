@@ -1,0 +1,29 @@
+02-19-2016:15-46-27	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 1	joined
+02-19-2016:15-46-28	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 0	joined
+02-19-2016:15-46-42	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 0	What do you have in mind?
+02-19-2016:15-46-50	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 1	I was in the mood for some Spanish.  How about Cascal?
+02-19-2016:15-46-59	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 0	Works for me!
+02-19-2016:15-47-03	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 0	Selected restaurant:	Cascal
+02-19-2016:15-47-07	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 1	Good to hear, see you there!
+02-19-2016:15-47-09	6c77a530-63bf-4a9f-bda6-e7cc326bd7ee	User 1	Selected restaurant:	Cascal
+02-19-2016:15-47-09	---
+02-19-2016:15-47-09	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, Spanish, Chinese, Thai, SeaFood
+User 1 preferences: 10-20	Spanish, Chinese, Thai, Pizza, SeaFood
+
+Kirin	Chinese	10-20
+Queen House	Chinese	0-10
+Amarin Thai Cuisine	Thai	20-30
+Blue Line Pizza	Pizza	10-20
+Cascal	Spanish	30-60
+Hunan Chili	Chinese	30-60
+New Mongolian BBQ	Chinese	30-60
+Drunken Lobster	SeaFood	10-20
+Fu Lam Mum	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+
+Final selection: CascalUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

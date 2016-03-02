@@ -1,0 +1,30 @@
+02-24-2016:19-50-49	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1	joined
+02-24-2016:19-50-49	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:19-50-51	b45fc81b-c1a7-4054-883a-b13b834bae92	User 0	joined
+02-24-2016:19-50-51	b45fc81b-c1a7-4054-883a-b13b834bae92	User 0 has user ID 6034b71030634f59ad2ef4d6e30365da
+02-24-2016:19-50-56	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1	kirin?
+02-24-2016:19-50-59	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1	Selected restaurant 3:	Kirin
+02-24-2016:19-51-03	b45fc81b-c1a7-4054-883a-b13b834bae92	User 0	Pho
+02-24-2016:19-51-06	b45fc81b-c1a7-4054-883a-b13b834bae92	User 0	Selected restaurant 2:	Pho To Chau
+02-24-2016:19-51-09	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1	Selected restaurant 2:	Pho To Chau
+02-24-2016:19-51-10	---
+02-24-2016:19-51-10	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Deli, French, Pizza, Chinese
+User 1 preferences: 10-20	Chinese, French, Pizza, Deli, Vietnamese
+
+Hunan Chili	Chinese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Pho To Chau	Vietnamese	20-30
+Kirin	Chinese	10-20
+Fu Lam Mum	Chinese	30-60
+Chez TJ	French	30-60
+Hong Kong Bistro	Chinese	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+New Mongolian BBQ	Chinese	30-60
+Queen House	Chinese	0-10
+
+Final selection: Pho To ChauUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

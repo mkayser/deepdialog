@@ -1,0 +1,33 @@
+02-24-2016:20-18-12	46809d62-6370-47f2-b2a7-43ab55506259	User 1	joined
+02-24-2016:20-18-12	46809d62-6370-47f2-b2a7-43ab55506259	User 1 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:20-18-14	46809d62-6370-47f2-b2a7-43ab55506259	User 0	joined
+02-24-2016:20-18-14	46809d62-6370-47f2-b2a7-43ab55506259	User 0 has user ID 1e7d23c916b7426aa7356a7313658cdf
+02-24-2016:20-18-16	46809d62-6370-47f2-b2a7-43ab55506259	User 1	shabu?
+02-24-2016:20-18-20	46809d62-6370-47f2-b2a7-43ab55506259	User 1	Selected restaurant 9:	Shabuway
+02-24-2016:20-18-23	46809d62-6370-47f2-b2a7-43ab55506259	User 0	Selected restaurant 3:	Doppio Zero
+02-24-2016:20-18-33	46809d62-6370-47f2-b2a7-43ab55506259	User 1	not feeling pasta
+02-24-2016:20-18-34	46809d62-6370-47f2-b2a7-43ab55506259	User 1	kappo?
+02-24-2016:20-18-38	46809d62-6370-47f2-b2a7-43ab55506259	User 0	ok
+02-24-2016:20-18-38	46809d62-6370-47f2-b2a7-43ab55506259	User 1	Selected restaurant 2:	Kappo Naminami
+02-24-2016:20-18-41	46809d62-6370-47f2-b2a7-43ab55506259	User 0	Selected restaurant 2:	Kappo Naminami
+02-24-2016:20-18-41	---
+02-24-2016:20-18-42	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Italian, Pizza, Japanese, Deli, Mexican
+User 1 preferences: 30-60	Japanese, Pizza, Italian, Deli, Mexican
+
+Ristorante Don Giovanni	Italian	0-10
+Agave	Mexican	20-30
+Kappo Naminami	Japanese	30-60
+Doppio Zero	Italian	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Subway	Deli	10-20
+Yakko	Japanese	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Shalala	Japanese	10-20
+Shabuway	Japanese	30-60
+
+Final selection: Kappo NaminamiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

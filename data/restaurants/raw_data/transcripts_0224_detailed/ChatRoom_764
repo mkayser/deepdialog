@@ -1,0 +1,33 @@
+02-24-2016:20-08-35	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 0	joined
+02-24-2016:20-08-35	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 0 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:20-08-38	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 0	Hey!
+02-24-2016:20-08-38	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 1	joined
+02-24-2016:20-08-38	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-08-42	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 0	Lets do Indian!
+02-24-2016:20-08-47	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 0	I haven't done it in years!!!
+02-24-2016:20-08-50	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 1	YEah! Tiki Masala
+02-24-2016:20-08-51	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 0	It'll be fun.
+02-24-2016:20-08-55	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 1	Selected restaurant 6:	Sakoon
+02-24-2016:20-09-00	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 1	you're buying
+02-24-2016:20-09-01	90bc42bd-3a03-4053-970f-4fd9b3a01d76	User 0	Selected restaurant 6:	Sakoon
+02-24-2016:20-09-01	---
+02-24-2016:20-09-01	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Chinese, American, Thai, Pizza
+User 1 preferences: 20-30	Chinese, Pizza, Thai, Indian, American
+
+Blue Line Pizza	Pizza	10-20
+Kirin	Chinese	10-20
+New Mongolian BBQ	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Bierhaus	American	0-10
+Sakoon	Indian	30-60
+Steins Beer Garden	American	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Shezan	Indian	10-20
+
+Final selection: SakoonUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

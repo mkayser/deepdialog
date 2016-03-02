@@ -1,0 +1,30 @@
+02-24-2016:19-52-44	cc9effee-b384-4617-bee3-535630dc2166	User 1	joined
+02-24-2016:19-52-44	cc9effee-b384-4617-bee3-535630dc2166	User 1 has user ID 1393e15d6fde46cb9f4502aa09ae8331
+02-24-2016:19-52-53	cc9effee-b384-4617-bee3-535630dc2166	User 1	Seafood? I want crabs
+02-24-2016:19-52-54	cc9effee-b384-4617-bee3-535630dc2166	User 0	joined
+02-24-2016:19-52-54	cc9effee-b384-4617-bee3-535630dc2166	User 0 has user ID 78de429b6e684f988804a99bd73bb576
+02-24-2016:19-52-59	cc9effee-b384-4617-bee3-535630dc2166	User 1	seafood?
+02-24-2016:19-53-02	cc9effee-b384-4617-bee3-535630dc2166	User 0	sure
+02-24-2016:19-53-04	cc9effee-b384-4617-bee3-535630dc2166	User 0	Selected restaurant 2:	Shell Shock
+02-24-2016:19-53-08	cc9effee-b384-4617-bee3-535630dc2166	User 1	Selected restaurant 2:	Shell Shock
+02-24-2016:19-53-08	---
+02-24-2016:19-53-09	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Pizza, Spanish, Deli, American, SeaFood
+User 1 preferences: 20-30	SeaFood, Deli, Spanish, Pizza, American
+
+Scratch	American	0-10
+The Crepevine	American	30-60
+Shell Shock	SeaFood	10-20
+Steins Beer Garden	American	20-30
+Cascal	Spanish	30-60
+Drunken Lobster	SeaFood	10-20
+Posh Bagel	Deli	10-20
+Bierhaus	American	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Shell ShockUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

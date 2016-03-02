@@ -1,0 +1,27 @@
+02-24-2016:19-57-42	54d15245-f344-4106-bd6e-97e3cbbdef21	User 0	joined
+02-24-2016:19-57-42	54d15245-f344-4106-bd6e-97e3cbbdef21	User 0 has user ID 56a965da39604ed4b21a394e5ff4f573
+02-24-2016:19-57-42	54d15245-f344-4106-bd6e-97e3cbbdef21	User 1	joined
+02-24-2016:19-57-42	54d15245-f344-4106-bd6e-97e3cbbdef21	User 1 has user ID a10c23959bce47cba292e838220db116
+02-24-2016:19-57-48	54d15245-f344-4106-bd6e-97e3cbbdef21	User 0	Selected restaurant 0:	Bushido
+02-24-2016:19-57-58	54d15245-f344-4106-bd6e-97e3cbbdef21	User 1	Selected restaurant 0:	Bushido
+02-24-2016:19-57-58	---
+02-24-2016:19-58-58	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Deli, Vietnamese, Spanish, Indian, Japanese
+User 1 preferences: 0-10	Japanese, Vietnamese, Indian, Deli, Spanish
+
+Bushido	Japanese	10-20
+Kappo Naminami	Japanese	30-60
+Pho Hoa	Vietnamese	30-60
+Sakoon	Indian	30-60
+Asian Box	Vietnamese	30-60
+Shezan	Indian	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Shalala	Japanese	10-20
+Shabuway	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+
+Final selection: BushidoUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,28 @@
+02-24-2016:19-47-37	3783cbc6-bcfa-427c-9529-7019d597e22a	User 0	joined
+02-24-2016:19-47-37	3783cbc6-bcfa-427c-9529-7019d597e22a	User 0 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:19-47-39	3783cbc6-bcfa-427c-9529-7019d597e22a	User 1	joined
+02-24-2016:19-47-39	3783cbc6-bcfa-427c-9529-7019d597e22a	User 1 has user ID a686d289fea54d228398211bf4135821
+02-24-2016:19-47-50	3783cbc6-bcfa-427c-9529-7019d597e22a	User 0	How about Ginseng?
+02-24-2016:19-48-08	3783cbc6-bcfa-427c-9529-7019d597e22a	User 1	Selected restaurant 0:	Ginseng
+02-24-2016:19-48-12	3783cbc6-bcfa-427c-9529-7019d597e22a	User 0	Selected restaurant 0:	Ginseng
+02-24-2016:19-48-12	---
+02-24-2016:19-48-13	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Korean, SeaFood, Chinese, Italian, Thai
+User 1 preferences: 10-20	Thai, Chinese, Korean, SeaFood, Italian
+
+Ginseng	Korean	10-20
+New Mongolian BBQ	Chinese	30-60
+Doppio Zero	Italian	30-60
+Hong Kong Bistro	Chinese	20-30
+Queen House	Chinese	0-10
+Shell Shock	SeaFood	10-20
+Fu Lam Mum	Chinese	30-60
+Drunken Lobster	SeaFood	10-20
+Ristorante Don Giovanni	Italian	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

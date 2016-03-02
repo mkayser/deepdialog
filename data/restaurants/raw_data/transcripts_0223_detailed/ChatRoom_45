@@ -1,0 +1,34 @@
+02-19-2016:15-32-03	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	joined
+02-19-2016:15-32-06	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	joined
+02-19-2016:15-32-09	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	hello
+02-19-2016:15-32-12	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	hello
+02-19-2016:15-32-21	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	we are eating at fiesta del mar too and thats final
+02-19-2016:15-32-31	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	No way
+02-19-2016:15-32-38	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	Let's eat at Agave
+02-19-2016:15-32-43	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	I'm large and in charge
+02-19-2016:15-32-59	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	okay fine agave cupcake
+02-19-2016:15-33-05	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	okay 
+02-19-2016:15-33-09	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	Selected restaurant:	Agave
+02-19-2016:15-33-10	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	nice doing business with you
+02-19-2016:15-33-13	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	Selected restaurant:	Agave
+02-19-2016:15-33-14	---
+02-19-2016:15-33-14	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Chinese, Mediterranean, Indian, Vietnamese
+User 1 preferences: 30-60	Mexican, Chinese, Vietnamese, Mediterranean, Indian
+
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+Pho To Chau	Vietnamese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Café Baklava	Mediterranean	10-20
+Sakoon	Indian	30-60
+Morocco's	Mediterranean	10-20
+Agave	Mexican	20-30
+Asian Box	Vietnamese	30-60
+
+Final selection: AgaveUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

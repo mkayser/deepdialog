@@ -1,0 +1,32 @@
+02-19-2016:15-59-45	4520f479-0844-41fe-a503-ba3f30220429	User 0	joined
+02-19-2016:15-59-46	4520f479-0844-41fe-a503-ba3f30220429	User 1	joined
+02-19-2016:15-59-51	4520f479-0844-41fe-a503-ba3f30220429	User 0	Hey, you feelin some American?
+02-19-2016:16-00-15	4520f479-0844-41fe-a503-ba3f30220429	User 1	American not bad but got the urge for Pizza
+02-19-2016:16-00-34	4520f479-0844-41fe-a503-ba3f30220429	User 0	Eh, I'm not feeling pizza.  How about a sandwich from Posh Bagel then?
+02-19-2016:16-01-17	4520f479-0844-41fe-a503-ba3f30220429	User 1	not feeling the bread right now. How about some shrimp at the Shell Shock?
+02-19-2016:16-01-39	4520f479-0844-41fe-a503-ba3f30220429	User 0	I'm allergic to seafood, can't do that.  I'd say some French but nothing available...sure I can't convince you for some American?  Scratch should have somethin there
+02-19-2016:16-02-05	4520f479-0844-41fe-a503-ba3f30220429	User 1	Scratch was my third choice lol. I'm good with Scratch.
+02-19-2016:16-02-17	4520f479-0844-41fe-a503-ba3f30220429	User 0	haha, ok, sorry I'm so difficult.  Scratch is great for me.
+02-19-2016:16-02-20	4520f479-0844-41fe-a503-ba3f30220429	User 0	Selected restaurant:	Scratch
+02-19-2016:16-02-24	4520f479-0844-41fe-a503-ba3f30220429	User 1	Selected restaurant:	Scratch
+02-19-2016:16-02-25	---
+02-19-2016:16-02-25	---
+
+Chat Information:
+
+User 0 preferences: 0-10	American, French, Deli, SeaFood, Pizza
+User 1 preferences: 0-10	Pizza, SeaFood, American, Deli, French
+
+Blue Line Pizza	Pizza	10-20
+Scratch	American	0-10
+The Crepevine	American	30-60
+Drunken Lobster	SeaFood	10-20
+Posh Bagel	Deli	10-20
+Shell Shock	SeaFood	10-20
+Bierhaus	American	0-10
+Steins Beer Garden	American	20-30
+Subway	Deli	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: ScratchUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

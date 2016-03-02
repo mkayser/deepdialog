@@ -1,0 +1,31 @@
+02-19-2016:16-50-21	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	joined
+02-19-2016:16-50-21	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 0	joined
+02-19-2016:16-50-34	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 0	Hi Korean?
+02-19-2016:16-50-41	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	Indian is preferred.
+02-19-2016:16-50-49	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	Shiva's sounds delightful.
+02-19-2016:16-51-16	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 0	how about american crepevine?
+02-19-2016:16-51-22	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	Ew, No thanks.
+02-19-2016:16-51-26	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	Korean?
+02-19-2016:16-51-35	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	Selected restaurant:	Ginseng
+02-19-2016:16-51-53	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 0	Selected restaurant:	Ginseng
+02-19-2016:16-51-53	---
+02-19-2016:16-51-53	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Korean, American, French, Indian, Vietnamese
+User 1 preferences: 0-10	Indian, Vietnamese, Korean, American, French
+
+Xanh Restaurant	Vietnamese	10-20
+The Crepevine	American	30-60
+Bierhaus	American	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+Shezan	Indian	10-20
+Park Ballachi	Indian	0-10
+Ginseng	Korean	10-20
+Pho To Chau	Vietnamese	20-30
+Steins Beer Garden	American	20-30
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

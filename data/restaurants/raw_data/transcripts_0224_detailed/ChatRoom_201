@@ -1,0 +1,33 @@
+02-24-2016:19-45-24	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 0	joined
+02-24-2016:19-45-24	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 0 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:19-45-26	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 1	joined
+02-24-2016:19-45-26	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 1 has user ID ee398c9fd94c434299627da9c2adc0a9
+02-24-2016:19-45-39	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 0	Hi Chez TJ?
+02-24-2016:19-45-48	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 1	hi friend. how does the drunken lobster sound? I like the name.
+02-24-2016:19-45-54	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 1	chez tj is a little out of my price range
+02-24-2016:19-46-19	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 0	sorry no seafood japanese works
+02-24-2016:19-46-38	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 1	ok i could try yakko or sushitomi
+02-24-2016:19-46-50	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 0	Sushitomi
+02-24-2016:19-46-54	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 0	Selected restaurant 5:	Sushitomi
+02-24-2016:19-46-55	eed4497c-a994-44a3-9971-6ac8ad8fdc42	User 1	Selected restaurant 5:	Sushitomi
+02-24-2016:19-46-56	---
+02-24-2016:19-46-56	---
+
+Chat Information:
+
+User 0 preferences: 30-60	French, Japanese, Italian, SeaFood, Vietnamese
+User 1 preferences: 10-20	SeaFood, Italian, Japanese, Vietnamese, French
+
+Niji Sushi	Japanese	10-20
+Pho To Chau	Vietnamese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Kappo Naminami	Japanese	30-60
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Ryowa Noodle House	Japanese	20-30
+Chez TJ	French	30-60
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+
+Final selection: SushitomiUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-19-2016:16-27-29	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	joined
+02-19-2016:16-27-33	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	joined
+02-19-2016:16-27-40	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	Selected restaurant:	Oren's Hummus
+02-19-2016:16-27-44	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	cascal?
+02-19-2016:16-27-47	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	Orens
+02-19-2016:16-27-52	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	Selected restaurant:	Oren's Hummus
+02-19-2016:16-27-52	---
+02-19-2016:16-27-52	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Italian, Vietnamese, Mediterranean, French
+User 1 preferences: 0-10	Mediterranean, Spanish, French, Italian, Vietnamese
+
+Ristorante Don Giovanni	Italian	0-10
+Oren's Hummus	Mediterranean	10-20
+Cascal	Spanish	30-60
+Pho To Chau	Vietnamese	20-30
+Pho Hoa	Vietnamese	30-60
+Morocco's	Mediterranean	10-20
+Doppio Zero	Italian	30-60
+Xanh Restaurant	Vietnamese	10-20
+Asian Box	Vietnamese	30-60
+Café Baklava	Mediterranean	10-20
+
+Final selection: Oren's HummusUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

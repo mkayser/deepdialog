@@ -1,0 +1,30 @@
+02-24-2016:19-40-34	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 0	joined
+02-24-2016:19-40-34	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 0 has user ID 12dfd22b352441e0ae363490f50068fc
+02-24-2016:19-40-35	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 1	joined
+02-24-2016:19-40-35	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 1 has user ID 1c72f4728567475d8f76220880432e4e
+02-24-2016:19-40-39	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 1	Selected restaurant 0:	Ristorante Don Giovanni
+02-24-2016:19-40-48	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 0	I dont like Italian
+02-24-2016:19-40-56	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 1	Selected restaurant 6:	Xanh Restaurant
+02-24-2016:19-41-02	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 0	That works with me
+02-24-2016:19-41-05	c0b17445-6472-46d5-88e9-0d32d64a5d6a	User 0	Selected restaurant 6:	Xanh Restaurant
+02-24-2016:19-41-05	---
+02-24-2016:19-41-05	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Vietnamese, Mexican, Italian, Korean, French
+User 1 preferences: 10-20	Italian, French, Mexican, Korean, Vietnamese
+
+Ristorante Don Giovanni	Italian	0-10
+Taqueria Los Charros	Mexican	0-10
+Agave	Mexican	20-30
+Doppio Zero	Italian	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Asian Box	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Pho Hoa	Vietnamese	30-60
+Totoro	Korean	20-30
+
+Final selection: Xanh RestaurantUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

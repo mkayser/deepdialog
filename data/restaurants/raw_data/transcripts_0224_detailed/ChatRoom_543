@@ -1,0 +1,29 @@
+02-24-2016:19-56-08	2f97d384-1558-4383-869c-49aaf61e3f5f	User 0	joined
+02-24-2016:19-56-08	2f97d384-1558-4383-869c-49aaf61e3f5f	User 0 has user ID b745a91d655a4b418f42f8d3bf219f17
+02-24-2016:19-56-09	2f97d384-1558-4383-869c-49aaf61e3f5f	User 1	joined
+02-24-2016:19-56-09	2f97d384-1558-4383-869c-49aaf61e3f5f	User 1 has user ID fd37717c9796476388fc1a6eb3614f31
+02-24-2016:19-56-21	2f97d384-1558-4383-869c-49aaf61e3f5f	User 1	Mexican?
+02-24-2016:19-56-24	2f97d384-1558-4383-869c-49aaf61e3f5f	User 0	Ok
+02-24-2016:19-56-27	2f97d384-1558-4383-869c-49aaf61e3f5f	User 1	Selected restaurant 2:	Fiesta Del Mar Too
+02-24-2016:19-56-31	2f97d384-1558-4383-869c-49aaf61e3f5f	User 0	Selected restaurant 2:	Fiesta Del Mar Too
+02-24-2016:19-56-31	---
+02-24-2016:19-56-32	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Chinese, French, Thai, Mexican
+User 1 preferences: 10-20	Mexican, French, Chinese, Thai, Indian
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Agave	Mexican	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Amarin Thai Cuisine	Thai	20-30
+Hong Kong Bistro	Chinese	20-30
+New Mongolian BBQ	Chinese	30-60
+Queen House	Chinese	0-10
+Fu Lam Mum	Chinese	30-60
+Kirin	Chinese	10-20
+
+Final selection: Fiesta Del Mar TooUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,27 @@
+02-24-2016:19-49-33	920f292b-bd9d-48a8-9528-3a10c4e1254d	User 0	joined
+02-24-2016:19-49-33	920f292b-bd9d-48a8-9528-3a10c4e1254d	User 0 has user ID f551a9c8ef7447e68e7255c087c8f416
+02-24-2016:19-49-34	920f292b-bd9d-48a8-9528-3a10c4e1254d	User 1	joined
+02-24-2016:19-49-34	920f292b-bd9d-48a8-9528-3a10c4e1254d	User 1 has user ID 1791b65c99164e7d941c4a5db7dd8904
+02-24-2016:19-49-44	920f292b-bd9d-48a8-9528-3a10c4e1254d	User 1	Selected restaurant 1:	Blue Line Pizza
+02-24-2016:19-49-49	920f292b-bd9d-48a8-9528-3a10c4e1254d	User 0	Selected restaurant 1:	Blue Line Pizza
+02-24-2016:19-49-50	---
+02-24-2016:19-49-50	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Vietnamese, Korean, Pizza, Chinese
+User 1 preferences: 0-10	Italian, Chinese, Pizza, Korean, Vietnamese
+
+Kirin	Chinese	10-20
+Blue Line Pizza	Pizza	10-20
+Xanh Restaurant	Vietnamese	10-20
+Vaso Azzurro	Italian	20-30
+Pho To Chau	Vietnamese	20-30
+New Mongolian BBQ	Chinese	30-60
+Asian Box	Vietnamese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Queen House	Chinese	0-10
+Doppio Zero	Italian	30-60
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

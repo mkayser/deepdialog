@@ -1,0 +1,29 @@
+02-24-2016:19-54-05	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	joined
+02-24-2016:19-54-05	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1 has user ID 636466e4c18f4aa0ab4ae2d4c678f8b3
+02-24-2016:19-54-06	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 0	joined
+02-24-2016:19-54-06	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 0 has user ID f551a9c8ef7447e68e7255c087c8f416
+02-24-2016:19-54-15	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	how about thai?
+02-24-2016:19-54-26	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 0	Thai sounds great. Amarin Thai Cuisine?
+02-24-2016:19-54-27	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:19-54-31	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 0	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:19-54-31	---
+02-24-2016:19-54-31	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, SeaFood, American, Chinese, Pizza
+User 1 preferences: 10-20	SeaFood, American, Thai, Pizza, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Bierhaus	American	0-10
+Fu Lam Mum	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Kirin	Chinese	10-20
+Hunan Chili	Chinese	30-60
+Bangkok Spoon	Thai	30-60
+The Crepevine	American	30-60
+Hong Kong Bistro	Chinese	20-30
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

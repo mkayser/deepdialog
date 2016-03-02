@@ -1,0 +1,28 @@
+02-24-2016:20-05-20	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 1	joined
+02-24-2016:20-05-20	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 1 has user ID f25cb379b00e47d38df696c2696759e8
+02-24-2016:20-05-21	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 0	joined
+02-24-2016:20-05-21	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 0 has user ID 636466e4c18f4aa0ab4ae2d4c678f8b3
+02-24-2016:20-05-28	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 1	Whatever you want
+02-24-2016:20-05-40	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 0	Selected restaurant 2:	Steins Beer Garden
+02-24-2016:20-05-43	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 1	Selected restaurant 2:	Steins Beer Garden
+02-24-2016:20-05-43	---
+02-24-2016:20-05-43	---
+
+Chat Information:
+
+User 0 preferences: 0-10	American, Vietnamese, Chinese, Indian, Japanese
+User 1 preferences: 0-10	Indian, Vietnamese, Japanese, American, Chinese
+
+Hong Kong Bistro	Chinese	20-30
+Yakko	Japanese	0-10
+Steins Beer Garden	American	20-30
+Rumble Fish	Japanese	30-60
+Kappo Naminami	Japanese	30-60
+Shalala	Japanese	10-20
+Pho To Chau	Vietnamese	20-30
+Shabuway	Japanese	30-60
+New Mongolian BBQ	Chinese	30-60
+Ryowa Noodle House	Japanese	20-30
+
+Final selection: Steins Beer GardenUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

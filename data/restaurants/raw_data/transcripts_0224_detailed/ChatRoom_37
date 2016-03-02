@@ -1,0 +1,27 @@
+02-24-2016:19-36-49	b2102a4f-89e3-4055-8431-af12f3bfd931	User 1	joined
+02-24-2016:19-36-49	b2102a4f-89e3-4055-8431-af12f3bfd931	User 1 has user ID 714726608fb04babba37ffb9e1d8f25d
+02-24-2016:19-36-50	b2102a4f-89e3-4055-8431-af12f3bfd931	User 0	joined
+02-24-2016:19-36-50	b2102a4f-89e3-4055-8431-af12f3bfd931	User 0 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-37-07	b2102a4f-89e3-4055-8431-af12f3bfd931	User 1	Selected restaurant 9:	Subway
+02-24-2016:19-37-14	b2102a4f-89e3-4055-8431-af12f3bfd931	User 0	Selected restaurant 9:	Subway
+02-24-2016:19-37-14	---
+02-24-2016:19-37-15	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Deli, Thai, Italian, Japanese, French
+User 1 preferences: 10-20	Deli, Japanese, French, Thai, Italian
+
+Shabuway	Japanese	30-60
+Vaso Azzurro	Italian	20-30
+Ryowa Noodle House	Japanese	20-30
+Chez TJ	French	30-60
+Sushitomi	Japanese	20-30
+Bushido	Japanese	10-20
+Doppio Zero	Italian	30-60
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Subway	Deli	10-20
+
+Final selection: SubwayUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,33 @@
+02-24-2016:19-42-34	62e50948-712c-4423-9440-f63dd7c3cb85	User 1	joined
+02-24-2016:19-42-34	62e50948-712c-4423-9440-f63dd7c3cb85	User 1 has user ID f2f592f8736f4de8bff4aee066831e45
+02-24-2016:19-42-41	62e50948-712c-4423-9440-f63dd7c3cb85	User 1	Selected restaurant 4:	Cascal
+02-24-2016:19-43-06	62e50948-712c-4423-9440-f63dd7c3cb85	User 0	joined
+02-24-2016:19-43-06	62e50948-712c-4423-9440-f63dd7c3cb85	User 0 has user ID cd8e156d33b74a0494917b48f6d699a4
+02-24-2016:19-43-13	---
+02-24-2016:19-43-19	62e50948-712c-4423-9440-f63dd7c3cb85	User 0	joined
+02-24-2016:19-43-19	62e50948-712c-4423-9440-f63dd7c3cb85	User 0 has user ID cd8e156d33b74a0494917b48f6d699a4
+02-24-2016:19-43-31	62e50948-712c-4423-9440-f63dd7c3cb85	User 1	How is Cascal with you?
+02-24-2016:19-43-35	62e50948-712c-4423-9440-f63dd7c3cb85	User 0	fu lam mum for chinese?
+02-24-2016:19-43-42	62e50948-712c-4423-9440-f63dd7c3cb85	User 1	Selected restaurant 5:	Fu Lam Mum
+02-24-2016:19-43-48	62e50948-712c-4423-9440-f63dd7c3cb85	User 0	Selected restaurant 5:	Fu Lam Mum
+02-24-2016:19-43-48	---
+02-24-2016:19-43-49	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Spanish, Mexican, Deli, Italian
+User 1 preferences: 20-30	Spanish, Mexican, Chinese, Deli, Italian
+
+Fiesta Del Mar Too	Mexican	10-20
+New Mongolian BBQ	Chinese	30-60
+Posh Bagel	Deli	10-20
+Taqueria Los Charros	Mexican	0-10
+Cascal	Spanish	30-60
+Fu Lam Mum	Chinese	30-60
+Doppio Zero	Italian	30-60
+Ristorante Don Giovanni	Italian	0-10
+Subway	Deli	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Fu Lam MumUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

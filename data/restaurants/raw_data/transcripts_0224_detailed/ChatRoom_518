@@ -1,0 +1,27 @@
+02-24-2016:19-54-46	1ee3256e-203e-4557-a667-4320f9df8198	User 0	joined
+02-24-2016:19-54-46	1ee3256e-203e-4557-a667-4320f9df8198	User 0 has user ID b745a91d655a4b418f42f8d3bf219f17
+02-24-2016:19-54-47	1ee3256e-203e-4557-a667-4320f9df8198	User 1	joined
+02-24-2016:19-54-47	1ee3256e-203e-4557-a667-4320f9df8198	User 1 has user ID 1e64b000bb644aa396f0bfdef8dc61c0
+02-24-2016:19-54-55	1ee3256e-203e-4557-a667-4320f9df8198	User 1	Selected restaurant 0:	Xanh Restaurant
+02-24-2016:19-54-59	1ee3256e-203e-4557-a667-4320f9df8198	User 0	Selected restaurant 0:	Xanh Restaurant
+02-24-2016:19-54-59	---
+02-24-2016:19-54-59	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Indian, Thai, Vietnamese, Deli, Japanese
+User 1 preferences: 20-30	Vietnamese, Deli, Thai, Indian, Japanese
+
+Xanh Restaurant	Vietnamese	10-20
+Sushitomi	Japanese	20-30
+Posh Bagel	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+Shalala	Japanese	10-20
+Shezan	Indian	10-20
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+
+Final selection: Xanh RestaurantUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

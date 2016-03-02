@@ -1,0 +1,27 @@
+02-19-2016:16-56-04	be1a1802-1d5b-470f-992b-9367bc311afb	User 0	joined
+02-19-2016:16-56-05	be1a1802-1d5b-470f-992b-9367bc311afb	User 1	joined
+02-19-2016:16-56-15	be1a1802-1d5b-470f-992b-9367bc311afb	User 0	pick one
+02-19-2016:16-56-17	be1a1802-1d5b-470f-992b-9367bc311afb	User 1	Masa Sushi, we gotta try it
+02-19-2016:16-56-20	be1a1802-1d5b-470f-992b-9367bc311afb	User 1	Selected restaurant:	Masa Sushi
+02-19-2016:16-56-23	be1a1802-1d5b-470f-992b-9367bc311afb	User 0	Selected restaurant:	Masa Sushi
+02-19-2016:16-56-23	---
+02-19-2016:16-57-23	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Japanese, Spanish, Mediterranean, American, SeaFood
+User 1 preferences: 0-10	Japanese, Spanish, Mediterranean, American, SeaFood
+
+Rumble Fish	Japanese	30-60
+Café Baklava	Mediterranean	10-20
+Cascal	Spanish	30-60
+Steins Beer Garden	American	20-30
+Yakko	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Masa Sushi	Japanese	0-10
+Ehpesus	Mediterranean	0-10
+Oren's Hummus	Mediterranean	10-20
+Shell Shock	SeaFood	10-20
+
+Final selection: Masa SushiUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

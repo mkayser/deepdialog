@@ -1,0 +1,34 @@
+02-19-2016:15-37-36	acab994c-b9c2-497b-9dd4-b99440376f0b	User 1	joined
+02-19-2016:15-37-38	acab994c-b9c2-497b-9dd4-b99440376f0b	User 0	joined
+02-19-2016:15-37-38	acab994c-b9c2-497b-9dd4-b99440376f0b	User 1	hi
+02-19-2016:15-37-51	acab994c-b9c2-497b-9dd4-b99440376f0b	User 0	Hey! How does Mediterranean food sound?
+02-19-2016:15-38-05	acab994c-b9c2-497b-9dd4-b99440376f0b	User 1	fine with me
+02-19-2016:15-38-24	acab994c-b9c2-497b-9dd4-b99440376f0b	User 0	Actually my bad, no mediterranean restaurants. What about Chinese?
+02-19-2016:15-38-32	acab994c-b9c2-497b-9dd4-b99440376f0b	User 0	Maybe Kirin?
+02-19-2016:15-38-38	acab994c-b9c2-497b-9dd4-b99440376f0b	User 1	i really want japenese
+02-19-2016:15-38-50	acab994c-b9c2-497b-9dd4-b99440376f0b	User 1	Masa sushi?
+02-19-2016:15-38-58	acab994c-b9c2-497b-9dd4-b99440376f0b	User 0	What about Shalala?
+02-19-2016:15-39-03	acab994c-b9c2-497b-9dd4-b99440376f0b	User 1	ok
+02-19-2016:15-39-09	acab994c-b9c2-497b-9dd4-b99440376f0b	User 0	Selected restaurant:	Shalala
+02-19-2016:15-39-11	acab994c-b9c2-497b-9dd4-b99440376f0b	User 1	Selected restaurant:	Shalala
+02-19-2016:15-39-12	---
+02-19-2016:15-39-13	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Indian, Chinese, Japanese, Spanish
+User 1 preferences: 0-10	Japanese, Indian, Chinese, Mediterranean, Spanish
+
+Ryowa Noodle House	Japanese	20-30
+Sushitomi	Japanese	20-30
+Kirin	Chinese	10-20
+Masa Sushi	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Shalala	Japanese	10-20
+Hong Kong Bistro	Chinese	20-30
+Shabuway	Japanese	30-60
+Hunan Chili	Chinese	30-60
+Rumble Fish	Japanese	30-60
+
+Final selection: ShalalaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

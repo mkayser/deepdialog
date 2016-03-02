@@ -1,0 +1,32 @@
+02-19-2016:16-02-21	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	joined
+02-19-2016:16-02-22	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	joined
+02-19-2016:16-02-58	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	Hello friend.
+02-19-2016:16-03-02	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	Hello
+02-19-2016:16-03-02	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	I covet Pizza.
+02-19-2016:16-03-03	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	its me
+02-19-2016:16-03-08	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	Ok
+02-19-2016:16-03-18	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	Blue line?
+02-19-2016:16-03-22	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	Sure
+02-19-2016:16-03-23	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-03-26	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-03-26	---
+02-19-2016:16-03-26	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Korean, Pizza, Mediterranean, SeaFood
+User 1 preferences: 20-30	Pizza, Mediterranean, Korean, SeaFood, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Ehpesus	Mediterranean	0-10
+Blue Line Pizza	Pizza	10-20
+Ginseng	Korean	10-20
+Drunken Lobster	SeaFood	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Totoro	Korean	20-30
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Shell Shock	SeaFood	10-20
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,31 @@
+02-24-2016:19-48-20	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	joined
+02-24-2016:19-48-20	ba5bd696-f70b-4729-ae94-6770b3995357	User 0 has user ID d44226f09679417e8a4fa2ffacbb4fa8
+02-24-2016:19-48-21	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	joined
+02-24-2016:19-48-21	ba5bd696-f70b-4729-ae94-6770b3995357	User 1 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:19-48-44	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	hey, I'm kind of in the mood for japanese or mediterranean.  Don't have too much money though.  What do you feel like?
+02-24-2016:19-49-16	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	how about mid range japanese?
+02-24-2016:19-49-28	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	sounds good to me.  go ahead and pick whatever you want
+02-24-2016:19-49-42	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	Selected restaurant 0:	Xanh Restaurant
+02-24-2016:19-50-01	ba5bd696-f70b-4729-ae94-6770b3995357	User 0	Selected restaurant 4:	Shabuway
+02-24-2016:19-50-06	ba5bd696-f70b-4729-ae94-6770b3995357	User 1	Selected restaurant 4:	Shabuway
+02-24-2016:19-50-06	---
+02-24-2016:19-50-07	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Japanese, French, Pizza, Mediterranean
+User 1 preferences: 10-20	Japanese, Mediterranean, French, Vietnamese, Pizza
+
+Xanh Restaurant	Vietnamese	10-20
+Chez TJ	French	30-60
+Ryowa Noodle House	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Shabuway	Japanese	30-60
+Morocco's	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Pho To Chau	Vietnamese	20-30
+
+Final selection: ShabuwayUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,29 @@
+02-19-2016:16-42-15	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	joined
+02-19-2016:16-42-17	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 0	joined
+02-19-2016:16-42-41	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 0	Would you like to eat at Posh Bagel tonight?
+02-19-2016:16-42-41	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	Hi
+02-19-2016:16-42-46	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	sure that sounds great
+02-19-2016:16-42-54	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 0	Great!
+02-19-2016:16-42-58	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-43-00	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-43-00	---
+02-19-2016:16-43-01	---
+
+Chat Information:
+
+User 0 preferences: 10-20	French, Deli, Italian, SeaFood, Mediterranean
+User 1 preferences: 10-20	Mediterranean, Deli, SeaFood, French, Italian
+
+Oren's Hummus	Mediterranean	10-20
+Posh Bagel	Deli	10-20
+Drunken Lobster	SeaFood	10-20
+Shell Shock	SeaFood	10-20
+Subway	Deli	10-20
+Doppio Zero	Italian	30-60
+Ehpesus	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

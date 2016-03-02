@@ -1,0 +1,30 @@
+02-19-2016:16-19-09	ec24b18f-b2cf-46bd-8437-afc8fc181ca2	User 0	joined
+02-19-2016:16-19-09	ec24b18f-b2cf-46bd-8437-afc8fc181ca2	User 1	joined
+02-19-2016:16-19-16	ec24b18f-b2cf-46bd-8437-afc8fc181ca2	User 1	I'm in the mood for some Pizza, you?
+02-19-2016:16-19-27	ec24b18f-b2cf-46bd-8437-afc8fc181ca2	User 0	pizza sounds perfect. 
+02-19-2016:16-19-34	ec24b18f-b2cf-46bd-8437-afc8fc181ca2	User 1	Alright, only place I can think is Amci's..good for you?
+02-19-2016:16-19-34	ec24b18f-b2cf-46bd-8437-afc8fc181ca2	User 0	Amicis?
+02-19-2016:16-19-36	ec24b18f-b2cf-46bd-8437-afc8fc181ca2	User 1	Yep!
+02-19-2016:16-19-39	ec24b18f-b2cf-46bd-8437-afc8fc181ca2	User 0	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-19-39	ec24b18f-b2cf-46bd-8437-afc8fc181ca2	User 1	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-19-39	---
+02-19-2016:16-19-39	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, Mediterranean, Chinese, Deli, American
+User 1 preferences: 10-20	Pizza, Deli, Chinese, American, Mediterranean
+
+Queen House	Chinese	0-10
+Café Baklava	Mediterranean	10-20
+Posh Bagel	Deli	10-20
+Scratch	American	0-10
+Morocco's	Mediterranean	10-20
+New Mongolian BBQ	Chinese	30-60
+The Crepevine	American	30-60
+Kirin	Chinese	10-20
+Hunan Chili	Chinese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: Amici's East Coast PizzeriaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

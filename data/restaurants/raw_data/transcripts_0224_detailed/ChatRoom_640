@@ -1,0 +1,28 @@
+02-24-2016:20-01-14	f4c99570-c2c6-4950-b686-4d8fd7e75449	User 0	joined
+02-24-2016:20-01-14	f4c99570-c2c6-4950-b686-4d8fd7e75449	User 0 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:20-01-16	f4c99570-c2c6-4950-b686-4d8fd7e75449	User 1	joined
+02-24-2016:20-01-16	f4c99570-c2c6-4950-b686-4d8fd7e75449	User 1 has user ID 1e7d23c916b7426aa7356a7313658cdf
+02-24-2016:20-01-22	f4c99570-c2c6-4950-b686-4d8fd7e75449	User 0	med?
+02-24-2016:20-01-24	f4c99570-c2c6-4950-b686-4d8fd7e75449	User 0	Selected restaurant 2:	Mediterranean Grill House
+02-24-2016:20-01-27	f4c99570-c2c6-4950-b686-4d8fd7e75449	User 1	Selected restaurant 2:	Mediterranean Grill House
+02-24-2016:20-01-27	---
+02-24-2016:20-01-27	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Chinese, Italian, Korean, French
+User 1 preferences: 0-10	Italian, Mediterranean, French, Korean, Chinese
+
+Ginseng	Korean	10-20
+Chez TJ	French	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Hong Kong Bistro	Chinese	20-30
+Totoro	Korean	20-30
+Queen House	Chinese	0-10
+New Mongolian BBQ	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+Ehpesus	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: Mediterranean Grill HouseUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

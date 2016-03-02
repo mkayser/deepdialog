@@ -1,0 +1,33 @@
+02-19-2016:15-46-20	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 0	joined
+02-19-2016:15-46-21	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 1	joined
+02-19-2016:15-46-29	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 0	Deli?
+02-19-2016:15-46-35	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 0	Posh
+02-19-2016:15-46-36	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 1	I would prefer Mexican!
+02-19-2016:15-46-44	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 0	Fiesta
+02-19-2016:15-46-46	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 1	Cheap as possible, I think Deli would be okay.
+02-19-2016:15-46-49	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 1	Fiesta?
+02-19-2016:15-46-52	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 0	Fiesta is fine
+02-19-2016:15-46-57	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 0	Selected restaurant:	Fiesta Del Mar Too
+02-19-2016:15-46-59	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 1	Fiesta it is.
+02-19-2016:15-47-03	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 1	Selected restaurant:	Fiesta Del Mar Too
+02-19-2016:15-47-03	---
+02-19-2016:15-47-04	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Mediterranean, Deli, Mexican, Thai, Pizza
+User 1 preferences: 0-10	Mexican, Pizza, Thai, Deli, Mediterranean
+
+Taqueria Los Charros	Mexican	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Café Baklava	Mediterranean	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Morocco's	Mediterranean	10-20
+Oren's Hummus	Mediterranean	10-20
+Subway	Deli	10-20
+Posh Bagel	Deli	10-20
+Ehpesus	Mediterranean	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: Fiesta Del Mar TooUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

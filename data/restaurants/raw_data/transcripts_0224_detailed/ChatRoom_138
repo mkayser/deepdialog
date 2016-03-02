@@ -1,0 +1,30 @@
+02-24-2016:19-42-46	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1	joined
+02-24-2016:19-42-46	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1 has user ID 7e2a61d4126442ffbe04457f7627eb3c
+02-24-2016:19-42-51	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	joined
+02-24-2016:19-42-51	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0 has user ID fa5ef707d303408b8cf87b5b555c36cc
+02-24-2016:19-42-52	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1	French?
+02-24-2016:19-42-54	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1	Selected restaurant 6:	Chez TJ
+02-24-2016:19-42-55	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	Selected restaurant 3:	Ehpesus
+02-24-2016:19-43-10	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	Selected restaurant 9:	Vaso Azzurro
+02-24-2016:19-43-15	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	Selected restaurant 6:	Chez TJ
+02-24-2016:19-43-16	---
+02-24-2016:19-43-16	---
+
+Chat Information:
+
+User 0 preferences: 0-10	French, Mexican, Italian, Mediterranean, Pizza
+User 1 preferences: 20-30	French, Mediterranean, Mexican, Italian, Pizza
+
+Doppio Zero	Italian	30-60
+Agave	Mexican	20-30
+Blue Line Pizza	Pizza	10-20
+Ehpesus	Mediterranean	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Chez TJ	French	30-60
+Café Baklava	Mediterranean	10-20
+Taqueria Los Charros	Mexican	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

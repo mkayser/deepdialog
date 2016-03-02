@@ -1,0 +1,30 @@
+02-24-2016:19-36-57	4e76d173-0f4d-45fb-8acf-65f4227faa21	User 0	joined
+02-24-2016:19-36-57	4e76d173-0f4d-45fb-8acf-65f4227faa21	User 0 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:19-37-03	4e76d173-0f4d-45fb-8acf-65f4227faa21	User 1	joined
+02-24-2016:19-37-03	4e76d173-0f4d-45fb-8acf-65f4227faa21	User 1 has user ID e9cd6c60b03e4b1694694d01171aaec5
+02-24-2016:19-37-07	4e76d173-0f4d-45fb-8acf-65f4227faa21	User 0	Hi French?
+02-24-2016:19-37-10	4e76d173-0f4d-45fb-8acf-65f4227faa21	User 1	Selected restaurant 4:	Amarin Thai Cuisine
+02-24-2016:19-37-21	4e76d173-0f4d-45fb-8acf-65f4227faa21	User 1	Thai sounds great, I'm allergic to France.
+02-24-2016:19-37-40	4e76d173-0f4d-45fb-8acf-65f4227faa21	User 0	sounds good
+02-24-2016:19-37-46	4e76d173-0f4d-45fb-8acf-65f4227faa21	User 0	Selected restaurant 4:	Amarin Thai Cuisine
+02-24-2016:19-37-46	---
+02-24-2016:19-37-47	---
+
+Chat Information:
+
+User 0 preferences: 20-30	French, Vietnamese, Thai, Italian, Korean
+User 1 preferences: 0-10	Korean, Thai, French, Italian, Vietnamese
+
+Ristorante Don Giovanni	Italian	0-10
+Bangkok Spoon	Thai	30-60
+Totoro	Korean	20-30
+Asian Box	Vietnamese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Pho Hoa	Vietnamese	30-60
+Vaso Azzurro	Italian	20-30
+Pho To Chau	Vietnamese	20-30
+Doppio Zero	Italian	30-60
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

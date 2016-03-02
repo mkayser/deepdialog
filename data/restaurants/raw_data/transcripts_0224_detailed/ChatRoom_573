@@ -1,0 +1,37 @@
+02-24-2016:19-57-45	8dc89937-dc16-472e-91a3-65b04587c7a2	User 1	joined
+02-24-2016:19-57-45	8dc89937-dc16-472e-91a3-65b04587c7a2	User 1 has user ID 5c962edeab04436b819f1dedb9784f2c
+02-24-2016:19-57-46	8dc89937-dc16-472e-91a3-65b04587c7a2	User 0	joined
+02-24-2016:19-57-46	8dc89937-dc16-472e-91a3-65b04587c7a2	User 0 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:19-57-58	8dc89937-dc16-472e-91a3-65b04587c7a2	User 0	American, pizza, or korean?
+02-24-2016:19-58-10	8dc89937-dc16-472e-91a3-65b04587c7a2	User 1	im thinking american how bout u
+02-24-2016:19-58-20	8dc89937-dc16-472e-91a3-65b04587c7a2	User 0	cool how much money u got
+02-24-2016:19-58-24	8dc89937-dc16-472e-91a3-65b04587c7a2	User 1	alot
+02-24-2016:19-58-26	8dc89937-dc16-472e-91a3-65b04587c7a2	User 1	u
+02-24-2016:19-58-37	8dc89937-dc16-472e-91a3-65b04587c7a2	User 1	i can pay if you let me pick
+02-24-2016:19-58-46	8dc89937-dc16-472e-91a3-65b04587c7a2	User 0	I have a couple bucks.  Sure, you pay, I'll get the tip
+02-24-2016:19-58-52	8dc89937-dc16-472e-91a3-65b04587c7a2	User 0	lol
+02-24-2016:19-58-53	8dc89937-dc16-472e-91a3-65b04587c7a2	User 1	great
+02-24-2016:19-59-00	8dc89937-dc16-472e-91a3-65b04587c7a2	User 1	Selected restaurant 6:	Bierhaus
+02-24-2016:19-59-05	8dc89937-dc16-472e-91a3-65b04587c7a2	User 1	thank you
+02-24-2016:19-59-07	8dc89937-dc16-472e-91a3-65b04587c7a2	User 0	Selected restaurant 6:	Bierhaus
+02-24-2016:19-59-08	---
+02-24-2016:19-59-08	---
+
+Chat Information:
+
+User 0 preferences: 10-20	American, Pizza, Korean, Italian, Spanish
+User 1 preferences: 30-60	Italian, Korean, Spanish, Pizza, American
+
+Vaso Azzurro	Italian	20-30
+Ristorante Don Giovanni	Italian	0-10
+Scratch	American	0-10
+Ginseng	Korean	10-20
+Cascal	Spanish	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Bierhaus	American	0-10
+Steins Beer Garden	American	20-30
+Totoro	Korean	20-30
+Blue Line Pizza	Pizza	10-20
+
+Final selection: BierhausUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

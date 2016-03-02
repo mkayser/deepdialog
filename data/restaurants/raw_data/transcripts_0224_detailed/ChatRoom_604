@@ -1,0 +1,30 @@
+02-24-2016:19-59-24	c4a20abe-6992-4d9a-8e17-57c6a75bf1e9	User 0	joined
+02-24-2016:19-59-24	c4a20abe-6992-4d9a-8e17-57c6a75bf1e9	User 0 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:19-59-28	c4a20abe-6992-4d9a-8e17-57c6a75bf1e9	User 1	joined
+02-24-2016:19-59-28	c4a20abe-6992-4d9a-8e17-57c6a75bf1e9	User 1 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:19-59-32	c4a20abe-6992-4d9a-8e17-57c6a75bf1e9	User 0	Selected restaurant 2:	Cascal
+02-24-2016:19-59-35	c4a20abe-6992-4d9a-8e17-57c6a75bf1e9	User 1	How about Vietnamese?
+02-24-2016:19-59-41	c4a20abe-6992-4d9a-8e17-57c6a75bf1e9	User 0	ok"
+02-24-2016:19-59-44	c4a20abe-6992-4d9a-8e17-57c6a75bf1e9	User 0	Selected restaurant 9:	Pho To Chau
+02-24-2016:19-59-46	c4a20abe-6992-4d9a-8e17-57c6a75bf1e9	User 1	Selected restaurant 9:	Pho To Chau
+02-24-2016:19-59-46	---
+02-24-2016:19-59-46	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Italian, American, Vietnamese, Mediterranean
+User 1 preferences: 30-60	American, Vietnamese, Italian, Mediterranean, Spanish
+
+Café Baklava	Mediterranean	10-20
+Morocco's	Mediterranean	10-20
+Cascal	Spanish	30-60
+Bierhaus	American	0-10
+The Crepevine	American	30-60
+Ehpesus	Mediterranean	0-10
+Doppio Zero	Italian	30-60
+Vaso Azzurro	Italian	20-30
+Oren's Hummus	Mediterranean	10-20
+Pho To Chau	Vietnamese	20-30
+
+Final selection: Pho To ChauUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,29 @@
+02-19-2016:16-00-09	befbcad6-c006-458f-a491-f62a5ac1df29	User 1	joined
+02-19-2016:16-00-10	befbcad6-c006-458f-a491-f62a5ac1df29	User 0	joined
+02-19-2016:16-00-25	befbcad6-c006-458f-a491-f62a5ac1df29	User 0	Hunan Chili?
+02-19-2016:16-00-36	befbcad6-c006-458f-a491-f62a5ac1df29	User 1	I'm vaguely broke today. How about... Queen House?
+02-19-2016:16-00-59	befbcad6-c006-458f-a491-f62a5ac1df29	User 0	I like Kirin a little better, can you do that instead?
+02-19-2016:16-01-06	befbcad6-c006-458f-a491-f62a5ac1df29	User 1	sounds good
+02-19-2016:16-01-09	befbcad6-c006-458f-a491-f62a5ac1df29	User 1	Selected restaurant:	Kirin
+02-19-2016:16-01-10	befbcad6-c006-458f-a491-f62a5ac1df29	User 0	Selected restaurant:	Kirin
+02-19-2016:16-01-10	---
+02-19-2016:16-01-10	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, French, Japanese, Spanish, Vietnamese
+User 1 preferences: 0-10	Japanese, Chinese, Spanish, French, Vietnamese
+
+Kirin	Chinese	10-20
+Sushitomi	Japanese	20-30
+New Mongolian BBQ	Chinese	30-60
+Rumble Fish	Japanese	30-60
+Pho Hoa	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Queen House	Chinese	0-10
+Ryowa Noodle House	Japanese	20-30
+Hunan Chili	Chinese	30-60
+Pho To Chau	Vietnamese	20-30
+
+Final selection: KirinUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

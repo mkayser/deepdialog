@@ -1,0 +1,26 @@
+02-19-2016:16-42-01	9972e639-bccb-45f6-ad88-b18d1dd43d39	User 1	joined
+02-19-2016:16-42-04	9972e639-bccb-45f6-ad88-b18d1dd43d39	User 0	joined
+02-19-2016:16-42-11	9972e639-bccb-45f6-ad88-b18d1dd43d39	User 0	Chinese or Deli? Mid range 
+02-19-2016:16-42-33	9972e639-bccb-45f6-ad88-b18d1dd43d39	User 1	Selected restaurant:	Subway
+02-19-2016:16-42-40	9972e639-bccb-45f6-ad88-b18d1dd43d39	User 0	Selected restaurant:	Subway
+02-19-2016:16-42-41	---
+02-19-2016:16-42-41	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Deli, Korean, French, Japanese
+User 1 preferences: 30-60	French, Japanese, Korean, Deli, Chinese
+
+Subway	Deli	10-20
+Ryowa Noodle House	Japanese	20-30
+Hong Kong Bistro	Chinese	20-30
+Masa Sushi	Japanese	0-10
+Maruichi Noodle House	Japanese	0-10
+Queen House	Chinese	0-10
+Shalala	Japanese	10-20
+Totoro	Korean	20-30
+Rumble Fish	Japanese	30-60
+Ginseng	Korean	10-20
+
+Final selection: SubwayUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,32 @@
+02-19-2016:16-48-42	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	joined
+02-19-2016:16-48-42	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	joined
+02-19-2016:16-48-54	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	Dealer's choice.  I could go for some seafood though
+02-19-2016:16-49-01	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	Hey!
+02-19-2016:16-49-04	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	Hiya!
+02-19-2016:16-49-13	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	How you doin'?
+02-19-2016:16-49-13	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	Man, I'm really feeling something cheap and Italian.
+02-19-2016:16-49-18	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	I could do that
+02-19-2016:16-49-30	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	Rock on!  Let's head to Don Giovanni!
+02-19-2016:16-49-33	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-49-37	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-49-38	---
+02-19-2016:16-49-38	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, American, Mediterranean, Italian, Thai
+User 1 preferences: 10-20	Italian, Mediterranean, SeaFood, American, Thai
+
+The Crepevine	American	30-60
+Amarin Thai Cuisine	Thai	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+Ristorante Don Giovanni	Italian	0-10
+Steins Beer Garden	American	20-30
+Scratch	American	0-10
+Ehpesus	Mediterranean	0-10
+Shell Shock	SeaFood	10-20
+Oren's Hummus	Mediterranean	10-20
+
+Final selection: Ristorante Don GiovanniUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

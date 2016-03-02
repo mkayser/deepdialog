@@ -1,0 +1,29 @@
+02-19-2016:16-05-35	8ba9c782-23bb-4c04-9ede-a4ad09cba4b8	User 1	joined
+02-19-2016:16-05-36	8ba9c782-23bb-4c04-9ede-a4ad09cba4b8	User 0	joined
+02-19-2016:16-05-46	8ba9c782-23bb-4c04-9ede-a4ad09cba4b8	User 0	Are we allowed to do more then one of these?
+02-19-2016:16-06-09	8ba9c782-23bb-4c04-9ede-a4ad09cba4b8	User 1	Yeah, just keep accepting and hitting the link each time.
+02-19-2016:16-06-17	8ba9c782-23bb-4c04-9ede-a4ad09cba4b8	User 1	Let's do italian.
+02-19-2016:16-06-25	8ba9c782-23bb-4c04-9ede-a4ad09cba4b8	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-06-35	8ba9c782-23bb-4c04-9ede-a4ad09cba4b8	User 0	Okay I like italian and that place is cheap.
+02-19-2016:16-06-38	8ba9c782-23bb-4c04-9ede-a4ad09cba4b8	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-06-39	---
+02-19-2016:16-06-39	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Chinese, Indian, Italian, Spanish, French
+User 1 preferences: 30-60	Spanish, Indian, Italian, French, Chinese
+
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Ristorante Don Giovanni	Italian	0-10
+Queen House	Chinese	0-10
+Cascal	Spanish	30-60
+Park Ballachi	Indian	0-10
+Chez TJ	French	30-60
+
+Final selection: Ristorante Don GiovanniUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,30 @@
+02-24-2016:19-40-24	481f6199-3df2-4d8d-ad45-4a8371d4d4ea	User 1	joined
+02-24-2016:19-40-24	481f6199-3df2-4d8d-ad45-4a8371d4d4ea	User 1 has user ID 1393e15d6fde46cb9f4502aa09ae8331
+02-24-2016:19-40-25	481f6199-3df2-4d8d-ad45-4a8371d4d4ea	User 0	joined
+02-24-2016:19-40-25	481f6199-3df2-4d8d-ad45-4a8371d4d4ea	User 0 has user ID 3972c4a113b54fd4abdc2b0d19060c36
+02-24-2016:19-40-39	481f6199-3df2-4d8d-ad45-4a8371d4d4ea	User 1	Deli?
+02-24-2016:19-41-06	481f6199-3df2-4d8d-ad45-4a8371d4d4ea	User 0	How about Thai?
+02-24-2016:19-41-16	481f6199-3df2-4d8d-ad45-4a8371d4d4ea	User 1	Sure
+02-24-2016:19-41-22	481f6199-3df2-4d8d-ad45-4a8371d4d4ea	User 1	Selected restaurant 1:	Amarin Thai Cuisine
+02-24-2016:19-41-28	481f6199-3df2-4d8d-ad45-4a8371d4d4ea	User 0	Selected restaurant 1:	Amarin Thai Cuisine
+02-24-2016:19-41-29	---
+02-24-2016:19-41-29	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Indian, Thai, Japanese, Deli, Mediterranean
+User 1 preferences: 0-10	Indian, Deli, Japanese, Thai, Mediterranean
+
+Rumble Fish	Japanese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Café Baklava	Mediterranean	10-20
+Masa Sushi	Japanese	0-10
+Ryowa Noodle House	Japanese	20-30
+Posh Bagel	Deli	10-20
+Maruichi Noodle House	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Sushitomi	Japanese	20-30
+Bushido	Japanese	10-20
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

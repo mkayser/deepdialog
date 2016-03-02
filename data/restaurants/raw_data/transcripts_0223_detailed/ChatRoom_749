@@ -1,0 +1,25 @@
+02-19-2016:16-52-30	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 1	joined
+02-19-2016:16-52-31	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 0	joined
+02-19-2016:16-52-35	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 1	Selected restaurant:	Asian Box
+02-19-2016:16-52-41	9f03192c-2bd7-4412-babb-64aa069a1ff8	User 0	Selected restaurant:	Asian Box
+02-19-2016:16-52-41	---
+02-19-2016:16-52-41	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Japanese, Chinese, American, Vietnamese
+User 1 preferences: 30-60	Vietnamese, Mexican, Chinese, American, Japanese
+
+Hong Kong Bistro	Chinese	20-30
+Yakko	Japanese	0-10
+Kirin	Chinese	10-20
+Masa Sushi	Japanese	0-10
+Steins Beer Garden	American	20-30
+Asian Box	Vietnamese	30-60
+Pho To Chau	Vietnamese	20-30
+Rumble Fish	Japanese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Asian BoxUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,33 @@
+02-19-2016:17-06-58	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0	joined
+02-19-2016:17-07-00	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	joined
+02-19-2016:17-07-03	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0	hola
+02-19-2016:17-07-22	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0	hi?
+02-19-2016:17-07-23	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	yoyo
+02-19-2016:17-07-27	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	Do you lik ePizza?
+02-19-2016:17-07-35	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0	not really 
+02-19-2016:17-07-35	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	Chicks dig guys that eat pizza
+02-19-2016:17-07-39	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	Chinese?
+02-19-2016:17-07-47	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	Selected restaurant:	Hong Kong Bistro
+02-19-2016:17-07-51	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0	chinese is okay.
+02-19-2016:17-08-03	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0	Selected restaurant:	Hong Kong Bistro
+02-19-2016:17-08-03	---
+02-19-2016:17-08-04	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Mediterranean, Japanese, Indian, Pizza
+User 1 preferences: 20-30	Pizza, Chinese, Japanese, Indian, Mediterranean
+
+Niji Sushi	Japanese	10-20
+New Mongolian BBQ	Chinese	30-60
+Morocco's	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Hong Kong Bistro	Chinese	20-30
+Shezan	Indian	10-20
+Oren's Hummus	Mediterranean	10-20
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Bushido	Japanese	10-20
+
+Final selection: Hong Kong BistroUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,31 @@
+02-24-2016:19-41-03	9caf4460-b3d3-401e-b282-614fb8a12c04	User 1	joined
+02-24-2016:19-41-03	9caf4460-b3d3-401e-b282-614fb8a12c04	User 1 has user ID 166bcadc45f8455e86e59960617b71f9
+02-24-2016:19-41-07	9caf4460-b3d3-401e-b282-614fb8a12c04	User 0	joined
+02-24-2016:19-41-07	9caf4460-b3d3-401e-b282-614fb8a12c04	User 0 has user ID a08eb0381f614efb81f21a4ed99a6912
+02-24-2016:19-41-14	9caf4460-b3d3-401e-b282-614fb8a12c04	User 0	Queen House?
+02-24-2016:19-41-17	9caf4460-b3d3-401e-b282-614fb8a12c04	User 1	Selected restaurant 6:	Shezan
+02-24-2016:19-41-17	9caf4460-b3d3-401e-b282-614fb8a12c04	User 0	Selected restaurant 1:	Queen House
+02-24-2016:19-41-27	9caf4460-b3d3-401e-b282-614fb8a12c04	User 1	chinese is my lowest :(
+02-24-2016:19-41-32	9caf4460-b3d3-401e-b282-614fb8a12c04	User 1	whats your second?
+02-24-2016:19-41-33	9caf4460-b3d3-401e-b282-614fb8a12c04	User 0	Selected restaurant 6:	Shezan
+02-24-2016:19-41-33	---
+02-24-2016:19-41-35	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Vietnamese, Indian, Mediterranean, Chinese
+User 1 preferences: 30-60	Indian, Mediterranean, Vietnamese, Chinese, Spanish
+
+Pho Hoa	Vietnamese	30-60
+Queen House	Chinese	0-10
+Oren's Hummus	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Asian Box	Vietnamese	30-60
+Ehpesus	Mediterranean	0-10
+Shezan	Indian	10-20
+Café Baklava	Mediterranean	10-20
+Hunan Chili	Chinese	30-60
+Morocco's	Mediterranean	10-20
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

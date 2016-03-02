@@ -1,0 +1,31 @@
+02-19-2016:16-44-29	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	joined
+02-19-2016:16-44-31	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	joined
+02-19-2016:16-44-34	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Hey!
+02-19-2016:16-44-40	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Hello!
+02-19-2016:16-44-44	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	I prefer pizza, and i have $$$
+02-19-2016:16-44-47	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	how about you?
+02-19-2016:16-45-01	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Ah, Pizza's last on my list, and I only have $
+02-19-2016:16-45-08	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	How about Park Ballachi?
+02-19-2016:16-45-14	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Sounds good
+02-19-2016:16-45-17	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Selected restaurant:	Park Ballachi
+02-19-2016:16-45-20	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Selected restaurant:	Park Ballachi
+02-19-2016:16-45-20	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Vietnamese, French, Indian, Italian, Pizza
+User 1 preferences: 20-30	Pizza, Indian, Vietnamese, Italian, French
+
+Doppio Zero	Italian	30-60
+Park Ballachi	Indian	0-10
+Ristorante Don Giovanni	Italian	0-10
+Sakoon	Indian	30-60
+Asian Box	Vietnamese	30-60
+Blue Line Pizza	Pizza	10-20
+Shezan	Indian	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Vaso Azzurro	Italian	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Park BallachiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

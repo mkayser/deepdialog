@@ -1,0 +1,27 @@
+02-19-2016:16-26-03	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 0	joined
+02-19-2016:16-26-06	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 1	joined
+02-19-2016:16-26-11	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 0	I iz hungry!!!!
+02-19-2016:16-26-17	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 1	Niji sounds good
+02-19-2016:16-26-20	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 0	Selected restaurant:	Niji Sushi
+02-19-2016:16-26-23	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 1	Selected restaurant:	Niji Sushi
+02-19-2016:16-26-23	---
+02-19-2016:16-26-23	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Japanese, Indian, SeaFood, Korean
+User 1 preferences: 10-20	Japanese, Korean, Indian, SeaFood, Deli
+
+Totoro	Korean	20-30
+Shabuway	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Shell Shock	SeaFood	10-20
+Subway	Deli	10-20
+Shalala	Japanese	10-20
+Posh Bagel	Deli	10-20
+Niji Sushi	Japanese	10-20
+Ryowa Noodle House	Japanese	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Niji SushiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,25 @@
+02-19-2016:17-00-06	3783cbc6-bcfa-427c-9529-7019d597e22a	User 1	joined
+02-19-2016:17-00-07	3783cbc6-bcfa-427c-9529-7019d597e22a	User 0	joined
+02-19-2016:17-00-09	3783cbc6-bcfa-427c-9529-7019d597e22a	User 1	Selected restaurant:	Ginseng
+02-19-2016:17-00-11	3783cbc6-bcfa-427c-9529-7019d597e22a	User 0	Selected restaurant:	Ginseng
+02-19-2016:17-00-11	---
+02-19-2016:17-01-11	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Korean, SeaFood, Chinese, Italian, Thai
+User 1 preferences: 10-20	Thai, Chinese, Korean, SeaFood, Italian
+
+Ginseng	Korean	10-20
+New Mongolian BBQ	Chinese	30-60
+Doppio Zero	Italian	30-60
+Hong Kong Bistro	Chinese	20-30
+Queen House	Chinese	0-10
+Shell Shock	SeaFood	10-20
+Fu Lam Mum	Chinese	30-60
+Drunken Lobster	SeaFood	10-20
+Ristorante Don Giovanni	Italian	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

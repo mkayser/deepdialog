@@ -1,0 +1,34 @@
+02-24-2016:19-43-52	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	joined
+02-24-2016:19-43-52	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-43-53	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	joined
+02-24-2016:19-43-53	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1 has user ID 447f9730cbf242a3b656157a7b89543a
+02-24-2016:19-44-02	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	beer garden?
+02-24-2016:19-44-03	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	I'm hungry for Japanese
+02-24-2016:19-44-16	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	Meh, out of my price range plus I don't drink
+02-24-2016:19-44-16	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	i dont like japanese
+02-24-2016:19-44-24	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	Ok, deli then?
+02-24-2016:19-44-31	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	Or thai?
+02-24-2016:19-44-50	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	thais good
+02-24-2016:19-44-54	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	Selected restaurant 3:	Bangkok Spoon
+02-24-2016:19-44-54	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	Selected restaurant 3:	Bangkok Spoon
+02-24-2016:19-44-55	---
+02-24-2016:19-44-55	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Japanese, Deli, Thai, American, Korean
+User 1 preferences: 30-60	American, Korean, Thai, Deli, Japanese
+
+Steins Beer Garden	American	20-30
+Sushitomi	Japanese	20-30
+The Crepevine	American	30-60
+Bangkok Spoon	Thai	30-60
+Ryowa Noodle House	Japanese	20-30
+Niji Sushi	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Shabuway	Japanese	30-60
+Bushido	Japanese	10-20
+Shalala	Japanese	10-20
+
+Final selection: Bangkok SpoonUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

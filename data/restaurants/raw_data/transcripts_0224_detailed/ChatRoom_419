@@ -1,0 +1,31 @@
+02-24-2016:19-52-16	4f54efc0-49e7-4471-9fe9-a47b3c3e9896	User 0	joined
+02-24-2016:19-52-16	4f54efc0-49e7-4471-9fe9-a47b3c3e9896	User 0 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-52-17	4f54efc0-49e7-4471-9fe9-a47b3c3e9896	User 1	joined
+02-24-2016:19-52-17	4f54efc0-49e7-4471-9fe9-a47b3c3e9896	User 1 has user ID 31395e8a44434644a8be53817cae0a98
+02-24-2016:19-52-19	4f54efc0-49e7-4471-9fe9-a47b3c3e9896	User 0	I'm broke
+02-24-2016:19-52-28	4f54efc0-49e7-4471-9fe9-a47b3c3e9896	User 0	Want to do cheap mediterranean?
+02-24-2016:19-52-32	4f54efc0-49e7-4471-9fe9-a47b3c3e9896	User 0	Ehpesus maybe?
+02-24-2016:19-52-34	4f54efc0-49e7-4471-9fe9-a47b3c3e9896	User 1	sure
+02-24-2016:19-52-38	4f54efc0-49e7-4471-9fe9-a47b3c3e9896	User 0	Selected restaurant 7:	Ehpesus
+02-24-2016:19-52-46	4f54efc0-49e7-4471-9fe9-a47b3c3e9896	User 1	Selected restaurant 7:	Ehpesus
+02-24-2016:19-52-46	---
+02-24-2016:19-52-46	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Vietnamese, Italian, American, Spanish
+User 1 preferences: 0-10	American, Mediterranean, Vietnamese, Italian, Spanish
+
+Steins Beer Garden	American	20-30
+Cascal	Spanish	30-60
+Scratch	American	0-10
+Bierhaus	American	0-10
+Asian Box	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Doppio Zero	Italian	30-60
+Ehpesus	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Pho Hoa	Vietnamese	30-60
+
+Final selection: EhpesusUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

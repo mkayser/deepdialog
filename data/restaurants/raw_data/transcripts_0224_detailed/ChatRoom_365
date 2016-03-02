@@ -1,0 +1,27 @@
+02-24-2016:19-50-38	d5269904-d37a-4615-a4d1-09f753b1f92e	User 0	joined
+02-24-2016:19-50-38	d5269904-d37a-4615-a4d1-09f753b1f92e	User 0 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:19-50-45	d5269904-d37a-4615-a4d1-09f753b1f92e	User 1	joined
+02-24-2016:19-50-45	d5269904-d37a-4615-a4d1-09f753b1f92e	User 1 has user ID a08eb0381f614efb81f21a4ed99a6912
+02-24-2016:19-50-47	d5269904-d37a-4615-a4d1-09f753b1f92e	User 1	Selected restaurant 8:	Niji Sushi
+02-24-2016:19-50-57	d5269904-d37a-4615-a4d1-09f753b1f92e	User 0	Selected restaurant 8:	Niji Sushi
+02-24-2016:19-50-57	---
+02-24-2016:19-51-00	---
+
+Chat Information:
+
+User 0 preferences: 20-30	American, Japanese, Italian, Pizza, Spanish
+User 1 preferences: 10-20	Japanese, Spanish, American, Pizza, Italian
+
+Ristorante Don Giovanni	Italian	0-10
+The Crepevine	American	30-60
+Vaso Azzurro	Italian	20-30
+Steins Beer Garden	American	20-30
+Doppio Zero	Italian	30-60
+Scratch	American	0-10
+Cascal	Spanish	30-60
+Yakko	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+
+Final selection: Niji SushiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

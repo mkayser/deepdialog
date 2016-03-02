@@ -1,0 +1,31 @@
+02-19-2016:16-27-13	00c2c158-0916-4eaa-93c7-183194574911	User 0	joined
+02-19-2016:16-27-13	00c2c158-0916-4eaa-93c7-183194574911	User 1	joined
+02-19-2016:16-27-25	00c2c158-0916-4eaa-93c7-183194574911	User 1	hello
+02-19-2016:16-27-36	00c2c158-0916-4eaa-93c7-183194574911	User 1	Im hungry lets get a bit to eat
+02-19-2016:16-27-47	00c2c158-0916-4eaa-93c7-183194574911	User 0	Amici's East Coast Pizzeria or Ginseng sound good?
+02-19-2016:16-27-53	00c2c158-0916-4eaa-93c7-183194574911	User 0	i'm starving :)
+02-19-2016:16-27-55	00c2c158-0916-4eaa-93c7-183194574911	User 1	Ginseng All day
+02-19-2016:16-27-57	00c2c158-0916-4eaa-93c7-183194574911	User 1	lets do it
+02-19-2016:16-28-00	00c2c158-0916-4eaa-93c7-183194574911	User 1	Selected restaurant:	Ginseng
+02-19-2016:16-28-00	00c2c158-0916-4eaa-93c7-183194574911	User 0	Selected restaurant:	Ginseng
+02-19-2016:16-28-00	---
+02-19-2016:16-28-01	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Korean, Pizza, French, Italian, SeaFood
+User 1 preferences: 20-30	Korean, Italian, Pizza, SeaFood, French
+
+Ginseng	Korean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Totoro	Korean	20-30
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Blue Line Pizza	Pizza	10-20
+Chez TJ	French	30-60
+Doppio Zero	Italian	30-60
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

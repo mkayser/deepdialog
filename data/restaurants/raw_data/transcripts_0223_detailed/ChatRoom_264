@@ -1,0 +1,30 @@
+02-19-2016:16-08-55	42f90c23-76f5-40f0-ab29-9eb156e83347	User 0	joined
+02-19-2016:16-08-55	42f90c23-76f5-40f0-ab29-9eb156e83347	User 1	joined
+02-19-2016:16-09-16	42f90c23-76f5-40f0-ab29-9eb156e83347	User 1	Hi?
+02-19-2016:16-09-21	42f90c23-76f5-40f0-ab29-9eb156e83347	User 0	HI there
+02-19-2016:16-09-31	42f90c23-76f5-40f0-ab29-9eb156e83347	User 0	Are you in the mood for Mediterranean?
+02-19-2016:16-09-37	42f90c23-76f5-40f0-ab29-9eb156e83347	User 1	Definitely
+02-19-2016:16-09-44	42f90c23-76f5-40f0-ab29-9eb156e83347	User 1	Med. Grill House ideally
+02-19-2016:16-10-08	42f90c23-76f5-40f0-ab29-9eb156e83347	User 1	Could do Cafe Baklava without much trouble too
+02-19-2016:16-10-08	42f90c23-76f5-40f0-ab29-9eb156e83347	User 0	Selected restaurant:	Mediterranean Grill House
+02-19-2016:16-10-14	42f90c23-76f5-40f0-ab29-9eb156e83347	User 1	Selected restaurant:	Mediterranean Grill House
+02-19-2016:16-10-14	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Vietnamese, Mediterranean, Deli, Mexican, American
+User 1 preferences: 0-10	Mediterranean, Mexican, Deli, American, Vietnamese
+
+Xanh Restaurant	Vietnamese	10-20
+Taqueria Los Charros	Mexican	0-10
+Steins Beer Garden	American	20-30
+Pho To Chau	Vietnamese	20-30
+Café Baklava	Mediterranean	10-20
+Posh Bagel	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Asian Box	Vietnamese	30-60
+Scratch	American	0-10
+
+Final selection: Mediterranean Grill HouseUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

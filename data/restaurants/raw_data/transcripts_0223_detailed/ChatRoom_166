@@ -1,0 +1,32 @@
+02-19-2016:15-51-34	63be4c53-fef6-4174-a714-95aada004522	User 0	joined
+02-19-2016:15-51-39	63be4c53-fef6-4174-a714-95aada004522	User 1	joined
+02-19-2016:15-51-49	63be4c53-fef6-4174-a714-95aada004522	User 1	I want to splurge.
+02-19-2016:15-52-14	63be4c53-fef6-4174-a714-95aada004522	User 1	How about Sakoon?
+02-19-2016:15-52-25	63be4c53-fef6-4174-a714-95aada004522	User 0	ehh, how about Cascal, i want spanish food
+02-19-2016:15-52-48	63be4c53-fef6-4174-a714-95aada004522	User 1	Well, italian or american sounds better. What do you think?
+02-19-2016:15-52-58	63be4c53-fef6-4174-a714-95aada004522	User 0	Sure thing
+02-19-2016:15-53-20	63be4c53-fef6-4174-a714-95aada004522	User 1	Scratch?
+02-19-2016:15-53-25	63be4c53-fef6-4174-a714-95aada004522	User 0	Awesome, sounds good
+02-19-2016:15-53-29	63be4c53-fef6-4174-a714-95aada004522	User 0	Selected restaurant:	Scratch
+02-19-2016:15-53-33	63be4c53-fef6-4174-a714-95aada004522	User 1	Selected restaurant:	Scratch
+02-19-2016:15-53-33	---
+02-19-2016:15-53-33	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Mexican, American, Indian, Spanish
+User 1 preferences: 30-60	American, Italian, Indian, Mexican, Spanish
+
+Fiesta Del Mar Too	Mexican	10-20
+Agave	Mexican	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Sakoon	Indian	30-60
+Cascal	Spanish	30-60
+Bierhaus	American	0-10
+Scratch	American	0-10
+Shezan	Indian	10-20
+Taqueria Los Charros	Mexican	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: ScratchUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

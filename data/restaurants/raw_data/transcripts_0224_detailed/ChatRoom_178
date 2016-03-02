@@ -1,0 +1,33 @@
+02-24-2016:19-44-38	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 0	joined
+02-24-2016:19-44-38	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 0 has user ID 7e2a61d4126442ffbe04457f7627eb3c
+02-24-2016:19-44-39	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 1	joined
+02-24-2016:19-44-39	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 1 has user ID a5b28e4fd1bc4ac787293876fd1e7212
+02-24-2016:19-44-56	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 0	Mexican?
+02-24-2016:19-44-57	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 0	Selected restaurant 7:	Agave
+02-24-2016:19-44-59	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 1	Nah
+02-24-2016:19-45-03	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 1	Korean?
+02-24-2016:19-45-18	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 0	Hmm, maybe Japanese.
+02-24-2016:19-45-23	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 0	Selected restaurant 3:	Yakko
+02-24-2016:19-45-24	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 1	Okay where
+02-24-2016:19-45-27	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 1	Selected restaurant 3:	Yakko
+02-24-2016:19-45-28	---
+02-24-2016:19-45-28	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Mexican, Japanese, Korean, Thai
+User 1 preferences: 10-20	Japanese, Korean, Deli, Mexican, Thai
+
+Niji Sushi	Japanese	10-20
+Shalala	Japanese	10-20
+Kappo Naminami	Japanese	30-60
+Yakko	Japanese	0-10
+Shabuway	Japanese	30-60
+Rumble Fish	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Agave	Mexican	20-30
+Bangkok Spoon	Thai	30-60
+Ginseng	Korean	10-20
+
+Final selection: YakkoUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

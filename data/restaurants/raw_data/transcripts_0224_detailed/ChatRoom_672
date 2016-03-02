@@ -1,0 +1,31 @@
+02-24-2016:20-02-48	af81708c-9ea0-4803-98f8-437935c9b9b7	User 1	joined
+02-24-2016:20-02-48	af81708c-9ea0-4803-98f8-437935c9b9b7	User 1 has user ID 048998a5d56b45998530bcad3975ad96
+02-24-2016:20-02-50	af81708c-9ea0-4803-98f8-437935c9b9b7	User 0	joined
+02-24-2016:20-02-50	af81708c-9ea0-4803-98f8-437935c9b9b7	User 0 has user ID 0a87ad451bd24324a19d5cde49e57c39
+02-24-2016:20-03-00	af81708c-9ea0-4803-98f8-437935c9b9b7	User 1	Selected restaurant 8:	Drunken Lobster
+02-24-2016:20-03-01	af81708c-9ea0-4803-98f8-437935c9b9b7	User 0	hi
+02-24-2016:20-03-04	af81708c-9ea0-4803-98f8-437935c9b9b7	User 1	hi
+02-24-2016:20-03-13	af81708c-9ea0-4803-98f8-437935c9b9b7	User 0	Blue Line Pizza?
+02-24-2016:20-03-16	af81708c-9ea0-4803-98f8-437935c9b9b7	User 1	Selected restaurant 4:	Blue Line Pizza
+02-24-2016:20-03-22	af81708c-9ea0-4803-98f8-437935c9b9b7	User 0	Selected restaurant 4:	Blue Line Pizza
+02-24-2016:20-03-22	---
+02-24-2016:20-03-23	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, Pizza, Indian, SeaFood, Vietnamese
+User 1 preferences: 10-20	Spanish, SeaFood, Indian, Pizza, Vietnamese
+
+Sakoon	Indian	30-60
+Pho Hoa	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Blue Line Pizza	Pizza	10-20
+Shezan	Indian	10-20
+Asian Box	Vietnamese	30-60
+Pho To Chau	Vietnamese	20-30
+Drunken Lobster	SeaFood	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

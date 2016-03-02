@@ -1,0 +1,27 @@
+02-19-2016:16-48-15	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 1	joined
+02-19-2016:16-48-16	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 0	joined
+02-19-2016:16-48-19	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 1	hi
+02-19-2016:16-48-21	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 0	pick any
+02-19-2016:16-48-25	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 1	Pizza?
+02-19-2016:16-48-28	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-48-36	7f774651-b1f6-40b8-9e81-37c487d8dfe1	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-48-37	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Chinese, SeaFood, Pizza, Korean
+User 1 preferences: 30-60	Pizza, Chinese, Korean, Italian, SeaFood
+
+Ristorante Don Giovanni	Italian	0-10
+Ginseng	Korean	10-20
+Vaso Azzurro	Italian	20-30
+Queen House	Chinese	0-10
+Shell Shock	SeaFood	10-20
+Totoro	Korean	20-30
+Fu Lam Mum	Chinese	30-60
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+New Mongolian BBQ	Chinese	30-60
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

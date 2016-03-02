@@ -1,0 +1,30 @@
+02-19-2016:16-33-27	1ca32152-4a85-4169-8490-e0775d1de370	User 0	joined
+02-19-2016:16-33-28	1ca32152-4a85-4169-8490-e0775d1de370	User 1	joined
+02-19-2016:16-33-30	1ca32152-4a85-4169-8490-e0775d1de370	User 0	hi
+02-19-2016:16-33-34	1ca32152-4a85-4169-8490-e0775d1de370	User 0	Selected restaurant:	Asian Box
+02-19-2016:16-33-39	1ca32152-4a85-4169-8490-e0775d1de370	User 0	asian box?
+02-19-2016:16-33-56	1ca32152-4a85-4169-8490-e0775d1de370	User 0	i like vietnamese
+02-19-2016:16-34-02	1ca32152-4a85-4169-8490-e0775d1de370	User 0	and italian
+02-19-2016:16-34-09	1ca32152-4a85-4169-8490-e0775d1de370	User 1	Selected restaurant:	Ginseng
+02-19-2016:16-34-12	1ca32152-4a85-4169-8490-e0775d1de370	User 1	Selected restaurant:	Asian Box
+02-19-2016:16-34-13	---
+02-19-2016:16-34-13	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Italian, Chinese, Korean, French
+User 1 preferences: 30-60	Korean, Vietnamese, Italian, French, Chinese
+
+Pho To Chau	Vietnamese	20-30
+Vaso Azzurro	Italian	20-30
+Doppio Zero	Italian	30-60
+Asian Box	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Ginseng	Korean	10-20
+Hong Kong Bistro	Chinese	20-30
+Totoro	Korean	20-30
+
+Final selection: Asian BoxUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

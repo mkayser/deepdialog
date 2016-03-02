@@ -1,0 +1,33 @@
+02-19-2016:16-26-23	bb0439c0-e5cf-4a5c-be6d-a88ad45e31ed	User 1	joined
+02-19-2016:16-26-23	bb0439c0-e5cf-4a5c-be6d-a88ad45e31ed	User 0	joined
+02-19-2016:16-26-28	bb0439c0-e5cf-4a5c-be6d-a88ad45e31ed	User 0	Hey, I'm feeling some French, what about you?
+02-19-2016:16-26-37	bb0439c0-e5cf-4a5c-be6d-a88ad45e31ed	User 1	That sounds great
+02-19-2016:16-26-40	---
+02-19-2016:16-26-41	---
+02-19-2016:16-26-43	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 1	joined
+02-19-2016:16-26-44	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 0	joined
+02-19-2016:16-27-12	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 0	Posh Bagel is the only place that I will eat at.
+02-19-2016:16-27-20	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 1	Let's do it then!
+02-19-2016:16-27-26	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-27-31	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-27-31	---
+02-19-2016:16-27-31	---
+
+Chat Information:
+
+User 0 preferences: 20-30	French, Korean, Mediterranean, Spanish, Pizza
+User 1 preferences: 30-60	Spanish, Pizza, Mediterranean, Korean, French
+
+Morocco's	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Totoro	Korean	20-30
+Ginseng	Korean	10-20
+Chez TJ	French	30-60
+Blue Line Pizza	Pizza	10-20
+Cascal	Spanish	30-60
+Café Baklava	Mediterranean	10-20
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,28 @@
+02-24-2016:20-04-17	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	joined
+02-24-2016:20-04-17	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:20-04-19	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	joined
+02-24-2016:20-04-19	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-04-20	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	pizza
+02-24-2016:20-04-30	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	Selected restaurant 1:	Blue Line Pizza
+02-24-2016:20-04-33	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	Selected restaurant 1:	Blue Line Pizza
+02-24-2016:20-04-33	---
+02-24-2016:20-04-33	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Thai, American, Italian, Pizza, Korean
+User 1 preferences: 30-60	Pizza, American, Korean, Italian, Thai
+
+Bangkok Spoon	Thai	30-60
+Blue Line Pizza	Pizza	10-20
+Vaso Azzurro	Italian	20-30
+Ginseng	Korean	10-20
+Bierhaus	American	0-10
+Ristorante Don Giovanni	Italian	0-10
+Scratch	American	0-10
+The Crepevine	American	30-60
+Doppio Zero	Italian	30-60
+Totoro	Korean	20-30
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

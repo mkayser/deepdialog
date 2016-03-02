@@ -1,0 +1,30 @@
+02-24-2016:19-43-37	463cb963-2cf4-41e9-b54d-fab38b5c40c0	User 1	joined
+02-24-2016:19-43-37	463cb963-2cf4-41e9-b54d-fab38b5c40c0	User 1 has user ID d3b7ef4428254d3ab7a0802bf5f803d2
+02-24-2016:19-43-42	463cb963-2cf4-41e9-b54d-fab38b5c40c0	User 0	joined
+02-24-2016:19-43-42	463cb963-2cf4-41e9-b54d-fab38b5c40c0	User 0 has user ID e9cd6c60b03e4b1694694d01171aaec5
+02-24-2016:19-43-45	463cb963-2cf4-41e9-b54d-fab38b5c40c0	User 1	subway?
+02-24-2016:19-43-50	463cb963-2cf4-41e9-b54d-fab38b5c40c0	User 0	Amazrin
+02-24-2016:19-43-56	463cb963-2cf4-41e9-b54d-fab38b5c40c0	User 0	Selected restaurant 1:	Amarin Thai Cuisine
+02-24-2016:19-43-57	463cb963-2cf4-41e9-b54d-fab38b5c40c0	User 1	okay
+02-24-2016:19-44-00	463cb963-2cf4-41e9-b54d-fab38b5c40c0	User 1	Selected restaurant 1:	Amarin Thai Cuisine
+02-24-2016:19-44-01	---
+02-24-2016:19-44-01	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Thai, Spanish, Korean, Deli, American
+User 1 preferences: 10-20	Deli, Spanish, Korean, American, Thai
+
+Totoro	Korean	20-30
+Amarin Thai Cuisine	Thai	20-30
+Cascal	Spanish	30-60
+Subway	Deli	10-20
+Bierhaus	American	0-10
+Ginseng	Korean	10-20
+Steins Beer Garden	American	20-30
+Scratch	American	0-10
+The Crepevine	American	30-60
+Bangkok Spoon	Thai	30-60
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

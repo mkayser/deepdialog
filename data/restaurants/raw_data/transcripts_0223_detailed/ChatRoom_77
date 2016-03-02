@@ -1,0 +1,27 @@
+02-19-2016:15-36-16	01026fdc-968b-4303-9784-7e5b3833a23f	User 1	joined
+02-19-2016:15-36-17	01026fdc-968b-4303-9784-7e5b3833a23f	User 0	joined
+02-19-2016:15-36-36	01026fdc-968b-4303-9784-7e5b3833a23f	User 1	Want to go to Queen House?
+02-19-2016:15-36-51	01026fdc-968b-4303-9784-7e5b3833a23f	User 0	Sure, why not!
+02-19-2016:15-36-55	01026fdc-968b-4303-9784-7e5b3833a23f	User 1	Selected restaurant:	Queen House
+02-19-2016:15-36-58	01026fdc-968b-4303-9784-7e5b3833a23f	User 0	Selected restaurant:	Queen House
+02-19-2016:15-36-58	---
+02-19-2016:15-36-58	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, Thai, Deli, Chinese, Japanese
+User 1 preferences: 0-10	Thai, Deli, Chinese, Korean, Japanese
+
+New Mongolian BBQ	Chinese	30-60
+Yakko	Japanese	0-10
+Queen House	Chinese	0-10
+Shalala	Japanese	10-20
+Ginseng	Korean	10-20
+Sushitomi	Japanese	20-30
+Kappo Naminami	Japanese	30-60
+Bushido	Japanese	10-20
+Totoro	Korean	20-30
+Hong Kong Bistro	Chinese	20-30
+
+Final selection: Queen HouseUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

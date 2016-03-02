@@ -1,0 +1,30 @@
+02-19-2016:16-34-12	e93359df-daf8-4248-a856-40e6a2f9283a	User 1	joined
+02-19-2016:16-34-14	e93359df-daf8-4248-a856-40e6a2f9283a	User 0	joined
+02-19-2016:16-34-17	e93359df-daf8-4248-a856-40e6a2f9283a	User 1	mturkcrowd?
+02-19-2016:16-34-26	e93359df-daf8-4248-a856-40e6a2f9283a	User 0	nope
+02-19-2016:16-34-26	e93359df-daf8-4248-a856-40e6a2f9283a	User 1	Lets get some Posh Bagel
+02-19-2016:16-34-43	e93359df-daf8-4248-a856-40e6a2f9283a	User 0	What you singing to my ears 
+02-19-2016:16-34-46	e93359df-daf8-4248-a856-40e6a2f9283a	User 0	lets go
+02-19-2016:16-34-51	e93359df-daf8-4248-a856-40e6a2f9283a	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-34-55	e93359df-daf8-4248-a856-40e6a2f9283a	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-34-55	---
+02-19-2016:16-34-55	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Italian, French, Thai, SeaFood
+User 1 preferences: 20-30	Deli, Thai, SeaFood, French, Italian
+
+Vaso Azzurro	Italian	20-30
+Bangkok Spoon	Thai	30-60
+Chez TJ	French	30-60
+Ristorante Don Giovanni	Italian	0-10
+Drunken Lobster	SeaFood	10-20
+Shell Shock	SeaFood	10-20
+Subway	Deli	10-20
+Posh Bagel	Deli	10-20
+Doppio Zero	Italian	30-60
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

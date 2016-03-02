@@ -1,0 +1,34 @@
+02-19-2016:16-47-49	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	joined
+02-19-2016:16-48-24	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	Hey, I think we should try eating at Vaso Azzurro's tonight.  What do you think?
+02-19-2016:16-49-04	---
+02-19-2016:16-49-05	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	joined
+02-19-2016:16-49-32	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	Where do you think we should eat?
+02-19-2016:16-49-55	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 0	joined
+02-19-2016:16-50-01	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 0	chinese
+02-19-2016:16-50-11	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	We have Korean as an option
+02-19-2016:16-50-14	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	Ginseng?
+02-19-2016:16-50-27	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 0	ok
+02-19-2016:16-50-31	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	Great!
+02-19-2016:16-50-36	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 1	Selected restaurant:	Ginseng
+02-19-2016:16-50-44	1cc3a7af-a394-4245-81b5-da8832fa7c21	User 0	Selected restaurant:	Ginseng
+02-19-2016:16-50-44	---
+02-19-2016:16-50-44	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Indian, Thai, Korean, American, Italian
+User 1 preferences: 30-60	Thai, Korean, Indian, American, Italian
+
+Sakoon	Indian	30-60
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Steins Beer Garden	American	20-30
+The Crepevine	American	30-60
+Doppio Zero	Italian	30-60
+Ginseng	Korean	10-20
+Scratch	American	0-10
+Totoro	Korean	20-30
+Shezan	Indian	10-20
+
+Final selection: GinsengUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

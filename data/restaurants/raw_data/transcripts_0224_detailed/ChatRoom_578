@@ -1,0 +1,30 @@
+02-24-2016:19-57-58	45c0fa06-df3d-4025-8192-60f2a368720a	User 1	joined
+02-24-2016:19-57-58	45c0fa06-df3d-4025-8192-60f2a368720a	User 1 has user ID ecb9be7e240a471d97a69d5ebf6b8597
+02-24-2016:19-57-58	45c0fa06-df3d-4025-8192-60f2a368720a	User 0	joined
+02-24-2016:19-57-58	45c0fa06-df3d-4025-8192-60f2a368720a	User 0 has user ID 0aad6311afd54583be7b3db7575a384e
+02-24-2016:19-58-10	45c0fa06-df3d-4025-8192-60f2a368720a	User 0	Agave?
+02-24-2016:19-58-17	45c0fa06-df3d-4025-8192-60f2a368720a	User 1	None of the places I like are around here
+02-24-2016:19-58-21	45c0fa06-df3d-4025-8192-60f2a368720a	User 1	You chose, amigo
+02-24-2016:19-58-23	45c0fa06-df3d-4025-8192-60f2a368720a	User 1	Selected restaurant 2:	Agave
+02-24-2016:19-58-24	45c0fa06-df3d-4025-8192-60f2a368720a	User 0	Selected restaurant 2:	Agave
+02-24-2016:19-58-24	---
+02-24-2016:19-58-25	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Pizza, Thai, Japanese, Chinese
+User 1 preferences: 20-30	Chinese, Mexican, Japanese, Thai, Pizza
+
+Kappo Naminami	Japanese	30-60
+Queen House	Chinese	0-10
+Agave	Mexican	20-30
+Amarin Thai Cuisine	Thai	20-30
+Maruichi Noodle House	Japanese	0-10
+Ryowa Noodle House	Japanese	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+Sushitomi	Japanese	20-30
+Shabuway	Japanese	30-60
+
+Final selection: AgaveUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

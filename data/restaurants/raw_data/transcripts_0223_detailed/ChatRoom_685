@@ -1,0 +1,29 @@
+02-19-2016:16-48-58	438690de-7712-4f95-a619-613bbb61dd4e	User 0	joined
+02-19-2016:16-49-00	438690de-7712-4f95-a619-613bbb61dd4e	User 1	joined
+02-19-2016:16-49-05	438690de-7712-4f95-a619-613bbb61dd4e	User 1	Cascal?
+02-19-2016:16-49-09	438690de-7712-4f95-a619-613bbb61dd4e	User 0	Want to get Indian?
+02-19-2016:16-49-17	438690de-7712-4f95-a619-613bbb61dd4e	User 0	How about Shezan?
+02-19-2016:16-49-23	438690de-7712-4f95-a619-613bbb61dd4e	User 1	I can do that
+02-19-2016:16-49-27	438690de-7712-4f95-a619-613bbb61dd4e	User 1	Selected restaurant:	Shezan
+02-19-2016:16-49-30	438690de-7712-4f95-a619-613bbb61dd4e	User 0	Selected restaurant:	Shezan
+02-19-2016:16-49-31	---
+02-19-2016:16-49-31	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Korean, Italian, American, Spanish
+User 1 preferences: 30-60	Spanish, Italian, Indian, Korean, American
+
+Sakoon	Indian	30-60
+Bierhaus	American	0-10
+Cascal	Spanish	30-60
+Shezan	Indian	10-20
+Ristorante Don Giovanni	Italian	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Doppio Zero	Italian	30-60
+Ginseng	Korean	10-20
+Scratch	American	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: ShezanUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

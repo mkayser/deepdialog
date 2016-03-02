@@ -1,0 +1,26 @@
+02-19-2016:15-30-57	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 1	joined
+02-19-2016:15-30-57	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 0	joined
+02-19-2016:15-31-02	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 0	hello
+02-19-2016:15-31-17	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 1	Selected restaurant:	Agave
+02-19-2016:15-31-29	ff031f01-9e66-418e-9c5a-2bcded46b20e	User 0	Selected restaurant:	Agave
+02-19-2016:15-31-30	---
+02-19-2016:15-31-30	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Mexican, Japanese, Korean, Thai
+User 1 preferences: 10-20	Japanese, Korean, Deli, Mexican, Thai
+
+Niji Sushi	Japanese	10-20
+Shalala	Japanese	10-20
+Kappo Naminami	Japanese	30-60
+Yakko	Japanese	0-10
+Shabuway	Japanese	30-60
+Rumble Fish	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Agave	Mexican	20-30
+Bangkok Spoon	Thai	30-60
+Ginseng	Korean	10-20
+
+Final selection: AgaveUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

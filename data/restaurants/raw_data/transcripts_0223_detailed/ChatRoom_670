@@ -1,0 +1,29 @@
+02-19-2016:16-48-21	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	joined
+02-19-2016:16-48-22	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	joined
+02-19-2016:16-48-26	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	Selected restaurant:	Bangkok Spoon
+02-19-2016:16-48-38	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	I'm feeling Spanish. Cascal?
+02-19-2016:16-48-49	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	I do not like Spanish, I am sorry
+02-19-2016:16-48-58	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	Pho Hoa?
+02-19-2016:16-49-01	0d43c926-012c-4d98-a681-45a26a7a139a	User 0	Selected restaurant:	Pho Hoa
+02-19-2016:16-49-07	0d43c926-012c-4d98-a681-45a26a7a139a	User 1	Selected restaurant:	Pho Hoa
+02-19-2016:16-49-07	---
+02-19-2016:16-49-07	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Thai, Vietnamese, Deli, Spanish, French
+User 1 preferences: 0-10	Spanish, Deli, Vietnamese, Thai, French
+
+Pho To Chau	Vietnamese	20-30
+Cascal	Spanish	30-60
+Subway	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+Chez TJ	French	30-60
+Xanh Restaurant	Vietnamese	10-20
+Posh Bagel	Deli	10-20
+Asian Box	Vietnamese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Bangkok Spoon	Thai	30-60
+
+Final selection: Pho HoaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

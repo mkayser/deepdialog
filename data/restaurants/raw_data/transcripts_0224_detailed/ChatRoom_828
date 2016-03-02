@@ -1,0 +1,28 @@
+02-24-2016:20-24-26	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 1	joined
+02-24-2016:20-24-26	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 1 has user ID d166292dc9d54952b4f1b51d3c995aa6
+02-24-2016:20-24-26	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 0	joined
+02-24-2016:20-24-26	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 0 has user ID 3cc538f6316d41c284277992d5396245
+02-24-2016:20-24-29	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 0	Selected restaurant 9:	Posh Bagel
+02-24-2016:20-25-06	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 1	Selected restaurant 7:	Totoro
+02-24-2016:20-25-16	51cb0bb1-ad5d-4dc4-87f3-7963e84a50ee	User 0	Selected restaurant 7:	Totoro
+02-24-2016:20-25-16	---
+02-24-2016:20-25-16	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, American, Korean, Mediterranean, Spanish
+User 1 preferences: 20-30	Korean, Spanish, Deli, Mediterranean, American
+
+Cascal	Spanish	30-60
+Ginseng	Korean	10-20
+Morocco's	Mediterranean	10-20
+The Crepevine	American	30-60
+Ehpesus	Mediterranean	0-10
+Bierhaus	American	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Totoro	Korean	20-30
+Scratch	American	0-10
+Posh Bagel	Deli	10-20
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

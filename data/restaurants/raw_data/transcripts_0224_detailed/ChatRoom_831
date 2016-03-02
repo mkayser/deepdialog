@@ -1,0 +1,32 @@
+02-24-2016:20-26-43	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 0	joined
+02-24-2016:20-26-43	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 0 has user ID 3ae8fc6541b44c8ba1b9261110297e9e
+02-24-2016:20-26-44	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 1	joined
+02-24-2016:20-26-44	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-26-52	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 1	heya
+02-24-2016:20-27-00	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 1	Do you like Mediterranean?
+02-24-2016:20-27-02	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 0	hi
+02-24-2016:20-27-08	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 0	yes, very much
+02-24-2016:20-27-19	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 0	morocco's?
+02-24-2016:20-27-23	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 1	Selected restaurant 3:	Morocco's
+02-24-2016:20-27-28	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 0	Selected restaurant 3:	Morocco's
+02-24-2016:20-27-29	---
+02-24-2016:20-27-29	---
+
+Chat Information:
+
+User 0 preferences: 0-10	American, Spanish, Mediterranean, Pizza, Italian
+User 1 preferences: 30-60	Mediterranean, Pizza, Spanish, American, Italian
+
+Café Baklava	Mediterranean	10-20
+Ristorante Don Giovanni	Italian	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Vaso Azzurro	Italian	20-30
+Cascal	Spanish	30-60
+Doppio Zero	Italian	30-60
+Scratch	American	0-10
+Steins Beer Garden	American	20-30
+Ehpesus	Mediterranean	0-10
+
+Final selection: Morocco'sUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

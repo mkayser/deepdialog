@@ -1,0 +1,32 @@
+02-24-2016:20-06-03	a6a2a96c-8a6f-48a6-917f-4d53e4c40c40	User 0	joined
+02-24-2016:20-06-03	a6a2a96c-8a6f-48a6-917f-4d53e4c40c40	User 0 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:20-06-05	a6a2a96c-8a6f-48a6-917f-4d53e4c40c40	User 1	joined
+02-24-2016:20-06-05	a6a2a96c-8a6f-48a6-917f-4d53e4c40c40	User 1 has user ID 6dc8794cd43543a283d457c40fd5be37
+02-24-2016:20-06-13	a6a2a96c-8a6f-48a6-917f-4d53e4c40c40	User 0	Xanh Restaurant?
+02-24-2016:20-06-29	---
+02-24-2016:20-06-29	a6a2a96c-8a6f-48a6-917f-4d53e4c40c40	User 0	Selected restaurant 5:	Xanh Restaurant
+02-24-2016:20-06-32	a6a2a96c-8a6f-48a6-917f-4d53e4c40c40	User 1	joined
+02-24-2016:20-06-32	a6a2a96c-8a6f-48a6-917f-4d53e4c40c40	User 1 has user ID 6dc8794cd43543a283d457c40fd5be37
+02-24-2016:20-06-42	a6a2a96c-8a6f-48a6-917f-4d53e4c40c40	User 1	Selected restaurant 0:	Drunken Lobster
+02-24-2016:20-06-58	a6a2a96c-8a6f-48a6-917f-4d53e4c40c40	User 0	Selected restaurant 0:	Drunken Lobster
+02-24-2016:20-06-58	---
+02-24-2016:20-06-58	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Vietnamese, SeaFood, Indian, American, Spanish
+User 1 preferences: 0-10	SeaFood, American, Vietnamese, Indian, Spanish
+
+Drunken Lobster	SeaFood	10-20
+Scratch	American	0-10
+Asian Box	Vietnamese	30-60
+Shezan	Indian	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Xanh Restaurant	Vietnamese	10-20
+Sakoon	Indian	30-60
+Park Ballachi	Indian	0-10
+Steins Beer Garden	American	20-30
+The Crepevine	American	30-60
+
+Final selection: Drunken LobsterUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

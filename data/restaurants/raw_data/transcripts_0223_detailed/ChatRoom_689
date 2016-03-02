@@ -1,0 +1,28 @@
+02-19-2016:16-49-24	106373b2-862f-4634-8f87-7f47f3b30acf	User 0	joined
+02-19-2016:16-49-31	106373b2-862f-4634-8f87-7f47f3b30acf	User 1	joined
+02-19-2016:16-49-37	106373b2-862f-4634-8f87-7f47f3b30acf	User 1	Could we have Shell Shock
+02-19-2016:16-49-38	106373b2-862f-4634-8f87-7f47f3b30acf	User 1	Neat name
+02-19-2016:16-49-41	106373b2-862f-4634-8f87-7f47f3b30acf	User 1	987
+02-19-2016:16-49-44	106373b2-862f-4634-8f87-7f47f3b30acf	User 0	Selected restaurant:	Shell Shock
+02-19-2016:16-49-51	106373b2-862f-4634-8f87-7f47f3b30acf	User 1	Selected restaurant:	Shell Shock
+02-19-2016:16-49-52	---
+02-19-2016:16-49-52	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Vietnamese, American, Japanese, Korean
+User 1 preferences: 30-60	SeaFood, Korean, American, Japanese, Vietnamese
+
+Sushitomi	Japanese	20-30
+Maruichi Noodle House	Japanese	0-10
+Niji Sushi	Japanese	10-20
+The Crepevine	American	30-60
+Shell Shock	SeaFood	10-20
+Kappo Naminami	Japanese	30-60
+Drunken Lobster	SeaFood	10-20
+Xanh Restaurant	Vietnamese	10-20
+Yakko	Japanese	0-10
+Pho To Chau	Vietnamese	20-30
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

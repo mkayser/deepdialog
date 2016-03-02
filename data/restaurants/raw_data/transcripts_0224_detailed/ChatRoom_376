@@ -1,0 +1,31 @@
+02-24-2016:19-51-12	e90e48ff-b1d2-479d-9fce-6017deb02f35	User 1	joined
+02-24-2016:19-51-12	e90e48ff-b1d2-479d-9fce-6017deb02f35	User 1 has user ID d10616914a2d46829a3973b29463fd9f
+02-24-2016:19-51-15	e90e48ff-b1d2-479d-9fce-6017deb02f35	User 0	joined
+02-24-2016:19-51-15	e90e48ff-b1d2-479d-9fce-6017deb02f35	User 0 has user ID 1e19eff1e12d4e98b07ce31188b389a8
+02-24-2016:19-51-21	e90e48ff-b1d2-479d-9fce-6017deb02f35	User 1	Cascal?
+02-24-2016:19-51-32	e90e48ff-b1d2-479d-9fce-6017deb02f35	User 1	Selected restaurant 3:	Cascal
+02-24-2016:19-52-02	e90e48ff-b1d2-479d-9fce-6017deb02f35	User 0	in the mood for japanese. how about Yakko?  they have great saki
+02-24-2016:19-52-10	e90e48ff-b1d2-479d-9fce-6017deb02f35	User 1	sure
+02-24-2016:19-52-13	e90e48ff-b1d2-479d-9fce-6017deb02f35	User 1	Selected restaurant 5:	Yakko
+02-24-2016:19-52-14	e90e48ff-b1d2-479d-9fce-6017deb02f35	User 0	Selected restaurant 5:	Yakko
+02-24-2016:19-52-14	---
+02-24-2016:19-52-14	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Vietnamese, Japanese, Korean, Spanish, French
+User 1 preferences: 30-60	Spanish, French, Japanese, Korean, Vietnamese
+
+Pho To Chau	Vietnamese	20-30
+Shabuway	Japanese	30-60
+Bushido	Japanese	10-20
+Cascal	Spanish	30-60
+Chez TJ	French	30-60
+Yakko	Japanese	0-10
+Maruichi Noodle House	Japanese	0-10
+Totoro	Korean	20-30
+Rumble Fish	Japanese	30-60
+Niji Sushi	Japanese	10-20
+
+Final selection: YakkoUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

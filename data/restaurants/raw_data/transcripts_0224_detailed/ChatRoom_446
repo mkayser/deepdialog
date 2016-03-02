@@ -1,0 +1,31 @@
+02-24-2016:19-52-51	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 1	joined
+02-24-2016:19-52-51	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 1 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-52-56	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 1	Selected restaurant 4:	Totoro
+02-24-2016:19-52-57	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 0	joined
+02-24-2016:19-52-57	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 0 has user ID 93d8c89b40434f95997a41db70373770
+02-24-2016:19-53-30	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 1	Selected restaurant 1:	Ginseng
+02-24-2016:19-53-42	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 1	How about Korean?
+02-24-2016:19-53-50	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 0	Hi! I was thinking about Korean food, too.
+02-24-2016:19-53-55	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 0	Ginseng is perfect.
+02-24-2016:19-54-03	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 0	Selected restaurant 1:	Ginseng
+02-24-2016:19-54-03	---
+02-24-2016:19-54-03	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, Pizza, Korean, Italian, American
+User 1 preferences: 10-20	Korean, American, Italian, Pizza, Thai
+
+Vaso Azzurro	Italian	20-30
+Ginseng	Korean	10-20
+Doppio Zero	Italian	30-60
+Bierhaus	American	0-10
+Totoro	Korean	20-30
+Scratch	American	0-10
+Amarin Thai Cuisine	Thai	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+The Crepevine	American	30-60
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: GinsengUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

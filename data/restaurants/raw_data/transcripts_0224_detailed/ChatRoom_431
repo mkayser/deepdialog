@@ -1,0 +1,30 @@
+02-24-2016:19-52-31	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1	joined
+02-24-2016:19-52-31	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1 has user ID e63d1cf12004458bba9401b773984591
+02-24-2016:19-52-32	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 0	joined
+02-24-2016:19-52-32	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 0 has user ID 4db3eca2a75f440dbe6dd10ac81ad18f
+02-24-2016:19-52-46	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1	hong kong  istro?
+02-24-2016:19-53-04	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 0	No, too expensive.
+02-24-2016:19-53-12	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 0	Selected restaurant 5:	Kirin
+02-24-2016:19-53-31	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1	deal
+02-24-2016:19-53-35	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1	Selected restaurant 5:	Kirin
+02-24-2016:19-53-36	---
+02-24-2016:19-53-36	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Spanish, Mediterranean, Thai, Chinese
+User 1 preferences: 20-30	Chinese, Spanish, Thai, Italian, Mediterranean
+
+Ristorante Don Giovanni	Italian	0-10
+Morocco's	Mediterranean	10-20
+Doppio Zero	Italian	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+Kirin	Chinese	10-20
+Cascal	Spanish	30-60
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Hong Kong Bistro	Chinese	20-30
+
+Final selection: KirinUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,31 @@
+02-19-2016:16-31-46	552a78fb-6abe-4e23-870f-91405489704d	User 0	joined
+02-19-2016:16-31-46	552a78fb-6abe-4e23-870f-91405489704d	User 1	joined
+02-19-2016:16-31-54	552a78fb-6abe-4e23-870f-91405489704d	User 0	Let's go to Pho To Chau
+02-19-2016:16-31-55	552a78fb-6abe-4e23-870f-91405489704d	User 1	hi
+02-19-2016:16-32-01	552a78fb-6abe-4e23-870f-91405489704d	User 1	nah
+02-19-2016:16-32-06	552a78fb-6abe-4e23-870f-91405489704d	User 1	mediterranean or mexican please
+02-19-2016:16-32-16	552a78fb-6abe-4e23-870f-91405489704d	User 0	Ok
+02-19-2016:16-32-18	552a78fb-6abe-4e23-870f-91405489704d	User 1	Selected restaurant:	Casa Lupe Mexican Restaurant
+02-19-2016:16-32-23	552a78fb-6abe-4e23-870f-91405489704d	User 0	Casa Lupe
+02-19-2016:16-32-26	552a78fb-6abe-4e23-870f-91405489704d	User 0	Selected restaurant:	Casa Lupe Mexican Restaurant
+02-19-2016:16-32-26	---
+02-19-2016:16-32-26	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Vietnamese, Mexican, Pizza, Mediterranean, Korean
+User 1 preferences: 30-60	Mediterranean, Mexican, Pizza, Korean, Vietnamese
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Café Baklava	Mediterranean	10-20
+Pho To Chau	Vietnamese	20-30
+Ginseng	Korean	10-20
+Agave	Mexican	20-30
+Blue Line Pizza	Pizza	10-20
+Totoro	Korean	20-30
+Morocco's	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Asian Box	Vietnamese	30-60
+
+Final selection: Casa Lupe Mexican RestaurantUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

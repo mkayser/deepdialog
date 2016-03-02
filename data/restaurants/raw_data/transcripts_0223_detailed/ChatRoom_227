@@ -1,0 +1,28 @@
+02-19-2016:16-02-53	f50fbaea-251f-450d-a597-eaa3abbef96a	User 1	joined
+02-19-2016:16-02-56	f50fbaea-251f-450d-a597-eaa3abbef96a	User 0	joined
+02-19-2016:16-03-26	f50fbaea-251f-450d-a597-eaa3abbef96a	User 0	Hey, what do you think about Vaso Azzurro?
+02-19-2016:16-03-41	f50fbaea-251f-450d-a597-eaa3abbef96a	User 1	Hi, How about Doppio Zero for dinner?
+02-19-2016:16-03-57	f50fbaea-251f-450d-a597-eaa3abbef96a	User 0	Eh, I could do Doppio. 
+02-19-2016:16-04-01	f50fbaea-251f-450d-a597-eaa3abbef96a	User 0	Selected restaurant:	Doppio Zero
+02-19-2016:16-04-26	f50fbaea-251f-450d-a597-eaa3abbef96a	User 1	Selected restaurant:	Doppio Zero
+02-19-2016:16-04-27	---
+02-19-2016:16-04-27	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, Spanish, SeaFood, Indian, Deli
+User 1 preferences: 10-20	Deli, Indian, Spanish, Italian, SeaFood
+
+Doppio Zero	Italian	30-60
+Shezan	Indian	10-20
+Subway	Deli	10-20
+Shell Shock	SeaFood	10-20
+Vaso Azzurro	Italian	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+Posh Bagel	Deli	10-20
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: Doppio ZeroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

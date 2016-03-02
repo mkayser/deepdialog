@@ -1,0 +1,28 @@
+02-19-2016:16-10-05	a97f0004-e603-4887-93e6-bf484b60747f	User 0	joined
+02-19-2016:16-10-05	a97f0004-e603-4887-93e6-bf484b60747f	User 1	joined
+02-19-2016:16-10-11	a97f0004-e603-4887-93e6-bf484b60747f	User 0	Choose
+02-19-2016:16-10-19	a97f0004-e603-4887-93e6-bf484b60747f	User 1	hmm
+02-19-2016:16-10-21	a97f0004-e603-4887-93e6-bf484b60747f	User 1	Niji
+02-19-2016:16-10-29	a97f0004-e603-4887-93e6-bf484b60747f	User 1	Selected restaurant:	Niji Sushi
+02-19-2016:16-10-32	a97f0004-e603-4887-93e6-bf484b60747f	User 0	Selected restaurant:	Niji Sushi
+02-19-2016:16-10-33	---
+02-19-2016:16-10-33	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mediterranean, American, Deli, Japanese, Vietnamese
+User 1 preferences: 10-20	Japanese, Mediterranean, Vietnamese, Deli, American
+
+Niji Sushi	Japanese	10-20
+Ehpesus	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Pho To Chau	Vietnamese	20-30
+Bushido	Japanese	10-20
+Yakko	Japanese	0-10
+Ryowa Noodle House	Japanese	20-30
+Café Baklava	Mediterranean	10-20
+Rumble Fish	Japanese	30-60
+Masa Sushi	Japanese	0-10
+
+Final selection: Niji SushiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

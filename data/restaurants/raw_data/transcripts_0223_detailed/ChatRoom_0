@@ -1,0 +1,27 @@
+02-19-2016:15-25-36	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 0	joined
+02-19-2016:15-25-39	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 1	joined
+02-19-2016:15-26-19	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 0	What would you like to eat?
+02-19-2016:15-26-39	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 1	Hey I'd like to go to Blue Line Pizza how does that sound?
+02-19-2016:15-26-54	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-26-57	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-26-57	---
+02-19-2016:15-26-57	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Japanese, Pizza, SeaFood, Korean
+User 1 preferences: 20-30	Spanish, Pizza, Japanese, SeaFood, Korean
+
+Totoro	Korean	20-30
+Masa Sushi	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Drunken Lobster	SeaFood	10-20
+Bushido	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Ginseng	Korean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Rumble Fish	Japanese	30-60
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

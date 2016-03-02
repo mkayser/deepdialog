@@ -1,0 +1,28 @@
+02-24-2016:19-50-52	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 1	joined
+02-24-2016:19-50-52	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 1 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:19-50-54	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 0	joined
+02-24-2016:19-50-54	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 0 has user ID 1e64b000bb644aa396f0bfdef8dc61c0
+02-24-2016:19-50-59	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 0	Selected restaurant 9:	Vaso Azzurro
+02-24-2016:19-51-00	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 1	Selected restaurant 6:	Ristorante Don Giovanni
+02-24-2016:19-51-04	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 1	Selected restaurant 9:	Vaso Azzurro
+02-24-2016:19-51-05	---
+02-24-2016:19-51-05	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, SeaFood, Mediterranean, Deli, Indian
+User 1 preferences: 10-20	Italian, Mediterranean, Indian, Deli, SeaFood
+
+Morocco's	Mediterranean	10-20
+Subway	Deli	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Drunken Lobster	SeaFood	10-20
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Ristorante Don Giovanni	Italian	0-10
+Posh Bagel	Deli	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: Vaso AzzurroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

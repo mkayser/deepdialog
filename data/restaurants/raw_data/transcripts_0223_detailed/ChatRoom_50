@@ -1,0 +1,27 @@
+02-19-2016:15-32-36	e111b4de-63dc-47ac-9dea-76255cfd2828	User 1	joined
+02-19-2016:15-32-37	e111b4de-63dc-47ac-9dea-76255cfd2828	User 0	joined
+02-19-2016:15-32-51	e111b4de-63dc-47ac-9dea-76255cfd2828	User 0	Hong Kong Bistro?
+02-19-2016:15-32-59	e111b4de-63dc-47ac-9dea-76255cfd2828	User 1	That sounds good to me
+02-19-2016:15-33-02	e111b4de-63dc-47ac-9dea-76255cfd2828	User 1	Selected restaurant:	Hong Kong Bistro
+02-19-2016:15-33-06	e111b4de-63dc-47ac-9dea-76255cfd2828	User 0	Selected restaurant:	Hong Kong Bistro
+02-19-2016:15-33-06	---
+02-19-2016:15-33-06	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Italian, American, Thai, Korean
+User 1 preferences: 30-60	Chinese, Italian, Korean, American, Thai
+
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Bangkok Spoon	Thai	30-60
+Steins Beer Garden	American	20-30
+Vaso Azzurro	Italian	20-30
+Amarin Thai Cuisine	Thai	20-30
+Fu Lam Mum	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Bierhaus	American	0-10
+Ginseng	Korean	10-20
+
+Final selection: Hong Kong BistroUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

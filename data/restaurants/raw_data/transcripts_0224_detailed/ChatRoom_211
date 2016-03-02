@@ -1,0 +1,34 @@
+02-24-2016:19-45-53	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 0	joined
+02-24-2016:19-45-53	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 0 has user ID 12dfd22b352441e0ae363490f50068fc
+02-24-2016:19-45-56	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 1	joined
+02-24-2016:19-45-56	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 1 has user ID d11f904801154461a8ca84edcfe434a4
+02-24-2016:19-46-01	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 0	Does Rumble Fish sound good to you?
+02-24-2016:19-46-03	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 1	Selected restaurant 8:	Amici's East Coast Pizzeria
+02-24-2016:19-46-16	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 1	Hey. I really don't like seafood.
+02-24-2016:19-46-23	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 1	But that is japanese
+02-24-2016:19-46-37	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 0	Id do Japaense or American
+02-24-2016:19-46-40	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 0	do either work with you?
+02-24-2016:19-47-05	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 1	American is good
+02-24-2016:19-47-05	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 1	American is good
+02-24-2016:19-47-05	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 1	Selected restaurant 2:	Steins Beer Garden
+02-24-2016:19-47-09	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 0	Selected restaurant 2:	Steins Beer Garden
+02-24-2016:19-47-09	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Japanese, American, Spanish, Italian, Pizza
+User 1 preferences: 10-20	Pizza, Italian, American, Japanese, Spanish
+
+Doppio Zero	Italian	30-60
+Yakko	Japanese	0-10
+Steins Beer Garden	American	20-30
+Rumble Fish	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Cascal	Spanish	30-60
+Ryowa Noodle House	Japanese	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Niji Sushi	Japanese	10-20
+
+Final selection: Steins Beer GardenUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

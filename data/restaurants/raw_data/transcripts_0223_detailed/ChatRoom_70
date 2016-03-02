@@ -1,0 +1,29 @@
+02-19-2016:15-35-10	3b654b5e-e2e5-4a95-a014-e321628b25ad	User 0	joined
+02-19-2016:15-35-10	3b654b5e-e2e5-4a95-a014-e321628b25ad	User 1	joined
+02-19-2016:15-35-21	3b654b5e-e2e5-4a95-a014-e321628b25ad	User 0	I'm craving Bangkok Spoon, you?
+02-19-2016:15-35-32	3b654b5e-e2e5-4a95-a014-e321628b25ad	User 1	That's a bit too pricy for me
+02-19-2016:15-35-40	3b654b5e-e2e5-4a95-a014-e321628b25ad	User 1	Kirin, maybe?
+02-19-2016:15-35-47	3b654b5e-e2e5-4a95-a014-e321628b25ad	User 0	That works for me!
+02-19-2016:15-35-50	3b654b5e-e2e5-4a95-a014-e321628b25ad	User 0	Selected restaurant:	Kirin
+02-19-2016:15-35-51	3b654b5e-e2e5-4a95-a014-e321628b25ad	User 1	Selected restaurant:	Kirin
+02-19-2016:15-35-51	---
+02-19-2016:15-35-52	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Thai, French, Chinese, Mediterranean, Italian
+User 1 preferences: 10-20	Chinese, Thai, French, Mediterranean, Italian
+
+Bangkok Spoon	Thai	30-60
+Fu Lam Mum	Chinese	30-60
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Queen House	Chinese	0-10
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+Ristorante Don Giovanni	Italian	0-10
+Café Baklava	Mediterranean	10-20
+
+Final selection: KirinUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

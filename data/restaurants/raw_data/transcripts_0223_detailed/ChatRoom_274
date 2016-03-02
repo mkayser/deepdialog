@@ -1,0 +1,29 @@
+02-19-2016:16-10-29	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 0	joined
+02-19-2016:16-10-29	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 1	joined
+02-19-2016:16-10-40	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 0	I like kind of pricy Seafood.
+02-19-2016:16-10-58	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 1	We can have shell shock?
+02-19-2016:16-11-03	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 1	Selected restaurant:	Shell Shock
+02-19-2016:16-11-03	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 0	I like it.
+02-19-2016:16-11-07	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 1	Perfect
+02-19-2016:16-11-09	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 0	Selected restaurant:	Shell Shock
+02-19-2016:16-11-09	---
+02-19-2016:16-11-09	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Thai, Vietnamese, Spanish, Italian
+User 1 preferences: 20-30	SeaFood, Thai, Spanish, Italian, Vietnamese
+
+Doppio Zero	Italian	30-60
+Pho To Chau	Vietnamese	20-30
+Bangkok Spoon	Thai	30-60
+Vaso Azzurro	Italian	20-30
+Pho Hoa	Vietnamese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Cascal	Spanish	30-60
+Xanh Restaurant	Vietnamese	10-20
+Shell Shock	SeaFood	10-20
+Asian Box	Vietnamese	30-60
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

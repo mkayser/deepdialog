@@ -1,0 +1,27 @@
+02-24-2016:20-10-04	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 1	joined
+02-24-2016:20-10-04	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 1 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:20-10-05	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 0	joined
+02-24-2016:20-10-05	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 0 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:20-10-07	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 0	Selected restaurant 1:	Shabuway
+02-24-2016:20-10-10	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 1	Selected restaurant 1:	Shabuway
+02-24-2016:20-10-10	---
+02-24-2016:20-10-10	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Japanese, Indian, SeaFood, Korean
+User 1 preferences: 10-20	Japanese, Korean, Indian, SeaFood, Deli
+
+Totoro	Korean	20-30
+Shabuway	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Shell Shock	SeaFood	10-20
+Subway	Deli	10-20
+Shalala	Japanese	10-20
+Posh Bagel	Deli	10-20
+Niji Sushi	Japanese	10-20
+Ryowa Noodle House	Japanese	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: ShabuwayUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

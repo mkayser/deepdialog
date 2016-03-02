@@ -1,0 +1,29 @@
+02-24-2016:20-07-29	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	joined
+02-24-2016:20-07-29	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1 has user ID f25cb379b00e47d38df696c2696759e8
+02-24-2016:20-07-30	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	joined
+02-24-2016:20-07-30	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0 has user ID 0aad6311afd54583be7b3db7575a384e
+02-24-2016:20-07-36	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	Hummus?
+02-24-2016:20-07-38	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	Cascal
+02-24-2016:20-07-39	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	Selected restaurant 0:	Oren's Hummus
+02-24-2016:20-07-44	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	Selected restaurant 0:	Oren's Hummus
+02-24-2016:20-07-44	---
+02-24-2016:20-07-44	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Indian, Deli, American, Mediterranean
+User 1 preferences: 20-30	Mediterranean, Indian, Deli, American, Spanish
+
+Oren's Hummus	Mediterranean	10-20
+Cascal	Spanish	30-60
+The Crepevine	American	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+Posh Bagel	Deli	10-20
+Steins Beer Garden	American	20-30
+Café Baklava	Mediterranean	10-20
+Bierhaus	American	0-10
+Shezan	Indian	10-20
+
+Final selection: Oren's HummusUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

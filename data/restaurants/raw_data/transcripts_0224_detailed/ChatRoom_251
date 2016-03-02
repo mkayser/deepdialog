@@ -1,0 +1,35 @@
+02-24-2016:19-47-12	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	joined
+02-24-2016:19-47-12	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1 has user ID 2d1722cd19ea47eab12b5ee6a5538838
+02-24-2016:19-47-15	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	joined
+02-24-2016:19-47-15	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:19-47-19	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:19-47-21	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	Selected restaurant 2:	Hong Kong Bistro
+02-24-2016:19-47-26	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	I want some chinese :)
+02-24-2016:19-47-38	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	Sure you couldn't go for Korean? :D
+02-24-2016:19-47-42	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	fine
+02-24-2016:19-47-45	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	Selected restaurant 6:	Ginseng
+02-24-2016:19-47-50	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	Selected restaurant 9:	Totoro
+02-24-2016:19-47-50	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	Selected restaurant 6:	Ginseng
+02-24-2016:19-47-52	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	lol sorry
+02-24-2016:19-47-54	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	Selected restaurant 9:	Totoro
+02-24-2016:19-47-55	---
+02-24-2016:19-47-55	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Indian, Korean, French, Thai
+User 1 preferences: 20-30	Thai, French, Indian, Korean, Chinese
+
+Queen House	Chinese	0-10
+Shezan	Indian	10-20
+Hong Kong Bistro	Chinese	20-30
+Amarin Thai Cuisine	Thai	20-30
+New Mongolian BBQ	Chinese	30-60
+Bangkok Spoon	Thai	30-60
+Ginseng	Korean	10-20
+Park Ballachi	Indian	0-10
+Chez TJ	French	30-60
+Totoro	Korean	20-30
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

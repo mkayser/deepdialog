@@ -1,0 +1,27 @@
+02-19-2016:16-28-03	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 0	joined
+02-19-2016:16-28-04	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 1	joined
+02-19-2016:16-28-19	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 0	Kirin?
+02-19-2016:16-28-27	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 1	Ok
+02-19-2016:16-28-30	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 1	Selected restaurant:	Kirin
+02-19-2016:16-28-31	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 0	Selected restaurant:	Kirin
+02-19-2016:16-28-31	---
+02-19-2016:16-28-31	---
+
+Chat Information:
+
+User 0 preferences: 10-20	American, SeaFood, Korean, Chinese, Italian
+User 1 preferences: 10-20	Italian, SeaFood, Chinese, American, Korean
+
+Kirin	Chinese	10-20
+Vaso Azzurro	Italian	20-30
+Hunan Chili	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Shell Shock	SeaFood	10-20
+New Mongolian BBQ	Chinese	30-60
+The Crepevine	American	30-60
+Scratch	American	0-10
+Drunken Lobster	SeaFood	10-20
+Queen House	Chinese	0-10
+
+Final selection: KirinUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

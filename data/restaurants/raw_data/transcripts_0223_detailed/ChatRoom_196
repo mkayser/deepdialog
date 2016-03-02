@@ -1,0 +1,28 @@
+02-19-2016:15-57-33	ca634c72-f463-4716-97a7-9a2f38a52fb8	User 0	joined
+02-19-2016:15-57-33	ca634c72-f463-4716-97a7-9a2f38a52fb8	User 1	joined
+02-19-2016:15-57-43	ca634c72-f463-4716-97a7-9a2f38a52fb8	User 1	Do you like India by chance?
+02-19-2016:15-57-57	ca634c72-f463-4716-97a7-9a2f38a52fb8	User 0	Sure.  Shezan?
+02-19-2016:15-58-09	ca634c72-f463-4716-97a7-9a2f38a52fb8	User 1	That works for me!
+02-19-2016:15-58-12	ca634c72-f463-4716-97a7-9a2f38a52fb8	User 1	Selected restaurant:	Shezan
+02-19-2016:15-58-14	ca634c72-f463-4716-97a7-9a2f38a52fb8	User 0	Selected restaurant:	Shezan
+02-19-2016:15-58-14	---
+02-19-2016:15-58-14	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Thai, Indian, Korean, Mexican, French
+User 1 preferences: 0-10	Indian, French, Thai, Mexican, Korean
+
+Amarin Thai Cuisine	Thai	20-30
+Shezan	Indian	10-20
+Totoro	Korean	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Bangkok Spoon	Thai	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Chez TJ	French	30-60
+Sakoon	Indian	30-60
+Agave	Mexican	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,30 @@
+02-19-2016:16-46-37	06c50591-5aaa-4419-96fa-53a72f00719a	User 0	joined
+02-19-2016:16-46-39	06c50591-5aaa-4419-96fa-53a72f00719a	User 1	joined
+02-19-2016:16-46-47	06c50591-5aaa-4419-96fa-53a72f00719a	User 0	Hungry?
+02-19-2016:16-46-53	06c50591-5aaa-4419-96fa-53a72f00719a	User 1	I'm starving!
+02-19-2016:16-46-59	06c50591-5aaa-4419-96fa-53a72f00719a	User 1	Do you like Thai food?
+02-19-2016:16-47-16	06c50591-5aaa-4419-96fa-53a72f00719a	User 0	Lets go to Bangcock Spoon.
+02-19-2016:16-47-27	06c50591-5aaa-4419-96fa-53a72f00719a	User 1	Sounds great! :)
+02-19-2016:16-47-31	06c50591-5aaa-4419-96fa-53a72f00719a	User 1	Selected restaurant:	Bangkok Spoon
+02-19-2016:16-47-32	06c50591-5aaa-4419-96fa-53a72f00719a	User 0	Selected restaurant:	Bangkok Spoon
+02-19-2016:16-47-32	---
+02-19-2016:16-47-32	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Korean, SeaFood, French, Mediterranean, Thai
+User 1 preferences: 0-10	Thai, SeaFood, Mediterranean, Korean, French
+
+Café Baklava	Mediterranean	10-20
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+Totoro	Korean	20-30
+Oren's Hummus	Mediterranean	10-20
+Amarin Thai Cuisine	Thai	20-30
+Ginseng	Korean	10-20
+Bangkok Spoon	Thai	30-60
+Chez TJ	French	30-60
+Ehpesus	Mediterranean	0-10
+
+Final selection: Bangkok SpoonUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

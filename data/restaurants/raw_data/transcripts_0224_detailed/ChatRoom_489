@@ -1,0 +1,30 @@
+02-24-2016:19-53-54	e111b4de-63dc-47ac-9dea-76255cfd2828	User 1	joined
+02-24-2016:19-53-54	e111b4de-63dc-47ac-9dea-76255cfd2828	User 1 has user ID 56a965da39604ed4b21a394e5ff4f573
+02-24-2016:19-53-54	e111b4de-63dc-47ac-9dea-76255cfd2828	User 0	joined
+02-24-2016:19-53-54	e111b4de-63dc-47ac-9dea-76255cfd2828	User 0 has user ID 447f9730cbf242a3b656157a7b89543a
+02-24-2016:19-53-58	e111b4de-63dc-47ac-9dea-76255cfd2828	User 1	Selected restaurant 4:	Vaso Azzurro
+02-24-2016:19-54-02	e111b4de-63dc-47ac-9dea-76255cfd2828	User 0	chinese?
+02-24-2016:19-54-06	e111b4de-63dc-47ac-9dea-76255cfd2828	User 1	Selected restaurant 1:	Kirin
+02-24-2016:19-54-10	e111b4de-63dc-47ac-9dea-76255cfd2828	User 0	yup
+02-24-2016:19-54-13	e111b4de-63dc-47ac-9dea-76255cfd2828	User 0	Selected restaurant 1:	Kirin
+02-24-2016:19-54-13	---
+02-24-2016:19-55-13	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Italian, American, Thai, Korean
+User 1 preferences: 30-60	Chinese, Italian, Korean, American, Thai
+
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Bangkok Spoon	Thai	30-60
+Steins Beer Garden	American	20-30
+Vaso Azzurro	Italian	20-30
+Amarin Thai Cuisine	Thai	20-30
+Fu Lam Mum	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Bierhaus	American	0-10
+Ginseng	Korean	10-20
+
+Final selection: KirinUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

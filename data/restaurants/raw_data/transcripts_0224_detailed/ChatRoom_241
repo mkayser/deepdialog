@@ -1,0 +1,28 @@
+02-24-2016:19-46-51	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0	joined
+02-24-2016:19-46-51	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0 has user ID a08eb0381f614efb81f21a4ed99a6912
+02-24-2016:19-46-58	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1	joined
+02-24-2016:19-46-58	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1 has user ID fa5ef707d303408b8cf87b5b555c36cc
+02-24-2016:19-47-14	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1	Selected restaurant 2:	Ginseng
+02-24-2016:19-47-19	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0	Selected restaurant 2:	Ginseng
+02-24-2016:19-47-30	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1	Selected restaurant 2:	Ginseng
+02-24-2016:19-47-30	---
+02-24-2016:19-47-33	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Pizza, Korean, Deli, Vietnamese, Indian
+User 1 preferences: 0-10	Indian, Vietnamese, Deli, Korean, Pizza
+
+Xanh Restaurant	Vietnamese	10-20
+Subway	Deli	10-20
+Ginseng	Korean	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Asian Box	Vietnamese	30-60
+Shezan	Indian	10-20
+Pho To Chau	Vietnamese	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Posh Bagel	Deli	10-20
+Park Ballachi	Indian	0-10
+
+Final selection: GinsengUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

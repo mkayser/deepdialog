@@ -1,0 +1,29 @@
+02-19-2016:15-25-54	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 1	joined
+02-19-2016:15-25-55	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 0	joined
+02-19-2016:15-26-34	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 1	Lets go to Ristorante Don Giovanni. It's cheap
+02-19-2016:15-26-34	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 0	Should we go to Ristorante Don Giovanni?
+02-19-2016:15-26-39	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 1	Agreed
+02-19-2016:15-26-39	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 0	lol
+02-19-2016:15-26-42	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:15-26-44	4a7f5086-ab4b-489c-b89f-3e5fb3710505	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:15-26-44	---
+02-19-2016:15-26-44	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, French, Italian, American, Chinese
+User 1 preferences: 10-20	American, French, Italian, Spanish, Chinese
+
+Chez TJ	French	30-60
+Ristorante Don Giovanni	Italian	0-10
+Bierhaus	American	0-10
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+Vaso Azzurro	Italian	20-30
+Queen House	Chinese	0-10
+Steins Beer Garden	American	20-30
+Cascal	Spanish	30-60
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

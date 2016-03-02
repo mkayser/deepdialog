@@ -1,0 +1,30 @@
+02-19-2016:15-38-02	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	joined
+02-19-2016:15-38-11	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	joined
+02-19-2016:15-38-14	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	Let's get Japanese, or if not French 
+02-19-2016:15-38-20	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	In the mid price range
+02-19-2016:15-38-32	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	Sushitomi?
+02-19-2016:15-38-36	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	How about Yakko?
+02-19-2016:15-38-43	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	Yeah thats great
+02-19-2016:15-38-46	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	Selected restaurant:	Yakko
+02-19-2016:15-38-48	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	Selected restaurant:	Yakko
+02-19-2016:15-38-48	---
+02-19-2016:15-38-48	---
+
+Chat Information:
+
+User 0 preferences: 0-10	French, Japanese, Korean, SeaFood, Italian
+User 1 preferences: 10-20	Japanese, French, SeaFood, Korean, Italian
+
+Shabuway	Japanese	30-60
+Chez TJ	French	30-60
+Shell Shock	SeaFood	10-20
+Totoro	Korean	20-30
+Rumble Fish	Japanese	30-60
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Doppio Zero	Italian	30-60
+Masa Sushi	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+
+Final selection: YakkoUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

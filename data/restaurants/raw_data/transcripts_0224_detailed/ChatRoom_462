@@ -1,0 +1,33 @@
+02-24-2016:19-53-09	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	joined
+02-24-2016:19-53-09	873c1c26-1cac-49e3-b398-d802d0466f18	User 0 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-53-09	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	joined
+02-24-2016:19-53-09	873c1c26-1cac-49e3-b398-d802d0466f18	User 1 has user ID b745a91d655a4b418f42f8d3bf219f17
+02-24-2016:19-53-17	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	I'm low on funds and want chinese
+02-24-2016:19-53-23	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	I could also do japanese though
+02-24-2016:19-53-27	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	preference?
+02-24-2016:19-53-31	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	How about Niji Sushi
+02-24-2016:19-53-40	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	I'm leaning towards Yakko, it's slightly cheaper, that cool?
+02-24-2016:19-53-48	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	OK
+02-24-2016:19-53-49	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	Selected restaurant 2:	Yakko
+02-24-2016:19-53-51	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	Selected restaurant 2:	Yakko
+02-24-2016:19-53-51	---
+02-24-2016:19-53-51	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Chinese, Japanese, Korean, SeaFood, French
+User 1 preferences: 30-60	Korean, Japanese, SeaFood, French, Chinese
+
+Hong Kong Bistro	Chinese	20-30
+Totoro	Korean	20-30
+Yakko	Japanese	0-10
+Shabuway	Japanese	30-60
+Rumble Fish	Japanese	30-60
+Niji Sushi	Japanese	10-20
+New Mongolian BBQ	Chinese	30-60
+Ryowa Noodle House	Japanese	20-30
+Shalala	Japanese	10-20
+Bushido	Japanese	10-20
+
+Final selection: YakkoUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

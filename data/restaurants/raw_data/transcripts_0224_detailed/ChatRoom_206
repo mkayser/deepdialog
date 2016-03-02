@@ -1,0 +1,27 @@
+02-24-2016:19-45-39	b0aafcbc-47f1-4a84-a32b-144d6fdd2f37	User 0	joined
+02-24-2016:19-45-39	b0aafcbc-47f1-4a84-a32b-144d6fdd2f37	User 0 has user ID 1e64b000bb644aa396f0bfdef8dc61c0
+02-24-2016:19-45-39	b0aafcbc-47f1-4a84-a32b-144d6fdd2f37	User 1	joined
+02-24-2016:19-45-39	b0aafcbc-47f1-4a84-a32b-144d6fdd2f37	User 1 has user ID 32b396a234f9471cb66c6a2793ad04f7
+02-24-2016:19-45-40	b0aafcbc-47f1-4a84-a32b-144d6fdd2f37	User 1	Selected restaurant 5:	Shell Shock
+02-24-2016:19-45-44	b0aafcbc-47f1-4a84-a32b-144d6fdd2f37	User 0	Selected restaurant 5:	Shell Shock
+02-24-2016:19-45-44	---
+02-24-2016:19-45-44	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, French, SeaFood, Korean, Italian
+User 1 preferences: 10-20	French, Chinese, Italian, SeaFood, Korean
+
+Kirin	Chinese	10-20
+Ristorante Don Giovanni	Italian	0-10
+Fu Lam Mum	Chinese	30-60
+Queen House	Chinese	0-10
+New Mongolian BBQ	Chinese	30-60
+Shell Shock	SeaFood	10-20
+Hunan Chili	Chinese	30-60
+Drunken Lobster	SeaFood	10-20
+Ginseng	Korean	10-20
+Doppio Zero	Italian	30-60
+
+Final selection: Shell ShockUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

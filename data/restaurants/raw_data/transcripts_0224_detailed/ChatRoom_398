@@ -1,0 +1,32 @@
+02-24-2016:19-51-42	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	joined
+02-24-2016:19-51-42	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0 has user ID b9530ceb64bb47f4846de4c25c6612d5
+02-24-2016:19-51-43	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	joined
+02-24-2016:19-51-43	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:19-51-47	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	Selected restaurant 0:	Amici's East Coast Pizzeria
+02-24-2016:19-51-52	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	Yum, I want some pizza
+02-24-2016:19-51-59	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	pizza?!
+02-24-2016:19-52-03	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	Always
+02-24-2016:19-52-21	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	lol thats way too expensive for me
+02-24-2016:19-52-25	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	Selected restaurant 5:	Blue Line Pizza
+02-24-2016:19-52-31	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	Selected restaurant 5:	Blue Line Pizza
+02-24-2016:19-52-31	---
+02-24-2016:19-52-32	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Italian, Thai, Pizza, Korean
+User 1 preferences: 30-60	Pizza, Thai, Korean, Italian, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Hong Kong Bistro	Chinese	20-30
+Ginseng	Korean	10-20
+Doppio Zero	Italian	30-60
+Bangkok Spoon	Thai	30-60
+Blue Line Pizza	Pizza	10-20
+Hunan Chili	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Totoro	Korean	20-30
+New Mongolian BBQ	Chinese	30-60
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

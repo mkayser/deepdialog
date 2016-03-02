@@ -1,0 +1,30 @@
+02-19-2016:16-49-28	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	joined
+02-19-2016:16-49-32	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	joined
+02-19-2016:16-49-35	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	Hello
+02-19-2016:16-49-52	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	Hi
+02-19-2016:16-49-59	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	I feel like having American, how about you?
+02-19-2016:16-50-15	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	sounds good.
+02-19-2016:16-50-26	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 0	Selected restaurant:	The Crepevine
+02-19-2016:16-50-34	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	Great let's get that
+02-19-2016:16-50-42	838b224e-5157-4d8c-af3e-93b497ebbf4f	User 1	Selected restaurant:	The Crepevine
+02-19-2016:16-50-42	---
+02-19-2016:16-50-42	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Japanese, Deli, Thai, American, Korean
+User 1 preferences: 30-60	American, Korean, Thai, Deli, Japanese
+
+Steins Beer Garden	American	20-30
+Sushitomi	Japanese	20-30
+The Crepevine	American	30-60
+Bangkok Spoon	Thai	30-60
+Ryowa Noodle House	Japanese	20-30
+Niji Sushi	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Shabuway	Japanese	30-60
+Bushido	Japanese	10-20
+Shalala	Japanese	10-20
+
+Final selection: The CrepevineUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

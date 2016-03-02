@@ -1,0 +1,33 @@
+02-19-2016:16-21-34	4d90042b-b263-47e9-95ba-972925c032c6	User 0	joined
+02-19-2016:16-21-38	4d90042b-b263-47e9-95ba-972925c032c6	User 1	joined
+02-19-2016:16-21-52	4d90042b-b263-47e9-95ba-972925c032c6	User 1	hi
+02-19-2016:16-21-52	4d90042b-b263-47e9-95ba-972925c032c6	User 0	Pho to chau?
+02-19-2016:16-21-59	4d90042b-b263-47e9-95ba-972925c032c6	User 0	Selected restaurant:	Pho To Chau
+02-19-2016:16-22-09	4d90042b-b263-47e9-95ba-972925c032c6	User 1	queen house?
+02-19-2016:16-22-19	4d90042b-b263-47e9-95ba-972925c032c6	User 0	no i dont like chinese
+02-19-2016:16-22-25	4d90042b-b263-47e9-95ba-972925c032c6	User 1	shell shock?
+02-19-2016:16-22-28	4d90042b-b263-47e9-95ba-972925c032c6	User 0	spanish or vietnamese please
+02-19-2016:16-22-41	4d90042b-b263-47e9-95ba-972925c032c6	User 1	ok with vietnamese
+02-19-2016:16-22-52	4d90042b-b263-47e9-95ba-972925c032c6	User 0	your choice
+02-19-2016:16-22-52	4d90042b-b263-47e9-95ba-972925c032c6	User 1	Selected restaurant:	Pho To Chau
+02-19-2016:16-22-52	---
+02-19-2016:16-22-53	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Vietnamese, Indian, SeaFood, Chinese
+User 1 preferences: 0-10	SeaFood, Vietnamese, Chinese, Indian, Spanish
+
+Shell Shock	SeaFood	10-20
+Shezan	Indian	10-20
+Hong Kong Bistro	Chinese	20-30
+Queen House	Chinese	0-10
+Fu Lam Mum	Chinese	30-60
+Pho To Chau	Vietnamese	20-30
+New Mongolian BBQ	Chinese	30-60
+Park Ballachi	Indian	0-10
+Asian Box	Vietnamese	30-60
+Hunan Chili	Chinese	30-60
+
+Final selection: Pho To ChauUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

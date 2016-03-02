@@ -1,0 +1,42 @@
+02-24-2016:20-01-33	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	joined
+02-24-2016:20-01-33	9df03269-d89e-4a91-b8ca-a941f4885428	User 0 has user ID 72c8d67e547348d6a886baa109ea6c7a
+02-24-2016:20-01-34	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	joined
+02-24-2016:20-01-34	9df03269-d89e-4a91-b8ca-a941f4885428	User 1 has user ID ecb9be7e240a471d97a69d5ebf6b8597
+02-24-2016:20-01-41	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	I want
+02-24-2016:20-01-41	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	you can have me for dessert
+02-24-2016:20-01-43	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	PIZZA
+02-24-2016:20-01-49	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	french or indian honey?
+02-24-2016:20-01-51	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	But you are fine too
+02-24-2016:20-02-00	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Selected restaurant 7:	Amici's East Coast Pizzeria
+02-24-2016:20-02-06	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	This is where we are going
+02-24-2016:20-02-11	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Selected restaurant 1:	Park Ballachi
+02-24-2016:20-02-18	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Indian food
+02-24-2016:20-02-18	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	i'll make it worth your while
+02-24-2016:20-02-31	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Not trying to sit on my toilet for the next ten hours
+02-24-2016:20-02-33	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	please no
+02-24-2016:20-02-45	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	i'm broke though
+02-24-2016:20-02-51	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	That's fine
+02-24-2016:20-02-53	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	I'll take care of it
+02-24-2016:20-03-04	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	okay 
+02-24-2016:20-03-07	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Selected restaurant 7:	Amici's East Coast Pizzeria
+02-24-2016:20-03-07	---
+02-24-2016:20-03-08	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Vietnamese, French, Indian, Italian, Pizza
+User 1 preferences: 20-30	Pizza, Indian, Vietnamese, Italian, French
+
+Doppio Zero	Italian	30-60
+Park Ballachi	Indian	0-10
+Ristorante Don Giovanni	Italian	0-10
+Sakoon	Indian	30-60
+Asian Box	Vietnamese	30-60
+Blue Line Pizza	Pizza	10-20
+Shezan	Indian	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Vaso Azzurro	Italian	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Amici's East Coast PizzeriaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

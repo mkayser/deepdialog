@@ -1,0 +1,29 @@
+02-24-2016:19-51-56	463c4ee3-fc57-496d-83c2-372977a1c9ed	User 0	joined
+02-24-2016:19-51-56	463c4ee3-fc57-496d-83c2-372977a1c9ed	User 0 has user ID f25cb379b00e47d38df696c2696759e8
+02-24-2016:19-51-57	463c4ee3-fc57-496d-83c2-372977a1c9ed	User 1	joined
+02-24-2016:19-51-57	463c4ee3-fc57-496d-83c2-372977a1c9ed	User 1 has user ID 732ecfccbdc44825a1016d27b9a01985
+02-24-2016:19-52-02	463c4ee3-fc57-496d-83c2-372977a1c9ed	User 1	Cascal
+02-24-2016:19-52-04	463c4ee3-fc57-496d-83c2-372977a1c9ed	User 1	Is my preference
+02-24-2016:19-52-06	463c4ee3-fc57-496d-83c2-372977a1c9ed	User 0	Selected restaurant 4:	Cascal
+02-24-2016:19-52-07	463c4ee3-fc57-496d-83c2-372977a1c9ed	User 1	Selected restaurant 4:	Cascal
+02-24-2016:19-52-08	---
+02-24-2016:19-52-08	---
+
+Chat Information:
+
+User 0 preferences: 30-60	SeaFood, Mediterranean, Chinese, Spanish, Italian
+User 1 preferences: 10-20	Spanish, Mediterranean, Chinese, SeaFood, Italian
+
+Morocco's	Mediterranean	10-20
+New Mongolian BBQ	Chinese	30-60
+Shell Shock	SeaFood	10-20
+Fu Lam Mum	Chinese	30-60
+Cascal	Spanish	30-60
+Doppio Zero	Italian	30-60
+Café Baklava	Mediterranean	10-20
+Queen House	Chinese	0-10
+Hong Kong Bistro	Chinese	20-30
+Oren's Hummus	Mediterranean	10-20
+
+Final selection: CascalUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

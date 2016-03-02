@@ -1,0 +1,33 @@
+02-24-2016:19-38-06	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 1	joined
+02-24-2016:19-38-06	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 1 has user ID 7c680a33239b43b9a9cdb954625c2eb7
+02-24-2016:19-38-07	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 0	joined
+02-24-2016:19-38-07	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 0 has user ID 24768f87f2964a9dbb0290af62d6c1c6
+02-24-2016:19-38-34	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 1	hey!
+02-24-2016:19-38-45	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 1	want to grab dinner at Queen House?
+02-24-2016:19-39-18	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 1	Selected restaurant 4:	Queen House
+02-24-2016:19-39-24	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 0	Not really feeling Chinese. How about Fu Lam Mum?
+02-24-2016:19-39-47	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 1	Fu Lam Mum is chinese
+02-24-2016:19-40-01	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 1	but that sounds good to me too
+02-24-2016:19-40-03	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 1	Selected restaurant 2:	Fu Lam Mum
+02-24-2016:19-40-12	772cfd19-fbb0-4bf0-a1e6-2a3b24f09968	User 0	Selected restaurant 2:	Fu Lam Mum
+02-24-2016:19-40-12	---
+02-24-2016:19-40-12	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Vietnamese, Mexican, Korean, Mediterranean, Chinese
+User 1 preferences: 10-20	Chinese, Vietnamese, Korean, Mexican, Mediterranean
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Fu Lam Mum	Chinese	30-60
+Pho To Chau	Vietnamese	20-30
+Queen House	Chinese	0-10
+Morocco's	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+New Mongolian BBQ	Chinese	30-60
+Oren's Hummus	Mediterranean	10-20
+Café Baklava	Mediterranean	10-20
+
+Final selection: Fu Lam MumUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

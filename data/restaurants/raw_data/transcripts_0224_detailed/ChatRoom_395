@@ -1,0 +1,29 @@
+02-24-2016:19-51-36	df42719a-13e9-4773-b2a2-5000d623560c	User 0	joined
+02-24-2016:19-51-36	df42719a-13e9-4773-b2a2-5000d623560c	User 0 has user ID ec0040056e7a428fbb30efec225ce8f4
+02-24-2016:19-51-36	df42719a-13e9-4773-b2a2-5000d623560c	User 1	joined
+02-24-2016:19-51-36	df42719a-13e9-4773-b2a2-5000d623560c	User 1 has user ID 447f9730cbf242a3b656157a7b89543a
+02-24-2016:19-51-45	df42719a-13e9-4773-b2a2-5000d623560c	User 1	noodle house?
+02-24-2016:19-52-01	df42719a-13e9-4773-b2a2-5000d623560c	User 0	sure
+02-24-2016:19-52-05	df42719a-13e9-4773-b2a2-5000d623560c	User 0	Selected restaurant 0:	Maruichi Noodle House
+02-24-2016:19-52-05	df42719a-13e9-4773-b2a2-5000d623560c	User 1	Selected restaurant 0:	Maruichi Noodle House
+02-24-2016:19-52-05	---
+02-24-2016:19-52-05	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, Japanese, Vietnamese, American, French
+User 1 preferences: 10-20	Japanese, American, French, Korean, Vietnamese
+
+Maruichi Noodle House	Japanese	0-10
+Rumble Fish	Japanese	30-60
+Shalala	Japanese	10-20
+Asian Box	Vietnamese	30-60
+Bierhaus	American	0-10
+Masa Sushi	Japanese	0-10
+Ryowa Noodle House	Japanese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Pho Hoa	Vietnamese	30-60
+Ginseng	Korean	10-20
+
+Final selection: Maruichi Noodle HouseUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

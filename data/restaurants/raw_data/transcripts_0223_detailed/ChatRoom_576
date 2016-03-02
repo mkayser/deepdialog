@@ -1,0 +1,30 @@
+02-19-2016:16-42-17	610370cd-ef68-451d-bf14-23d6d0723e48	User 1	joined
+02-19-2016:16-42-19	610370cd-ef68-451d-bf14-23d6d0723e48	User 0	joined
+02-19-2016:16-42-26	610370cd-ef68-451d-bf14-23d6d0723e48	User 1	Hey buddy, I was feeling some Pho, vietnamese good for you?
+02-19-2016:16-42-32	610370cd-ef68-451d-bf14-23d6d0723e48	User 0	Sure Buddy
+02-19-2016:16-42-33	610370cd-ef68-451d-bf14-23d6d0723e48	User 0	789.
+02-19-2016:16-42-36	610370cd-ef68-451d-bf14-23d6d0723e48	User 0	789
+02-19-2016:16-42-41	610370cd-ef68-451d-bf14-23d6d0723e48	User 0	Selected restaurant:	Pho To Chau
+02-19-2016:16-42-45	610370cd-ef68-451d-bf14-23d6d0723e48	User 1	Excellent.
+02-19-2016:16-42-47	610370cd-ef68-451d-bf14-23d6d0723e48	User 1	Selected restaurant:	Pho To Chau
+02-19-2016:16-42-48	---
+02-19-2016:16-42-48	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Korean, Italian, Vietnamese, Japanese
+User 1 preferences: 20-30	Vietnamese, Italian, Korean, Deli, Japanese
+
+Bushido	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Doppio Zero	Italian	30-60
+Pho To Chau	Vietnamese	20-30
+Shabuway	Japanese	30-60
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Asian Box	Vietnamese	30-60
+Kappo Naminami	Japanese	30-60
+Ginseng	Korean	10-20
+
+Final selection: Pho To ChauUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,32 @@
+02-24-2016:19-41-58	8224a235-e449-483e-ba55-2a387650c283	User 0	joined
+02-24-2016:19-41-58	8224a235-e449-483e-ba55-2a387650c283	User 0 has user ID 166bcadc45f8455e86e59960617b71f9
+02-24-2016:19-42-16	8224a235-e449-483e-ba55-2a387650c283	User 0	Selected restaurant 6:	Bangkok Spoon
+02-24-2016:19-42-16	8224a235-e449-483e-ba55-2a387650c283	User 1	joined
+02-24-2016:19-42-16	8224a235-e449-483e-ba55-2a387650c283	User 1 has user ID 78de429b6e684f988804a99bd73bb576
+02-24-2016:19-42-24	8224a235-e449-483e-ba55-2a387650c283	User 1	Blue Line Pizza sound good?
+02-24-2016:19-42-32	8224a235-e449-483e-ba55-2a387650c283	User 0	Selected restaurant 0:	Casa Lupe Mexican Restaurant
+02-24-2016:19-42-34	8224a235-e449-483e-ba55-2a387650c283	User 0	Selected restaurant 1:	Blue Line Pizza
+02-24-2016:19-42-34	8224a235-e449-483e-ba55-2a387650c283	User 1	Selected restaurant 0:	Casa Lupe Mexican Restaurant
+02-24-2016:19-42-42	8224a235-e449-483e-ba55-2a387650c283	User 0	blue line good
+02-24-2016:19-42-44	8224a235-e449-483e-ba55-2a387650c283	User 1	Selected restaurant 1:	Blue Line Pizza
+02-24-2016:19-42-44	---
+02-24-2016:19-42-44	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Thai, Pizza, French, Deli, Mexican
+User 1 preferences: 0-10	Deli, Thai, Pizza, Mexican, French
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Taqueria Los Charros	Mexican	0-10
+Agave	Mexican	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Bangkok Spoon	Thai	30-60
+Chez TJ	French	30-60
+Subway	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

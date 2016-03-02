@@ -1,0 +1,29 @@
+02-24-2016:20-01-34	85df6c38-b895-4c50-b7a1-d77245a26294	User 1	joined
+02-24-2016:20-01-34	85df6c38-b895-4c50-b7a1-d77245a26294	User 1 has user ID 636466e4c18f4aa0ab4ae2d4c678f8b3
+02-24-2016:20-01-34	85df6c38-b895-4c50-b7a1-d77245a26294	User 0	joined
+02-24-2016:20-01-34	85df6c38-b895-4c50-b7a1-d77245a26294	User 0 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:20-01-46	85df6c38-b895-4c50-b7a1-d77245a26294	User 0	I feel like some thai.
+02-24-2016:20-01-48	85df6c38-b895-4c50-b7a1-d77245a26294	User 1	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:20-01-49	85df6c38-b895-4c50-b7a1-d77245a26294	User 0	How about Amarin?
+02-24-2016:20-01-52	85df6c38-b895-4c50-b7a1-d77245a26294	User 0	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:20-01-52	---
+02-24-2016:20-01-52	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, Thai, Mediterranean, Deli, SeaFood
+User 1 preferences: 30-60	Mediterranean, Deli, Spanish, SeaFood, Thai
+
+Morocco's	Mediterranean	10-20
+Shell Shock	SeaFood	10-20
+Ehpesus	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Subway	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Bangkok Spoon	Thai	30-60
+Café Baklava	Mediterranean	10-20
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Amarin Thai CuisineUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

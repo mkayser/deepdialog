@@ -1,0 +1,27 @@
+02-24-2016:19-57-32	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	joined
+02-24-2016:19-57-32	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1 has user ID 6dc8794cd43543a283d457c40fd5be37
+02-24-2016:19-57-32	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	joined
+02-24-2016:19-57-32	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0 has user ID fd37717c9796476388fc1a6eb3614f31
+02-24-2016:19-57-37	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	Selected restaurant 6:	Totoro
+02-24-2016:19-57-42	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	Selected restaurant 6:	Totoro
+02-24-2016:19-57-42	---
+02-24-2016:19-57-43	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Korean, Pizza, Mediterranean, SeaFood
+User 1 preferences: 20-30	Pizza, Mediterranean, Korean, SeaFood, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Ehpesus	Mediterranean	0-10
+Blue Line Pizza	Pizza	10-20
+Ginseng	Korean	10-20
+Drunken Lobster	SeaFood	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Totoro	Korean	20-30
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Shell Shock	SeaFood	10-20
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

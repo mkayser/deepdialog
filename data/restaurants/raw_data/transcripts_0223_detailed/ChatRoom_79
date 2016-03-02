@@ -1,0 +1,33 @@
+02-19-2016:15-36-18	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 1	joined
+02-19-2016:15-36-18	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 0	joined
+02-19-2016:15-36-20	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 0	hi 
+02-19-2016:15-36-34	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 0	How does sushi sound??
+02-19-2016:15-36-35	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 1	Hi
+02-19-2016:15-36-43	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 1	Great
+02-19-2016:15-36-53	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 0	Masa SUshi okay with you?
+02-19-2016:15-37-00	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 1	Sure!
+02-19-2016:15-37-04	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 0	Selected restaurant:	Masa Sushi
+02-19-2016:15-37-10	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 0	Lets do it then :) 
+02-19-2016:15-37-18	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 1	Okay!
+02-19-2016:15-37-22	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 1	Selected restaurant:	Masa Sushi
+02-19-2016:15-37-22	---
+02-19-2016:15-37-23	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Japanese, French, Korean, Italian
+User 1 preferences: 30-60	Japanese, Italian, French, Korean, Mexican
+
+Totoro	Korean	20-30
+Shalala	Japanese	10-20
+Masa Sushi	Japanese	0-10
+Shabuway	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Ginseng	Korean	10-20
+Taqueria Los Charros	Mexican	0-10
+Sushitomi	Japanese	20-30
+Agave	Mexican	20-30
+
+Final selection: Masa SushiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

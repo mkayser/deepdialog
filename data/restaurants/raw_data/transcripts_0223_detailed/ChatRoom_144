@@ -1,0 +1,29 @@
+02-19-2016:15-48-31	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 1	joined
+02-19-2016:15-48-32	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 0	joined
+02-19-2016:15-48-46	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 0	What do you have in mind?
+02-19-2016:15-48-46	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 1	How about Totoro?
+02-19-2016:15-49-15	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 0	I'm feeling for some Thai, how about Amarin?
+02-19-2016:15-49-23	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 1	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:15-49-25	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 1	Sounds good
+02-19-2016:15-49-28	4a3efd46-3cec-4a83-beda-bbd863df0eaf	User 0	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:15-49-28	---
+02-19-2016:15-49-28	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, Pizza, Korean, Italian, American
+User 1 preferences: 10-20	Korean, American, Italian, Pizza, Thai
+
+Vaso Azzurro	Italian	20-30
+Ginseng	Korean	10-20
+Doppio Zero	Italian	30-60
+Bierhaus	American	0-10
+Totoro	Korean	20-30
+Scratch	American	0-10
+Amarin Thai Cuisine	Thai	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+The Crepevine	American	30-60
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

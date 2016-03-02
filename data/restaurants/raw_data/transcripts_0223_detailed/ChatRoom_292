@@ -1,0 +1,30 @@
+02-19-2016:16-12-50	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 1	joined
+02-19-2016:16-12-52	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 0	joined
+02-19-2016:16-12-59	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 0	Hi
+02-19-2016:16-12-59	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 1	I like sort of cheap American.
+02-19-2016:16-13-03	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 1	Hey
+02-19-2016:16-13-10	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 0	Ok. Scratch?
+02-19-2016:16-13-18	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 1	I guess.
+02-19-2016:16-13-22	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 1	Selected restaurant:	Scratch
+02-19-2016:16-13-26	35a41eee-2e43-4bfa-81b7-d4f9e64b0fee	User 0	Selected restaurant:	Scratch
+02-19-2016:16-13-26	---
+02-19-2016:16-13-27	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Indian, Chinese, French, American, Italian
+User 1 preferences: 10-20	American, Indian, Italian, Chinese, French
+
+Fu Lam Mum	Chinese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Scratch	American	0-10
+Bierhaus	American	0-10
+Park Ballachi	Indian	0-10
+Kirin	Chinese	10-20
+Chez TJ	French	30-60
+Shezan	Indian	10-20
+Vaso Azzurro	Italian	20-30
+Queen House	Chinese	0-10
+
+Final selection: ScratchUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

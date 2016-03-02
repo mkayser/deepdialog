@@ -1,0 +1,36 @@
+02-24-2016:20-04-19	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	joined
+02-24-2016:20-04-19	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1 has user ID 68d186a75e564e918628c42e68787cfa
+02-24-2016:20-04-21	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	joined
+02-24-2016:20-04-21	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0 has user ID ac6ec300bec74d6ab9f72c4aac014060
+02-24-2016:20-04-24	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Selected restaurant 4:	Oren's Hummus
+02-24-2016:20-04-25	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	hi
+02-24-2016:20-04-28	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Hi
+02-24-2016:20-04-49	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	wanna go for some sandwiches?
+02-24-2016:20-04-54	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Sure
+02-24-2016:20-04-55	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	I'll buy! :-)
+02-24-2016:20-04-58	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Ok!
+02-24-2016:20-04-59	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	Posh Bagel?
+02-24-2016:20-05-05	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	Selected restaurant 0:	Posh Bagel
+02-24-2016:20-05-07	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Yeah that sounds good
+02-24-2016:20-05-11	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Selected restaurant 0:	Posh Bagel
+02-24-2016:20-05-11	---
+02-24-2016:20-05-11	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Spanish, Mexican, Deli, Vietnamese
+User 1 preferences: 0-10	Vietnamese, Deli, Mediterranean, Mexican, Spanish
+
+Posh Bagel	Deli	10-20
+Asian Box	Vietnamese	30-60
+Pho Hoa	Vietnamese	30-60
+Subway	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Ehpesus	Mediterranean	0-10
+Pho To Chau	Vietnamese	20-30
+Café Baklava	Mediterranean	10-20
+Cascal	Spanish	30-60
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

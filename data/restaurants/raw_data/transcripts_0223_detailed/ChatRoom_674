@@ -1,0 +1,30 @@
+02-19-2016:16-48-27	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	joined
+02-19-2016:16-48-28	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	joined
+02-19-2016:16-48-32	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	hello
+02-19-2016:16-48-36	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	Hey, I'm in the mood for some Thai - what about you?
+02-19-2016:16-48-45	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	sounds good to me
+02-19-2016:16-48-51	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	Bangkok then?
+02-19-2016:16-48-56	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	yeah sure
+02-19-2016:16-48-58	f468d948-d1e9-4357-a519-cc671be4ac0a	User 0	Selected restaurant:	Bangkok Spoon
+02-19-2016:16-49-00	f468d948-d1e9-4357-a519-cc671be4ac0a	User 1	Selected restaurant:	Bangkok Spoon
+02-19-2016:16-49-00	---
+02-19-2016:16-49-01	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Thai, American, Italian, Pizza, Korean
+User 1 preferences: 30-60	Pizza, American, Korean, Italian, Thai
+
+Bangkok Spoon	Thai	30-60
+Blue Line Pizza	Pizza	10-20
+Vaso Azzurro	Italian	20-30
+Ginseng	Korean	10-20
+Bierhaus	American	0-10
+Ristorante Don Giovanni	Italian	0-10
+Scratch	American	0-10
+The Crepevine	American	30-60
+Doppio Zero	Italian	30-60
+Totoro	Korean	20-30
+
+Final selection: Bangkok SpoonUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

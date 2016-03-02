@@ -1,0 +1,36 @@
+02-19-2016:15-33-30	aa2ef269-82f4-4836-9a95-b07668dad17d	User 1	joined
+02-19-2016:15-33-31	aa2ef269-82f4-4836-9a95-b07668dad17d	User 0	joined
+02-19-2016:15-33-38	aa2ef269-82f4-4836-9a95-b07668dad17d	User 1	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:15-33-52	aa2ef269-82f4-4836-9a95-b07668dad17d	User 0	That's too expensive
+02-19-2016:15-34-03	aa2ef269-82f4-4836-9a95-b07668dad17d	User 1	It's pizza, can't go wrong though! I'll pay?
+02-19-2016:15-34-08	aa2ef269-82f4-4836-9a95-b07668dad17d	User 0	Fiesta Del Mar Too?
+02-19-2016:15-34-28	aa2ef269-82f4-4836-9a95-b07668dad17d	User 1	I'm not a huge fan of Mexican...
+02-19-2016:15-34-28	aa2ef269-82f4-4836-9a95-b07668dad17d	User 0	I can't eat pizza
+02-19-2016:15-34-43	aa2ef269-82f4-4836-9a95-b07668dad17d	User 1	How about Indian?
+02-19-2016:15-34-45	aa2ef269-82f4-4836-9a95-b07668dad17d	User 0	How about Sushi at Masa Sushi?
+02-19-2016:15-34-59	aa2ef269-82f4-4836-9a95-b07668dad17d	User 1	I def can't have sushi..
+02-19-2016:15-35-34	aa2ef269-82f4-4836-9a95-b07668dad17d	User 0	How about the mediterranean Grill House
+02-19-2016:15-35-48	aa2ef269-82f4-4836-9a95-b07668dad17d	User 1	Ok... not my fav but ok....
+02-19-2016:15-35-53	aa2ef269-82f4-4836-9a95-b07668dad17d	User 0	Selected restaurant:	Mediterranean Grill House
+02-19-2016:15-35-55	aa2ef269-82f4-4836-9a95-b07668dad17d	User 1	Selected restaurant:	Mediterranean Grill House
+02-19-2016:15-35-55	---
+02-19-2016:15-35-55	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Japanese, Indian, Mediterranean, Pizza
+User 1 preferences: 0-10	Pizza, Indian, Mexican, Mediterranean, Japanese
+
+Masa Sushi	Japanese	0-10
+Shabuway	Japanese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Sushitomi	Japanese	20-30
+Niji Sushi	Japanese	10-20
+Shalala	Japanese	10-20
+Morocco's	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Sakoon	Indian	30-60
+
+Final selection: Mediterranean Grill HouseUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

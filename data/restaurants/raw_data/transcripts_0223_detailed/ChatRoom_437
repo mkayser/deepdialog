@@ -1,0 +1,31 @@
+02-19-2016:16-30-39	acf034d1-13f4-4268-8729-c69df0b1bb5d	User 0	joined
+02-19-2016:16-30-40	acf034d1-13f4-4268-8729-c69df0b1bb5d	User 1	joined
+02-19-2016:16-30-46	acf034d1-13f4-4268-8729-c69df0b1bb5d	User 0	hi lets do steins beer garden
+02-19-2016:16-30-48	acf034d1-13f4-4268-8729-c69df0b1bb5d	User 0	Selected restaurant:	Steins Beer Garden
+02-19-2016:16-31-08	acf034d1-13f4-4268-8729-c69df0b1bb5d	User 0	tick tock puta
+02-19-2016:16-31-24	acf034d1-13f4-4268-8729-c69df0b1bb5d	User 1	how about totoro
+02-19-2016:16-31-29	acf034d1-13f4-4268-8729-c69df0b1bb5d	User 0	ok fine
+02-19-2016:16-31-30	acf034d1-13f4-4268-8729-c69df0b1bb5d	User 0	lets go
+02-19-2016:16-31-33	acf034d1-13f4-4268-8729-c69df0b1bb5d	User 0	Selected restaurant:	Totoro
+02-19-2016:16-31-40	acf034d1-13f4-4268-8729-c69df0b1bb5d	User 1	Selected restaurant:	Totoro
+02-19-2016:16-31-41	---
+02-19-2016:16-32-41	---
+
+Chat Information:
+
+User 0 preferences: 20-30	American, Italian, Deli, Vietnamese, Korean
+User 1 preferences: 10-20	Deli, Korean, Italian, Vietnamese, American
+
+Steins Beer Garden	American	20-30
+Posh Bagel	Deli	10-20
+Ginseng	Korean	10-20
+Doppio Zero	Italian	30-60
+Pho To Chau	Vietnamese	20-30
+Vaso Azzurro	Italian	20-30
+Bierhaus	American	0-10
+Totoro	Korean	20-30
+Xanh Restaurant	Vietnamese	10-20
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,27 @@
+02-24-2016:20-00-01	247880a7-329b-4b76-836a-7a803a18e33c	User 1	joined
+02-24-2016:20-00-01	247880a7-329b-4b76-836a-7a803a18e33c	User 1 has user ID 757a79ba8ec34bbd8f4acc291696d015
+02-24-2016:20-00-02	247880a7-329b-4b76-836a-7a803a18e33c	User 0	joined
+02-24-2016:20-00-02	247880a7-329b-4b76-836a-7a803a18e33c	User 0 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:20-00-09	247880a7-329b-4b76-836a-7a803a18e33c	User 0	Selected restaurant 3:	Posh Bagel
+02-24-2016:20-00-16	247880a7-329b-4b76-836a-7a803a18e33c	User 1	Selected restaurant 3:	Posh Bagel
+02-24-2016:20-00-17	---
+02-24-2016:20-00-17	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Deli, Pizza, Vietnamese, Mediterranean, Indian
+User 1 preferences: 20-30	Deli, Pizza, Indian, Mediterranean, Vietnamese
+
+Shiva’s Indian Restaurant	Indian	0-10
+Café Baklava	Mediterranean	10-20
+Shezan	Indian	10-20
+Posh Bagel	Deli	10-20
+Morocco's	Mediterranean	10-20
+Sakoon	Indian	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Oren's Hummus	Mediterranean	10-20
+Pho To Chau	Vietnamese	20-30
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,29 @@
+02-19-2016:16-01-51	00a1c4fa-376b-498d-9812-61d88a263da4	User 0	joined
+02-19-2016:16-01-52	00a1c4fa-376b-498d-9812-61d88a263da4	User 1	joined
+02-19-2016:16-02-04	00a1c4fa-376b-498d-9812-61d88a263da4	User 0	hello
+02-19-2016:16-02-19	00a1c4fa-376b-498d-9812-61d88a263da4	User 1	Hi!  What would you think about Vaso Azzurro?
+02-19-2016:16-02-35	00a1c4fa-376b-498d-9812-61d88a263da4	User 0	looks good.. I was just gonna say anything italian LOL
+02-19-2016:16-02-40	00a1c4fa-376b-498d-9812-61d88a263da4	User 1	Awesome. :)
+02-19-2016:16-02-43	00a1c4fa-376b-498d-9812-61d88a263da4	User 1	Selected restaurant:	Vaso Azzurro
+02-19-2016:16-02-46	00a1c4fa-376b-498d-9812-61d88a263da4	User 0	Selected restaurant:	Vaso Azzurro
+02-19-2016:16-02-47	---
+02-19-2016:16-02-47	---
+
+Chat Information:
+
+User 0 preferences: 20-30	French, Vietnamese, Italian, SeaFood, Mexican
+User 1 preferences: 10-20	Italian, SeaFood, Mexican, Vietnamese, French
+
+Taqueria Los Charros	Mexican	0-10
+Ristorante Don Giovanni	Italian	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Shell Shock	SeaFood	10-20
+Pho Hoa	Vietnamese	30-60
+Doppio Zero	Italian	30-60
+Vaso Azzurro	Italian	20-30
+Chez TJ	French	30-60
+Drunken Lobster	SeaFood	10-20
+Agave	Mexican	20-30
+
+Final selection: Vaso AzzurroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

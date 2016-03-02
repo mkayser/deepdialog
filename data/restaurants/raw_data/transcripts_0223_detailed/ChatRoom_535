@@ -1,0 +1,28 @@
+02-19-2016:16-39-03	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 1	joined
+02-19-2016:16-39-04	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 0	joined
+02-19-2016:16-39-16	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 1	What would you like to eat?
+02-19-2016:16-39-16	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 0	Totoro?
+02-19-2016:16-39-23	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 1	Sure
+02-19-2016:16-39-25	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 0	Selected restaurant:	Totoro
+02-19-2016:16-39-29	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 1	Selected restaurant:	Totoro
+02-19-2016:16-39-29	---
+02-19-2016:16-39-29	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Mediterranean, Deli, Vietnamese, Korean, Spanish
+User 1 preferences: 30-60	Mediterranean, Korean, Deli, Vietnamese, Spanish
+
+Totoro	Korean	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Ginseng	Korean	10-20
+Subway	Deli	10-20
+Ehpesus	Mediterranean	0-10
+Pho To Chau	Vietnamese	20-30
+Cascal	Spanish	30-60
+Posh Bagel	Deli	10-20
+Asian Box	Vietnamese	30-60
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

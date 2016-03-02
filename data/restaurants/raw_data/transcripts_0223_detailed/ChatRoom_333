@@ -1,0 +1,30 @@
+02-19-2016:16-18-58	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 0	joined
+02-19-2016:16-18-59	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 1	joined
+02-19-2016:16-19-15	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-19-18	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 1	Can we eat at Ehpesus?
+02-19-2016:16-19-39	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 1	Selected restaurant:	Ehpesus
+02-19-2016:16-19-47	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 0	how about Morocco's
+02-19-2016:16-20-00	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 1	ok
+02-19-2016:16-20-03	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 1	Selected restaurant:	Morocco's
+02-19-2016:16-20-04	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 0	Selected restaurant:	Morocco's
+02-19-2016:16-20-05	---
+02-19-2016:16-20-05	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Pizza, Spanish, Mediterranean, Mexican, French
+User 1 preferences: 0-10	Mediterranean, Spanish, Mexican, Pizza, French
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Cascal	Spanish	30-60
+Taqueria Los Charros	Mexican	0-10
+Café Baklava	Mediterranean	10-20
+Blue Line Pizza	Pizza	10-20
+Morocco's	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Morocco'sUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,30 @@
+02-24-2016:20-02-33	036a1073-f6c4-4364-adb9-abb3640d1552	User 0	joined
+02-24-2016:20-02-33	036a1073-f6c4-4364-adb9-abb3640d1552	User 0 has user ID fe2e93ca1e294eab9d64e51f1d9ca06b
+02-24-2016:20-02-36	036a1073-f6c4-4364-adb9-abb3640d1552	User 1	joined
+02-24-2016:20-02-36	036a1073-f6c4-4364-adb9-abb3640d1552	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-02-38	036a1073-f6c4-4364-adb9-abb3640d1552	User 1	Selected restaurant 0:	Blue Line Pizza
+02-24-2016:20-02-40	036a1073-f6c4-4364-adb9-abb3640d1552	User 0	Lobster
+02-24-2016:20-02-41	036a1073-f6c4-4364-adb9-abb3640d1552	User 1	pizza yo
+02-24-2016:20-02-42	036a1073-f6c4-4364-adb9-abb3640d1552	User 0	Selected restaurant 4:	Drunken Lobster
+02-24-2016:20-02-47	036a1073-f6c4-4364-adb9-abb3640d1552	User 1	Selected restaurant 4:	Drunken Lobster
+02-24-2016:20-02-47	---
+02-24-2016:20-02-47	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Pizza, Italian, Indian, American
+User 1 preferences: 10-20	Pizza, Italian, Indian, SeaFood, American
+
+Blue Line Pizza	Pizza	10-20
+Steins Beer Garden	American	20-30
+Vaso Azzurro	Italian	20-30
+Ristorante Don Giovanni	Italian	0-10
+Drunken Lobster	SeaFood	10-20
+Shell Shock	SeaFood	10-20
+The Crepevine	American	30-60
+Scratch	American	0-10
+Bierhaus	American	0-10
+Shezan	Indian	10-20
+
+Final selection: Drunken LobsterUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

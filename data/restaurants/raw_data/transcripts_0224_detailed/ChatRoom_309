@@ -1,0 +1,30 @@
+02-24-2016:19-49-07	965dc010-a4e5-4e1d-a5ac-2c940e9b5502	User 0	joined
+02-24-2016:19-49-07	965dc010-a4e5-4e1d-a5ac-2c940e9b5502	User 0 has user ID f25cb379b00e47d38df696c2696759e8
+02-24-2016:19-49-10	965dc010-a4e5-4e1d-a5ac-2c940e9b5502	User 1	joined
+02-24-2016:19-49-10	965dc010-a4e5-4e1d-a5ac-2c940e9b5502	User 1 has user ID 0060d829dc5d4372b82d1e4453c7a03f
+02-24-2016:19-49-16	965dc010-a4e5-4e1d-a5ac-2c940e9b5502	User 0	Totoro?
+02-24-2016:19-49-16	965dc010-a4e5-4e1d-a5ac-2c940e9b5502	User 1	Selected restaurant 6:	Oren's Hummus
+02-24-2016:19-49-19	965dc010-a4e5-4e1d-a5ac-2c940e9b5502	User 0	Selected restaurant 5:	Totoro
+02-24-2016:19-49-20	965dc010-a4e5-4e1d-a5ac-2c940e9b5502	User 1	I choose
+02-24-2016:19-49-28	965dc010-a4e5-4e1d-a5ac-2c940e9b5502	User 1	Selected restaurant 5:	Totoro
+02-24-2016:19-49-28	---
+02-24-2016:19-49-28	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Korean, Italian, Pizza, Deli, Mediterranean
+User 1 preferences: 10-20	Mediterranean, Korean, Italian, Deli, Pizza
+
+Café Baklava	Mediterranean	10-20
+Vaso Azzurro	Italian	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+Morocco's	Mediterranean	10-20
+Totoro	Korean	20-30
+Oren's Hummus	Mediterranean	10-20
+Ristorante Don Giovanni	Italian	0-10
+Doppio Zero	Italian	30-60
+Posh Bagel	Deli	10-20
+
+Final selection: TotoroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

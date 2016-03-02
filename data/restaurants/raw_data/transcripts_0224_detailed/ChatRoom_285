@@ -1,0 +1,43 @@
+02-24-2016:19-48-16	a1802c11-cd34-44b3-8ec6-895940184995	User 1	joined
+02-24-2016:19-48-16	a1802c11-cd34-44b3-8ec6-895940184995	User 1 has user ID 2dfe519efc3a42af846d3cdf7b32bf6b
+02-24-2016:19-48-18	a1802c11-cd34-44b3-8ec6-895940184995	User 0	joined
+02-24-2016:19-48-18	a1802c11-cd34-44b3-8ec6-895940184995	User 0 has user ID 72c8d67e547348d6a886baa109ea6c7a
+02-24-2016:19-48-24	a1802c11-cd34-44b3-8ec6-895940184995	User 1	i can spend $$
+02-24-2016:19-48-25	a1802c11-cd34-44b3-8ec6-895940184995	User 0	los charros
+02-24-2016:19-48-32	a1802c11-cd34-44b3-8ec6-895940184995	User 0	i can spend $
+02-24-2016:19-48-33	a1802c11-cd34-44b3-8ec6-895940184995	User 1	and i like indian food
+02-24-2016:19-48-37	a1802c11-cd34-44b3-8ec6-895940184995	User 0	i hate it
+02-24-2016:19-48-41	a1802c11-cd34-44b3-8ec6-895940184995	User 0	italian?
+02-24-2016:19-48-44	a1802c11-cd34-44b3-8ec6-895940184995	User 0	don giovanni?
+02-24-2016:19-48-51	a1802c11-cd34-44b3-8ec6-895940184995	User 1	i dont like italian
+02-24-2016:19-48-55	a1802c11-cd34-44b3-8ec6-895940184995	User 0	mexican?
+02-24-2016:19-49-03	a1802c11-cd34-44b3-8ec6-895940184995	User 1	yea thats middle of the raod
+02-24-2016:19-49-06	a1802c11-cd34-44b3-8ec6-895940184995	User 0	or japanese?
+02-24-2016:19-49-08	a1802c11-cd34-44b3-8ec6-895940184995	User 1	mine goes
+02-24-2016:19-49-19	a1802c11-cd34-44b3-8ec6-895940184995	User 1	indian chinese mexican jap italian
+02-24-2016:19-49-29	a1802c11-cd34-44b3-8ec6-895940184995	User 0	mexican then?
+02-24-2016:19-49-33	a1802c11-cd34-44b3-8ec6-895940184995	User 0	los charros?
+02-24-2016:19-49-42	a1802c11-cd34-44b3-8ec6-895940184995	User 1	yea lets do it
+02-24-2016:19-49-47	a1802c11-cd34-44b3-8ec6-895940184995	User 0	Selected restaurant 2:	Taqueria Los Charros
+02-24-2016:19-49-48	a1802c11-cd34-44b3-8ec6-895940184995	User 1	Selected restaurant 2:	Taqueria Los Charros
+02-24-2016:19-49-49	---
+02-24-2016:19-49-49	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Japanese, Mexican, Italian, Indian, Chinese
+User 1 preferences: 10-20	Indian, Chinese, Mexican, Japanese, Italian
+
+Niji Sushi	Japanese	10-20
+Shezan	Indian	10-20
+Taqueria Los Charros	Mexican	0-10
+Kappo Naminami	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Ristorante Don Giovanni	Italian	0-10
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+Park Ballachi	Indian	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

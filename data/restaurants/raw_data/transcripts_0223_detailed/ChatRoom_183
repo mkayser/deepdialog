@@ -1,0 +1,28 @@
+02-19-2016:15-55-16	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 1	joined
+02-19-2016:15-55-18	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 0	joined
+02-19-2016:15-55-21	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 1	Hi there
+02-19-2016:15-55-33	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 1	Blue Line Pizza?
+02-19-2016:15-55-45	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 0	Sure
+02-19-2016:15-55-52	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-55-59	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-55-59	---
+02-19-2016:15-56-00	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Thai, Mexican, SeaFood, Japanese, Pizza
+User 1 preferences: 10-20	Japanese, Pizza, Mexican, Thai, SeaFood
+
+Sushitomi	Japanese	20-30
+Blue Line Pizza	Pizza	10-20
+Maruichi Noodle House	Japanese	0-10
+Bangkok Spoon	Thai	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Shalala	Japanese	10-20
+Yakko	Japanese	0-10
+Shell Shock	SeaFood	10-20
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

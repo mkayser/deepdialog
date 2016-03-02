@@ -1,0 +1,27 @@
+02-19-2016:16-06-42	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 0	joined
+02-19-2016:16-06-43	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 1	joined
+02-19-2016:16-06-48	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 1	Frenemy.
+02-19-2016:16-06-48	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 0	Selected restaurant:	Park Ballachi
+02-19-2016:16-06-56	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 1	Selected restaurant:	Chez TJ
+02-19-2016:16-07-00	f9094bbb-ece5-4bbb-8c9c-c99e76761bbc	User 0	Selected restaurant:	Chez TJ
+02-19-2016:16-07-00	---
+02-19-2016:16-07-01	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, French, Deli, Spanish, Indian
+User 1 preferences: 20-30	French, Deli, Italian, Spanish, Indian
+
+Ristorante Don Giovanni	Italian	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Vaso Azzurro	Italian	20-30
+Posh Bagel	Deli	10-20
+Doppio Zero	Italian	30-60
+Cascal	Spanish	30-60
+Subway	Deli	10-20
+Sakoon	Indian	30-60
+Park Ballachi	Indian	0-10
+Chez TJ	French	30-60
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,33 @@
+02-19-2016:16-38-06	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 0	joined
+02-19-2016:16-38-08	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 0	hey
+02-19-2016:16-38-09	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 1	joined
+02-19-2016:16-38-36	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 1	How would you like to have Indian food?
+02-19-2016:16-39-05	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 0	sure
+02-19-2016:16-39-14	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 0	Selected restaurant:	Sakoon
+02-19-2016:16-39-21	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 1	Sounds great!  :)
+02-19-2016:16-39-42	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 0	lets do it
+02-19-2016:16-39-47	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 1	Awesome!
+02-19-2016:16-39-56	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 0	go ahead and choose it pleae
+02-19-2016:16-39-57	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 1	I love tandori chicken!
+02-19-2016:16-40-13	c1a5dbd8-e64e-46ff-88ed-778f91e4a608	User 1	Selected restaurant:	Sakoon
+02-19-2016:16-40-14	---
+02-19-2016:16-40-14	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Indian, Deli, Korean, French, Spanish
+User 1 preferences: 10-20	Indian, Korean, Spanish, Deli, French
+
+Sakoon	Indian	30-60
+Subway	Deli	10-20
+Ginseng	Korean	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Cascal	Spanish	30-60
+Totoro	Korean	20-30
+Posh Bagel	Deli	10-20
+Chez TJ	French	30-60
+Shezan	Indian	10-20
+Park Ballachi	Indian	0-10
+
+Final selection: SakoonUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

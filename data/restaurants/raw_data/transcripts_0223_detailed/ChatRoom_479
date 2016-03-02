@@ -1,0 +1,31 @@
+02-19-2016:16-34-03	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	joined
+02-19-2016:16-34-05	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	joined
+02-19-2016:16-34-09	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	hi lets do amarin
+02-19-2016:16-34-19	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:16-34-25	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	Can we not
+02-19-2016:16-34-28	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	I want Deli food
+02-19-2016:16-34-39	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	okay pick subway or something
+02-19-2016:16-34-43	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	it really doesnt matter
+02-19-2016:16-34-44	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	Selected restaurant:	Subway
+02-19-2016:16-34-45	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	Selected restaurant:	Subway
+02-19-2016:16-34-45	---
+02-19-2016:16-34-45	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Deli, Korean, Japanese, Thai, Vietnamese
+User 1 preferences: 20-30	Thai, Japanese, Deli, Korean, Vietnamese
+
+Pho To Chau	Vietnamese	20-30
+Posh Bagel	Deli	10-20
+Sushitomi	Japanese	20-30
+Shalala	Japanese	10-20
+Totoro	Korean	20-30
+Amarin Thai Cuisine	Thai	20-30
+Ryowa Noodle House	Japanese	20-30
+Subway	Deli	10-20
+Niji Sushi	Japanese	10-20
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: SubwayUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

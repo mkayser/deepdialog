@@ -1,0 +1,30 @@
+02-19-2016:16-25-03	7b8bfefe-f9df-4240-a000-9d1dfaa7bab0	User 0	joined
+02-19-2016:16-25-10	7b8bfefe-f9df-4240-a000-9d1dfaa7bab0	User 1	joined
+02-19-2016:16-25-14	7b8bfefe-f9df-4240-a000-9d1dfaa7bab0	User 0	Mexican?
+02-19-2016:16-25-28	7b8bfefe-f9df-4240-a000-9d1dfaa7bab0	User 1	I need to keep it cheap. 
+02-19-2016:16-25-40	7b8bfefe-f9df-4240-a000-9d1dfaa7bab0	User 1	Morccos maybe? 
+02-19-2016:16-25-44	7b8bfefe-f9df-4240-a000-9d1dfaa7bab0	User 1	Or Bushido?
+02-19-2016:16-25-58	7b8bfefe-f9df-4240-a000-9d1dfaa7bab0	User 0	ok pick one
+02-19-2016:16-26-06	7b8bfefe-f9df-4240-a000-9d1dfaa7bab0	User 1	Selected restaurant:	Morocco's
+02-19-2016:16-26-11	7b8bfefe-f9df-4240-a000-9d1dfaa7bab0	User 0	Selected restaurant:	Morocco's
+02-19-2016:16-26-12	---
+02-19-2016:16-26-13	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Mediterranean, Pizza, Japanese, Mexican, Vietnamese
+User 1 preferences: 0-10	Vietnamese, Mediterranean, Pizza, Mexican, Japanese
+
+Pho Hoa	Vietnamese	30-60
+Morocco's	Mediterranean	10-20
+Café Baklava	Mediterranean	10-20
+Kappo Naminami	Japanese	30-60
+Bushido	Japanese	10-20
+Oren's Hummus	Mediterranean	10-20
+Maruichi Noodle House	Japanese	0-10
+Asian Box	Vietnamese	30-60
+Rumble Fish	Japanese	30-60
+Agave	Mexican	20-30
+
+Final selection: Morocco'sUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

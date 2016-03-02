@@ -1,0 +1,34 @@
+02-24-2016:19-44-06	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	joined
+02-24-2016:19-44-06	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1 has user ID 12dfd22b352441e0ae363490f50068fc
+02-24-2016:19-44-07	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	joined
+02-24-2016:19-44-07	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0 has user ID 72c8d67e547348d6a886baa109ea6c7a
+02-24-2016:19-44-16	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	How does Cascal sound?
+02-24-2016:19-44-16	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	pizza?
+02-24-2016:19-44-21	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	I dont like pizza
+02-24-2016:19-44-34	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	who doesn't like pizza
+02-24-2016:19-44-36	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	american?
+02-24-2016:19-44-47	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	Steins Beer Garden?
+02-24-2016:19-44-52	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	sure
+02-24-2016:19-44-55	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	Selected restaurant 1:	Steins Beer Garden
+02-24-2016:19-44-55	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	Selected restaurant 1:	Steins Beer Garden
+02-24-2016:19-44-55	---
+02-24-2016:19-44-56	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Pizza, American, Spanish, Mexican, Korean
+User 1 preferences: 30-60	Spanish, Korean, Mexican, Pizza, American
+
+Bierhaus	American	0-10
+Steins Beer Garden	American	20-30
+Totoro	Korean	20-30
+Scratch	American	0-10
+Cascal	Spanish	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Blue Line Pizza	Pizza	10-20
+Agave	Mexican	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Taqueria Los Charros	Mexican	0-10
+
+Final selection: Steins Beer GardenUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,31 @@
+02-19-2016:16-34-00	90280111-d767-44b4-bf3c-ec9d67db5dbf	User 0	joined
+02-19-2016:16-34-10	90280111-d767-44b4-bf3c-ec9d67db5dbf	User 0	Hi there
+02-19-2016:16-34-24	90280111-d767-44b4-bf3c-ec9d67db5dbf	User 1	joined
+02-19-2016:16-34-38	90280111-d767-44b4-bf3c-ec9d67db5dbf	User 0	Do you feel like Chinese?
+02-19-2016:16-34-55	90280111-d767-44b4-bf3c-ec9d67db5dbf	User 0	Kirin looks good
+02-19-2016:16-35-19	90280111-d767-44b4-bf3c-ec9d67db5dbf	User 1	kirin or queen house is good with me
+02-19-2016:16-35-33	90280111-d767-44b4-bf3c-ec9d67db5dbf	User 0	Cool let's do Queen House then
+02-19-2016:16-35-37	90280111-d767-44b4-bf3c-ec9d67db5dbf	User 0	Selected restaurant:	Queen House
+02-19-2016:16-35-41	90280111-d767-44b4-bf3c-ec9d67db5dbf	User 1	ok sounds good
+02-19-2016:16-35-46	90280111-d767-44b4-bf3c-ec9d67db5dbf	User 1	Selected restaurant:	Queen House
+02-19-2016:16-35-46	---
+02-19-2016:16-35-48	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Chinese, SeaFood, Korean, Thai
+User 1 preferences: 30-60	Deli, Chinese, Thai, SeaFood, Korean
+
+Drunken Lobster	SeaFood	10-20
+Hunan Chili	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+Kirin	Chinese	10-20
+Ginseng	Korean	10-20
+Bangkok Spoon	Thai	30-60
+Totoro	Korean	20-30
+Hong Kong Bistro	Chinese	20-30
+Queen House	Chinese	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Queen HouseUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

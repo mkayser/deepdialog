@@ -1,0 +1,41 @@
+02-24-2016:19-43-31	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	joined
+02-24-2016:19-43-31	9df03269-d89e-4a91-b8ca-a941f4885428	User 0 has user ID afb02269ff784889a1d460ba0f47bd15
+02-24-2016:19-43-31	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	joined
+02-24-2016:19-43-31	9df03269-d89e-4a91-b8ca-a941f4885428	User 1 has user ID a2b1f77d63ba47b6a973dbe700d79aee
+02-24-2016:19-43-38	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Hey
+02-24-2016:19-43-42	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Lets go to asian box
+02-24-2016:19-43-42	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Hey friend
+02-24-2016:19-43-46	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Selected restaurant 4:	Asian Box
+02-24-2016:19-43-49	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	DO IT
+02-24-2016:19-43-57	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Pizza sounds better to me friendo
+02-24-2016:19-44-01	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	No man
+02-24-2016:19-44-02	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Or Indian
+02-24-2016:19-44-03	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Come on
+02-24-2016:19-44-12	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Asian is always better 
+02-24-2016:19-44-23	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	I'm deathly allergic
+02-24-2016:19-44-31	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Well, you may die tonight
+02-24-2016:19-44-46	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	okay sounds good
+02-24-2016:19-44-49	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Who is deathly allergic to all chinese food
+02-24-2016:19-45-04	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	you have to give me CPR though
+02-24-2016:19-45-07	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Selected restaurant 4:	Asian Box
+02-24-2016:19-45-08	---
+02-24-2016:19-45-08	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Vietnamese, French, Indian, Italian, Pizza
+User 1 preferences: 20-30	Pizza, Indian, Vietnamese, Italian, French
+
+Doppio Zero	Italian	30-60
+Park Ballachi	Indian	0-10
+Ristorante Don Giovanni	Italian	0-10
+Sakoon	Indian	30-60
+Asian Box	Vietnamese	30-60
+Blue Line Pizza	Pizza	10-20
+Shezan	Indian	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Vaso Azzurro	Italian	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Asian BoxUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

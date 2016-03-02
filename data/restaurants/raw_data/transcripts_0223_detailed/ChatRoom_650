@@ -1,0 +1,26 @@
+02-19-2016:16-46-58	82923857-51e7-49ac-af25-5362ed87cae2	User 0	joined
+02-19-2016:16-46-59	82923857-51e7-49ac-af25-5362ed87cae2	User 1	joined
+02-19-2016:16-47-01	82923857-51e7-49ac-af25-5362ed87cae2	User 1	hi pick any
+02-19-2016:16-47-03	82923857-51e7-49ac-af25-5362ed87cae2	User 0	Selected restaurant:	Ginseng
+02-19-2016:16-47-06	82923857-51e7-49ac-af25-5362ed87cae2	User 1	Selected restaurant:	Ginseng
+02-19-2016:16-47-07	---
+02-19-2016:16-48-07	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Korean, Pizza, Vietnamese, Mexican, American
+User 1 preferences: 10-20	Pizza, Korean, American, Vietnamese, Mexican
+
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Pho To Chau	Vietnamese	20-30
+Agave	Mexican	20-30
+The Crepevine	American	30-60
+Steins Beer Garden	American	20-30
+Totoro	Korean	20-30
+Asian Box	Vietnamese	30-60
+Pho Hoa	Vietnamese	30-60
+Ginseng	Korean	10-20
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,39 @@
+02-19-2016:15-41-25	61f108c3-3274-45b9-b8bd-6575699311c8	User 1	joined
+02-19-2016:15-41-26	61f108c3-3274-45b9-b8bd-6575699311c8	User 0	joined
+02-19-2016:15-41-37	61f108c3-3274-45b9-b8bd-6575699311c8	User 0	I'm hungry
+02-19-2016:15-41-51	61f108c3-3274-45b9-b8bd-6575699311c8	User 0	Are you in the mood for anything exotic?
+02-19-2016:15-41-59	61f108c3-3274-45b9-b8bd-6575699311c8	User 1	I'm starving.  What are you in the mood for?
+02-19-2016:15-42-12	61f108c3-3274-45b9-b8bd-6575699311c8	User 1	How do you feel about Thai?
+02-19-2016:15-42-19	61f108c3-3274-45b9-b8bd-6575699311c8	User 0	I LOVE Thai
+02-19-2016:15-42-32	61f108c3-3274-45b9-b8bd-6575699311c8	User 1	Excellent!  Let's do it then.
+02-19-2016:15-42-42	61f108c3-3274-45b9-b8bd-6575699311c8	User 0	Selected restaurant:	Bangkok Spoon
+02-19-2016:15-42-49	61f108c3-3274-45b9-b8bd-6575699311c8	User 0	bit pricey but it's worth it
+02-19-2016:15-42-58	61f108c3-3274-45b9-b8bd-6575699311c8	User 1	Oops - the Thai place is super expensive.  
+02-19-2016:15-43-09	61f108c3-3274-45b9-b8bd-6575699311c8	User 0	How about Vietnamese?
+02-19-2016:15-43-13	61f108c3-3274-45b9-b8bd-6575699311c8	User 0	Selected restaurant:	Xanh Restaurant
+02-19-2016:15-43-31	61f108c3-3274-45b9-b8bd-6575699311c8	User 1	I'm okay with Thai even if it's expensive.  It'll be good.
+02-19-2016:15-43-37	61f108c3-3274-45b9-b8bd-6575699311c8	User 0	Alright then!
+02-19-2016:15-43-41	61f108c3-3274-45b9-b8bd-6575699311c8	User 1	Should we go with Bangkok Spoon then?
+02-19-2016:15-43-45	61f108c3-3274-45b9-b8bd-6575699311c8	User 0	Selected restaurant:	Bangkok Spoon
+02-19-2016:15-43-53	61f108c3-3274-45b9-b8bd-6575699311c8	User 1	Selected restaurant:	Bangkok Spoon
+02-19-2016:15-43-53	---
+02-19-2016:15-43-53	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, Vietnamese, Japanese, Mediterranean, French
+User 1 preferences: 0-10	Mediterranean, Thai, Vietnamese, Japanese, French
+
+Maruichi Noodle House	Japanese	0-10
+Bushido	Japanese	10-20
+Xanh Restaurant	Vietnamese	10-20
+Shalala	Japanese	10-20
+Café Baklava	Mediterranean	10-20
+Morocco's	Mediterranean	10-20
+Masa Sushi	Japanese	0-10
+Oren's Hummus	Mediterranean	10-20
+Pho Hoa	Vietnamese	30-60
+Bangkok Spoon	Thai	30-60
+
+Final selection: Bangkok SpoonUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

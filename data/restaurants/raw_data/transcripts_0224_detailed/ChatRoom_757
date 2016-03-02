@@ -1,0 +1,28 @@
+02-24-2016:20-07-53	51370ad7-2a86-4693-b288-45a753efa4ad	User 0	joined
+02-24-2016:20-07-53	51370ad7-2a86-4693-b288-45a753efa4ad	User 0 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:20-07-54	51370ad7-2a86-4693-b288-45a753efa4ad	User 1	joined
+02-24-2016:20-07-54	51370ad7-2a86-4693-b288-45a753efa4ad	User 1 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:20-08-01	51370ad7-2a86-4693-b288-45a753efa4ad	User 0	bagels?
+02-24-2016:20-08-05	51370ad7-2a86-4693-b288-45a753efa4ad	User 1	Selected restaurant 0:	Posh Bagel
+02-24-2016:20-08-07	51370ad7-2a86-4693-b288-45a753efa4ad	User 0	Selected restaurant 0:	Posh Bagel
+02-24-2016:20-08-07	---
+02-24-2016:20-08-07	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Deli, Indian, Italian, Japanese, Chinese
+User 1 preferences: 20-30	Deli, Japanese, Chinese, Indian, Italian
+
+Posh Bagel	Deli	10-20
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Vaso Azzurro	Italian	20-30
+Park Ballachi	Indian	0-10
+Niji Sushi	Japanese	10-20
+Hong Kong Bistro	Chinese	20-30
+Ryowa Noodle House	Japanese	20-30
+Subway	Deli	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

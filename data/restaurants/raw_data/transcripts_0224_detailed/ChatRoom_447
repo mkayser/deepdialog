@@ -1,0 +1,30 @@
+02-24-2016:19-52-54	77d0132a-6af0-4954-9a44-95631be26970	User 0	joined
+02-24-2016:19-52-54	77d0132a-6af0-4954-9a44-95631be26970	User 0 has user ID 401923cc0b9f4a20b8f0f54fb27ae116
+02-24-2016:19-52-56	77d0132a-6af0-4954-9a44-95631be26970	User 1	joined
+02-24-2016:19-52-56	77d0132a-6af0-4954-9a44-95631be26970	User 1 has user ID b1503d33d25241b7be0210048a97cdfc
+02-24-2016:19-53-02	77d0132a-6af0-4954-9a44-95631be26970	User 0	Selected restaurant 9:	Rumble Fish
+02-24-2016:19-53-25	77d0132a-6af0-4954-9a44-95631be26970	User 0	anything japanese or italian is good
+02-24-2016:19-54-01	77d0132a-6af0-4954-9a44-95631be26970	User 1	That seems a little expensive. What about Ristorante Don Giovanni?
+02-24-2016:19-54-04	77d0132a-6af0-4954-9a44-95631be26970	User 1	Selected restaurant 8:	Ristorante Don Giovanni
+02-24-2016:19-54-08	77d0132a-6af0-4954-9a44-95631be26970	User 0	Selected restaurant 8:	Ristorante Don Giovanni
+02-24-2016:19-54-08	---
+02-24-2016:19-54-08	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Japanese, Italian, Vietnamese, Korean, Chinese
+User 1 preferences: 0-10	Vietnamese, Chinese, Italian, Korean, Japanese
+
+Pho Hoa	Vietnamese	30-60
+Doppio Zero	Italian	30-60
+Asian Box	Vietnamese	30-60
+Kirin	Chinese	10-20
+Shalala	Japanese	10-20
+Fu Lam Mum	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Maruichi Noodle House	Japanese	0-10
+Ristorante Don Giovanni	Italian	0-10
+Rumble Fish	Japanese	30-60
+
+Final selection: Ristorante Don GiovanniUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

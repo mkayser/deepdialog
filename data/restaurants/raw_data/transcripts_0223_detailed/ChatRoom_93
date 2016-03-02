@@ -1,0 +1,28 @@
+02-19-2016:15-39-45	00c2c158-0916-4eaa-93c7-183194574911	User 1	joined
+02-19-2016:15-39-45	00c2c158-0916-4eaa-93c7-183194574911	User 0	joined
+02-19-2016:15-39-58	00c2c158-0916-4eaa-93c7-183194574911	User 1	Let's go to Ginseng tonight.
+02-19-2016:15-40-13	00c2c158-0916-4eaa-93c7-183194574911	User 0	I was going to suggest the same thing--I love Korean food
+02-19-2016:15-40-18	00c2c158-0916-4eaa-93c7-183194574911	User 1	Selected restaurant:	Ginseng
+02-19-2016:15-40-22	00c2c158-0916-4eaa-93c7-183194574911	User 1	Great!
+02-19-2016:15-40-24	00c2c158-0916-4eaa-93c7-183194574911	User 0	Selected restaurant:	Ginseng
+02-19-2016:15-40-24	---
+02-19-2016:15-40-24	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Korean, Pizza, French, Italian, SeaFood
+User 1 preferences: 20-30	Korean, Italian, Pizza, SeaFood, French
+
+Ginseng	Korean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Totoro	Korean	20-30
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Blue Line Pizza	Pizza	10-20
+Chez TJ	French	30-60
+Doppio Zero	Italian	30-60
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

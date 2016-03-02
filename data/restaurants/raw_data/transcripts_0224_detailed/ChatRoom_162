@@ -1,0 +1,28 @@
+02-24-2016:19-43-50	3225d891-b507-456b-9518-4dd0bdbd74e0	User 0	joined
+02-24-2016:19-43-50	3225d891-b507-456b-9518-4dd0bdbd74e0	User 0 has user ID 1185fb427e3d49c29548e288ddc13446
+02-24-2016:19-43-52	3225d891-b507-456b-9518-4dd0bdbd74e0	User 1	joined
+02-24-2016:19-43-52	3225d891-b507-456b-9518-4dd0bdbd74e0	User 1 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-43-57	3225d891-b507-456b-9518-4dd0bdbd74e0	User 1	Selected restaurant 1:	Shabuway
+02-24-2016:19-43-57	3225d891-b507-456b-9518-4dd0bdbd74e0	User 0	Ehpesus?
+02-24-2016:19-44-00	3225d891-b507-456b-9518-4dd0bdbd74e0	User 0	Selected restaurant 1:	Shabuway
+02-24-2016:19-44-00	---
+02-24-2016:19-44-00	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Vietnamese, Chinese, Italian, Japanese
+User 1 preferences: 20-30	Japanese, Mediterranean, Vietnamese, Italian, Chinese
+
+Oren's Hummus	Mediterranean	10-20
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Kappo Naminami	Japanese	30-60
+New Mongolian BBQ	Chinese	30-60
+Ehpesus	Mediterranean	0-10
+Hunan Chili	Chinese	30-60
+Kirin	Chinese	10-20
+Xanh Restaurant	Vietnamese	10-20
+Yakko	Japanese	0-10
+
+Final selection: ShabuwayUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

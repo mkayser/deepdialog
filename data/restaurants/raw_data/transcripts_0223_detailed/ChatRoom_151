@@ -1,0 +1,30 @@
+02-19-2016:15-49-45	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 1	joined
+02-19-2016:15-49-47	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 1	hi
+02-19-2016:15-49-48	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 0	joined
+02-19-2016:15-49-50	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 1	hi
+02-19-2016:15-49-57	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 0	Hi! How about Masa Sushi?
+02-19-2016:15-50-29	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 1	They are a bit cheap, question quality... Shalala or Sushitomi instead?
+02-19-2016:15-50-41	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 0	Shalala sounds great to me!
+02-19-2016:15-50-44	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 1	Selected restaurant:	Shalala
+02-19-2016:15-50-46	f1d65e69-54a3-4268-b066-d7b6dc11e72d	User 0	Selected restaurant:	Shalala
+02-19-2016:15-50-46	---
+02-19-2016:15-50-46	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Japanese, French, Korean, Italian
+User 1 preferences: 30-60	Japanese, Italian, French, Korean, Mexican
+
+Totoro	Korean	20-30
+Shalala	Japanese	10-20
+Masa Sushi	Japanese	0-10
+Shabuway	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Ginseng	Korean	10-20
+Taqueria Los Charros	Mexican	0-10
+Sushitomi	Japanese	20-30
+Agave	Mexican	20-30
+
+Final selection: ShalalaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

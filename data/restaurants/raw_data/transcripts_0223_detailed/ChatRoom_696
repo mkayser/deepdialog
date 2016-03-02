@@ -1,0 +1,30 @@
+02-19-2016:16-49-44	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	joined
+02-19-2016:16-49-44	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	joined
+02-19-2016:16-49-55	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	How do you feel about Totoro?
+02-19-2016:16-49-55	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	I want something cheap
+02-19-2016:16-50-11	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	meh, I'd like chinese or japanese instead
+02-19-2016:16-50-21	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	Cheap Japanese it is. Yakko?
+02-19-2016:16-50-28	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	Yakko is looking  good to me
+02-19-2016:16-50-31	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	Selected restaurant:	Yakko
+02-19-2016:16-50-34	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	Selected restaurant:	Yakko
+02-19-2016:16-50-34	---
+02-19-2016:16-50-34	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Chinese, Japanese, Korean, SeaFood, French
+User 1 preferences: 30-60	Korean, Japanese, SeaFood, French, Chinese
+
+Hong Kong Bistro	Chinese	20-30
+Totoro	Korean	20-30
+Yakko	Japanese	0-10
+Shabuway	Japanese	30-60
+Rumble Fish	Japanese	30-60
+Niji Sushi	Japanese	10-20
+New Mongolian BBQ	Chinese	30-60
+Ryowa Noodle House	Japanese	20-30
+Shalala	Japanese	10-20
+Bushido	Japanese	10-20
+
+Final selection: YakkoUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

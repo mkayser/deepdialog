@@ -1,0 +1,28 @@
+02-19-2016:16-54-26	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	joined
+02-19-2016:16-54-32	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	joined
+02-19-2016:16-54-36	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	Could we have Asian Box?
+02-19-2016:16-54-39	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	Hey, how about Shezan
+02-19-2016:16-54-54	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	ok
+02-19-2016:16-55-00	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	Selected restaurant:	Shezan
+02-19-2016:16-55-00	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	Selected restaurant:	Shezan
+02-19-2016:16-55-01	---
+02-19-2016:16-55-01	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Deli, Mexican, Chinese, Vietnamese
+User 1 preferences: 10-20	Vietnamese, Indian, Deli, Mexican, Chinese
+
+Pho To Chau	Vietnamese	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Asian Box	Vietnamese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Fu Lam Mum	Chinese	30-60
+Shezan	Indian	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Taqueria Los Charros	Mexican	0-10
+Xanh Restaurant	Vietnamese	10-20
+Sakoon	Indian	30-60
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

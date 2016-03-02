@@ -1,0 +1,29 @@
+02-24-2016:19-45-11	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	joined
+02-24-2016:19-45-11	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:19-45-11	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	joined
+02-24-2016:19-45-11	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0 has user ID b745a91d655a4b418f42f8d3bf219f17
+02-24-2016:19-45-29	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	pho to?
+02-24-2016:19-45-31	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	Selected restaurant 7:	Pho To Chau
+02-24-2016:19-45-33	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Sounds good
+02-24-2016:19-45-36	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Selected restaurant 7:	Pho To Chau
+02-24-2016:19-45-37	---
+02-24-2016:19-45-37	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Spanish, Mexican, Deli, Vietnamese
+User 1 preferences: 0-10	Vietnamese, Deli, Mediterranean, Mexican, Spanish
+
+Posh Bagel	Deli	10-20
+Asian Box	Vietnamese	30-60
+Pho Hoa	Vietnamese	30-60
+Subway	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Ehpesus	Mediterranean	0-10
+Pho To Chau	Vietnamese	20-30
+Café Baklava	Mediterranean	10-20
+Cascal	Spanish	30-60
+
+Final selection: Pho To ChauUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

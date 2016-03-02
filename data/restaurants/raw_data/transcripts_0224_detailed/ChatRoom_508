@@ -1,0 +1,31 @@
+02-24-2016:19-54-24	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 0	joined
+02-24-2016:19-54-24	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 0 has user ID 2c45b2c243dd4e70a6f3929b85d0deb8
+02-24-2016:19-54-33	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 1	joined
+02-24-2016:19-54-33	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 1 has user ID f4cf22eeaf504f329f0c8d9894df04d8
+02-24-2016:19-54-36	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 0	How do you feel about spanish food?
+02-24-2016:19-54-36	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 1	Selected restaurant 6:	Ristorante Don Giovanni
+02-24-2016:19-54-57	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 0	Selected restaurant 2:	Blue Line Pizza
+02-24-2016:19-54-59	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 1	Selected restaurant 3:	Cascal
+02-24-2016:19-55-05	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 1	Spanish
+02-24-2016:19-55-09	0d323149-dbbd-4c0d-ba96-67de4c817d78	User 0	Selected restaurant 3:	Cascal
+02-24-2016:19-55-09	---
+02-24-2016:19-56-10	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, Pizza, Italian, Vietnamese, French
+User 1 preferences: 0-10	Pizza, Spanish, Italian, Vietnamese, French
+
+Chez TJ	French	30-60
+Pho To Chau	Vietnamese	20-30
+Blue Line Pizza	Pizza	10-20
+Cascal	Spanish	30-60
+Xanh Restaurant	Vietnamese	10-20
+Doppio Zero	Italian	30-60
+Ristorante Don Giovanni	Italian	0-10
+Asian Box	Vietnamese	30-60
+Pho Hoa	Vietnamese	30-60
+Vaso Azzurro	Italian	20-30
+
+Final selection: CascalUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

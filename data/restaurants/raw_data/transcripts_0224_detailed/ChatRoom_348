@@ -1,0 +1,27 @@
+02-24-2016:19-50-18	3c277cf5-36f1-434e-ba22-32ad3dbbaa5e	User 1	joined
+02-24-2016:19-50-18	3c277cf5-36f1-434e-ba22-32ad3dbbaa5e	User 1 has user ID 1e64b000bb644aa396f0bfdef8dc61c0
+02-24-2016:19-50-19	3c277cf5-36f1-434e-ba22-32ad3dbbaa5e	User 0	joined
+02-24-2016:19-50-19	3c277cf5-36f1-434e-ba22-32ad3dbbaa5e	User 0 has user ID 926d651c606046169445ac278961ede1
+02-24-2016:19-50-24	3c277cf5-36f1-434e-ba22-32ad3dbbaa5e	User 1	Selected restaurant 5:	Vaso Azzurro
+02-24-2016:19-50-29	3c277cf5-36f1-434e-ba22-32ad3dbbaa5e	User 0	Selected restaurant 5:	Vaso Azzurro
+02-24-2016:19-50-29	---
+02-24-2016:19-50-29	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Italian, Deli, American, Pizza, Thai
+User 1 preferences: 20-30	Italian, Deli, Pizza, American, Thai
+
+Doppio Zero	Italian	30-60
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Bierhaus	American	0-10
+Scratch	American	0-10
+Vaso Azzurro	Italian	20-30
+Bangkok Spoon	Thai	30-60
+Posh Bagel	Deli	10-20
+Subway	Deli	10-20
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: Vaso AzzurroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

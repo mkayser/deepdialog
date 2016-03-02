@@ -1,0 +1,26 @@
+02-19-2016:16-31-28	e4da5d0d-43b3-4e88-b05b-53458f199194	User 0	joined
+02-19-2016:16-31-28	e4da5d0d-43b3-4e88-b05b-53458f199194	User 1	joined
+02-19-2016:16-31-38	e4da5d0d-43b3-4e88-b05b-53458f199194	User 1	Blue Line Pizza?
+02-19-2016:16-31-41	e4da5d0d-43b3-4e88-b05b-53458f199194	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-31-43	e4da5d0d-43b3-4e88-b05b-53458f199194	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-31-43	---
+02-19-2016:16-31-44	---
+
+Chat Information:
+
+User 0 preferences: 0-10	French, Pizza, Italian, Deli, Chinese
+User 1 preferences: 20-30	French, Pizza, Italian, Deli, Chinese
+
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Subway	Deli	10-20
+Queen House	Chinese	0-10
+Doppio Zero	Italian	30-60
+Posh Bagel	Deli	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Vaso Azzurro	Italian	20-30
+Ristorante Don Giovanni	Italian	0-10
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,30 @@
+02-24-2016:20-13-32	78ca028d-632a-4d69-8275-954a52092df5	User 0	joined
+02-24-2016:20-13-32	78ca028d-632a-4d69-8275-954a52092df5	User 0 has user ID 636466e4c18f4aa0ab4ae2d4c678f8b3
+02-24-2016:20-13-33	78ca028d-632a-4d69-8275-954a52092df5	User 1	joined
+02-24-2016:20-13-33	78ca028d-632a-4d69-8275-954a52092df5	User 1 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:20-13-37	78ca028d-632a-4d69-8275-954a52092df5	User 1	Hey.
+02-24-2016:20-13-39	78ca028d-632a-4d69-8275-954a52092df5	User 0	Selected restaurant 6:	Masa Sushi
+02-24-2016:20-13-43	78ca028d-632a-4d69-8275-954a52092df5	User 0	dude. sushi
+02-24-2016:20-13-45	78ca028d-632a-4d69-8275-954a52092df5	User 1	Lets do Masa Sushi.
+02-24-2016:20-13-48	78ca028d-632a-4d69-8275-954a52092df5	User 1	Selected restaurant 6:	Masa Sushi
+02-24-2016:20-13-48	---
+02-24-2016:20-13-48	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Japanese, Mexican, Vietnamese, American, Spanish
+User 1 preferences: 30-60	Japanese, Mexican, Spanish, American, Vietnamese
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Xanh Restaurant	Vietnamese	10-20
+Bushido	Japanese	10-20
+Asian Box	Vietnamese	30-60
+Kappo Naminami	Japanese	30-60
+Rumble Fish	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Taqueria Los Charros	Mexican	0-10
+Pho To Chau	Vietnamese	20-30
+Niji Sushi	Japanese	10-20
+
+Final selection: Masa SushiUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

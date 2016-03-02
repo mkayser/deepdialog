@@ -1,0 +1,28 @@
+02-19-2016:16-41-23	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	joined
+02-19-2016:16-41-23	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0	joined
+02-19-2016:16-41-35	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	PIzza
+02-19-2016:16-41-44	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	Amici's?
+02-19-2016:16-41-51	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0	Sounds good!
+02-19-2016:16-41-53	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 0	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-41-55	ac7c0865-3cba-4b83-aab7-1b8542d183f0	User 1	Selected restaurant:	Amici's East Coast Pizzeria
+02-19-2016:16-41-56	---
+02-19-2016:16-41-56	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Mediterranean, Japanese, Indian, Pizza
+User 1 preferences: 20-30	Pizza, Chinese, Japanese, Indian, Mediterranean
+
+Niji Sushi	Japanese	10-20
+New Mongolian BBQ	Chinese	30-60
+Morocco's	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Hong Kong Bistro	Chinese	20-30
+Shezan	Indian	10-20
+Oren's Hummus	Mediterranean	10-20
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Bushido	Japanese	10-20
+
+Final selection: Amici's East Coast PizzeriaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

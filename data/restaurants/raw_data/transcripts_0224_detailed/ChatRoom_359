@@ -1,0 +1,34 @@
+02-24-2016:19-50-33	687c75e3-1888-482b-bcc5-173ea1c142ac	User 1	joined
+02-24-2016:19-50-33	687c75e3-1888-482b-bcc5-173ea1c142ac	User 1 has user ID e63d1cf12004458bba9401b773984591
+02-24-2016:19-50-34	687c75e3-1888-482b-bcc5-173ea1c142ac	User 0	joined
+02-24-2016:19-50-34	687c75e3-1888-482b-bcc5-173ea1c142ac	User 0 has user ID ed4adaa0061046cba6be3c68a7516603
+02-24-2016:19-51-09	687c75e3-1888-482b-bcc5-173ea1c142ac	User 1	French?
+02-24-2016:19-51-13	687c75e3-1888-482b-bcc5-173ea1c142ac	User 0	Selected restaurant 0:	Queen House
+02-24-2016:19-51-27	687c75e3-1888-482b-bcc5-173ea1c142ac	User 0	looking for chinese
+02-24-2016:19-51-33	687c75e3-1888-482b-bcc5-173ea1c142ac	User 1	nah
+02-24-2016:19-51-38	687c75e3-1888-482b-bcc5-173ea1c142ac	User 1	mediteranean?
+02-24-2016:19-51-41	687c75e3-1888-482b-bcc5-173ea1c142ac	User 1	grill
+02-24-2016:19-51-53	687c75e3-1888-482b-bcc5-173ea1c142ac	User 0	Selected restaurant 5:	Oren's Hummus
+02-24-2016:19-52-00	687c75e3-1888-482b-bcc5-173ea1c142ac	User 1	yess
+02-24-2016:19-52-04	687c75e3-1888-482b-bcc5-173ea1c142ac	User 1	Selected restaurant 5:	Oren's Hummus
+02-24-2016:19-52-04	---
+02-24-2016:19-52-04	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Chinese, French, Mediterranean, Italian, Vietnamese
+User 1 preferences: 10-20	French, Mediterranean, Italian, Vietnamese, Chinese
+
+Queen House	Chinese	0-10
+Café Baklava	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Oren's Hummus	Mediterranean	10-20
+Doppio Zero	Italian	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Pho Hoa	Vietnamese	30-60
+Ehpesus	Mediterranean	0-10
+
+Final selection: Oren's HummusUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,29 @@
+02-19-2016:16-05-20	f7aed746-266d-468a-bb17-a6a7495b7c89	User 1	joined
+02-19-2016:16-05-20	f7aed746-266d-468a-bb17-a6a7495b7c89	User 0	joined
+02-19-2016:16-05-35	f7aed746-266d-468a-bb17-a6a7495b7c89	User 0	Are you interested in Chinese?
+02-19-2016:16-06-02	f7aed746-266d-468a-bb17-a6a7495b7c89	User 1	Yes
+02-19-2016:16-06-13	f7aed746-266d-468a-bb17-a6a7495b7c89	User 1	Hong Kong Bistro or Queen House
+02-19-2016:16-06-18	f7aed746-266d-468a-bb17-a6a7495b7c89	User 0	Queen house
+02-19-2016:16-06-32	f7aed746-266d-468a-bb17-a6a7495b7c89	User 1	Selected restaurant:	Queen House
+02-19-2016:16-06-38	f7aed746-266d-468a-bb17-a6a7495b7c89	User 0	Selected restaurant:	Queen House
+02-19-2016:16-06-38	---
+02-19-2016:16-06-38	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Chinese, Vietnamese, American, Italian, Mediterranean
+User 1 preferences: 10-20	Mediterranean, Chinese, American, Italian, Vietnamese
+
+Scratch	American	0-10
+Vaso Azzurro	Italian	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Bierhaus	American	0-10
+Xanh Restaurant	Vietnamese	10-20
+Oren's Hummus	Mediterranean	10-20
+Hong Kong Bistro	Chinese	20-30
+Queen House	Chinese	0-10
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Queen HouseUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

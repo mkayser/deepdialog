@@ -1,0 +1,28 @@
+02-19-2016:16-51-40	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 1	joined
+02-19-2016:16-51-40	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 0	joined
+02-19-2016:16-52-32	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 0	Ryowa Noodle Hous or chinese would be y choice
+02-19-2016:16-52-32	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 0	
+02-19-2016:16-52-35	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 0	how about you
+02-19-2016:16-52-51	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 0	Selected restaurant:	Sushitomi
+02-19-2016:16-53-11	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 1	Selected restaurant:	Sushitomi
+02-19-2016:16-53-12	---
+02-19-2016:16-53-12	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Japanese, Chinese, Korean, SeaFood, French
+User 1 preferences: 20-30	French, Japanese, Korean, Chinese, SeaFood
+
+Ryowa Noodle House	Japanese	20-30
+New Mongolian BBQ	Chinese	30-60
+Bushido	Japanese	10-20
+Ginseng	Korean	10-20
+Fu Lam Mum	Chinese	30-60
+Kirin	Chinese	10-20
+Shell Shock	SeaFood	10-20
+Sushitomi	Japanese	20-30
+Totoro	Korean	20-30
+Shalala	Japanese	10-20
+
+Final selection: SushitomiUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

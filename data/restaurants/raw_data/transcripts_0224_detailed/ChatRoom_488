@@ -1,0 +1,29 @@
+02-24-2016:19-53-53	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 1	joined
+02-24-2016:19-53-53	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 1 has user ID 2f224a4722fd422ab3e3fb14dbcb59a0
+02-24-2016:19-53-58	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 0	joined
+02-24-2016:19-53-58	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 0 has user ID 78de429b6e684f988804a99bd73bb576
+02-24-2016:19-54-19	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 1	Blue line in mood for pizza?
+02-24-2016:19-54-26	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 0	Selected restaurant 9:	Blue Line Pizza
+02-24-2016:19-54-29	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 0	leggo
+02-24-2016:19-54-33	e9669a40-4c8d-4c3f-9b3b-c372990cef4d	User 1	Selected restaurant 9:	Blue Line Pizza
+02-24-2016:19-54-33	---
+02-24-2016:19-54-33	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Japanese, Pizza, SeaFood, Korean
+User 1 preferences: 20-30	Spanish, Pizza, Japanese, SeaFood, Korean
+
+Totoro	Korean	20-30
+Masa Sushi	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Drunken Lobster	SeaFood	10-20
+Bushido	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Ginseng	Korean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Rumble Fish	Japanese	30-60
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

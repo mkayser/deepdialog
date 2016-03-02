@@ -1,0 +1,28 @@
+02-24-2016:20-05-57	16835a22-c751-4e04-b003-db91696a36be	User 1	joined
+02-24-2016:20-05-57	16835a22-c751-4e04-b003-db91696a36be	User 1 has user ID 386fb39ca75c4c25ad39171c4eaf0182
+02-24-2016:20-06-00	16835a22-c751-4e04-b003-db91696a36be	User 0	joined
+02-24-2016:20-06-00	16835a22-c751-4e04-b003-db91696a36be	User 0 has user ID 4c7802c2a0cd41d4af419f45cef3b8fa
+02-24-2016:20-06-03	16835a22-c751-4e04-b003-db91696a36be	User 1	Steins?
+02-24-2016:20-06-03	16835a22-c751-4e04-b003-db91696a36be	User 0	Selected restaurant 0:	Steins Beer Garden
+02-24-2016:20-06-06	16835a22-c751-4e04-b003-db91696a36be	User 1	Selected restaurant 0:	Steins Beer Garden
+02-24-2016:20-06-06	---
+02-24-2016:20-06-06	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, American, Chinese, Deli, Indian
+User 1 preferences: 0-10	American, Deli, Pizza, Indian, Chinese
+
+Steins Beer Garden	American	20-30
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Hunan Chili	Chinese	30-60
+Blue Line Pizza	Pizza	10-20
+Bierhaus	American	0-10
+Shezan	Indian	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Fu Lam Mum	Chinese	30-60
+The Crepevine	American	30-60
+
+Final selection: Steins Beer GardenUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

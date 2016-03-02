@@ -1,0 +1,30 @@
+02-19-2016:16-20-11	d5cd7701-f89f-49f3-8a68-d31e469ab7ca	User 1	joined
+02-19-2016:16-20-12	d5cd7701-f89f-49f3-8a68-d31e469ab7ca	User 0	joined
+02-19-2016:16-20-25	d5cd7701-f89f-49f3-8a68-d31e469ab7ca	User 1	I feel like Mediterranean
+02-19-2016:16-20-27	d5cd7701-f89f-49f3-8a68-d31e469ab7ca	User 0	Blue line pizza?
+02-19-2016:16-20-30	d5cd7701-f89f-49f3-8a68-d31e469ab7ca	User 0	I hate medi
+02-19-2016:16-20-37	d5cd7701-f89f-49f3-8a68-d31e469ab7ca	User 1	pizzas ok
+02-19-2016:16-20-41	d5cd7701-f89f-49f3-8a68-d31e469ab7ca	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-20-42	d5cd7701-f89f-49f3-8a68-d31e469ab7ca	User 0	Sweet
+02-19-2016:16-20-45	d5cd7701-f89f-49f3-8a68-d31e469ab7ca	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-20-45	---
+02-19-2016:16-20-45	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Pizza, Vietnamese, Japanese, Indian, Mediterranean
+User 1 preferences: 0-10	Mediterranean, Indian, Pizza, Vietnamese, Japanese
+
+Ehpesus	Mediterranean	0-10
+Kappo Naminami	Japanese	30-60
+Bushido	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Morocco's	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Sakoon	Indian	30-60
+Sushitomi	Japanese	20-30
+Blue Line Pizza	Pizza	10-20
+Shezan	Indian	10-20
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

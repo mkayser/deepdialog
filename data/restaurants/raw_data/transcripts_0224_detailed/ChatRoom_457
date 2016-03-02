@@ -1,0 +1,28 @@
+02-24-2016:19-53-04	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 1	joined
+02-24-2016:19-53-04	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 1 has user ID 0cac2ba937b44744b21feeea89a5fe3c
+02-24-2016:19-53-08	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 1	Selected restaurant 1:	Cascal
+02-24-2016:19-53-11	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 1	Spanish?
+02-24-2016:19-53-14	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 0	joined
+02-24-2016:19-53-14	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 0 has user ID a08eb0381f614efb81f21a4ed99a6912
+02-24-2016:19-53-26	ca0e99a6-06f9-4e3a-b835-62ab96e30fcb	User 0	Selected restaurant 1:	Cascal
+02-24-2016:19-53-26	---
+02-24-2016:19-53-29	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, French, Deli, Korean, Mexican
+User 1 preferences: 30-60	Spanish, French, Mexican, Deli, Korean
+
+Ginseng	Korean	10-20
+Cascal	Spanish	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Subway	Deli	10-20
+Taqueria Los Charros	Mexican	0-10
+Posh Bagel	Deli	10-20
+Totoro	Korean	20-30
+Agave	Mexican	20-30
+Chez TJ	French	30-60
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: CascalUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

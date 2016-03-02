@@ -1,0 +1,28 @@
+02-24-2016:19-56-43	65bccf96-755a-4b75-8367-4460022b0100	User 0	joined
+02-24-2016:19-56-43	65bccf96-755a-4b75-8367-4460022b0100	User 0 has user ID ecb9be7e240a471d97a69d5ebf6b8597
+02-24-2016:19-56-43	65bccf96-755a-4b75-8367-4460022b0100	User 1	joined
+02-24-2016:19-56-43	65bccf96-755a-4b75-8367-4460022b0100	User 1 has user ID 6dc8794cd43543a283d457c40fd5be37
+02-24-2016:19-56-47	65bccf96-755a-4b75-8367-4460022b0100	User 1	Selected restaurant 2:	Shabuway
+02-24-2016:19-56-55	65bccf96-755a-4b75-8367-4460022b0100	User 0	I love you
+02-24-2016:19-56-56	65bccf96-755a-4b75-8367-4460022b0100	User 0	Selected restaurant 2:	Shabuway
+02-24-2016:19-56-56	---
+02-24-2016:19-56-56	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Thai, Japanese, Indian, Pizza, Italian
+User 1 preferences: 30-60	Japanese, Indian, Thai, Italian, Pizza
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Maruichi Noodle House	Japanese	0-10
+Shabuway	Japanese	30-60
+Yakko	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Park Ballachi	Indian	0-10
+Doppio Zero	Italian	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: ShabuwayUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

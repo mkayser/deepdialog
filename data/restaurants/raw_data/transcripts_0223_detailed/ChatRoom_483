@@ -1,0 +1,31 @@
+02-19-2016:16-34-18	050cf2c3-9105-47b4-9109-d675f26684e0	User 0	joined
+02-19-2016:16-34-18	050cf2c3-9105-47b4-9109-d675f26684e0	User 1	joined
+02-19-2016:16-34-41	050cf2c3-9105-47b4-9109-d675f26684e0	User 0	Hey!
+02-19-2016:16-34-50	050cf2c3-9105-47b4-9109-d675f26684e0	User 0	I LOVE expensive Vietnamese
+02-19-2016:16-34-55	050cf2c3-9105-47b4-9109-d675f26684e0	User 1	Hello I'm so hungry, how about Steins Beer Garden or Scratch?
+02-19-2016:16-35-01	050cf2c3-9105-47b4-9109-d675f26684e0	User 0	You in for Pho Hoa?
+02-19-2016:16-35-28	050cf2c3-9105-47b4-9109-d675f26684e0	User 0	It's on me...  
+02-19-2016:16-35-32	050cf2c3-9105-47b4-9109-d675f26684e0	User 1	lol ok
+02-19-2016:16-35-35	050cf2c3-9105-47b4-9109-d675f26684e0	User 1	Selected restaurant:	Pho Hoa
+02-19-2016:16-35-41	050cf2c3-9105-47b4-9109-d675f26684e0	User 0	Selected restaurant:	Pho Hoa
+02-19-2016:16-35-41	---
+02-19-2016:16-35-41	---
+
+Chat Information:
+
+User 0 preferences: 30-60	SeaFood, American, Vietnamese, Deli, Indian
+User 1 preferences: 10-20	American, Deli, Indian, SeaFood, Vietnamese
+
+Asian Box	Vietnamese	30-60
+Pho Hoa	Vietnamese	30-60
+Pho To Chau	Vietnamese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Shell Shock	SeaFood	10-20
+Sakoon	Indian	30-60
+Park Ballachi	Indian	0-10
+Shezan	Indian	10-20
+Steins Beer Garden	American	20-30
+Scratch	American	0-10
+
+Final selection: Pho HoaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

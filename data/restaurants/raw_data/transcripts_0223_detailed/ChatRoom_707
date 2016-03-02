@@ -1,0 +1,28 @@
+02-19-2016:16-50-26	1ee3256e-203e-4557-a667-4320f9df8198	User 1	joined
+02-19-2016:16-50-28	1ee3256e-203e-4557-a667-4320f9df8198	User 0	joined
+02-19-2016:16-50-29	1ee3256e-203e-4557-a667-4320f9df8198	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-50-48	1ee3256e-203e-4557-a667-4320f9df8198	User 0	i want indian...
+02-19-2016:16-50-53	1ee3256e-203e-4557-a667-4320f9df8198	User 1	Selected restaurant:	Shezan
+02-19-2016:16-50-58	1ee3256e-203e-4557-a667-4320f9df8198	User 0	great!
+02-19-2016:16-51-02	1ee3256e-203e-4557-a667-4320f9df8198	User 0	Selected restaurant:	Shezan
+02-19-2016:16-51-03	---
+02-19-2016:16-51-03	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Indian, Thai, Vietnamese, Deli, Japanese
+User 1 preferences: 20-30	Vietnamese, Deli, Thai, Indian, Japanese
+
+Xanh Restaurant	Vietnamese	10-20
+Sushitomi	Japanese	20-30
+Posh Bagel	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+Shalala	Japanese	10-20
+Shezan	Indian	10-20
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+
+Final selection: ShezanUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

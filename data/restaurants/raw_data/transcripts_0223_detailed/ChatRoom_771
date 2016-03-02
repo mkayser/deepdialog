@@ -1,0 +1,30 @@
+02-19-2016:16-53-51	6ac12314-1c4f-4843-81a0-94c6d9342772	User 0	joined
+02-19-2016:16-53-54	6ac12314-1c4f-4843-81a0-94c6d9342772	User 1	joined
+02-19-2016:16-54-13	6ac12314-1c4f-4843-81a0-94c6d9342772	User 1	Subway sounds good to me.
+02-19-2016:16-54-13	6ac12314-1c4f-4843-81a0-94c6d9342772	User 0	Pho Hoa get some soup
+02-19-2016:16-54-39	6ac12314-1c4f-4843-81a0-94c6d9342772	User 1	that too pricey
+02-19-2016:16-54-39	6ac12314-1c4f-4843-81a0-94c6d9342772	User 0	subway's ok
+02-19-2016:16-54-48	6ac12314-1c4f-4843-81a0-94c6d9342772	User 0	Selected restaurant:	Subway
+02-19-2016:16-54-48	6ac12314-1c4f-4843-81a0-94c6d9342772	User 1	cool subway!!!
+02-19-2016:16-54-53	6ac12314-1c4f-4843-81a0-94c6d9342772	User 1	Selected restaurant:	Subway
+02-19-2016:16-54-53	---
+02-19-2016:16-54-53	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Mexican, Deli, Mediterranean, SeaFood
+User 1 preferences: 20-30	Deli, Vietnamese, SeaFood, Mexican, Mediterranean
+
+Pho Hoa	Vietnamese	30-60
+Taqueria Los Charros	Mexican	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Shell Shock	SeaFood	10-20
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Drunken Lobster	SeaFood	10-20
+Agave	Mexican	20-30
+Subway	Deli	10-20
+
+Final selection: SubwayUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,29 @@
+02-24-2016:19-59-20	b4d8c7a1-5d65-45ef-84d3-f628fd2acfc8	User 0	joined
+02-24-2016:19-59-20	b4d8c7a1-5d65-45ef-84d3-f628fd2acfc8	User 0 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:19-59-22	b4d8c7a1-5d65-45ef-84d3-f628fd2acfc8	User 1	joined
+02-24-2016:19-59-22	b4d8c7a1-5d65-45ef-84d3-f628fd2acfc8	User 1 has user ID 4c7802c2a0cd41d4af419f45cef3b8fa
+02-24-2016:19-59-36	b4d8c7a1-5d65-45ef-84d3-f628fd2acfc8	User 0	Fiesta Del Mar Too?
+02-24-2016:19-59-47	b4d8c7a1-5d65-45ef-84d3-f628fd2acfc8	User 1	Selected restaurant 3:	Fiesta Del Mar Too
+02-24-2016:19-59-53	b4d8c7a1-5d65-45ef-84d3-f628fd2acfc8	User 1	Sounds good!
+02-24-2016:20-00-02	b4d8c7a1-5d65-45ef-84d3-f628fd2acfc8	User 0	Selected restaurant 3:	Fiesta Del Mar Too
+02-24-2016:20-00-02	---
+02-24-2016:20-00-02	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Mexican, Chinese, Deli, Japanese
+User 1 preferences: 10-20	Chinese, Japanese, Deli, Mexican, Vietnamese
+
+Queen House	Chinese	0-10
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Taqueria Los Charros	Mexican	0-10
+New Mongolian BBQ	Chinese	30-60
+Niji Sushi	Japanese	10-20
+Masa Sushi	Japanese	0-10
+Sushitomi	Japanese	20-30
+
+Final selection: Fiesta Del Mar TooUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

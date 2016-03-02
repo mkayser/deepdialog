@@ -1,0 +1,31 @@
+02-24-2016:20-03-02	aab6b711-8534-4118-9f1e-ada42837b37c	User 0	joined
+02-24-2016:20-03-02	aab6b711-8534-4118-9f1e-ada42837b37c	User 0 has user ID b2cb8075f5a04922b3896e3eaba43ce9
+02-24-2016:20-03-02	aab6b711-8534-4118-9f1e-ada42837b37c	User 1	joined
+02-24-2016:20-03-02	aab6b711-8534-4118-9f1e-ada42837b37c	User 1 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:20-03-10	aab6b711-8534-4118-9f1e-ada42837b37c	User 1	Japanese?
+02-24-2016:20-03-14	aab6b711-8534-4118-9f1e-ada42837b37c	User 0	Selected restaurant 6:	Vaso Azzurro
+02-24-2016:20-03-15	---
+02-24-2016:20-03-18	aab6b711-8534-4118-9f1e-ada42837b37c	User 1	joined
+02-24-2016:20-03-18	aab6b711-8534-4118-9f1e-ada42837b37c	User 1 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:20-03-21	aab6b711-8534-4118-9f1e-ada42837b37c	User 1	Selected restaurant 6:	Vaso Azzurro
+02-24-2016:20-03-21	---
+02-24-2016:20-03-21	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Italian, Vietnamese, Pizza, Japanese, Chinese
+User 1 preferences: 0-10	Japanese, Italian, Vietnamese, Pizza, Chinese
+
+Kappo Naminami	Japanese	30-60
+Shabuway	Japanese	30-60
+Blue Line Pizza	Pizza	10-20
+Hong Kong Bistro	Chinese	20-30
+Pho Hoa	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Vaso Azzurro	Italian	20-30
+Bushido	Japanese	10-20
+Kirin	Chinese	10-20
+Masa Sushi	Japanese	0-10
+
+Final selection: Vaso AzzurroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

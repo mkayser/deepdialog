@@ -1,0 +1,28 @@
+02-24-2016:20-05-54	97fef808-1a2c-45eb-9993-8b7a9d0d33ef	User 0	joined
+02-24-2016:20-05-54	97fef808-1a2c-45eb-9993-8b7a9d0d33ef	User 0 has user ID b2cb8075f5a04922b3896e3eaba43ce9
+02-24-2016:20-05-54	97fef808-1a2c-45eb-9993-8b7a9d0d33ef	User 1	joined
+02-24-2016:20-05-54	97fef808-1a2c-45eb-9993-8b7a9d0d33ef	User 1 has user ID 757a79ba8ec34bbd8f4acc291696d015
+02-24-2016:20-06-00	97fef808-1a2c-45eb-9993-8b7a9d0d33ef	User 0	Selected restaurant 5:	Shell Shock
+02-24-2016:20-06-01	97fef808-1a2c-45eb-9993-8b7a9d0d33ef	User 1	subway?
+02-24-2016:20-06-26	97fef808-1a2c-45eb-9993-8b7a9d0d33ef	User 1	Selected restaurant 5:	Shell Shock
+02-24-2016:20-06-26	---
+02-24-2016:20-06-26	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, French, Thai, Deli, American
+User 1 preferences: 10-20	Deli, Thai, SeaFood, American, French
+
+Amarin Thai Cuisine	Thai	20-30
+Scratch	American	0-10
+Posh Bagel	Deli	10-20
+Bangkok Spoon	Thai	30-60
+Chez TJ	French	30-60
+Shell Shock	SeaFood	10-20
+Subway	Deli	10-20
+Bierhaus	American	0-10
+Steins Beer Garden	American	20-30
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

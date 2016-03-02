@@ -1,0 +1,27 @@
+02-24-2016:19-44-40	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 1	joined
+02-24-2016:19-44-40	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 1 has user ID 1c72f4728567475d8f76220880432e4e
+02-24-2016:19-44-43	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 0	joined
+02-24-2016:19-44-43	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 0 has user ID 78de429b6e684f988804a99bd73bb576
+02-24-2016:19-44-47	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 1	Selected restaurant 6:	Ristorante Don Giovanni
+02-24-2016:19-44-50	6ee3ce5e-1f87-4d81-8da5-326246dc30e7	User 0	Selected restaurant 6:	Ristorante Don Giovanni
+02-24-2016:19-44-51	---
+02-24-2016:19-44-51	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Deli, Italian, Mediterranean, Chinese
+User 1 preferences: 0-10	Chinese, Mediterranean, Spanish, Deli, Italian
+
+Kirin	Chinese	10-20
+Doppio Zero	Italian	30-60
+Hong Kong Bistro	Chinese	20-30
+Morocco's	Mediterranean	10-20
+Hunan Chili	Chinese	30-60
+Posh Bagel	Deli	10-20
+Ristorante Don Giovanni	Italian	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Ehpesus	Mediterranean	0-10
+Oren's Hummus	Mediterranean	10-20
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

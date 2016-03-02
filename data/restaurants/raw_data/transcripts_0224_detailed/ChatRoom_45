@@ -1,0 +1,30 @@
+02-24-2016:19-37-20	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1	joined
+02-24-2016:19-37-20	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1 has user ID 8864bd4f0b4e4f96b7d83ef5a4f2ec6b
+02-24-2016:19-37-22	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 0	joined
+02-24-2016:19-37-22	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 0 has user ID afb02269ff784889a1d460ba0f47bd15
+02-24-2016:19-37-30	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1	how about Mediterranean Grill House
+02-24-2016:19-37-33	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1	Selected restaurant 7:	Mediterranean Grill House
+02-24-2016:19-38-37	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 0	I think we should go to Shabuway
+02-24-2016:19-38-41	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 0	Selected restaurant 2:	Shabuway
+02-24-2016:19-38-46	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1	Selected restaurant 2:	Shabuway
+02-24-2016:19-38-46	---
+02-24-2016:19-38-47	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Vietnamese, Japanese, Mediterranean, Mexican, Italian
+User 1 preferences: 0-10	Mediterranean, Italian, Mexican, Vietnamese, Japanese
+
+Ryowa Noodle House	Japanese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Shabuway	Japanese	30-60
+Pho Hoa	Vietnamese	30-60
+Bushido	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+Café Baklava	Mediterranean	10-20
+
+Final selection: ShabuwayUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

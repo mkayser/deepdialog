@@ -1,0 +1,28 @@
+02-19-2016:16-32-15	f7aed746-266d-468a-bb17-a6a7495b7c89	User 1	joined
+02-19-2016:16-32-15	f7aed746-266d-468a-bb17-a6a7495b7c89	User 0	joined
+02-19-2016:16-32-22	f7aed746-266d-468a-bb17-a6a7495b7c89	User 0	Chinese tonight?
+02-19-2016:16-32-37	f7aed746-266d-468a-bb17-a6a7495b7c89	User 0	Queen House?
+02-19-2016:16-32-44	f7aed746-266d-468a-bb17-a6a7495b7c89	User 1	Sounds good to me.
+02-19-2016:16-32-50	f7aed746-266d-468a-bb17-a6a7495b7c89	User 0	Selected restaurant:	Queen House
+02-19-2016:16-32-52	f7aed746-266d-468a-bb17-a6a7495b7c89	User 1	Selected restaurant:	Queen House
+02-19-2016:16-32-52	---
+02-19-2016:16-32-52	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Chinese, Vietnamese, American, Italian, Mediterranean
+User 1 preferences: 10-20	Mediterranean, Chinese, American, Italian, Vietnamese
+
+Scratch	American	0-10
+Vaso Azzurro	Italian	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Bierhaus	American	0-10
+Xanh Restaurant	Vietnamese	10-20
+Oren's Hummus	Mediterranean	10-20
+Hong Kong Bistro	Chinese	20-30
+Queen House	Chinese	0-10
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Queen HouseUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

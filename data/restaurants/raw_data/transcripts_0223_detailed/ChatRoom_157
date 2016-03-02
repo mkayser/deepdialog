@@ -1,0 +1,29 @@
+02-19-2016:15-50-29	b85bf985-6cc9-4607-a1cc-503517fe1726	User 1	joined
+02-19-2016:15-50-29	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0	joined
+02-19-2016:15-50-36	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0	Spanish or Medi
+02-19-2016:15-50-49	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0	Let's do medi
+02-19-2016:15-50-49	b85bf985-6cc9-4607-a1cc-503517fe1726	User 1	Ehpesus?
+02-19-2016:15-50-53	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0	Done
+02-19-2016:15-50-57	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0	Selected restaurant:	Ehpesus
+02-19-2016:15-50-58	b85bf985-6cc9-4607-a1cc-503517fe1726	User 1	Selected restaurant:	Ehpesus
+02-19-2016:15-50-58	---
+02-19-2016:15-50-59	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, Mediterranean, SeaFood, Vietnamese, French
+User 1 preferences: 0-10	Vietnamese, French, Mediterranean, SeaFood, Spanish
+
+Café Baklava	Mediterranean	10-20
+Pho To Chau	Vietnamese	20-30
+Oren's Hummus	Mediterranean	10-20
+Morocco's	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+Ehpesus	Mediterranean	0-10
+Cascal	Spanish	30-60
+Chez TJ	French	30-60
+
+Final selection: EhpesusUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

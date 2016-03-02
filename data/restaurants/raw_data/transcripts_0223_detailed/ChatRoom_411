@@ -1,0 +1,29 @@
+02-19-2016:16-28-32	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 1	joined
+02-19-2016:16-28-37	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 0	joined
+02-19-2016:16-28-39	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 1	Queen House?
+02-19-2016:16-29-02	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 0	I can't eat Chinese food because of the MSg. How about some sushi?
+02-19-2016:16-29-11	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 1	Shalala?
+02-19-2016:16-29-18	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 0	ok
+02-19-2016:16-29-20	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 0	Selected restaurant:	Shalala
+02-19-2016:16-29-24	2656776b-0899-4ba4-9b69-3c0d4907bfac	User 1	Selected restaurant:	Shalala
+02-19-2016:16-29-24	---
+02-19-2016:16-29-25	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Japanese, Italian, Indian, Chinese
+User 1 preferences: 20-30	Indian, Deli, Italian, Japanese, Chinese
+
+Ryowa Noodle House	Japanese	20-30
+Bushido	Japanese	10-20
+Niji Sushi	Japanese	10-20
+Posh Bagel	Deli	10-20
+Shalala	Japanese	10-20
+Sushitomi	Japanese	20-30
+Doppio Zero	Italian	30-60
+Vaso Azzurro	Italian	20-30
+Rumble Fish	Japanese	30-60
+Queen House	Chinese	0-10
+
+Final selection: ShalalaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

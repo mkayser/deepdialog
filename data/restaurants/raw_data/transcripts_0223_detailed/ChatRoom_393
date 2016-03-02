@@ -1,0 +1,34 @@
+02-19-2016:16-26-55	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 1	joined
+02-19-2016:16-26-56	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 0	joined
+02-19-2016:16-27-11	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 1	lets do Amarin
+02-19-2016:16-27-17	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 0	Heya!  Dinner's on me.  I won the lottery!
+02-19-2016:16-27-23	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 1	ok cool lets pick already
+02-19-2016:16-27-25	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 0	How "bout french?
+02-19-2016:16-27-26	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 1	time is money priscilla
+02-19-2016:16-27-27	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 1	sure
+02-19-2016:16-27-28	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 1	ok
+02-19-2016:16-27-30	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 1	Selected restaurant:	Chez TJ
+02-19-2016:16-27-30	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 0	LOL
+02-19-2016:16-27-33	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 0	Chez
+02-19-2016:16-27-37	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 0	Selected restaurant:	Chez TJ
+02-19-2016:16-27-38	---
+02-19-2016:16-27-38	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Indian, American, Pizza, Thai, French
+User 1 preferences: 20-30	Thai, Pizza, French, Indian, American
+
+Scratch	American	0-10
+Chez TJ	French	30-60
+Blue Line Pizza	Pizza	10-20
+Park Ballachi	Indian	0-10
+Steins Beer Garden	American	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Amarin Thai Cuisine	Thai	20-30
+Sakoon	Indian	30-60
+Bangkok Spoon	Thai	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

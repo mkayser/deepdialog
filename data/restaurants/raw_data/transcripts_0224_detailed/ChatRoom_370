@@ -1,0 +1,29 @@
+02-24-2016:19-50-55	467ac3e1-e179-48c0-87c9-31934677c540	User 0	joined
+02-24-2016:19-50-55	467ac3e1-e179-48c0-87c9-31934677c540	User 0 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:19-50-58	467ac3e1-e179-48c0-87c9-31934677c540	User 1	joined
+02-24-2016:19-50-58	467ac3e1-e179-48c0-87c9-31934677c540	User 1 has user ID 1c72f4728567475d8f76220880432e4e
+02-24-2016:19-51-07	467ac3e1-e179-48c0-87c9-31934677c540	User 1	Selected restaurant 7:	Yakko
+02-24-2016:19-51-12	467ac3e1-e179-48c0-87c9-31934677c540	User 1	hi
+02-24-2016:19-51-14	467ac3e1-e179-48c0-87c9-31934677c540	User 0	Lets go to Yakko.
+02-24-2016:19-51-19	467ac3e1-e179-48c0-87c9-31934677c540	User 0	Selected restaurant 7:	Yakko
+02-24-2016:19-51-20	---
+02-24-2016:19-51-20	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mexican, Mediterranean, Pizza, Indian, Japanese
+User 1 preferences: 0-10	Mexican, Indian, Pizza, Mediterranean, Japanese
+
+Sushitomi	Japanese	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Café Baklava	Mediterranean	10-20
+Maruichi Noodle House	Japanese	0-10
+Shalala	Japanese	10-20
+Morocco's	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Yakko	Japanese	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Shezan	Indian	10-20
+
+Final selection: YakkoUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

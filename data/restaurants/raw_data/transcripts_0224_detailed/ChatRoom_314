@@ -1,0 +1,28 @@
+02-24-2016:19-49-20	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	joined
+02-24-2016:19-49-20	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0 has user ID fd6adc76ca994bd79a4054960194f86e
+02-24-2016:19-49-22	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	joined
+02-24-2016:19-49-22	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1 has user ID 757a79ba8ec34bbd8f4acc291696d015
+02-24-2016:19-49-35	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Selected restaurant 0:	Posh Bagel
+02-24-2016:19-49-41	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	ok
+02-24-2016:19-49-46	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	Selected restaurant 0:	Posh Bagel
+02-24-2016:19-49-47	---
+02-24-2016:19-49-47	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Spanish, Mexican, Deli, Vietnamese
+User 1 preferences: 0-10	Vietnamese, Deli, Mediterranean, Mexican, Spanish
+
+Posh Bagel	Deli	10-20
+Asian Box	Vietnamese	30-60
+Pho Hoa	Vietnamese	30-60
+Subway	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Ehpesus	Mediterranean	0-10
+Pho To Chau	Vietnamese	20-30
+Café Baklava	Mediterranean	10-20
+Cascal	Spanish	30-60
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

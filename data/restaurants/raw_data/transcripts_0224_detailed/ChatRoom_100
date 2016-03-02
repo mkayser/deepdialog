@@ -1,0 +1,37 @@
+02-24-2016:19-40-45	cc9effee-b384-4617-bee3-535630dc2166	User 1	joined
+02-24-2016:19-40-45	cc9effee-b384-4617-bee3-535630dc2166	User 1 has user ID 447f9730cbf242a3b656157a7b89543a
+02-24-2016:19-40-46	cc9effee-b384-4617-bee3-535630dc2166	User 0	joined
+02-24-2016:19-40-46	cc9effee-b384-4617-bee3-535630dc2166	User 0 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-40-52	cc9effee-b384-4617-bee3-535630dc2166	User 0	I'd love pizza
+02-24-2016:19-40-59	cc9effee-b384-4617-bee3-535630dc2166	User 0	How about it?  I'm thinking Blue line
+02-24-2016:19-41-27	cc9effee-b384-4617-bee3-535630dc2166	User 0	What do you think?
+02-24-2016:19-41-34	cc9effee-b384-4617-bee3-535630dc2166	User 1	im in the mood for seafood
+02-24-2016:19-41-43	cc9effee-b384-4617-bee3-535630dc2166	User 0	I'm allergic to seafood
+02-24-2016:19-41-52	cc9effee-b384-4617-bee3-535630dc2166	User 0	How about Spanish food?
+02-24-2016:19-41-56	cc9effee-b384-4617-bee3-535630dc2166	User 1	how about a deli then?
+02-24-2016:19-42-03	cc9effee-b384-4617-bee3-535630dc2166	User 1	posh bagel maybe
+02-24-2016:19-42-13	cc9effee-b384-4617-bee3-535630dc2166	User 0	Okay I could dig that
+02-24-2016:19-42-16	cc9effee-b384-4617-bee3-535630dc2166	User 0	Selected restaurant 6:	Posh Bagel
+02-24-2016:19-42-18	cc9effee-b384-4617-bee3-535630dc2166	User 1	cool
+02-24-2016:19-42-22	cc9effee-b384-4617-bee3-535630dc2166	User 1	Selected restaurant 6:	Posh Bagel
+02-24-2016:19-42-23	---
+02-24-2016:19-42-23	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Pizza, Spanish, Deli, American, SeaFood
+User 1 preferences: 20-30	SeaFood, Deli, Spanish, Pizza, American
+
+Scratch	American	0-10
+The Crepevine	American	30-60
+Shell Shock	SeaFood	10-20
+Steins Beer Garden	American	20-30
+Cascal	Spanish	30-60
+Drunken Lobster	SeaFood	10-20
+Posh Bagel	Deli	10-20
+Bierhaus	American	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

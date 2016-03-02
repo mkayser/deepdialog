@@ -1,0 +1,31 @@
+02-24-2016:19-57-03	00c2c158-0916-4eaa-93c7-183194574911	User 1	joined
+02-24-2016:19-57-03	00c2c158-0916-4eaa-93c7-183194574911	User 1 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:19-57-03	00c2c158-0916-4eaa-93c7-183194574911	User 0	joined
+02-24-2016:19-57-03	00c2c158-0916-4eaa-93c7-183194574911	User 0 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:19-57-07	00c2c158-0916-4eaa-93c7-183194574911	User 1	I feel like Korean.
+02-24-2016:19-57-09	00c2c158-0916-4eaa-93c7-183194574911	User 1	How about Ginseng?
+02-24-2016:19-57-21	00c2c158-0916-4eaa-93c7-183194574911	User 0	I was thinking totoro
+02-24-2016:19-57-26	00c2c158-0916-4eaa-93c7-183194574911	User 1	Selected restaurant 2:	Totoro
+02-24-2016:19-57-28	00c2c158-0916-4eaa-93c7-183194574911	User 1	Sure
+02-24-2016:19-57-31	00c2c158-0916-4eaa-93c7-183194574911	User 0	Selected restaurant 2:	Totoro
+02-24-2016:19-57-32	---
+02-24-2016:19-57-32	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Korean, Pizza, French, Italian, SeaFood
+User 1 preferences: 20-30	Korean, Italian, Pizza, SeaFood, French
+
+Ginseng	Korean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Totoro	Korean	20-30
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Blue Line Pizza	Pizza	10-20
+Chez TJ	French	30-60
+Doppio Zero	Italian	30-60
+
+Final selection: TotoroUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

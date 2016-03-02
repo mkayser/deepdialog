@@ -1,0 +1,33 @@
+02-24-2016:19-51-06	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	joined
+02-24-2016:19-51-06	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1 has user ID b745a91d655a4b418f42f8d3bf219f17
+02-24-2016:19-51-07	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0	joined
+02-24-2016:19-51-07	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0 has user ID a2b1f77d63ba47b6a973dbe700d79aee
+02-24-2016:19-51-20	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	How about Oren's Hummus?
+02-24-2016:19-51-27	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0	Thai sounds better
+02-24-2016:19-51-44	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	Ok
+02-24-2016:19-51-50	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	I dont have thai
+02-24-2016:19-51-57	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0	NM theres no Thai restaurant on the  list
+02-24-2016:19-52-01	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0	Oren's it is!
+02-24-2016:19-52-04	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	Selected restaurant 3:	Oren's Hummus
+02-24-2016:19-52-06	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0	Selected restaurant 3:	Oren's Hummus
+02-24-2016:19-52-07	---
+02-24-2016:19-52-07	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Thai, Mediterranean, Italian, Japanese, Chinese
+User 1 preferences: 0-10	Thai, Mediterranean, Japanese, Chinese, Italian
+
+Morocco's	Mediterranean	10-20
+Kirin	Chinese	10-20
+New Mongolian BBQ	Chinese	30-60
+Oren's Hummus	Mediterranean	10-20
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+Maruichi Noodle House	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+
+Final selection: Oren's HummusUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

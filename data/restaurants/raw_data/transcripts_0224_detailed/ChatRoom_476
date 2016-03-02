@@ -1,0 +1,28 @@
+02-24-2016:19-53-31	610370cd-ef68-451d-bf14-23d6d0723e48	User 1	joined
+02-24-2016:19-53-31	610370cd-ef68-451d-bf14-23d6d0723e48	User 1 has user ID 6034b71030634f59ad2ef4d6e30365da
+02-24-2016:19-53-31	610370cd-ef68-451d-bf14-23d6d0723e48	User 0	joined
+02-24-2016:19-53-31	610370cd-ef68-451d-bf14-23d6d0723e48	User 0 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-53-41	610370cd-ef68-451d-bf14-23d6d0723e48	User 1	Pho has the best affordable option and is what we like
+02-24-2016:19-53-47	610370cd-ef68-451d-bf14-23d6d0723e48	User 1	Selected restaurant 3:	Pho To Chau
+02-24-2016:19-53-51	610370cd-ef68-451d-bf14-23d6d0723e48	User 0	Selected restaurant 3:	Pho To Chau
+02-24-2016:19-53-51	---
+02-24-2016:19-53-51	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Korean, Italian, Vietnamese, Japanese
+User 1 preferences: 20-30	Vietnamese, Italian, Korean, Deli, Japanese
+
+Bushido	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Doppio Zero	Italian	30-60
+Pho To Chau	Vietnamese	20-30
+Shabuway	Japanese	30-60
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Asian Box	Vietnamese	30-60
+Kappo Naminami	Japanese	30-60
+Ginseng	Korean	10-20
+
+Final selection: Pho To ChauUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

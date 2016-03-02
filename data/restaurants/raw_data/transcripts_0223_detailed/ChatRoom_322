@@ -1,0 +1,32 @@
+02-19-2016:16-17-35	bd973d7f-b334-4a3d-aebf-dd7554941be0	User 1	joined
+02-19-2016:16-17-41	bd973d7f-b334-4a3d-aebf-dd7554941be0	User 0	joined
+02-19-2016:16-17-44	bd973d7f-b334-4a3d-aebf-dd7554941be0	User 1	How about Totoro?
+02-19-2016:16-17-49	bd973d7f-b334-4a3d-aebf-dd7554941be0	User 0	would you like Mongolaian BBQ 789
+02-19-2016:16-17-57	bd973d7f-b334-4a3d-aebf-dd7554941be0	User 1	no you dirty pineapple
+02-19-2016:16-18-00	bd973d7f-b334-4a3d-aebf-dd7554941be0	User 0	omg
+02-19-2016:16-18-02	bd973d7f-b334-4a3d-aebf-dd7554941be0	User 0	no
+02-19-2016:16-18-06	bd973d7f-b334-4a3d-aebf-dd7554941be0	User 0	fine
+02-19-2016:16-18-08	bd973d7f-b334-4a3d-aebf-dd7554941be0	User 0	you win this time
+02-19-2016:16-18-12	bd973d7f-b334-4a3d-aebf-dd7554941be0	User 0	Selected restaurant:	Totoro
+02-19-2016:16-18-15	bd973d7f-b334-4a3d-aebf-dd7554941be0	User 1	Selected restaurant:	Totoro
+02-19-2016:16-18-16	---
+02-19-2016:16-18-16	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Chinese, Mexican, Thai, Korean, Vietnamese
+User 1 preferences: 30-60	Korean, Vietnamese, Chinese, Mexican, Thai
+
+Bangkok Spoon	Thai	30-60
+Ginseng	Korean	10-20
+Totoro	Korean	20-30
+Xanh Restaurant	Vietnamese	10-20
+New Mongolian BBQ	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Fu Lam Mum	Chinese	30-60
+Taqueria Los Charros	Mexican	0-10
+Hunan Chili	Chinese	30-60
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

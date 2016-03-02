@@ -1,0 +1,33 @@
+02-24-2016:19-54-29	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 0	joined
+02-24-2016:19-54-29	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 0 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:19-54-33	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 1	joined
+02-24-2016:19-54-33	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 1 has user ID 96577fc7f8fc4d82bb93d1e26de579ab
+02-24-2016:19-54-34	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 0	I'm in the mood for some korean.
+02-24-2016:19-54-40	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 0	Actually, chinese.
+02-24-2016:19-54-45	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 0	How about Hog Kong?
+02-24-2016:19-54-48	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 0	Hong*
+02-24-2016:19-54-49	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 1	How about Taqueria Los Charros
+02-24-2016:19-54-55	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 0	ok, why not.
+02-24-2016:19-54-57	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 0	Selected restaurant 0:	Taqueria Los Charros
+02-24-2016:19-54-59	fd27fc73-eaeb-435a-97e7-da3d1139865f	User 1	Selected restaurant 0:	Taqueria Los Charros
+02-24-2016:19-54-59	---
+02-24-2016:19-54-59	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, Chinese, Pizza, Mexican, Mediterranean
+User 1 preferences: 0-10	Mexican, Pizza, Mediterranean, Korean, Chinese
+
+Taqueria Los Charros	Mexican	0-10
+Café Baklava	Mediterranean	10-20
+Hong Kong Bistro	Chinese	20-30
+Oren's Hummus	Mediterranean	10-20
+New Mongolian BBQ	Chinese	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Kirin	Chinese	10-20
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Morocco's	Mediterranean	10-20
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

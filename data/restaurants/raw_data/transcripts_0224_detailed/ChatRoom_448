@@ -1,0 +1,27 @@
+02-24-2016:19-52-55	2e83fc76-0273-4ac1-b52a-57560a4c0f23	User 0	joined
+02-24-2016:19-52-55	2e83fc76-0273-4ac1-b52a-57560a4c0f23	User 0 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:19-52-59	2e83fc76-0273-4ac1-b52a-57560a4c0f23	User 1	joined
+02-24-2016:19-52-59	2e83fc76-0273-4ac1-b52a-57560a4c0f23	User 1 has user ID 20564f20d8714dc4af09c24a64219e9f
+02-24-2016:19-53-08	2e83fc76-0273-4ac1-b52a-57560a4c0f23	User 1	Selected restaurant 9:	Doppio Zero
+02-24-2016:19-53-13	2e83fc76-0273-4ac1-b52a-57560a4c0f23	User 0	Selected restaurant 9:	Doppio Zero
+02-24-2016:19-53-13	---
+02-24-2016:19-53-13	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mediterranean, Chinese, Pizza, SeaFood, Italian
+User 1 preferences: 20-30	Italian, Chinese, Mediterranean, SeaFood, Pizza
+
+Hunan Chili	Chinese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Shell Shock	SeaFood	10-20
+Kirin	Chinese	10-20
+Café Baklava	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Drunken Lobster	SeaFood	10-20
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Doppio Zero	Italian	30-60
+
+Final selection: Doppio ZeroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

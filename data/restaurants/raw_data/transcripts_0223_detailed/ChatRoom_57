@@ -1,0 +1,29 @@
+02-19-2016:15-33-27	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 0	joined
+02-19-2016:15-33-28	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 1	joined
+02-19-2016:15-34-02	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 1	how about chinese
+02-19-2016:15-34-03	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 0	I'm really on a tight budget and like American, Vietnamese, Chinese, Indian, or Japanese.
+02-19-2016:15-34-22	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 1	ok chinese it is 
+02-19-2016:15-34-33	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 1	Selected restaurant:	Hong Kong Bistro
+02-19-2016:15-34-45	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 0	Ok.
+02-19-2016:15-34-49	84003dd4-b31b-4939-8b1f-7d9c39d5fe3f	User 0	Selected restaurant:	Hong Kong Bistro
+02-19-2016:15-34-49	---
+02-19-2016:15-34-49	---
+
+Chat Information:
+
+User 0 preferences: 0-10	American, Vietnamese, Chinese, Indian, Japanese
+User 1 preferences: 0-10	Indian, Vietnamese, Japanese, American, Chinese
+
+Hong Kong Bistro	Chinese	20-30
+Yakko	Japanese	0-10
+Steins Beer Garden	American	20-30
+Rumble Fish	Japanese	30-60
+Kappo Naminami	Japanese	30-60
+Shalala	Japanese	10-20
+Pho To Chau	Vietnamese	20-30
+Shabuway	Japanese	30-60
+New Mongolian BBQ	Chinese	30-60
+Ryowa Noodle House	Japanese	20-30
+
+Final selection: Hong Kong BistroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

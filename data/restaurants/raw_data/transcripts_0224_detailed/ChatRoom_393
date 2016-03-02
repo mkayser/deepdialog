@@ -1,0 +1,32 @@
+02-24-2016:19-51-32	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	joined
+02-24-2016:19-51-32	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:19-51-33	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	joined
+02-24-2016:19-51-33	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0 has user ID 56a965da39604ed4b21a394e5ff4f573
+02-24-2016:19-51-36	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	hi
+02-24-2016:19-51-36	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	italian?
+02-24-2016:19-51-40	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	sure
+02-24-2016:19-51-48	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	bbq
+02-24-2016:19-51-48	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	there is no italian tho
+02-24-2016:19-51-52	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	Selected restaurant 9:	New Mongolian BBQ
+02-24-2016:19-51-54	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	Selected restaurant 9:	New Mongolian BBQ
+02-24-2016:19-51-54	---
+02-24-2016:19-52-54	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Vietnamese, Chinese, Indian, Japanese
+User 1 preferences: 30-60	Japanese, Vietnamese, Chinese, SeaFood, Indian
+
+Pho To Chau	Vietnamese	20-30
+Sakoon	Indian	30-60
+Pho Hoa	Vietnamese	30-60
+Shabuway	Japanese	30-60
+Park Ballachi	Indian	0-10
+Shell Shock	SeaFood	10-20
+Shezan	Indian	10-20
+Niji Sushi	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+New Mongolian BBQ	Chinese	30-60
+
+Final selection: New Mongolian BBQUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

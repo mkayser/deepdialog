@@ -1,0 +1,33 @@
+02-24-2016:19-50-31	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 0	joined
+02-24-2016:19-50-31	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 0 has user ID 2c45b2c243dd4e70a6f3929b85d0deb8
+02-24-2016:19-50-32	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 1	joined
+02-24-2016:19-50-32	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 1 has user ID 166720d565e2438a95fc42a5361c88f0
+02-24-2016:19-50-38	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 1	Selected restaurant 7:	Kappo Naminami
+02-24-2016:19-50-45	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 0	no
+02-24-2016:19-50-49	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 0	I dont want that food
+02-24-2016:19-51-19	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 1	Selected restaurant 0:	The Crepevine
+02-24-2016:19-51-28	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 1	pick this and we are done!
+02-24-2016:19-51-49	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 0	Selected restaurant 4:	Morocco's
+02-24-2016:19-51-51	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 1	pick anything.  I want to get this over with!
+02-24-2016:19-51-55	6438aa9a-9858-48e7-a78d-5ad6f910fcc3	User 1	Selected restaurant 4:	Morocco's
+02-24-2016:19-51-55	---
+02-24-2016:19-51-55	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Indian, Thai, American, Japanese
+User 1 preferences: 30-60	Japanese, Mediterranean, Thai, American, Indian
+
+The Crepevine	American	30-60
+Sakoon	Indian	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Bierhaus	American	0-10
+Morocco's	Mediterranean	10-20
+Ryowa Noodle House	Japanese	20-30
+Sushitomi	Japanese	20-30
+Kappo Naminami	Japanese	30-60
+Shezan	Indian	10-20
+Shalala	Japanese	10-20
+
+Final selection: Morocco'sUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

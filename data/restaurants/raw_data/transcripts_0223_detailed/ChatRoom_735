@@ -1,0 +1,29 @@
+02-19-2016:16-51-49	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	joined
+02-19-2016:16-51-51	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0	joined
+02-19-2016:16-51-56	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	Med Grill House
+02-19-2016:16-51-58	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	Selected restaurant:	Mediterranean Grill House
+02-19-2016:16-52-17	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0	that sounds fine with me
+02-19-2016:16-52-29	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	nice!
+02-19-2016:16-52-33	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 1	we are in agreement
+02-19-2016:16-52-33	358a4de9-1773-4784-b6e9-6eaa31b8834e	User 0	Selected restaurant:	Mediterranean Grill House
+02-19-2016:16-52-33	---
+02-19-2016:16-52-34	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Thai, Mediterranean, Italian, Japanese, Chinese
+User 1 preferences: 0-10	Thai, Mediterranean, Japanese, Chinese, Italian
+
+Morocco's	Mediterranean	10-20
+Kirin	Chinese	10-20
+New Mongolian BBQ	Chinese	30-60
+Oren's Hummus	Mediterranean	10-20
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+Maruichi Noodle House	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+
+Final selection: Mediterranean Grill HouseUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,30 @@
+02-24-2016:19-58-35	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	joined
+02-24-2016:19-58-35	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:19-58-36	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 0	joined
+02-24-2016:19-58-36	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 0 has user ID 677b46ac0d99408c9eed307d8e61188c
+02-24-2016:19-58-39	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	seafood?
+02-24-2016:19-58-43	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	american?
+02-24-2016:19-58-47	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	Selected restaurant 1:	Bierhaus
+02-24-2016:19-59-01	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 0	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:19-59-09	07854218-97f3-4b96-9f61-13f5b9c6e65d	User 1	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:19-59-09	---
+02-24-2016:19-59-09	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, SeaFood, American, Chinese, Pizza
+User 1 preferences: 10-20	SeaFood, American, Thai, Pizza, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Bierhaus	American	0-10
+Fu Lam Mum	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Kirin	Chinese	10-20
+Hunan Chili	Chinese	30-60
+Bangkok Spoon	Thai	30-60
+The Crepevine	American	30-60
+Hong Kong Bistro	Chinese	20-30
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

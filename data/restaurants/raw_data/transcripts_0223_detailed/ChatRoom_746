@@ -1,0 +1,32 @@
+02-19-2016:16-52-19	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 0	joined
+02-19-2016:16-52-20	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1	joined
+02-19-2016:16-52-24	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 0	Hello.
+02-19-2016:16-52-26	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1	Hello
+02-19-2016:16-52-35	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 0	What do you feel like tonight?
+02-19-2016:16-52-43	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1	How about Posh bagel?
+02-19-2016:16-53-12	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 0	Naw...I feel like Vietnames.
+02-19-2016:16-53-23	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1	Ok asian box?
+02-19-2016:16-53-28	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 0	Sounds great!
+02-19-2016:16-53-30	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 1	Selected restaurant:	Asian Box
+02-19-2016:16-53-31	6c54766e-2e47-4f9d-98cf-7c350935bf68	User 0	Selected restaurant:	Asian Box
+02-19-2016:16-53-32	---
+02-19-2016:16-53-32	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mexican, Vietnamese, Deli, Pizza, Indian
+User 1 preferences: 0-10	Deli, Mexican, Indian, Vietnamese, Pizza
+
+Blue Line Pizza	Pizza	10-20
+Agave	Mexican	20-30
+Shezan	Indian	10-20
+Asian Box	Vietnamese	30-60
+Posh Bagel	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Taqueria Los Charros	Mexican	0-10
+Sakoon	Indian	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Asian BoxUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

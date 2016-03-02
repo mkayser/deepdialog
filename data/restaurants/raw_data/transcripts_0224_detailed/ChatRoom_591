@@ -1,0 +1,30 @@
+02-24-2016:19-58-43	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	joined
+02-24-2016:19-58-43	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:19-58-44	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 0	joined
+02-24-2016:19-58-44	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 0 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:19-58-51	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	Do you like Chinese food?
+02-24-2016:19-58-58	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 0	yes how about kirin
+02-24-2016:19-59-01	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	Sure.
+02-24-2016:19-59-04	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	Selected restaurant 1:	Kirin
+02-24-2016:19-59-05	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 0	Selected restaurant 1:	Kirin
+02-24-2016:19-59-05	---
+02-24-2016:19-59-06	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Mediterranean, Chinese, Indian, Spanish
+User 1 preferences: 0-10	Indian, Chinese, Spanish, Mexican, Mediterranean
+
+Oren's Hummus	Mediterranean	10-20
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+Cascal	Spanish	30-60
+Fu Lam Mum	Chinese	30-60
+Ehpesus	Mediterranean	0-10
+Queen House	Chinese	0-10
+Hunan Chili	Chinese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+
+Final selection: KirinUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

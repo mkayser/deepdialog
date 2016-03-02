@@ -1,0 +1,28 @@
+02-19-2016:16-33-57	7acf18b7-f4ce-4c3d-b215-73bc8e5b71b7	User 0	joined
+02-19-2016:16-33-58	7acf18b7-f4ce-4c3d-b215-73bc8e5b71b7	User 1	joined
+02-19-2016:16-34-04	7acf18b7-f4ce-4c3d-b215-73bc8e5b71b7	User 0	Culd we have Masa Sushi?
+02-19-2016:16-34-05	7acf18b7-f4ce-4c3d-b215-73bc8e5b71b7	User 0	 789
+02-19-2016:16-34-12	7acf18b7-f4ce-4c3d-b215-73bc8e5b71b7	User 0	Selected restaurant:	Masa Sushi
+02-19-2016:16-34-24	7acf18b7-f4ce-4c3d-b215-73bc8e5b71b7	User 1	YES!!!
+02-19-2016:16-34-29	7acf18b7-f4ce-4c3d-b215-73bc8e5b71b7	User 1	Selected restaurant:	Masa Sushi
+02-19-2016:16-34-30	---
+02-19-2016:16-34-30	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Japanese, Vietnamese, Korean, SeaFood, Thai
+User 1 preferences: 0-10	Japanese, Thai, SeaFood, Korean, Vietnamese
+
+Masa Sushi	Japanese	0-10
+Maruichi Noodle House	Japanese	0-10
+Totoro	Korean	20-30
+Drunken Lobster	SeaFood	10-20
+Ryowa Noodle House	Japanese	20-30
+Kappo Naminami	Japanese	30-60
+Ginseng	Korean	10-20
+Amarin Thai Cuisine	Thai	20-30
+Pho To Chau	Vietnamese	20-30
+Yakko	Japanese	0-10
+
+Final selection: Masa SushiUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

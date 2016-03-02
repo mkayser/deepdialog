@@ -1,0 +1,36 @@
+02-24-2016:19-41-45	71a752e5-38d4-410f-8c90-d9c6b274b693	User 0	joined
+02-24-2016:19-41-45	71a752e5-38d4-410f-8c90-d9c6b274b693	User 0 has user ID 2dfe519efc3a42af846d3cdf7b32bf6b
+02-24-2016:19-41-45	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1	joined
+02-24-2016:19-41-45	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1 has user ID 85cd8f4c700a4202b531b59fc76e3f8a
+02-24-2016:19-42-14	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1	Hey do you want to get Japanese food tonight?
+02-24-2016:19-42-21	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1	Selected restaurant 0:	Bushido
+02-24-2016:19-42-27	---
+02-24-2016:19-42-29	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1	joined
+02-24-2016:19-42-29	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1 has user ID 85cd8f4c700a4202b531b59fc76e3f8a
+02-24-2016:19-42-38	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1	Hey do you want to get Japanese tonight?
+02-24-2016:19-42-39	71a752e5-38d4-410f-8c90-d9c6b274b693	User 0	sure
+02-24-2016:19-42-44	71a752e5-38d4-410f-8c90-d9c6b274b693	User 0	bushido?
+02-24-2016:19-42-49	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1	yeah sounds goods
+02-24-2016:19-42-54	71a752e5-38d4-410f-8c90-d9c6b274b693	User 1	Selected restaurant 0:	Bushido
+02-24-2016:19-42-57	71a752e5-38d4-410f-8c90-d9c6b274b693	User 0	Selected restaurant 0:	Bushido
+02-24-2016:19-42-57	---
+02-24-2016:19-42-57	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Deli, SeaFood, Korean, Japanese
+User 1 preferences: 0-10	Japanese, Korean, Spanish, Deli, SeaFood
+
+Bushido	Japanese	10-20
+Niji Sushi	Japanese	10-20
+Totoro	Korean	20-30
+Subway	Deli	10-20
+Masa Sushi	Japanese	0-10
+Yakko	Japanese	0-10
+Shell Shock	SeaFood	10-20
+Shalala	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+
+Final selection: BushidoUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

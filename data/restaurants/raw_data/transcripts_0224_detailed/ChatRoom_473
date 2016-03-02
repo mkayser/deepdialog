@@ -1,0 +1,32 @@
+02-24-2016:19-53-28	805372cd-61c1-4580-94f8-5705764aa469	User 0	joined
+02-24-2016:19-53-28	805372cd-61c1-4580-94f8-5705764aa469	User 0 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-53-29	805372cd-61c1-4580-94f8-5705764aa469	User 1	joined
+02-24-2016:19-53-29	805372cd-61c1-4580-94f8-5705764aa469	User 1 has user ID afb02269ff784889a1d460ba0f47bd15
+02-24-2016:19-53-33	805372cd-61c1-4580-94f8-5705764aa469	User 0	Selected restaurant 4:	Casa Lupe Mexican Restaurant
+02-24-2016:19-53-41	805372cd-61c1-4580-94f8-5705764aa469	User 0	mexican?
+02-24-2016:19-53-41	805372cd-61c1-4580-94f8-5705764aa469	User 1	This one time
+02-24-2016:19-53-42	805372cd-61c1-4580-94f8-5705764aa469	User 1	you win
+02-24-2016:19-53-44	805372cd-61c1-4580-94f8-5705764aa469	User 0	thai?
+02-24-2016:19-53-45	805372cd-61c1-4580-94f8-5705764aa469	User 1	:P
+02-24-2016:19-53-49	805372cd-61c1-4580-94f8-5705764aa469	User 1	Selected restaurant 4:	Casa Lupe Mexican Restaurant
+02-24-2016:19-53-49	---
+02-24-2016:19-53-49	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Thai, French, Mediterranean, Vietnamese
+User 1 preferences: 0-10	French, Mediterranean, Thai, Mexican, Vietnamese
+
+Café Baklava	Mediterranean	10-20
+Bangkok Spoon	Thai	30-60
+Morocco's	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Agave	Mexican	20-30
+Pho Hoa	Vietnamese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Ehpesus	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Casa Lupe Mexican RestaurantUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

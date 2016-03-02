@@ -1,0 +1,33 @@
+02-19-2016:15-33-25	6f9036d5-1766-4162-b5a6-b032db00b731	User 0	joined
+02-19-2016:15-33-25	6f9036d5-1766-4162-b5a6-b032db00b731	User 1	joined
+02-19-2016:15-33-41	6f9036d5-1766-4162-b5a6-b032db00b731	User 0	Hello
+02-19-2016:15-34-00	6f9036d5-1766-4162-b5a6-b032db00b731	User 1	Hi, how's it going?
+02-19-2016:15-34-09	6f9036d5-1766-4162-b5a6-b032db00b731	User 0	Good, would Sushitomi work?
+02-19-2016:15-34-22	6f9036d5-1766-4162-b5a6-b032db00b731	User 1	
+02-19-2016:15-34-25	6f9036d5-1766-4162-b5a6-b032db00b731	User 0	or no?
+02-19-2016:15-34-29	6f9036d5-1766-4162-b5a6-b032db00b731	User 1	That sounds fantastic.
+02-19-2016:15-34-37	6f9036d5-1766-4162-b5a6-b032db00b731	User 0	Ok, let's do that. See you later ;-)
+02-19-2016:15-34-41	6f9036d5-1766-4162-b5a6-b032db00b731	User 0	Selected restaurant:	Sushitomi
+02-19-2016:15-34-43	6f9036d5-1766-4162-b5a6-b032db00b731	User 1	ok
+02-19-2016:15-34-48	6f9036d5-1766-4162-b5a6-b032db00b731	User 1	Selected restaurant:	Sushitomi
+02-19-2016:15-34-48	---
+02-19-2016:15-34-48	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Vietnamese, French, Mexican, Japanese
+User 1 preferences: 20-30	Japanese, Mediterranean, French, Mexican, Vietnamese
+
+Sushitomi	Japanese	20-30
+Kappo Naminami	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Taqueria Los Charros	Mexican	0-10
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Pho To Chau	Vietnamese	20-30
+Pho Hoa	Vietnamese	30-60
+Maruichi Noodle House	Japanese	0-10
+
+Final selection: SushitomiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

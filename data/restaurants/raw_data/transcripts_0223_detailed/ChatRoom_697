@@ -1,0 +1,29 @@
+02-19-2016:16-49-48	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 0	joined
+02-19-2016:16-49-48	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 1	joined
+02-19-2016:16-49-52	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 0	pick any
+02-19-2016:16-49-55	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 1	I"m gonna ask you to marry me at this meal 
+02-19-2016:16-49-58	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 1	So you pick bby
+02-19-2016:16-50-04	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 0	scratch
+02-19-2016:16-50-07	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 0	Selected restaurant:	Scratch
+02-19-2016:16-50-10	f0027ef1-a831-4bad-b240-bec9c7561a1b	User 1	Selected restaurant:	Scratch
+02-19-2016:16-50-11	---
+02-19-2016:16-50-11	---
+
+Chat Information:
+
+User 0 preferences: 0-10	American, Spanish, Mediterranean, Pizza, Italian
+User 1 preferences: 30-60	Mediterranean, Pizza, Spanish, American, Italian
+
+Café Baklava	Mediterranean	10-20
+Ristorante Don Giovanni	Italian	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Vaso Azzurro	Italian	20-30
+Cascal	Spanish	30-60
+Doppio Zero	Italian	30-60
+Scratch	American	0-10
+Steins Beer Garden	American	20-30
+Ehpesus	Mediterranean	0-10
+
+Final selection: ScratchUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

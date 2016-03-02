@@ -1,0 +1,30 @@
+02-24-2016:19-48-19	1ee3256e-203e-4557-a667-4320f9df8198	User 0	joined
+02-24-2016:19-48-19	1ee3256e-203e-4557-a667-4320f9df8198	User 0 has user ID 6034b71030634f59ad2ef4d6e30365da
+02-24-2016:19-48-21	1ee3256e-203e-4557-a667-4320f9df8198	User 1	joined
+02-24-2016:19-48-21	1ee3256e-203e-4557-a667-4320f9df8198	User 1 has user ID 0060d829dc5d4372b82d1e4453c7a03f
+02-24-2016:19-48-30	1ee3256e-203e-4557-a667-4320f9df8198	User 1	Hey bby where you wanna go?
+02-24-2016:19-48-30	1ee3256e-203e-4557-a667-4320f9df8198	User 0	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:19-48-41	1ee3256e-203e-4557-a667-4320f9df8198	User 0	I want some Thai!
+02-24-2016:19-48-41	1ee3256e-203e-4557-a667-4320f9df8198	User 1	So assertive, I like it
+02-24-2016:19-48-46	1ee3256e-203e-4557-a667-4320f9df8198	User 1	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:19-48-46	---
+02-24-2016:19-48-46	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Indian, Thai, Vietnamese, Deli, Japanese
+User 1 preferences: 20-30	Vietnamese, Deli, Thai, Indian, Japanese
+
+Xanh Restaurant	Vietnamese	10-20
+Sushitomi	Japanese	20-30
+Posh Bagel	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+Shalala	Japanese	10-20
+Shezan	Indian	10-20
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

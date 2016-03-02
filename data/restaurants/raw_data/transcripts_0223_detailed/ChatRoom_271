@@ -1,0 +1,28 @@
+02-19-2016:16-09-49	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	joined
+02-19-2016:16-09-50	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 1	joined
+02-19-2016:16-09-59	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	How about Sushitomi?
+02-19-2016:16-10-25	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 1	Not a fan of Japanese would you like to try cascal?
+02-19-2016:16-10-38	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	Sure
+02-19-2016:16-10-41	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	Selected restaurant:	Cascal
+02-19-2016:16-10-41	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 1	Selected restaurant:	Cascal
+02-19-2016:16-10-41	---
+02-19-2016:16-10-41	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Japanese, American, Spanish, Indian, Mexican
+User 1 preferences: 0-10	Spanish, Indian, American, Mexican, Japanese
+
+Park Ballachi	Indian	0-10
+Rumble Fish	Japanese	30-60
+Kappo Naminami	Japanese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Agave	Mexican	20-30
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Shabuway	Japanese	30-60
+Shalala	Japanese	10-20
+Cascal	Spanish	30-60
+
+Final selection: CascalUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

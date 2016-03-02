@@ -1,0 +1,28 @@
+02-19-2016:16-35-26	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	joined
+02-19-2016:16-35-27	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	joined
+02-19-2016:16-35-35	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	lets try cascal
+02-19-2016:16-36-23	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	Eh thats too expensive and I am not feeling spanish food..what about Amarin?
+02-19-2016:16-36-35	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	yea I can do Thai
+02-19-2016:16-36-38	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:16-36-50	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:16-36-50	---
+02-19-2016:16-36-50	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Spanish, Pizza, Thai, French
+User 1 preferences: 30-60	Spanish, Chinese, Thai, Pizza, French
+
+Kirin	Chinese	10-20
+New Mongolian BBQ	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Blue Line Pizza	Pizza	10-20
+Hong Kong Bistro	Chinese	20-30
+Chez TJ	French	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Cascal	Spanish	30-60
+Queen House	Chinese	0-10
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Amarin Thai CuisineUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

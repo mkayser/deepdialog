@@ -1,0 +1,32 @@
+02-19-2016:16-40-53	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	joined
+02-19-2016:16-40-54	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	joined
+02-19-2016:16-41-02	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	hi
+02-19-2016:16-41-10	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	man am i in the mood for pizza
+02-19-2016:16-41-16	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	for reals though its friday
+02-19-2016:16-41-35	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	im really wanting some blue line pizza
+02-19-2016:16-41-36	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	Yeah
+02-19-2016:16-41-39	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	let's do pizza brah
+02-19-2016:16-41-39	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	would you be up for that 
+02-19-2016:16-41-45	ada2341f-e9cd-451a-83a1-022c82789aa3	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-41-46	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	its mid priced 
+02-19-2016:16-41-54	ada2341f-e9cd-451a-83a1-022c82789aa3	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-41-54	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Deli, Pizza, Mexican, Indian
+User 1 preferences: 10-20	Pizza, Mediterranean, Mexican, Deli, Indian
+
+Taqueria Los Charros	Mexican	0-10
+Sakoon	Indian	30-60
+Shezan	Indian	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Café Baklava	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Posh Bagel	Deli	10-20
+Blue Line Pizza	Pizza	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Park Ballachi	Indian	0-10
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,32 @@
+02-19-2016:16-49-57	d23ec63f-c371-4f55-8921-ca5ae6821a6d	User 0	joined
+02-19-2016:16-50-00	d23ec63f-c371-4f55-8921-ca5ae6821a6d	User 1	joined
+02-19-2016:16-50-08	d23ec63f-c371-4f55-8921-ca5ae6821a6d	User 1	Yo, bro!  Let's get some grub!
+02-19-2016:16-50-15	d23ec63f-c371-4f55-8921-ca5ae6821a6d	User 0	Want to got to Cafe Baklava? 
+02-19-2016:16-50-19	d23ec63f-c371-4f55-8921-ca5ae6821a6d	User 1	I wanna waste some cash and eat some Mexican!
+02-19-2016:16-50-30	d23ec63f-c371-4f55-8921-ca5ae6821a6d	User 0	I can do that
+02-19-2016:16-50-34	d23ec63f-c371-4f55-8921-ca5ae6821a6d	User 1	Casa Lupe Mexican Restaurant is RIGHT UP MY ALLEY!
+02-19-2016:16-50-39	d23ec63f-c371-4f55-8921-ca5ae6821a6d	User 1	Let's do it!
+02-19-2016:16-50-41	d23ec63f-c371-4f55-8921-ca5ae6821a6d	User 0	Let's do it Broseph
+02-19-2016:16-50-45	d23ec63f-c371-4f55-8921-ca5ae6821a6d	User 1	Selected restaurant:	Casa Lupe Mexican Restaurant
+02-19-2016:16-50-48	d23ec63f-c371-4f55-8921-ca5ae6821a6d	User 0	Selected restaurant:	Casa Lupe Mexican Restaurant
+02-19-2016:16-50-48	---
+02-19-2016:16-50-48	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mediterranean, Korean, Mexican, Japanese, Italian
+User 1 preferences: 30-60	Mexican, Mediterranean, Italian, Korean, Japanese
+
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Vaso Azzurro	Italian	20-30
+Yakko	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Café Baklava	Mediterranean	10-20
+Ginseng	Korean	10-20
+Doppio Zero	Italian	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Bushido	Japanese	10-20
+Mediterranean Grill House	Mediterranean	0-10
+
+Final selection: Casa Lupe Mexican RestaurantUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

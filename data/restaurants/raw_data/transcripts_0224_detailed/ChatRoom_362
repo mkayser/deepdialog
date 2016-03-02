@@ -1,0 +1,40 @@
+02-24-2016:19-50-34	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	joined
+02-24-2016:19-50-34	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1 has user ID 166bcadc45f8455e86e59960617b71f9
+02-24-2016:19-50-35	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	joined
+02-24-2016:19-50-35	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0 has user ID a5b28e4fd1bc4ac787293876fd1e7212
+02-24-2016:19-50-41	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	Selected restaurant 5:	Amarin Thai Cuisine
+02-24-2016:19-50-51	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	No thanks
+02-24-2016:19-51-03	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	Posh Bagel
+02-24-2016:19-51-03	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	Common... take a lady to her favorite restaurant
+02-24-2016:19-51-11	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	Selected restaurant 1:	Posh Bagel
+02-24-2016:19-51-12	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	:)
+02-24-2016:19-51-14	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	Im a lady
+02-24-2016:19-51-18	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	:D
+02-24-2016:19-51-22	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	Hahahah!
+02-24-2016:19-51-25	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	ok whats your #2
+02-24-2016:19-51-28	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	Korean?
+02-24-2016:19-51-32	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	jap?
+02-24-2016:19-51-37	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	deli?
+02-24-2016:19-51-43	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	deli
+02-24-2016:19-51-47	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	Selected restaurant 1:	Posh Bagel
+02-24-2016:19-51-47	---
+02-24-2016:19-51-47	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Deli, Korean, Japanese, Thai, Vietnamese
+User 1 preferences: 20-30	Thai, Japanese, Deli, Korean, Vietnamese
+
+Pho To Chau	Vietnamese	20-30
+Posh Bagel	Deli	10-20
+Sushitomi	Japanese	20-30
+Shalala	Japanese	10-20
+Totoro	Korean	20-30
+Amarin Thai Cuisine	Thai	20-30
+Ryowa Noodle House	Japanese	20-30
+Subway	Deli	10-20
+Niji Sushi	Japanese	10-20
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

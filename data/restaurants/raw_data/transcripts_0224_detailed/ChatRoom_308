@@ -1,0 +1,31 @@
+02-24-2016:19-49-06	884470e7-c224-4d4f-90ba-fe189f61dc5c	User 1	joined
+02-24-2016:19-49-06	884470e7-c224-4d4f-90ba-fe189f61dc5c	User 1 has user ID 732ecfccbdc44825a1016d27b9a01985
+02-24-2016:19-49-07	884470e7-c224-4d4f-90ba-fe189f61dc5c	User 0	joined
+02-24-2016:19-49-07	884470e7-c224-4d4f-90ba-fe189f61dc5c	User 0 has user ID 3af245df6d3d4ea999525beb3bf030ea
+02-24-2016:19-49-10	884470e7-c224-4d4f-90ba-fe189f61dc5c	User 0	Hi
+02-24-2016:19-49-10	884470e7-c224-4d4f-90ba-fe189f61dc5c	User 1	crepevine
+02-24-2016:19-49-11	884470e7-c224-4d4f-90ba-fe189f61dc5c	User 0	ok
+02-24-2016:19-49-13	884470e7-c224-4d4f-90ba-fe189f61dc5c	User 1	Selected restaurant 0:	The Crepevine
+02-24-2016:19-49-14	884470e7-c224-4d4f-90ba-fe189f61dc5c	User 0	Selected restaurant 1:	Amici's East Coast Pizzeria
+02-24-2016:19-49-15	884470e7-c224-4d4f-90ba-fe189f61dc5c	User 0	Selected restaurant 0:	The Crepevine
+02-24-2016:19-49-15	---
+02-24-2016:19-49-16	---
+
+Chat Information:
+
+User 0 preferences: 20-30	American, Pizza, SeaFood, Deli, Korean
+User 1 preferences: 10-20	American, SeaFood, Korean, Deli, Pizza
+
+The Crepevine	American	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Totoro	Korean	20-30
+Subway	Deli	10-20
+Shell Shock	SeaFood	10-20
+Steins Beer Garden	American	20-30
+Bierhaus	American	0-10
+Scratch	American	0-10
+Ginseng	Korean	10-20
+Blue Line Pizza	Pizza	10-20
+
+Final selection: The CrepevineUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

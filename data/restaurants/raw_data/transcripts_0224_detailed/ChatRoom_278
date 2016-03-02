@@ -1,0 +1,32 @@
+02-24-2016:19-48-03	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 0	joined
+02-24-2016:19-48-03	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 0 has user ID 85cd8f4c700a4202b531b59fc76e3f8a
+02-24-2016:19-48-05	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1	joined
+02-24-2016:19-48-05	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1 has user ID 46caadf01a284c8993a97c081137721e
+02-24-2016:19-48-09	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1	Selected restaurant 3:	Pho Hoa
+02-24-2016:19-48-13	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 0	Hey there want Vietnamese?
+02-24-2016:19-48-19	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1	Sure
+02-24-2016:19-48-29	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1	Selected restaurant 1:	Xanh Restaurant
+02-24-2016:19-48-50	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1	Hello
+02-24-2016:19-49-14	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 1	Selected restaurant 3:	Pho Hoa
+02-24-2016:19-49-21	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 0	Selected restaurant 1:	Xanh Restaurant
+02-24-2016:19-49-26	35ddcc27-b826-4c6f-b6b1-004e13f0cce6	User 0	Selected restaurant 3:	Pho Hoa
+02-24-2016:19-49-26	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Vietnamese, Japanese, Mediterranean, Mexican, Italian
+User 1 preferences: 0-10	Mediterranean, Italian, Mexican, Vietnamese, Japanese
+
+Ryowa Noodle House	Japanese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Shabuway	Japanese	30-60
+Pho Hoa	Vietnamese	30-60
+Bushido	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+Café Baklava	Mediterranean	10-20
+
+Final selection: Pho HoaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

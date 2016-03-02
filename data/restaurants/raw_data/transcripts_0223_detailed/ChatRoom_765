@@ -1,0 +1,26 @@
+02-19-2016:16-53-16	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	joined
+02-19-2016:16-53-16	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	joined
+02-19-2016:16-53-21	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	pick any
+02-19-2016:16-53-31	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	Selected restaurant:	Rumble Fish
+02-19-2016:16-53-35	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	Selected restaurant:	Rumble Fish
+02-19-2016:16-53-36	---
+02-19-2016:16-54-36	---
+
+Chat Information:
+
+User 0 preferences: 0-10	French, Japanese, Korean, SeaFood, Italian
+User 1 preferences: 10-20	Japanese, French, SeaFood, Korean, Italian
+
+Shabuway	Japanese	30-60
+Chez TJ	French	30-60
+Shell Shock	SeaFood	10-20
+Totoro	Korean	20-30
+Rumble Fish	Japanese	30-60
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Doppio Zero	Italian	30-60
+Masa Sushi	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+
+Final selection: Rumble FishUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

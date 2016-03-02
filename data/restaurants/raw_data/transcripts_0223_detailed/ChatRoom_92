@@ -1,0 +1,30 @@
+02-19-2016:15-39-32	8a341ff0-7be8-432c-b2fe-3660082ece23	User 0	joined
+02-19-2016:15-39-34	8a341ff0-7be8-432c-b2fe-3660082ece23	User 1	joined
+02-19-2016:15-39-38	8a341ff0-7be8-432c-b2fe-3660082ece23	User 1	In the mood for pizza?
+02-19-2016:15-40-08	8a341ff0-7be8-432c-b2fe-3660082ece23	User 0	Not really...I'm in the mood for Vietnamese, any chance we could do that?
+02-19-2016:15-40-21	8a341ff0-7be8-432c-b2fe-3660082ece23	User 1	Pho To Chau?
+02-19-2016:15-40-27	8a341ff0-7be8-432c-b2fe-3660082ece23	User 0	Sounds good to me!
+02-19-2016:15-40-29	8a341ff0-7be8-432c-b2fe-3660082ece23	User 1	Okay
+02-19-2016:15-40-29	8a341ff0-7be8-432c-b2fe-3660082ece23	User 0	Selected restaurant:	Pho To Chau
+02-19-2016:15-40-33	8a341ff0-7be8-432c-b2fe-3660082ece23	User 1	Selected restaurant:	Pho To Chau
+02-19-2016:15-40-33	---
+02-19-2016:15-40-34	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Deli, American, Italian, Pizza
+User 1 preferences: 20-30	Pizza, Italian, Deli, American, Vietnamese
+
+Pho To Chau	Vietnamese	20-30
+Bierhaus	American	0-10
+Posh Bagel	Deli	10-20
+Xanh Restaurant	Vietnamese	10-20
+Asian Box	Vietnamese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Subway	Deli	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+Doppio Zero	Italian	30-60
+
+Final selection: Pho To ChauUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,30 @@
+02-19-2016:15-35-51	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 1	joined
+02-19-2016:15-35-51	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 0	joined
+02-19-2016:15-36-19	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 0	Hey, I was thinking we should try something new tonight.  I'm in the mood for some Thai...what are you thinkin about Amarin Thai Cuisine?
+02-19-2016:15-36-46	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 1	Selected restaurant:	Doppio Zero
+02-19-2016:15-37-13	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 0	I'm really not feeling Italian or I'd agree.  Any chance we could do Pizza instead?  Blue Line maybe?
+02-19-2016:15-38-13	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-38-14	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 0	Are you there?
+02-19-2016:15-38-18	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 0	Ok, that works for me.
+02-19-2016:15-38-20	085360b5-73d6-4cfd-bee4-05bc8d7448d6	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:15-38-21	---
+02-19-2016:15-38-21	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Thai, Pizza, SeaFood, Italian, Mediterranean
+User 1 preferences: 10-20	Thai, Mediterranean, Italian, Pizza, SeaFood
+
+Vaso Azzurro	Italian	20-30
+Café Baklava	Mediterranean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Morocco's	Mediterranean	10-20
+Shell Shock	SeaFood	10-20
+Ehpesus	Mediterranean	0-10
+Blue Line Pizza	Pizza	10-20
+Doppio Zero	Italian	30-60
+Amarin Thai Cuisine	Thai	20-30
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

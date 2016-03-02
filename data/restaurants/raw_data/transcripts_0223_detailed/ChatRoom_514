@@ -1,0 +1,30 @@
+02-19-2016:16-37-18	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 0	joined
+02-19-2016:16-37-19	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 1	joined
+02-19-2016:16-37-36	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 0	Where do you want to eat?
+02-19-2016:16-37-48	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 1	Just got hired at Xanh half price for 
+02-19-2016:16-37-52	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 1	employees
+02-19-2016:16-38-10	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 0	I could go for Xanh
+02-19-2016:16-38-17	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 0	Selected restaurant:	Xanh Restaurant
+02-19-2016:16-38-18	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 1	yay
+02-19-2016:16-38-21	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 1	Selected restaurant:	Xanh Restaurant
+02-19-2016:16-38-21	---
+02-19-2016:16-38-21	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, Italian, SeaFood, Vietnamese, French
+User 1 preferences: 0-10	Vietnamese, SeaFood, Thai, Italian, French
+
+Asian Box	Vietnamese	30-60
+Shell Shock	SeaFood	10-20
+Pho To Chau	Vietnamese	20-30
+Bangkok Spoon	Thai	30-60
+Chez TJ	French	30-60
+Ristorante Don Giovanni	Italian	0-10
+Amarin Thai Cuisine	Thai	20-30
+Drunken Lobster	SeaFood	10-20
+Xanh Restaurant	Vietnamese	10-20
+Doppio Zero	Italian	30-60
+
+Final selection: Xanh RestaurantUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

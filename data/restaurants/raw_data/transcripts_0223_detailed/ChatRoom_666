@@ -1,0 +1,33 @@
+02-19-2016:16-48-08	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	joined
+02-19-2016:16-48-10	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	joined
+02-19-2016:16-48-14	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	Hungry?
+02-19-2016:16-48-18	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	always
+02-19-2016:16-48-22	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	Do you like Japanese?
+02-19-2016:16-48-28	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	I do.
+02-19-2016:16-48-42	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	How about Shabuway?
+02-19-2016:16-49-00	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	kinda pricey. How about Yakko?
+02-19-2016:16-49-10	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	Sounds good :)
+02-19-2016:16-49-13	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 1	Selected restaurant:	Yakko
+02-19-2016:16-49-16	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	cool cool cool
+02-19-2016:16-49-21	b8f9ef5e-a482-4f33-a611-bfae7de76054	User 0	Selected restaurant:	Yakko
+02-19-2016:16-49-21	---
+02-19-2016:16-49-21	---
+
+Chat Information:
+
+User 0 preferences: 0-10	French, Japanese, Korean, SeaFood, Italian
+User 1 preferences: 10-20	Japanese, French, SeaFood, Korean, Italian
+
+Shabuway	Japanese	30-60
+Chez TJ	French	30-60
+Shell Shock	SeaFood	10-20
+Totoro	Korean	20-30
+Rumble Fish	Japanese	30-60
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Doppio Zero	Italian	30-60
+Masa Sushi	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+
+Final selection: YakkoUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

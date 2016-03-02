@@ -1,0 +1,32 @@
+02-24-2016:20-12-36	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0	joined
+02-24-2016:20-12-36	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:20-12-39	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1	joined
+02-24-2016:20-12-39	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-12-44	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0	Sorta feel like pizza korean or deli.
+02-24-2016:20-12-45	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1	Like Indian?
+02-24-2016:20-12-45	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0	you?
+02-24-2016:20-12-50	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0	indian isn't my favorite
+02-24-2016:20-12-52	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1	deli is good
+02-24-2016:20-12-57	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 1	Selected restaurant 1:	Subway
+02-24-2016:20-13-01	09efd17c-0ace-4f44-ad95-093a3ca6e175	User 0	Selected restaurant 1:	Subway
+02-24-2016:20-13-02	---
+02-24-2016:20-13-02	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Pizza, Korean, Deli, Vietnamese, Indian
+User 1 preferences: 0-10	Indian, Vietnamese, Deli, Korean, Pizza
+
+Xanh Restaurant	Vietnamese	10-20
+Subway	Deli	10-20
+Ginseng	Korean	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Asian Box	Vietnamese	30-60
+Shezan	Indian	10-20
+Pho To Chau	Vietnamese	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Posh Bagel	Deli	10-20
+Park Ballachi	Indian	0-10
+
+Final selection: SubwayUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

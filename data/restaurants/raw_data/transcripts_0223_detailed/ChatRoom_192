@@ -1,0 +1,30 @@
+02-19-2016:15-56-42	6be4d16c-b976-4687-ac8b-22c56806d024	User 1	joined
+02-19-2016:15-56-42	6be4d16c-b976-4687-ac8b-22c56806d024	User 0	joined
+02-19-2016:15-56-49	6be4d16c-b976-4687-ac8b-22c56806d024	User 1	Deli or Indian?
+02-19-2016:15-56-56	6be4d16c-b976-4687-ac8b-22c56806d024	User 0	How about some Deli
+02-19-2016:15-56-59	6be4d16c-b976-4687-ac8b-22c56806d024	User 0	Subway?
+02-19-2016:15-57-02	6be4d16c-b976-4687-ac8b-22c56806d024	User 1	Sure thing.
+02-19-2016:15-57-07	6be4d16c-b976-4687-ac8b-22c56806d024	User 0	Selected restaurant:	Bangkok Spoon
+02-19-2016:15-57-08	6be4d16c-b976-4687-ac8b-22c56806d024	User 1	Selected restaurant:	Subway
+02-19-2016:15-57-08	6be4d16c-b976-4687-ac8b-22c56806d024	User 0	Selected restaurant:	Subway
+02-19-2016:15-57-09	---
+02-19-2016:15-57-09	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Deli, Korean, Indian, Thai, Chinese
+User 1 preferences: 0-10	Chinese, Deli, Indian, Thai, Korean
+
+Amarin Thai Cuisine	Thai	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Shezan	Indian	10-20
+Park Ballachi	Indian	0-10
+Fu Lam Mum	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Bangkok Spoon	Thai	30-60
+Subway	Deli	10-20
+Totoro	Korean	20-30
+
+Final selection: SubwayUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,26 @@
+02-19-2016:16-26-47	b1cea5eb-39b9-411f-a0ec-208274413f1d	User 1	joined
+02-19-2016:16-26-48	b1cea5eb-39b9-411f-a0ec-208274413f1d	User 0	joined
+02-19-2016:16-26-55	b1cea5eb-39b9-411f-a0ec-208274413f1d	User 1	how about posh bagel
+02-19-2016:16-26-58	b1cea5eb-39b9-411f-a0ec-208274413f1d	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-27-06	b1cea5eb-39b9-411f-a0ec-208274413f1d	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-27-06	---
+02-19-2016:16-27-07	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Korean, Indian, Chinese, Deli, Mexican
+User 1 preferences: 30-60	Deli, Indian, Mexican, Korean, Chinese
+
+Fu Lam Mum	Chinese	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Ginseng	Korean	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Taqueria Los Charros	Mexican	0-10
+Sakoon	Indian	30-60
+Posh Bagel	Deli	10-20
+Queen House	Chinese	0-10
+Hunan Chili	Chinese	30-60
+Subway	Deli	10-20
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

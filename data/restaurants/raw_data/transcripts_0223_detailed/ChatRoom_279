@@ -1,0 +1,28 @@
+02-19-2016:16-10-50	0a8725f4-8fbd-441c-91f4-ac553ff1fc16	User 0	joined
+02-19-2016:16-10-50	0a8725f4-8fbd-441c-91f4-ac553ff1fc16	User 1	joined
+02-19-2016:16-11-00	0a8725f4-8fbd-441c-91f4-ac553ff1fc16	User 1	How about some curry?
+02-19-2016:16-11-05	0a8725f4-8fbd-441c-91f4-ac553ff1fc16	User 0	Sure
+02-19-2016:16-11-05	0a8725f4-8fbd-441c-91f4-ac553ff1fc16	User 1	Sakoooooon
+02-19-2016:16-11-09	0a8725f4-8fbd-441c-91f4-ac553ff1fc16	User 1	Selected restaurant:	Sakoon
+02-19-2016:16-11-09	0a8725f4-8fbd-441c-91f4-ac553ff1fc16	User 0	Selected restaurant:	Sakoon
+02-19-2016:16-11-09	---
+02-19-2016:16-11-09	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Vietnamese, Mexican, Indian, Japanese, French
+User 1 preferences: 30-60	Indian, Vietnamese, French, Mexican, Japanese
+
+Pho To Chau	Vietnamese	20-30
+Taqueria Los Charros	Mexican	0-10
+Sakoon	Indian	30-60
+Asian Box	Vietnamese	30-60
+Rumble Fish	Japanese	30-60
+Pho Hoa	Vietnamese	30-60
+Niji Sushi	Japanese	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Yakko	Japanese	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: SakoonUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

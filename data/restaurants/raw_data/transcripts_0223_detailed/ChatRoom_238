@@ -1,0 +1,27 @@
+02-19-2016:16-04-33	fd8e01f1-68c8-4940-886f-b68ab374c83d	User 0	joined
+02-19-2016:16-04-35	fd8e01f1-68c8-4940-886f-b68ab374c83d	User 1	joined
+02-19-2016:16-04-46	fd8e01f1-68c8-4940-886f-b68ab374c83d	User 0	How about Mediterranean 
+02-19-2016:16-04-51	fd8e01f1-68c8-4940-886f-b68ab374c83d	User 1	I agree.
+02-19-2016:16-04-57	fd8e01f1-68c8-4940-886f-b68ab374c83d	User 0	Selected restaurant:	Mediterranean Grill House
+02-19-2016:16-05-01	fd8e01f1-68c8-4940-886f-b68ab374c83d	User 1	Selected restaurant:	Mediterranean Grill House
+02-19-2016:16-05-01	---
+02-19-2016:16-05-02	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Japanese, Spanish, Korean, American
+User 1 preferences: 20-30	American, Japanese, Mediterranean, Korean, Spanish
+
+Ehpesus	Mediterranean	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Rumble Fish	Japanese	30-60
+Totoro	Korean	20-30
+Bushido	Japanese	10-20
+Bierhaus	American	0-10
+Steins Beer Garden	American	20-30
+Niji Sushi	Japanese	10-20
+Café Baklava	Mediterranean	10-20
+
+Final selection: Mediterranean Grill HouseUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,30 @@
+02-19-2016:15-52-46	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	joined
+02-19-2016:15-52-47	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	joined
+02-19-2016:15-52-55	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	Hey I want something cheap
+02-19-2016:15-53-05	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	How does Ehpesus sound?
+02-19-2016:15-53-23	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	Selected restaurant:	Vaso Azzurro
+02-19-2016:15-53-29	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	That would be something Italian maybe, like Pizza.
+02-19-2016:15-53-47	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	That sounds good too.
+02-19-2016:15-53-50	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	Selected restaurant:	Ehpesus
+02-19-2016:15-53-52	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	Selected restaurant:	Ehpesus
+02-19-2016:15-53-53	---
+02-19-2016:15-53-53	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, American, Mediterranean, Italian, Thai
+User 1 preferences: 10-20	Italian, Mediterranean, SeaFood, American, Thai
+
+The Crepevine	American	30-60
+Amarin Thai Cuisine	Thai	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+Ristorante Don Giovanni	Italian	0-10
+Steins Beer Garden	American	20-30
+Scratch	American	0-10
+Ehpesus	Mediterranean	0-10
+Shell Shock	SeaFood	10-20
+Oren's Hummus	Mediterranean	10-20
+
+Final selection: EhpesusUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

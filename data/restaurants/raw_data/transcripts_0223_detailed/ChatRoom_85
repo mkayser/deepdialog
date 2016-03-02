@@ -1,0 +1,30 @@
+02-19-2016:15-37-51	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	joined
+02-19-2016:15-37-54	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	joined
+02-19-2016:15-37-59	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	Hi, how bout Japanese food?
+02-19-2016:15-38-20	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	How does Bushido sound?
+02-19-2016:15-38-29	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	Sounds ok. I'd rather have a hamburger, though. Unless we can get some sushi as well.
+02-19-2016:15-38-47	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	Niji Sushi?
+02-19-2016:15-38-48	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	Selected restaurant:	Bushido
+02-19-2016:15-38-54	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	Okay
+02-19-2016:15-38-58	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	Selected restaurant:	Bushido
+02-19-2016:15-38-58	---
+02-19-2016:15-38-58	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Pizza, American, Mexican, Japanese
+User 1 preferences: 10-20	Japanese, Pizza, Mexican, American, Spanish
+
+Blue Line Pizza	Pizza	10-20
+The Crepevine	American	30-60
+Scratch	American	0-10
+Shabuway	Japanese	30-60
+Bushido	Japanese	10-20
+Agave	Mexican	20-30
+Maruichi Noodle House	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: BushidoUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

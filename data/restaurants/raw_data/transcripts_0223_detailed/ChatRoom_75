@@ -1,0 +1,32 @@
+02-19-2016:15-36-01	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 1	joined
+02-19-2016:15-36-02	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 0	joined
+02-19-2016:15-36-15	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 0	Hey what do you feel like eating today?
+02-19-2016:15-36-19	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 0	I feel like something Asian
+02-19-2016:15-36-45	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 1	Well how high end are you thinking?
+02-19-2016:15-37-10	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 0	Depends on where we go
+02-19-2016:15-37-56	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 1	Sushiyomi is supposed to be decent.
+02-19-2016:15-38-09	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 0	That sounds good to me
+02-19-2016:15-38-14	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 0	Selected restaurant:	Sushitomi
+02-19-2016:15-38-20	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 1	Sweet! Pick you up at 7.
+02-19-2016:15-38-25	a4d0559a-66f0-4e6b-a0d2-31a41cc17a0e	User 1	Selected restaurant:	Sushitomi
+02-19-2016:15-38-26	---
+02-19-2016:15-38-26	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Japanese, Chinese, Korean, SeaFood, French
+User 1 preferences: 20-30	French, Japanese, Korean, Chinese, SeaFood
+
+Ryowa Noodle House	Japanese	20-30
+New Mongolian BBQ	Chinese	30-60
+Bushido	Japanese	10-20
+Ginseng	Korean	10-20
+Fu Lam Mum	Chinese	30-60
+Kirin	Chinese	10-20
+Shell Shock	SeaFood	10-20
+Sushitomi	Japanese	20-30
+Totoro	Korean	20-30
+Shalala	Japanese	10-20
+
+Final selection: SushitomiUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

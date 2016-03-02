@@ -1,0 +1,27 @@
+02-19-2016:16-42-33	5e6ba667-0f66-4893-9857-210fd40b0e5c	User 0	joined
+02-19-2016:16-42-36	5e6ba667-0f66-4893-9857-210fd40b0e5c	User 1	joined
+02-19-2016:16-42-44	5e6ba667-0f66-4893-9857-210fd40b0e5c	User 1	Selected restaurant:	Cascal
+02-19-2016:16-42-44	5e6ba667-0f66-4893-9857-210fd40b0e5c	User 0	Please choose something to eat.
+02-19-2016:16-42-48	5e6ba667-0f66-4893-9857-210fd40b0e5c	User 1	Cascal
+02-19-2016:16-42-50	5e6ba667-0f66-4893-9857-210fd40b0e5c	User 0	Selected restaurant:	Cascal
+02-19-2016:16-42-50	---
+02-19-2016:16-42-50	---
+
+Chat Information:
+
+User 0 preferences: 30-60	American, Spanish, Korean, SeaFood, Thai
+User 1 preferences: 10-20	SeaFood, Spanish, Korean, American, Thai
+
+Drunken Lobster	SeaFood	10-20
+Totoro	Korean	20-30
+Cascal	Spanish	30-60
+Ginseng	Korean	10-20
+Bangkok Spoon	Thai	30-60
+Amarin Thai Cuisine	Thai	20-30
+Shell Shock	SeaFood	10-20
+Scratch	American	0-10
+Steins Beer Garden	American	20-30
+Bierhaus	American	0-10
+
+Final selection: CascalUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

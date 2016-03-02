@@ -1,0 +1,29 @@
+02-19-2016:16-50-08	d7ed737d-42f0-4b2d-8f1e-b4ca60b73d29	User 1	joined
+02-19-2016:16-50-08	d7ed737d-42f0-4b2d-8f1e-b4ca60b73d29	User 0	joined
+02-19-2016:16-50-16	d7ed737d-42f0-4b2d-8f1e-b4ca60b73d29	User 1	Thai , $
+02-19-2016:16-50-19	d7ed737d-42f0-4b2d-8f1e-b4ca60b73d29	User 0	Ermuhgawd I could totes go for some Posh Bagel
+02-19-2016:16-50-26	d7ed737d-42f0-4b2d-8f1e-b4ca60b73d29	User 1	sounds good
+02-19-2016:16-50-29	d7ed737d-42f0-4b2d-8f1e-b4ca60b73d29	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-50-29	d7ed737d-42f0-4b2d-8f1e-b4ca60b73d29	User 0	Sweet
+02-19-2016:16-50-33	d7ed737d-42f0-4b2d-8f1e-b4ca60b73d29	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-50-34	---
+02-19-2016:16-50-34	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Indian, Pizza, Thai, Spanish
+User 1 preferences: 0-10	Thai, Pizza, Indian, Deli, Spanish
+
+Amarin Thai Cuisine	Thai	20-30
+Posh Bagel	Deli	10-20
+Blue Line Pizza	Pizza	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Shezan	Indian	10-20
+Bangkok Spoon	Thai	30-60
+Subway	Deli	10-20
+Cascal	Spanish	30-60
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

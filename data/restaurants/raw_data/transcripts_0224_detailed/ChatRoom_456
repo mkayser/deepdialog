@@ -1,0 +1,28 @@
+02-24-2016:19-53-04	8f61f3de-0713-41b7-8aba-c8981a92f36b	User 1	joined
+02-24-2016:19-53-04	8f61f3de-0713-41b7-8aba-c8981a92f36b	User 1 has user ID 926d651c606046169445ac278961ede1
+02-24-2016:19-53-05	8f61f3de-0713-41b7-8aba-c8981a92f36b	User 0	joined
+02-24-2016:19-53-05	8f61f3de-0713-41b7-8aba-c8981a92f36b	User 0 has user ID 4e418e003c76461aa8897e0309267f36
+02-24-2016:19-53-07	8f61f3de-0713-41b7-8aba-c8981a92f36b	User 1	Selected restaurant 1:	Sakoon
+02-24-2016:19-53-11	8f61f3de-0713-41b7-8aba-c8981a92f36b	User 0	Selected restaurant 7:	Doppio Zero
+02-24-2016:19-53-13	8f61f3de-0713-41b7-8aba-c8981a92f36b	User 0	Selected restaurant 1:	Sakoon
+02-24-2016:19-53-13	---
+02-24-2016:19-53-14	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Italian, French, Indian, American, Chinese
+User 1 preferences: 20-30	Italian, American, Chinese, Indian, French
+
+Fu Lam Mum	Chinese	30-60
+Sakoon	Indian	30-60
+Bierhaus	American	0-10
+Steins Beer Garden	American	20-30
+The Crepevine	American	30-60
+Shezan	Indian	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Doppio Zero	Italian	30-60
+Vaso Azzurro	Italian	20-30
+Hunan Chili	Chinese	30-60
+
+Final selection: SakoonUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

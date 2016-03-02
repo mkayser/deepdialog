@@ -1,0 +1,29 @@
+02-24-2016:19-50-11	d96d0fdc-a264-42fc-9919-7a19c990a905	User 0	joined
+02-24-2016:19-50-11	d96d0fdc-a264-42fc-9919-7a19c990a905	User 0 has user ID fd6adc76ca994bd79a4054960194f86e
+02-24-2016:19-50-11	d96d0fdc-a264-42fc-9919-7a19c990a905	User 1	joined
+02-24-2016:19-50-11	d96d0fdc-a264-42fc-9919-7a19c990a905	User 1 has user ID 6034b71030634f59ad2ef4d6e30365da
+02-24-2016:19-50-17	d96d0fdc-a264-42fc-9919-7a19c990a905	User 0	Pizza
+02-24-2016:19-50-20	d96d0fdc-a264-42fc-9919-7a19c990a905	User 0	Selected restaurant 4:	Blue Line Pizza
+02-24-2016:19-50-22	d96d0fdc-a264-42fc-9919-7a19c990a905	User 1	sure thing
+02-24-2016:19-50-25	d96d0fdc-a264-42fc-9919-7a19c990a905	User 1	Selected restaurant 4:	Blue Line Pizza
+02-24-2016:19-50-26	---
+02-24-2016:19-50-26	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, SeaFood, Spanish, Pizza, Chinese
+User 1 preferences: 0-10	SeaFood, Spanish, Pizza, Korean, Chinese
+
+Hunan Chili	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+New Mongolian BBQ	Chinese	30-60
+Ginseng	Korean	10-20
+Blue Line Pizza	Pizza	10-20
+Queen House	Chinese	0-10
+Drunken Lobster	SeaFood	10-20
+Shell Shock	SeaFood	10-20
+Kirin	Chinese	10-20
+Totoro	Korean	20-30
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

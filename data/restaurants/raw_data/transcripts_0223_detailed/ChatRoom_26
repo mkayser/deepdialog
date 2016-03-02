@@ -1,0 +1,27 @@
+02-19-2016:15-29-41	27f39bef-ec2c-4343-8f51-198606e1ca8c	User 0	joined
+02-19-2016:15-29-42	27f39bef-ec2c-4343-8f51-198606e1ca8c	User 1	joined
+02-19-2016:15-30-04	27f39bef-ec2c-4343-8f51-198606e1ca8c	User 0	Hey, do you want to go to Rumble Fish?
+02-19-2016:15-30-12	27f39bef-ec2c-4343-8f51-198606e1ca8c	User 1	hi sounds good
+02-19-2016:15-30-21	27f39bef-ec2c-4343-8f51-198606e1ca8c	User 0	Selected restaurant:	Rumble Fish
+02-19-2016:15-30-22	27f39bef-ec2c-4343-8f51-198606e1ca8c	User 1	Selected restaurant:	Rumble Fish
+02-19-2016:15-30-23	---
+02-19-2016:15-30-23	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Spanish, Japanese, French, American, Pizza
+User 1 preferences: 30-60	American, French, Spanish, Pizza, Japanese
+
+Scratch	American	0-10
+Ryowa Noodle House	Japanese	20-30
+Rumble Fish	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+Sushitomi	Japanese	20-30
+Bushido	Japanese	10-20
+The Crepevine	American	30-60
+Shabuway	Japanese	30-60
+Shalala	Japanese	10-20
+Niji Sushi	Japanese	10-20
+
+Final selection: Rumble FishUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,28 @@
+02-19-2016:16-41-14	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 1	joined
+02-19-2016:16-41-14	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 0	joined
+02-19-2016:16-41-17	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 1	hey
+02-19-2016:16-41-30	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 0	hey how about mediterranean?
+02-19-2016:16-41-38	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 1	sure
+02-19-2016:16-41-41	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 1	Selected restaurant:	Oren's Hummus
+02-19-2016:16-41-51	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 0	Selected restaurant:	Oren's Hummus
+02-19-2016:16-41-51	---
+02-19-2016:16-41-51	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, French, Chinese, Deli, American
+User 1 preferences: 10-20	Mediterranean, American, Deli, Chinese, French
+
+Queen House	Chinese	0-10
+Subway	Deli	10-20
+Scratch	American	0-10
+Ehpesus	Mediterranean	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Oren's Hummus	Mediterranean	10-20
+Kirin	Chinese	10-20
+Bierhaus	American	0-10
+Fu Lam Mum	Chinese	30-60
+Chez TJ	French	30-60
+
+Final selection: Oren's HummusUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

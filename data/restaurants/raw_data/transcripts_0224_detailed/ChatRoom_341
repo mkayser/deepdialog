@@ -1,0 +1,31 @@
+02-24-2016:19-50-06	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	joined
+02-24-2016:19-50-06	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0 has user ID b745a91d655a4b418f42f8d3bf219f17
+02-24-2016:19-50-07	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 1	joined
+02-24-2016:19-50-07	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 1 has user ID 5c962edeab04436b819f1dedb9784f2c
+02-24-2016:19-50-24	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	How about Kirin?
+02-24-2016:19-50-34	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 1	hong kong bistro ????
+02-24-2016:19-50-39	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	Ok
+02-24-2016:19-50-42	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	Selected restaurant 3:	Hong Kong Bistro
+02-24-2016:19-50-43	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 1	Selected restaurant 2:	Ginseng
+02-24-2016:19-50-48	9ac9e991-50f8-4c6a-bc14-e37609d8fc66	User 0	Selected restaurant 2:	Ginseng
+02-24-2016:19-50-48	---
+02-24-2016:19-50-48	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, American, French, Mediterranean, Korean
+User 1 preferences: 10-20	American, Korean, French, Chinese, Mediterranean
+
+Totoro	Korean	20-30
+Kirin	Chinese	10-20
+Ginseng	Korean	10-20
+Hong Kong Bistro	Chinese	20-30
+Steins Beer Garden	American	20-30
+Scratch	American	0-10
+Fu Lam Mum	Chinese	30-60
+Bierhaus	American	0-10
+Mediterranean Grill House	Mediterranean	0-10
+The Crepevine	American	30-60
+
+Final selection: GinsengUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

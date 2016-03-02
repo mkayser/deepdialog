@@ -1,0 +1,28 @@
+02-24-2016:19-43-38	35e6d11e-3ebe-4d13-b644-58c9f3fde755	User 0	joined
+02-24-2016:19-43-38	35e6d11e-3ebe-4d13-b644-58c9f3fde755	User 0 has user ID 166720d565e2438a95fc42a5361c88f0
+02-24-2016:19-43-39	35e6d11e-3ebe-4d13-b644-58c9f3fde755	User 1	joined
+02-24-2016:19-43-39	35e6d11e-3ebe-4d13-b644-58c9f3fde755	User 1 has user ID 0398c4f9eab24ba2b94f5ab59c5301b9
+02-24-2016:19-43-50	35e6d11e-3ebe-4d13-b644-58c9f3fde755	User 1	Selected restaurant 3:	Niji Sushi
+02-24-2016:19-43-50	35e6d11e-3ebe-4d13-b644-58c9f3fde755	User 0	Selected restaurant 0:	Ryowa Noodle House
+02-24-2016:19-43-58	35e6d11e-3ebe-4d13-b644-58c9f3fde755	User 0	Selected restaurant 3:	Niji Sushi
+02-24-2016:19-43-58	---
+02-24-2016:19-43-58	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, Spanish, Japanese, Korean, Pizza
+User 1 preferences: 10-20	Korean, Pizza, Spanish, Japanese, Italian
+
+Ryowa Noodle House	Japanese	20-30
+Totoro	Korean	20-30
+Shabuway	Japanese	30-60
+Niji Sushi	Japanese	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Ginseng	Korean	10-20
+Shalala	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Sushitomi	Japanese	20-30
+Cascal	Spanish	30-60
+
+Final selection: Niji SushiUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,32 @@
+02-24-2016:19-58-24	9bac0cc3-c6c3-4509-90df-4d0c670902ca	User 0	joined
+02-24-2016:19-58-24	9bac0cc3-c6c3-4509-90df-4d0c670902ca	User 0 has user ID 3af245df6d3d4ea999525beb3bf030ea
+02-24-2016:19-58-24	9bac0cc3-c6c3-4509-90df-4d0c670902ca	User 1	joined
+02-24-2016:19-58-24	9bac0cc3-c6c3-4509-90df-4d0c670902ca	User 1 has user ID 0060d829dc5d4372b82d1e4453c7a03f
+02-24-2016:19-59-09	9bac0cc3-c6c3-4509-90df-4d0c670902ca	User 0	hello
+02-24-2016:19-59-11	9bac0cc3-c6c3-4509-90df-4d0c670902ca	User 0	pick anything
+02-24-2016:19-59-13	9bac0cc3-c6c3-4509-90df-4d0c670902ca	User 0	Selected restaurant 2:	Scratch
+02-24-2016:19-59-13	9bac0cc3-c6c3-4509-90df-4d0c670902ca	User 1	Oi
+02-24-2016:19-59-17	9bac0cc3-c6c3-4509-90df-4d0c670902ca	User 0	Selected restaurant 2:	Scratch
+02-24-2016:19-59-18	9bac0cc3-c6c3-4509-90df-4d0c670902ca	User 1	You said I could pick!
+02-24-2016:19-59-22	9bac0cc3-c6c3-4509-90df-4d0c670902ca	User 1	Selected restaurant 2:	Scratch
+02-24-2016:19-59-22	---
+02-24-2016:19-59-22	---
+
+Chat Information:
+
+User 0 preferences: 20-30	American, SeaFood, Indian, Deli, Mediterranean
+User 1 preferences: 30-60	SeaFood, Indian, Deli, Mediterranean, American
+
+Café Baklava	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Scratch	American	0-10
+The Crepevine	American	30-60
+Oren's Hummus	Mediterranean	10-20
+Shezan	Indian	10-20
+Shell Shock	SeaFood	10-20
+Steins Beer Garden	American	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Morocco's	Mediterranean	10-20
+
+Final selection: ScratchUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,28 @@
+02-24-2016:20-07-06	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 1	joined
+02-24-2016:20-07-06	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 1 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:20-07-06	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 0	joined
+02-24-2016:20-07-06	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 0 has user ID 75c434db8e144d9497add4d63035b3da
+02-24-2016:20-07-13	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 1	italian or mediterranean?
+02-24-2016:20-07-19	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 0	Selected restaurant 0:	Morocco's
+02-24-2016:20-07-23	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 1	Selected restaurant 0:	Morocco's
+02-24-2016:20-07-23	---
+02-24-2016:20-07-24	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, SeaFood, Mediterranean, Deli, Indian
+User 1 preferences: 10-20	Italian, Mediterranean, Indian, Deli, SeaFood
+
+Morocco's	Mediterranean	10-20
+Subway	Deli	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Drunken Lobster	SeaFood	10-20
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Ristorante Don Giovanni	Italian	0-10
+Posh Bagel	Deli	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: Morocco'sUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,29 @@
+02-24-2016:19-52-10	00c2c158-0916-4eaa-93c7-183194574911	User 0	joined
+02-24-2016:19-52-10	00c2c158-0916-4eaa-93c7-183194574911	User 0 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:19-52-11	00c2c158-0916-4eaa-93c7-183194574911	User 1	joined
+02-24-2016:19-52-11	00c2c158-0916-4eaa-93c7-183194574911	User 1 has user ID a5b28e4fd1bc4ac787293876fd1e7212
+02-24-2016:19-52-18	00c2c158-0916-4eaa-93c7-183194574911	User 0	How about Ginseng?
+02-24-2016:19-52-28	00c2c158-0916-4eaa-93c7-183194574911	User 1	Perfect
+02-24-2016:19-52-32	00c2c158-0916-4eaa-93c7-183194574911	User 1	Selected restaurant 0:	Ginseng
+02-24-2016:19-52-35	00c2c158-0916-4eaa-93c7-183194574911	User 0	Selected restaurant 0:	Ginseng
+02-24-2016:19-52-35	---
+02-24-2016:19-52-36	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Korean, Pizza, French, Italian, SeaFood
+User 1 preferences: 20-30	Korean, Italian, Pizza, SeaFood, French
+
+Ginseng	Korean	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Totoro	Korean	20-30
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Blue Line Pizza	Pizza	10-20
+Chez TJ	French	30-60
+Doppio Zero	Italian	30-60
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

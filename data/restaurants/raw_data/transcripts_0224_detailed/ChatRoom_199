@@ -1,0 +1,26 @@
+02-24-2016:19-45-21	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 0	joined
+02-24-2016:19-45-21	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 0 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:19-45-22	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 1	joined
+02-24-2016:19-45-22	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 1 has user ID f2f592f8736f4de8bff4aee066831e45
+02-24-2016:19-45-27	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 1	Selected restaurant 3:	Sushitomi
+02-24-2016:19-45-41	192cb3e6-bbf1-4ec1-9dc6-b768854f6682	User 0	Selected restaurant 3:	Sushitomi
+02-24-2016:19-45-42	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Japanese, Spanish, Mexican, Korean, Italian
+User 1 preferences: 20-30	Japanese, Spanish, Mexican, Korean, Italian
+
+Bushido	Japanese	10-20
+Ryowa Noodle House	Japanese	20-30
+Rumble Fish	Japanese	30-60
+Sushitomi	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Ristorante Don Giovanni	Italian	0-10
+Ginseng	Korean	10-20
+Yakko	Japanese	0-10
+Vaso Azzurro	Italian	20-30
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: SushitomiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

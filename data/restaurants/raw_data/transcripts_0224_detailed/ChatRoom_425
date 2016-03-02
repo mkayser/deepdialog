@@ -1,0 +1,29 @@
+02-24-2016:19-52-27	51fc67a4-2207-4ec0-b808-f1982964b641	User 1	joined
+02-24-2016:19-52-27	51fc67a4-2207-4ec0-b808-f1982964b641	User 1 has user ID 447f9730cbf242a3b656157a7b89543a
+02-24-2016:19-52-29	51fc67a4-2207-4ec0-b808-f1982964b641	User 0	joined
+02-24-2016:19-52-29	51fc67a4-2207-4ec0-b808-f1982964b641	User 0 has user ID 1f77841153c5477aafab8ca8098d9010
+02-24-2016:19-52-33	51fc67a4-2207-4ec0-b808-f1982964b641	User 1	indian
+02-24-2016:19-52-37	51fc67a4-2207-4ec0-b808-f1982964b641	User 0	sure
+02-24-2016:19-52-40	51fc67a4-2207-4ec0-b808-f1982964b641	User 1	Selected restaurant 3:	Shezan
+02-24-2016:19-52-45	51fc67a4-2207-4ec0-b808-f1982964b641	User 0	Selected restaurant 3:	Shezan
+02-24-2016:19-52-45	---
+02-24-2016:19-52-45	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mediterranean, Indian, French, Mexican, Chinese
+User 1 preferences: 10-20	Indian, Chinese, Mexican, Mediterranean, French
+
+Hong Kong Bistro	Chinese	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Fu Lam Mum	Chinese	30-60
+Shezan	Indian	10-20
+Agave	Mexican	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Kirin	Chinese	10-20
+Taqueria Los Charros	Mexican	0-10
+Café Baklava	Mediterranean	10-20
+
+Final selection: ShezanUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

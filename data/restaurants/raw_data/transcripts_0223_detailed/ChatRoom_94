@@ -1,0 +1,31 @@
+02-19-2016:15-39-55	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 0	joined
+02-19-2016:15-39-56	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	joined
+02-19-2016:15-39-58	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	hi
+02-19-2016:15-40-14	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 0	Hey how about Ehpesus?
+02-19-2016:15-40-37	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	i was really hoping for chinese
+02-19-2016:15-40-45	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	queen house?
+02-19-2016:15-40-55	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 0	I'd do Chinese only at Queen House
+02-19-2016:15-41-01	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	great
+02-19-2016:15-41-05	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 0	Selected restaurant:	Queen House
+02-19-2016:15-41-06	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	Selected restaurant:	Queen House
+02-19-2016:15-41-06	---
+02-19-2016:15-41-06	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Mediterranean, Chinese, Indian, Spanish
+User 1 preferences: 0-10	Indian, Chinese, Spanish, Mexican, Mediterranean
+
+Oren's Hummus	Mediterranean	10-20
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+Cascal	Spanish	30-60
+Fu Lam Mum	Chinese	30-60
+Ehpesus	Mediterranean	0-10
+Queen House	Chinese	0-10
+Hunan Chili	Chinese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+
+Final selection: Queen HouseUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

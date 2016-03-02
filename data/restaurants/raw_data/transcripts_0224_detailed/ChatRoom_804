@@ -1,0 +1,29 @@
+02-24-2016:20-15-24	11381ed8-bf41-4e91-8e44-b699c5f4ff95	User 0	joined
+02-24-2016:20-15-24	11381ed8-bf41-4e91-8e44-b699c5f4ff95	User 0 has user ID 3eafc3230e7e4222a67e2a6ad5a45c7e
+02-24-2016:20-15-25	11381ed8-bf41-4e91-8e44-b699c5f4ff95	User 1	joined
+02-24-2016:20-15-25	11381ed8-bf41-4e91-8e44-b699c5f4ff95	User 1 has user ID cfb7f0ba7d194d2fbc1ab23d0de62457
+02-24-2016:20-15-34	11381ed8-bf41-4e91-8e44-b699c5f4ff95	User 0	Selected restaurant 7:	Shezan
+02-24-2016:20-15-36	11381ed8-bf41-4e91-8e44-b699c5f4ff95	User 1	i want to eat the most expensive pizza in the world
+02-24-2016:20-15-43	11381ed8-bf41-4e91-8e44-b699c5f4ff95	User 1	Selected restaurant 6:	Amici's East Coast Pizzeria
+02-24-2016:20-15-44	11381ed8-bf41-4e91-8e44-b699c5f4ff95	User 0	Selected restaurant 6:	Amici's East Coast Pizzeria
+02-24-2016:20-15-44	---
+02-24-2016:20-15-44	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Indian, Italian, Pizza, Deli, Vietnamese
+User 1 preferences: 30-60	Pizza, Italian, Deli, Vietnamese, Indian
+
+Xanh Restaurant	Vietnamese	10-20
+Asian Box	Vietnamese	30-60
+Pho To Chau	Vietnamese	20-30
+Posh Bagel	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Shezan	Indian	10-20
+Park Ballachi	Indian	0-10
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: Amici's East Coast PizzeriaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

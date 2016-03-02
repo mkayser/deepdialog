@@ -1,0 +1,26 @@
+02-24-2016:19-51-46	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 1	joined
+02-24-2016:19-51-46	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 1 has user ID 075889b8ff3749148bd3444bc217e2bb
+02-24-2016:19-51-46	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 0	joined
+02-24-2016:19-51-46	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 0 has user ID 72c8d67e547348d6a886baa109ea6c7a
+02-24-2016:19-51-53	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 1	Selected restaurant 6:	Amarin Thai Cuisine
+02-24-2016:19-51-58	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 0	Selected restaurant 6:	Amarin Thai Cuisine
+02-24-2016:19-51-58	---
+02-24-2016:19-51-58	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Thai, Pizza, Spanish, Deli, Korean
+User 1 preferences: 0-10	Thai, Deli, Pizza, Spanish, Korean
+
+Blue Line Pizza	Pizza	10-20
+Subway	Deli	10-20
+Bangkok Spoon	Thai	30-60
+Totoro	Korean	20-30
+Cascal	Spanish	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Amarin Thai Cuisine	Thai	20-30
+Posh Bagel	Deli	10-20
+Ginseng	Korean	10-20
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

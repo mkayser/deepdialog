@@ -1,0 +1,28 @@
+02-24-2016:19-56-54	42f90c23-76f5-40f0-ab29-9eb156e83347	User 0	joined
+02-24-2016:19-56-54	42f90c23-76f5-40f0-ab29-9eb156e83347	User 0 has user ID 3af245df6d3d4ea999525beb3bf030ea
+02-24-2016:19-57-02	42f90c23-76f5-40f0-ab29-9eb156e83347	User 1	joined
+02-24-2016:19-57-02	42f90c23-76f5-40f0-ab29-9eb156e83347	User 1 has user ID 2b52bd4b52944038a2ec02b871710355
+02-24-2016:19-57-06	42f90c23-76f5-40f0-ab29-9eb156e83347	User 0	Selected restaurant 0:	Xanh Restaurant
+02-24-2016:19-57-15	42f90c23-76f5-40f0-ab29-9eb156e83347	User 1	sounds good
+02-24-2016:19-57-20	42f90c23-76f5-40f0-ab29-9eb156e83347	User 1	Selected restaurant 0:	Xanh Restaurant
+02-24-2016:19-57-20	---
+02-24-2016:19-57-20	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Vietnamese, Mediterranean, Deli, Mexican, American
+User 1 preferences: 0-10	Mediterranean, Mexican, Deli, American, Vietnamese
+
+Xanh Restaurant	Vietnamese	10-20
+Taqueria Los Charros	Mexican	0-10
+Steins Beer Garden	American	20-30
+Pho To Chau	Vietnamese	20-30
+Café Baklava	Mediterranean	10-20
+Posh Bagel	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Asian Box	Vietnamese	30-60
+Scratch	American	0-10
+
+Final selection: Xanh RestaurantUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,38 @@
+02-24-2016:19-46-34	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	joined
+02-24-2016:19-46-34	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:19-46-38	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0	joined
+02-24-2016:19-46-38	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0 has user ID 2616f23ad0884665b04332107cb63dc5
+02-24-2016:19-46-44	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	doppio
+02-24-2016:19-46-47	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	Selected restaurant 5:	Doppio Zero
+02-24-2016:19-47-11	---
+02-24-2016:19-47-13	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	joined
+02-24-2016:19-47-13	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:19-47-22	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	Selected restaurant 5:	Doppio Zero
+02-24-2016:19-47-26	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0	The place is pricey. What about some Chinese?
+02-24-2016:19-47-30	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	k
+02-24-2016:19-47-36	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	ur pick
+02-24-2016:19-47-48	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0	Let's go to the New Mongolian BBQ
+02-24-2016:19-47-50	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	Selected restaurant 3:	New Mongolian BBQ
+02-24-2016:19-48-07	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	pick it
+02-24-2016:19-48-12	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0	Selected restaurant 3:	New Mongolian BBQ
+02-24-2016:19-48-12	---
+02-24-2016:19-48-12	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Italian, Deli, Spanish, Vietnamese
+User 1 preferences: 20-30	Italian, Deli, Chinese, Spanish, Vietnamese
+
+Asian Box	Vietnamese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Pho To Chau	Vietnamese	20-30
+New Mongolian BBQ	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Doppio Zero	Italian	30-60
+Queen House	Chinese	0-10
+Kirin	Chinese	10-20
+Pho Hoa	Vietnamese	30-60
+Cascal	Spanish	30-60
+
+Final selection: New Mongolian BBQUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

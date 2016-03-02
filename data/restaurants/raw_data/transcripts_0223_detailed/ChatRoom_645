@@ -1,0 +1,28 @@
+02-19-2016:16-46-34	8975bc40-7c9c-491d-9cc9-ccd0c93ca665	User 1	joined
+02-19-2016:16-46-34	8975bc40-7c9c-491d-9cc9-ccd0c93ca665	User 0	joined
+02-19-2016:16-46-36	8975bc40-7c9c-491d-9cc9-ccd0c93ca665	User 1	hi pick any
+02-19-2016:16-46-38	8975bc40-7c9c-491d-9cc9-ccd0c93ca665	User 0	hi 
+02-19-2016:16-46-40	8975bc40-7c9c-491d-9cc9-ccd0c93ca665	User 0	sweet
+02-19-2016:16-46-47	8975bc40-7c9c-491d-9cc9-ccd0c93ca665	User 0	Selected restaurant:	Rumble Fish
+02-19-2016:16-46-50	8975bc40-7c9c-491d-9cc9-ccd0c93ca665	User 1	Selected restaurant:	Rumble Fish
+02-19-2016:16-46-51	---
+02-19-2016:16-47-50	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Japanese, Mexican, Spanish, Deli, Mediterranean
+User 1 preferences: 0-10	Mediterranean, Deli, Mexican, Japanese, Spanish
+
+Maruichi Noodle House	Japanese	0-10
+Morocco's	Mediterranean	10-20
+Niji Sushi	Japanese	10-20
+Taqueria Los Charros	Mexican	0-10
+Yakko	Japanese	0-10
+Ehpesus	Mediterranean	0-10
+Cascal	Spanish	30-60
+Subway	Deli	10-20
+Rumble Fish	Japanese	30-60
+Posh Bagel	Deli	10-20
+
+Final selection: Rumble FishUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

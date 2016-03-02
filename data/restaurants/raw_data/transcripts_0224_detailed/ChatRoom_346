@@ -1,0 +1,29 @@
+02-24-2016:19-50-15	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 0	joined
+02-24-2016:19-50-15	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 0 has user ID 1393e15d6fde46cb9f4502aa09ae8331
+02-24-2016:19-50-16	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 1	joined
+02-24-2016:19-50-16	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 1 has user ID 31395e8a44434644a8be53817cae0a98
+02-24-2016:19-50-23	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 0	Deli or Thai?
+02-24-2016:19-50-32	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 1	deli
+02-24-2016:19-50-36	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 0	Selected restaurant 0:	Posh Bagel
+02-24-2016:19-50-41	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 1	Selected restaurant 0:	Posh Bagel
+02-24-2016:19-50-41	---
+02-24-2016:19-50-41	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Deli, Thai, Korean, American, Chinese
+User 1 preferences: 30-60	American, Deli, Korean, Chinese, Thai
+
+Posh Bagel	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+Totoro	Korean	20-30
+Bierhaus	American	0-10
+Bangkok Spoon	Thai	30-60
+Ginseng	Korean	10-20
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

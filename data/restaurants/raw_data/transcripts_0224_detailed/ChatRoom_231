@@ -1,0 +1,29 @@
+02-24-2016:19-46-34	51645186-7041-473c-9ebe-f5872ce3616f	User 0	joined
+02-24-2016:19-46-34	51645186-7041-473c-9ebe-f5872ce3616f	User 0 has user ID 166720d565e2438a95fc42a5361c88f0
+02-24-2016:19-46-37	51645186-7041-473c-9ebe-f5872ce3616f	User 1	joined
+02-24-2016:19-46-37	51645186-7041-473c-9ebe-f5872ce3616f	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:19-46-38	51645186-7041-473c-9ebe-f5872ce3616f	User 0	Selected restaurant 9:	Casa Lupe Mexican Restaurant
+02-24-2016:19-46-46	51645186-7041-473c-9ebe-f5872ce3616f	User 1	Im hungry for spanish
+02-24-2016:19-46-49	51645186-7041-473c-9ebe-f5872ce3616f	User 1	read my mind!
+02-24-2016:19-46-52	51645186-7041-473c-9ebe-f5872ce3616f	User 1	Selected restaurant 9:	Casa Lupe Mexican Restaurant
+02-24-2016:19-46-52	---
+02-24-2016:19-46-53	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mexican, Indian, Spanish, Deli, SeaFood
+User 1 preferences: 30-60	Spanish, SeaFood, Deli, Indian, Mexican
+
+Cascal	Spanish	30-60
+Drunken Lobster	SeaFood	10-20
+Sakoon	Indian	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Taqueria Los Charros	Mexican	0-10
+Shezan	Indian	10-20
+Shell Shock	SeaFood	10-20
+Agave	Mexican	20-30
+Park Ballachi	Indian	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Casa Lupe Mexican RestaurantUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

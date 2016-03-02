@@ -1,0 +1,29 @@
+02-24-2016:20-07-59	b45fc81b-c1a7-4054-883a-b13b834bae92	User 0	joined
+02-24-2016:20-07-59	b45fc81b-c1a7-4054-883a-b13b834bae92	User 0 has user ID 5df3fb1bdce94b2587a39b5718e3dfce
+02-24-2016:20-08-00	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1	joined
+02-24-2016:20-08-00	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:20-08-04	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1	Chinese?
+02-24-2016:20-08-06	b45fc81b-c1a7-4054-883a-b13b834bae92	User 0	Sure
+02-24-2016:20-08-10	b45fc81b-c1a7-4054-883a-b13b834bae92	User 0	Selected restaurant 0:	Hunan Chili
+02-24-2016:20-08-14	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1	Selected restaurant 0:	Hunan Chili
+02-24-2016:20-08-14	---
+02-24-2016:20-08-15	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Deli, French, Pizza, Chinese
+User 1 preferences: 10-20	Chinese, French, Pizza, Deli, Vietnamese
+
+Hunan Chili	Chinese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Pho To Chau	Vietnamese	20-30
+Kirin	Chinese	10-20
+Fu Lam Mum	Chinese	30-60
+Chez TJ	French	30-60
+Hong Kong Bistro	Chinese	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+New Mongolian BBQ	Chinese	30-60
+Queen House	Chinese	0-10
+
+Final selection: Hunan ChiliUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

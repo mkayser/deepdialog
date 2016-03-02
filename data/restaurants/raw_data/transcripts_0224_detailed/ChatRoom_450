@@ -1,0 +1,27 @@
+02-24-2016:19-52-57	9432fb04-42f9-4084-b528-08a8d8b3b51b	User 0	joined
+02-24-2016:19-52-57	9432fb04-42f9-4084-b528-08a8d8b3b51b	User 0 has user ID 617b7358105c41e2a39b298dac743a7b
+02-24-2016:19-52-57	9432fb04-42f9-4084-b528-08a8d8b3b51b	User 1	joined
+02-24-2016:19-52-57	9432fb04-42f9-4084-b528-08a8d8b3b51b	User 1 has user ID 72c8d67e547348d6a886baa109ea6c7a
+02-24-2016:19-53-03	9432fb04-42f9-4084-b528-08a8d8b3b51b	User 0	Selected restaurant 9:	Chez TJ
+02-24-2016:19-53-11	9432fb04-42f9-4084-b528-08a8d8b3b51b	User 1	Selected restaurant 9:	Chez TJ
+02-24-2016:19-53-11	---
+02-24-2016:19-53-12	---
+
+Chat Information:
+
+User 0 preferences: 30-60	French, Vietnamese, Thai, Pizza, Korean
+User 1 preferences: 20-30	Pizza, French, Korean, Vietnamese, Thai
+
+Pho Hoa	Vietnamese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Ginseng	Korean	10-20
+Blue Line Pizza	Pizza	10-20
+Asian Box	Vietnamese	30-60
+Pho To Chau	Vietnamese	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Totoro	Korean	20-30
+Bangkok Spoon	Thai	30-60
+Chez TJ	French	30-60
+
+Final selection: Chez TJUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

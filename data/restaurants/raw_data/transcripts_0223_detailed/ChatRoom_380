@@ -1,0 +1,37 @@
+02-19-2016:16-25-39	40cd76dd-941e-4ece-add1-8e46969166ef	User 1	joined
+02-19-2016:16-25-42	40cd76dd-941e-4ece-add1-8e46969166ef	User 1	hi
+02-19-2016:16-25-42	40cd76dd-941e-4ece-add1-8e46969166ef	User 0	joined
+02-19-2016:16-25-47	40cd76dd-941e-4ece-add1-8e46969166ef	User 0	Id like to eat at Pho Hoa 789
+02-19-2016:16-25-51	40cd76dd-941e-4ece-add1-8e46969166ef	User 1	pizza?!?!?
+02-19-2016:16-25-56	40cd76dd-941e-4ece-add1-8e46969166ef	User 0	mimic
+02-19-2016:16-25-57	40cd76dd-941e-4ece-add1-8e46969166ef	User 1	nah
+02-19-2016:16-25-57	40cd76dd-941e-4ece-add1-8e46969166ef	User 0	is that you?
+02-19-2016:16-26-01	40cd76dd-941e-4ece-add1-8e46969166ef	User 1	i want pizza or italian
+02-19-2016:16-26-10	40cd76dd-941e-4ece-add1-8e46969166ef	User 1	no
+02-19-2016:16-26-13	40cd76dd-941e-4ece-add1-8e46969166ef	User 1	but i know who you are
+02-19-2016:16-26-13	40cd76dd-941e-4ece-add1-8e46969166ef	User 0	fine
+02-19-2016:16-26-16	40cd76dd-941e-4ece-add1-8e46969166ef	User 0	italian
+02-19-2016:16-26-18	40cd76dd-941e-4ece-add1-8e46969166ef	User 1	ok
+02-19-2016:16-26-22	40cd76dd-941e-4ece-add1-8e46969166ef	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-26-28	40cd76dd-941e-4ece-add1-8e46969166ef	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-26-28	---
+02-19-2016:16-26-28	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Vietnamese, Pizza, Italian, Indian, Spanish
+User 1 preferences: 10-20	Pizza, Italian, Indian, Vietnamese, Spanish
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+Shezan	Indian	10-20
+Ristorante Don Giovanni	Italian	0-10
+Pho Hoa	Vietnamese	30-60
+Doppio Zero	Italian	30-60
+Vaso Azzurro	Italian	20-30
+Cascal	Spanish	30-60
+Pho To Chau	Vietnamese	20-30
+Park Ballachi	Indian	0-10
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

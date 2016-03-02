@@ -1,0 +1,29 @@
+02-24-2016:20-02-24	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	joined
+02-24-2016:20-02-24	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1 has user ID 0aad6311afd54583be7b3db7575a384e
+02-24-2016:20-02-24	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	joined
+02-24-2016:20-02-24	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:20-02-32	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	Vaso Azzurro
+02-24-2016:20-02-38	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	Sure.
+02-24-2016:20-02-41	c055b3c7-afa8-4f15-8483-31d966c10f17	User 1	Selected restaurant 3:	Vaso Azzurro
+02-24-2016:20-02-41	c055b3c7-afa8-4f15-8483-31d966c10f17	User 0	Selected restaurant 3:	Vaso Azzurro
+02-24-2016:20-02-41	---
+02-24-2016:20-02-41	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, American, Mediterranean, Italian, Thai
+User 1 preferences: 10-20	Italian, Mediterranean, SeaFood, American, Thai
+
+The Crepevine	American	30-60
+Amarin Thai Cuisine	Thai	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+Ristorante Don Giovanni	Italian	0-10
+Steins Beer Garden	American	20-30
+Scratch	American	0-10
+Ehpesus	Mediterranean	0-10
+Shell Shock	SeaFood	10-20
+Oren's Hummus	Mediterranean	10-20
+
+Final selection: Vaso AzzurroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

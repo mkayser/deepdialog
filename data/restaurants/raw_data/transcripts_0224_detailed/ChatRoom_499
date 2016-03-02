@@ -1,0 +1,30 @@
+02-24-2016:19-54-10	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 0	joined
+02-24-2016:19-54-10	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 0 has user ID b745a91d655a4b418f42f8d3bf219f17
+02-24-2016:19-54-15	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 1	joined
+02-24-2016:19-54-15	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 1 has user ID afb02269ff784889a1d460ba0f47bd15
+02-24-2016:19-54-21	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 1	Totoro
+02-24-2016:19-54-23	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 0	Ok
+02-24-2016:19-54-25	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 1	doooooo eet
+02-24-2016:19-54-26	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 0	Selected restaurant 4:	Totoro
+02-24-2016:19-54-28	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 1	Selected restaurant 4:	Totoro
+02-24-2016:19-54-28	---
+02-24-2016:19-54-28	---
+
+Chat Information:
+
+User 0 preferences: 30-60	American, Italian, Vietnamese, Mediterranean, Korean
+User 1 preferences: 20-30	Korean, Italian, American, Vietnamese, Mediterranean
+
+Ginseng	Korean	10-20
+Steins Beer Garden	American	20-30
+Doppio Zero	Italian	30-60
+Oren's Hummus	Mediterranean	10-20
+Totoro	Korean	20-30
+Bierhaus	American	0-10
+Ehpesus	Mediterranean	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Vaso Azzurro	Italian	20-30
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

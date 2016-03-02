@@ -1,0 +1,33 @@
+02-24-2016:20-20-02	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 0	joined
+02-24-2016:20-20-02	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 0 has user ID 68d186a75e564e918628c42e68787cfa
+02-24-2016:20-20-04	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 1	joined
+02-24-2016:20-20-04	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-20-15	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 0	hi
+02-24-2016:20-20-24	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 1	hey hey
+02-24-2016:20-20-28	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 0	how about american?  
+02-24-2016:20-20-32	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 0	Scratch?
+02-24-2016:20-20-34	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 1	Selected restaurant 6:	Scratch
+02-24-2016:20-20-35	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 0	my treat!
+02-24-2016:20-20-37	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 1	sure!
+02-24-2016:20-20-41	6dca7192-714d-4bd1-8432-b6fbde184e4c	User 0	Selected restaurant 6:	Scratch
+02-24-2016:20-20-41	---
+02-24-2016:20-20-41	---
+
+Chat Information:
+
+User 0 preferences: 10-20	American, Japanese, Vietnamese, Deli, Pizza
+User 1 preferences: 20-30	American, Vietnamese, Pizza, Deli, Japanese
+
+Pho Hoa	Vietnamese	30-60
+Ryowa Noodle House	Japanese	20-30
+Niji Sushi	Japanese	10-20
+The Crepevine	American	30-60
+Asian Box	Vietnamese	30-60
+Kappo Naminami	Japanese	30-60
+Scratch	American	0-10
+Masa Sushi	Japanese	0-10
+Pho To Chau	Vietnamese	20-30
+Blue Line Pizza	Pizza	10-20
+
+Final selection: ScratchUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

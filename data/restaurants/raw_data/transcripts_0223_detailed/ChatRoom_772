@@ -1,0 +1,25 @@
+02-19-2016:16-53-58	0e1bd670-1360-488c-bea9-c654932db404	User 0	joined
+02-19-2016:16-53-59	0e1bd670-1360-488c-bea9-c654932db404	User 1	joined
+02-19-2016:16-54-00	0e1bd670-1360-488c-bea9-c654932db404	User 1	Selected restaurant:	Pho Hoa
+02-19-2016:16-54-06	0e1bd670-1360-488c-bea9-c654932db404	User 0	Selected restaurant:	Pho Hoa
+02-19-2016:16-54-07	---
+02-19-2016:16-54-07	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Vietnamese, Mexican, Mediterranean, SeaFood, French
+User 1 preferences: 20-30	Mexican, SeaFood, Vietnamese, Mediterranean, French
+
+Ehpesus	Mediterranean	0-10
+Taqueria Los Charros	Mexican	0-10
+Oren's Hummus	Mediterranean	10-20
+Pho To Chau	Vietnamese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Pho Hoa	Vietnamese	30-60
+Morocco's	Mediterranean	10-20
+Asian Box	Vietnamese	30-60
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Pho HoaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

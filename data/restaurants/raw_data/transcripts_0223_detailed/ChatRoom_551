@@ -1,0 +1,27 @@
+02-19-2016:16-40-33	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 0	joined
+02-19-2016:16-40-35	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 1	joined
+02-19-2016:16-41-45	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 0	How about Sakoon?
+02-19-2016:16-43-10	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 1	Selected restaurant:	Sakoon
+02-19-2016:16-43-23	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 1	Sure
+02-19-2016:16-43-28	7923eff3-34a4-4aea-9b52-bfad8c99713b	User 0	Selected restaurant:	Sakoon
+02-19-2016:16-43-29	---
+02-19-2016:16-43-29	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Mediterranean, French, Vietnamese, Italian
+User 1 preferences: 30-60	Indian, Italian, Mediterranean, Vietnamese, French
+
+Sakoon	Indian	30-60
+Asian Box	Vietnamese	30-60
+Vaso Azzurro	Italian	20-30
+Oren's Hummus	Mediterranean	10-20
+Chez TJ	French	30-60
+Shezan	Indian	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Doppio Zero	Italian	30-60
+Morocco's	Mediterranean	10-20
+
+Final selection: SakoonUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

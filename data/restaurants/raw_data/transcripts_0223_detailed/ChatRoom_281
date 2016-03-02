@@ -1,0 +1,31 @@
+02-19-2016:16-11-02	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	joined
+02-19-2016:16-11-03	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	joined
+02-19-2016:16-11-20	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	Hey, what type of food are you in the mood for tonight?
+02-19-2016:16-11-33	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	I'm feeling like mediterranean, maybe Oren's?
+02-19-2016:16-11-47	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	I'm sorry, I'm really not feeling it tonight.  Can we maybe do some Indian?  I want to try to keep it cheap.
+02-19-2016:16-12-22	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	That sound's ok, How about Shezan?
+02-19-2016:16-12-32	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	I can agree to that.  Sounds good.  Let's do it.
+02-19-2016:16-12-36	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	Selected restaurant:	Shezan
+02-19-2016:16-12-36	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	Selected restaurant:	Bierhaus
+02-19-2016:16-12-38	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	Selected restaurant:	Shezan
+02-19-2016:16-12-38	---
+02-19-2016:16-12-38	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Indian, Deli, American, Mediterranean
+User 1 preferences: 20-30	Mediterranean, Indian, Deli, American, Spanish
+
+Oren's Hummus	Mediterranean	10-20
+Cascal	Spanish	30-60
+The Crepevine	American	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+Posh Bagel	Deli	10-20
+Steins Beer Garden	American	20-30
+Café Baklava	Mediterranean	10-20
+Bierhaus	American	0-10
+Shezan	Indian	10-20
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

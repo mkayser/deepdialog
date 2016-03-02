@@ -1,0 +1,34 @@
+02-24-2016:20-10-26	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 0	joined
+02-24-2016:20-10-26	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 0 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:20-10-26	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 1	joined
+02-24-2016:20-10-26	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 1 has user ID 053cd3f4e92140e9900bc5b4e07c6c68
+02-24-2016:20-10-31	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 1	How about deli?
+02-24-2016:20-10-33	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 1	Maybe Posh Bagel?
+02-24-2016:20-10-45	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 1	Selected restaurant 1:	Posh Bagel
+02-24-2016:20-10-49	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 0	Deli isn't my favorite.  I could go for some seafood, mexican, or italian though
+02-24-2016:20-10-57	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 1	Seafood sounds good.
+02-24-2016:20-11-02	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 1	Maybe shell shock.
+02-24-2016:20-11-04	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 0	Selected restaurant 8:	Drunken Lobster
+02-24-2016:20-11-05	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 1	Selected restaurant 0:	Shell Shock
+02-24-2016:20-11-06	f008dbe3-c952-41f4-b1c9-b31fcc775469	User 0	Selected restaurant 0:	Shell Shock
+02-24-2016:20-11-06	---
+02-24-2016:20-11-06	---
+
+Chat Information:
+
+User 0 preferences: 10-20	SeaFood, Mexican, Italian, Deli, Chinese
+User 1 preferences: 10-20	Deli, SeaFood, Italian, Mexican, Chinese
+
+Shell Shock	SeaFood	10-20
+Posh Bagel	Deli	10-20
+Hong Kong Bistro	Chinese	20-30
+Subway	Deli	10-20
+Doppio Zero	Italian	30-60
+Queen House	Chinese	0-10
+Fu Lam Mum	Chinese	30-60
+Agave	Mexican	20-30
+Drunken Lobster	SeaFood	10-20
+Hunan Chili	Chinese	30-60
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

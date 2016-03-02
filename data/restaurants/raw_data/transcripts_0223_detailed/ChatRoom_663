@@ -1,0 +1,29 @@
+02-19-2016:16-47-58	ed9a90f5-3a95-4953-8850-6259e934dd06	User 1	joined
+02-19-2016:16-48-24	ed9a90f5-3a95-4953-8850-6259e934dd06	User 0	joined
+02-19-2016:16-48-28	ed9a90f5-3a95-4953-8850-6259e934dd06	User 0	Could we have Totoro?
+02-19-2016:16-48-28	ed9a90f5-3a95-4953-8850-6259e934dd06	User 0	Please?
+02-19-2016:16-48-43	ed9a90f5-3a95-4953-8850-6259e934dd06	User 1	Sounds good to me.
+02-19-2016:16-48-50	ed9a90f5-3a95-4953-8850-6259e934dd06	User 0	Selected restaurant:	Totoro
+02-19-2016:16-48-50	ed9a90f5-3a95-4953-8850-6259e934dd06	User 1	I like Korean
+02-19-2016:16-48-58	ed9a90f5-3a95-4953-8850-6259e934dd06	User 1	Selected restaurant:	Totoro
+02-19-2016:16-48-58	---
+02-19-2016:16-48-59	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Korean, American, Mediterranean, French, Thai
+User 1 preferences: 20-30	French, Thai, Mediterranean, Korean, American
+
+Café Baklava	Mediterranean	10-20
+Totoro	Korean	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Scratch	American	0-10
+Ehpesus	Mediterranean	0-10
+The Crepevine	American	30-60
+Chez TJ	French	30-60
+Amarin Thai Cuisine	Thai	20-30
+Steins Beer Garden	American	20-30
+Morocco's	Mediterranean	10-20
+
+Final selection: TotoroUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

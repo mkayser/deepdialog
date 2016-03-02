@@ -1,0 +1,29 @@
+02-19-2016:16-44-37	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 0	joined
+02-19-2016:16-44-38	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 1	joined
+02-19-2016:16-44-40	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 0	Heya
+02-19-2016:16-44-45	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 0	Do you like Mediterranean?
+02-19-2016:16-44-54	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 0	I think Grill house sounds gucci
+02-19-2016:16-45-08	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 1	sounds good
+02-19-2016:16-45-18	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 1	Selected restaurant:	Mediterranean Grill House
+02-19-2016:16-45-20	c591d391-9c7e-4bac-a02d-d688f1f93ec7	User 0	Selected restaurant:	Mediterranean Grill House
+02-19-2016:16-45-20	---
+02-19-2016:16-45-20	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Mediterranean, Deli, Vietnamese, Korean, Spanish
+User 1 preferences: 30-60	Mediterranean, Korean, Deli, Vietnamese, Spanish
+
+Totoro	Korean	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Ginseng	Korean	10-20
+Subway	Deli	10-20
+Ehpesus	Mediterranean	0-10
+Pho To Chau	Vietnamese	20-30
+Cascal	Spanish	30-60
+Posh Bagel	Deli	10-20
+Asian Box	Vietnamese	30-60
+
+Final selection: Mediterranean Grill HouseUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,29 @@
+02-24-2016:20-03-32	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 0	joined
+02-24-2016:20-03-32	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 0 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:20-03-34	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 1	joined
+02-24-2016:20-03-34	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 1 has user ID 72c8d67e547348d6a886baa109ea6c7a
+02-24-2016:20-03-40	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 0	Shell Shock?
+02-24-2016:20-03-40	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 1	sea food
+02-24-2016:20-03-42	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 1	Selected restaurant 4:	Shell Shock
+02-24-2016:20-03-45	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 0	Selected restaurant 4:	Shell Shock
+02-24-2016:20-03-46	---
+02-24-2016:20-03-46	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, Japanese, Italian, Vietnamese, Mexican
+User 1 preferences: 10-20	SeaFood, Japanese, Vietnamese, Italian, Mexican
+
+Rumble Fish	Japanese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Taqueria Los Charros	Mexican	0-10
+Vaso Azzurro	Italian	20-30
+Shell Shock	SeaFood	10-20
+Doppio Zero	Italian	30-60
+Shalala	Japanese	10-20
+Asian Box	Vietnamese	30-60
+Sushitomi	Japanese	20-30
+Pho Hoa	Vietnamese	30-60
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

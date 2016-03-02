@@ -1,0 +1,27 @@
+02-24-2016:19-40-02	1c7d32d1-2252-43f7-a285-e79c63fcd6db	User 1	joined
+02-24-2016:19-40-02	1c7d32d1-2252-43f7-a285-e79c63fcd6db	User 1 has user ID 1c72f4728567475d8f76220880432e4e
+02-24-2016:19-40-02	1c7d32d1-2252-43f7-a285-e79c63fcd6db	User 0	joined
+02-24-2016:19-40-02	1c7d32d1-2252-43f7-a285-e79c63fcd6db	User 0 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-40-07	1c7d32d1-2252-43f7-a285-e79c63fcd6db	User 1	Selected restaurant 5:	Park Ballachi
+02-24-2016:19-40-11	1c7d32d1-2252-43f7-a285-e79c63fcd6db	User 0	Selected restaurant 5:	Park Ballachi
+02-24-2016:19-40-12	---
+02-24-2016:19-40-12	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Chinese, Spanish, Vietnamese, Indian, American
+User 1 preferences: 10-20	Spanish, American, Vietnamese, Indian, Chinese
+
+Xanh Restaurant	Vietnamese	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Hunan Chili	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+The Crepevine	American	30-60
+Park Ballachi	Indian	0-10
+Shezan	Indian	10-20
+Pho Hoa	Vietnamese	30-60
+New Mongolian BBQ	Chinese	30-60
+Bierhaus	American	0-10
+
+Final selection: Park BallachiUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

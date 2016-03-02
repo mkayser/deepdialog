@@ -1,0 +1,30 @@
+02-19-2016:16-11-31	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 0	joined
+02-19-2016:16-11-32	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 1	joined
+02-19-2016:16-11-39	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 0	Do you mind if we eat Korean?
+02-19-2016:16-11-53	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 0	Like Totoro?
+02-19-2016:16-11-57	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 1	I likI'd prefer Chinese or Spanish
+02-19-2016:16-12-02	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 0	Ok, which one?
+02-19-2016:16-12-05	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 0	Im game for any
+02-19-2016:16-12-18	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 1	Selected restaurant:	Fu Lam Mum
+02-19-2016:16-12-21	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 0	Selected restaurant:	Fu Lam Mum
+02-19-2016:16-12-22	---
+02-19-2016:16-12-22	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Korean, Chinese, Indian, Japanese, Spanish
+User 1 preferences: 10-20	Chinese, Spanish, Indian, Korean, Japanese
+
+Niji Sushi	Japanese	10-20
+Shezan	Indian	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+Bushido	Japanese	10-20
+Fu Lam Mum	Chinese	30-60
+Ginseng	Korean	10-20
+Ryowa Noodle House	Japanese	20-30
+Totoro	Korean	20-30
+Hunan Chili	Chinese	30-60
+
+Final selection: Fu Lam MumUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

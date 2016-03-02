@@ -1,0 +1,27 @@
+02-24-2016:19-40-30	a68c7d39-5f74-4caf-9084-5247b1ce37b9	User 1	joined
+02-24-2016:19-40-30	a68c7d39-5f74-4caf-9084-5247b1ce37b9	User 1 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-40-31	a68c7d39-5f74-4caf-9084-5247b1ce37b9	User 0	joined
+02-24-2016:19-40-31	a68c7d39-5f74-4caf-9084-5247b1ce37b9	User 0 has user ID 166bcadc45f8455e86e59960617b71f9
+02-24-2016:19-40-38	a68c7d39-5f74-4caf-9084-5247b1ce37b9	User 0	Selected restaurant 2:	Morocco's
+02-24-2016:19-40-41	a68c7d39-5f74-4caf-9084-5247b1ce37b9	User 1	Selected restaurant 2:	Morocco's
+02-24-2016:19-40-42	---
+02-24-2016:19-40-42	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Chinese, Deli, Korean, French
+User 1 preferences: 0-10	Deli, French, Korean, Mediterranean, Chinese
+
+Oren's Hummus	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Fu Lam Mum	Chinese	30-60
+Ginseng	Korean	10-20
+Queen House	Chinese	0-10
+Chez TJ	French	30-60
+Café Baklava	Mediterranean	10-20
+Hunan Chili	Chinese	30-60
+Kirin	Chinese	10-20
+
+Final selection: Morocco'sUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

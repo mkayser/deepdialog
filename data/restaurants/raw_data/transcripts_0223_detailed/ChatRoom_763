@@ -1,0 +1,28 @@
+02-19-2016:16-53-09	cc9effee-b384-4617-bee3-535630dc2166	User 0	joined
+02-19-2016:16-53-10	cc9effee-b384-4617-bee3-535630dc2166	User 1	joined
+02-19-2016:16-53-20	cc9effee-b384-4617-bee3-535630dc2166	User 0	blue line pizza
+02-19-2016:16-53-20	cc9effee-b384-4617-bee3-535630dc2166	User 1	Please choose a place to eat.
+02-19-2016:16-53-30	cc9effee-b384-4617-bee3-535630dc2166	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-53-31	cc9effee-b384-4617-bee3-535630dc2166	User 0	blue line pizza
+02-19-2016:16-53-37	cc9effee-b384-4617-bee3-535630dc2166	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-53-38	---
+02-19-2016:16-53-38	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Pizza, Spanish, Deli, American, SeaFood
+User 1 preferences: 20-30	SeaFood, Deli, Spanish, Pizza, American
+
+Scratch	American	0-10
+The Crepevine	American	30-60
+Shell Shock	SeaFood	10-20
+Steins Beer Garden	American	20-30
+Cascal	Spanish	30-60
+Drunken Lobster	SeaFood	10-20
+Posh Bagel	Deli	10-20
+Bierhaus	American	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

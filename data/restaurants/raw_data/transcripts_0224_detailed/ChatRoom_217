@@ -1,0 +1,27 @@
+02-24-2016:19-46-00	321d2b24-c360-48f3-97fa-eac4e15a2904	User 0	joined
+02-24-2016:19-46-00	321d2b24-c360-48f3-97fa-eac4e15a2904	User 0 has user ID 166720d565e2438a95fc42a5361c88f0
+02-24-2016:19-46-01	321d2b24-c360-48f3-97fa-eac4e15a2904	User 1	joined
+02-24-2016:19-46-01	321d2b24-c360-48f3-97fa-eac4e15a2904	User 1 has user ID 46caadf01a284c8993a97c081137721e
+02-24-2016:19-46-06	321d2b24-c360-48f3-97fa-eac4e15a2904	User 0	Selected restaurant 3:	Scratch
+02-24-2016:19-46-11	321d2b24-c360-48f3-97fa-eac4e15a2904	User 1	Selected restaurant 3:	Scratch
+02-24-2016:19-46-11	---
+02-24-2016:19-46-11	---
+
+Chat Information:
+
+User 0 preferences: 0-10	American, Vietnamese, Italian, Deli, SeaFood
+User 1 preferences: 30-60	American, Italian, Vietnamese, Deli, SeaFood
+
+Pho To Chau	Vietnamese	20-30
+The Crepevine	American	30-60
+Posh Bagel	Deli	10-20
+Scratch	American	0-10
+Pho Hoa	Vietnamese	30-60
+Steins Beer Garden	American	20-30
+Doppio Zero	Italian	30-60
+Xanh Restaurant	Vietnamese	10-20
+Bierhaus	American	0-10
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: ScratchUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

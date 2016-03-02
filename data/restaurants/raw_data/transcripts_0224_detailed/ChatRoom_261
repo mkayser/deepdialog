@@ -1,0 +1,35 @@
+02-24-2016:19-47-31	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1	joined
+02-24-2016:19-47-31	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1 has user ID ed4adaa0061046cba6be3c68a7516603
+02-24-2016:19-47-31	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 0	joined
+02-24-2016:19-47-31	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 0 has user ID d10616914a2d46829a3973b29463fd9f
+02-24-2016:19-48-12	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 0	Selected restaurant 6:	Doppio Zero
+02-24-2016:19-48-16	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1	I would prefer something with vegetarian options
+02-24-2016:19-48-22	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1	cheaper
+02-24-2016:19-48-34	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1	how about italian
+02-24-2016:19-48-38	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 0	soppio zero? im sure they have that opeion
+02-24-2016:19-49-00	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1	how about vaso azurro
+02-24-2016:19-49-07	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 0	Selected restaurant 3:	Vaso Azzurro
+02-24-2016:19-49-16	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 0	sure
+02-24-2016:19-49-17	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1	vaso azzurro
+02-24-2016:19-49-22	76690f1a-9b6c-4e0a-a291-823f4a67fbd0	User 1	Selected restaurant 3:	Vaso Azzurro
+02-24-2016:19-49-22	---
+02-24-2016:19-49-22	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Thai, Deli, Indian, SeaFood
+User 1 preferences: 0-10	SeaFood, Italian, Thai, Deli, Indian
+
+Shezan	Indian	10-20
+Ristorante Don Giovanni	Italian	0-10
+Bangkok Spoon	Thai	30-60
+Vaso Azzurro	Italian	20-30
+Drunken Lobster	SeaFood	10-20
+Subway	Deli	10-20
+Doppio Zero	Italian	30-60
+Park Ballachi	Indian	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Vaso AzzurroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

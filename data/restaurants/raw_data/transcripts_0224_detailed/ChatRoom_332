@@ -1,0 +1,30 @@
+02-24-2016:19-49-48	c9c2eab9-0287-4e52-ad52-70d847b03167	User 1	joined
+02-24-2016:19-49-48	c9c2eab9-0287-4e52-ad52-70d847b03167	User 1 has user ID cd8e156d33b74a0494917b48f6d699a4
+02-24-2016:19-49-48	c9c2eab9-0287-4e52-ad52-70d847b03167	User 0	joined
+02-24-2016:19-49-48	c9c2eab9-0287-4e52-ad52-70d847b03167	User 0 has user ID 1185fb427e3d49c29548e288ddc13446
+02-24-2016:19-49-56	c9c2eab9-0287-4e52-ad52-70d847b03167	User 1	how about maruichi?
+02-24-2016:19-50-01	c9c2eab9-0287-4e52-ad52-70d847b03167	User 0	sounds great
+02-24-2016:19-50-04	c9c2eab9-0287-4e52-ad52-70d847b03167	User 1	yay!
+02-24-2016:19-50-05	c9c2eab9-0287-4e52-ad52-70d847b03167	User 0	Selected restaurant 1:	Maruichi Noodle House
+02-24-2016:19-50-07	c9c2eab9-0287-4e52-ad52-70d847b03167	User 1	Selected restaurant 1:	Maruichi Noodle House
+02-24-2016:19-50-07	---
+02-24-2016:19-50-07	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Chinese, Japanese, American, Vietnamese
+User 1 preferences: 0-10	Japanese, Spanish, American, Vietnamese, Chinese
+
+New Mongolian BBQ	Chinese	30-60
+Maruichi Noodle House	Japanese	0-10
+Sushitomi	Japanese	20-30
+Queen House	Chinese	0-10
+Xanh Restaurant	Vietnamese	10-20
+Ryowa Noodle House	Japanese	20-30
+Hunan Chili	Chinese	30-60
+Shabuway	Japanese	30-60
+The Crepevine	American	30-60
+Kappo Naminami	Japanese	30-60
+
+Final selection: Maruichi Noodle HouseUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

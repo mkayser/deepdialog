@@ -1,0 +1,27 @@
+02-19-2016:16-25-55	ed0b6662-21f7-495a-899b-08598d4e5594	User 1	joined
+02-19-2016:16-25-57	ed0b6662-21f7-495a-899b-08598d4e5594	User 0	joined
+02-19-2016:16-26-22	ed0b6662-21f7-495a-899b-08598d4e5594	User 0	Let's go to Shezan
+02-19-2016:16-26-30	ed0b6662-21f7-495a-899b-08598d4e5594	User 1	ok!
+02-19-2016:16-26-33	ed0b6662-21f7-495a-899b-08598d4e5594	User 1	Selected restaurant:	Shezan
+02-19-2016:16-26-37	ed0b6662-21f7-495a-899b-08598d4e5594	User 0	Selected restaurant:	Shezan
+02-19-2016:16-26-37	---
+02-19-2016:16-26-37	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Pizza, Mexican, Italian, Chinese
+User 1 preferences: 30-60	Chinese, Mexican, Indian, Pizza, Italian
+
+Shezan	Indian	10-20
+Kirin	Chinese	10-20
+Hunan Chili	Chinese	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Fiesta Del Mar Too	Mexican	10-20
+New Mongolian BBQ	Chinese	30-60
+Sakoon	Indian	30-60
+Blue Line Pizza	Pizza	10-20
+Ristorante Don Giovanni	Italian	0-10
+Taqueria Los Charros	Mexican	0-10
+
+Final selection: ShezanUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

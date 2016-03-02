@@ -1,0 +1,28 @@
+02-19-2016:15-25-59	805372cd-61c1-4580-94f8-5705764aa469	User 0	joined
+02-19-2016:15-25-59	805372cd-61c1-4580-94f8-5705764aa469	User 1	joined
+02-19-2016:15-26-33	805372cd-61c1-4580-94f8-5705764aa469	User 0	hey, wanna try morocco's?
+02-19-2016:15-27-10	805372cd-61c1-4580-94f8-5705764aa469	User 0	or amarin thai?
+02-19-2016:15-27-27	805372cd-61c1-4580-94f8-5705764aa469	User 1	Morocco's sounds great to me!
+02-19-2016:15-27-31	805372cd-61c1-4580-94f8-5705764aa469	User 1	Selected restaurant:	Morocco's
+02-19-2016:15-27-42	805372cd-61c1-4580-94f8-5705764aa469	User 0	Selected restaurant:	Morocco's
+02-19-2016:15-27-42	---
+02-19-2016:15-28-42	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Thai, French, Mediterranean, Vietnamese
+User 1 preferences: 0-10	French, Mediterranean, Thai, Mexican, Vietnamese
+
+Café Baklava	Mediterranean	10-20
+Bangkok Spoon	Thai	30-60
+Morocco's	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Agave	Mexican	20-30
+Pho Hoa	Vietnamese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Ehpesus	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Morocco'sUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

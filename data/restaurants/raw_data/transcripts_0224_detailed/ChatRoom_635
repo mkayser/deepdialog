@@ -1,0 +1,28 @@
+02-24-2016:20-00-57	303117ef-b33e-49af-9555-3a2f812f4b47	User 1	joined
+02-24-2016:20-00-57	303117ef-b33e-49af-9555-3a2f812f4b47	User 1 has user ID ac6ec300bec74d6ab9f72c4aac014060
+02-24-2016:20-00-58	303117ef-b33e-49af-9555-3a2f812f4b47	User 0	joined
+02-24-2016:20-00-58	303117ef-b33e-49af-9555-3a2f812f4b47	User 0 has user ID 757a79ba8ec34bbd8f4acc291696d015
+02-24-2016:20-01-06	303117ef-b33e-49af-9555-3a2f812f4b47	User 1	Selected restaurant 5:	Ehpesus
+02-24-2016:20-01-10	303117ef-b33e-49af-9555-3a2f812f4b47	User 0	Elpesus?
+02-24-2016:20-01-15	303117ef-b33e-49af-9555-3a2f812f4b47	User 0	Selected restaurant 5:	Ehpesus
+02-24-2016:20-01-16	---
+02-24-2016:20-01-16	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, Italian, SeaFood, Spanish, Thai
+User 1 preferences: 30-60	Mediterranean, Thai, Italian, Spanish, SeaFood
+
+Drunken Lobster	SeaFood	10-20
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Doppio Zero	Italian	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Ehpesus	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Shell Shock	SeaFood	10-20
+Amarin Thai Cuisine	Thai	20-30
+Bangkok Spoon	Thai	30-60
+
+Final selection: EhpesusUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

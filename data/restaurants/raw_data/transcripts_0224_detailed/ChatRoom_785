@@ -1,0 +1,30 @@
+02-24-2016:20-11-32	2f83c23b-321f-4199-abf5-169d75f69dc7	User 1	joined
+02-24-2016:20-11-32	2f83c23b-321f-4199-abf5-169d75f69dc7	User 1 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:20-11-34	2f83c23b-321f-4199-abf5-169d75f69dc7	User 0	joined
+02-24-2016:20-11-34	2f83c23b-321f-4199-abf5-169d75f69dc7	User 0 has user ID 636466e4c18f4aa0ab4ae2d4c678f8b3
+02-24-2016:20-11-41	2f83c23b-321f-4199-abf5-169d75f69dc7	User 1	I am thinking Japanese food.
+02-24-2016:20-11-42	2f83c23b-321f-4199-abf5-169d75f69dc7	User 0	Selected restaurant 3:	Ristorante Don Giovanni
+02-24-2016:20-11-48	2f83c23b-321f-4199-abf5-169d75f69dc7	User 0	Selected restaurant 8:	Maruichi Noodle House
+02-24-2016:20-11-58	2f83c23b-321f-4199-abf5-169d75f69dc7	User 0	ok
+02-24-2016:20-12-12	2f83c23b-321f-4199-abf5-169d75f69dc7	User 1	Selected restaurant 8:	Maruichi Noodle House
+02-24-2016:20-12-12	---
+02-24-2016:20-12-12	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Italian, Spanish, American, Japanese
+User 1 preferences: 30-60	Japanese, Deli, Italian, American, Spanish
+
+Subway	Deli	10-20
+Cascal	Spanish	30-60
+Shabuway	Japanese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Ryowa Noodle House	Japanese	20-30
+Bierhaus	American	0-10
+Shalala	Japanese	10-20
+Bushido	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+The Crepevine	American	30-60
+
+Final selection: Maruichi Noodle HouseUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

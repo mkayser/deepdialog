@@ -1,0 +1,30 @@
+02-24-2016:19-48-11	82a150bf-aad3-4f1e-8066-cac869d54e67	User 0	joined
+02-24-2016:19-48-11	82a150bf-aad3-4f1e-8066-cac869d54e67	User 0 has user ID b745a91d655a4b418f42f8d3bf219f17
+02-24-2016:19-48-15	82a150bf-aad3-4f1e-8066-cac869d54e67	User 1	joined
+02-24-2016:19-48-15	82a150bf-aad3-4f1e-8066-cac869d54e67	User 1 has user ID 92b3d191708845d5989d939b3bd2d019
+02-24-2016:19-48-24	82a150bf-aad3-4f1e-8066-cac869d54e67	User 0	How about Drunken Lobster?
+02-24-2016:19-48-50	82a150bf-aad3-4f1e-8066-cac869d54e67	User 1	I would rather have Ristoranted Don FIovanni
+02-24-2016:19-48-54	82a150bf-aad3-4f1e-8066-cac869d54e67	User 0	Ok
+02-24-2016:19-48-57	82a150bf-aad3-4f1e-8066-cac869d54e67	User 0	Selected restaurant 0:	Ristorante Don Giovanni
+02-24-2016:19-49-02	82a150bf-aad3-4f1e-8066-cac869d54e67	User 1	Selected restaurant 0:	Ristorante Don Giovanni
+02-24-2016:19-49-02	---
+02-24-2016:19-49-03	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, SeaFood, Mexican, Chinese, Italian
+User 1 preferences: 0-10	Italian, Deli, SeaFood, Mexican, Chinese
+
+Ristorante Don Giovanni	Italian	0-10
+Drunken Lobster	SeaFood	10-20
+Hunan Chili	Chinese	30-60
+Vaso Azzurro	Italian	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Kirin	Chinese	10-20
+New Mongolian BBQ	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Agave	Mexican	20-30
+Shell Shock	SeaFood	10-20
+
+Final selection: Ristorante Don GiovanniUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,34 @@
+02-19-2016:15-35-47	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	joined
+02-19-2016:15-35-50	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	joined
+02-19-2016:15-36-00	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	Hello
+02-19-2016:15-36-05	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	hey
+02-19-2016:15-36-14	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	How do you feel about Korean?
+02-19-2016:15-36-40	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	id much prefer chinese or japanese if thats ok?
+02-19-2016:15-36-51	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	Japanese is cool with me
+02-19-2016:15-36-59	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	Shabuway?
+02-19-2016:15-37-21	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	how about Yakko? they have great prices
+02-19-2016:15-37-42	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	ok. cool
+02-19-2016:15-37-48	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	thanks!
+02-19-2016:15-37-52	873c1c26-1cac-49e3-b398-d802d0466f18	User 1	Selected restaurant:	Yakko
+02-19-2016:15-37-55	873c1c26-1cac-49e3-b398-d802d0466f18	User 0	Selected restaurant:	Yakko
+02-19-2016:15-37-56	---
+02-19-2016:15-37-56	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Chinese, Japanese, Korean, SeaFood, French
+User 1 preferences: 30-60	Korean, Japanese, SeaFood, French, Chinese
+
+Hong Kong Bistro	Chinese	20-30
+Totoro	Korean	20-30
+Yakko	Japanese	0-10
+Shabuway	Japanese	30-60
+Rumble Fish	Japanese	30-60
+Niji Sushi	Japanese	10-20
+New Mongolian BBQ	Chinese	30-60
+Ryowa Noodle House	Japanese	20-30
+Shalala	Japanese	10-20
+Bushido	Japanese	10-20
+
+Final selection: YakkoUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

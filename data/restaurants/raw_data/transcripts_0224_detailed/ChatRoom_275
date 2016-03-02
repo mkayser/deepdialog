@@ -1,0 +1,31 @@
+02-24-2016:19-47-59	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	joined
+02-24-2016:19-47-59	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1 has user ID 6146510ec3fb49a1badc09978fbcc832
+02-24-2016:19-48-00	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	joined
+02-24-2016:19-48-00	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0 has user ID 166bcadc45f8455e86e59960617b71f9
+02-24-2016:19-48-27	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	lets get vietnamese
+02-24-2016:19-48-38	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	Selected restaurant 2:	Asian Box
+02-24-2016:19-48-55	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	Selected restaurant 8:	Xanh Restaurant
+02-24-2016:19-49-12	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	Selected restaurant 5:	Shezan
+02-24-2016:19-49-17	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	Selected restaurant 5:	Shezan
+02-24-2016:19-49-37	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	Selected restaurant 8:	Xanh Restaurant
+02-24-2016:19-49-37	---
+02-24-2016:19-49-37	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Deli, Mexican, Chinese, Vietnamese
+User 1 preferences: 10-20	Vietnamese, Indian, Deli, Mexican, Chinese
+
+Pho To Chau	Vietnamese	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Asian Box	Vietnamese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Fu Lam Mum	Chinese	30-60
+Shezan	Indian	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Taqueria Los Charros	Mexican	0-10
+Xanh Restaurant	Vietnamese	10-20
+Sakoon	Indian	30-60
+
+Final selection: Xanh RestaurantUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

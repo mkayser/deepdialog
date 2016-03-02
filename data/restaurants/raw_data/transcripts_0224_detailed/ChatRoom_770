@@ -1,0 +1,28 @@
+02-24-2016:20-09-12	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 1	joined
+02-24-2016:20-09-12	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 1 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:20-09-17	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 1	Selected restaurant 1:	Subway
+02-24-2016:20-09-22	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 0	joined
+02-24-2016:20-09-22	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 0 has user ID ef7b11569d164096b4f81231f7c9527c
+02-24-2016:20-09-36	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 1	subway please
+02-24-2016:20-09-37	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 0	Selected restaurant 0:	Blue Line Pizza
+02-24-2016:20-09-40	06be26f7-8f30-4aca-bcdc-5f6d3bce49ab	User 0	Selected restaurant 1:	Subway
+02-24-2016:20-09-40	---
+02-24-2016:20-09-41	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Thai, Pizza, Spanish, Deli, Korean
+User 1 preferences: 0-10	Thai, Deli, Pizza, Spanish, Korean
+
+Blue Line Pizza	Pizza	10-20
+Subway	Deli	10-20
+Bangkok Spoon	Thai	30-60
+Totoro	Korean	20-30
+Cascal	Spanish	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Amarin Thai Cuisine	Thai	20-30
+Posh Bagel	Deli	10-20
+Ginseng	Korean	10-20
+
+Final selection: SubwayUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

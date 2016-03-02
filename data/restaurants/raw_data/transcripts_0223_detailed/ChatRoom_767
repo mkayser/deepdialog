@@ -1,0 +1,25 @@
+02-19-2016:16-53-24	55b9c5e9-7812-4516-be22-f4bc73813b68	User 1	joined
+02-19-2016:16-53-24	55b9c5e9-7812-4516-be22-f4bc73813b68	User 0	joined
+02-19-2016:16-53-26	55b9c5e9-7812-4516-be22-f4bc73813b68	User 1	Selected restaurant:	Casa Lupe Mexican Restaurant
+02-19-2016:16-53-33	55b9c5e9-7812-4516-be22-f4bc73813b68	User 0	Selected restaurant:	Casa Lupe Mexican Restaurant
+02-19-2016:16-53-33	---
+02-19-2016:16-53-34	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Spanish, Italian, Mexican, Korean
+User 1 preferences: 0-10	Korean, Spanish, Mexican, Indian, Italian
+
+Vaso Azzurro	Italian	20-30
+Totoro	Korean	20-30
+Agave	Mexican	20-30
+Shezan	Indian	10-20
+Sakoon	Indian	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Ristorante Don Giovanni	Italian	0-10
+Taqueria Los Charros	Mexican	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: Casa Lupe Mexican RestaurantUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

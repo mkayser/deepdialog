@@ -1,0 +1,31 @@
+02-24-2016:19-34-22	c0a2ae15-3dab-4e53-8cfa-3970966027ea	User 1	joined
+02-24-2016:19-34-22	c0a2ae15-3dab-4e53-8cfa-3970966027ea	User 1 has user ID 1393e15d6fde46cb9f4502aa09ae8331
+02-24-2016:19-34-23	c0a2ae15-3dab-4e53-8cfa-3970966027ea	User 0	joined
+02-24-2016:19-34-23	c0a2ae15-3dab-4e53-8cfa-3970966027ea	User 0 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:19-34-35	c0a2ae15-3dab-4e53-8cfa-3970966027ea	User 1	Hey what do you feel like eating?
+02-24-2016:19-34-58	c0a2ae15-3dab-4e53-8cfa-3970966027ea	User 0	seafood you?
+02-24-2016:19-35-02	c0a2ae15-3dab-4e53-8cfa-3970966027ea	User 1	same
+02-24-2016:19-35-05	c0a2ae15-3dab-4e53-8cfa-3970966027ea	User 1	Shell Shock?
+02-24-2016:19-35-09	c0a2ae15-3dab-4e53-8cfa-3970966027ea	User 1	Selected restaurant 3:	Shell Shock
+02-24-2016:19-35-17	c0a2ae15-3dab-4e53-8cfa-3970966027ea	User 0	Selected restaurant 3:	Shell Shock
+02-24-2016:19-35-17	---
+02-24-2016:19-35-17	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, Mediterranean, Chinese, Mexican, Thai
+User 1 preferences: 30-60	SeaFood, Thai, Chinese, Mexican, Mediterranean
+
+Hunan Chili	Chinese	30-60
+Kirin	Chinese	10-20
+Queen House	Chinese	0-10
+Shell Shock	SeaFood	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Oren's Hummus	Mediterranean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+New Mongolian BBQ	Chinese	30-60
+Taqueria Los Charros	Mexican	0-10
+Café Baklava	Mediterranean	10-20
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

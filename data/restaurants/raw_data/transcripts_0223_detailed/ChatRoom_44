@@ -1,0 +1,32 @@
+02-19-2016:15-31-56	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	joined
+02-19-2016:15-31-57	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1	joined
+02-19-2016:15-32-10	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	how about mexican?
+02-19-2016:15-32-47	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1	Ehh okay but lets go somewhere thats not TOO expensive
+02-19-2016:15-33-09	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1	How about Agave>
+02-19-2016:15-33-38	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	i could go cheaper, how about taqueria los charros
+02-19-2016:15-33-46	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1	That's way too cheap
+02-19-2016:15-34-01	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	thats fair
+02-19-2016:15-34-03	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	agave is fine
+02-19-2016:15-34-09	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 0	Selected restaurant:	Agave
+02-19-2016:15-34-40	fa85fba8-86d8-47b2-9736-bf5aa41920e3	User 1	Selected restaurant:	Agave
+02-19-2016:15-34-40	---
+02-19-2016:15-34-40	---
+
+Chat Information:
+
+User 0 preferences: 0-10	French, Mexican, Italian, Mediterranean, Pizza
+User 1 preferences: 20-30	French, Mediterranean, Mexican, Italian, Pizza
+
+Doppio Zero	Italian	30-60
+Agave	Mexican	20-30
+Blue Line Pizza	Pizza	10-20
+Ehpesus	Mediterranean	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Chez TJ	French	30-60
+Café Baklava	Mediterranean	10-20
+Taqueria Los Charros	Mexican	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: AgaveUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

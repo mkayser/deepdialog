@@ -1,0 +1,27 @@
+02-24-2016:19-51-07	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	joined
+02-24-2016:19-51-07	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0 has user ID 31395e8a44434644a8be53817cae0a98
+02-24-2016:19-51-12	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1	joined
+02-24-2016:19-51-12	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1 has user ID 20564f20d8714dc4af09c24a64219e9f
+02-24-2016:19-51-21	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1	Selected restaurant 7:	Shezan
+02-24-2016:19-51-26	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	Selected restaurant 7:	Shezan
+02-24-2016:19-51-26	---
+02-24-2016:19-51-26	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Deli, Mediterranean, Indian, Vietnamese, Spanish
+User 1 preferences: 30-60	Indian, Mediterranean, Vietnamese, Deli, Spanish
+
+Asian Box	Vietnamese	30-60
+Subway	Deli	10-20
+Xanh Restaurant	Vietnamese	10-20
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+Pho To Chau	Vietnamese	20-30
+Ehpesus	Mediterranean	0-10
+Shezan	Indian	10-20
+Posh Bagel	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,27 @@
+02-24-2016:19-35-03	b49c3365-55ec-48d8-a73d-253eb5a43aec	User 1	joined
+02-24-2016:19-35-03	b49c3365-55ec-48d8-a73d-253eb5a43aec	User 1 has user ID 76df509e371c443bb75a16f65e4c61c6
+02-24-2016:19-35-04	b49c3365-55ec-48d8-a73d-253eb5a43aec	User 0	joined
+02-24-2016:19-35-04	b49c3365-55ec-48d8-a73d-253eb5a43aec	User 0 has user ID 712afed483d04d18aa22b2865ec5d8bb
+02-24-2016:19-35-26	b49c3365-55ec-48d8-a73d-253eb5a43aec	User 0	Selected restaurant 7:	Queen House
+02-24-2016:19-36-18	b49c3365-55ec-48d8-a73d-253eb5a43aec	User 1	Selected restaurant 7:	Queen House
+02-24-2016:19-36-19	---
+02-24-2016:19-36-19	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Pizza, Chinese, Japanese, SeaFood, Spanish
+User 1 preferences: 20-30	Chinese, Japanese, Pizza, SeaFood, Spanish
+
+Shabuway	Japanese	30-60
+Cascal	Spanish	30-60
+Rumble Fish	Japanese	30-60
+Niji Sushi	Japanese	10-20
+Fu Lam Mum	Chinese	30-60
+Kappo Naminami	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Queen House	Chinese	0-10
+Hunan Chili	Chinese	30-60
+Kirin	Chinese	10-20
+
+Final selection: Queen HouseUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,28 @@
+02-19-2016:16-18-10	ee70b791-4f86-4abd-a743-20742b539d6b	User 1	joined
+02-19-2016:16-18-11	ee70b791-4f86-4abd-a743-20742b539d6b	User 0	joined
+02-19-2016:16-18-33	ee70b791-4f86-4abd-a743-20742b539d6b	User 1	Greek? (Mediterranean?)
+02-19-2016:16-18-43	ee70b791-4f86-4abd-a743-20742b539d6b	User 0	How about Ginseng? I'm not up for Greek
+02-19-2016:16-18-54	ee70b791-4f86-4abd-a743-20742b539d6b	User 1	Okay!
+02-19-2016:16-18-59	ee70b791-4f86-4abd-a743-20742b539d6b	User 0	Selected restaurant:	Ginseng
+02-19-2016:16-19-02	ee70b791-4f86-4abd-a743-20742b539d6b	User 1	Selected restaurant:	Ginseng
+02-19-2016:16-19-02	---
+02-19-2016:16-19-02	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Korean, Pizza, Vietnamese, Deli, Mediterranean
+User 1 preferences: 0-10	Mediterranean, Pizza, Korean, Deli, Vietnamese
+
+Pho To Chau	Vietnamese	20-30
+Posh Bagel	Deli	10-20
+Xanh Restaurant	Vietnamese	10-20
+Pho Hoa	Vietnamese	30-60
+Asian Box	Vietnamese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Ginseng	Korean	10-20
+Totoro	Korean	20-30
+Café Baklava	Mediterranean	10-20
+Subway	Deli	10-20
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

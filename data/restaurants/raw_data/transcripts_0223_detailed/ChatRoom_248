@@ -1,0 +1,29 @@
+02-19-2016:16-06-14	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 1	joined
+02-19-2016:16-06-15	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 0	joined
+02-19-2016:16-06-34	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 1	Japanese?
+02-19-2016:16-06-43	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 0	Eh, I'm not feeling it....how about Pizza?
+02-19-2016:16-06-57	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 1	Blue Line Pizza?
+02-19-2016:16-07-03	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 0	Perfect for me.  Let's do it.
+02-19-2016:16-07-04	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-07-06	b9417fe1-695b-4e52-b5f8-ae1f645b691a	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-07-07	---
+02-19-2016:16-07-07	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Pizza, Spanish, Thai, Mediterranean, Japanese
+User 1 preferences: 30-60	Thai, Spanish, Japanese, Pizza, Mediterranean
+
+Rumble Fish	Japanese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Blue Line Pizza	Pizza	10-20
+Sushitomi	Japanese	20-30
+Shabuway	Japanese	30-60
+Bushido	Japanese	10-20
+Café Baklava	Mediterranean	10-20
+Yakko	Japanese	0-10
+Morocco's	Mediterranean	10-20
+Kappo Naminami	Japanese	30-60
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

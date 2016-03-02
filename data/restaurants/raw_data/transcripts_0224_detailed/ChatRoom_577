@@ -1,0 +1,30 @@
+02-24-2016:19-57-55	2a81e04d-e7ff-48ff-b97d-70489ab39ed9	User 0	joined
+02-24-2016:19-57-55	2a81e04d-e7ff-48ff-b97d-70489ab39ed9	User 0 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:19-57-56	2a81e04d-e7ff-48ff-b97d-70489ab39ed9	User 1	joined
+02-24-2016:19-57-56	2a81e04d-e7ff-48ff-b97d-70489ab39ed9	User 1 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:19-58-04	2a81e04d-e7ff-48ff-b97d-70489ab39ed9	User 1	Mexican?
+02-24-2016:19-58-05	2a81e04d-e7ff-48ff-b97d-70489ab39ed9	User 0	Selected restaurant 3:	Cascal
+02-24-2016:19-58-08	2a81e04d-e7ff-48ff-b97d-70489ab39ed9	User 0	Selected restaurant 2:	Taqueria Los Charros
+02-24-2016:19-58-10	2a81e04d-e7ff-48ff-b97d-70489ab39ed9	User 0	ok
+02-24-2016:19-58-15	2a81e04d-e7ff-48ff-b97d-70489ab39ed9	User 1	Selected restaurant 2:	Taqueria Los Charros
+02-24-2016:19-58-15	---
+02-24-2016:19-58-15	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Spanish, Mexican, Deli, Mediterranean, Korean
+User 1 preferences: 20-30	Deli, Mediterranean, Spanish, Mexican, Korean
+
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Taqueria Los Charros	Mexican	0-10
+Cascal	Spanish	30-60
+Posh Bagel	Deli	10-20
+Totoro	Korean	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Agave	Mexican	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

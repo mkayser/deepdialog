@@ -1,0 +1,29 @@
+02-24-2016:19-34-43	9915da4c-ab52-48cc-8962-19d97393ea2c	User 1	joined
+02-24-2016:19-34-43	9915da4c-ab52-48cc-8962-19d97393ea2c	User 1 has user ID 714726608fb04babba37ffb9e1d8f25d
+02-24-2016:19-34-44	9915da4c-ab52-48cc-8962-19d97393ea2c	User 0	joined
+02-24-2016:19-34-44	9915da4c-ab52-48cc-8962-19d97393ea2c	User 0 has user ID 1c72f4728567475d8f76220880432e4e
+02-24-2016:19-34-51	9915da4c-ab52-48cc-8962-19d97393ea2c	User 0	Selected restaurant 0:	Cascal
+02-24-2016:19-34-56	9915da4c-ab52-48cc-8962-19d97393ea2c	User 0	Selected restaurant 1:	Amici's East Coast Pizzeria
+02-24-2016:19-35-02	9915da4c-ab52-48cc-8962-19d97393ea2c	User 0	Selected restaurant 7:	Blue Line Pizza
+02-24-2016:19-35-11	9915da4c-ab52-48cc-8962-19d97393ea2c	User 1	Selected restaurant 7:	Blue Line Pizza
+02-24-2016:19-35-11	---
+02-24-2016:19-35-11	---
+
+Chat Information:
+
+User 0 preferences: 20-30	American, Korean, Indian, Spanish, Pizza
+User 1 preferences: 10-20	Pizza, Korean, Spanish, Indian, American
+
+Cascal	Spanish	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Ginseng	Korean	10-20
+Shezan	Indian	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Park Ballachi	Indian	0-10
+Scratch	American	0-10
+Blue Line Pizza	Pizza	10-20
+The Crepevine	American	30-60
+Bierhaus	American	0-10
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

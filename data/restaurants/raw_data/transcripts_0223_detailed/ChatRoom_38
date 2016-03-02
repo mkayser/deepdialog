@@ -1,0 +1,28 @@
+02-19-2016:15-31-10	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 1	joined
+02-19-2016:15-31-10	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 0	joined
+02-19-2016:15-31-27	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 1	hey how about agave
+02-19-2016:15-31-51	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 0	Lets go to the drunken lobster. Its cheap.
+02-19-2016:15-31-56	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 1	ok
+02-19-2016:15-32-00	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 1	Selected restaurant:	Drunken Lobster
+02-19-2016:15-32-05	c4eb001b-4644-4be9-bdee-17bb7c8d55dc	User 0	Selected restaurant:	Drunken Lobster
+02-19-2016:15-32-06	---
+02-19-2016:15-32-06	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, Mexican, SeaFood, Spanish, French
+User 1 preferences: 20-30	French, Mexican, Italian, SeaFood, Spanish
+
+Fiesta Del Mar Too	Mexican	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Agave	Mexican	20-30
+Vaso Azzurro	Italian	20-30
+Doppio Zero	Italian	30-60
+Shell Shock	SeaFood	10-20
+Taqueria Los Charros	Mexican	0-10
+Cascal	Spanish	30-60
+Chez TJ	French	30-60
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Drunken LobsterUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

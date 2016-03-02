@@ -1,0 +1,32 @@
+02-19-2016:16-16-44	b2102a4f-89e3-4055-8431-af12f3bfd931	User 0	joined
+02-19-2016:16-16-46	b2102a4f-89e3-4055-8431-af12f3bfd931	User 1	joined
+02-19-2016:16-16-52	b2102a4f-89e3-4055-8431-af12f3bfd931	User 1	Hi! How's Subway for you?
+02-19-2016:16-16-55	b2102a4f-89e3-4055-8431-af12f3bfd931	User 0	Where do you want to eat? 789
+02-19-2016:16-16-57	b2102a4f-89e3-4055-8431-af12f3bfd931	User 1	(words I never thought I'd say)
+02-19-2016:16-16-58	b2102a4f-89e3-4055-8431-af12f3bfd931	User 0	Sounds great
+02-19-2016:16-17-01	b2102a4f-89e3-4055-8431-af12f3bfd931	User 0	right?
+02-19-2016:16-17-02	b2102a4f-89e3-4055-8431-af12f3bfd931	User 0	lol
+02-19-2016:16-17-02	b2102a4f-89e3-4055-8431-af12f3bfd931	User 1	Selected restaurant:	Subway
+02-19-2016:16-17-05	b2102a4f-89e3-4055-8431-af12f3bfd931	User 1	:)
+02-19-2016:16-17-06	b2102a4f-89e3-4055-8431-af12f3bfd931	User 0	Selected restaurant:	Subway
+02-19-2016:16-17-06	---
+02-19-2016:16-17-07	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Deli, Thai, Italian, Japanese, French
+User 1 preferences: 10-20	Deli, Japanese, French, Thai, Italian
+
+Shabuway	Japanese	30-60
+Vaso Azzurro	Italian	20-30
+Ryowa Noodle House	Japanese	20-30
+Chez TJ	French	30-60
+Sushitomi	Japanese	20-30
+Bushido	Japanese	10-20
+Doppio Zero	Italian	30-60
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Subway	Deli	10-20
+
+Final selection: SubwayUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

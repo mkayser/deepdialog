@@ -1,0 +1,32 @@
+02-24-2016:19-55-04	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	joined
+02-24-2016:19-55-04	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0 has user ID 1c72f4728567475d8f76220880432e4e
+02-24-2016:19-55-05	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	joined
+02-24-2016:19-55-05	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1 has user ID ecb9be7e240a471d97a69d5ebf6b8597
+02-24-2016:19-55-08	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	Yes
+02-24-2016:19-55-11	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	Selected restaurant 4:	Park Ballachi
+02-24-2016:19-55-19	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	Negatory
+02-24-2016:19-55-21	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	that one good?
+02-24-2016:19-55-22	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	ok
+02-24-2016:19-55-26	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 1	Selected restaurant 3:	Shabuway
+02-24-2016:19-55-30	3303534d-373d-439f-9bcf-cf5c14ae3b5e	User 0	Selected restaurant 3:	Shabuway
+02-24-2016:19-55-30	---
+02-24-2016:19-55-30	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Vietnamese, Chinese, Indian, Japanese
+User 1 preferences: 30-60	Japanese, Vietnamese, Chinese, SeaFood, Indian
+
+Pho To Chau	Vietnamese	20-30
+Sakoon	Indian	30-60
+Pho Hoa	Vietnamese	30-60
+Shabuway	Japanese	30-60
+Park Ballachi	Indian	0-10
+Shell Shock	SeaFood	10-20
+Shezan	Indian	10-20
+Niji Sushi	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+New Mongolian BBQ	Chinese	30-60
+
+Final selection: ShabuwayUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,28 @@
+02-24-2016:20-23-03	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 1	joined
+02-24-2016:20-23-03	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 1 has user ID 3cc538f6316d41c284277992d5396245
+02-24-2016:20-23-03	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0	joined
+02-24-2016:20-23-03	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0 has user ID 30ea9f32538942e28098e4a4d5db45cc
+02-24-2016:20-23-07	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 1	Selected restaurant 2:	Amarin Thai Cuisine
+02-24-2016:20-23-17	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0	sounds good
+02-24-2016:20-23-21	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0	Selected restaurant 2:	Amarin Thai Cuisine
+02-24-2016:20-23-21	---
+02-24-2016:20-23-21	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, Spanish, Indian, Mediterranean, American
+User 1 preferences: 0-10	Thai, Spanish, Indian, Mediterranean, American
+
+Shezan	Indian	10-20
+Steins Beer Garden	American	20-30
+Amarin Thai Cuisine	Thai	20-30
+Sakoon	Indian	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Morocco's	Mediterranean	10-20
+Bangkok Spoon	Thai	30-60
+Cascal	Spanish	30-60
+Ehpesus	Mediterranean	0-10
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

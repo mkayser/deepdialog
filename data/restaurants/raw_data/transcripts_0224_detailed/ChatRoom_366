@@ -1,0 +1,29 @@
+02-24-2016:19-50-38	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	joined
+02-24-2016:19-50-38	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-50-40	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	joined
+02-24-2016:19-50-40	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-50-47	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	I'm broke and have a hankering for korean
+02-24-2016:19-50-50	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	Ginseng?
+02-24-2016:19-50-56	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	Selected restaurant 6:	Ginseng
+02-24-2016:19-51-01	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	Selected restaurant 6:	Ginseng
+02-24-2016:19-51-01	---
+02-24-2016:19-51-01	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, French, Mediterranean, Japanese, Vietnamese
+User 1 preferences: 20-30	French, Mediterranean, Korean, Japanese, Vietnamese
+
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Pho To Chau	Vietnamese	20-30
+Rumble Fish	Japanese	30-60
+Yakko	Japanese	0-10
+Masa Sushi	Japanese	0-10
+Ginseng	Korean	10-20
+Totoro	Korean	20-30
+Niji Sushi	Japanese	10-20
+Pho Hoa	Vietnamese	30-60
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

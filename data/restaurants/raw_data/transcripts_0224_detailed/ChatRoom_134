@@ -1,0 +1,27 @@
+02-24-2016:19-42-33	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 1	joined
+02-24-2016:19-42-33	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 1 has user ID d44226f09679417e8a4fa2ffacbb4fa8
+02-24-2016:19-42-38	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 0	joined
+02-24-2016:19-42-38	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 0 has user ID f3f92a2cb4a54185a68018bf3453fb20
+02-24-2016:19-42-47	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 1	Selected restaurant 4:	Sushitomi
+02-24-2016:19-43-03	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 0	Selected restaurant 4:	Sushitomi
+02-24-2016:19-43-03	---
+02-24-2016:19-43-03	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Japanese, Italian, Thai, Vietnamese
+User 1 preferences: 20-30	Thai, Vietnamese, Chinese, Italian, Japanese
+
+Hunan Chili	Chinese	30-60
+Kirin	Chinese	10-20
+Shabuway	Japanese	30-60
+New Mongolian BBQ	Chinese	30-60
+Sushitomi	Japanese	20-30
+Ryowa Noodle House	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Bushido	Japanese	10-20
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: SushitomiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

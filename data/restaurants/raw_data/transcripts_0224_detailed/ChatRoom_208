@@ -1,0 +1,28 @@
+02-24-2016:19-45-41	ac50f6ad-4000-4512-9a56-5acf00b86f56	User 1	joined
+02-24-2016:19-45-41	ac50f6ad-4000-4512-9a56-5acf00b86f56	User 1 has user ID 714726608fb04babba37ffb9e1d8f25d
+02-24-2016:19-45-42	ac50f6ad-4000-4512-9a56-5acf00b86f56	User 0	joined
+02-24-2016:19-45-42	ac50f6ad-4000-4512-9a56-5acf00b86f56	User 0 has user ID 0398c4f9eab24ba2b94f5ab59c5301b9
+02-24-2016:19-45-49	ac50f6ad-4000-4512-9a56-5acf00b86f56	User 0	Selected restaurant 3:	Xanh Restaurant
+02-24-2016:19-46-00	ac50f6ad-4000-4512-9a56-5acf00b86f56	User 1	Selected restaurant 7:	Hong Kong Bistro
+02-24-2016:19-46-10	ac50f6ad-4000-4512-9a56-5acf00b86f56	User 0	Selected restaurant 7:	Hong Kong Bistro
+02-24-2016:19-46-10	---
+02-24-2016:19-46-11	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, Vietnamese, Pizza, Deli, Chinese
+User 1 preferences: 20-30	Pizza, Chinese, Vietnamese, Deli, Thai
+
+Bangkok Spoon	Thai	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+New Mongolian BBQ	Chinese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Queen House	Chinese	0-10
+Kirin	Chinese	10-20
+Pho To Chau	Vietnamese	20-30
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+Posh Bagel	Deli	10-20
+
+Final selection: Hong Kong BistroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

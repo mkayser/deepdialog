@@ -1,0 +1,27 @@
+02-24-2016:19-39-50	320db44b-c443-4749-80b6-0f0215df36f6	User 1	joined
+02-24-2016:19-39-50	320db44b-c443-4749-80b6-0f0215df36f6	User 1 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-40-00	320db44b-c443-4749-80b6-0f0215df36f6	User 0	joined
+02-24-2016:19-40-00	320db44b-c443-4749-80b6-0f0215df36f6	User 0 has user ID a08eb0381f614efb81f21a4ed99a6912
+02-24-2016:19-40-02	320db44b-c443-4749-80b6-0f0215df36f6	User 1	Selected restaurant 0:	Park Ballachi
+02-24-2016:19-40-10	320db44b-c443-4749-80b6-0f0215df36f6	User 0	Selected restaurant 0:	Park Ballachi
+02-24-2016:19-40-11	---
+02-24-2016:19-40-13	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Pizza, Korean, Indian, SeaFood
+User 1 preferences: 10-20	Indian, SeaFood, Korean, Deli, Pizza
+
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+Posh Bagel	Deli	10-20
+Shezan	Indian	10-20
+Shell Shock	SeaFood	10-20
+Blue Line Pizza	Pizza	10-20
+Ginseng	Korean	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Park BallachiUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

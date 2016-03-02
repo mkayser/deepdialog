@@ -1,0 +1,29 @@
+02-19-2016:15-32-57	321d2b24-c360-48f3-97fa-eac4e15a2904	User 0	joined
+02-19-2016:15-32-58	321d2b24-c360-48f3-97fa-eac4e15a2904	User 1	joined
+02-19-2016:15-33-08	321d2b24-c360-48f3-97fa-eac4e15a2904	User 0	hi
+02-19-2016:15-33-17	321d2b24-c360-48f3-97fa-eac4e15a2904	User 1	Lets do American.  How about the Crepevine?
+02-19-2016:15-33-20	321d2b24-c360-48f3-97fa-eac4e15a2904	User 1	Hello
+02-19-2016:15-33-25	321d2b24-c360-48f3-97fa-eac4e15a2904	User 0	sounds good
+02-19-2016:15-33-30	321d2b24-c360-48f3-97fa-eac4e15a2904	User 0	Selected restaurant:	The Crepevine
+02-19-2016:15-33-36	321d2b24-c360-48f3-97fa-eac4e15a2904	User 1	Selected restaurant:	The Crepevine
+02-19-2016:15-33-36	---
+02-19-2016:15-33-36	---
+
+Chat Information:
+
+User 0 preferences: 0-10	American, Vietnamese, Italian, Deli, SeaFood
+User 1 preferences: 30-60	American, Italian, Vietnamese, Deli, SeaFood
+
+Pho To Chau	Vietnamese	20-30
+The Crepevine	American	30-60
+Posh Bagel	Deli	10-20
+Scratch	American	0-10
+Pho Hoa	Vietnamese	30-60
+Steins Beer Garden	American	20-30
+Doppio Zero	Italian	30-60
+Xanh Restaurant	Vietnamese	10-20
+Bierhaus	American	0-10
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: The CrepevineUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

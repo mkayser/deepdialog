@@ -1,0 +1,29 @@
+02-24-2016:19-53-58	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	joined
+02-24-2016:19-53-58	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0 has user ID 586932e1fabb456a9014f888f5261ad2
+02-24-2016:19-54-00	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	joined
+02-24-2016:19-54-00	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1 has user ID 1e19eff1e12d4e98b07ce31188b389a8
+02-24-2016:19-54-12	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	pho?
+02-24-2016:19-54-20	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Hrm
+02-24-2016:19-54-24	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	Selected restaurant 2:	Pho Hoa
+02-24-2016:19-54-34	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Selected restaurant 2:	Pho Hoa
+02-24-2016:19-54-35	---
+02-24-2016:19-54-35	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Spanish, Mexican, Deli, Vietnamese
+User 1 preferences: 0-10	Vietnamese, Deli, Mediterranean, Mexican, Spanish
+
+Posh Bagel	Deli	10-20
+Asian Box	Vietnamese	30-60
+Pho Hoa	Vietnamese	30-60
+Subway	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Ehpesus	Mediterranean	0-10
+Pho To Chau	Vietnamese	20-30
+Café Baklava	Mediterranean	10-20
+Cascal	Spanish	30-60
+
+Final selection: Pho HoaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

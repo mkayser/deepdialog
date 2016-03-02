@@ -1,0 +1,27 @@
+02-24-2016:20-00-38	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 0	joined
+02-24-2016:20-00-38	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 0 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:20-00-39	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 1	joined
+02-24-2016:20-00-39	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 1 has user ID 6146510ec3fb49a1badc09978fbcc832
+02-24-2016:20-00-44	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 1	Selected restaurant 8:	Blue Line Pizza
+02-24-2016:20-00-47	f7985bfd-1081-4984-8ea0-7cefd60bc31c	User 0	Selected restaurant 8:	Blue Line Pizza
+02-24-2016:20-00-47	---
+02-24-2016:20-00-47	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Vietnamese, Mexican, SeaFood, Pizza, Spanish
+User 1 preferences: 10-20	Pizza, SeaFood, Spanish, Vietnamese, Mexican
+
+Taqueria Los Charros	Mexican	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Shell Shock	SeaFood	10-20
+Cascal	Spanish	30-60
+Agave	Mexican	20-30
+Pho Hoa	Vietnamese	30-60
+Drunken Lobster	SeaFood	10-20
+Blue Line Pizza	Pizza	10-20
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,36 @@
+02-24-2016:20-11-22	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	joined
+02-24-2016:20-11-22	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-11-37	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	Spanish?
+02-24-2016:20-11-39	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	joined
+02-24-2016:20-11-39	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0 has user ID 72c8d67e547348d6a886baa109ea6c7a
+02-24-2016:20-11-42	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	pizza
+02-24-2016:20-11-45	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	Selected restaurant 6:	Blue Line Pizza
+02-24-2016:20-11-47	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	oh no I hate pizza
+02-24-2016:20-11-51	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	americna?
+02-24-2016:20-11-53	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	american?
+02-24-2016:20-11-58	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	Korean?
+02-24-2016:20-12-04	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	allergic
+02-24-2016:20-12-05	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	spanish?
+02-24-2016:20-12-12	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	Selected restaurant 4:	Cascal
+02-24-2016:20-12-14	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 1	ok!
+02-24-2016:20-12-17	5353199e-9d5d-4943-8f62-01e1744f0ad7	User 0	Selected restaurant 4:	Cascal
+02-24-2016:20-12-17	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Pizza, American, Spanish, Mexican, Korean
+User 1 preferences: 30-60	Spanish, Korean, Mexican, Pizza, American
+
+Bierhaus	American	0-10
+Steins Beer Garden	American	20-30
+Totoro	Korean	20-30
+Scratch	American	0-10
+Cascal	Spanish	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Blue Line Pizza	Pizza	10-20
+Agave	Mexican	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Taqueria Los Charros	Mexican	0-10
+
+Final selection: CascalUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,32 @@
+02-19-2016:16-50-57	8a341ff0-7be8-432c-b2fe-3660082ece23	User 0	joined
+02-19-2016:16-50-59	8a341ff0-7be8-432c-b2fe-3660082ece23	User 1	joined
+02-19-2016:16-51-03	8a341ff0-7be8-432c-b2fe-3660082ece23	User 1	Selected restaurant:	Bierhaus
+02-19-2016:16-51-05	8a341ff0-7be8-432c-b2fe-3660082ece23	User 0	Hey buddy, you in the mood for some Pho?  Some Vietnamese?
+02-19-2016:16-51-30	8a341ff0-7be8-432c-b2fe-3660082ece23	User 1	Pho sho
+02-19-2016:16-51-46	8a341ff0-7be8-432c-b2fe-3660082ece23	User 1	Some Xanhs?
+02-19-2016:16-51-46	8a341ff0-7be8-432c-b2fe-3660082ece23	User 0	Haha ok, let's do Asian Box then, they have the best.
+02-19-2016:16-52-13	8a341ff0-7be8-432c-b2fe-3660082ece23	User 1	I only have 3 dollars D:
+02-19-2016:16-52-22	8a341ff0-7be8-432c-b2fe-3660082ece23	User 1	Selected restaurant:	Xanh Restaurant
+02-19-2016:16-52-29	8a341ff0-7be8-432c-b2fe-3660082ece23	User 0	Ah ok, Xanh works for me then, no problem.
+02-19-2016:16-52-32	8a341ff0-7be8-432c-b2fe-3660082ece23	User 0	Selected restaurant:	Xanh Restaurant
+02-19-2016:16-52-33	---
+02-19-2016:16-52-33	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Deli, American, Italian, Pizza
+User 1 preferences: 20-30	Pizza, Italian, Deli, American, Vietnamese
+
+Pho To Chau	Vietnamese	20-30
+Bierhaus	American	0-10
+Posh Bagel	Deli	10-20
+Xanh Restaurant	Vietnamese	10-20
+Asian Box	Vietnamese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Subway	Deli	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+Doppio Zero	Italian	30-60
+
+Final selection: Xanh RestaurantUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

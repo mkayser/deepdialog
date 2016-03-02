@@ -1,0 +1,27 @@
+02-19-2016:16-41-52	6902bb51-dda8-4192-b8a4-8371cb36c8d6	User 1	joined
+02-19-2016:16-41-54	6902bb51-dda8-4192-b8a4-8371cb36c8d6	User 0	joined
+02-19-2016:16-42-08	6902bb51-dda8-4192-b8a4-8371cb36c8d6	User 0	How about we go to Bangkok Spoon?
+02-19-2016:16-42-13	6902bb51-dda8-4192-b8a4-8371cb36c8d6	User 1	I love that place! Let's do it!
+02-19-2016:16-42-17	6902bb51-dda8-4192-b8a4-8371cb36c8d6	User 1	Selected restaurant:	Bangkok Spoon
+02-19-2016:16-42-27	6902bb51-dda8-4192-b8a4-8371cb36c8d6	User 0	Selected restaurant:	Bangkok Spoon
+02-19-2016:16-42-27	---
+02-19-2016:16-42-28	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, American, SeaFood, Pizza, Vietnamese
+User 1 preferences: 20-30	Vietnamese, Pizza, American, SeaFood, Thai
+
+Blue Line Pizza	Pizza	10-20
+The Crepevine	American	30-60
+Drunken Lobster	SeaFood	10-20
+Bierhaus	American	0-10
+Pho To Chau	Vietnamese	20-30
+Shell Shock	SeaFood	10-20
+Xanh Restaurant	Vietnamese	10-20
+Bangkok Spoon	Thai	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Steins Beer Garden	American	20-30
+
+Final selection: Bangkok SpoonUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

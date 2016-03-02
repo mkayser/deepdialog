@@ -1,0 +1,27 @@
+02-24-2016:20-14-43	376d35bd-51bf-4524-89c1-fe333dab052c	User 0	joined
+02-24-2016:20-14-43	376d35bd-51bf-4524-89c1-fe333dab052c	User 0 has user ID 4eec92b3b1194843a453772de4d2e43d
+02-24-2016:20-14-47	376d35bd-51bf-4524-89c1-fe333dab052c	User 1	joined
+02-24-2016:20-14-47	376d35bd-51bf-4524-89c1-fe333dab052c	User 1 has user ID 5e0a8fcf35a54ec1b505347beb438df0
+02-24-2016:20-14-54	376d35bd-51bf-4524-89c1-fe333dab052c	User 1	Selected restaurant 1:	Bangkok Spoon
+02-24-2016:20-14-56	376d35bd-51bf-4524-89c1-fe333dab052c	User 0	Selected restaurant 3:	Ginseng
+02-24-2016:20-15-02	376d35bd-51bf-4524-89c1-fe333dab052c	User 0	Selected restaurant 1:	Bangkok Spoon
+02-24-2016:20-15-03	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mexican, Deli, Korean, Thai, Italian
+User 1 preferences: 30-60	Korean, Mexican, Deli, Thai, Italian
+
+Taqueria Los Charros	Mexican	0-10
+Bangkok Spoon	Thai	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Ginseng	Korean	10-20
+Totoro	Korean	20-30
+Vaso Azzurro	Italian	20-30
+Ristorante Don Giovanni	Italian	0-10
+Amarin Thai Cuisine	Thai	20-30
+Doppio Zero	Italian	30-60
+Subway	Deli	10-20
+
+Final selection: Bangkok SpoonUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

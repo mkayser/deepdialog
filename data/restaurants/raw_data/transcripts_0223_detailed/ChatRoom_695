@@ -1,0 +1,27 @@
+02-19-2016:16-49-39	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1	joined
+02-19-2016:16-49-41	b45fc81b-c1a7-4054-883a-b13b834bae92	User 0	joined
+02-19-2016:16-49-44	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1	Selected restaurant:	Queen House
+02-19-2016:16-49-58	b45fc81b-c1a7-4054-883a-b13b834bae92	User 0	I'm feeling Vietnamese. Pho To Chau?
+02-19-2016:16-50-01	b45fc81b-c1a7-4054-883a-b13b834bae92	User 1	Selected restaurant:	Pho To Chau
+02-19-2016:16-50-04	b45fc81b-c1a7-4054-883a-b13b834bae92	User 0	Selected restaurant:	Pho To Chau
+02-19-2016:16-50-04	---
+02-19-2016:16-50-04	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Vietnamese, Deli, French, Pizza, Chinese
+User 1 preferences: 10-20	Chinese, French, Pizza, Deli, Vietnamese
+
+Hunan Chili	Chinese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Pho To Chau	Vietnamese	20-30
+Kirin	Chinese	10-20
+Fu Lam Mum	Chinese	30-60
+Chez TJ	French	30-60
+Hong Kong Bistro	Chinese	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+New Mongolian BBQ	Chinese	30-60
+Queen House	Chinese	0-10
+
+Final selection: Pho To ChauUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

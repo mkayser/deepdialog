@@ -1,0 +1,29 @@
+02-24-2016:20-09-31	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 1	joined
+02-24-2016:20-09-31	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 1 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:20-09-31	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 0	joined
+02-24-2016:20-09-31	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 0 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-09-39	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 1	vietnamese or korean?
+02-24-2016:20-09-46	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 0	Selected restaurant 0:	Ginseng
+02-24-2016:20-09-49	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 0	Kgirls are the best
+02-24-2016:20-09-49	e251fc47-61f1-4ce5-a652-676ec49d7b89	User 1	Selected restaurant 0:	Ginseng
+02-24-2016:20-09-50	---
+02-24-2016:20-09-50	---
+
+Chat Information:
+
+User 0 preferences: 0-10	American, Indian, Vietnamese, Mexican, Korean
+User 1 preferences: 0-10	Vietnamese, Korean, Mexican, Indian, American
+
+Ginseng	Korean	10-20
+Taqueria Los Charros	Mexican	0-10
+Park Ballachi	Indian	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Asian Box	Vietnamese	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Pho Hoa	Vietnamese	30-60
+Bierhaus	American	0-10
+Sakoon	Indian	30-60
+Shezan	Indian	10-20
+
+Final selection: GinsengUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

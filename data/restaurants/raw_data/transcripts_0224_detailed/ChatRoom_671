@@ -1,0 +1,29 @@
+02-24-2016:20-02-47	aff67f33-6d4a-4be3-a14b-58e653f415c6	User 0	joined
+02-24-2016:20-02-47	aff67f33-6d4a-4be3-a14b-58e653f415c6	User 0 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:20-03-15	aff67f33-6d4a-4be3-a14b-58e653f415c6	User 0	How about Casa Lupe Mexican Restaurant?
+02-24-2016:20-03-16	aff67f33-6d4a-4be3-a14b-58e653f415c6	User 1	joined
+02-24-2016:20-03-16	aff67f33-6d4a-4be3-a14b-58e653f415c6	User 1 has user ID 75c434db8e144d9497add4d63035b3da
+02-24-2016:20-03-21	aff67f33-6d4a-4be3-a14b-58e653f415c6	User 0	How about Casa Lupe Mexican Restaurant?
+02-24-2016:20-03-25	aff67f33-6d4a-4be3-a14b-58e653f415c6	User 1	Selected restaurant 4:	Casa Lupe Mexican Restaurant
+02-24-2016:20-03-27	aff67f33-6d4a-4be3-a14b-58e653f415c6	User 0	Selected restaurant 4:	Casa Lupe Mexican Restaurant
+02-24-2016:20-03-27	---
+02-24-2016:20-03-28	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mexican, Italian, SeaFood, Pizza, Indian
+User 1 preferences: 0-10	Mexican, Italian, SeaFood, Pizza, Indian
+
+Ristorante Don Giovanni	Italian	0-10
+Doppio Zero	Italian	30-60
+Blue Line Pizza	Pizza	10-20
+Vaso Azzurro	Italian	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Shezan	Indian	10-20
+Sakoon	Indian	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Park Ballachi	Indian	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: Casa Lupe Mexican RestaurantUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,28 @@
+02-24-2016:19-52-35	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1	joined
+02-24-2016:19-52-35	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1 has user ID 56a965da39604ed4b21a394e5ff4f573
+02-24-2016:19-52-37	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0	joined
+02-24-2016:19-52-37	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0 has user ID 86eea2e4303c44ad8c8a835b9dbd464b
+02-24-2016:19-52-43	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1	Selected restaurant 2:	Cascal
+02-24-2016:19-52-52	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0	ok
+02-24-2016:19-53-00	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0	Selected restaurant 2:	Cascal
+02-24-2016:19-53-00	---
+02-24-2016:19-54-00	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Mexican, French, SeaFood, Chinese
+User 1 preferences: 0-10	Mexican, French, Chinese, SeaFood, Spanish
+
+Drunken Lobster	SeaFood	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Cascal	Spanish	30-60
+Kirin	Chinese	10-20
+Shell Shock	SeaFood	10-20
+Taqueria Los Charros	Mexican	0-10
+New Mongolian BBQ	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Chez TJ	French	30-60
+
+Final selection: CascalUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

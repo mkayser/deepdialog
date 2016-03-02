@@ -1,0 +1,29 @@
+02-19-2016:16-43-57	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 0	joined
+02-19-2016:16-43-58	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 1	joined
+02-19-2016:16-44-01	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 0	Medi or Deli
+02-19-2016:16-44-07	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 0	Subway?
+02-19-2016:16-44-15	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 1	Mex
+02-19-2016:16-44-20	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 1	or Pi
+02-19-2016:16-44-20	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 0	Selected restaurant:	Fiesta Del Mar Too
+02-19-2016:16-44-26	91c04d89-ca16-4d96-b2ab-453e67a9007a	User 1	Selected restaurant:	Fiesta Del Mar Too
+02-19-2016:16-44-27	---
+02-19-2016:16-44-27	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Mediterranean, Deli, Mexican, Thai, Pizza
+User 1 preferences: 0-10	Mexican, Pizza, Thai, Deli, Mediterranean
+
+Taqueria Los Charros	Mexican	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Café Baklava	Mediterranean	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Morocco's	Mediterranean	10-20
+Oren's Hummus	Mediterranean	10-20
+Subway	Deli	10-20
+Posh Bagel	Deli	10-20
+Ehpesus	Mediterranean	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: Fiesta Del Mar TooUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

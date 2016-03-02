@@ -1,0 +1,32 @@
+02-24-2016:19-59-58	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	joined
+02-24-2016:19-59-58	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1 has user ID ecb9be7e240a471d97a69d5ebf6b8597
+02-24-2016:19-59-59	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	joined
+02-24-2016:19-59-59	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:20-00-03	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	I feel like deli.
+02-24-2016:20-00-05	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	Maybe Posh?
+02-24-2016:20-00-05	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	You are my friend
+02-24-2016:20-00-16	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	Selected restaurant 3:	Posh Bagel
+02-24-2016:20-00-20	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	Selected restaurant 0:	Shezan
+02-24-2016:20-00-26	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 1	Hello, friend
+02-24-2016:20-00-26	0ce1a995-4f2f-42a1-aa69-dfbd123e9700	User 0	Selected restaurant 0:	Shezan
+02-24-2016:20-00-26	---
+02-24-2016:20-00-27	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Chinese, Spanish, Indian, Mediterranean
+User 1 preferences: 10-20	Indian, Chinese, Deli, Mediterranean, Spanish
+
+Shezan	Indian	10-20
+Sakoon	Indian	30-60
+New Mongolian BBQ	Chinese	30-60
+Posh Bagel	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Morocco's	Mediterranean	10-20
+Park Ballachi	Indian	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Queen House	Chinese	0-10
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

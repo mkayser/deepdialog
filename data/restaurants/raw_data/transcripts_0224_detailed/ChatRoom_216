@@ -1,0 +1,28 @@
+02-24-2016:19-45-59	9569d280-8950-4607-a549-70acccd4c6c4	User 1	joined
+02-24-2016:19-45-59	9569d280-8950-4607-a549-70acccd4c6c4	User 1 has user ID 166bcadc45f8455e86e59960617b71f9
+02-24-2016:19-46-00	9569d280-8950-4607-a549-70acccd4c6c4	User 0	joined
+02-24-2016:19-46-00	9569d280-8950-4607-a549-70acccd4c6c4	User 0 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-46-06	9569d280-8950-4607-a549-70acccd4c6c4	User 0	Selected restaurant 4:	Casa Lupe Mexican Restaurant
+02-24-2016:19-46-09	9569d280-8950-4607-a549-70acccd4c6c4	User 1	Selected restaurant 5:	Blue Line Pizza
+02-24-2016:19-46-14	9569d280-8950-4607-a549-70acccd4c6c4	User 0	Selected restaurant 5:	Blue Line Pizza
+02-24-2016:19-46-15	---
+02-24-2016:19-46-15	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mexican, Thai, Pizza, Vietnamese, Spanish
+User 1 preferences: 20-30	Pizza, Thai, Spanish, Mexican, Vietnamese
+
+Amarin Thai Cuisine	Thai	20-30
+Asian Box	Vietnamese	30-60
+Pho Hoa	Vietnamese	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Blue Line Pizza	Pizza	10-20
+Cascal	Spanish	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Agave	Mexican	20-30
+Pho To Chau	Vietnamese	20-30
+
+Final selection: Blue Line PizzaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,28 @@
+02-24-2016:19-41-51	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 0	joined
+02-24-2016:19-41-51	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 0 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-41-51	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 1	joined
+02-24-2016:19-41-51	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 1 has user ID a5b28e4fd1bc4ac787293876fd1e7212
+02-24-2016:19-42-05	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 0	Selected restaurant 8:	Park Ballachi
+02-24-2016:19-42-08	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 1	Hey Wanna get Dinner
+02-24-2016:19-42-23	7731072c-ec7e-4f03-a7af-3ee2a6170a26	User 1	Selected restaurant 8:	Park Ballachi
+02-24-2016:19-42-23	---
+02-24-2016:19-42-23	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Indian, Thai, Italian, Deli, Chinese
+User 1 preferences: 30-60	Deli, Thai, Indian, Chinese, Italian
+
+Amarin Thai Cuisine	Thai	20-30
+Doppio Zero	Italian	30-60
+Bangkok Spoon	Thai	30-60
+Ristorante Don Giovanni	Italian	0-10
+Hunan Chili	Chinese	30-60
+Posh Bagel	Deli	10-20
+New Mongolian BBQ	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Park Ballachi	Indian	0-10
+Kirin	Chinese	10-20
+
+Final selection: Park BallachiUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,34 @@
+02-19-2016:15-52-53	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 0	joined
+02-19-2016:15-52-53	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	joined
+02-19-2016:15-53-09	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	How does Mexican food sound?
+02-19-2016:15-53-17	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 0	Really bad.....French?
+02-19-2016:15-53-52	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 0	Or Vietnamese?
+02-19-2016:15-54-00	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	I'm running low on cash, Mexican is pretty cheap.
+02-19-2016:15-54-22	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 0	Gotta give on something.  Mexican is last on my list and I have 3$$$.  Gotta give a little to get a little.
+02-19-2016:15-54-38	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	Deli?
+02-19-2016:15-54-43	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 0	That works
+02-19-2016:15-54-48	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 0	Posh it is.
+02-19-2016:15-54-51	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	yeah
+02-19-2016:15-54-55	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:15-54-57	3ca8e88a-061d-4cce-abb4-c6716c7f722f	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:15-54-58	---
+02-19-2016:15-54-58	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Deli, Vietnamese, French, Mediterranean, Mexican
+User 1 preferences: 20-30	Mexican, French, Deli, Mediterranean, Vietnamese
+
+Ehpesus	Mediterranean	0-10
+Chez TJ	French	30-60
+Xanh Restaurant	Vietnamese	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Posh Bagel	Deli	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Asian Box	Vietnamese	30-60
+Morocco's	Mediterranean	10-20
+Agave	Mexican	20-30
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

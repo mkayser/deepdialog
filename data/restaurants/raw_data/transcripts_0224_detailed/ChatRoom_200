@@ -1,0 +1,30 @@
+02-24-2016:19-45-22	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	joined
+02-24-2016:19-45-22	8f413516-c8c3-4848-ac68-61dda14d683b	User 1 has user ID 72679093c091484e962e0896462ad42b
+02-24-2016:19-45-29	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	joined
+02-24-2016:19-45-29	8f413516-c8c3-4848-ac68-61dda14d683b	User 0 has user ID 78de429b6e684f988804a99bd73bb576
+02-24-2016:19-45-34	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	whats up
+02-24-2016:19-45-35	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	Kirin?
+02-24-2016:19-45-52	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	sure ,was thinking Chinese
+02-24-2016:19-45-58	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	Selected restaurant 0:	Kirin
+02-24-2016:19-45-58	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	Selected restaurant 0:	Kirin
+02-24-2016:19-45-59	---
+02-24-2016:19-45-59	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Chinese, Mediterranean, Indian, Vietnamese
+User 1 preferences: 30-60	Mexican, Chinese, Vietnamese, Mediterranean, Indian
+
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+Pho To Chau	Vietnamese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Café Baklava	Mediterranean	10-20
+Sakoon	Indian	30-60
+Morocco's	Mediterranean	10-20
+Agave	Mexican	20-30
+Asian Box	Vietnamese	30-60
+
+Final selection: KirinUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

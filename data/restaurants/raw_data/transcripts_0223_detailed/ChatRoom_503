@@ -1,0 +1,30 @@
+02-19-2016:16-36-07	0132a11c-52eb-4bbf-94d5-8489e19bf123	User 1	joined
+02-19-2016:16-36-08	0132a11c-52eb-4bbf-94d5-8489e19bf123	User 0	joined
+02-19-2016:16-36-15	0132a11c-52eb-4bbf-94d5-8489e19bf123	User 0	hi
+02-19-2016:16-36-25	0132a11c-52eb-4bbf-94d5-8489e19bf123	User 0	pizza?
+02-19-2016:16-36-45	0132a11c-52eb-4bbf-94d5-8489e19bf123	User 1	That sounds good
+02-19-2016:16-36-49	0132a11c-52eb-4bbf-94d5-8489e19bf123	User 1	Blue Line?
+02-19-2016:16-36-52	0132a11c-52eb-4bbf-94d5-8489e19bf123	User 0	yeah!
+02-19-2016:16-36-57	0132a11c-52eb-4bbf-94d5-8489e19bf123	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-36-58	0132a11c-52eb-4bbf-94d5-8489e19bf123	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-36-58	---
+02-19-2016:16-36-58	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, Thai, Deli, Mexican, Chinese
+User 1 preferences: 0-10	Thai, Mexican, Pizza, Deli, Chinese
+
+Posh Bagel	Deli	10-20
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Taqueria Los Charros	Mexican	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Hunan Chili	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Bangkok Spoon	Thai	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Agave	Mexican	20-30
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

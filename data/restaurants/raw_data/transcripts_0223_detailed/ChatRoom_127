@@ -1,0 +1,32 @@
+02-19-2016:15-45-20	b29c8b2e-dc03-4cce-9366-d3e47514050f	User 1	joined
+02-19-2016:15-45-22	b29c8b2e-dc03-4cce-9366-d3e47514050f	User 0	joined
+02-19-2016:15-45-31	b29c8b2e-dc03-4cce-9366-d3e47514050f	User 1	Chez TJ?
+02-19-2016:15-45-43	b29c8b2e-dc03-4cce-9366-d3e47514050f	User 0	No thanks, more in the mood for Thai
+02-19-2016:15-45-54	b29c8b2e-dc03-4cce-9366-d3e47514050f	User 0	Bangkok Spoon?
+02-19-2016:15-45-59	b29c8b2e-dc03-4cce-9366-d3e47514050f	User 1	I can't eat Thai. How about Pizza?
+02-19-2016:15-46-23	b29c8b2e-dc03-4cce-9366-d3e47514050f	User 0	nope, rather go with the French
+02-19-2016:15-46-28	b29c8b2e-dc03-4cce-9366-d3e47514050f	User 0	Chez TJ it is
+02-19-2016:15-46-32	b29c8b2e-dc03-4cce-9366-d3e47514050f	User 0	Selected restaurant:	Chez TJ
+02-19-2016:15-46-33	b29c8b2e-dc03-4cce-9366-d3e47514050f	User 1	Sounds good
+02-19-2016:15-46-35	b29c8b2e-dc03-4cce-9366-d3e47514050f	User 1	Selected restaurant:	Chez TJ
+02-19-2016:15-46-35	---
+02-19-2016:15-46-35	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Thai, French, Italian, Pizza, American
+User 1 preferences: 20-30	French, Pizza, American, Italian, Thai
+
+Bangkok Spoon	Thai	30-60
+Vaso Azzurro	Italian	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Doppio Zero	Italian	30-60
+Chez TJ	French	30-60
+Blue Line Pizza	Pizza	10-20
+Scratch	American	0-10
+Bierhaus	American	0-10
+Amarin Thai Cuisine	Thai	20-30
+The Crepevine	American	30-60
+
+Final selection: Chez TJUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

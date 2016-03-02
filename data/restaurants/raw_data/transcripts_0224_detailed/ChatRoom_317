@@ -1,0 +1,32 @@
+02-24-2016:19-49-25	805372cd-61c1-4580-94f8-5705764aa469	User 1	joined
+02-24-2016:19-49-25	805372cd-61c1-4580-94f8-5705764aa469	User 1 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:19-49-25	805372cd-61c1-4580-94f8-5705764aa469	User 0	joined
+02-24-2016:19-49-25	805372cd-61c1-4580-94f8-5705764aa469	User 0 has user ID 2c45b2c243dd4e70a6f3929b85d0deb8
+02-24-2016:19-49-32	805372cd-61c1-4580-94f8-5705764aa469	User 1	I'm in the mood for some thai.
+02-24-2016:19-49-35	805372cd-61c1-4580-94f8-5705764aa469	User 1	How about Bangkok?
+02-24-2016:19-49-37	805372cd-61c1-4580-94f8-5705764aa469	User 1	Selected restaurant 1:	Bangkok Spoon
+02-24-2016:19-49-48	805372cd-61c1-4580-94f8-5705764aa469	User 0	I like Thai but Bangkok is way too expensive.
+02-24-2016:19-49-55	805372cd-61c1-4580-94f8-5705764aa469	User 1	ok, how about Amarin?
+02-24-2016:19-49-58	805372cd-61c1-4580-94f8-5705764aa469	User 1	Selected restaurant 9:	Amarin Thai Cuisine
+02-24-2016:19-50-06	805372cd-61c1-4580-94f8-5705764aa469	User 0	Selected restaurant 9:	Amarin Thai Cuisine
+02-24-2016:19-50-06	---
+02-24-2016:19-50-06	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Thai, French, Mediterranean, Vietnamese
+User 1 preferences: 0-10	French, Mediterranean, Thai, Mexican, Vietnamese
+
+Café Baklava	Mediterranean	10-20
+Bangkok Spoon	Thai	30-60
+Morocco's	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Agave	Mexican	20-30
+Pho Hoa	Vietnamese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Ehpesus	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Amarin Thai CuisineUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

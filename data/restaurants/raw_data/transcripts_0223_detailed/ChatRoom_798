@@ -1,0 +1,27 @@
+02-19-2016:17-01-43	bc164ab6-70f8-467a-9892-e82f9ccb2024	User 1	joined
+02-19-2016:17-01-44	bc164ab6-70f8-467a-9892-e82f9ccb2024	User 0	joined
+02-19-2016:17-01-46	bc164ab6-70f8-467a-9892-e82f9ccb2024	User 1	Ola
+02-19-2016:17-01-47	bc164ab6-70f8-467a-9892-e82f9ccb2024	User 0	hi pick any
+02-19-2016:17-01-53	bc164ab6-70f8-467a-9892-e82f9ccb2024	User 1	Pho to chau
+02-19-2016:17-01-55	bc164ab6-70f8-467a-9892-e82f9ccb2024	User 1	Selected restaurant:	Pho To Chau
+02-19-2016:17-01-55	bc164ab6-70f8-467a-9892-e82f9ccb2024	User 0	Selected restaurant:	Pho To Chau
+02-19-2016:17-01-55	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Indian, French, Deli, Vietnamese
+User 1 preferences: 20-30	Vietnamese, Deli, Mediterranean, Indian, French
+
+Oren's Hummus	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Xanh Restaurant	Vietnamese	10-20
+Morocco's	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Pho To Chau	Vietnamese	20-30
+Shezan	Indian	10-20
+Pho Hoa	Vietnamese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+
+Final selection: Pho To ChauUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

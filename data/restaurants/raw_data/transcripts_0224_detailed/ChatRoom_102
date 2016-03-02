@@ -1,0 +1,32 @@
+02-24-2016:19-40-55	577670d8-23b2-45c7-8841-e82d2607e08c	User 1	joined
+02-24-2016:19-40-55	577670d8-23b2-45c7-8841-e82d2607e08c	User 1 has user ID e9cd6c60b03e4b1694694d01171aaec5
+02-24-2016:19-40-55	577670d8-23b2-45c7-8841-e82d2607e08c	User 0	joined
+02-24-2016:19-40-55	577670d8-23b2-45c7-8841-e82d2607e08c	User 0 has user ID 78de429b6e684f988804a99bd73bb576
+02-24-2016:19-41-02	577670d8-23b2-45c7-8841-e82d2607e08c	User 1	MedGreek?
+02-24-2016:19-41-11	577670d8-23b2-45c7-8841-e82d2607e08c	User 1	or Totoro
+02-24-2016:19-41-16	577670d8-23b2-45c7-8841-e82d2607e08c	User 0	i dont see that
+02-24-2016:19-41-19	577670d8-23b2-45c7-8841-e82d2607e08c	User 0	Totoro
+02-24-2016:19-41-20	577670d8-23b2-45c7-8841-e82d2607e08c	User 1	Totoro
+02-24-2016:19-41-22	577670d8-23b2-45c7-8841-e82d2607e08c	User 0	Selected restaurant 5:	Totoro
+02-24-2016:19-41-23	577670d8-23b2-45c7-8841-e82d2607e08c	User 1	Selected restaurant 5:	Totoro
+02-24-2016:19-41-24	---
+02-24-2016:19-41-24	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mexican, Chinese, Mediterranean, Korean, Indian
+User 1 preferences: 20-30	Korean, Mediterranean, Indian, Mexican, Chinese
+
+Hunan Chili	Chinese	30-60
+Oren's Hummus	Mediterranean	10-20
+Morocco's	Mediterranean	10-20
+Queen House	Chinese	0-10
+Park Ballachi	Indian	0-10
+Totoro	Korean	20-30
+Taqueria Los Charros	Mexican	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Café Baklava	Mediterranean	10-20
+Agave	Mexican	20-30
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

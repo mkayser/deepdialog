@@ -1,0 +1,28 @@
+02-19-2016:16-11-30	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 1	joined
+02-19-2016:16-11-30	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 0	joined
+02-19-2016:16-11-37	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 1	Id like to each posh bagel
+02-19-2016:16-11-40	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 0	Yas!
+02-19-2016:16-11-42	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:16-11-42	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 1	Done
+02-19-2016:16-11-48	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:16-11-49	---
+02-19-2016:16-11-49	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Chinese, American, SeaFood, Vietnamese
+User 1 preferences: 20-30	Deli, SeaFood, American, Chinese, Vietnamese
+
+Bierhaus	American	0-10
+The Crepevine	American	30-60
+Pho Hoa	Vietnamese	30-60
+Posh Bagel	Deli	10-20
+Xanh Restaurant	Vietnamese	10-20
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Queen House	Chinese	0-10
+Hong Kong Bistro	Chinese	20-30
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

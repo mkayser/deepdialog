@@ -1,0 +1,29 @@
+02-19-2016:16-52-20	4318a7bc-2f8d-477d-ac0f-d68009a3d488	User 0	joined
+02-19-2016:16-52-24	4318a7bc-2f8d-477d-ac0f-d68009a3d488	User 0	Deli or Thai?
+02-19-2016:16-52-26	4318a7bc-2f8d-477d-ac0f-d68009a3d488	User 1	joined
+02-19-2016:16-52-27	4318a7bc-2f8d-477d-ac0f-d68009a3d488	User 0	Mid to expensive
+02-19-2016:16-52-36	4318a7bc-2f8d-477d-ac0f-d68009a3d488	User 1	could we have morocoos?
+02-19-2016:16-52-38	4318a7bc-2f8d-477d-ac0f-d68009a3d488	User 1	Selected restaurant:	Morocco's
+02-19-2016:16-52-39	4318a7bc-2f8d-477d-ac0f-d68009a3d488	User 0	Sure
+02-19-2016:16-52-47	4318a7bc-2f8d-477d-ac0f-d68009a3d488	User 0	Selected restaurant:	Morocco's
+02-19-2016:16-52-48	---
+02-19-2016:16-52-48	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Deli, Thai, Japanese, Mediterranean, French
+User 1 preferences: 0-10	Mediterranean, Thai, Deli, Japanese, French
+
+Subway	Deli	10-20
+Masa Sushi	Japanese	0-10
+Amarin Thai Cuisine	Thai	20-30
+Shabuway	Japanese	30-60
+Kappo Naminami	Japanese	30-60
+Chez TJ	French	30-60
+Yakko	Japanese	0-10
+Rumble Fish	Japanese	30-60
+Posh Bagel	Deli	10-20
+Morocco's	Mediterranean	10-20
+
+Final selection: Morocco'sUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

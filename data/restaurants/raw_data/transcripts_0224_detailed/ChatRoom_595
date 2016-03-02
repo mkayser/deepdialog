@@ -1,0 +1,30 @@
+02-24-2016:19-58-49	13ecfbd4-a83c-4ac4-a97f-462214364349	User 0	joined
+02-24-2016:19-58-49	13ecfbd4-a83c-4ac4-a97f-462214364349	User 0 has user ID 24768f87f2964a9dbb0290af62d6c1c6
+02-24-2016:19-58-50	13ecfbd4-a83c-4ac4-a97f-462214364349	User 1	joined
+02-24-2016:19-58-50	13ecfbd4-a83c-4ac4-a97f-462214364349	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:19-58-54	13ecfbd4-a83c-4ac4-a97f-462214364349	User 1	Selected restaurant 3:	Blue Line Pizza
+02-24-2016:19-58-58	13ecfbd4-a83c-4ac4-a97f-462214364349	User 1	Fancy some pizza?
+02-24-2016:19-59-19	13ecfbd4-a83c-4ac4-a97f-462214364349	User 0	Hey! Not really. How about Chinese?
+02-24-2016:19-59-43	13ecfbd4-a83c-4ac4-a97f-462214364349	User 1	Selected restaurant 0:	Hong Kong Bistro
+02-24-2016:19-59-46	13ecfbd4-a83c-4ac4-a97f-462214364349	User 0	Selected restaurant 0:	Hong Kong Bistro
+02-24-2016:19-59-47	---
+02-24-2016:19-59-47	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Chinese, Pizza, Spanish, Italian, SeaFood
+User 1 preferences: 20-30	Pizza, Italian, SeaFood, Spanish, Chinese
+
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+Vaso Azzurro	Italian	20-30
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Kirin	Chinese	10-20
+Shell Shock	SeaFood	10-20
+New Mongolian BBQ	Chinese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Drunken Lobster	SeaFood	10-20
+
+Final selection: Hong Kong BistroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

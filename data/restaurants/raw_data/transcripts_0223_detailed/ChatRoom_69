@@ -1,0 +1,33 @@
+02-19-2016:15-35-05	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 1	joined
+02-19-2016:15-35-07	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 0	joined
+02-19-2016:15-35-09	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 0	hi
+02-19-2016:15-35-19	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 1	hi
+02-19-2016:15-35-27	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 0	how about blue line pizza
+02-19-2016:15-35-44	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 1	Pizza is really fattening
+02-19-2016:15-35-53	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 0	subway?
+02-19-2016:15-36-12	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 1	subway is pretty good, chicken breast on wheat bread or tuna
+02-19-2016:15-36-25	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 0	deal
+02-19-2016:15-36-30	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 1	ok sounds good
+02-19-2016:15-36-33	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 0	Selected restaurant:	Subway
+02-19-2016:15-36-35	f6bcdefd-84d0-4bcd-8266-80c69168c534	User 1	Selected restaurant:	Subway
+02-19-2016:15-36-36	---
+02-19-2016:15-36-36	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Pizza, Deli, SeaFood, Indian, Korean
+User 1 preferences: 0-10	Korean, Deli, Pizza, Indian, SeaFood
+
+Blue Line Pizza	Pizza	10-20
+Subway	Deli	10-20
+Park Ballachi	Indian	0-10
+Totoro	Korean	20-30
+Sakoon	Indian	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Shell Shock	SeaFood	10-20
+Ginseng	Korean	10-20
+Posh Bagel	Deli	10-20
+Drunken Lobster	SeaFood	10-20
+
+Final selection: SubwayUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

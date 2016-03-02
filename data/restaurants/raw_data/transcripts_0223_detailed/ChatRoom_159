@@ -1,0 +1,32 @@
+02-19-2016:15-51-11	8917273a-4c3e-4bed-bda4-4fb63d53846a	User 0	joined
+02-19-2016:15-51-12	8917273a-4c3e-4bed-bda4-4fb63d53846a	User 1	joined
+02-19-2016:15-51-32	8917273a-4c3e-4bed-bda4-4fb63d53846a	User 0	hi 
+02-19-2016:15-51-39	8917273a-4c3e-4bed-bda4-4fb63d53846a	User 1	Hello
+02-19-2016:15-51-59	8917273a-4c3e-4bed-bda4-4fb63d53846a	User 0	I was thinking we could grab some grub at Oren's Hummus
+02-19-2016:15-52-41	8917273a-4c3e-4bed-bda4-4fb63d53846a	User 1	hmm
+02-19-2016:15-52-58	8917273a-4c3e-4bed-bda4-4fb63d53846a	User 1	How about the Asian Box? I love me some Asian Box.
+02-19-2016:15-53-27	8917273a-4c3e-4bed-bda4-4fb63d53846a	User 1	Selected restaurant:	Asian Box
+02-19-2016:15-53-33	8917273a-4c3e-4bed-bda4-4fb63d53846a	User 0	too pricey how about Shezan
+02-19-2016:15-53-55	8917273a-4c3e-4bed-bda4-4fb63d53846a	User 1	They have rats
+02-19-2016:15-53-56	8917273a-4c3e-4bed-bda4-4fb63d53846a	User 0	Selected restaurant:	Asian Box
+02-19-2016:15-53-56	---
+02-19-2016:15-53-56	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Deli, SeaFood, Indian, Vietnamese
+User 1 preferences: 30-60	SeaFood, Vietnamese, Mediterranean, Deli, Indian
+
+Sakoon	Indian	30-60
+Oren's Hummus	Mediterranean	10-20
+Café Baklava	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Pho To Chau	Vietnamese	20-30
+Drunken Lobster	SeaFood	10-20
+Shezan	Indian	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Asian Box	Vietnamese	30-60
+Pho Hoa	Vietnamese	30-60
+
+Final selection: Asian BoxUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

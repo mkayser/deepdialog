@@ -1,0 +1,27 @@
+02-24-2016:19-41-11	3896a66f-e4c5-4f0d-8e72-09319bbff301	User 1	joined
+02-24-2016:19-41-11	3896a66f-e4c5-4f0d-8e72-09319bbff301	User 1 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-41-11	3896a66f-e4c5-4f0d-8e72-09319bbff301	User 0	joined
+02-24-2016:19-41-11	3896a66f-e4c5-4f0d-8e72-09319bbff301	User 0 has user ID 714726608fb04babba37ffb9e1d8f25d
+02-24-2016:19-41-15	3896a66f-e4c5-4f0d-8e72-09319bbff301	User 1	Selected restaurant 7:	Shell Shock
+02-24-2016:19-41-25	3896a66f-e4c5-4f0d-8e72-09319bbff301	User 0	Selected restaurant 7:	Shell Shock
+02-24-2016:19-41-25	---
+02-24-2016:19-41-25	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, SeaFood, Indian, Deli, Pizza
+User 1 preferences: 0-10	SeaFood, Indian, Thai, Deli, Pizza
+
+Bangkok Spoon	Thai	30-60
+Park Ballachi	Indian	0-10
+Blue Line Pizza	Pizza	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Subway	Deli	10-20
+Sakoon	Indian	30-60
+Amarin Thai Cuisine	Thai	20-30
+Shell Shock	SeaFood	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Posh Bagel	Deli	10-20
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

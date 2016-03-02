@@ -1,0 +1,30 @@
+02-24-2016:19-56-03	05aef188-28b8-46b4-90eb-11d52676bdd0	User 1	joined
+02-24-2016:19-56-03	05aef188-28b8-46b4-90eb-11d52676bdd0	User 1 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:19-56-03	05aef188-28b8-46b4-90eb-11d52676bdd0	User 0	joined
+02-24-2016:19-56-03	05aef188-28b8-46b4-90eb-11d52676bdd0	User 0 has user ID 6146510ec3fb49a1badc09978fbcc832
+02-24-2016:19-56-10	05aef188-28b8-46b4-90eb-11d52676bdd0	User 0	koreannnnn
+02-24-2016:19-56-17	05aef188-28b8-46b4-90eb-11d52676bdd0	User 0	Selected restaurant 3:	Totoro
+02-24-2016:19-56-27	05aef188-28b8-46b4-90eb-11d52676bdd0	User 1	totoro??
+02-24-2016:19-56-31	05aef188-28b8-46b4-90eb-11d52676bdd0	User 0	ya
+02-24-2016:19-56-33	05aef188-28b8-46b4-90eb-11d52676bdd0	User 1	Selected restaurant 3:	Totoro
+02-24-2016:19-56-33	---
+02-24-2016:19-56-34	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, Italian, Japanese, Deli, Vietnamese
+User 1 preferences: 20-30	Japanese, Deli, Italian, Korean, Vietnamese
+
+Sushitomi	Japanese	20-30
+Pho Hoa	Vietnamese	30-60
+Asian Box	Vietnamese	30-60
+Totoro	Korean	20-30
+Masa Sushi	Japanese	0-10
+Subway	Deli	10-20
+Kappo Naminami	Japanese	30-60
+Rumble Fish	Japanese	30-60
+Bushido	Japanese	10-20
+Vaso Azzurro	Italian	20-30
+
+Final selection: TotoroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,33 @@
+02-19-2016:16-32-20	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 0	joined
+02-19-2016:16-32-21	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	joined
+02-19-2016:16-32-26	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 0	Howdy! 
+02-19-2016:16-32-30	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	Hello!
+02-19-2016:16-32-35	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	Park Ballachi sounds great!
+02-19-2016:16-32-48	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 0	ooh... I can't do indian. 
+02-19-2016:16-32-58	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	What are you in the mood for?
+02-19-2016:16-33-01	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 0	How about... Ginseng?
+02-19-2016:16-33-17	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	I'll try it out for you!
+02-19-2016:16-33-21	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 1	Selected restaurant:	Ginseng
+02-19-2016:16-33-22	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 0	YAY! THank you! 
+02-19-2016:16-33-25	b3e9ca6c-c08f-4ac7-8849-7ba21ba267c7	User 0	Selected restaurant:	Ginseng
+02-19-2016:16-33-26	---
+02-19-2016:16-33-26	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Korean, American, French, Indian, Vietnamese
+User 1 preferences: 0-10	Indian, Vietnamese, Korean, American, French
+
+Xanh Restaurant	Vietnamese	10-20
+The Crepevine	American	30-60
+Bierhaus	American	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+Shezan	Indian	10-20
+Park Ballachi	Indian	0-10
+Ginseng	Korean	10-20
+Pho To Chau	Vietnamese	20-30
+Steins Beer Garden	American	20-30
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

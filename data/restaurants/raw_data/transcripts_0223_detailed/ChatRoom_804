@@ -1,0 +1,29 @@
+02-19-2016:17-05-56	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 0	joined
+02-19-2016:17-05-56	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 1	joined
+02-19-2016:17-05-59	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 0	Selected restaurant:	Masa Sushi
+02-19-2016:17-05-59	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 1	Evening
+02-19-2016:17-06-04	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 0	Hi there
+02-19-2016:17-06-05	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 1	Want to go for some Japanese?
+02-19-2016:17-06-08	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 0	Sure
+02-19-2016:17-06-09	a64642ef-68e2-404a-94d8-92c1c1718d3b	User 1	Selected restaurant:	Masa Sushi
+02-19-2016:17-06-10	---
+02-19-2016:17-06-10	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Japanese, Chinese, American, Spanish, Italian
+User 1 preferences: 30-60	Italian, Japanese, Spanish, American, Chinese
+
+Yakko	Japanese	0-10
+Masa Sushi	Japanese	0-10
+New Mongolian BBQ	Chinese	30-60
+The Crepevine	American	30-60
+Niji Sushi	Japanese	10-20
+Bierhaus	American	0-10
+Scratch	American	0-10
+Steins Beer Garden	American	20-30
+Shabuway	Japanese	30-60
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: Masa SushiUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

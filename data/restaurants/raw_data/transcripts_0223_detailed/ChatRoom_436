@@ -1,0 +1,31 @@
+02-19-2016:16-30-35	84d30779-3dec-431b-b807-2d8f2b00e0a3	User 1	joined
+02-19-2016:16-30-41	84d30779-3dec-431b-b807-2d8f2b00e0a3	User 0	joined
+02-19-2016:16-30-46	84d30779-3dec-431b-b807-2d8f2b00e0a3	User 1	You want some Chinese?
+02-19-2016:16-30-47	84d30779-3dec-431b-b807-2d8f2b00e0a3	User 0	Hi! How's Japanese for you?
+02-19-2016:16-30-53	84d30779-3dec-431b-b807-2d8f2b00e0a3	User 1	Japanese is good too
+02-19-2016:16-30-58	84d30779-3dec-431b-b807-2d8f2b00e0a3	User 0	Niji Sushi?
+02-19-2016:16-31-04	84d30779-3dec-431b-b807-2d8f2b00e0a3	User 1	YeA!
+02-19-2016:16-31-07	84d30779-3dec-431b-b807-2d8f2b00e0a3	User 1	Selected restaurant:	Rumble Fish
+02-19-2016:16-31-12	84d30779-3dec-431b-b807-2d8f2b00e0a3	User 0	Selected restaurant:	Niji Sushi
+02-19-2016:16-31-17	84d30779-3dec-431b-b807-2d8f2b00e0a3	User 1	Selected restaurant:	Niji Sushi
+02-19-2016:16-31-17	---
+02-19-2016:16-31-17	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Japanese, Korean, Italian, SeaFood, Chinese
+User 1 preferences: 20-30	Chinese, SeaFood, Japanese, Korean, Italian
+
+Niji Sushi	Japanese	10-20
+Fu Lam Mum	Chinese	30-60
+Kappo Naminami	Japanese	30-60
+Shell Shock	SeaFood	10-20
+Shabuway	Japanese	30-60
+Queen House	Chinese	0-10
+Hunan Chili	Chinese	30-60
+Rumble Fish	Japanese	30-60
+Ristorante Don Giovanni	Italian	0-10
+New Mongolian BBQ	Chinese	30-60
+
+Final selection: Niji SushiUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-24-2016:19-56-27	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 0	joined
+02-24-2016:19-56-27	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 0 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-56-28	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 1	joined
+02-24-2016:19-56-28	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 1 has user ID 636466e4c18f4aa0ab4ae2d4c678f8b3
+02-24-2016:19-56-35	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 1	Selected restaurant 7:	Niji Sushi
+02-24-2016:19-56-39	9b7b7454-1c5e-4d79-ba59-c5ed7ce32b2e	User 0	Selected restaurant 7:	Niji Sushi
+02-24-2016:19-56-40	---
+02-24-2016:19-56-40	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Japanese, Indian, SeaFood, Korean
+User 1 preferences: 10-20	Japanese, Korean, Indian, SeaFood, Deli
+
+Totoro	Korean	20-30
+Shabuway	Japanese	30-60
+Masa Sushi	Japanese	0-10
+Shell Shock	SeaFood	10-20
+Subway	Deli	10-20
+Shalala	Japanese	10-20
+Posh Bagel	Deli	10-20
+Niji Sushi	Japanese	10-20
+Ryowa Noodle House	Japanese	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Niji SushiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,30 @@
+02-19-2016:16-44-25	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	joined
+02-19-2016:16-44-28	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	joined
+02-19-2016:16-44-35	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	Hey bud! I was thinking Indian tonight, what do you think?
+02-19-2016:16-44-42	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	Shezan perhaps?
+02-19-2016:16-44-54	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	Hello. I prefer Vietnamese but I'm ok with Indian
+02-19-2016:16-45-14	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	Shezan is perfect.
+02-19-2016:16-45-17	cf91dc9d-a980-4f95-9877-3e9d015af534	User 1	Selected restaurant:	Shezan
+02-19-2016:16-45-18	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	Shezan it is then!
+02-19-2016:16-45-20	cf91dc9d-a980-4f95-9877-3e9d015af534	User 0	Selected restaurant:	Shezan
+02-19-2016:16-45-21	---
+02-19-2016:16-45-21	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Deli, Mexican, Chinese, Vietnamese
+User 1 preferences: 10-20	Vietnamese, Indian, Deli, Mexican, Chinese
+
+Pho To Chau	Vietnamese	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Asian Box	Vietnamese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Fu Lam Mum	Chinese	30-60
+Shezan	Indian	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Taqueria Los Charros	Mexican	0-10
+Xanh Restaurant	Vietnamese	10-20
+Sakoon	Indian	30-60
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

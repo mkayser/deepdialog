@@ -1,0 +1,30 @@
+02-19-2016:16-41-33	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 1	joined
+02-19-2016:16-41-33	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 0	joined
+02-19-2016:16-41-36	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 1	Hey
+02-19-2016:16-41-40	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 1	Do you like Korean?
+02-19-2016:16-41-41	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 0	hi
+02-19-2016:16-41-42	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 0	sure
+02-19-2016:16-41-44	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 0	lets do that
+02-19-2016:16-41-45	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 1	Selected restaurant:	Totoro
+02-19-2016:16-41-49	4b272827-d7d5-47fc-9238-66e9da0c5b78	User 0	Selected restaurant:	Totoro
+02-19-2016:16-41-50	---
+02-19-2016:16-42-49	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Indian, Thai, French, Korean, American
+User 1 preferences: 0-10	Korean, Indian, American, French, Thai
+
+Bierhaus	American	0-10
+Chez TJ	French	30-60
+Park Ballachi	Indian	0-10
+Steins Beer Garden	American	20-30
+Totoro	Korean	20-30
+Scratch	American	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+The Crepevine	American	30-60
+Amarin Thai Cuisine	Thai	20-30
+Sakoon	Indian	30-60
+
+Final selection: TotoroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

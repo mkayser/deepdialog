@@ -1,0 +1,28 @@
+02-24-2016:20-03-25	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 0	joined
+02-24-2016:20-03-25	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 0 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:20-03-31	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 1	joined
+02-24-2016:20-03-31	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 1 has user ID f4cf22eeaf504f329f0c8d9894df04d8
+02-24-2016:20-03-36	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 1	Selected restaurant 1:	Vaso Azzurro
+02-24-2016:20-03-36	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 0	Selected restaurant 7:	Scratch
+02-24-2016:20-03-40	9a743f3d-e56c-4ecb-952a-b47951d05fe0	User 0	Selected restaurant 1:	Vaso Azzurro
+02-24-2016:20-03-40	---
+02-24-2016:20-04-41	---
+
+Chat Information:
+
+User 0 preferences: 10-20	American, SeaFood, Korean, Chinese, Italian
+User 1 preferences: 10-20	Italian, SeaFood, Chinese, American, Korean
+
+Kirin	Chinese	10-20
+Vaso Azzurro	Italian	20-30
+Hunan Chili	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Shell Shock	SeaFood	10-20
+New Mongolian BBQ	Chinese	30-60
+The Crepevine	American	30-60
+Scratch	American	0-10
+Drunken Lobster	SeaFood	10-20
+Queen House	Chinese	0-10
+
+Final selection: Vaso AzzurroUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

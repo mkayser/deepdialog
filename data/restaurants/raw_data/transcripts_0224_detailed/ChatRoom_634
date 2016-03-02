@@ -1,0 +1,30 @@
+02-24-2016:20-00-54	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	joined
+02-24-2016:20-00-54	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:20-00-54	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1	joined
+02-24-2016:20-00-54	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1 has user ID 0aad6311afd54583be7b3db7575a384e
+02-24-2016:20-01-00	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	How about Yakko?
+02-24-2016:20-01-02	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1	Maruichi Noodle House	
+02-24-2016:20-01-05	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	OK
+02-24-2016:20-01-08	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	Selected restaurant 4:	Maruichi Noodle House
+02-24-2016:20-01-09	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1	Selected restaurant 4:	Maruichi Noodle House
+02-24-2016:20-01-09	---
+02-24-2016:20-01-09	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Japanese, Korean, Thai, Mexican, Chinese
+User 1 preferences: 10-20	Japanese, Mexican, Korean, Chinese, Thai
+
+Hunan Chili	Chinese	30-60
+Totoro	Korean	20-30
+Amarin Thai Cuisine	Thai	20-30
+Queen House	Chinese	0-10
+Maruichi Noodle House	Japanese	0-10
+Kirin	Chinese	10-20
+Yakko	Japanese	0-10
+Bangkok Spoon	Thai	30-60
+Kappo Naminami	Japanese	30-60
+Niji Sushi	Japanese	10-20
+
+Final selection: Maruichi Noodle HouseUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,33 @@
+02-19-2016:16-32-02	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 0	joined
+02-19-2016:16-32-03	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 1	joined
+02-19-2016:16-32-05	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 0	Hi
+02-19-2016:16-32-10	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 1	hiya
+02-19-2016:16-32-17	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 0	Chinese?
+02-19-2016:16-32-30	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 1	sure i have like 10 of em
+02-19-2016:16-32-41	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 0	How about Kirin?
+02-19-2016:16-32-42	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 1	kirin ichiban?
+02-19-2016:16-32-45	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 1	hah nice
+02-19-2016:16-32-47	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 0	hahaha
+02-19-2016:16-32-48	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 1	Selected restaurant:	Kirin
+02-19-2016:16-32-50	3d73a7dc-9d74-4e40-a022-4f8f61d4ac72	User 0	Selected restaurant:	Kirin
+02-19-2016:16-32-50	---
+02-19-2016:16-32-51	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Deli, Chinese, American, SeaFood, Vietnamese
+User 1 preferences: 20-30	Deli, SeaFood, American, Chinese, Vietnamese
+
+Bierhaus	American	0-10
+The Crepevine	American	30-60
+Pho Hoa	Vietnamese	30-60
+Posh Bagel	Deli	10-20
+Xanh Restaurant	Vietnamese	10-20
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Queen House	Chinese	0-10
+Hong Kong Bistro	Chinese	20-30
+Drunken Lobster	SeaFood	10-20
+
+Final selection: KirinUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

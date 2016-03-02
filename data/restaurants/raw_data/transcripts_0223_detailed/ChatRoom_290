@@ -1,0 +1,28 @@
+02-19-2016:16-12-33	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 0	joined
+02-19-2016:16-12-33	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 1	joined
+02-19-2016:16-12-38	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 0	Indian?
+02-19-2016:16-12-43	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 1	Sure
+02-19-2016:16-12-44	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 0	Sakoon?
+02-19-2016:16-12-46	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 0	Selected restaurant:	Sakoon
+02-19-2016:16-12-47	558f0573-f4ee-4bec-aa15-b1ed96dd3ae4	User 1	Selected restaurant:	Sakoon
+02-19-2016:16-12-47	---
+02-19-2016:16-12-47	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Indian, American, Pizza, Thai, French
+User 1 preferences: 20-30	Thai, Pizza, French, Indian, American
+
+Scratch	American	0-10
+Chez TJ	French	30-60
+Blue Line Pizza	Pizza	10-20
+Park Ballachi	Indian	0-10
+Steins Beer Garden	American	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Amarin Thai Cuisine	Thai	20-30
+Sakoon	Indian	30-60
+Bangkok Spoon	Thai	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: SakoonUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

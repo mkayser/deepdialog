@@ -1,0 +1,29 @@
+02-24-2016:19-59-30	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 0	joined
+02-24-2016:19-59-30	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 0 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:19-59-35	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 0	Selected restaurant 5:	Totoro
+02-24-2016:19-59-40	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 1	joined
+02-24-2016:19-59-40	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 1 has user ID a08eb0381f614efb81f21a4ed99a6912
+02-24-2016:19-59-43	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 1	Selected restaurant 2:	Pho Hoa
+02-24-2016:19-59-50	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 0	i'd rather have korean
+02-24-2016:20-00-10	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 0	Selected restaurant 1:	Ginseng
+02-24-2016:20-00-13	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 0	Selected restaurant 2:	Pho Hoa
+02-24-2016:20-00-13	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Korean, Vietnamese, French, Spanish, Mediterranean
+User 1 preferences: 30-60	Vietnamese, Mediterranean, French, Korean, Spanish
+
+Mediterranean Grill House	Mediterranean	0-10
+Ginseng	Korean	10-20
+Pho Hoa	Vietnamese	30-60
+Morocco's	Mediterranean	10-20
+Pho To Chau	Vietnamese	20-30
+Totoro	Korean	20-30
+Café Baklava	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Asian Box	Vietnamese	30-60
+Chez TJ	French	30-60
+
+Final selection: Pho HoaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

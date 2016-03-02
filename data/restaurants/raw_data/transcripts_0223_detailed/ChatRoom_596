@@ -1,0 +1,28 @@
+02-19-2016:16-43-43	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	joined
+02-19-2016:16-43-44	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	joined
+02-19-2016:16-43-48	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Asian Box?
+02-19-2016:16-43-49	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Hey! 
+02-19-2016:16-43-56	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Um... I can do that
+02-19-2016:16-44-00	9df03269-d89e-4a91-b8ca-a941f4885428	User 1	Selected restaurant:	Asian Box
+02-19-2016:16-44-00	9df03269-d89e-4a91-b8ca-a941f4885428	User 0	Selected restaurant:	Asian Box
+02-19-2016:16-44-00	---
+02-19-2016:16-44-01	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Vietnamese, French, Indian, Italian, Pizza
+User 1 preferences: 20-30	Pizza, Indian, Vietnamese, Italian, French
+
+Doppio Zero	Italian	30-60
+Park Ballachi	Indian	0-10
+Ristorante Don Giovanni	Italian	0-10
+Sakoon	Indian	30-60
+Asian Box	Vietnamese	30-60
+Blue Line Pizza	Pizza	10-20
+Shezan	Indian	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Vaso Azzurro	Italian	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Asian BoxUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,28 @@
+02-24-2016:19-47-16	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	joined
+02-24-2016:19-47-16	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0 has user ID 166720d565e2438a95fc42a5361c88f0
+02-24-2016:19-47-17	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	joined
+02-24-2016:19-47-17	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1 has user ID 72c8d67e547348d6a886baa109ea6c7a
+02-24-2016:19-47-29	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	Selected restaurant 4:	Totoro
+02-24-2016:19-47-36	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 0	please pick totoro
+02-24-2016:19-47-38	591d192f-7c45-4ccf-8c05-5c5395cad5a1	User 1	Selected restaurant 4:	Totoro
+02-24-2016:19-47-38	---
+02-24-2016:19-47-38	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Deli, Korean, Japanese, Thai, Vietnamese
+User 1 preferences: 20-30	Thai, Japanese, Deli, Korean, Vietnamese
+
+Pho To Chau	Vietnamese	20-30
+Posh Bagel	Deli	10-20
+Sushitomi	Japanese	20-30
+Shalala	Japanese	10-20
+Totoro	Korean	20-30
+Amarin Thai Cuisine	Thai	20-30
+Ryowa Noodle House	Japanese	20-30
+Subway	Deli	10-20
+Niji Sushi	Japanese	10-20
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: TotoroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

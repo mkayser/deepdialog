@@ -1,0 +1,31 @@
+02-24-2016:19-45-20	f017306d-dc62-4aee-8c8d-350f10058732	User 0	joined
+02-24-2016:19-45-20	f017306d-dc62-4aee-8c8d-350f10058732	User 0 has user ID a686d289fea54d228398211bf4135821
+02-24-2016:19-45-26	f017306d-dc62-4aee-8c8d-350f10058732	User 1	joined
+02-24-2016:19-45-26	f017306d-dc62-4aee-8c8d-350f10058732	User 1 has user ID e9cd6c60b03e4b1694694d01171aaec5
+02-24-2016:19-45-34	f017306d-dc62-4aee-8c8d-350f10058732	User 1	Selected restaurant 6:	Cascal
+02-24-2016:19-45-38	f017306d-dc62-4aee-8c8d-350f10058732	User 1	Cascal
+02-24-2016:19-45-55	---
+02-24-2016:19-46-00	f017306d-dc62-4aee-8c8d-350f10058732	User 1	joined
+02-24-2016:19-46-00	f017306d-dc62-4aee-8c8d-350f10058732	User 1 has user ID e9cd6c60b03e4b1694694d01171aaec5
+02-24-2016:19-46-03	f017306d-dc62-4aee-8c8d-350f10058732	User 0	Selected restaurant 6:	Cascal
+02-24-2016:19-46-04	---
+02-24-2016:19-46-04	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Pizza, Vietnamese, Mexican, Korean, Spanish
+User 1 preferences: 20-30	Spanish, Korean, Pizza, Vietnamese, Mexican
+
+Ginseng	Korean	10-20
+Pho Hoa	Vietnamese	30-60
+Taqueria Los Charros	Mexican	0-10
+Totoro	Korean	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+Cascal	Spanish	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Xanh Restaurant	Vietnamese	10-20
+Agave	Mexican	20-30
+
+Final selection: CascalUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

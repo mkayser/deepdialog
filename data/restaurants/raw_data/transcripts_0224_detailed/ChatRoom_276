@@ -1,0 +1,30 @@
+02-24-2016:19-48-02	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1	joined
+02-24-2016:19-48-02	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1 has user ID a5b28e4fd1bc4ac787293876fd1e7212
+02-24-2016:19-48-06	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	joined
+02-24-2016:19-48-06	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:19-48-11	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1	Hey
+02-24-2016:19-48-14	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	Selected restaurant 4:	Taqueria Los Charros
+02-24-2016:19-48-22	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1	Pizza?
+02-24-2016:19-48-33	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	Im in the mood for Mexican  where do you see pizza
+02-24-2016:19-48-34	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1	Selected restaurant 4:	Taqueria Los Charros
+02-24-2016:19-48-34	---
+02-24-2016:19-48-34	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, Chinese, Indian, SeaFood, Mexican
+User 1 preferences: 0-10	Pizza, Indian, Chinese, SeaFood, Mexican
+
+Hong Kong Bistro	Chinese	20-30
+Shell Shock	SeaFood	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Taqueria Los Charros	Mexican	0-10
+Drunken Lobster	SeaFood	10-20
+Hunan Chili	Chinese	30-60
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

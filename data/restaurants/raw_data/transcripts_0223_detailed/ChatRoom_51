@@ -1,0 +1,31 @@
+02-19-2016:15-32-41	f50fbaea-251f-450d-a597-eaa3abbef96a	User 0	joined
+02-19-2016:15-32-42	f50fbaea-251f-450d-a597-eaa3abbef96a	User 1	joined
+02-19-2016:15-33-04	f50fbaea-251f-450d-a597-eaa3abbef96a	User 0	Hi there
+02-19-2016:15-33-16	f50fbaea-251f-450d-a597-eaa3abbef96a	User 1	Hi!  What kind of food are you interested in?
+02-19-2016:15-33-33	f50fbaea-251f-450d-a597-eaa3abbef96a	User 0	Mexican food
+02-19-2016:15-33-39	f50fbaea-251f-450d-a597-eaa3abbef96a	User 0	Yourself?
+02-19-2016:15-33-50	f50fbaea-251f-450d-a597-eaa3abbef96a	User 1	Deli, Indian, or Spanish
+02-19-2016:15-34-12	f50fbaea-251f-450d-a597-eaa3abbef96a	User 0	Let's just get Sakoon
+02-19-2016:15-34-26	f50fbaea-251f-450d-a597-eaa3abbef96a	User 0	Selected restaurant:	Sakoon
+02-19-2016:15-34-33	f50fbaea-251f-450d-a597-eaa3abbef96a	User 1	Selected restaurant:	Sakoon
+02-19-2016:15-34-34	---
+02-19-2016:15-34-34	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, Spanish, SeaFood, Indian, Deli
+User 1 preferences: 10-20	Deli, Indian, Spanish, Italian, SeaFood
+
+Doppio Zero	Italian	30-60
+Shezan	Indian	10-20
+Subway	Deli	10-20
+Shell Shock	SeaFood	10-20
+Vaso Azzurro	Italian	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+Posh Bagel	Deli	10-20
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: SakoonUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

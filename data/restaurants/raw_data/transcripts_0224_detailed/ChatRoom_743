@@ -1,0 +1,27 @@
+02-24-2016:20-06-45	99749d49-13b0-4c64-bc3b-2a7eeefc5047	User 0	joined
+02-24-2016:20-06-45	99749d49-13b0-4c64-bc3b-2a7eeefc5047	User 0 has user ID 1e7d23c916b7426aa7356a7313658cdf
+02-24-2016:20-06-46	99749d49-13b0-4c64-bc3b-2a7eeefc5047	User 1	joined
+02-24-2016:20-06-46	99749d49-13b0-4c64-bc3b-2a7eeefc5047	User 1 has user ID 3cc538f6316d41c284277992d5396245
+02-24-2016:20-06-50	99749d49-13b0-4c64-bc3b-2a7eeefc5047	User 1	Selected restaurant 2:	Asian Box
+02-24-2016:20-06-53	99749d49-13b0-4c64-bc3b-2a7eeefc5047	User 0	Selected restaurant 2:	Asian Box
+02-24-2016:20-06-54	---
+02-24-2016:20-06-54	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Vietnamese, Deli, Japanese, French
+User 1 preferences: 10-20	Vietnamese, Japanese, Deli, Spanish, French
+
+Maruichi Noodle House	Japanese	0-10
+Posh Bagel	Deli	10-20
+Asian Box	Vietnamese	30-60
+Shalala	Japanese	10-20
+Niji Sushi	Japanese	10-20
+Subway	Deli	10-20
+Yakko	Japanese	0-10
+Pho Hoa	Vietnamese	30-60
+Rumble Fish	Japanese	30-60
+Shabuway	Japanese	30-60
+
+Final selection: Asian BoxUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

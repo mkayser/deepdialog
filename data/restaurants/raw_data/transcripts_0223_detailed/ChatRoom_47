@@ -1,0 +1,37 @@
+02-19-2016:15-32-06	805372cd-61c1-4580-94f8-5705764aa469	User 1	joined
+02-19-2016:15-32-07	805372cd-61c1-4580-94f8-5705764aa469	User 0	joined
+02-19-2016:15-32-12	805372cd-61c1-4580-94f8-5705764aa469	User 1	hi
+02-19-2016:15-32-23	805372cd-61c1-4580-94f8-5705764aa469	User 1	mediterranean? 
+02-19-2016:15-32-29	805372cd-61c1-4580-94f8-5705764aa469	User 1	one $?
+02-19-2016:15-32-50	805372cd-61c1-4580-94f8-5705764aa469	User 0	I could be okay with mediterranean, but I'd rather do thai food.
+02-19-2016:15-33-08	805372cd-61c1-4580-94f8-5705764aa469	User 1	thai is fine 
+02-19-2016:15-33-10	805372cd-61c1-4580-94f8-5705764aa469	User 0	Or maybe mexican
+02-19-2016:15-33-13	805372cd-61c1-4580-94f8-5705764aa469	User 1	three $$$?
+02-19-2016:15-33-21	805372cd-61c1-4580-94f8-5705764aa469	User 1	i prefer thai over mexican 
+02-19-2016:15-33-29	805372cd-61c1-4580-94f8-5705764aa469	User 0	Let's do the $$$ thai then
+02-19-2016:15-33-32	805372cd-61c1-4580-94f8-5705764aa469	User 1	Amarin Thai Cuisine
+02-19-2016:15-33-34	805372cd-61c1-4580-94f8-5705764aa469	User 1	Okay 
+02-19-2016:15-33-37	805372cd-61c1-4580-94f8-5705764aa469	User 1	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:15-33-38	805372cd-61c1-4580-94f8-5705764aa469	User 0	It's a date!
+02-19-2016:15-33-42	805372cd-61c1-4580-94f8-5705764aa469	User 0	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:15-33-42	---
+02-19-2016:15-33-42	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Thai, French, Mediterranean, Vietnamese
+User 1 preferences: 0-10	French, Mediterranean, Thai, Mexican, Vietnamese
+
+Café Baklava	Mediterranean	10-20
+Bangkok Spoon	Thai	30-60
+Morocco's	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Agave	Mexican	20-30
+Pho Hoa	Vietnamese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Ehpesus	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Amarin Thai CuisineUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,29 @@
+02-19-2016:16-35-57	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	joined
+02-19-2016:16-36-00	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	joined
+02-19-2016:16-36-12	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	Hong Kong bistro is sounding good to me
+02-19-2016:16-36-15	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	what do you think about thai?
+02-19-2016:16-36-15	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	Selected restaurant:	Hong Kong Bistro
+02-19-2016:16-36-29	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	ehh, thai, idk, i got sick last time
+02-19-2016:16-36-39	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	sure, hong kong bistro sounds good to me then
+02-19-2016:16-36-43	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	Selected restaurant:	Hong Kong Bistro
+02-19-2016:16-36-43	---
+02-19-2016:16-36-43	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Indian, Korean, French, Thai
+User 1 preferences: 20-30	Thai, French, Indian, Korean, Chinese
+
+Queen House	Chinese	0-10
+Shezan	Indian	10-20
+Hong Kong Bistro	Chinese	20-30
+Amarin Thai Cuisine	Thai	20-30
+New Mongolian BBQ	Chinese	30-60
+Bangkok Spoon	Thai	30-60
+Ginseng	Korean	10-20
+Park Ballachi	Indian	0-10
+Chez TJ	French	30-60
+Totoro	Korean	20-30
+
+Final selection: Hong Kong BistroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

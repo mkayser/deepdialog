@@ -1,0 +1,30 @@
+02-24-2016:19-49-42	2f838ff2-cb79-4b3a-9e43-dd9a57996d5c	User 0	joined
+02-24-2016:19-49-42	2f838ff2-cb79-4b3a-9e43-dd9a57996d5c	User 0 has user ID 56a965da39604ed4b21a394e5ff4f573
+02-24-2016:19-49-43	2f838ff2-cb79-4b3a-9e43-dd9a57996d5c	User 1	joined
+02-24-2016:19-49-43	2f838ff2-cb79-4b3a-9e43-dd9a57996d5c	User 1 has user ID 86eea2e4303c44ad8c8a835b9dbd464b
+02-24-2016:19-49-50	2f838ff2-cb79-4b3a-9e43-dd9a57996d5c	User 1	hi
+02-24-2016:19-49-51	2f838ff2-cb79-4b3a-9e43-dd9a57996d5c	User 0	Lets get Ristorante
+02-24-2016:19-49-54	2f838ff2-cb79-4b3a-9e43-dd9a57996d5c	User 0	Selected restaurant 8:	Ristorante Don Giovanni
+02-24-2016:19-49-59	2f838ff2-cb79-4b3a-9e43-dd9a57996d5c	User 1	awesome
+02-24-2016:19-50-05	2f838ff2-cb79-4b3a-9e43-dd9a57996d5c	User 1	Selected restaurant 8:	Ristorante Don Giovanni
+02-24-2016:19-50-05	---
+02-24-2016:19-51-05	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, Pizza, American, Spanish, French
+User 1 preferences: 20-30	American, Italian, Spanish, Pizza, French
+
+Blue Line Pizza	Pizza	10-20
+Scratch	American	0-10
+Doppio Zero	Italian	30-60
+Steins Beer Garden	American	20-30
+Bierhaus	American	0-10
+Chez TJ	French	30-60
+The Crepevine	American	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Ristorante Don Giovanni	Italian	0-10
+Cascal	Spanish	30-60
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

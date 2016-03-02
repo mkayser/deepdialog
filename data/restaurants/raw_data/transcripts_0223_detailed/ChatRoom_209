@@ -1,0 +1,35 @@
+02-19-2016:15-59-36	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 1	joined
+02-19-2016:15-59-37	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 0	joined
+02-19-2016:15-59-40	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 1	Hi there
+02-19-2016:15-59-42	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 0	Hi
+02-19-2016:15-59-50	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 1	What do you feel like eating?
+02-19-2016:16-00-04	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 0	Mediterranean or Chinese would be preferred for me
+02-19-2016:16-00-07	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 0	Hbu?
+02-19-2016:16-00-11	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 1	Chinese would be good
+02-19-2016:16-00-17	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 1	how about "Kirin"?
+02-19-2016:16-00-35	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 0	I'm feeling fancy... Can we meet a little more upscale at Hong Kong Bistro?
+02-19-2016:16-00-57	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 1	You know what? Sure. It's Friday night
+02-19-2016:16-01-02	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 0	Mah man!
+02-19-2016:16-01-05	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 0	Selected restaurant:	Hong Kong Bistro
+02-19-2016:16-01-12	1b4cff8b-6cf9-424e-88f5-b0fe9cb33435	User 1	Selected restaurant:	Hong Kong Bistro
+02-19-2016:16-01-12	---
+02-19-2016:16-01-13	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Mediterranean, Chinese, Italian, Thai, Spanish
+User 1 preferences: 10-20	Chinese, Mediterranean, Spanish, Thai, Italian
+
+Cascal	Spanish	30-60
+Kirin	Chinese	10-20
+Doppio Zero	Italian	30-60
+Café Baklava	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+Hong Kong Bistro	Chinese	20-30
+Morocco's	Mediterranean	10-20
+Oren's Hummus	Mediterranean	10-20
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Hong Kong BistroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

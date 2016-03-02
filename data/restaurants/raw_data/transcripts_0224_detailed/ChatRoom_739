@@ -1,0 +1,30 @@
+02-24-2016:20-06-30	751c823a-6e0f-4835-b533-671e60d911b2	User 0	joined
+02-24-2016:20-06-30	751c823a-6e0f-4835-b533-671e60d911b2	User 0 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:20-06-31	751c823a-6e0f-4835-b533-671e60d911b2	User 1	joined
+02-24-2016:20-06-31	751c823a-6e0f-4835-b533-671e60d911b2	User 1 has user ID 2d1110ed7c6b4a4c9c82077f86840797
+02-24-2016:20-06-36	751c823a-6e0f-4835-b533-671e60d911b2	User 0	posh
+02-24-2016:20-06-45	751c823a-6e0f-4835-b533-671e60d911b2	User 1	yes
+02-24-2016:20-06-48	751c823a-6e0f-4835-b533-671e60d911b2	User 1	Selected restaurant 8:	Posh Bagel
+02-24-2016:20-06-48	751c823a-6e0f-4835-b533-671e60d911b2	User 0	ok
+02-24-2016:20-06-53	751c823a-6e0f-4835-b533-671e60d911b2	User 0	Selected restaurant 8:	Posh Bagel
+02-24-2016:20-06-53	---
+02-24-2016:20-06-53	---
+
+Chat Information:
+
+User 0 preferences: 30-60	French, American, Japanese, Deli, Spanish
+User 1 preferences: 10-20	American, Deli, Japanese, French, Spanish
+
+Niji Sushi	Japanese	10-20
+Masa Sushi	Japanese	0-10
+Steins Beer Garden	American	20-30
+Bushido	Japanese	10-20
+Scratch	American	0-10
+Yakko	Japanese	0-10
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Posh Bagel	Deli	10-20
+Sushitomi	Japanese	20-30
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-24-2016:20-13-10	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 0	joined
+02-24-2016:20-13-10	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 0 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:20-13-10	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 1	joined
+02-24-2016:20-13-10	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 1 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:20-13-14	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 0	Selected restaurant 0:	Posh Bagel
+02-24-2016:20-13-23	ca30f0d7-bc1d-4d23-ac18-44b18c00a2ed	User 1	Selected restaurant 0:	Posh Bagel
+02-24-2016:20-13-23	---
+02-24-2016:20-13-23	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Deli, Thai, Korean, American, Chinese
+User 1 preferences: 30-60	American, Deli, Korean, Chinese, Thai
+
+Posh Bagel	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+Totoro	Korean	20-30
+Bierhaus	American	0-10
+Bangkok Spoon	Thai	30-60
+Ginseng	Korean	10-20
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Posh BagelUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-24-2016:20-11-28	f08e85a0-2ef1-46dc-bc96-0931a8498cc1	User 1	joined
+02-24-2016:20-11-28	f08e85a0-2ef1-46dc-bc96-0931a8498cc1	User 1 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:20-11-30	f08e85a0-2ef1-46dc-bc96-0931a8498cc1	User 0	joined
+02-24-2016:20-11-30	f08e85a0-2ef1-46dc-bc96-0931a8498cc1	User 0 has user ID 053cd3f4e92140e9900bc5b4e07c6c68
+02-24-2016:20-11-31	f08e85a0-2ef1-46dc-bc96-0931a8498cc1	User 1	Selected restaurant 0:	Bushido
+02-24-2016:20-11-37	f08e85a0-2ef1-46dc-bc96-0931a8498cc1	User 0	Selected restaurant 0:	Bushido
+02-24-2016:20-11-37	---
+02-24-2016:20-11-37	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Japanese, Pizza, Thai, Vietnamese, Spanish
+User 1 preferences: 30-60	Japanese, Vietnamese, Spanish, Thai, Pizza
+
+Bushido	Japanese	10-20
+Niji Sushi	Japanese	10-20
+Ryowa Noodle House	Japanese	20-30
+Blue Line Pizza	Pizza	10-20
+Shalala	Japanese	10-20
+Masa Sushi	Japanese	0-10
+Xanh Restaurant	Vietnamese	10-20
+Amarin Thai Cuisine	Thai	20-30
+Kappo Naminami	Japanese	30-60
+Yakko	Japanese	0-10
+
+Final selection: BushidoUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,32 @@
+02-24-2016:19-52-27	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	joined
+02-24-2016:19-52-27	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0 has user ID cd8e156d33b74a0494917b48f6d699a4
+02-24-2016:19-52-28	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	joined
+02-24-2016:19-52-28	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-52-36	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	Selected restaurant 3:	Shabuway
+02-24-2016:19-52-53	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	how about amici's?
+02-24-2016:19-52-56	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	or blue line.
+02-24-2016:19-52-58	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	i want pizza.
+02-24-2016:19-53-03	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	ook w8vr
+02-24-2016:19-53-08	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 1	Selected restaurant 0:	Blue Line Pizza
+02-24-2016:19-53-11	6368af1f-576b-40f6-b1a5-29d75e1ea3c5	User 0	Selected restaurant 0:	Blue Line Pizza
+02-24-2016:19-53-11	---
+02-24-2016:19-53-11	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Pizza, American, Mexican, Japanese
+User 1 preferences: 10-20	Japanese, Pizza, Mexican, American, Spanish
+
+Blue Line Pizza	Pizza	10-20
+The Crepevine	American	30-60
+Scratch	American	0-10
+Shabuway	Japanese	30-60
+Bushido	Japanese	10-20
+Agave	Mexican	20-30
+Maruichi Noodle House	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Rumble Fish	Japanese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

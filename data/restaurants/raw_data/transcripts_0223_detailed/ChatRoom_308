@@ -1,0 +1,29 @@
+02-19-2016:16-15-07	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 1	joined
+02-19-2016:16-15-07	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 0	joined
+02-19-2016:16-15-14	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 1	Shell Shock?
+02-19-2016:16-15-30	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 0	Taqueria is the only one I see in our price range
+02-19-2016:16-15-37	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 1	ok sure
+02-19-2016:16-15-39	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 1	lets do that
+02-19-2016:16-15-43	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 1	Selected restaurant:	Taqueria Los Charros
+02-19-2016:16-15-46	5a64ad7f-c9ab-4d19-8dd1-e35a6edbd474	User 0	Selected restaurant:	Taqueria Los Charros
+02-19-2016:16-15-46	---
+02-19-2016:16-15-46	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, Japanese, Italian, Vietnamese, Mexican
+User 1 preferences: 10-20	SeaFood, Japanese, Vietnamese, Italian, Mexican
+
+Rumble Fish	Japanese	30-60
+Xanh Restaurant	Vietnamese	10-20
+Taqueria Los Charros	Mexican	0-10
+Vaso Azzurro	Italian	20-30
+Shell Shock	SeaFood	10-20
+Doppio Zero	Italian	30-60
+Shalala	Japanese	10-20
+Asian Box	Vietnamese	30-60
+Sushitomi	Japanese	20-30
+Pho Hoa	Vietnamese	30-60
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

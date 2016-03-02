@@ -1,0 +1,28 @@
+02-19-2016:15-55-07	831351d8-62d9-48fb-bb3c-afe76a3334ff	User 1	joined
+02-19-2016:15-55-10	831351d8-62d9-48fb-bb3c-afe76a3334ff	User 0	joined
+02-19-2016:15-55-27	831351d8-62d9-48fb-bb3c-afe76a3334ff	User 0	Hi! What would you think about Blue Line Pizza?
+02-19-2016:15-56-10	831351d8-62d9-48fb-bb3c-afe76a3334ff	User 1	I like italian, maybe we could hit Ristorante Don Giovanni?  they might have pizza.
+02-19-2016:15-56-22	831351d8-62d9-48fb-bb3c-afe76a3334ff	User 0	Sounds good to me!
+02-19-2016:15-56-26	831351d8-62d9-48fb-bb3c-afe76a3334ff	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:15-56-30	831351d8-62d9-48fb-bb3c-afe76a3334ff	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:15-56-31	---
+02-19-2016:15-56-31	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, Vietnamese, Spanish, Italian, Japanese
+User 1 preferences: 0-10	Italian, Spanish, Pizza, Vietnamese, Japanese
+
+Pho Hoa	Vietnamese	30-60
+Yakko	Japanese	0-10
+Ristorante Don Giovanni	Italian	0-10
+Masa Sushi	Japanese	0-10
+Shalala	Japanese	10-20
+Cascal	Spanish	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Rumble Fish	Japanese	30-60
+Asian Box	Vietnamese	30-60
+Blue Line Pizza	Pizza	10-20
+
+Final selection: Ristorante Don GiovanniUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

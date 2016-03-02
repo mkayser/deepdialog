@@ -1,0 +1,27 @@
+02-19-2016:16-08-13	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0	joined
+02-19-2016:16-08-15	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1	joined
+02-19-2016:16-08-27	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1	Taqueria?
+02-19-2016:16-08-33	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1	I'm broke and want margaritas
+02-19-2016:16-08-36	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 0	Selected restaurant:	Taqueria Los Charros
+02-19-2016:16-08-42	cbb75f02-7368-4b8d-b1ec-763e1e05577c	User 1	Selected restaurant:	Taqueria Los Charros
+02-19-2016:16-08-42	---
+02-19-2016:16-08-42	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Mexican, French, SeaFood, Chinese
+User 1 preferences: 0-10	Mexican, French, Chinese, SeaFood, Spanish
+
+Drunken Lobster	SeaFood	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Cascal	Spanish	30-60
+Kirin	Chinese	10-20
+Shell Shock	SeaFood	10-20
+Taqueria Los Charros	Mexican	0-10
+New Mongolian BBQ	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Chez TJ	French	30-60
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

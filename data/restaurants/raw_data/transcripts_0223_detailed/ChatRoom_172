@@ -1,0 +1,31 @@
+02-19-2016:15-52-58	320db44b-c443-4749-80b6-0f0215df36f6	User 1	joined
+02-19-2016:15-52-58	320db44b-c443-4749-80b6-0f0215df36f6	User 0	joined
+02-19-2016:15-53-07	320db44b-c443-4749-80b6-0f0215df36f6	User 0	Hi! What do you think about Ginseng?
+02-19-2016:15-53-46	320db44b-c443-4749-80b6-0f0215df36f6	User 1	Korean matches my preferences file adequately, friend unit.
+02-19-2016:15-53-47	320db44b-c443-4749-80b6-0f0215df36f6	User 0	Or... Posh Bagel?
+02-19-2016:15-54-00	320db44b-c443-4749-80b6-0f0215df36f6	User 0	Ginseng it is then? :)
+02-19-2016:15-54-06	320db44b-c443-4749-80b6-0f0215df36f6	User 1	Posh Bagel is a possibility.
+02-19-2016:15-54-17	320db44b-c443-4749-80b6-0f0215df36f6	User 0	You pick. I'm feeling generous.
+02-19-2016:15-54-22	320db44b-c443-4749-80b6-0f0215df36f6	User 1	Selected restaurant:	Ginseng
+02-19-2016:15-54-27	320db44b-c443-4749-80b6-0f0215df36f6	User 0	Selected restaurant:	Ginseng
+02-19-2016:15-54-27	---
+02-19-2016:15-54-27	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Pizza, Korean, Indian, SeaFood
+User 1 preferences: 10-20	Indian, SeaFood, Korean, Deli, Pizza
+
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+Posh Bagel	Deli	10-20
+Shezan	Indian	10-20
+Shell Shock	SeaFood	10-20
+Blue Line Pizza	Pizza	10-20
+Ginseng	Korean	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Amici's East Coast Pizzeria	Pizza	30-60
+Drunken Lobster	SeaFood	10-20
+
+Final selection: GinsengUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

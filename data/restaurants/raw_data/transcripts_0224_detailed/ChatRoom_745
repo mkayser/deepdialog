@@ -1,0 +1,29 @@
+02-24-2016:20-06-52	7496ee05-64c4-4102-b3e5-cfa055bc4980	User 0	joined
+02-24-2016:20-06-52	7496ee05-64c4-4102-b3e5-cfa055bc4980	User 0 has user ID 15e27d9d34fd4f0ea2f2db513dcd3740
+02-24-2016:20-06-55	7496ee05-64c4-4102-b3e5-cfa055bc4980	User 1	joined
+02-24-2016:20-06-55	7496ee05-64c4-4102-b3e5-cfa055bc4980	User 1 has user ID 757a79ba8ec34bbd8f4acc291696d015
+02-24-2016:20-07-03	7496ee05-64c4-4102-b3e5-cfa055bc4980	User 0	Hong Kong?
+02-24-2016:20-07-06	7496ee05-64c4-4102-b3e5-cfa055bc4980	User 0	Selected restaurant 6:	Hong Kong Bistro
+02-24-2016:20-07-09	7496ee05-64c4-4102-b3e5-cfa055bc4980	User 1	ok
+02-24-2016:20-07-14	7496ee05-64c4-4102-b3e5-cfa055bc4980	User 1	Selected restaurant 6:	Hong Kong Bistro
+02-24-2016:20-07-14	---
+02-24-2016:20-07-14	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, French, Chinese, Indian, Pizza
+User 1 preferences: 0-10	Chinese, Pizza, French, SeaFood, Indian
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+Chez TJ	French	30-60
+Blue Line Pizza	Pizza	10-20
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+Shezan	Indian	10-20
+Kirin	Chinese	10-20
+
+Final selection: Hong Kong BistroUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

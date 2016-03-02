@@ -1,0 +1,29 @@
+02-24-2016:20-01-40	5c39ff20-128e-4a27-8402-4611be4e81ad	User 0	joined
+02-24-2016:20-01-40	5c39ff20-128e-4a27-8402-4611be4e81ad	User 0 has user ID ce2b94391e8b4ac8abe96e0af2bd1d6f
+02-24-2016:20-01-41	5c39ff20-128e-4a27-8402-4611be4e81ad	User 1	joined
+02-24-2016:20-01-41	5c39ff20-128e-4a27-8402-4611be4e81ad	User 1 has user ID 0aad6311afd54583be7b3db7575a384e
+02-24-2016:20-01-46	5c39ff20-128e-4a27-8402-4611be4e81ad	User 1	shell shock?
+02-24-2016:20-01-46	5c39ff20-128e-4a27-8402-4611be4e81ad	User 0	French>
+02-24-2016:20-01-55	5c39ff20-128e-4a27-8402-4611be4e81ad	User 0	Selected restaurant 2:	Shell Shock
+02-24-2016:20-01-59	5c39ff20-128e-4a27-8402-4611be4e81ad	User 1	Selected restaurant 2:	Shell Shock
+02-24-2016:20-01-59	---
+02-24-2016:20-01-59	---
+
+Chat Information:
+
+User 0 preferences: 10-20	French, SeaFood, American, Japanese, Vietnamese
+User 1 preferences: 30-60	SeaFood, Japanese, French, American, Vietnamese
+
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Shell Shock	SeaFood	10-20
+Maruichi Noodle House	Japanese	0-10
+Rumble Fish	Japanese	30-60
+Pho Hoa	Vietnamese	30-60
+Scratch	American	0-10
+Drunken Lobster	SeaFood	10-20
+Masa Sushi	Japanese	0-10
+Chez TJ	French	30-60
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

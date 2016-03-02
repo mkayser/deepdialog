@@ -1,0 +1,27 @@
+02-24-2016:19-47-52	853dcb46-3f73-4132-9d81-c0a0375c62ff	User 0	joined
+02-24-2016:19-47-52	853dcb46-3f73-4132-9d81-c0a0375c62ff	User 0 has user ID 931611fc0acc453dbdee131eba2cbf46
+02-24-2016:19-47-53	853dcb46-3f73-4132-9d81-c0a0375c62ff	User 1	joined
+02-24-2016:19-47-53	853dcb46-3f73-4132-9d81-c0a0375c62ff	User 1 has user ID 5d5bb4d599184ba786b986e87ff1077c
+02-24-2016:19-48-04	853dcb46-3f73-4132-9d81-c0a0375c62ff	User 0	Selected restaurant 9:	Fiesta Del Mar Too
+02-24-2016:19-48-08	853dcb46-3f73-4132-9d81-c0a0375c62ff	User 1	Selected restaurant 9:	Fiesta Del Mar Too
+02-24-2016:19-48-09	---
+02-24-2016:19-48-09	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mexican, American, Mediterranean, SeaFood, Italian
+User 1 preferences: 30-60	American, Italian, SeaFood, Mexican, Mediterranean
+
+Scratch	American	0-10
+Ristorante Don Giovanni	Italian	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Morocco's	Mediterranean	10-20
+Shell Shock	SeaFood	10-20
+Bierhaus	American	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Ehpesus	Mediterranean	0-10
+Taqueria Los Charros	Mexican	0-10
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: Fiesta Del Mar TooUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,32 @@
+02-24-2016:20-03-22	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	joined
+02-24-2016:20-03-22	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:20-03-23	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	joined
+02-24-2016:20-03-23	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:20-03-30	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	chinese
+02-24-2016:20-03-34	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	Selected restaurant 7:	Hong Kong Bistro
+02-24-2016:20-03-44	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	chinese isn't my favorite.  what about pizza or mediterranean?
+02-24-2016:20-03-46	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	or korean
+02-24-2016:20-03-51	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	korean
+02-24-2016:20-03-53	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 0	Selected restaurant 3:	Ginseng
+02-24-2016:20-04-01	9f0a62c4-1240-4e2a-bdbe-80c7b337badf	User 1	Selected restaurant 3:	Ginseng
+02-24-2016:20-04-01	---
+02-24-2016:20-04-01	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Korean, Pizza, Mediterranean, SeaFood
+User 1 preferences: 20-30	Pizza, Mediterranean, Korean, SeaFood, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Ehpesus	Mediterranean	0-10
+Blue Line Pizza	Pizza	10-20
+Ginseng	Korean	10-20
+Drunken Lobster	SeaFood	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Totoro	Korean	20-30
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Shell Shock	SeaFood	10-20
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

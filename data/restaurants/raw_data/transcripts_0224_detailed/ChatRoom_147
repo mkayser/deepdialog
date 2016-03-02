@@ -1,0 +1,37 @@
+02-24-2016:19-43-05	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0	joined
+02-24-2016:19-43-05	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0 has user ID dfdd6b79b4944e24bc450e42e810135c
+02-24-2016:19-43-05	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 1	joined
+02-24-2016:19-43-05	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 1 has user ID fd6adc76ca994bd79a4054960194f86e
+02-24-2016:19-43-15	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 1	hungry?
+02-24-2016:19-43-20	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0	Yep
+02-24-2016:19-43-23	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 1	Indian
+02-24-2016:19-43-42	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0	I am not familiar but I can give it a try
+02-24-2016:19-43-54	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 1	Selected restaurant 6:	Morocco's
+02-24-2016:19-43-59	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0	How about Shezan
+02-24-2016:19-44-13	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0	I thought you wanted Indian
+02-24-2016:19-44-17	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 1	Selected restaurant 3:	Sakoon
+02-24-2016:19-44-23	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 1	cheaper
+02-24-2016:19-44-31	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0	Sakoon then
+02-24-2016:19-44-37	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 1	cheers
+02-24-2016:19-44-46	76150135-2b81-44c2-b5d0-e85e4a65ca93	User 0	Selected restaurant 3:	Sakoon
+02-24-2016:19-44-46	---
+02-24-2016:19-44-46	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, Spanish, Indian, Mediterranean, American
+User 1 preferences: 0-10	Thai, Spanish, Indian, Mediterranean, American
+
+Shezan	Indian	10-20
+Steins Beer Garden	American	20-30
+Amarin Thai Cuisine	Thai	20-30
+Sakoon	Indian	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Morocco's	Mediterranean	10-20
+Bangkok Spoon	Thai	30-60
+Cascal	Spanish	30-60
+Ehpesus	Mediterranean	0-10
+
+Final selection: SakoonUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

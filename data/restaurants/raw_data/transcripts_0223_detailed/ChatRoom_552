@@ -1,0 +1,28 @@
+02-19-2016:16-40-41	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	joined
+02-19-2016:16-40-41	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	joined
+02-19-2016:16-40-55	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	Do you want to go to Amarin?
+02-19-2016:16-41-11	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	I could do that!
+02-19-2016:16-41-15	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:16-41-18	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	Cool!
+02-19-2016:16-41-23	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:16-41-24	---
+02-19-2016:16-41-24	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Thai, Vietnamese, French, Korean, American
+User 1 preferences: 30-60	American, French, Korean, Vietnamese, Thai
+
+Pho To Chau	Vietnamese	20-30
+Scratch	American	0-10
+Bierhaus	American	0-10
+Xanh Restaurant	Vietnamese	10-20
+Amarin Thai Cuisine	Thai	20-30
+Totoro	Korean	20-30
+Asian Box	Vietnamese	30-60
+Chez TJ	French	30-60
+Steins Beer Garden	American	20-30
+Bangkok Spoon	Thai	30-60
+
+Final selection: Amarin Thai CuisineUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

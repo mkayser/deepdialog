@@ -1,0 +1,32 @@
+02-19-2016:16-08-20	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 1	joined
+02-19-2016:16-08-21	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 0	joined
+02-19-2016:16-08-26	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 0	I want to eat pizza
+02-19-2016:16-08-30	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 0	And Hi :)
+02-19-2016:16-08-32	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 1	Hi!
+02-19-2016:16-08-35	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 1	Sounds good to me
+02-19-2016:16-08-41	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 0	Blue line?
+02-19-2016:16-08-44	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 1	Which one?
+02-19-2016:16-08-46	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 0	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-08-46	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 1	OK!
+02-19-2016:16-08-49	3e8442f4-13f3-438e-9f1a-3fde72874cc0	User 1	Selected restaurant:	Blue Line Pizza
+02-19-2016:16-08-49	---
+02-19-2016:16-08-50	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Pizza, Spanish, Mediterranean, Mexican, French
+User 1 preferences: 0-10	Mediterranean, Spanish, Mexican, Pizza, French
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Cascal	Spanish	30-60
+Taqueria Los Charros	Mexican	0-10
+Café Baklava	Mediterranean	10-20
+Blue Line Pizza	Pizza	10-20
+Morocco's	Mediterranean	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

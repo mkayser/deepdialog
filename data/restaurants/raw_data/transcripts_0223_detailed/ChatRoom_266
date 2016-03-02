@@ -1,0 +1,30 @@
+02-19-2016:16-09-03	5c39ff20-128e-4a27-8402-4611be4e81ad	User 1	joined
+02-19-2016:16-09-04	5c39ff20-128e-4a27-8402-4611be4e81ad	User 0	joined
+02-19-2016:16-09-32	5c39ff20-128e-4a27-8402-4611be4e81ad	User 1	Hmm, I'm loving some seafood. How about Drunken Lobster?
+02-19-2016:16-09-33	---
+02-19-2016:16-09-35	5c39ff20-128e-4a27-8402-4611be4e81ad	User 0	joined
+02-19-2016:16-09-53	5c39ff20-128e-4a27-8402-4611be4e81ad	User 0	Chez TJ is my choice
+02-19-2016:16-09-59	5c39ff20-128e-4a27-8402-4611be4e81ad	User 1	I could do that. 
+02-19-2016:16-10-02	5c39ff20-128e-4a27-8402-4611be4e81ad	User 1	Selected restaurant:	Chez TJ
+02-19-2016:16-10-20	5c39ff20-128e-4a27-8402-4611be4e81ad	User 0	Selected restaurant:	Chez TJ
+02-19-2016:16-10-20	---
+02-19-2016:16-10-20	---
+
+Chat Information:
+
+User 0 preferences: 10-20	French, SeaFood, American, Japanese, Vietnamese
+User 1 preferences: 30-60	SeaFood, Japanese, French, American, Vietnamese
+
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Shell Shock	SeaFood	10-20
+Maruichi Noodle House	Japanese	0-10
+Rumble Fish	Japanese	30-60
+Pho Hoa	Vietnamese	30-60
+Scratch	American	0-10
+Drunken Lobster	SeaFood	10-20
+Masa Sushi	Japanese	0-10
+Chez TJ	French	30-60
+
+Final selection: Chez TJUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

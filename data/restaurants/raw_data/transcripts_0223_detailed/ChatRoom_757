@@ -1,0 +1,30 @@
+02-19-2016:16-52-56	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 1	joined
+02-19-2016:16-52-58	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 0	joined
+02-19-2016:16-53-02	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 1	Kirin!
+02-19-2016:16-53-05	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 1	Selected restaurant:	Kirin
+02-19-2016:16-53-08	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 0	This is the Hit of the Week for sure!
+02-19-2016:16-53-13	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 1	haha yeah
+02-19-2016:16-53-18	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 1	assuming multiples are allowed...
+02-19-2016:16-53-21	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 0	Sounds great!
+02-19-2016:16-53-28	b80d7ff0-56dd-4ee2-8aee-d67b64b9085f	User 0	Selected restaurant:	Kirin
+02-19-2016:16-53-28	---
+02-19-2016:16-53-28	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Japanese, Italian, Thai, Vietnamese
+User 1 preferences: 20-30	Thai, Vietnamese, Chinese, Italian, Japanese
+
+Hunan Chili	Chinese	30-60
+Kirin	Chinese	10-20
+Shabuway	Japanese	30-60
+New Mongolian BBQ	Chinese	30-60
+Sushitomi	Japanese	20-30
+Ryowa Noodle House	Japanese	20-30
+Masa Sushi	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Bushido	Japanese	10-20
+Ristorante Don Giovanni	Italian	0-10
+
+Final selection: KirinUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

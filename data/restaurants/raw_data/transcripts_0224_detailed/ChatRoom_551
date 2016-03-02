@@ -1,0 +1,32 @@
+02-24-2016:19-56-31	54027d86-a1d6-4cc3-8938-479c4e861b20	User 0	joined
+02-24-2016:19-56-31	54027d86-a1d6-4cc3-8938-479c4e861b20	User 0 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:19-56-34	54027d86-a1d6-4cc3-8938-479c4e861b20	User 1	joined
+02-24-2016:19-56-34	54027d86-a1d6-4cc3-8938-479c4e861b20	User 1 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:19-56-40	54027d86-a1d6-4cc3-8938-479c4e861b20	User 0	Selected restaurant 9:	Casa Lupe Mexican Restaurant
+02-24-2016:19-56-47	54027d86-a1d6-4cc3-8938-479c4e861b20	User 0	mexican?
+02-24-2016:19-56-52	54027d86-a1d6-4cc3-8938-479c4e861b20	User 0	Selected restaurant 1:	Agave
+02-24-2016:19-57-01	54027d86-a1d6-4cc3-8938-479c4e861b20	User 1	Hmm mexican is pretty bad.  What about seafood or indian?
+02-24-2016:19-57-05	54027d86-a1d6-4cc3-8938-479c4e861b20	User 0	indian
+02-24-2016:19-57-08	54027d86-a1d6-4cc3-8938-479c4e861b20	User 0	Selected restaurant 5:	Shezan
+02-24-2016:19-57-14	54027d86-a1d6-4cc3-8938-479c4e861b20	User 1	Selected restaurant 5:	Shezan
+02-24-2016:19-57-15	---
+02-24-2016:19-57-15	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Mexican, Indian, SeaFood, Chinese, Spanish
+User 1 preferences: 0-10	SeaFood, Indian, Chinese, Mexican, Spanish
+
+Shell Shock	SeaFood	10-20
+Agave	Mexican	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+Fu Lam Mum	Chinese	30-60
+Shezan	Indian	10-20
+Hong Kong Bistro	Chinese	20-30
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: ShezanUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

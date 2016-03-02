@@ -1,0 +1,35 @@
+02-24-2016:20-36-58	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 0	joined
+02-24-2016:20-36-58	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 0 has user ID e04c697f29484d598037bbe7b7f58392
+02-24-2016:20-36-59	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1	joined
+02-24-2016:20-36-59	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1 has user ID 0a5a57705ca34c879d6c70fbb5f1d30d
+02-24-2016:20-37-07	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1	Selected restaurant 5:	Amarin Thai Cuisine
+02-24-2016:20-37-23	---
+02-24-2016:20-37-27	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1	joined
+02-24-2016:20-37-27	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1 has user ID 0a5a57705ca34c879d6c70fbb5f1d30d
+02-24-2016:20-37-32	---
+02-24-2016:20-37-33	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1	joined
+02-24-2016:20-37-33	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1 has user ID 0a5a57705ca34c879d6c70fbb5f1d30d
+02-24-2016:20-37-37	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 0	I like orens better. I had thai last night
+02-24-2016:20-37-57	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1	Selected restaurant 8:	Oren's Hummus
+02-24-2016:20-38-00	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 0	Selected restaurant 8:	Oren's Hummus
+02-24-2016:20-38-00	---
+02-24-2016:20-38-00	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Thai, Mediterranean, Pizza, Mexican, SeaFood
+User 1 preferences: 20-30	Thai, Mediterranean, SeaFood, Mexican, Pizza
+
+Agave	Mexican	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Shell Shock	SeaFood	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Taqueria Los Charros	Mexican	0-10
+Amarin Thai Cuisine	Thai	20-30
+Blue Line Pizza	Pizza	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Oren's Hummus	Mediterranean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: Oren's HummusUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

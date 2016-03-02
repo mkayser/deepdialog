@@ -1,0 +1,30 @@
+02-19-2016:16-30-07	e93359df-daf8-4248-a856-40e6a2f9283a	User 1	joined
+02-19-2016:16-30-09	e93359df-daf8-4248-a856-40e6a2f9283a	User 0	joined
+02-19-2016:16-30-16	e93359df-daf8-4248-a856-40e6a2f9283a	User 0	Hey!
+02-19-2016:16-30-18	e93359df-daf8-4248-a856-40e6a2f9283a	User 1	hello
+02-19-2016:16-30-23	e93359df-daf8-4248-a856-40e6a2f9283a	User 0	I haven't gotten paid yet
+02-19-2016:16-30-24	e93359df-daf8-4248-a856-40e6a2f9283a	User 1	Selected restaurant:	Doppio Zero
+02-19-2016:16-30-28	e93359df-daf8-4248-a856-40e6a2f9283a	User 0	Can we do something cheap?
+02-19-2016:16-30-36	e93359df-daf8-4248-a856-40e6a2f9283a	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-30-37	e93359df-daf8-4248-a856-40e6a2f9283a	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-30-38	---
+02-19-2016:16-30-38	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Italian, French, Thai, SeaFood
+User 1 preferences: 20-30	Deli, Thai, SeaFood, French, Italian
+
+Vaso Azzurro	Italian	20-30
+Bangkok Spoon	Thai	30-60
+Chez TJ	French	30-60
+Ristorante Don Giovanni	Italian	0-10
+Drunken Lobster	SeaFood	10-20
+Shell Shock	SeaFood	10-20
+Subway	Deli	10-20
+Posh Bagel	Deli	10-20
+Doppio Zero	Italian	30-60
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

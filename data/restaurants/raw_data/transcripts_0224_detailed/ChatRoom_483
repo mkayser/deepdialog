@@ -1,0 +1,31 @@
+02-24-2016:19-53-44	c6fca646-d68d-49f5-a057-e509f4f79c4f	User 1	joined
+02-24-2016:19-53-44	c6fca646-d68d-49f5-a057-e509f4f79c4f	User 1 has user ID ecb9be7e240a471d97a69d5ebf6b8597
+02-24-2016:19-53-46	c6fca646-d68d-49f5-a057-e509f4f79c4f	User 0	joined
+02-24-2016:19-53-46	c6fca646-d68d-49f5-a057-e509f4f79c4f	User 0 has user ID 1e18788e3ef841a095f2ac760b74b287
+02-24-2016:19-53-49	c6fca646-d68d-49f5-a057-e509f4f79c4f	User 1	HELLO FRIEND
+02-24-2016:19-54-00	c6fca646-d68d-49f5-a057-e509f4f79c4f	User 1	Let us enjoy some Asian Box.
+02-24-2016:19-54-06	c6fca646-d68d-49f5-a057-e509f4f79c4f	User 0	Yes..
+02-24-2016:19-54-10	c6fca646-d68d-49f5-a057-e509f4f79c4f	User 1	Selected restaurant 0:	Asian Box
+02-24-2016:19-54-13	c6fca646-d68d-49f5-a057-e509f4f79c4f	User 1	Superlative
+02-24-2016:19-54-28	c6fca646-d68d-49f5-a057-e509f4f79c4f	User 0	Selected restaurant 0:	Asian Box
+02-24-2016:19-54-28	---
+02-24-2016:19-54-29	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Vietnamese, French, Japanese, Chinese, Indian
+User 1 preferences: 30-60	Vietnamese, Chinese, French, Indian, Japanese
+
+Asian Box	Vietnamese	30-60
+Queen House	Chinese	0-10
+Ryowa Noodle House	Japanese	20-30
+Shalala	Japanese	10-20
+Pho To Chau	Vietnamese	20-30
+Niji Sushi	Japanese	10-20
+Hunan Chili	Chinese	30-60
+Kirin	Chinese	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Pho Hoa	Vietnamese	30-60
+
+Final selection: Asian BoxUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

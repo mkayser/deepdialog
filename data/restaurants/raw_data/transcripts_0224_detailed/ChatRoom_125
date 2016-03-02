@@ -1,0 +1,30 @@
+02-24-2016:19-42-08	1ee3256e-203e-4557-a667-4320f9df8198	User 1	joined
+02-24-2016:19-42-08	1ee3256e-203e-4557-a667-4320f9df8198	User 1 has user ID d11f904801154461a8ca84edcfe434a4
+02-24-2016:19-42-14	1ee3256e-203e-4557-a667-4320f9df8198	User 0	joined
+02-24-2016:19-42-14	1ee3256e-203e-4557-a667-4320f9df8198	User 0 has user ID a08eb0381f614efb81f21a4ed99a6912
+02-24-2016:19-42-38	1ee3256e-203e-4557-a667-4320f9df8198	User 0	Amarin Thai Cuisine?
+02-24-2016:19-43-11	1ee3256e-203e-4557-a667-4320f9df8198	User 0	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:19-43-18	1ee3256e-203e-4557-a667-4320f9df8198	User 1	I'm not a huge Thai person, but I could go for Vietnamese
+02-24-2016:19-43-34	1ee3256e-203e-4557-a667-4320f9df8198	User 0	I could stand vietnamese. 
+02-24-2016:19-43-35	1ee3256e-203e-4557-a667-4320f9df8198	User 1	Selected restaurant 0:	Xanh Restaurant
+02-24-2016:19-43-39	1ee3256e-203e-4557-a667-4320f9df8198	User 0	Selected restaurant 0:	Xanh Restaurant
+02-24-2016:19-43-42	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Indian, Thai, Vietnamese, Deli, Japanese
+User 1 preferences: 20-30	Vietnamese, Deli, Thai, Indian, Japanese
+
+Xanh Restaurant	Vietnamese	10-20
+Sushitomi	Japanese	20-30
+Posh Bagel	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+Shalala	Japanese	10-20
+Shezan	Indian	10-20
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+
+Final selection: Xanh RestaurantUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

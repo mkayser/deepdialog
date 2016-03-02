@@ -1,0 +1,29 @@
+02-19-2016:16-48-01	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 0	joined
+02-19-2016:16-48-04	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 1	joined
+02-19-2016:16-48-05	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 0	Japanese?
+02-19-2016:16-48-11	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 1	Yes sure, expensive
+02-19-2016:16-48-15	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 1	Ryowa?
+02-19-2016:16-48-19	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 0	Sure
+02-19-2016:16-48-23	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 1	Selected restaurant:	Ryowa Noodle House
+02-19-2016:16-48-23	9bcaeeae-17dc-451a-bab9-c1b662f4e5b7	User 0	Selected restaurant:	Ryowa Noodle House
+02-19-2016:16-48-24	---
+02-19-2016:16-48-24	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Vietnamese, Japanese, Thai, Pizza, American
+User 1 preferences: 30-60	American, Vietnamese, Japanese, Pizza, Thai
+
+Bushido	Japanese	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Bierhaus	American	0-10
+Ryowa Noodle House	Japanese	20-30
+Scratch	American	0-10
+Pho To Chau	Vietnamese	20-30
+Amarin Thai Cuisine	Thai	20-30
+Shalala	Japanese	10-20
+Steins Beer Garden	American	20-30
+The Crepevine	American	30-60
+
+Final selection: Ryowa Noodle HouseUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,30 @@
+02-19-2016:16-12-00	c7c96d06-2424-4f0d-9b70-10e9e273cf53	User 0	joined
+02-19-2016:16-12-00	c7c96d06-2424-4f0d-9b70-10e9e273cf53	User 1	joined
+02-19-2016:16-12-12	c7c96d06-2424-4f0d-9b70-10e9e273cf53	User 1	ok
+02-19-2016:16-12-16	c7c96d06-2424-4f0d-9b70-10e9e273cf53	User 0	Hi!
+02-19-2016:16-12-21	c7c96d06-2424-4f0d-9b70-10e9e273cf53	User 1	Hi
+02-19-2016:16-12-29	c7c96d06-2424-4f0d-9b70-10e9e273cf53	User 0	How about the Drunken Lobster
+02-19-2016:16-12-39	c7c96d06-2424-4f0d-9b70-10e9e273cf53	User 1	Deal!
+02-19-2016:16-12-44	c7c96d06-2424-4f0d-9b70-10e9e273cf53	User 0	Selected restaurant:	Drunken Lobster
+02-19-2016:16-12-57	c7c96d06-2424-4f0d-9b70-10e9e273cf53	User 1	Lets go!
+02-19-2016:16-13-07	c7c96d06-2424-4f0d-9b70-10e9e273cf53	User 1	Selected restaurant:	Drunken Lobster
+02-19-2016:16-14-08	---
+
+Chat Information:
+
+User 0 preferences: 30-60	SeaFood, Spanish, Mexican, Mediterranean, Indian
+User 1 preferences: 10-20	SeaFood, Indian, Mediterranean, Mexican, Spanish
+
+Oren's Hummus	Mediterranean	10-20
+Taqueria Los Charros	Mexican	0-10
+Agave	Mexican	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Cascal	Spanish	30-60
+Shezan	Indian	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Sakoon	Indian	30-60
+Drunken Lobster	SeaFood	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Drunken LobsterUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

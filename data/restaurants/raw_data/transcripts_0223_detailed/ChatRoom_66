@@ -1,0 +1,28 @@
+02-19-2016:15-34-23	3bcf6df3-7e1f-4d6e-96a0-3b0abfcba2f9	User 1	joined
+02-19-2016:15-34-27	3bcf6df3-7e1f-4d6e-96a0-3b0abfcba2f9	User 0	joined
+02-19-2016:15-35-03	3bcf6df3-7e1f-4d6e-96a0-3b0abfcba2f9	User 1	Hey, what are you in the mood to eat?
+02-19-2016:15-35-13	3bcf6df3-7e1f-4d6e-96a0-3b0abfcba2f9	User 0	How about Steins Beer Garden?
+02-19-2016:15-35-24	3bcf6df3-7e1f-4d6e-96a0-3b0abfcba2f9	User 1	Sounds perfect to me.
+02-19-2016:15-35-28	3bcf6df3-7e1f-4d6e-96a0-3b0abfcba2f9	User 0	Selected restaurant:	Steins Beer Garden
+02-19-2016:15-35-31	3bcf6df3-7e1f-4d6e-96a0-3b0abfcba2f9	User 1	Selected restaurant:	Steins Beer Garden
+02-19-2016:15-35-32	---
+02-19-2016:15-35-32	---
+
+Chat Information:
+
+User 0 preferences: 30-60	American, French, Mexican, Indian, Thai
+User 1 preferences: 10-20	American, Indian, French, Mexican, Thai
+
+Scratch	American	0-10
+Taqueria Los Charros	Mexican	0-10
+Bangkok Spoon	Thai	30-60
+Agave	Mexican	20-30
+The Crepevine	American	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Amarin Thai Cuisine	Thai	20-30
+Steins Beer Garden	American	20-30
+Shezan	Indian	10-20
+Bierhaus	American	0-10
+
+Final selection: Steins Beer GardenUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

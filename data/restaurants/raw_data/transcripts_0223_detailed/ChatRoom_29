@@ -1,0 +1,37 @@
+02-19-2016:15-29-55	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	joined
+02-19-2016:15-29-56	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	joined
+02-19-2016:15-30-24	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	hello?
+02-19-2016:15-30-44	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	Selected restaurant:	Fiesta Del Mar Too
+02-19-2016:15-30-48	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	Hi! Let's go to Fiesta Del Mar Too tonight.
+02-19-2016:15-30-58	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	Selected restaurant:	Agave
+02-19-2016:15-31-04	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	How about Agave?
+02-19-2016:15-31-19	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	I really like Mexican food
+02-19-2016:15-31-36	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	And I feel like treating myself tonight!
+02-19-2016:15-31-39	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	Me too. I don't want to spend that much. Morocco's no more expensive than Fiesta. Would you be OK with that?
+02-19-2016:15-31-42	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	Selected restaurant:	Morocco's
+02-19-2016:15-32-00	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	I really don't like Mediterranean though
+02-19-2016:15-32-09	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	I'd rather stick with Fiesta instead I guess
+02-19-2016:15-32-17	8f413516-c8c3-4848-ac68-61dda14d683b	User 1	Selected restaurant:	Fiesta Del Mar Too
+02-19-2016:15-32-27	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	How about we go to Fiesta tonight and Agave when I have more money?
+02-19-2016:15-32-32	8f413516-c8c3-4848-ac68-61dda14d683b	User 0	Selected restaurant:	Fiesta Del Mar Too
+02-19-2016:15-32-32	---
+02-19-2016:15-32-32	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Chinese, Mediterranean, Indian, Vietnamese
+User 1 preferences: 30-60	Mexican, Chinese, Vietnamese, Mediterranean, Indian
+
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+Pho To Chau	Vietnamese	20-30
+Xanh Restaurant	Vietnamese	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Café Baklava	Mediterranean	10-20
+Sakoon	Indian	30-60
+Morocco's	Mediterranean	10-20
+Agave	Mexican	20-30
+Asian Box	Vietnamese	30-60
+
+Final selection: Fiesta Del Mar TooUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,27 @@
+02-19-2016:16-28-59	805372cd-61c1-4580-94f8-5705764aa469	User 0	joined
+02-19-2016:16-28-59	805372cd-61c1-4580-94f8-5705764aa469	User 1	joined
+02-19-2016:16-29-12	805372cd-61c1-4580-94f8-5705764aa469	User 0	Hi Friend! Let's go to Agave! 
+02-19-2016:16-29-15	805372cd-61c1-4580-94f8-5705764aa469	User 1	Okay!
+02-19-2016:16-29-19	805372cd-61c1-4580-94f8-5705764aa469	User 0	Selected restaurant:	Agave
+02-19-2016:16-29-23	805372cd-61c1-4580-94f8-5705764aa469	User 1	Selected restaurant:	Agave
+02-19-2016:16-29-23	---
+02-19-2016:16-29-23	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Thai, French, Mediterranean, Vietnamese
+User 1 preferences: 0-10	French, Mediterranean, Thai, Mexican, Vietnamese
+
+Café Baklava	Mediterranean	10-20
+Bangkok Spoon	Thai	30-60
+Morocco's	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Agave	Mexican	20-30
+Pho Hoa	Vietnamese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Ehpesus	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: AgaveUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

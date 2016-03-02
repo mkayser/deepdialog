@@ -1,0 +1,31 @@
+02-24-2016:20-16-12	65d80829-ecf0-46ae-8d0d-c47b8c6af011	User 1	joined
+02-24-2016:20-16-12	65d80829-ecf0-46ae-8d0d-c47b8c6af011	User 1 has user ID edba7c0c72ab48bd9956d727e01e88a6
+02-24-2016:20-16-12	65d80829-ecf0-46ae-8d0d-c47b8c6af011	User 0	joined
+02-24-2016:20-16-12	65d80829-ecf0-46ae-8d0d-c47b8c6af011	User 0 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-16-15	65d80829-ecf0-46ae-8d0d-c47b8c6af011	User 0	hey hey
+02-24-2016:20-16-18	65d80829-ecf0-46ae-8d0d-c47b8c6af011	User 0	want some Deli?
+02-24-2016:20-16-21	65d80829-ecf0-46ae-8d0d-c47b8c6af011	User 0	Subway eat fresh
+02-24-2016:20-16-26	65d80829-ecf0-46ae-8d0d-c47b8c6af011	User 1	rataher shalala
+02-24-2016:20-16-31	65d80829-ecf0-46ae-8d0d-c47b8c6af011	User 0	Selected restaurant 2:	Shalala
+02-24-2016:20-16-31	65d80829-ecf0-46ae-8d0d-c47b8c6af011	User 1	Selected restaurant 2:	Shalala
+02-24-2016:20-16-32	---
+02-24-2016:20-16-32	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Deli, American, Japanese, Indian, Vietnamese
+User 1 preferences: 10-20	American, Japanese, Vietnamese, Deli, Indian
+
+Subway	Deli	10-20
+Bushido	Japanese	10-20
+Shalala	Japanese	10-20
+Ryowa Noodle House	Japanese	20-30
+Shezan	Indian	10-20
+Sakoon	Indian	30-60
+Scratch	American	0-10
+Asian Box	Vietnamese	30-60
+Kappo Naminami	Japanese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: ShalalaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

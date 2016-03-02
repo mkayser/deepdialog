@@ -1,0 +1,28 @@
+02-24-2016:20-06-35	438690de-7712-4f95-a619-613bbb61dd4e	User 1	joined
+02-24-2016:20-06-35	438690de-7712-4f95-a619-613bbb61dd4e	User 1 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:20-06-38	438690de-7712-4f95-a619-613bbb61dd4e	User 0	joined
+02-24-2016:20-06-38	438690de-7712-4f95-a619-613bbb61dd4e	User 0 has user ID 4c7802c2a0cd41d4af419f45cef3b8fa
+02-24-2016:20-06-43	438690de-7712-4f95-a619-613bbb61dd4e	User 1	Selected restaurant 2:	Cascal
+02-24-2016:20-06-54	438690de-7712-4f95-a619-613bbb61dd4e	User 1	Cascal
+02-24-2016:20-06-54	438690de-7712-4f95-a619-613bbb61dd4e	User 0	Selected restaurant 2:	Cascal
+02-24-2016:20-06-54	---
+02-24-2016:20-06-57	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Korean, Italian, American, Spanish
+User 1 preferences: 30-60	Spanish, Italian, Indian, Korean, American
+
+Sakoon	Indian	30-60
+Bierhaus	American	0-10
+Cascal	Spanish	30-60
+Shezan	Indian	10-20
+Ristorante Don Giovanni	Italian	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Doppio Zero	Italian	30-60
+Ginseng	Korean	10-20
+Scratch	American	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: CascalUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

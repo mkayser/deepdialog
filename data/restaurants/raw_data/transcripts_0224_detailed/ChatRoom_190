@@ -1,0 +1,30 @@
+02-24-2016:19-45-09	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 0	joined
+02-24-2016:19-45-09	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 0 has user ID cd8e156d33b74a0494917b48f6d699a4
+02-24-2016:19-45-10	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 1	joined
+02-24-2016:19-45-10	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 1 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-45-14	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 1	Selected restaurant 2:	Pho Hoa
+02-24-2016:19-45-19	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 0	how about totoro?
+02-24-2016:19-45-28	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 1	Selected restaurant 5:	Totoro
+02-24-2016:19-45-32	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 1	sure
+02-24-2016:19-45-35	e326ab59-5aa6-4d4b-9925-2e7edddbbb44	User 0	Selected restaurant 5:	Totoro
+02-24-2016:19-45-35	---
+02-24-2016:19-45-35	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Korean, Vietnamese, French, Spanish, Mediterranean
+User 1 preferences: 30-60	Vietnamese, Mediterranean, French, Korean, Spanish
+
+Mediterranean Grill House	Mediterranean	0-10
+Ginseng	Korean	10-20
+Pho Hoa	Vietnamese	30-60
+Morocco's	Mediterranean	10-20
+Pho To Chau	Vietnamese	20-30
+Totoro	Korean	20-30
+Café Baklava	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Asian Box	Vietnamese	30-60
+Chez TJ	French	30-60
+
+Final selection: TotoroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

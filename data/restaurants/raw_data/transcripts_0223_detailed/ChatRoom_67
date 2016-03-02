@@ -1,0 +1,44 @@
+02-19-2016:15-34-31	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	joined
+02-19-2016:15-34-32	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	joined
+02-19-2016:15-34-33	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	HELLO
+02-19-2016:15-34-38	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	Hey
+02-19-2016:15-34-48	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	Where you wanna take me for a date 
+02-19-2016:15-34-55	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	I like Mediterranean 
+02-19-2016:15-35-11	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	second choice Indian 
+02-19-2016:15-35-13	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	WE SHOULD TRY CAFE BAKLAVA
+02-19-2016:15-35-21	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	sounds good to me
+02-19-2016:15-35-25	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	let's do it
+02-19-2016:15-35-30	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	BUT 
+02-19-2016:15-35-46	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	CSCAL IS THE BEST
+02-19-2016:15-35-50	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	OK?
+02-19-2016:15-36-01	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	i prefer cafe baklave
+02-19-2016:15-36-08	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	spanish is my least favourite
+02-19-2016:15-36-20	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	REALLLY
+02-19-2016:15-36-42	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	MED IS MY LEAST
+02-19-2016:15-36-47	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	indian?
+02-19-2016:15-36-47	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	SO WE DO DELI
+02-19-2016:15-36-48	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	OK
+02-19-2016:15-36-50	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	ok
+02-19-2016:15-36-56	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	posh bagel? 
+02-19-2016:15-36-57	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 0	Selected restaurant:	Posh Bagel
+02-19-2016:15-37-00	2d85a89b-68c0-4046-b779-29d27cf3e7ab	User 1	Selected restaurant:	Posh Bagel
+02-19-2016:15-37-01	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Indian, Deli, American, Mediterranean
+User 1 preferences: 20-30	Mediterranean, Indian, Deli, American, Spanish
+
+Oren's Hummus	Mediterranean	10-20
+Cascal	Spanish	30-60
+The Crepevine	American	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+Posh Bagel	Deli	10-20
+Steins Beer Garden	American	20-30
+Café Baklava	Mediterranean	10-20
+Bierhaus	American	0-10
+Shezan	Indian	10-20
+
+Final selection: Posh BagelUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

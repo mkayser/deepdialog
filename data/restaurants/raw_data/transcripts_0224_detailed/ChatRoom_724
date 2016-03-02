@@ -1,0 +1,29 @@
+02-24-2016:20-05-31	45c0fa06-df3d-4025-8192-60f2a368720a	User 1	joined
+02-24-2016:20-05-31	45c0fa06-df3d-4025-8192-60f2a368720a	User 1 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:20-05-34	45c0fa06-df3d-4025-8192-60f2a368720a	User 1	Yo!
+02-24-2016:20-05-35	45c0fa06-df3d-4025-8192-60f2a368720a	User 0	joined
+02-24-2016:20-05-35	45c0fa06-df3d-4025-8192-60f2a368720a	User 0 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-05-38	45c0fa06-df3d-4025-8192-60f2a368720a	User 1	I am thinking THAI
+02-24-2016:20-05-43	45c0fa06-df3d-4025-8192-60f2a368720a	User 1	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:20-05-46	45c0fa06-df3d-4025-8192-60f2a368720a	User 0	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:20-05-46	---
+02-24-2016:20-05-46	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Pizza, Thai, Japanese, Chinese
+User 1 preferences: 20-30	Chinese, Mexican, Japanese, Thai, Pizza
+
+Kappo Naminami	Japanese	30-60
+Queen House	Chinese	0-10
+Agave	Mexican	20-30
+Amarin Thai Cuisine	Thai	20-30
+Maruichi Noodle House	Japanese	0-10
+Ryowa Noodle House	Japanese	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+Sushitomi	Japanese	20-30
+Shabuway	Japanese	30-60
+
+Final selection: Amarin Thai CuisineUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

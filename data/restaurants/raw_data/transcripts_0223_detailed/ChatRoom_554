@@ -1,0 +1,30 @@
+02-19-2016:16-40-50	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	joined
+02-19-2016:16-40-54	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 0	joined
+02-19-2016:16-41-37	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	The Drunken Lobster sounds like a nice spot.
+02-19-2016:16-41-51	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	Seafood and beer, where can you go wrong?
+02-19-2016:16-42-07	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	What do you think?
+02-19-2016:16-42-10	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 0	That is true. Drunken Lobster sounds fine.
+02-19-2016:16-42-16	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	Great.
+02-19-2016:16-42-20	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 0	Selected restaurant:	Drunken Lobster
+02-19-2016:16-42-23	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	Selected restaurant:	Drunken Lobster
+02-19-2016:16-42-23	---
+02-19-2016:16-42-24	---
+
+Chat Information:
+
+User 0 preferences: 10-20	French, Deli, Italian, SeaFood, Mediterranean
+User 1 preferences: 10-20	Mediterranean, Deli, SeaFood, French, Italian
+
+Oren's Hummus	Mediterranean	10-20
+Posh Bagel	Deli	10-20
+Drunken Lobster	SeaFood	10-20
+Shell Shock	SeaFood	10-20
+Subway	Deli	10-20
+Doppio Zero	Italian	30-60
+Ehpesus	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+
+Final selection: Drunken LobsterUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

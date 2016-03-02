@@ -1,0 +1,32 @@
+02-24-2016:20-22-14	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 0	joined
+02-24-2016:20-22-14	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 0 has user ID 68d186a75e564e918628c42e68787cfa
+02-24-2016:20-22-16	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 1	joined
+02-24-2016:20-22-16	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 1 has user ID bcafc2ec6bd3495cb7f8f958a7ace039
+02-24-2016:20-22-23	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 0	hi
+02-24-2016:20-22-37	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 1	Hi Oren's Hummus?
+02-24-2016:20-22-38	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 0	wanna go for some mediterranean food?
+02-24-2016:20-22-55	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 1	Selected restaurant 5:	Oren's Hummus
+02-24-2016:20-22-59	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 0	Ehpesus maybe?  I am low on money
+02-24-2016:20-23-03	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 0	Selected restaurant 3:	Ehpesus
+02-24-2016:20-23-14	de974d6f-c919-473e-9bb1-bf40d9e0ccd6	User 1	Selected restaurant 3:	Ehpesus
+02-24-2016:20-23-14	---
+02-24-2016:20-23-14	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, French, Chinese, Deli, American
+User 1 preferences: 10-20	Mediterranean, American, Deli, Chinese, French
+
+Queen House	Chinese	0-10
+Subway	Deli	10-20
+Scratch	American	0-10
+Ehpesus	Mediterranean	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Oren's Hummus	Mediterranean	10-20
+Kirin	Chinese	10-20
+Bierhaus	American	0-10
+Fu Lam Mum	Chinese	30-60
+Chez TJ	French	30-60
+
+Final selection: EhpesusUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

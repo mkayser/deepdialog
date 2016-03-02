@@ -1,0 +1,29 @@
+02-24-2016:20-05-40	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 0	joined
+02-24-2016:20-05-40	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 0 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:20-05-40	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 1	joined
+02-24-2016:20-05-40	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 1 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:20-06-01	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 0	Selected restaurant 9:	Vaso Azzurro
+02-24-2016:20-06-07	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 1	How about Bierhaus?
+02-24-2016:20-06-10	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 0	Selected restaurant 6:	Bierhaus
+02-24-2016:20-06-12	16e8ae08-e16c-45e4-a03f-4ce90ddeee2c	User 1	Selected restaurant 6:	Bierhaus
+02-24-2016:20-06-12	---
+02-24-2016:20-06-12	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Indian, Chinese, American, Mexican
+User 1 preferences: 0-10	Chinese, Italian, Mexican, American, Indian
+
+New Mongolian BBQ	Chinese	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Sakoon	Indian	30-60
+Agave	Mexican	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Shezan	Indian	10-20
+Bierhaus	American	0-10
+Hunan Chili	Chinese	30-60
+The Crepevine	American	30-60
+Vaso Azzurro	Italian	20-30
+
+Final selection: BierhausUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

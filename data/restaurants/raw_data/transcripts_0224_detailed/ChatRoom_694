@@ -1,0 +1,30 @@
+02-24-2016:20-03-54	328be63c-e1d3-4c38-a74b-89ed9eb85ba3	User 1	joined
+02-24-2016:20-03-54	328be63c-e1d3-4c38-a74b-89ed9eb85ba3	User 1 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:20-03-55	328be63c-e1d3-4c38-a74b-89ed9eb85ba3	User 0	joined
+02-24-2016:20-03-55	328be63c-e1d3-4c38-a74b-89ed9eb85ba3	User 0 has user ID 4c7802c2a0cd41d4af419f45cef3b8fa
+02-24-2016:20-03-59	328be63c-e1d3-4c38-a74b-89ed9eb85ba3	User 1	I feel like vetnamese.
+02-24-2016:20-04-03	328be63c-e1d3-4c38-a74b-89ed9eb85ba3	User 1	How about Asian box?
+02-24-2016:20-04-06	328be63c-e1d3-4c38-a74b-89ed9eb85ba3	User 1	Selected restaurant 8:	Asian Box
+02-24-2016:20-04-07	328be63c-e1d3-4c38-a74b-89ed9eb85ba3	User 0	Let's do Asian Box
+02-24-2016:20-04-11	328be63c-e1d3-4c38-a74b-89ed9eb85ba3	User 0	Selected restaurant 8:	Asian Box
+02-24-2016:20-04-11	---
+02-24-2016:20-04-12	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Vietnamese, SeaFood, Spanish, Japanese, French
+User 1 preferences: 30-60	Vietnamese, Spanish, French, SeaFood, Japanese
+
+Kappo Naminami	Japanese	30-60
+Drunken Lobster	SeaFood	10-20
+Ryowa Noodle House	Japanese	20-30
+Bushido	Japanese	10-20
+Chez TJ	French	30-60
+Yakko	Japanese	0-10
+Rumble Fish	Japanese	30-60
+Shabuway	Japanese	30-60
+Asian Box	Vietnamese	30-60
+Masa Sushi	Japanese	0-10
+
+Final selection: Asian BoxUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

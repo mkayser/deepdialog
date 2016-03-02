@@ -1,0 +1,30 @@
+02-24-2016:20-04-49	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	joined
+02-24-2016:20-04-49	5bf34861-8396-4c94-b4ee-68306e369b04	User 0 has user ID 1c8466ea6727453e938f452e04ce9d3d
+02-24-2016:20-04-50	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	joined
+02-24-2016:20-04-50	5bf34861-8396-4c94-b4ee-68306e369b04	User 1 has user ID 757a79ba8ec34bbd8f4acc291696d015
+02-24-2016:20-04-53	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	Cascal
+02-24-2016:20-04-55	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	?
+02-24-2016:20-04-57	5bf34861-8396-4c94-b4ee-68306e369b04	User 0	Selected restaurant 2:	Cascal
+02-24-2016:20-05-02	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	ok
+02-24-2016:20-05-07	5bf34861-8396-4c94-b4ee-68306e369b04	User 1	Selected restaurant 2:	Cascal
+02-24-2016:20-05-07	---
+02-24-2016:20-05-07	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Italian, Vietnamese, Mediterranean, French
+User 1 preferences: 0-10	Mediterranean, Spanish, French, Italian, Vietnamese
+
+Ristorante Don Giovanni	Italian	0-10
+Oren's Hummus	Mediterranean	10-20
+Cascal	Spanish	30-60
+Pho To Chau	Vietnamese	20-30
+Pho Hoa	Vietnamese	30-60
+Morocco's	Mediterranean	10-20
+Doppio Zero	Italian	30-60
+Xanh Restaurant	Vietnamese	10-20
+Asian Box	Vietnamese	30-60
+Café Baklava	Mediterranean	10-20
+
+Final selection: CascalUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

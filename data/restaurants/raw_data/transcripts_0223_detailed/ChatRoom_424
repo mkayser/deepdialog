@@ -1,0 +1,27 @@
+02-19-2016:16-29-27	b441cc39-810b-4ab3-9f3d-bbcdbd6530e9	User 0	joined
+02-19-2016:16-29-27	b441cc39-810b-4ab3-9f3d-bbcdbd6530e9	User 1	joined
+02-19-2016:16-29-34	b441cc39-810b-4ab3-9f3d-bbcdbd6530e9	User 0	Thai?
+02-19-2016:16-30-04	b441cc39-810b-4ab3-9f3d-bbcdbd6530e9	User 1	yes
+02-19-2016:16-30-11	b441cc39-810b-4ab3-9f3d-bbcdbd6530e9	User 0	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:16-30-18	b441cc39-810b-4ab3-9f3d-bbcdbd6530e9	User 1	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:16-30-18	---
+02-19-2016:16-30-19	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Thai, Deli, Mediterranean, American, French
+User 1 preferences: 10-20	Thai, Mediterranean, Deli, American, French
+
+Bierhaus	American	0-10
+Scratch	American	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Subway	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+Posh Bagel	Deli	10-20
+Ehpesus	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+Oren's Hummus	Mediterranean	10-20
+The Crepevine	American	30-60
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

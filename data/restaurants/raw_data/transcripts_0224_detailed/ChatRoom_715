@@ -1,0 +1,29 @@
+02-24-2016:20-05-05	6be4d16c-b976-4687-ac8b-22c56806d024	User 0	joined
+02-24-2016:20-05-05	6be4d16c-b976-4687-ac8b-22c56806d024	User 0 has user ID 4c7802c2a0cd41d4af419f45cef3b8fa
+02-24-2016:20-05-05	6be4d16c-b976-4687-ac8b-22c56806d024	User 1	joined
+02-24-2016:20-05-05	6be4d16c-b976-4687-ac8b-22c56806d024	User 1 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:20-05-11	6be4d16c-b976-4687-ac8b-22c56806d024	User 0	Fu Lam?
+02-24-2016:20-05-15	6be4d16c-b976-4687-ac8b-22c56806d024	User 0	Selected restaurant 4:	Fu Lam Mum
+02-24-2016:20-05-17	6be4d16c-b976-4687-ac8b-22c56806d024	User 1	k
+02-24-2016:20-05-20	6be4d16c-b976-4687-ac8b-22c56806d024	User 1	Selected restaurant 4:	Fu Lam Mum
+02-24-2016:20-05-20	---
+02-24-2016:20-05-20	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Deli, Korean, Indian, Thai, Chinese
+User 1 preferences: 0-10	Chinese, Deli, Indian, Thai, Korean
+
+Amarin Thai Cuisine	Thai	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Shezan	Indian	10-20
+Park Ballachi	Indian	0-10
+Fu Lam Mum	Chinese	30-60
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Bangkok Spoon	Thai	30-60
+Subway	Deli	10-20
+Totoro	Korean	20-30
+
+Final selection: Fu Lam MumUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,27 @@
+02-19-2016:16-14-32	687c75e3-1888-482b-bcc5-173ea1c142ac	User 0	joined
+02-19-2016:16-14-36	687c75e3-1888-482b-bcc5-173ea1c142ac	User 1	joined
+02-19-2016:16-14-36	687c75e3-1888-482b-bcc5-173ea1c142ac	User 0	Chinese?
+02-19-2016:16-14-40	687c75e3-1888-482b-bcc5-173ea1c142ac	User 1	sureee
+02-19-2016:16-14-44	687c75e3-1888-482b-bcc5-173ea1c142ac	User 0	Selected restaurant:	Queen House
+02-19-2016:16-14-47	687c75e3-1888-482b-bcc5-173ea1c142ac	User 1	Selected restaurant:	Queen House
+02-19-2016:16-14-48	---
+02-19-2016:16-14-48	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Chinese, French, Mediterranean, Italian, Vietnamese
+User 1 preferences: 10-20	French, Mediterranean, Italian, Vietnamese, Chinese
+
+Queen House	Chinese	0-10
+Café Baklava	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Ristorante Don Giovanni	Italian	0-10
+Vaso Azzurro	Italian	20-30
+Oren's Hummus	Mediterranean	10-20
+Doppio Zero	Italian	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Pho Hoa	Vietnamese	30-60
+Ehpesus	Mediterranean	0-10
+
+Final selection: Queen HouseUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

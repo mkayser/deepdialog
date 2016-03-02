@@ -1,0 +1,30 @@
+02-24-2016:20-00-17	7860a324-b3cf-4635-98ca-26ce42a17471	User 0	joined
+02-24-2016:20-00-17	7860a324-b3cf-4635-98ca-26ce42a17471	User 0 has user ID 0a5a57705ca34c879d6c70fbb5f1d30d
+02-24-2016:20-00-23	7860a324-b3cf-4635-98ca-26ce42a17471	User 1	joined
+02-24-2016:20-00-23	7860a324-b3cf-4635-98ca-26ce42a17471	User 1 has user ID f4cf22eeaf504f329f0c8d9894df04d8
+02-24-2016:20-00-23	7860a324-b3cf-4635-98ca-26ce42a17471	User 0	Selected restaurant 1:	Hong Kong Bistro
+02-24-2016:20-00-27	7860a324-b3cf-4635-98ca-26ce42a17471	User 1	Selected restaurant 9:	Kirin
+02-24-2016:20-00-31	7860a324-b3cf-4635-98ca-26ce42a17471	User 1	Kirin?
+02-24-2016:20-00-41	7860a324-b3cf-4635-98ca-26ce42a17471	User 0	sure
+02-24-2016:20-00-43	7860a324-b3cf-4635-98ca-26ce42a17471	User 0	Selected restaurant 9:	Kirin
+02-24-2016:20-00-43	---
+02-24-2016:20-01-43	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Mexican, Spanish, SeaFood, Indian
+User 1 preferences: 10-20	Chinese, Spanish, SeaFood, Indian, Mexican
+
+Queen House	Chinese	0-10
+Hong Kong Bistro	Chinese	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Fu Lam Mum	Chinese	30-60
+Cascal	Spanish	30-60
+Agave	Mexican	20-30
+Drunken Lobster	SeaFood	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Kirin	Chinese	10-20
+
+Final selection: KirinUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

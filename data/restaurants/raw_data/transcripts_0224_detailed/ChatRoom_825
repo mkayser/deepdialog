@@ -1,0 +1,26 @@
+02-24-2016:20-22-28	4c9475ef-0327-4d84-b37d-bccf7b205076	User 0	joined
+02-24-2016:20-22-28	4c9475ef-0327-4d84-b37d-bccf7b205076	User 0 has user ID 4f929c1c9267404d99463629c7e6d271
+02-24-2016:20-22-28	4c9475ef-0327-4d84-b37d-bccf7b205076	User 1	joined
+02-24-2016:20-22-28	4c9475ef-0327-4d84-b37d-bccf7b205076	User 1 has user ID 3cc538f6316d41c284277992d5396245
+02-24-2016:20-22-33	4c9475ef-0327-4d84-b37d-bccf7b205076	User 0	Selected restaurant 3:	Shell Shock
+02-24-2016:20-22-35	4c9475ef-0327-4d84-b37d-bccf7b205076	User 1	Selected restaurant 3:	Shell Shock
+02-24-2016:20-22-35	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, French, American, Spanish, Thai
+User 1 preferences: 0-10	Thai, Spanish, French, American, SeaFood
+
+Scratch	American	0-10
+Cascal	Spanish	30-60
+Drunken Lobster	SeaFood	10-20
+Shell Shock	SeaFood	10-20
+Bangkok Spoon	Thai	30-60
+Steins Beer Garden	American	20-30
+Chez TJ	French	30-60
+The Crepevine	American	30-60
+Bierhaus	American	0-10
+Amarin Thai Cuisine	Thai	20-30
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

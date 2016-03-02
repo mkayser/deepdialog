@@ -1,0 +1,39 @@
+02-24-2016:19-47-37	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	joined
+02-24-2016:19-47-37	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0 has user ID 1e64b000bb644aa396f0bfdef8dc61c0
+02-24-2016:19-47-40	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1	joined
+02-24-2016:19-47-40	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1 has user ID 617b7358105c41e2a39b298dac743a7b
+02-24-2016:19-47-48	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	Selected restaurant 0:	Hong Kong Bistro
+02-24-2016:19-47-56	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	it's good i promise
+02-24-2016:19-48-03	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	nice atmosphere
+02-24-2016:19-48-09	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	beautiful people
+02-24-2016:19-48-12	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1	It's expensive!
+02-24-2016:19-48-28	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1	I just paid rent
+02-24-2016:19-48-28	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	yes, you wont die from food poisining :)
+02-24-2016:19-48-38	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1	I need cheap 
+02-24-2016:19-48-43	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	ok what about Kirin?
+02-24-2016:19-49-00	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	too cheap and you may find yourself on the toilet for 3 days
+02-24-2016:19-49-05	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	Selected restaurant 8:	Kirin
+02-24-2016:19-49-07	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1	thats fine
+02-24-2016:19-49-12	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 0	:)
+02-24-2016:19-49-16	8e459e6d-eb3b-4f33-84de-4ef8a0816c96	User 1	Selected restaurant 8:	Kirin
+02-24-2016:19-49-16	---
+02-24-2016:19-49-16	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, Chinese, Indian, SeaFood, Mexican
+User 1 preferences: 0-10	Pizza, Indian, Chinese, SeaFood, Mexican
+
+Hong Kong Bistro	Chinese	20-30
+Shell Shock	SeaFood	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Taqueria Los Charros	Mexican	0-10
+Drunken Lobster	SeaFood	10-20
+Hunan Chili	Chinese	30-60
+New Mongolian BBQ	Chinese	30-60
+Kirin	Chinese	10-20
+Fu Lam Mum	Chinese	30-60
+
+Final selection: KirinUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,32 @@
+02-24-2016:19-48-48	f017306d-dc62-4aee-8c8d-350f10058732	User 1	joined
+02-24-2016:19-48-48	f017306d-dc62-4aee-8c8d-350f10058732	User 1 has user ID 12dfd22b352441e0ae363490f50068fc
+02-24-2016:19-48-49	f017306d-dc62-4aee-8c8d-350f10058732	User 0	joined
+02-24-2016:19-48-49	f017306d-dc62-4aee-8c8d-350f10058732	User 0 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:19-48-55	f017306d-dc62-4aee-8c8d-350f10058732	User 1	Hey how does Cascal sound?
+02-24-2016:19-49-01	f017306d-dc62-4aee-8c8d-350f10058732	User 0	Hi pizaa is good for me
+02-24-2016:19-49-16	f017306d-dc62-4aee-8c8d-350f10058732	User 1	I dont like Pizza unfortunately
+02-24-2016:19-49-29	f017306d-dc62-4aee-8c8d-350f10058732	User 0	Vietnamese?
+02-24-2016:19-49-44	f017306d-dc62-4aee-8c8d-350f10058732	User 1	Wait sorry  actually I could do pizza
+02-24-2016:19-49-46	f017306d-dc62-4aee-8c8d-350f10058732	User 1	Selected restaurant 4:	Amici's East Coast Pizzeria
+02-24-2016:19-49-51	f017306d-dc62-4aee-8c8d-350f10058732	User 0	Selected restaurant 4:	Amici's East Coast Pizzeria
+02-24-2016:19-49-51	---
+02-24-2016:19-49-51	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Pizza, Vietnamese, Mexican, Korean, Spanish
+User 1 preferences: 20-30	Spanish, Korean, Pizza, Vietnamese, Mexican
+
+Ginseng	Korean	10-20
+Pho Hoa	Vietnamese	30-60
+Taqueria Los Charros	Mexican	0-10
+Totoro	Korean	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Blue Line Pizza	Pizza	10-20
+Cascal	Spanish	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Xanh Restaurant	Vietnamese	10-20
+Agave	Mexican	20-30
+
+Final selection: Amici's East Coast PizzeriaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

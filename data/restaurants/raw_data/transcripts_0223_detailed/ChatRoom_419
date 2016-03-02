@@ -1,0 +1,26 @@
+02-19-2016:16-29-06	ebe6cf22-c9fc-4ba6-a1e9-e8e65e0f6695	User 0	joined
+02-19-2016:16-29-09	ebe6cf22-c9fc-4ba6-a1e9-e8e65e0f6695	User 1	joined
+02-19-2016:16-29-23	ebe6cf22-c9fc-4ba6-a1e9-e8e65e0f6695	User 0	Hi let's eat French at Shays TJ
+02-19-2016:16-29-31	ebe6cf22-c9fc-4ba6-a1e9-e8e65e0f6695	User 1	Selected restaurant:	Chez TJ
+02-19-2016:16-29-39	ebe6cf22-c9fc-4ba6-a1e9-e8e65e0f6695	User 0	Selected restaurant:	Chez TJ
+02-19-2016:16-29-40	---
+02-19-2016:16-29-40	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mexican, Vietnamese, Spanish, Deli, French
+User 1 preferences: 0-10	Deli, Vietnamese, French, Spanish, Mexican
+
+Subway	Deli	10-20
+Chez TJ	French	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Posh Bagel	Deli	10-20
+Xanh Restaurant	Vietnamese	10-20
+Pho To Chau	Vietnamese	20-30
+Cascal	Spanish	30-60
+Taqueria Los Charros	Mexican	0-10
+Pho Hoa	Vietnamese	30-60
+Agave	Mexican	20-30
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

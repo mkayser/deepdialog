@@ -1,0 +1,29 @@
+02-19-2016:16-29-19	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 1	joined
+02-19-2016:16-29-19	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 0	joined
+02-19-2016:16-29-44	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 1	Shell Shock?
+02-19-2016:16-29-48	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 1	Because turtles are awesome
+02-19-2016:16-31-46	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 0	I think we should go get some Spanish
+02-19-2016:16-31-51	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 1	sure
+02-19-2016:16-31-54	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 0	Selected restaurant:	Shell Shock
+02-19-2016:16-31-58	d3165524-4726-47d8-9aa5-abcdcdbe77df	User 1	Selected restaurant:	Shell Shock
+02-19-2016:16-31-58	---
+02-19-2016:16-31-58	---
+
+Chat Information:
+
+User 0 preferences: 20-30	SeaFood, Thai, Vietnamese, Spanish, Italian
+User 1 preferences: 20-30	SeaFood, Thai, Spanish, Italian, Vietnamese
+
+Doppio Zero	Italian	30-60
+Pho To Chau	Vietnamese	20-30
+Bangkok Spoon	Thai	30-60
+Vaso Azzurro	Italian	20-30
+Pho Hoa	Vietnamese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Cascal	Spanish	30-60
+Xanh Restaurant	Vietnamese	10-20
+Shell Shock	SeaFood	10-20
+Asian Box	Vietnamese	30-60
+
+Final selection: Shell ShockUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

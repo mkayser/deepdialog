@@ -1,0 +1,30 @@
+02-24-2016:19-55-02	7e00300e-838b-494d-b8b8-6d2182ea359d	User 1	joined
+02-24-2016:19-55-02	7e00300e-838b-494d-b8b8-6d2182ea359d	User 1 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:19-55-07	7e00300e-838b-494d-b8b8-6d2182ea359d	User 0	joined
+02-24-2016:19-55-07	7e00300e-838b-494d-b8b8-6d2182ea359d	User 0 has user ID e9cd6c60b03e4b1694694d01171aaec5
+02-24-2016:19-55-10	7e00300e-838b-494d-b8b8-6d2182ea359d	User 1	Shezan?
+02-24-2016:19-55-16	7e00300e-838b-494d-b8b8-6d2182ea359d	User 0	Selected restaurant 1:	Scratch
+02-24-2016:19-55-21	7e00300e-838b-494d-b8b8-6d2182ea359d	User 0	sratch
+02-24-2016:19-55-22	7e00300e-838b-494d-b8b8-6d2182ea359d	User 1	Selected restaurant 6:	Shezan
+02-24-2016:19-55-25	7e00300e-838b-494d-b8b8-6d2182ea359d	User 1	Selected restaurant 1:	Scratch
+02-24-2016:19-55-25	---
+02-24-2016:19-55-26	---
+
+Chat Information:
+
+User 0 preferences: 0-10	SeaFood, American, Deli, Indian, Mexican
+User 1 preferences: 30-60	Deli, SeaFood, Indian, Mexican, American
+
+Shell Shock	SeaFood	10-20
+Scratch	American	0-10
+Steins Beer Garden	American	20-30
+Drunken Lobster	SeaFood	10-20
+Fiesta Del Mar Too	Mexican	10-20
+The Crepevine	American	30-60
+Shezan	Indian	10-20
+Sakoon	Indian	30-60
+Taqueria Los Charros	Mexican	0-10
+Subway	Deli	10-20
+
+Final selection: ScratchUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

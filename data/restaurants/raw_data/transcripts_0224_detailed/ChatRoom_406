@@ -1,0 +1,28 @@
+02-24-2016:19-51-51	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 1	joined
+02-24-2016:19-51-51	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 1 has user ID 3fe8111d431b4b37a541b1641b8b6a10
+02-24-2016:19-51-52	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 0	joined
+02-24-2016:19-51-52	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 0 has user ID 714726608fb04babba37ffb9e1d8f25d
+02-24-2016:19-51-57	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 0	kor or chinese
+02-24-2016:19-52-06	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 0	Selected restaurant 8:	Totoro
+02-24-2016:19-52-10	654b292e-c3a2-40f2-beab-f6e08a0ad6fe	User 1	Selected restaurant 8:	Totoro
+02-24-2016:19-52-10	---
+02-24-2016:19-52-11	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Korean, Chinese, Indian, Japanese, Spanish
+User 1 preferences: 10-20	Chinese, Spanish, Indian, Korean, Japanese
+
+Niji Sushi	Japanese	10-20
+Shezan	Indian	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+Bushido	Japanese	10-20
+Fu Lam Mum	Chinese	30-60
+Ginseng	Korean	10-20
+Ryowa Noodle House	Japanese	20-30
+Totoro	Korean	20-30
+Hunan Chili	Chinese	30-60
+
+Final selection: TotoroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

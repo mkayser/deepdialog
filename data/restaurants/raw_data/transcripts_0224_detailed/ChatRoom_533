@@ -1,0 +1,28 @@
+02-24-2016:19-55-46	c8a9c0a0-c1d7-487c-bbfe-8ddd3f9fdb88	User 1	joined
+02-24-2016:19-55-46	c8a9c0a0-c1d7-487c-bbfe-8ddd3f9fdb88	User 1 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:19-55-48	c8a9c0a0-c1d7-487c-bbfe-8ddd3f9fdb88	User 0	joined
+02-24-2016:19-55-48	c8a9c0a0-c1d7-487c-bbfe-8ddd3f9fdb88	User 0 has user ID a5f49c8e73684a73afa11fd1a1cf8951
+02-24-2016:19-55-57	c8a9c0a0-c1d7-487c-bbfe-8ddd3f9fdb88	User 0	Selected restaurant 5:	Doppio Zero
+02-24-2016:19-56-01	c8a9c0a0-c1d7-487c-bbfe-8ddd3f9fdb88	User 1	That sounds great.
+02-24-2016:19-56-05	c8a9c0a0-c1d7-487c-bbfe-8ddd3f9fdb88	User 1	Selected restaurant 5:	Doppio Zero
+02-24-2016:19-56-05	---
+02-24-2016:19-56-05	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Italian, Spanish, French, Indian, Japanese
+User 1 preferences: 30-60	Spanish, Japanese, Italian, Indian, French
+
+Masa Sushi	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Kappo Naminami	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Doppio Zero	Italian	30-60
+Sakoon	Indian	30-60
+Yakko	Japanese	0-10
+Shalala	Japanese	10-20
+Sushitomi	Japanese	20-30
+
+Final selection: Doppio ZeroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

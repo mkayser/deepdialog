@@ -1,0 +1,29 @@
+02-24-2016:20-15-55	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 1	joined
+02-24-2016:20-15-55	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 1 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:20-15-55	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 0	joined
+02-24-2016:20-15-55	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 0 has user ID 5036bc4df9a9440680576b2e461d74ce
+02-24-2016:20-16-00	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 1	Selected restaurant 5:	Casa Lupe Mexican Restaurant
+02-24-2016:20-16-03	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 1	tacoos
+02-24-2016:20-16-10	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 0	mmmm tacos
+02-24-2016:20-16-18	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 0	Selected restaurant 5:	Casa Lupe Mexican Restaurant
+02-24-2016:20-16-18	---
+02-24-2016:20-16-18	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Indian, Pizza, Mediterranean, Thai
+User 1 preferences: 30-60	Mexican, Indian, Pizza, Mediterranean, Thai
+
+Sakoon	Indian	30-60
+Taqueria Los Charros	Mexican	0-10
+Shezan	Indian	10-20
+Blue Line Pizza	Pizza	10-20
+Ehpesus	Mediterranean	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Oren's Hummus	Mediterranean	10-20
+Morocco's	Mediterranean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Agave	Mexican	20-30
+
+Final selection: Casa Lupe Mexican RestaurantUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

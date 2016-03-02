@@ -1,0 +1,29 @@
+02-24-2016:20-03-40	fec911bd-e7c3-4379-af3b-23f52b665a5b	User 0	joined
+02-24-2016:20-03-40	fec911bd-e7c3-4379-af3b-23f52b665a5b	User 0 has user ID a09a860155c046be8ac5542df6cd8a5a
+02-24-2016:20-03-43	fec911bd-e7c3-4379-af3b-23f52b665a5b	User 1	joined
+02-24-2016:20-03-43	fec911bd-e7c3-4379-af3b-23f52b665a5b	User 1 has user ID ac6ec300bec74d6ab9f72c4aac014060
+02-24-2016:20-03-46	fec911bd-e7c3-4379-af3b-23f52b665a5b	User 0	Lets do Italian.
+02-24-2016:20-03-51	fec911bd-e7c3-4379-af3b-23f52b665a5b	User 0	Selected restaurant 1:	Doppio Zero
+02-24-2016:20-03-53	fec911bd-e7c3-4379-af3b-23f52b665a5b	User 1	Suree
+02-24-2016:20-03-56	fec911bd-e7c3-4379-af3b-23f52b665a5b	User 1	Selected restaurant 1:	Doppio Zero
+02-24-2016:20-03-57	---
+02-24-2016:20-03-57	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Indian, Italian, American, Mexican, Thai
+User 1 preferences: 10-20	Italian, Indian, Mexican, Thai, American
+
+Taqueria Los Charros	Mexican	0-10
+Doppio Zero	Italian	30-60
+Scratch	American	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Bierhaus	American	0-10
+Ristorante Don Giovanni	Italian	0-10
+The Crepevine	American	30-60
+Steins Beer Garden	American	20-30
+Sakoon	Indian	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Doppio ZeroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,29 @@
+02-24-2016:19-58-40	93e27886-2527-4d2e-85cd-60427bae86e5	User 0	joined
+02-24-2016:19-58-40	93e27886-2527-4d2e-85cd-60427bae86e5	User 0 has user ID aee7f639a0844f6ca0f9b90a35ec3eda
+02-24-2016:19-58-47	93e27886-2527-4d2e-85cd-60427bae86e5	User 1	joined
+02-24-2016:19-58-47	93e27886-2527-4d2e-85cd-60427bae86e5	User 1 has user ID a08eb0381f614efb81f21a4ed99a6912
+02-24-2016:19-58-53	93e27886-2527-4d2e-85cd-60427bae86e5	User 0	shabuway?
+02-24-2016:19-58-56	93e27886-2527-4d2e-85cd-60427bae86e5	User 0	Selected restaurant 7:	Shabuway
+02-24-2016:19-58-56	93e27886-2527-4d2e-85cd-60427bae86e5	User 1	Selected restaurant 1:	Maruichi Noodle House
+02-24-2016:19-58-58	93e27886-2527-4d2e-85cd-60427bae86e5	User 0	Selected restaurant 1:	Maruichi Noodle House
+02-24-2016:19-58-59	---
+02-24-2016:19-59-01	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Japanese, Chinese, SeaFood, Mediterranean, Vietnamese
+User 1 preferences: 0-10	SeaFood, Japanese, Vietnamese, Mediterranean, Chinese
+
+Kirin	Chinese	10-20
+Maruichi Noodle House	Japanese	0-10
+Shalala	Japanese	10-20
+New Mongolian BBQ	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Asian Box	Vietnamese	30-60
+Café Baklava	Mediterranean	10-20
+Shabuway	Japanese	30-60
+Fu Lam Mum	Chinese	30-60
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: Maruichi Noodle HouseUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,27 @@
+02-24-2016:19-46-10	93e27886-2527-4d2e-85cd-60427bae86e5	User 0	joined
+02-24-2016:19-46-10	93e27886-2527-4d2e-85cd-60427bae86e5	User 0 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-46-12	93e27886-2527-4d2e-85cd-60427bae86e5	User 1	joined
+02-24-2016:19-46-12	93e27886-2527-4d2e-85cd-60427bae86e5	User 1 has user ID 32b396a234f9471cb66c6a2793ad04f7
+02-24-2016:19-46-16	93e27886-2527-4d2e-85cd-60427bae86e5	User 1	Selected restaurant 5:	Asian Box
+02-24-2016:19-46-19	93e27886-2527-4d2e-85cd-60427bae86e5	User 0	Selected restaurant 5:	Asian Box
+02-24-2016:19-46-19	---
+02-24-2016:19-46-22	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Japanese, Chinese, SeaFood, Mediterranean, Vietnamese
+User 1 preferences: 0-10	SeaFood, Japanese, Vietnamese, Mediterranean, Chinese
+
+Kirin	Chinese	10-20
+Maruichi Noodle House	Japanese	0-10
+Shalala	Japanese	10-20
+New Mongolian BBQ	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Asian Box	Vietnamese	30-60
+Café Baklava	Mediterranean	10-20
+Shabuway	Japanese	30-60
+Fu Lam Mum	Chinese	30-60
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: Asian BoxUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

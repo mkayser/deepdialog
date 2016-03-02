@@ -1,0 +1,33 @@
+02-24-2016:19-44-26	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	joined
+02-24-2016:19-44-26	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1 has user ID 7d299a90bd4a4c82819009d3027c00ae
+02-24-2016:19-44-26	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	joined
+02-24-2016:19-44-26	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0 has user ID 2c45b2c243dd4e70a6f3929b85d0deb8
+02-24-2016:19-45-04	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	Hi! How do you feel about Korean food?
+02-24-2016:19-45-15	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	I really like Korean food.
+02-24-2016:19-45-33	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	I dont have much money though so nothing too expensive
+02-24-2016:19-45-44	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	OK! How about we eat at Ginseng?
+02-24-2016:19-45-53	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	That looks like a good place to me!
+02-24-2016:19-45-56	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	Selected restaurant 6:	Ginseng
+02-24-2016:19-45-56	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	Great!
+02-24-2016:19-45-59	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	Selected restaurant 6:	Ginseng
+02-24-2016:19-45-59	---
+02-24-2016:19-46-00	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, French, Mediterranean, Japanese, Vietnamese
+User 1 preferences: 20-30	French, Mediterranean, Korean, Japanese, Vietnamese
+
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Pho To Chau	Vietnamese	20-30
+Rumble Fish	Japanese	30-60
+Yakko	Japanese	0-10
+Masa Sushi	Japanese	0-10
+Ginseng	Korean	10-20
+Totoro	Korean	20-30
+Niji Sushi	Japanese	10-20
+Pho Hoa	Vietnamese	30-60
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

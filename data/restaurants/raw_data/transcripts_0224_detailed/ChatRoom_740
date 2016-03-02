@@ -1,0 +1,29 @@
+02-24-2016:20-06-32	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 0	joined
+02-24-2016:20-06-32	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 0 has user ID 4c606ad09f0c415d80094b212167ca18
+02-24-2016:20-06-33	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 1	joined
+02-24-2016:20-06-33	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 1 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:20-06-41	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 0	How about Amarin Thai Cuisine?
+02-24-2016:20-06-47	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 1	ok
+02-24-2016:20-06-49	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 0	Selected restaurant 6:	Amarin Thai Cuisine
+02-24-2016:20-06-50	7a07669a-986a-4c4a-9b4d-b005d59db4c9	User 1	Selected restaurant 6:	Amarin Thai Cuisine
+02-24-2016:20-06-50	---
+02-24-2016:20-06-50	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Thai, Italian, SeaFood, Vietnamese, French
+User 1 preferences: 0-10	Vietnamese, SeaFood, Thai, Italian, French
+
+Asian Box	Vietnamese	30-60
+Shell Shock	SeaFood	10-20
+Pho To Chau	Vietnamese	20-30
+Bangkok Spoon	Thai	30-60
+Chez TJ	French	30-60
+Ristorante Don Giovanni	Italian	0-10
+Amarin Thai Cuisine	Thai	20-30
+Drunken Lobster	SeaFood	10-20
+Xanh Restaurant	Vietnamese	10-20
+Doppio Zero	Italian	30-60
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

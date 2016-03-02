@@ -1,0 +1,27 @@
+02-24-2016:19-44-36	a07b2458-0095-46ff-b957-09ce7fbf6787	User 1	joined
+02-24-2016:19-44-36	a07b2458-0095-46ff-b957-09ce7fbf6787	User 1 has user ID d10616914a2d46829a3973b29463fd9f
+02-24-2016:19-44-41	a07b2458-0095-46ff-b957-09ce7fbf6787	User 0	joined
+02-24-2016:19-44-41	a07b2458-0095-46ff-b957-09ce7fbf6787	User 0 has user ID e9cd6c60b03e4b1694694d01171aaec5
+02-24-2016:19-44-43	a07b2458-0095-46ff-b957-09ce7fbf6787	User 1	Selected restaurant 3:	Totoro
+02-24-2016:19-44-52	a07b2458-0095-46ff-b957-09ce7fbf6787	User 0	Selected restaurant 3:	Totoro
+02-24-2016:19-44-52	---
+02-24-2016:19-44-53	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Korean, Pizza, Spanish, American, Thai
+User 1 preferences: 20-30	Korean, American, Pizza, Spanish, Thai
+
+Scratch	American	0-10
+Ginseng	Korean	10-20
+Bangkok Spoon	Thai	30-60
+Totoro	Korean	20-30
+Blue Line Pizza	Pizza	10-20
+Amarin Thai Cuisine	Thai	20-30
+Bierhaus	American	0-10
+The Crepevine	American	30-60
+Cascal	Spanish	30-60
+Steins Beer Garden	American	20-30
+
+Final selection: TotoroUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

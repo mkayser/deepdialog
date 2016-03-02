@@ -1,0 +1,27 @@
+02-24-2016:20-05-39	32896556-a7a3-4362-86c8-74a093a49fb1	User 0	joined
+02-24-2016:20-05-39	32896556-a7a3-4362-86c8-74a093a49fb1	User 0 has user ID 3cc538f6316d41c284277992d5396245
+02-24-2016:20-05-40	32896556-a7a3-4362-86c8-74a093a49fb1	User 1	joined
+02-24-2016:20-05-40	32896556-a7a3-4362-86c8-74a093a49fb1	User 1 has user ID ac6ec300bec74d6ab9f72c4aac014060
+02-24-2016:20-05-48	32896556-a7a3-4362-86c8-74a093a49fb1	User 0	Selected restaurant 9:	Taqueria Los Charros
+02-24-2016:20-05-53	32896556-a7a3-4362-86c8-74a093a49fb1	User 1	Selected restaurant 9:	Taqueria Los Charros
+02-24-2016:20-05-53	---
+02-24-2016:20-05-54	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Thai, Deli, Japanese, SeaFood, Mexican
+User 1 preferences: 10-20	Japanese, Thai, Mexican, Deli, SeaFood
+
+Masa Sushi	Japanese	0-10
+Niji Sushi	Japanese	10-20
+Yakko	Japanese	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Subway	Deli	10-20
+Amarin Thai Cuisine	Thai	20-30
+Agave	Mexican	20-30
+Sushitomi	Japanese	20-30
+Taqueria Los Charros	Mexican	0-10
+
+Final selection: Taqueria Los CharrosUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

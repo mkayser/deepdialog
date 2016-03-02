@@ -1,0 +1,30 @@
+02-24-2016:19-49-28	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1	joined
+02-24-2016:19-49-28	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1 has user ID 1d522dad1126468f9d2b0ffe00ba10ab
+02-24-2016:19-49-29	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 0	joined
+02-24-2016:19-49-29	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 0 has user ID 0398c4f9eab24ba2b94f5ab59c5301b9
+02-24-2016:19-49-35	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 0	Selected restaurant 5:	Amarin Thai Cuisine
+02-24-2016:19-50-04	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1	Selected restaurant 3:	Casa Lupe Mexican Restaurant
+02-24-2016:19-50-16	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 0	Selected restaurant 8:	Oren's Hummus
+02-24-2016:19-50-24	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 1	Selected restaurant 5:	Amarin Thai Cuisine
+02-24-2016:19-50-35	e49882e0-0ae5-4a3c-b89e-9102ddd41823	User 0	Selected restaurant 5:	Amarin Thai Cuisine
+02-24-2016:19-50-36	---
+02-24-2016:19-50-36	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Thai, Mediterranean, Pizza, Mexican, SeaFood
+User 1 preferences: 20-30	Thai, Mediterranean, SeaFood, Mexican, Pizza
+
+Agave	Mexican	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Shell Shock	SeaFood	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Taqueria Los Charros	Mexican	0-10
+Amarin Thai Cuisine	Thai	20-30
+Blue Line Pizza	Pizza	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Oren's Hummus	Mediterranean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

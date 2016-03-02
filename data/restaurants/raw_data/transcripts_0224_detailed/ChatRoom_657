@@ -1,0 +1,29 @@
+02-24-2016:20-01-59	70f7fae5-1cc1-4b59-bbbe-d4bd3fd5d56b	User 0	joined
+02-24-2016:20-01-59	70f7fae5-1cc1-4b59-bbbe-d4bd3fd5d56b	User 0 has user ID 3af245df6d3d4ea999525beb3bf030ea
+02-24-2016:20-02-01	70f7fae5-1cc1-4b59-bbbe-d4bd3fd5d56b	User 0	Selected restaurant 0:	Bushido
+02-24-2016:20-02-02	70f7fae5-1cc1-4b59-bbbe-d4bd3fd5d56b	User 1	joined
+02-24-2016:20-02-02	70f7fae5-1cc1-4b59-bbbe-d4bd3fd5d56b	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-02-06	70f7fae5-1cc1-4b59-bbbe-d4bd3fd5d56b	User 0	Selected restaurant 1:	Vaso Azzurro
+02-24-2016:20-02-08	70f7fae5-1cc1-4b59-bbbe-d4bd3fd5d56b	User 1	Selected restaurant 0:	Bushido
+02-24-2016:20-02-11	70f7fae5-1cc1-4b59-bbbe-d4bd3fd5d56b	User 0	Selected restaurant 0:	Bushido
+02-24-2016:20-02-11	---
+02-24-2016:20-02-11	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Italian, Korean, Chinese, Spanish, Japanese
+User 1 preferences: 10-20	Japanese, Spanish, Chinese, Korean, Italian
+
+Bushido	Japanese	10-20
+Vaso Azzurro	Italian	20-30
+Kirin	Chinese	10-20
+Ginseng	Korean	10-20
+Rumble Fish	Japanese	30-60
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Ristorante Don Giovanni	Italian	0-10
+Totoro	Korean	20-30
+Kappo Naminami	Japanese	30-60
+
+Final selection: BushidoUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

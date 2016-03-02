@@ -1,0 +1,26 @@
+02-19-2016:16-56-10	0fa74b36-a237-4895-92e0-309134fa51ae	User 1	joined
+02-19-2016:16-56-10	0fa74b36-a237-4895-92e0-309134fa51ae	User 0	joined
+02-19-2016:16-56-12	0fa74b36-a237-4895-92e0-309134fa51ae	User 0	Selected restaurant:	Park Ballachi
+02-19-2016:16-56-20	0fa74b36-a237-4895-92e0-309134fa51ae	User 1	Works for me
+02-19-2016:16-56-23	0fa74b36-a237-4895-92e0-309134fa51ae	User 1	Selected restaurant:	Park Ballachi
+02-19-2016:16-56-24	---
+02-19-2016:16-56-24	---
+
+Chat Information:
+
+User 0 preferences: 30-60	French, Italian, Indian, Mexican, Japanese
+User 1 preferences: 10-20	Indian, Japanese, Mexican, French, Italian
+
+Kappo Naminami	Japanese	30-60
+Bushido	Japanese	10-20
+Chez TJ	French	30-60
+Rumble Fish	Japanese	30-60
+Park Ballachi	Indian	0-10
+Vaso Azzurro	Italian	20-30
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Doppio Zero	Italian	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+
+Final selection: Park BallachiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

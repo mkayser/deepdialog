@@ -1,0 +1,32 @@
+02-24-2016:19-58-26	d2493644-b284-483c-bd69-35c5465415f3	User 0	joined
+02-24-2016:19-58-26	d2493644-b284-483c-bd69-35c5465415f3	User 0 has user ID f25cb379b00e47d38df696c2696759e8
+02-24-2016:19-58-27	d2493644-b284-483c-bd69-35c5465415f3	User 1	joined
+02-24-2016:19-58-27	d2493644-b284-483c-bd69-35c5465415f3	User 1 has user ID 3aa8ac00e06a48a18e30c683b08d11fd
+02-24-2016:19-58-31	---
+02-24-2016:19-58-32	d2493644-b284-483c-bd69-35c5465415f3	User 0	Cascal?
+02-24-2016:19-58-32	d2493644-b284-483c-bd69-35c5465415f3	User 1	joined
+02-24-2016:19-58-32	d2493644-b284-483c-bd69-35c5465415f3	User 1 has user ID 3aa8ac00e06a48a18e30c683b08d11fd
+02-24-2016:19-58-36	d2493644-b284-483c-bd69-35c5465415f3	User 0	Cascal?
+02-24-2016:19-58-40	d2493644-b284-483c-bd69-35c5465415f3	User 0	Selected restaurant 6:	Cascal
+02-24-2016:19-59-03	d2493644-b284-483c-bd69-35c5465415f3	User 1	Selected restaurant 6:	Cascal
+02-24-2016:19-59-03	---
+02-24-2016:19-59-03	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Spanish, French, Vietnamese, Indian, Italian
+User 1 preferences: 30-60	Spanish, French, Indian, Italian, Vietnamese
+
+Xanh Restaurant	Vietnamese	10-20
+Pho To Chau	Vietnamese	20-30
+Asian Box	Vietnamese	30-60
+Sakoon	Indian	30-60
+Chez TJ	French	30-60
+Doppio Zero	Italian	30-60
+Cascal	Spanish	30-60
+Pho Hoa	Vietnamese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Park Ballachi	Indian	0-10
+
+Final selection: CascalUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,29 @@
+02-24-2016:19-51-15	b85bf985-6cc9-4607-a1cc-503517fe1726	User 1	joined
+02-24-2016:19-51-15	b85bf985-6cc9-4607-a1cc-503517fe1726	User 1 has user ID 732ecfccbdc44825a1016d27b9a01985
+02-24-2016:19-51-15	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0	joined
+02-24-2016:19-51-15	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0 has user ID 7d299a90bd4a4c82819009d3027c00ae
+02-24-2016:19-51-17	b85bf985-6cc9-4607-a1cc-503517fe1726	User 1	Hi
+02-24-2016:19-51-24	b85bf985-6cc9-4607-a1cc-503517fe1726	User 1	Pho To Chau is my preference
+02-24-2016:19-51-27	b85bf985-6cc9-4607-a1cc-503517fe1726	User 1	Selected restaurant 1:	Pho To Chau
+02-24-2016:19-51-36	b85bf985-6cc9-4607-a1cc-503517fe1726	User 0	Selected restaurant 1:	Pho To Chau
+02-24-2016:19-51-36	---
+02-24-2016:19-51-37	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Spanish, Mediterranean, SeaFood, Vietnamese, French
+User 1 preferences: 0-10	Vietnamese, French, Mediterranean, SeaFood, Spanish
+
+Café Baklava	Mediterranean	10-20
+Pho To Chau	Vietnamese	20-30
+Oren's Hummus	Mediterranean	10-20
+Morocco's	Mediterranean	10-20
+Xanh Restaurant	Vietnamese	10-20
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+Ehpesus	Mediterranean	0-10
+Cascal	Spanish	30-60
+Chez TJ	French	30-60
+
+Final selection: Pho To ChauUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

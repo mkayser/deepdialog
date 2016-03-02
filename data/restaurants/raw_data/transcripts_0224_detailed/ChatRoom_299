@@ -1,0 +1,28 @@
+02-24-2016:19-48-47	d2a253a3-c10f-4fde-ba1a-79dd8b807de0	User 1	joined
+02-24-2016:19-48-47	d2a253a3-c10f-4fde-ba1a-79dd8b807de0	User 1 has user ID 963f673ae61546fbbff560eeaaf1d4a6
+02-24-2016:19-48-49	d2a253a3-c10f-4fde-ba1a-79dd8b807de0	User 0	joined
+02-24-2016:19-48-49	d2a253a3-c10f-4fde-ba1a-79dd8b807de0	User 0 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:19-48-53	d2a253a3-c10f-4fde-ba1a-79dd8b807de0	User 0	Selected restaurant 2:	Doppio Zero
+02-24-2016:19-48-58	d2a253a3-c10f-4fde-ba1a-79dd8b807de0	User 0	I really want italian!
+02-24-2016:19-49-36	d2a253a3-c10f-4fde-ba1a-79dd8b807de0	User 1	Selected restaurant 2:	Doppio Zero
+02-24-2016:19-49-36	---
+02-24-2016:19-49-36	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Italian, Mexican, SeaFood, Mediterranean, Thai
+User 1 preferences: 20-30	Italian, Thai, Mexican, Mediterranean, SeaFood
+
+Ehpesus	Mediterranean	0-10
+Drunken Lobster	SeaFood	10-20
+Doppio Zero	Italian	30-60
+Shell Shock	SeaFood	10-20
+Café Baklava	Mediterranean	10-20
+Amarin Thai Cuisine	Thai	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Morocco's	Mediterranean	10-20
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Mediterranean Grill House	Mediterranean	0-10
+
+Final selection: Doppio ZeroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

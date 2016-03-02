@@ -1,0 +1,33 @@
+02-19-2016:15-33-45	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	joined
+02-19-2016:15-33-47	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0	joined
+02-19-2016:15-34-10	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0	Selected restaurant:	Hunan Chili
+02-19-2016:15-34-10	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	we are going to Bierhaus
+02-19-2016:15-34-17	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	and eatign hamburgers
+02-19-2016:15-34-30	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	Selected restaurant:	Bierhaus
+02-19-2016:15-34-39	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	I can not eat chinese food
+02-19-2016:15-34-45	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0	Alright, that's OK with me then.
+02-19-2016:15-34-51	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	good, let us go
+02-19-2016:15-34-57	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0	OK
+02-19-2016:15-35-58	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	please select the restauarant
+02-19-2016:15-36-31	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0	Selected restaurant:	Bierhaus
+02-19-2016:15-36-32	---
+02-19-2016:15-36-32	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Chinese, Mediterranean, American, Indian
+User 1 preferences: 0-10	Chinese, American, Deli, Indian, Mediterranean
+
+Park Ballachi	Indian	0-10
+Bierhaus	American	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Scratch	American	0-10
+Shezan	Indian	10-20
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Sakoon	Indian	30-60
+New Mongolian BBQ	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+
+Final selection: BierhausUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

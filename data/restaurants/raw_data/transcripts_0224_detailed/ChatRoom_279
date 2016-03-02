@@ -1,0 +1,30 @@
+02-24-2016:19-48-04	1924f8df-e0eb-4521-968c-578097860832	User 0	joined
+02-24-2016:19-48-04	1924f8df-e0eb-4521-968c-578097860832	User 0 has user ID 07915e090b7a4c15bf21fc6066353da8
+02-24-2016:19-48-06	1924f8df-e0eb-4521-968c-578097860832	User 1	joined
+02-24-2016:19-48-06	1924f8df-e0eb-4521-968c-578097860832	User 1 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-48-18	1924f8df-e0eb-4521-968c-578097860832	User 1	I'm broke and want cheap indian food
+02-24-2016:19-48-22	1924f8df-e0eb-4521-968c-578097860832	User 1	Shezan?
+02-24-2016:19-48-25	1924f8df-e0eb-4521-968c-578097860832	User 0	works for me
+02-24-2016:19-48-28	1924f8df-e0eb-4521-968c-578097860832	User 0	Selected restaurant 9:	Shezan
+02-24-2016:19-48-29	1924f8df-e0eb-4521-968c-578097860832	User 1	Selected restaurant 9:	Shezan
+02-24-2016:19-48-29	---
+02-24-2016:19-48-29	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Deli, SeaFood, Mexican, Japanese
+User 1 preferences: 0-10	Indian, Mexican, SeaFood, Deli, Japanese
+
+Ryowa Noodle House	Japanese	20-30
+Fiesta Del Mar Too	Mexican	10-20
+Maruichi Noodle House	Japanese	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Sushitomi	Japanese	20-30
+Agave	Mexican	20-30
+Rumble Fish	Japanese	30-60
+Niji Sushi	Japanese	10-20
+Bushido	Japanese	10-20
+Shezan	Indian	10-20
+
+Final selection: ShezanUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

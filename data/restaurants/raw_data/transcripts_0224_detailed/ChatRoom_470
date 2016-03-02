@@ -1,0 +1,37 @@
+02-24-2016:19-53-23	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	joined
+02-24-2016:19-53-23	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1 has user ID a2b1f77d63ba47b6a973dbe700d79aee
+02-24-2016:19-53-23	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	joined
+02-24-2016:19-53-23	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0 has user ID 6146510ec3fb49a1badc09978fbcc832
+02-24-2016:19-53-27	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	Selected restaurant 1:	Hong Kong Bistro
+02-24-2016:19-53-29	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	Hello
+02-24-2016:19-53-35	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	gonna go with chinese 
+02-24-2016:19-53-37	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	Pizza?
+02-24-2016:19-53-42	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	Selected restaurant 0:	Amici's East Coast Pizzeria
+02-24-2016:19-54-00	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	Can't do Chinese
+02-24-2016:19-54-02	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	im going with hk bistro 
+02-24-2016:19-54-03	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	Thai is okay
+02-24-2016:19-54-18	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	how about italian? 
+02-24-2016:19-54-33	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	Selected restaurant 3:	Doppio Zero
+02-24-2016:19-54-37	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 1	okay
+02-24-2016:19-54-41	1cc63660-ddfc-4bd6-b6eb-d721b2e3d0b4	User 0	Selected restaurant 3:	Doppio Zero
+02-24-2016:19-54-41	---
+02-24-2016:19-54-42	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Italian, Thai, Pizza, Korean
+User 1 preferences: 30-60	Pizza, Thai, Korean, Italian, Chinese
+
+Amici's East Coast Pizzeria	Pizza	30-60
+Hong Kong Bistro	Chinese	20-30
+Ginseng	Korean	10-20
+Doppio Zero	Italian	30-60
+Bangkok Spoon	Thai	30-60
+Blue Line Pizza	Pizza	10-20
+Hunan Chili	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Totoro	Korean	20-30
+New Mongolian BBQ	Chinese	30-60
+
+Final selection: Doppio ZeroUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

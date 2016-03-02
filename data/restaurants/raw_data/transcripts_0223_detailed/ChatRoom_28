@@ -1,0 +1,28 @@
+02-19-2016:15-29-53	ebd1cbbb-48c9-4404-8fa9-a9192e24fd71	User 1	joined
+02-19-2016:15-29-53	ebd1cbbb-48c9-4404-8fa9-a9192e24fd71	User 0	joined
+02-19-2016:15-30-18	ebd1cbbb-48c9-4404-8fa9-a9192e24fd71	User 1	Lets go to Agave
+02-19-2016:15-30-21	ebd1cbbb-48c9-4404-8fa9-a9192e24fd71	User 1	Selected restaurant:	Agave
+02-19-2016:15-30-21	ebd1cbbb-48c9-4404-8fa9-a9192e24fd71	User 0	Sure
+02-19-2016:15-30-29	ebd1cbbb-48c9-4404-8fa9-a9192e24fd71	User 0	Agave sounds good
+02-19-2016:15-30-37	ebd1cbbb-48c9-4404-8fa9-a9192e24fd71	User 0	Selected restaurant:	Agave
+02-19-2016:15-30-38	---
+02-19-2016:15-30-38	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Spanish, Mediterranean, Vietnamese, Mexican, American
+User 1 preferences: 20-30	Spanish, Mediterranean, Mexican, American, Vietnamese
+
+Asian Box	Vietnamese	30-60
+Steins Beer Garden	American	20-30
+Agave	Mexican	20-30
+Café Baklava	Mediterranean	10-20
+Taqueria Los Charros	Mexican	0-10
+Scratch	American	0-10
+Oren's Hummus	Mediterranean	10-20
+The Crepevine	American	30-60
+Xanh Restaurant	Vietnamese	10-20
+Morocco's	Mediterranean	10-20
+
+Final selection: AgaveUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

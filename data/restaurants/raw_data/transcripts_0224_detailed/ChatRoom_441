@@ -1,0 +1,29 @@
+02-24-2016:19-52-47	ad2207dc-80c1-497c-acc7-03f6164e1797	User 1	joined
+02-24-2016:19-52-47	ad2207dc-80c1-497c-acc7-03f6164e1797	User 1 has user ID 166720d565e2438a95fc42a5361c88f0
+02-24-2016:19-52-48	ad2207dc-80c1-497c-acc7-03f6164e1797	User 0	joined
+02-24-2016:19-52-48	ad2207dc-80c1-497c-acc7-03f6164e1797	User 0 has user ID fd6adc76ca994bd79a4054960194f86e
+02-24-2016:19-52-52	ad2207dc-80c1-497c-acc7-03f6164e1797	User 1	Selected restaurant 8:	The Crepevine
+02-24-2016:19-53-08	ad2207dc-80c1-497c-acc7-03f6164e1797	User 1	please agree, it is quicker this way!
+02-24-2016:19-53-17	ad2207dc-80c1-497c-acc7-03f6164e1797	User 0	lol
+02-24-2016:19-53-21	ad2207dc-80c1-497c-acc7-03f6164e1797	User 0	Selected restaurant 8:	The Crepevine
+02-24-2016:19-53-21	---
+02-24-2016:19-53-21	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mexican, Indian, Deli, American, Vietnamese
+User 1 preferences: 30-60	American, Indian, Deli, Mexican, Vietnamese
+
+Xanh Restaurant	Vietnamese	10-20
+Sakoon	Indian	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Pho To Chau	Vietnamese	20-30
+Steins Beer Garden	American	20-30
+Shezan	Indian	10-20
+Park Ballachi	Indian	0-10
+The Crepevine	American	30-60
+Bierhaus	American	0-10
+
+Final selection: The CrepevineUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

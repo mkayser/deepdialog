@@ -1,0 +1,28 @@
+02-19-2016:16-07-04	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 1	joined
+02-19-2016:16-07-06	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 0	joined
+02-19-2016:16-07-14	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 1	How about Totoro?
+02-19-2016:16-07-45	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 0	do you like steins beer garden? not a fan of korean
+02-19-2016:16-08-00	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 1	Yes lets go there
+02-19-2016:16-08-03	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 1	Selected restaurant:	Steins Beer Garden
+02-19-2016:16-08-04	56a2522d-5689-48c9-86c0-f0d5d9001ee4	User 0	Selected restaurant:	Steins Beer Garden
+02-19-2016:16-08-04	---
+02-19-2016:16-08-04	---
+
+Chat Information:
+
+User 0 preferences: 30-60	American, Italian, Vietnamese, Mediterranean, Korean
+User 1 preferences: 20-30	Korean, Italian, American, Vietnamese, Mediterranean
+
+Ginseng	Korean	10-20
+Steins Beer Garden	American	20-30
+Doppio Zero	Italian	30-60
+Oren's Hummus	Mediterranean	10-20
+Totoro	Korean	20-30
+Bierhaus	American	0-10
+Ehpesus	Mediterranean	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+Vaso Azzurro	Italian	20-30
+
+Final selection: Steins Beer GardenUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

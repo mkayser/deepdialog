@@ -1,0 +1,30 @@
+02-24-2016:19-51-23	16835a22-c751-4e04-b003-db91696a36be	User 0	joined
+02-24-2016:19-51-23	16835a22-c751-4e04-b003-db91696a36be	User 0 has user ID 12dfd22b352441e0ae363490f50068fc
+02-24-2016:19-51-24	16835a22-c751-4e04-b003-db91696a36be	User 1	joined
+02-24-2016:19-51-24	16835a22-c751-4e04-b003-db91696a36be	User 1 has user ID 96577fc7f8fc4d82bb93d1e26de579ab
+02-24-2016:19-51-34	16835a22-c751-4e04-b003-db91696a36be	User 0	Do you wanna do pizza?
+02-24-2016:19-52-23	16835a22-c751-4e04-b003-db91696a36be	User 1	How about Bierhaus since they are cheap?
+02-24-2016:19-52-31	16835a22-c751-4e04-b003-db91696a36be	User 0	Selected restaurant 5:	Bierhaus
+02-24-2016:19-52-38	16835a22-c751-4e04-b003-db91696a36be	User 0	Alright
+02-24-2016:19-52-39	16835a22-c751-4e04-b003-db91696a36be	User 1	Selected restaurant 5:	Bierhaus
+02-24-2016:19-52-39	---
+02-24-2016:19-52-39	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Pizza, American, Chinese, Deli, Indian
+User 1 preferences: 0-10	American, Deli, Pizza, Indian, Chinese
+
+Steins Beer Garden	American	20-30
+Hong Kong Bistro	Chinese	20-30
+Kirin	Chinese	10-20
+Hunan Chili	Chinese	30-60
+Blue Line Pizza	Pizza	10-20
+Bierhaus	American	0-10
+Shezan	Indian	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Fu Lam Mum	Chinese	30-60
+The Crepevine	American	30-60
+
+Final selection: BierhausUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

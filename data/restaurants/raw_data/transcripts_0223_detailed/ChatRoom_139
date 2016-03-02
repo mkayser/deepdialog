@@ -1,0 +1,30 @@
+02-19-2016:15-47-30	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	joined
+02-19-2016:15-47-30	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	joined
+02-19-2016:15-47-36	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	What do you have in mind?
+02-19-2016:15-47-41	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	Chinese?
+02-19-2016:15-47-49	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	HK bistro?
+02-19-2016:15-47-53	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	Sure, want to go to New mongolian bbq
+02-19-2016:15-48-05	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	that'll work!
+02-19-2016:15-48-09	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 0	Selected restaurant:	New Mongolian BBQ
+02-19-2016:15-48-10	bb41505c-8f67-4e51-b38b-2f21a20f15c1	User 1	Selected restaurant:	New Mongolian BBQ
+02-19-2016:15-48-10	---
+02-19-2016:15-48-10	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Spanish, Pizza, Thai, French
+User 1 preferences: 30-60	Spanish, Chinese, Thai, Pizza, French
+
+Kirin	Chinese	10-20
+New Mongolian BBQ	Chinese	30-60
+Amarin Thai Cuisine	Thai	20-30
+Blue Line Pizza	Pizza	10-20
+Hong Kong Bistro	Chinese	20-30
+Chez TJ	French	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Cascal	Spanish	30-60
+Queen House	Chinese	0-10
+Fu Lam Mum	Chinese	30-60
+
+Final selection: New Mongolian BBQUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

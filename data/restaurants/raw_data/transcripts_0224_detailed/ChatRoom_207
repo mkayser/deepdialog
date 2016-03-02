@@ -1,0 +1,29 @@
+02-24-2016:19-45-39	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0	joined
+02-24-2016:19-45-39	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0 has user ID 3af245df6d3d4ea999525beb3bf030ea
+02-24-2016:19-45-40	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	joined
+02-24-2016:19-45-40	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:19-45-47	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0	Lets get Asian Box
+02-24-2016:19-45-51	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	Sure!
+02-24-2016:19-45-52	38b29e2f-c3cc-4646-b076-276c98d351e0	User 0	Selected restaurant 0:	Asian Box
+02-24-2016:19-45-53	38b29e2f-c3cc-4646-b076-276c98d351e0	User 1	Selected restaurant 0:	Asian Box
+02-24-2016:19-45-53	---
+02-24-2016:19-45-53	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Chinese, Italian, Deli, Spanish, Vietnamese
+User 1 preferences: 20-30	Italian, Deli, Chinese, Spanish, Vietnamese
+
+Asian Box	Vietnamese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Pho To Chau	Vietnamese	20-30
+New Mongolian BBQ	Chinese	30-60
+Hunan Chili	Chinese	30-60
+Doppio Zero	Italian	30-60
+Queen House	Chinese	0-10
+Kirin	Chinese	10-20
+Pho Hoa	Vietnamese	30-60
+Cascal	Spanish	30-60
+
+Final selection: Asian BoxUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-19-2016:16-59-27	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 0	joined
+02-19-2016:16-59-28	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 1	joined
+02-19-2016:16-59-30	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 0	hi
+02-19-2016:16-59-32	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 0	pick one
+02-19-2016:16-59-40	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 1	Selected restaurant:	Shalala
+02-19-2016:16-59-46	0ab9d236-d400-4341-ad1a-537083ecbfe2	User 0	Selected restaurant:	Shalala
+02-19-2016:16-59-47	---
+02-19-2016:16-59-47	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Thai, Mexican, SeaFood, Japanese, Pizza
+User 1 preferences: 10-20	Japanese, Pizza, Mexican, Thai, SeaFood
+
+Sushitomi	Japanese	20-30
+Blue Line Pizza	Pizza	10-20
+Maruichi Noodle House	Japanese	0-10
+Bangkok Spoon	Thai	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Shalala	Japanese	10-20
+Yakko	Japanese	0-10
+Shell Shock	SeaFood	10-20
+
+Final selection: ShalalaUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

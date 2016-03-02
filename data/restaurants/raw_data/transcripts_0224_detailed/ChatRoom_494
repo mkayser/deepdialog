@@ -1,0 +1,32 @@
+02-24-2016:19-54-02	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	joined
+02-24-2016:19-54-02	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0 has user ID 4489221650c94eb9a30d12cea4a2fbfa
+02-24-2016:19-54-14	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	joined
+02-24-2016:19-54-14	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1 has user ID a08eb0381f614efb81f21a4ed99a6912
+02-24-2016:19-54-17	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	Selected restaurant 5:	Bangkok Spoon
+02-24-2016:19-54-24	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	Selected restaurant 0:	Queen House
+02-24-2016:19-54-31	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	thats too expsnive for me
+02-24-2016:19-54-33	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	Selected restaurant 3:	Amarin Thai Cuisine
+02-24-2016:19-54-36	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	how about some chinese food
+02-24-2016:19-54-58	f069e784-41e1-40ae-af07-4f9548dd74c0	User 0	Selected restaurant 2:	Hong Kong Bistro
+02-24-2016:19-55-05	f069e784-41e1-40ae-af07-4f9548dd74c0	User 1	Selected restaurant 2:	Hong Kong Bistro
+02-24-2016:19-55-05	---
+02-24-2016:19-55-09	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Chinese, Indian, Korean, French, Thai
+User 1 preferences: 20-30	Thai, French, Indian, Korean, Chinese
+
+Queen House	Chinese	0-10
+Shezan	Indian	10-20
+Hong Kong Bistro	Chinese	20-30
+Amarin Thai Cuisine	Thai	20-30
+New Mongolian BBQ	Chinese	30-60
+Bangkok Spoon	Thai	30-60
+Ginseng	Korean	10-20
+Park Ballachi	Indian	0-10
+Chez TJ	French	30-60
+Totoro	Korean	20-30
+
+Final selection: Hong Kong BistroUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

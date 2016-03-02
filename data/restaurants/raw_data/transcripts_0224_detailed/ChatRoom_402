@@ -1,0 +1,29 @@
+02-24-2016:19-51-47	f076cf32-e40b-476b-8baf-b403f0b6d718	User 1	joined
+02-24-2016:19-51-47	f076cf32-e40b-476b-8baf-b403f0b6d718	User 1 has user ID 558a69237ba94c408cad5f508b230839
+02-24-2016:19-51-47	f076cf32-e40b-476b-8baf-b403f0b6d718	User 0	joined
+02-24-2016:19-51-47	f076cf32-e40b-476b-8baf-b403f0b6d718	User 0 has user ID eed796d22f004217bcc4845a4ccca8fe
+02-24-2016:19-51-52	f076cf32-e40b-476b-8baf-b403f0b6d718	User 1	Selected restaurant 3:	Fu Lam Mum
+02-24-2016:19-51-55	f076cf32-e40b-476b-8baf-b403f0b6d718	User 1	Chinese?
+02-24-2016:19-52-14	f076cf32-e40b-476b-8baf-b403f0b6d718	User 0	Selected restaurant 7:	Hunan Chili
+02-24-2016:19-52-19	f076cf32-e40b-476b-8baf-b403f0b6d718	User 1	Selected restaurant 7:	Hunan Chili
+02-24-2016:19-52-19	---
+02-24-2016:19-52-19	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, Deli, Chinese, Spanish, Mediterranean
+User 1 preferences: 30-60	Chinese, Spanish, Mediterranean, Deli, Italian
+
+Subway	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Vaso Azzurro	Italian	20-30
+Fu Lam Mum	Chinese	30-60
+Posh Bagel	Deli	10-20
+Queen House	Chinese	0-10
+Doppio Zero	Italian	30-60
+Hunan Chili	Chinese	30-60
+Kirin	Chinese	10-20
+Mediterranean Grill House	Mediterranean	0-10
+
+Final selection: Hunan ChiliUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

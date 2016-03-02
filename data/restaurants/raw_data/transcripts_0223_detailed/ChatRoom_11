@@ -1,0 +1,31 @@
+02-19-2016:15-27-25	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	joined
+02-19-2016:15-27-26	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 1	joined
+02-19-2016:15-27-49	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	Any preferences?
+02-19-2016:15-28-03	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 1	Spanish. What about you?
+02-19-2016:15-28-35	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	That would work.  Only one option for that.
+02-19-2016:15-29-23	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 1	Yes but it is a little pricey. Would Indian for you too?
+02-19-2016:15-30-07	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 1	I like Park Ballachi
+02-19-2016:15-30-18	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	Park Ballachi it is
+02-19-2016:15-30-20	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 1	Selected restaurant:	Park Ballachi
+02-19-2016:15-30-21	9ce3335f-0934-4de7-b595-ee42cf91d0c9	User 0	Selected restaurant:	Park Ballachi
+02-19-2016:15-30-22	---
+02-19-2016:15-30-22	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Japanese, American, Spanish, Indian, Mexican
+User 1 preferences: 0-10	Spanish, Indian, American, Mexican, Japanese
+
+Park Ballachi	Indian	0-10
+Rumble Fish	Japanese	30-60
+Kappo Naminami	Japanese	30-60
+Shiva’s Indian Restaurant	Indian	0-10
+Agave	Mexican	20-30
+Yakko	Japanese	0-10
+Sushitomi	Japanese	20-30
+Shabuway	Japanese	30-60
+Shalala	Japanese	10-20
+Cascal	Spanish	30-60
+
+Final selection: Park BallachiUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

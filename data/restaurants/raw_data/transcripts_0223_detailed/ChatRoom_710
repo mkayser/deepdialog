@@ -1,0 +1,28 @@
+02-19-2016:16-50-31	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 0	joined
+02-19-2016:16-50-34	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 1	joined
+02-19-2016:16-50-43	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 0	Japanese? Yakko?
+02-19-2016:16-50-47	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 0	it's cheap
+02-19-2016:16-50-48	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 1	fine by me
+02-19-2016:16-50-54	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 0	Selected restaurant:	Yakko
+02-19-2016:16-50-56	36d623b8-cb05-4bb6-bf16-8f3ec66b04fb	User 1	Selected restaurant:	Yakko
+02-19-2016:16-50-56	---
+02-19-2016:16-50-56	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Japanese, American, Spanish, Italian, Pizza
+User 1 preferences: 10-20	Pizza, Italian, American, Japanese, Spanish
+
+Doppio Zero	Italian	30-60
+Yakko	Japanese	0-10
+Steins Beer Garden	American	20-30
+Rumble Fish	Japanese	30-60
+Maruichi Noodle House	Japanese	0-10
+Kappo Naminami	Japanese	30-60
+Cascal	Spanish	30-60
+Ryowa Noodle House	Japanese	20-30
+Amici's East Coast Pizzeria	Pizza	30-60
+Niji Sushi	Japanese	10-20
+
+Final selection: YakkoUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

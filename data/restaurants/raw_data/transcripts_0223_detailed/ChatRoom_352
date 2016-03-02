@@ -1,0 +1,29 @@
+02-19-2016:16-21-14	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 1	joined
+02-19-2016:16-21-14	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 0	joined
+02-19-2016:16-21-20	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 0	Id like to eat at RDG
+02-19-2016:16-21-25	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 0	Italian
+02-19-2016:16-21-41	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 0	789
+02-19-2016:16-21-47	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 1	Hey sorry lets do that
+02-19-2016:16-21-51	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-21-55	126c7b1a-78d9-4dfb-bbda-02e00c132a54	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-21-55	---
+02-19-2016:16-21-55	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, SeaFood, Mediterranean, Deli, Indian
+User 1 preferences: 10-20	Italian, Mediterranean, Indian, Deli, SeaFood
+
+Morocco's	Mediterranean	10-20
+Subway	Deli	10-20
+Shiva’s Indian Restaurant	Indian	0-10
+Drunken Lobster	SeaFood	10-20
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Ristorante Don Giovanni	Italian	0-10
+Posh Bagel	Deli	10-20
+Mediterranean Grill House	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+
+Final selection: Ristorante Don GiovanniUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

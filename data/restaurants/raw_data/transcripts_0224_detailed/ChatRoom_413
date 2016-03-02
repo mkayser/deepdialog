@@ -1,0 +1,33 @@
+02-24-2016:19-52-03	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 1	joined
+02-24-2016:19-52-03	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 1 has user ID 1185fb427e3d49c29548e288ddc13446
+02-24-2016:19-52-03	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 0	joined
+02-24-2016:19-52-03	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 0 has user ID cfb7f0ba7d194d2fbc1ab23d0de62457
+02-24-2016:19-52-13	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 1	Totoro?
+02-24-2016:19-52-16	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 1	Selected restaurant 4:	Totoro
+02-24-2016:19-52-19	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 0	Can we do Chinese?
+02-24-2016:19-52-26	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 1	what do you ahve in mind
+02-24-2016:19-52-31	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 0	The expensive stuff!
+02-24-2016:19-52-35	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 1	picky one
+02-24-2016:19-52-37	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 0	Selected restaurant 8:	Hunan Chili
+02-24-2016:19-52-41	81054ab4-c48f-40d0-81c5-3a690a3c157f	User 1	Selected restaurant 8:	Hunan Chili
+02-24-2016:19-52-41	---
+02-24-2016:19-52-42	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Pizza, Chinese, Korean, Italian, SeaFood
+User 1 preferences: 30-60	Korean, Chinese, SeaFood, Pizza, Italian
+
+Doppio Zero	Italian	30-60
+Ginseng	Korean	10-20
+Kirin	Chinese	10-20
+Queen House	Chinese	0-10
+Totoro	Korean	20-30
+New Mongolian BBQ	Chinese	30-60
+Vaso Azzurro	Italian	20-30
+Drunken Lobster	SeaFood	10-20
+Hunan Chili	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Hunan ChiliUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-24-2016:19-56-15	efd021c7-6bd4-4d9c-8570-86f062519c94	User 1	joined
+02-24-2016:19-56-15	efd021c7-6bd4-4d9c-8570-86f062519c94	User 1 has user ID 3af245df6d3d4ea999525beb3bf030ea
+02-24-2016:19-56-15	efd021c7-6bd4-4d9c-8570-86f062519c94	User 0	joined
+02-24-2016:19-56-15	efd021c7-6bd4-4d9c-8570-86f062519c94	User 0 has user ID 56a965da39604ed4b21a394e5ff4f573
+02-24-2016:19-56-17	efd021c7-6bd4-4d9c-8570-86f062519c94	User 1	Selected restaurant 0:	Pho Hoa
+02-24-2016:19-56-19	efd021c7-6bd4-4d9c-8570-86f062519c94	User 0	Selected restaurant 0:	Pho Hoa
+02-24-2016:19-56-20	---
+02-24-2016:19-57-20	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Vietnamese, Chinese, American, Mediterranean, Thai
+User 1 preferences: 0-10	American, Thai, Vietnamese, Mediterranean, Chinese
+
+Pho Hoa	Vietnamese	30-60
+Ehpesus	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+Xanh Restaurant	Vietnamese	10-20
+Bangkok Spoon	Thai	30-60
+Queen House	Chinese	0-10
+Oren's Hummus	Mediterranean	10-20
+Scratch	American	0-10
+Kirin	Chinese	10-20
+Bierhaus	American	0-10
+
+Final selection: Pho HoaUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

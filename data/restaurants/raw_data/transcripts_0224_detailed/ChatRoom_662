@@ -1,0 +1,31 @@
+02-24-2016:20-02-11	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	joined
+02-24-2016:20-02-11	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1 has user ID db8ad5efe2ab4aa7b2cdaa393f6c50ba
+02-24-2016:20-02-17	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	I feel like vietnamese.
+02-24-2016:20-02-20	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	HOw about pho to?
+02-24-2016:20-02-24	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	Selected restaurant 7:	Pho To Chau
+02-24-2016:20-02-42	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	joined
+02-24-2016:20-02-42	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0 has user ID 20564f20d8714dc4af09c24a64219e9f
+02-24-2016:20-02-47	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	How about pho to?
+02-24-2016:20-02-48	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 0	Selected restaurant 4:	Oren's Hummus
+02-24-2016:20-02-53	09a61885-d4f0-4c4a-b0ec-d7cb8b928630	User 1	Selected restaurant 4:	Oren's Hummus
+02-24-2016:20-02-54	---
+02-24-2016:20-02-54	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Mediterranean, Spanish, Mexican, Deli, Vietnamese
+User 1 preferences: 0-10	Vietnamese, Deli, Mediterranean, Mexican, Spanish
+
+Posh Bagel	Deli	10-20
+Asian Box	Vietnamese	30-60
+Pho Hoa	Vietnamese	30-60
+Subway	Deli	10-20
+Oren's Hummus	Mediterranean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Ehpesus	Mediterranean	0-10
+Pho To Chau	Vietnamese	20-30
+Café Baklava	Mediterranean	10-20
+Cascal	Spanish	30-60
+
+Final selection: Oren's HummusUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

@@ -1,0 +1,32 @@
+02-24-2016:19-42-31	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	joined
+02-24-2016:19-42-31	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1 has user ID 1e64b000bb644aa396f0bfdef8dc61c0
+02-24-2016:19-42-33	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	hey
+02-24-2016:19-42-34	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	joined
+02-24-2016:19-42-34	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0 has user ID d3b7ef4428254d3ab7a0802bf5f803d2
+02-24-2016:19-42-40	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	korean?
+02-24-2016:19-42-46	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	ginseng?
+02-24-2016:19-42-57	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	totoro
+02-24-2016:19-43-02	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 0	Selected restaurant 7:	Totoro
+02-24-2016:19-43-07	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	thanks
+02-24-2016:19-43-09	80d912d7-a9a2-4c7e-9c02-335adaf91a30	User 1	Selected restaurant 7:	Totoro
+02-24-2016:19-43-09	---
+02-24-2016:19-43-09	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, French, Mediterranean, Japanese, Vietnamese
+User 1 preferences: 20-30	French, Mediterranean, Korean, Japanese, Vietnamese
+
+Shalala	Japanese	10-20
+Maruichi Noodle House	Japanese	0-10
+Pho To Chau	Vietnamese	20-30
+Rumble Fish	Japanese	30-60
+Yakko	Japanese	0-10
+Masa Sushi	Japanese	0-10
+Ginseng	Korean	10-20
+Totoro	Korean	20-30
+Niji Sushi	Japanese	10-20
+Pho Hoa	Vietnamese	30-60
+
+Final selection: TotoroUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

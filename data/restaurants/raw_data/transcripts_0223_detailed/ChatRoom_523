@@ -1,0 +1,26 @@
+02-19-2016:16-38-09	e2f29f04-8e6b-4a58-8fda-f13ea888d39b	User 1	joined
+02-19-2016:16-38-10	e2f29f04-8e6b-4a58-8fda-f13ea888d39b	User 0	joined
+02-19-2016:16-38-12	e2f29f04-8e6b-4a58-8fda-f13ea888d39b	User 1	Selected restaurant:	Kappo Naminami
+02-19-2016:16-38-28	e2f29f04-8e6b-4a58-8fda-f13ea888d39b	User 0	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:16-38-32	e2f29f04-8e6b-4a58-8fda-f13ea888d39b	User 1	Selected restaurant:	Amarin Thai Cuisine
+02-19-2016:16-38-32	---
+02-19-2016:16-38-33	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Indian, Thai, French, Japanese, Vietnamese
+User 1 preferences: 0-10	Indian, Thai, French, Japanese, Vietnamese
+
+Amarin Thai Cuisine	Thai	20-30
+Xanh Restaurant	Vietnamese	10-20
+Kappo Naminami	Japanese	30-60
+Niji Sushi	Japanese	10-20
+Chez TJ	French	30-60
+Shabuway	Japanese	30-60
+Ryowa Noodle House	Japanese	20-30
+Shiva’s Indian Restaurant	Indian	0-10
+Sakoon	Indian	30-60
+Rumble Fish	Japanese	30-60
+
+Final selection: Amarin Thai CuisineUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

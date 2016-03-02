@@ -1,0 +1,29 @@
+02-24-2016:19-40-55	64298071-9ee9-49ae-99a6-557b8e320628	User 1	joined
+02-24-2016:19-40-55	64298071-9ee9-49ae-99a6-557b8e320628	User 1 has user ID f2f592f8736f4de8bff4aee066831e45
+02-24-2016:19-40-59	64298071-9ee9-49ae-99a6-557b8e320628	User 0	joined
+02-24-2016:19-40-59	64298071-9ee9-49ae-99a6-557b8e320628	User 0 has user ID f4cf22eeaf504f329f0c8d9894df04d8
+02-24-2016:19-41-02	64298071-9ee9-49ae-99a6-557b8e320628	User 1	Selected restaurant 2:	Shell Shock
+02-24-2016:19-41-27	64298071-9ee9-49ae-99a6-557b8e320628	User 0	How about Shezan? I like Indian.
+02-24-2016:19-41-30	64298071-9ee9-49ae-99a6-557b8e320628	User 0	Selected restaurant 0:	Shezan
+02-24-2016:19-41-38	64298071-9ee9-49ae-99a6-557b8e320628	User 1	Selected restaurant 0:	Shezan
+02-24-2016:19-41-39	---
+02-24-2016:19-42-39	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Indian, Thai, French, SeaFood, Chinese
+User 1 preferences: 10-20	SeaFood, Thai, French, Chinese, Indian
+
+Shezan	Indian	10-20
+Bangkok Spoon	Thai	30-60
+Shell Shock	SeaFood	10-20
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+Sakoon	Indian	30-60
+Amarin Thai Cuisine	Thai	20-30
+Queen House	Chinese	0-10
+Chez TJ	French	30-60
+Kirin	Chinese	10-20
+
+Final selection: ShezanUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

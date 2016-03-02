@@ -1,0 +1,29 @@
+02-19-2016:16-14-32	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 0	joined
+02-19-2016:16-14-33	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 1	joined
+02-19-2016:16-14-38	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 0	Hey buddy, feeling some Italian?
+02-19-2016:16-14-44	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 1	Sure 789
+02-19-2016:16-14-51	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 1	RDG?
+02-19-2016:16-14-54	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-15-00	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 0	Lets go for it.
+02-19-2016:16-15-03	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-15-03	---
+02-19-2016:16-15-03	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, Mediterranean, Chinese, Thai, Japanese
+User 1 preferences: 0-10	Italian, Thai, Mediterranean, Japanese, Chinese
+
+Masa Sushi	Japanese	0-10
+Ristorante Don Giovanni	Italian	0-10
+Rumble Fish	Japanese	30-60
+Doppio Zero	Italian	30-60
+Kappo Naminami	Japanese	30-60
+Kirin	Chinese	10-20
+Shabuway	Japanese	30-60
+Sushitomi	Japanese	20-30
+Ehpesus	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

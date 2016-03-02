@@ -1,0 +1,28 @@
+02-19-2016:15-39-10	cb6c2818-5160-4627-98c6-519e95918fe9	User 0	joined
+02-19-2016:15-39-13	cb6c2818-5160-4627-98c6-519e95918fe9	User 1	joined
+02-19-2016:15-39-23	cb6c2818-5160-4627-98c6-519e95918fe9	User 1	Korean or Italian expensive range
+02-19-2016:15-39-23	cb6c2818-5160-4627-98c6-519e95918fe9	User 0	Ristorante Don Giovanni?
+02-19-2016:15-39-29	cb6c2818-5160-4627-98c6-519e95918fe9	User 1	Sounds great 
+02-19-2016:15-39-33	cb6c2818-5160-4627-98c6-519e95918fe9	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:15-39-33	cb6c2818-5160-4627-98c6-519e95918fe9	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:15-39-33	---
+02-19-2016:15-39-33	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, American, SeaFood, Korean, French
+User 1 preferences: 30-60	Korean, Italian, American, SeaFood, French
+
+Scratch	American	0-10
+Shell Shock	SeaFood	10-20
+Bierhaus	American	0-10
+Chez TJ	French	30-60
+The Crepevine	American	30-60
+Ristorante Don Giovanni	Italian	0-10
+Doppio Zero	Italian	30-60
+Totoro	Korean	20-30
+Steins Beer Garden	American	20-30
+Vaso Azzurro	Italian	20-30
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

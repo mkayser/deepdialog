@@ -1,0 +1,36 @@
+02-24-2016:20-23-43	f70e9f90-db37-4b02-85d9-43c941b49c08	User 1	joined
+02-24-2016:20-23-43	f70e9f90-db37-4b02-85d9-43c941b49c08	User 1 has user ID 68d186a75e564e918628c42e68787cfa
+02-24-2016:20-23-44	f70e9f90-db37-4b02-85d9-43c941b49c08	User 0	joined
+02-24-2016:20-23-44	f70e9f90-db37-4b02-85d9-43c941b49c08	User 0 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-24-02	f70e9f90-db37-4b02-85d9-43c941b49c08	User 1	hey, wanna go for thai?
+02-24-2016:20-24-09	f70e9f90-db37-4b02-85d9-43c941b49c08	User 0	ummm
+02-24-2016:20-24-13	f70e9f90-db37-4b02-85d9-43c941b49c08	User 1	Amarin Thai Cuisine?  I'll treat
+02-24-2016:20-24-14	f70e9f90-db37-4b02-85d9-43c941b49c08	User 0	maybe seagood?
+02-24-2016:20-24-16	f70e9f90-db37-4b02-85d9-43c941b49c08	User 0	seafood too
+02-24-2016:20-24-21	f70e9f90-db37-4b02-85d9-43c941b49c08	User 1	i'm allergic :-/
+02-24-2016:20-24-28	f70e9f90-db37-4b02-85d9-43c941b49c08	User 0	pizza?
+02-24-2016:20-24-36	f70e9f90-db37-4b02-85d9-43c941b49c08	User 1	pizza could work
+02-24-2016:20-24-41	f70e9f90-db37-4b02-85d9-43c941b49c08	User 0	Selected restaurant 8:	Blue Line Pizza
+02-24-2016:20-24-44	f70e9f90-db37-4b02-85d9-43c941b49c08	User 0	nice
+02-24-2016:20-24-46	f70e9f90-db37-4b02-85d9-43c941b49c08	User 1	Selected restaurant 8:	Blue Line Pizza
+02-24-2016:20-24-46	---
+02-24-2016:20-24-46	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Spanish, Pizza, SeaFood, Thai, Chinese
+User 1 preferences: 20-30	Thai, Chinese, Pizza, Spanish, SeaFood
+
+Queen House	Chinese	0-10
+Fu Lam Mum	Chinese	30-60
+Cascal	Spanish	30-60
+Hong Kong Bistro	Chinese	20-30
+New Mongolian BBQ	Chinese	30-60
+Amici's East Coast Pizzeria	Pizza	30-60
+Drunken Lobster	SeaFood	10-20
+Amarin Thai Cuisine	Thai	20-30
+Blue Line Pizza	Pizza	10-20
+Hunan Chili	Chinese	30-60
+
+Final selection: Blue Line PizzaUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

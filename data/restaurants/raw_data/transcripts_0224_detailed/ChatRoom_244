@@ -1,0 +1,29 @@
+02-24-2016:19-46-54	d9e1bc88-2be5-406e-88a7-5651485d9fd7	User 0	joined
+02-24-2016:19-46-54	d9e1bc88-2be5-406e-88a7-5651485d9fd7	User 0 has user ID 1393e15d6fde46cb9f4502aa09ae8331
+02-24-2016:19-46-55	d9e1bc88-2be5-406e-88a7-5651485d9fd7	User 1	joined
+02-24-2016:19-46-55	d9e1bc88-2be5-406e-88a7-5651485d9fd7	User 1 has user ID 1185fb427e3d49c29548e288ddc13446
+02-24-2016:19-47-07	d9e1bc88-2be5-406e-88a7-5651485d9fd7	User 1	The Crepevine?
+02-24-2016:19-47-08	d9e1bc88-2be5-406e-88a7-5651485d9fd7	User 0	What do you want?
+02-24-2016:19-47-10	d9e1bc88-2be5-406e-88a7-5651485d9fd7	User 1	Selected restaurant 2:	The Crepevine
+02-24-2016:19-47-13	d9e1bc88-2be5-406e-88a7-5651485d9fd7	User 0	Selected restaurant 2:	The Crepevine
+02-24-2016:19-47-13	---
+02-24-2016:19-47-13	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, American, Korean, Italian, Thai
+User 1 preferences: 20-30	American, Thai, Mediterranean, Korean, Italian
+
+Ginseng	Korean	10-20
+Amarin Thai Cuisine	Thai	20-30
+The Crepevine	American	30-60
+Bierhaus	American	0-10
+Morocco's	Mediterranean	10-20
+Vaso Azzurro	Italian	20-30
+Totoro	Korean	20-30
+Ristorante Don Giovanni	Italian	0-10
+Mediterranean Grill House	Mediterranean	0-10
+Bangkok Spoon	Thai	30-60
+
+Final selection: The CrepevineUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

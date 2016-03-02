@@ -1,0 +1,31 @@
+02-19-2016:15-29-15	d96d0fdc-a264-42fc-9919-7a19c990a905	User 0	joined
+02-19-2016:15-29-16	d96d0fdc-a264-42fc-9919-7a19c990a905	User 1	joined
+02-19-2016:15-29-31	d96d0fdc-a264-42fc-9919-7a19c990a905	User 0	Queen House is the only restaurant I can afford
+02-19-2016:15-29-32	---
+02-19-2016:15-29-41	d96d0fdc-a264-42fc-9919-7a19c990a905	User 1	joined
+02-19-2016:15-30-12	d96d0fdc-a264-42fc-9919-7a19c990a905	User 0	Selected restaurant:	Queen House
+02-19-2016:15-30-33	d96d0fdc-a264-42fc-9919-7a19c990a905	User 1	We should go to New Mongolian BBQ.
+02-19-2016:15-30-53	d96d0fdc-a264-42fc-9919-7a19c990a905	User 0	That's way too expensive for my price range
+02-19-2016:15-31-08	d96d0fdc-a264-42fc-9919-7a19c990a905	User 1	ok, let's go to queen house then
+02-19-2016:15-31-13	d96d0fdc-a264-42fc-9919-7a19c990a905	User 1	Selected restaurant:	Queen House
+02-19-2016:15-31-13	---
+02-19-2016:15-31-13	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, SeaFood, Spanish, Pizza, Chinese
+User 1 preferences: 0-10	SeaFood, Spanish, Pizza, Korean, Chinese
+
+Hunan Chili	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+New Mongolian BBQ	Chinese	30-60
+Ginseng	Korean	10-20
+Blue Line Pizza	Pizza	10-20
+Queen House	Chinese	0-10
+Drunken Lobster	SeaFood	10-20
+Shell Shock	SeaFood	10-20
+Kirin	Chinese	10-20
+Totoro	Korean	20-30
+
+Final selection: Queen HouseUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

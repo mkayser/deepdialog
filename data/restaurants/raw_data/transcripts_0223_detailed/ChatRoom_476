@@ -1,0 +1,32 @@
+02-19-2016:16-33-51	298f7635-0a1e-46e1-ad0c-daf3d8aa7240	User 1	joined
+02-19-2016:16-33-52	298f7635-0a1e-46e1-ad0c-daf3d8aa7240	User 0	joined
+02-19-2016:16-34-00	298f7635-0a1e-46e1-ad0c-daf3d8aa7240	User 0	Hey! 
+02-19-2016:16-34-03	298f7635-0a1e-46e1-ad0c-daf3d8aa7240	User 1	Selected restaurant:	Drunken Lobster
+02-19-2016:16-34-07	298f7635-0a1e-46e1-ad0c-daf3d8aa7240	User 1	sup
+02-19-2016:16-34-16	298f7635-0a1e-46e1-ad0c-daf3d8aa7240	User 0	Im' allergic. 
+02-19-2016:16-34-19	298f7635-0a1e-46e1-ad0c-daf3d8aa7240	User 1	oh
+02-19-2016:16-34-22	298f7635-0a1e-46e1-ad0c-daf3d8aa7240	User 1	so what hen you like
+02-19-2016:16-34-30	298f7635-0a1e-46e1-ad0c-daf3d8aa7240	User 0	How about Ginseg?
+02-19-2016:16-34-37	298f7635-0a1e-46e1-ad0c-daf3d8aa7240	User 1	Selected restaurant:	Ginseng
+02-19-2016:16-34-44	298f7635-0a1e-46e1-ad0c-daf3d8aa7240	User 0	Selected restaurant:	Ginseng
+02-19-2016:16-34-45	---
+02-19-2016:16-34-45	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Korean, Italian, Pizza, SeaFood, Thai
+User 1 preferences: 0-10	Italian, Korean, SeaFood, Pizza, Thai
+
+Bangkok Spoon	Thai	30-60
+Vaso Azzurro	Italian	20-30
+Totoro	Korean	20-30
+Shell Shock	SeaFood	10-20
+Drunken Lobster	SeaFood	10-20
+Amarin Thai Cuisine	Thai	20-30
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Doppio Zero	Italian	30-60
+Ginseng	Korean	10-20
+
+Final selection: GinsengUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

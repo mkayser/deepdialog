@@ -1,0 +1,28 @@
+02-19-2016:15-49-49	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 1	joined
+02-19-2016:15-49-49	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 0	joined
+02-19-2016:15-49-59	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 1	Hello
+02-19-2016:15-50-05	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 1	What do you think about subway
+02-19-2016:15-50-17	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 0	sounds good
+02-19-2016:15-50-22	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 0	Selected restaurant:	Subway
+02-19-2016:15-50-26	d4ab9ecc-5e38-4d64-9ff1-f38743d65e7c	User 1	Selected restaurant:	Subway
+02-19-2016:15-50-27	---
+02-19-2016:15-50-27	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Thai, American, Mexican, Korean
+User 1 preferences: 0-10	Thai, Deli, Korean, American, Mexican
+
+Taqueria Los Charros	Mexican	0-10
+Bierhaus	American	0-10
+Subway	Deli	10-20
+Scratch	American	0-10
+Posh Bagel	Deli	10-20
+Totoro	Korean	20-30
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Fiesta Del Mar Too	Mexican	10-20
+Agave	Mexican	20-30
+The Crepevine	American	30-60
+
+Final selection: SubwayUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

@@ -1,0 +1,30 @@
+02-19-2016:16-45-15	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 0	joined
+02-19-2016:16-45-18	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 1	joined
+02-19-2016:16-45-18	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 0	hi yes pick any
+02-19-2016:16-45-33	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 0	tick tock
+02-19-2016:16-45-34	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 0	on the clock
+02-19-2016:16-45-35	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 1	chez tj
+02-19-2016:16-45-35	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 0	come on
+02-19-2016:16-45-38	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 0	Selected restaurant:	Chez TJ
+02-19-2016:16-45-39	a1fcdc99-2507-4966-9e81-36cd87531dbd	User 1	Selected restaurant:	Chez TJ
+02-19-2016:16-45-39	---
+02-19-2016:16-46-39	---
+
+Chat Information:
+
+User 0 preferences: 0-10	French, Italian, Deli, Spanish, Mexican
+User 1 preferences: 0-10	French, Italian, Mexican, Deli, Spanish
+
+Vaso Azzurro	Italian	20-30
+Agave	Mexican	20-30
+Posh Bagel	Deli	10-20
+Ristorante Don Giovanni	Italian	0-10
+Fiesta Del Mar Too	Mexican	10-20
+Chez TJ	French	30-60
+Taqueria Los Charros	Mexican	0-10
+Subway	Deli	10-20
+Doppio Zero	Italian	30-60
+Casa Lupe Mexican Restaurant	Mexican	30-60
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

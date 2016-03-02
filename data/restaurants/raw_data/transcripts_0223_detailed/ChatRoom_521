@@ -1,0 +1,27 @@
+02-19-2016:16-38-01	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 1	joined
+02-19-2016:16-38-01	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 0	joined
+02-19-2016:16-38-06	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 1	hi
+02-19-2016:16-38-07	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 1	pick one
+02-19-2016:16-38-08	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 1	any
+02-19-2016:16-38-21	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 0	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-38-24	7fa6dcdf-53ca-4df4-8eaf-953ad7a24f8b	User 1	Selected restaurant:	Ristorante Don Giovanni
+02-19-2016:16-38-24	---
+
+Chat Information:
+
+User 0 preferences: 10-20	French, Italian, Spanish, American, Japanese
+User 1 preferences: 0-10	French, American, Japanese, Spanish, Italian
+
+Bierhaus	American	0-10
+Ristorante Don Giovanni	Italian	0-10
+Shabuway	Japanese	30-60
+Vaso Azzurro	Italian	20-30
+Ryowa Noodle House	Japanese	20-30
+Doppio Zero	Italian	30-60
+Masa Sushi	Japanese	0-10
+Sushitomi	Japanese	20-30
+Yakko	Japanese	0-10
+Bushido	Japanese	10-20
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

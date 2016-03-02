@@ -1,0 +1,28 @@
+02-19-2016:16-27-58	13ecfbd4-a83c-4ac4-a97f-462214364349	User 0	joined
+02-19-2016:16-27-58	13ecfbd4-a83c-4ac4-a97f-462214364349	User 1	joined
+02-19-2016:16-28-03	13ecfbd4-a83c-4ac4-a97f-462214364349	User 0	Hi lets do kirin
+02-19-2016:16-28-05	13ecfbd4-a83c-4ac4-a97f-462214364349	User 1	hi
+02-19-2016:16-28-06	13ecfbd4-a83c-4ac4-a97f-462214364349	User 1	okay
+02-19-2016:16-28-08	13ecfbd4-a83c-4ac4-a97f-462214364349	User 0	Selected restaurant:	Kirin
+02-19-2016:16-28-12	13ecfbd4-a83c-4ac4-a97f-462214364349	User 1	Selected restaurant:	Kirin
+02-19-2016:16-28-13	---
+02-19-2016:16-28-13	---
+
+Chat Information:
+
+User 0 preferences: 10-20	Chinese, Pizza, Spanish, Italian, SeaFood
+User 1 preferences: 20-30	Pizza, Italian, SeaFood, Spanish, Chinese
+
+Hong Kong Bistro	Chinese	20-30
+Hunan Chili	Chinese	30-60
+Vaso Azzurro	Italian	20-30
+Blue Line Pizza	Pizza	10-20
+Amici's East Coast Pizzeria	Pizza	30-60
+Kirin	Chinese	10-20
+Shell Shock	SeaFood	10-20
+New Mongolian BBQ	Chinese	30-60
+Ristorante Don Giovanni	Italian	0-10
+Drunken Lobster	SeaFood	10-20
+
+Final selection: KirinUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

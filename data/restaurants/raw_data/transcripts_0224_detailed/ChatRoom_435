@@ -1,0 +1,31 @@
+02-24-2016:19-52-34	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 0	joined
+02-24-2016:19-52-34	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 0 has user ID 1e7d23c916b7426aa7356a7313658cdf
+02-24-2016:19-52-36	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	joined
+02-24-2016:19-52-36	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1 has user ID afb02269ff784889a1d460ba0f47bd15
+02-24-2016:19-52-47	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	d00d
+02-24-2016:19-52-51	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	mediterranean
+02-24-2016:19-52-52	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	orens
+02-24-2016:19-52-54	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	lets do it
+02-24-2016:19-52-57	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 1	Selected restaurant 0:	Oren's Hummus
+02-24-2016:19-52-57	c93ce515-2de6-4f49-8a6b-89f2d1edd4d2	User 0	Selected restaurant 0:	Oren's Hummus
+02-24-2016:19-52-58	---
+02-24-2016:19-52-58	---
+
+Chat Information:
+
+User 0 preferences: 10-20	French, Deli, Italian, SeaFood, Mediterranean
+User 1 preferences: 10-20	Mediterranean, Deli, SeaFood, French, Italian
+
+Oren's Hummus	Mediterranean	10-20
+Posh Bagel	Deli	10-20
+Drunken Lobster	SeaFood	10-20
+Shell Shock	SeaFood	10-20
+Subway	Deli	10-20
+Doppio Zero	Italian	30-60
+Ehpesus	Mediterranean	0-10
+Vaso Azzurro	Italian	20-30
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+
+Final selection: Oren's HummusUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).

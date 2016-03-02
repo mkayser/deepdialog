@@ -1,0 +1,30 @@
+02-19-2016:16-55-14	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	joined
+02-19-2016:16-55-16	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1	joined
+02-19-2016:16-55-26	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	Bagels?
+02-19-2016:16-55-37	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1	How about indian
+02-19-2016:16-55-50	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	sounds perfect which one
+02-19-2016:16-55-54	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1	Sakoon
+02-19-2016:16-55-59	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	done
+02-19-2016:16-56-05	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 0	Selected restaurant:	Sakoon
+02-19-2016:16-56-05	a227dc4f-bb2f-4379-b803-69c50ddcf231	User 1	Selected restaurant:	Sakoon
+02-19-2016:16-56-05	---
+02-19-2016:16-56-05	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Deli, Mediterranean, Indian, Vietnamese, Spanish
+User 1 preferences: 30-60	Indian, Mediterranean, Vietnamese, Deli, Spanish
+
+Asian Box	Vietnamese	30-60
+Subway	Deli	10-20
+Xanh Restaurant	Vietnamese	10-20
+Park Ballachi	Indian	0-10
+Sakoon	Indian	30-60
+Pho To Chau	Vietnamese	20-30
+Ehpesus	Mediterranean	0-10
+Shezan	Indian	10-20
+Posh Bagel	Deli	10-20
+Pho Hoa	Vietnamese	30-60
+
+Final selection: SakoonUser 0 did not select their optimal choice.
+User 1 selected their optimal choice (or something close).

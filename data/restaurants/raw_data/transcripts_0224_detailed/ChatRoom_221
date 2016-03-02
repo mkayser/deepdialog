@@ -1,0 +1,36 @@
+02-24-2016:19-46-05	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	joined
+02-24-2016:19-46-05	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1 has user ID 447f9730cbf242a3b656157a7b89543a
+02-24-2016:19-46-05	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	joined
+02-24-2016:19-46-05	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0 has user ID 1e64b000bb644aa396f0bfdef8dc61c0
+02-24-2016:19-46-09	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	Selected restaurant 9:	Bangkok Spoon
+02-24-2016:19-46-16	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	on me beautiful
+02-24-2016:19-46-21	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	bierhaus
+02-24-2016:19-46-32	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	too cheap
+02-24-2016:19-46-46	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	too noisy
+02-24-2016:19-46-56	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	i dont like thai. maybe french?
+02-24-2016:19-46-58	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	you may die from food poisining
+02-24-2016:19-47-09	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	chez tj
+02-24-2016:19-47-11	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 0	Selected restaurant 7:	Chez TJ
+02-24-2016:19-47-13	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	kk
+02-24-2016:19-47-15	c214ae92-38ef-4d89-8dae-d5b865af9c04	User 1	Selected restaurant 7:	Chez TJ
+02-24-2016:19-47-16	---
+02-24-2016:19-47-16	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Thai, Vietnamese, French, Korean, American
+User 1 preferences: 30-60	American, French, Korean, Vietnamese, Thai
+
+Pho To Chau	Vietnamese	20-30
+Scratch	American	0-10
+Bierhaus	American	0-10
+Xanh Restaurant	Vietnamese	10-20
+Amarin Thai Cuisine	Thai	20-30
+Totoro	Korean	20-30
+Asian Box	Vietnamese	30-60
+Chez TJ	French	30-60
+Steins Beer Garden	American	20-30
+Bangkok Spoon	Thai	30-60
+
+Final selection: Chez TJUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

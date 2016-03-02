@@ -1,0 +1,28 @@
+02-24-2016:19-56-58	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1	joined
+02-24-2016:19-56-58	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1 has user ID 1e7d23c916b7426aa7356a7313658cdf
+02-24-2016:19-56-59	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 0	joined
+02-24-2016:19-56-59	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 0 has user ID 636466e4c18f4aa0ab4ae2d4c678f8b3
+02-24-2016:19-57-06	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1	Selected restaurant 9:	Hong Kong Bistro
+02-24-2016:19-57-06	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 0	Selected restaurant 0:	Ristorante Don Giovanni
+02-24-2016:19-57-10	e91a050f-7bbc-4779-be4e-46f8c0ac0cd0	User 1	Selected restaurant 0:	Ristorante Don Giovanni
+02-24-2016:19-57-10	---
+02-24-2016:19-57-11	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Italian, Spanish, Mediterranean, Thai, Chinese
+User 1 preferences: 20-30	Chinese, Spanish, Thai, Italian, Mediterranean
+
+Ristorante Don Giovanni	Italian	0-10
+Morocco's	Mediterranean	10-20
+Doppio Zero	Italian	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Amarin Thai Cuisine	Thai	20-30
+Kirin	Chinese	10-20
+Cascal	Spanish	30-60
+Oren's Hummus	Mediterranean	10-20
+Ehpesus	Mediterranean	0-10
+Hong Kong Bistro	Chinese	20-30
+
+Final selection: Ristorante Don GiovanniUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

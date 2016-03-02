@@ -1,0 +1,27 @@
+02-24-2016:19-59-41	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1	joined
+02-24-2016:19-59-41	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1 has user ID 6146510ec3fb49a1badc09978fbcc832
+02-24-2016:19-59-42	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	joined
+02-24-2016:19-59-42	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0 has user ID 56a965da39604ed4b21a394e5ff4f573
+02-24-2016:19-59-48	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 0	Selected restaurant 0:	Hunan Chili
+02-24-2016:19-59-55	f53532fc-e229-45cc-9ee1-aafc63e2b6c7	User 1	Selected restaurant 0:	Hunan Chili
+02-24-2016:19-59-55	---
+02-24-2016:20-00-55	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Japanese, Korean, Thai, Mexican, Chinese
+User 1 preferences: 10-20	Japanese, Mexican, Korean, Chinese, Thai
+
+Hunan Chili	Chinese	30-60
+Totoro	Korean	20-30
+Amarin Thai Cuisine	Thai	20-30
+Queen House	Chinese	0-10
+Maruichi Noodle House	Japanese	0-10
+Kirin	Chinese	10-20
+Yakko	Japanese	0-10
+Bangkok Spoon	Thai	30-60
+Kappo Naminami	Japanese	30-60
+Niji Sushi	Japanese	10-20
+
+Final selection: Hunan ChiliUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

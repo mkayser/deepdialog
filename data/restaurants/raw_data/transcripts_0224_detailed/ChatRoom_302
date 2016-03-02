@@ -1,0 +1,27 @@
+02-24-2016:19-48-50	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 0	joined
+02-24-2016:19-48-50	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 0 has user ID 67f9cbf4bff142379a97de757ae1e1f0
+02-24-2016:19-48-54	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	joined
+02-24-2016:19-48-54	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1 has user ID 78de429b6e684f988804a99bd73bb576
+02-24-2016:19-48-56	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 1	Selected restaurant 0:	Oren's Hummus
+02-24-2016:19-49-11	1bfa0c11-ce7c-4f19-92ef-e3466b642de4	User 0	Selected restaurant 0:	Oren's Hummus
+02-24-2016:19-49-11	---
+02-24-2016:19-49-11	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Mediterranean, Chinese, Indian, Spanish
+User 1 preferences: 0-10	Indian, Chinese, Spanish, Mexican, Mediterranean
+
+Oren's Hummus	Mediterranean	10-20
+Kirin	Chinese	10-20
+Hong Kong Bistro	Chinese	20-30
+Cascal	Spanish	30-60
+Fu Lam Mum	Chinese	30-60
+Ehpesus	Mediterranean	0-10
+Queen House	Chinese	0-10
+Hunan Chili	Chinese	30-60
+Mediterranean Grill House	Mediterranean	0-10
+Café Baklava	Mediterranean	10-20
+
+Final selection: Oren's HummusUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

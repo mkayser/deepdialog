@@ -1,0 +1,28 @@
+02-24-2016:20-03-08	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 0	joined
+02-24-2016:20-03-08	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 0 has user ID ac6ec300bec74d6ab9f72c4aac014060
+02-24-2016:20-03-09	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 1	joined
+02-24-2016:20-03-09	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 1 has user ID fdd83aaef6154a18a6ebfc85b44962db
+02-24-2016:20-03-10	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 0	Selected restaurant 4:	Kappo Naminami
+02-24-2016:20-03-12	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 1	Selected restaurant 1:	Ristorante Don Giovanni
+02-24-2016:20-03-15	ce457cd5-6dda-497b-aea8-b367a4e6c8d6	User 1	Selected restaurant 4:	Kappo Naminami
+02-24-2016:20-03-15	---
+02-24-2016:20-03-15	---
+
+Chat Information:
+
+User 0 preferences: 20-30	Italian, Mediterranean, Chinese, Thai, Japanese
+User 1 preferences: 0-10	Italian, Thai, Mediterranean, Japanese, Chinese
+
+Masa Sushi	Japanese	0-10
+Ristorante Don Giovanni	Italian	0-10
+Rumble Fish	Japanese	30-60
+Doppio Zero	Italian	30-60
+Kappo Naminami	Japanese	30-60
+Kirin	Chinese	10-20
+Shabuway	Japanese	30-60
+Sushitomi	Japanese	20-30
+Ehpesus	Mediterranean	0-10
+Morocco's	Mediterranean	10-20
+
+Final selection: Kappo NaminamiUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

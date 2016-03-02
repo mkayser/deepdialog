@@ -1,0 +1,36 @@
+02-24-2016:19-47-24	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 1	joined
+02-24-2016:19-47-24	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 1 has user ID 31395e8a44434644a8be53817cae0a98
+02-24-2016:19-47-27	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 0	joined
+02-24-2016:19-47-27	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 0 has user ID 0398c4f9eab24ba2b94f5ab59c5301b9
+02-24-2016:19-47-34	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 0	Selected restaurant 7:	Shalala
+02-24-2016:19-48-01	---
+02-24-2016:19-48-01	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 1	joined
+02-24-2016:19-48-01	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 1 has user ID 31395e8a44434644a8be53817cae0a98
+02-24-2016:19-48-03	---
+02-24-2016:19-48-06	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 1	joined
+02-24-2016:19-48-06	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 1 has user ID 31395e8a44434644a8be53817cae0a98
+02-24-2016:19-48-15	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 1	french food?
+02-24-2016:19-48-36	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 0	Why not vietnamese?
+02-24-2016:19-48-44	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 0	Selected restaurant 9:	Xanh Restaurant
+02-24-2016:19-48-52	b9d790a7-660a-48c2-b2fc-002e01f8136e	User 1	Selected restaurant 9:	Xanh Restaurant
+02-24-2016:19-48-52	---
+02-24-2016:19-48-52	---
+
+Chat Information:
+
+User 0 preferences: 30-60	Japanese, Vietnamese, French, Deli, Korean
+User 1 preferences: 20-30	French, Deli, Korean, Japanese, Vietnamese
+
+Kappo Naminami	Japanese	30-60
+Pho To Chau	Vietnamese	20-30
+Pho Hoa	Vietnamese	30-60
+Bushido	Japanese	10-20
+Ginseng	Korean	10-20
+Maruichi Noodle House	Japanese	0-10
+Shabuway	Japanese	30-60
+Shalala	Japanese	10-20
+Chez TJ	French	30-60
+Xanh Restaurant	Vietnamese	10-20
+
+Final selection: Xanh RestaurantUser 0 did not select their optimal choice.
+User 1 did not select their optimal choice.

@@ -1,0 +1,27 @@
+02-19-2016:16-46-32	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 0	joined
+02-19-2016:16-46-32	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 1	joined
+02-19-2016:16-46-41	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 0	Taqueria Los Charros
+02-19-2016:16-46-46	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 1	ok
+02-19-2016:16-46-50	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 0	Selected restaurant:	Taqueria Los Charros
+02-19-2016:16-46-51	f17e9624-1cb8-403c-9ef9-3a47f1fa4676	User 1	Selected restaurant:	Taqueria Los Charros
+02-19-2016:16-46-51	---
+02-19-2016:16-46-52	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mexican, Indian, Pizza, Mediterranean, Thai
+User 1 preferences: 30-60	Mexican, Indian, Pizza, Mediterranean, Thai
+
+Sakoon	Indian	30-60
+Taqueria Los Charros	Mexican	0-10
+Shezan	Indian	10-20
+Blue Line Pizza	Pizza	10-20
+Ehpesus	Mediterranean	0-10
+Casa Lupe Mexican Restaurant	Mexican	30-60
+Oren's Hummus	Mediterranean	10-20
+Morocco's	Mediterranean	10-20
+Fiesta Del Mar Too	Mexican	10-20
+Agave	Mexican	20-30
+
+Final selection: Taqueria Los CharrosUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

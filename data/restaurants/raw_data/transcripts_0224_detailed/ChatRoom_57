@@ -1,0 +1,30 @@
+02-24-2016:19-38-15	266162a7-0c08-4fc3-b46a-50c2f05da264	User 0	joined
+02-24-2016:19-38-15	266162a7-0c08-4fc3-b46a-50c2f05da264	User 0 has user ID 933ebd7eee594561867719cc427ab149
+02-24-2016:19-38-16	266162a7-0c08-4fc3-b46a-50c2f05da264	User 1	joined
+02-24-2016:19-38-16	266162a7-0c08-4fc3-b46a-50c2f05da264	User 1 has user ID 061096d5d52e467e96e5436783382f77
+02-24-2016:19-38-23	266162a7-0c08-4fc3-b46a-50c2f05da264	User 1	Selected restaurant 1:	Scratch
+02-24-2016:19-38-31	266162a7-0c08-4fc3-b46a-50c2f05da264	User 0	Hi mediteranian?
+02-24-2016:19-38-39	266162a7-0c08-4fc3-b46a-50c2f05da264	User 1	k
+02-24-2016:19-38-44	266162a7-0c08-4fc3-b46a-50c2f05da264	User 1	Selected restaurant 7:	Morocco's
+02-24-2016:19-38-50	266162a7-0c08-4fc3-b46a-50c2f05da264	User 0	Selected restaurant 7:	Morocco's
+02-24-2016:19-38-50	---
+02-24-2016:19-38-51	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Mediterranean, French, Thai, American, Pizza
+User 1 preferences: 30-60	American, Pizza, Mediterranean, Thai, French
+
+Chez TJ	French	30-60
+Scratch	American	0-10
+Blue Line Pizza	Pizza	10-20
+Bangkok Spoon	Thai	30-60
+Steins Beer Garden	American	20-30
+Café Baklava	Mediterranean	10-20
+The Crepevine	American	30-60
+Morocco's	Mediterranean	10-20
+Amarin Thai Cuisine	Thai	20-30
+Bierhaus	American	0-10
+
+Final selection: Morocco'sUser 0 selected their optimal choice (or something close).
+User 1 did not select their optimal choice.

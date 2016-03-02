@@ -1,0 +1,29 @@
+02-19-2016:15-39-13	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	joined
+02-19-2016:15-39-14	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0	joined
+02-19-2016:15-39-31	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	Hi, I'm on a tight budget. Would love to go to Queen House with you.
+02-19-2016:15-39-43	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0	Maybe.
+02-19-2016:15-39-52	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	Where would you prefer?
+02-19-2016:15-40-07	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0	On second thought, that's a great suggestion.
+02-19-2016:15-40-11	edf7af36-1901-495c-a94a-bbbb26e5740a	User 0	Selected restaurant:	Queen House
+02-19-2016:15-40-15	edf7af36-1901-495c-a94a-bbbb26e5740a	User 1	Selected restaurant:	Queen House
+02-19-2016:15-40-15	---
+02-19-2016:15-40-15	---
+
+Chat Information:
+
+User 0 preferences: 0-10	Deli, Chinese, Mediterranean, American, Indian
+User 1 preferences: 0-10	Chinese, American, Deli, Indian, Mediterranean
+
+Park Ballachi	Indian	0-10
+Bierhaus	American	0-10
+Shiva’s Indian Restaurant	Indian	0-10
+Scratch	American	0-10
+Shezan	Indian	10-20
+Hunan Chili	Chinese	30-60
+Queen House	Chinese	0-10
+Sakoon	Indian	30-60
+New Mongolian BBQ	Chinese	30-60
+Fu Lam Mum	Chinese	30-60
+
+Final selection: Queen HouseUser 0 selected their optimal choice (or something close).
+User 1 selected their optimal choice (or something close).
